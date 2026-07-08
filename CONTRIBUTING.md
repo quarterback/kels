@@ -1,4 +1,4 @@
-# Contributing to Nelõ kēļ
+# Contributing to Nelô kēļ
 
 All contribution rules live in `college/kels-kolegi-charter.md`. Read it whole before coining a single word.
 

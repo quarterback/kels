@@ -1,4 +1,4 @@
-# Metrolect Nelõxi — *Sadāmkēļ*
+# Metrolect Nelôxi — *Sadāmkēļ*
 
 The everyday language of the port–capital–border metroplex. An overlay on the
 standard: apply these transforms to any standard form to get the metrolect form.
@@ -8,9 +8,9 @@ standard itself.
 
 ## Correspondence rules (casual/harbor end → standard end)
 
-1. **Final unstressed -õ drops** after a legal final consonant: *livrõ* → *livr*,
-   *kōlõr* stays (already consonant-final), *nurõ* → *nur*. (At the official end,
-   the full -õ is restored.)
+1. **Final unstressed -ô drops** after a legal final consonant: *livrô* → *livr*,
+   *kōlôr* stays (already consonant-final), *nurô* → *nur*. (At the official end,
+   the full -ô is restored.)
 2. **Geminate l·l → l**: *famīl·la* → *famīl* "family". This is the headline case
    the "too-modern loan" critique pointed at — the metrolect clips it, the standard
    keeps it full.
@@ -19,12 +19,12 @@ standard itself.
 4. **Loan synonym preferred** where canon offers a native/late pair: metrolect
    reaches for the Germanic/Scandinavian member (*strānd* over *rānd*, *fluks* for
    emphatic "now").
-5. **nū-ladder in full colloquial use**: *nūnū, nūlõ, nūlt* and *fluks* are
+5. **nū-ladder in full colloquial use**: *nūnū, nūlô, nūlt* and *fluks* are
    ordinary here; inland speakers use them rarely.
 
-## Border edge: Slavic coloring (strongest around Marīsõ)
+## Border edge: Slavic coloring (strongest around Marīsô)
 
-At the Marīsõ end of the metroplex, `slav`-stratum lexemes surface and a light
+At the Marīsô end of the metroplex, `slav`-stratum lexemes surface and a light
 phonological coloring applies in speech (not spelling): palatalized realizations
 of *n, l* before front vowels, and *x* [ʃ] where the standard has *s* in a few
 border words. Standard spelling is retained in writing; the coloring is a spoken
@@ -32,6 +32,6 @@ accent. Slavic-stratum vocabulary is coined per charter §30.
 
 ## Sample (standard → metrolect casual)
 
-- Std *Famīl·la um kōtõl.* → Metro *Famīl um kōtõl.* "The family is home."
-- Std *Mä lugē livrõn.* → Metro *Mä lug livr.* "I read the book." (casual clip)
+- Std *Famīl·la um kōtôl.* → Metro *Famīl um kōtôl.* "The family is home."
+- Std *Mä lugē livrôn.* → Metro *Mä lug livr.* "I read the book." (casual clip)
 - Std *Semprē tulē tard.* → Metro *Sempre tulē tard.* "Always comes late."

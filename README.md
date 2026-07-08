@@ -1,6 +1,6 @@
-# Nelõ kēļ — the Nelõxi language
+# Nelô kēļ — the Nelôxi language
 
-The working repository of the Nelõxi language (*nelõ kēļ*): reference grammar, course, dictionary, and the governance materials of the Kēļs Kolēgi (College of Language).
+The working repository of the Nelôxi language (*nelô kēļ*): reference grammar, course, dictionary, and the governance materials of the Kēļs Kolēgi (College of Language).
 
 ## Repository structure
 
@@ -29,10 +29,10 @@ Nothing is canon until merged.
 ## Current state
 
 - **542 headwords** across the ten core units plus law & governance, colors & qualities, sport & play, craft & tools, extended kinship, learning & writing, deep maritime, and abstract thought.
-- Full reference grammar: 5+2 cases (with temporal use), pronoun-driven verbs, conditional, participles, and eight productive derivational affixes (-ji, -mus/-mys, -ū, -stā, -ldā, -ām, -õr, -mi).
+- Full reference grammar: 5+2 cases (with temporal use), pronoun-driven verbs, conditional, participles, and eight productive derivational affixes (-ji, -mus/-mys, -ū, -stā, -ldā, -ām, -ôr, -mi).
 - A first reader text (*Kalāji ja mer*) and course dialogues throughout.
 - Open domains: U18 (emotion nuance), U19 (food, deep).
 
 ## Register
 
-Reference materials treat Nelõxi as a language, full stop. Design history and source discussion live only in `archive/` and the charter's backstage sections, never in the coursebook.
+Reference materials treat Nelôxi as a language, full stop. Design history and source discussion live only in `archive/` and the charter's backstage sections, never in the coursebook.
