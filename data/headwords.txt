@@ -15,8 +15,6 @@ amtõ
 amtõji
 amīk
 amōr
-andemys
-andē
 aribā
 arm
 armõldā
@@ -63,6 +61,8 @@ fīnõ
 genõ
 gos
 grīs
+haavõmus
+haavā
 habrõ
 hamõr
 handlõ
@@ -111,6 +111,8 @@ kafē
 kahetsõmus
 kahetsā
 kaimõ
+kaipõmus
+kaipā
 kaks
 kallā
 kaltõ
@@ -121,6 +123,8 @@ kalāstā
 kalēnt
 kambõr
 kamī
+kannõmus
+kannā
 kantā
 kançāt
 kançō
@@ -132,6 +136,7 @@ kap
 kaptā
 karistõ
 karistā
+karmõ
 karn
 karrē
 karī
@@ -214,6 +219,8 @@ leikā
 leinõ
 leinā
 lent
+lepõmus
+lepā
 leskõ
 lil
 limõ
@@ -343,6 +350,8 @@ papõr
 parandõmus
 parandā
 pardõ
+pardõmus
+pardā
 parlā
 pehmē
 pelgõ
@@ -543,6 +552,8 @@ um
 unõstā
 unī
 unīstā
+usaldõmus
+usaldā
 vai
 vaik
 valdõmus
