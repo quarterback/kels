@@ -1,6 +1,6 @@
 # Nelô kēļ — English → Nelôxi Reverse Index
 
-*Generated from the coursebook master dictionary (849 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
+*Generated from the coursebook master dictionary (851 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
 
 
 ## A
@@ -31,6 +31,7 @@ apartment → **mrovô**
 apartment block → **blokô**⁺  
 apartment-dweller (Marīsô, slav) → **mrovôr**  
 app → **apô**⁺  
+appear → **sīmā**  
 apple → **pomā**  
 arena → **arēnô**⁺  
 arrive (v.) → **aribā**  
@@ -587,6 +588,7 @@ load → **laadômus**⁺ · **laadā**⁺
 loneliness → **üksū**  
 long for (v.) → **igāldā**  
 longing → **iglū**  
+look → **sīmā**  
 loose queue → **xolkô**  
 lose (v.) → **kaotā**  
 loss → **kaotômus**  
@@ -868,6 +870,7 @@ seasoning → **maitū**
 secret → **mīstērô**  
 see (v.) → **nǟgô**  
 seed → **īvô**  
+seem (v.) → **sīmā**  
 sell (v.) → **vendā**  
 send (v.) → **saatā**  
 send back → **vastāsaatā**  
@@ -890,6 +893,7 @@ share → **dēl**
 she → **tä**  
 sheep → **lammô**  
 sheet → **lehtô**  
+shelf → **riul**⁺  
 shine (v.) → **nīrā**  
 shining → **nīrô**  
 ship → **xip**  

@@ -577,6 +577,7 @@ rekôt
 rik
 rikā
 rindô
+riul
 rohô
 roiskô
 rôhī
@@ -669,6 +670,7 @@ sāvā
 sīgel
 sīlô
 sīlā
+sīmā
 sīn
 sīnsīn
 sōdā
