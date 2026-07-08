@@ -1,6 +1,7 @@
 abī
 abīstā
 abītȫ
+acht
 adē
 aedõ
 agā
@@ -53,6 +54,7 @@ dent
 deret
 donā
 drobõ
+drē
 drōk
 dvõrõ
 düvlik
@@ -61,6 +63,8 @@ dātõ
 dēdkõ
 dī
 dīmys
+dūsõnd
+dūtõ
 ehitõmus
 ehitā
 elõmus
@@ -93,6 +97,8 @@ futrā
 futõr
 fān
 fāndõ
+fēr
+fīf
 fīnõ
 genõ
 glup
@@ -119,6 +125,7 @@ hennõ
 hoolõmus
 hoolā
 hoolāji
+hunt
 häbedā
 häbū
 hūr
@@ -297,6 +304,7 @@ lain
 laintū
 lammõ
 lampõ
+langhunt
 last
 lauk
 lehmä
@@ -431,6 +439,7 @@ nõuk
 nõukõr
 nān
 nē
+nēgõn
 nēm
 nētõ
 nēu
@@ -599,10 +608,12 @@ selkõ
 semprē
 servõmus
 servā
+ses
 sest
 sestrõ
 sesõn
 setmān
+seven
 sidõmus
 sidā
 signõ
@@ -694,6 +705,7 @@ tugev
 tulē
 tumõ
 tundõ
+twē
 tyhjā
 tytār
 tä
@@ -713,8 +725,10 @@ tē
 tēdõ
 tēdõmus
 tēg
+tēn
 tēno
 tēre
+tēvē
 tīt
 tītkõrd
 tītū
@@ -793,6 +807,7 @@ vǟrpēlā
 vǟrõ
 xapkõ
 xip
+xok
 xolkõ
 xumõ
 xumā
@@ -821,6 +836,7 @@ xumā
 āst
 ēgõ
 ēgā
+ēn
 īdõks
 īvõ
 ōra
