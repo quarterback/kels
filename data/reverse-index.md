@@ -1,6 +1,6 @@
 # Nelô kēļ — English → Nelôxi Reverse Index
 
-*Generated from the coursebook master dictionary (852 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
+*Generated from the coursebook master dictionary (867 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
 
 
 ## A
@@ -11,6 +11,7 @@ a fraction → **dēl**
 about → **pǟl**  
 ache of absence → **kaipômus**  
 act → **aktô**  
+add (an ingredient) (v.) → **lisā**  
 affection → **arm**  
 aid → **abī**  
 aim → **ārgô**  
@@ -53,7 +54,9 @@ bakery → **küpsām**
 ball → **bālô**  
 ballot → **balçômus**  
 balls → **klȫtô**  
+bargain → **kauplô**  
 bargain price → **çenô**  
+bargaining → **kauplômus**  
 barn → **lāvô**  
 barren → **pūst**  
 base → **pôhô**  
@@ -87,6 +90,7 @@ bin → **kastô**
 bind → **sidā**  
 binding → **sidômus**  
 birth → **syndômus**  
+bit → **jagô**  
 black → **must**  
 block yard (Marīsô, slav) → **dvôrô**  
 blockhead (coarse) → **glupôr**  
@@ -257,6 +261,7 @@ dark (of color) → **karī**
 data → **dātô**⁺  
 daughter → **tytār**  
 day → **pǟvô**  
+deal! agreed! (closing a bargain) → **sāli**  
 death → **surmô**  
 decide → **rēdā**  
 deck → **dek**⁺  
@@ -332,6 +337,7 @@ evidence → **tôsītô**
 evil → **bōs**  
 examination → **kaçô**  
 examine → **kaçā**  
+excessively → **liig**  
 eye → **silm**  
 
 ## F
@@ -369,7 +375,7 @@ file → **failô**⁺
 fill (v.) → **täidā**  
 filled pastry (Marīsô, slav) → **pirôg**  
 filth → **drōk**  
-fine → **fīnô**  
+fine → **fīnô** · **hǟ**  
 finish → **lopā**  
 fish → **kalā** · **kalāstā**  
 fisher → **kalāji**  
@@ -386,6 +392,7 @@ fondness → **arm**
 food → **sȫk**  
 fool → **glupôr**  
 foot → **pēu**  
+for → **eest**  
 forest → **meçā**  
 forget (v.) → **unôstā**  
 forgive (v.) → **pardā**  
@@ -398,6 +405,7 @@ foundation → **pôhô**
 four → **xtiri**  
 fourteen → **dünva**  
 fragile → **habrô**  
+fresh (of food) → **värskē**  
 friend → **amīk**  
 from now on → **nūlt**  
 fruit → **frūt**  
@@ -459,6 +467,8 @@ gutless (vulgar) → **klȫtôtū**
 ## H
 
 hacker (late-stratum loan) → **hakôr**  
+haggle (v.) → **kauplô**  
+haggling → **kauplômus**  
 hair → **kabēl**  
 half → **half**  
 halt → **püsā**  
@@ -517,6 +527,7 @@ if → **jōs**
 image → **pildô**  
 immediately → **nūnū**  
 in a bit → **nūlô**  
+in exchange for (postp.) → **eest**  
 in front of (postp.) → **jeds**  
 in the middle of (postp.) → **kesk**  
 infernal → **düvlik**  
@@ -532,6 +543,7 @@ it → **tä**
 ## J
 
 jail → **vangô**  
+joke → **nalī**  
 joy → **ilo**  
 judge (v.) → **rēdā** · **rēdāji**  
 juice → **māhl**  
@@ -623,6 +635,7 @@ measuring tool → **mēdôr**
 meat → **karn**  
 medal → **medāl**⁺  
 medicine → **mediçīn**  
+melt (v.) → **sulatā**  
 memory → **mēl**  
 mend (v.) → **parandā**  
 mending → **parandômus**  
@@ -675,10 +688,12 @@ net (sport) → **nētô**
 network → **vôrkkôrd**  
 network system → **vôrkkôrd**  
 never → **mai**  
+next → **tôl**  
 night → **nīt**  
 nine → **deveñç**  
 nineteen → **dünsedm**  
 no (trade) → **nē**  
+nonsense (dismissive) → **nalī**  
 north → **pôjā**  
 not → **äb**  
 note → **märkômus**  
@@ -698,6 +713,7 @@ official → **amtôji**
 official document → **aktô**  
 official mark → **sīgel**  
 oil → **ôli**  
+okay (conceding) → **hǟ**  
 old → **vana**  
 one → **jedôn**  
 one dozen) → **düna**  
@@ -718,7 +734,7 @@ pan → **pannô**
 pancake → **plinô**  
 paper → **papôr**⁺  
 parent → **genô**  
-part → **dēl**  
+part → **dēl** · **jagô**  
 pass (v.) → **pāsā**  
 passion → **kirg**  
 passport → **pāsportô**⁺  
@@ -741,6 +757,7 @@ phone call → **fonômus**⁺
 photograph → **fotô**⁺ · **fotā**⁺  
 pick (v.) → **noppā**  
 picture → **pildô**  
+piece → **jagô**  
 piece of shit (vulgar) → **merd**  
 pier → **tillô**⁺  
 pierce → **pikā**  
@@ -748,6 +765,7 @@ pig → **sigô**
 piglet → **pôrsô**  
 pink → **rōs**  
 pipe → **torô**  
+place → **asetā**  
 plank → **lōdô**  
 plant → **külvā**  
 planting → **külvômus**  
@@ -784,6 +802,7 @@ punish (v.) → **karistā**
 punishment → **karistô**  
 purple → **purpôr**⁺  
 purpose → **ārgô**  
+put (v.) → **asetā**  
 
 ## Q
 
@@ -877,10 +896,12 @@ send (v.) → **saatā**
 send back → **vastāsaatā**  
 sending → **saatômus**  
 sequence → **kôrd**  
+sequence marker: then → **tôl**  
 serve → **servômus** · **servā**  
 server → **sirvôr**⁺  
 service → **servômus**  
 service work → **abītȫ**  
+set → **asetā**  
 seven → **sedôm**  
 seventeen → **dünpeñç**  
 severe → **karmô**  
@@ -1014,6 +1035,7 @@ the devil (interj./n., coarse) → **fān**
 the past → **ennū**  
 there → **sāl**  
 they → **ne**  
+thick (of a liquid) → **paks**  
 thick-headed (coarse) → **glup**  
 thicken (soup, sauce) (v.) → **lībā**  
 think (v.) → **môtôldā**  
@@ -1035,6 +1057,7 @@ tired → **kançāt**
 today → **avuī**  
 toll → **tōl**  
 tomorrow → **demā**  
+too → **liig**  
 tool → **rīst**  
 tooth → **dent**  
 topic → **pǟlū**  
@@ -1076,6 +1099,7 @@ under (postp.) → **al**
 underside → **alū**  
 understand (v.) → **komprē**  
 understanding → **selgū**  
+until (temporal conjunction) → **kuni**  
 upkeep → **hoolômus**  
 upload → **laadômus**⁺ · **laadā**⁺  
 
@@ -1169,6 +1193,7 @@ wrongdoing → **vǟrô**
 ## Y
 
 yarn → **lông**  
+yeah → **hǟ**  
 year → **āst**  
 yearning → **iglū**  
 yellow → **kôlt**  

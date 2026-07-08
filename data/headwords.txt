@@ -26,6 +26,7 @@ arsô
 arvô
 arvôldā
 arēnô
+asetā
 avuī
 babkô
 bajômus
@@ -77,6 +78,7 @@ dēdkô
 dēl
 dī
 dīmys
+eest
 ehitômus
 ehitā
 elva
@@ -142,6 +144,7 @@ hoolāji
 häbedā
 häbū
 hūr
+hǟ
 idā
 idē
 iglū
@@ -152,6 +155,7 @@ inim
 itkô
 ja
 jaamô
+jagô
 jeds
 jedôn
 juht
@@ -221,6 +225,8 @@ kasvômus
 kasvā
 kat
 kaug
+kauplô
+kauplômus
 kaçô
 kaçā
 keetā
@@ -270,6 +276,7 @@ kuiv
 kukô
 kuld
 kun
+kuni
 kurt
 kus
 kylm
@@ -324,9 +331,11 @@ lent
 lepômus
 lepā
 leskô
+liig
 lil
 limô
 limā
+lisā
 lit
 livrô
 livrôkōt
@@ -432,6 +441,7 @@ mǟtā
 nabôr
 nahkô
 naisô
+nalī
 naurā
 ne
 nim
@@ -478,6 +488,7 @@ orānx
 osôm
 pa
 padā
+paks
 palô
 pannô
 papôr
@@ -649,6 +660,7 @@ sugô
 sugôläpx
 sugôr
 sukrô
+sulatā
 sulô
 sup
 surmô
@@ -663,6 +675,7 @@ sônaktô
 sônā
 sônālivrô
 sāl
+sāli
 sālsāl
 sān
 sār
@@ -723,6 +736,7 @@ täidā
 täno
 tänāldā
 tänū
+tôl
 tôsī
 tôsītô
 tôsītū
@@ -792,6 +806,7 @@ vormā
 votā
 väetô
 väetā
+värskē
 vôidô
 vôim
 vôitô
