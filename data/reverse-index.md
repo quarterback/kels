@@ -1,10 +1,12 @@
 # Nelõ kēļ — English → Nelõxi Reverse Index
 
-*Generated from the coursebook master dictionary (789 headwords). Find your English word, take the Nelõxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
+*Generated from the coursebook master dictionary (831 headwords). Find your English word, take the Nelõxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
 
 
 ## A
 
+a failure (coarse) → **brāk**  
+a flop (coarse) → **flōp**  
 about → **pǟl**  
 ache of absence → **kaipõmus**  
 act → **aktõ**  
@@ -31,6 +33,7 @@ app → **apõ**⁺
 apple → **pomā**  
 arena → **arēnõ**⁺  
 arrive (v.) → **aribā**  
+arse → **kūl**  
 ask (v.) → **kysõ**  
 at once! (interjection → **fluks**  
 aunt → **tantõ**  
@@ -39,16 +42,21 @@ award → **perēm**⁺
 ## B
 
 baby → **bebē**  
+backside (vulgar) → **kūl**  
+bad luck (coarse) → **flūk**  
 bake (v.) → **küpsā**  
 bake-house → **küpsām**  
 baker → **küpsõr**  
 bakery → **küpsām**  
 ball → **bālõ**  
 ballot → **balçõmus**  
+balls → **kōlhõ**  
 bargain price → **çenõ**  
 barn → **lāvõ**  
+barren → **pūst**  
 base → **põhõ**  
 basic law → **põhõlēgõ**  
+bastard (vulgar) → **futõr**  
 bat → **rekõt**⁺  
 bay → **laht**  
 be (present) (v.) → **um**  
@@ -79,6 +87,7 @@ binding → **sidõmus**
 birth → **syndõmus**  
 black → **must**  
 block yard (Marīsõ, slav) → **dvõrõ**  
+blockhead (coarse) → **glupõr**  
 blood → **verī**  
 blue → **sinī**  
 board → **lōdõ**  
@@ -86,6 +95,7 @@ boat → **bōt**
 body → **kos**  
 boil (v.) → **keetā**  
 book → **livrõ**  
+booze → **prōm**  
 border → **pīrõ**  
 border city → **pīrõsitāt**  
 border crossing → **grançõ**⁺  
@@ -99,6 +109,7 @@ break → **rikā**
 breakfast → **omīk**  
 bridge → **pont**  
 bright → **nīrõ**  
+brothel (obscene) → **putānikōt**  
 brother → **veļ**  
 brown → **praul**⁺  
 build (v.) → **ehitā**  
@@ -152,6 +163,7 @@ character → **rūnõ**
 chart → **kārtõ**⁺  
 chat (v.) → **bajā**  
 chatter → **bajõmus**  
+cheap liquor (coarse) → **prōm**  
 cheese → **jūst**  
 chicken → **hennõ**  
 child → **läpx**  
@@ -181,6 +193,7 @@ cloud → **pilv**
 club → **klubõ**⁺  
 coach → **koçõr**⁺  
 coastline → **rāndõr**  
+cock (obscene) → **pik**  
 code → **kodõ**⁺ · **kodā**⁺  
 coffee → **kafē**  
 cold → **kylm**  
@@ -189,6 +202,7 @@ come (v.) → **tulē**
 comfort → **lohū** · **lohūldā**  
 compass → **kompass**⁺  
 compete by speed → **raksā**  
+con man (coarse) → **trīkõr**  
 concerning (postp.) → **pǟl**  
 conduit → **torõ**  
 consolation → **lohū**  
@@ -201,6 +215,7 @@ conversation → **kõnõ**
 converse (v.) → **kõnā**  
 cook (v.) → **kuinā**  
 cord → **köis**  
+corrupt (coarse) → **krōm**  
 council → **nõuk**  
 councillor → **nõukõr**  
 count → **arvõ** · **arvõldā**  
@@ -211,19 +226,28 @@ court → **pēlām** · **rēdām**
 courtyard → **dvõrõ**  
 cousin → **sugõläpx**  
 cow → **lehmä**  
+coward → **skītõr**  
+cowardly → **kōlhõtū**  
+crap! (vulgar) → **skīt**  
 crime → **vǟrõ**  
+crooked → **krōm**  
 crop → **viljõ**  
+cross → **kruçõ**  
 crowd-noise (Marīsõ, slav) → **xumõ**  
+crucifix → **kruçõ** · **krūçõfiks**  
+crucify (v.) → **krūçā**  
 cry (v.) → **itkõ**  
 cultivated land → **nurõ**  
 cup → **taç**  
 curdled milk → **juht**  
 current → **vool**  
+curse → **flūk** · **flūkā**  
 cut (v.) → **leikā** · **lõigā**  
 
 ## D
 
 damage (v.) → **rikā**  
+damn → **fān**  
 dark (of color) → **karī**  
 data → **dātõ**⁺  
 daughter → **tytār**  
@@ -234,14 +258,19 @@ deck → **dek**⁺
 deep → **syv**  
 defeat → **kaotõmus**  
 delight → **rõim**  
+demon (coarse) → **düvēl**  
 desire → **tahtõ**  
 desire deeply (v.) → **tahtõldā**  
 dessert → **magūsū**  
+devil → **düvēl**  
+devilish → **düvlik**  
 dictionary → **sõnālivrõ**  
 die (v.) → **surā**  
 digital storage → **salvõmus**⁺  
 dirty → **redē**  
+dirty scheme (coarse) → **trīk**  
 discard (v.) → **jättā**  
+dishonest → **krōm**  
 disorder → **segas**  
 disposal → **jättõmus**  
 disposal site → **jättām**  
@@ -257,6 +286,7 @@ draw → **ēgõ** · **ēgā**
 dream → **unī** · **unīstā**  
 drift (v.) → **ajū**  
 drink (v.) → **jōdõ**  
+drunkard → **prōmõr**  
 dry → **kuiv**  
 dull → **tumõ**  
 dump → **jättām**  
@@ -275,7 +305,7 @@ eight → **kōtõks**
 elder → **vanõr**  
 emotion → **mōl**  
 emotional wound → **haavõmus**  
-empty → **tyhjā**  
+empty → **pūst** · **tyhjā**  
 enclosure → **aedõ**  
 end → **lop** · **lopā**  
 endurance → **kannõmus**  
@@ -292,6 +322,7 @@ eternity → **tītū**
 evening → **vespõr**  
 evening meal → **õhtõk**  
 evidence → **tõsītõ**  
+evil → **bōs**  
 examination → **kaçõ**  
 examine → **kaçā**  
 eye → **silm**  
@@ -311,6 +342,7 @@ fasten → **tappā**
 father → **pǟr**  
 fear (v.) → **pelgõ**  
 fear (n.) → **pōr**  
+fee → **tōl**  
 feed (v.) → **sȫtā**  
 feel (v.) → **tundõ**  
 feel affection for (v.) → **armõldā**  
@@ -328,6 +360,7 @@ field-worker → **nurõr**
 file → **failõ**⁺  
 fill (v.) → **täidā**  
 filled pastry (Marīsõ, slav) → **pirõg**  
+filth → **drōk**  
 fine → **fīnõ**  
 finish → **lopā**  
 first → **esmī**  
@@ -344,6 +377,7 @@ fodder → **sȫtõ**
 fog → **udū**  
 fondness → **arm**  
 food → **sȫk**  
+fool → **glupõr**  
 foot → **pēu**  
 forest → **meçā**  
 forget (v.) → **unõstā**  
@@ -351,7 +385,7 @@ forgive (v.) → **pardā**
 forgiveness → **pardõmus**  
 form → **vormā**  
 former times → **ennū**  
-foul (v.) → **vǟrpēlā**  
+foul → **bōs** · **vǟrpēlā**  
 foul (in a game) → **vǟrpēlõ**  
 foundation → **põhõ**  
 four → **nēļa**  
@@ -360,6 +394,8 @@ friend → **amīk**
 from now on → **nūlt**  
 fruit → **frūt**  
 fry (v.) → **praadā**⁺  
+fuck (obscene) (v.) → **futrā**  
+fucker → **futõr**  
 full → **tǟs**  
 funeral → **mǟtõmus**  
 
@@ -379,6 +415,7 @@ glue → **limõ** · **limā**
 go (v.) → **lǟdõ**  
 goal → **mērkõ**  
 goat → **kitsõ**  
+gob → **sūt**  
 gold → **kuld**  
 good → **jõvā**  
 goodbye → **adē**  
@@ -402,11 +439,13 @@ grey → **grīs**⁺
 griddle cake (Marīsõ, slav) → **plinõ**  
 grief → **leinõ**  
 grieve → **leinā**  
+grog-shop (coarse) → **prōmām**  
 grow (v.) → **kasvā**  
 growth → **kasvõmus**  
 guard (v.) → **valvā** · **valvāji**  
 guardian → **ravõji**  
 guest → **võrõ**  
+gutless (vulgar) → **kōlhõtū**  
 
 ## H
 
@@ -431,6 +470,7 @@ heart → **kor**
 heavy → **rask**  
 heavy timber → **balkõ**  
 heir → **päriji**  
+hell → **fān**  
 hello → **tēre**  
 help → **abī** · **abīstā**  
 hen → **hennõ**  
@@ -438,6 +478,8 @@ henceforth → **nūlt**
 herb → **ürd**  
 herd → **karjõ** · **karjā**  
 here → **sīn**  
+hex → **flūk**  
+hex (coarse) → **flūkā**  
 hide → **nahkõ**  
 honey → **melī**  
 hope (v.) → **lōtā**  
@@ -459,6 +501,7 @@ I → **mä**
 ice → **jǟ**  
 ice-cold → **jǟdõ**  
 idea → **idē**  
+idiot → **glupõr**  
 idle talk (Marīsõ, slav) → **bajõmus**  
 if → **jōs**  
 image → **pildõ**  
@@ -466,6 +509,7 @@ immediately → **nūnū**
 in a bit → **nūlõ**  
 in front of (postp.) → **jeds**  
 in the middle of (postp.) → **kesk**  
+infernal → **düvlik**  
 inherit (v.) → **pärā**  
 inheritance → **pärõmus**  
 ink → **tintõ**⁺  
@@ -524,6 +568,7 @@ light → **helē**
 light (weight) → **kevē**  
 light-device → **nīrin**  
 lighthouse → **bākõ**⁺  
+limp → **flōp**  
 line → **līnõ**⁺  
 line of writing → **rindõ**  
 lineage → **sugõ**  
@@ -593,10 +638,12 @@ mourn (v.) → **leinā**
 mourning → **leinõ**  
 mouth → **bokā**  
 much → **mult**  
+muck (coarse) → **drōk**  
 muddy (n./adj.) → **savī**  
 mushroom → **põlū**  
 mushroom (Marīsõ → **gribõ**  
 must → **pidā**  
+muzzle → **sūt**  
 mystery → **mīstērõ**  
 
 ## N
@@ -610,6 +657,7 @@ needed → **tarīs**
 needle → **nõglõ**  
 neighbor → **nabõr**  
 neighborhood hall → **klubõ**⁺  
+nerve → **kōlhõ**  
 net → **võrk**  
 net (sport) → **nētõ**  
 network → **võrkkõrd**  
@@ -629,6 +677,7 @@ number → **arvõ**
 oar → **mēlā**  
 oath → **vānõ**  
 obligation → **pidõmus**  
+obscene) → **hūr**  
 of all (superlative frame) → **kõust**  
 office → **amtõ**  
 office-holder → **amtõji**  
@@ -662,6 +711,7 @@ paste → **limõ** · **limā**
 patience → **kannõmus**  
 pay (v.) → **maksā**  
 payment → **maksõmus**  
+payoff (coarse) → **tōl**  
 pea → **ernē**  
 peg → **tappõ** · **tappā**  
 pen → **sulõ**  
@@ -676,7 +726,9 @@ phone call → **fonõmus**⁺
 photograph → **fotõ**⁺ · **fotā**⁺  
 pick (v.) → **noppā**  
 picture → **pildõ**  
+piece of shit (vulgar) → **merd**  
 pier → **tillõ**⁺  
+pierce → **pikā**  
 pig → **sigõ**  
 piglet → **põrsõ**  
 pink → **rōs**  
@@ -691,17 +743,20 @@ please → **palõ**
 plow → **ārõ** · **ārā**  
 point → **punktõ**  
 police officer → **valvāji**  
+pompous fool → **pomp**  
 poor → **vāj**  
 pot → **padā** · **potõ**  
 pour (v.) → **kallā**  
 power → **võim**  
 practice → **harjõmus** · **harjā**  
 price → **prēu**  
+prick → **pik**  
 pride → **ūpū**  
 prison → **vangõ**  
 prize → **perēm**⁺  
 program → **kodā**⁺  
 proof → **tõsītõ**  
+prostitute (obscene) → **putān**  
 protect → **valvā**  
 public → **rahvõ**  
 public light → **lampõ**⁺  
@@ -709,6 +764,7 @@ public notice → **dīmys**
 public park → **pārkõ**⁺  
 public service → **abītȫ**  
 public sign → **märktaul**  
+puke (coarse) → **krašõ** · **krašā**  
 punish (v.) → **karistā**  
 punishment → **karistõ**  
 purple → **purpõr**⁺  
@@ -759,11 +815,13 @@ river → **jõg**
 road → **kamī**  
 roast (v.) → **röstā**  
 rock (at sea) → **karīk**  
+rood (technical → **krūçõfiks**  
 room → **kambõr**  
 rooster → **kukõ**  
 root vegetable → **jūr**  
 rope → **köis**  
 rough (surface) → **kārgõ**  
+ruin utterly (coarse) → **brākā**  
 ruler → **mēdõr**  
 run (v.) → **kōrrõ**  
 
@@ -822,6 +880,8 @@ sheet → **lehtõ**
 shine (v.) → **nīrā**  
 shining → **nīrõ**  
 ship → **xip**  
+shit → **skīt**  
+shit (vulgar) (v.) → **skītā**  
 shop → **butīk**  
 shore → **rānd**  
 short → **kurt**  
@@ -846,7 +906,9 @@ small goods → **krāmõ**
 small program → **apõ**⁺  
 smooth → **silē**  
 snatch casually (Marīsõ, slav) → **çapkā**  
+snout → **sūt**  
 snow → **nēu**  
+soak (coarse) → **prōmõr**  
 soft → **pehmē**  
 son → **poig**  
 song → **kançō**  
@@ -863,6 +925,7 @@ speak back and forth → **kõnā**
 speaker (audio device) → **kūlin**  
 spice → **maitū**  
 spouse → **kaimõ**  
+stab (v.) → **pikā**  
 stable → **lāvõ**  
 stadium → **arēnõ**⁺  
 stall-seller (Marīsõ, slav) → **tārgõr**  
@@ -889,6 +952,7 @@ strength → **võim**
 strong → **fort**  
 student → **õpāji**  
 study → **õpõmus** · **õpā**  
+stupid → **glup**  
 sturdy → **tugev**  
 subject → **pǟlū**  
 sugar → **sukrõ**  
@@ -898,6 +962,7 @@ swear an oath (v.) → **vānā**
 sweet bread → **kōk**  
 sweet course → **magūsū**  
 swell → **laintū**  
+swindle (coarse) → **trīkā**  
 
 ## T
 
@@ -908,6 +973,7 @@ tall → **alt**
 target → **mērkõ**  
 taste (v.) → **maitõ**  
 tasty → **magūs**  
+tavern → **prōmām**  
 tax → **maksõmus**  
 tea → **tē**  
 teach (v.) → **talçā**  
@@ -920,13 +986,16 @@ tender → **hell**
 tenderness → **hellū**  
 terminal → **jaamõ**⁺  
 test → **kaçõ** · **kaçā**  
+testicles → **kōlhõ**  
 thank you → **täno**  
 that → **se**  
 that (introduces a clause) → **et**  
 the box (clipped colloquial) → **taiki**  
+the devil (interj./n., coarse) → **fān**  
 the past → **ennū**  
 there → **sāl**  
 they → **ne**  
+thick-headed (coarse) → **glup**  
 thicken (soup, sauce) (v.) → **lībā**  
 think (v.) → **mõtõldā**  
 think through → **põhjõldā**  
@@ -945,6 +1014,7 @@ time → **tīt**
 timetable → **tītkõrd**  
 tired → **kançāt**  
 today → **avuī**  
+toll → **tōl**  
 tomorrow → **demā**  
 tool → **rīst**  
 tooth → **dent**  
@@ -963,9 +1033,12 @@ travel (v.) → **reisā**
 travel by vehicle → **sõidā**  
 tree → **pū**  
 tribunal → **rēdām**  
+trick → **trīk** · **trīkā**  
+trickster → **trīkõr**  
 trust (v.) → **usaldā**  
 trust (n.) → **usaldõmus**  
 truth → **tõsī**  
+turd → **merd**  
 turnip → **nǟr**  
 TV → **taiki**  
 two → **kaks**  
@@ -993,6 +1066,7 @@ virus → **vīrõ**⁺
 visa → **vīzõ**⁺  
 voice → **vēu**  
 voice-call → **kõnõ**  
+vomit → **krašõ** · **krašā**  
 vote → **balçõmus** · **balçā**  
 
 ## W
@@ -1016,7 +1090,7 @@ waterfront (the newer → **strānd**
 waterside (the older, broader word) → **rānd**  
 wave → **lain**  
 we → **mēg**  
-weak → **nõrk**  
+weak → **flōp** · **nõrk**  
 weather → **tems**  
 weave (v.) → **kudā**  
 wed → **pulmā**  
@@ -1032,6 +1106,8 @@ when → **kun**
 where → **kus**  
 white → **valgõ**  
 who → **ken**  
+whore → **putān**  
+whore (archaic/dialectal → **hūr**  
 why → **miks**  
 widow → **leskõ**  
 widower → **leskõ**  
@@ -1039,6 +1115,7 @@ wife → **naisõ**
 will → **tahtõ**  
 win → **võitõ** · **võitā**  
 wind → **tūļ**  
+windbag (coarse) → **pomp**  
 window → **finest**  
 wine → **vī**  
 wisdom → **vīsū**  
@@ -1051,7 +1128,12 @@ work (v.) → **tȫdõ**
 work (n.) → **tȫ**  
 workshop → **tȫkambõr**  
 worry → **mūrõ** · **mūrõldā**  
+worthless (coarse) → **pūst**  
+worthless person (vulgar) → **skītõr**  
 wound emotionally (v.) → **haavā**  
+wreck (v.) → **brākā**  
+wreckage → **brāk**  
+wretched (coarse) → **bōs**  
 write (v.) → **kirjā**  
 writer → **kirjāji**  
 writing → **kirjõmus**  

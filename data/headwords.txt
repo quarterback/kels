@@ -38,9 +38,12 @@ blokõ
 bokā
 bramõ
 bratkõ
+brāk
+brākā
 butīk
 bākõ
 bālõ
+bōs
 bōt
 būsõ
 dek
@@ -49,7 +52,10 @@ dent
 deret
 donā
 drobõ
+drōk
 dvõrõ
+düvlik
+düvēl
 dātõ
 dēdkõ
 dī
@@ -72,6 +78,9 @@ felīç
 finest
 flag
 fluks
+flōp
+flūk
+flūkā
 fonõ
 fonõmus
 fonā
@@ -79,8 +88,13 @@ fort
 fotõ
 fotā
 frūt
+futrā
+futõr
+fān
 fīnõ
 genõ
+glup
+glupõr
 gos
 grançõ
 gribõ
@@ -105,6 +119,7 @@ hoolā
 hoolāji
 häbedā
 häbū
+hūr
 idā
 idē
 iglū
@@ -217,8 +232,14 @@ kor
 kos
 kotxē
 koçõr
+krašõ
+krašā
+kruçõ
 krāmõ
 krāmõr
+krōm
+krūçõfiks
+krūçā
 kudā
 kui
 kuinā
@@ -255,11 +276,14 @@ kēļkõrd
 kēļõr
 kīm
 kōk
+kōlhõ
+kōlhõtū
 kōlõr
 kōrrõ
 kōt
 kōtõks
 kū
+kūl
 kūlin
 kūlõ
 kūç
@@ -346,6 +370,7 @@ melī
 menjā
 mentīd
 mer
+merd
 meçā
 miks
 mikõ
@@ -448,6 +473,8 @@ perēm
 petīt
 pidõmus
 pidā
+pik
+pikā
 pildõ
 piletõ
 pilv
@@ -456,6 +483,7 @@ pirõg
 plat
 plinõ
 poig
+pomp
 pomā
 pont
 port
@@ -464,6 +492,9 @@ praadā
 praul
 prop
 prēu
+prōm
+prōmõr
+prōmām
 puhād
 puhādtȫ
 puhādõr
@@ -474,6 +505,8 @@ punktõ
 punktā
 purjē
 purpõr
+putān
+putānikōt
 päriji
 pärõmus
 pärā
@@ -503,6 +536,7 @@ pōr
 pū
 pūmõ
 pūn
+pūst
 pǟl
 pǟlū
 pǟr
@@ -581,6 +615,9 @@ sisār
 sitānik
 sitāt
 skrinõ
+skīt
+skītõr
+skītā
 smetõn
 sojā
 sol
@@ -618,6 +655,7 @@ sōdā
 sōdāji
 sōla
 sūr
+sūt
 sȫk
 sȫtõ
 sȫtā
@@ -648,6 +686,9 @@ tormõ
 tornõ
 tornē
 torõ
+trīk
+trīkõr
+trīkā
 tugev
 tulē
 tumõ
@@ -676,6 +717,7 @@ tēre
 tīt
 tītkõrd
 tītū
+tōl
 tūļ
 tǟs
 tȫ
