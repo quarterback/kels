@@ -241,6 +241,7 @@ keetā
 ken
 kesk
 keskū
+kevä
 kevē
 kihlô
 kihlā
@@ -356,6 +357,8 @@ lubômus
 lubā
 lugē
 lugēmys
+lumõ
+lumõstā
 lypsômus
 lypsā
 läpx
@@ -428,6 +431,8 @@ märkômus
 märkā
 môtô
 môtôldā
+müristä
+müristü
 mā
 māhl
 mārjā
@@ -502,6 +507,7 @@ osôm
 pa
 padā
 paks
+pakā
 palô
 pannô
 papôr
@@ -552,6 +558,7 @@ purjē
 purpôr
 putān
 putānikōt
+päikü
 päriji
 pärômus
 pärā
@@ -677,9 +684,11 @@ sugôr
 sukrô
 sulatā
 sulô
+sulā
 sup
 surmô
 surā
+suvi
 syndômus
 syndā
 syv
@@ -689,6 +698,7 @@ sôidā
 sônaktô
 sônā
 sônālivrô
+sügü
 sülü
 sāl
 sāli
@@ -719,6 +729,7 @@ taiki
 taikô
 taivô
 tallô
+talv
 talçā
 talçāji
 tambē
@@ -745,6 +756,7 @@ trīk
 trīkôr
 trīkā
 tugev
+tuisk
 tulē
 tumô
 tundô
@@ -818,6 +830,7 @@ vihān
 viljô
 villô
 vim
+vimõ
 vingôr
 viskā
 volē
@@ -826,6 +839,8 @@ vormā
 votā
 väetô
 väetā
+välk
+välkü
 värskē
 vôidô
 vôim

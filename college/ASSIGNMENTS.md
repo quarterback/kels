@@ -22,4 +22,5 @@ closed domains are rejected on arrival regardless of quality.
 | U24 Marīsô border-city life | CANONIZED | §31 — first Slavic-stratum batch |
 | U25 Devices & communications | CANONIZED | §32 — device suffix -in added |
 | U26 Profanity & vulgarity | CANONIZED | §34 — was mislabeled U21; -tū privative added |
-| U23, U27+ (new domains) | OPEN | claim by adding a row with your name/date |
+| U27 Weather & seasons | CANONIZED | §51 |
+| U23, U28+ (new domains) | OPEN | claim by adding a row with your name/date |

@@ -1,6 +1,6 @@
 # Nelô kēļ — English → Nelôxi Reverse Index
 
-*Generated from the coursebook master dictionary (889 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
+*Generated from the coursebook master dictionary (904 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
 
 
 ## A
@@ -44,6 +44,7 @@ ask (v.) → **kysô**
 ass (vulgar) → **arsô**  
 at once! (interjection → **fluks**  
 aunt → **tantô**  
+autumn → **sügü**  
 award → **perēm**⁺  
 
 ## B
@@ -96,6 +97,7 @@ binding → **sidômus**
 birth → **syndômus**  
 bit → **jagô**  
 black → **must**  
+blizzard → **tuisk**  
 block yard (Marīsô, slav) → **dvôrô**  
 blockhead (coarse) → **glupôr**  
 blood → **verī**  
@@ -119,6 +121,7 @@ break → **rikā**
 breakfast → **omīk**  
 bridge → **pont**  
 bright → **nīrô**  
+bright sun → **päikü**  
 brothel (obscene) → **putānikōt**  
 brother → **veļ**  
 brown → **praul**⁺  
@@ -391,6 +394,7 @@ fish → **kalā** · **kalāstā**
 fisher → **kalāji**  
 five → **peñç**  
 flag → **flag**⁺  
+flash (lightning) (v.) → **välkü**  
 flat (Marīsô, slav) → **mrovô**  
 flock → **karjô**  
 floor (of sea/river) → **pôhô**  
@@ -419,6 +423,7 @@ fragile → **habrô**
 fresh (of food) → **värskē**  
 friend → **amīk**  
 from now on → **nūlt**  
+frost → **pakā**  
 fruit → **frūt**  
 fry (v.) → **praadā**⁺  
 fuck (obscene) (v.) → **futrā**  
@@ -489,6 +494,7 @@ handwriting → **kirjô**
 happy → **felīç**  
 harbor → **satām**  
 hard → **kôv**  
+hard cold → **pakā**  
 harsh → **karmô**  
 harvest → **noppômus** · **noppā**  
 have to (v.) → **pidā**  
@@ -604,6 +610,7 @@ light → **helē**
 light (weight) → **kevē**  
 light-device → **nīrin**  
 lighthouse → **bākô**⁺  
+lightning → **välk**  
 limp → **flōp**  
 line → **līnô**⁺  
 line of writing → **rindô**  
@@ -835,6 +842,7 @@ race → **raksô** · **raksā**
 racket → **rekôt**⁺  
 radio → **rādjo**⁺  
 rain → **vim**  
+rain (weather verb) (v.) → **vimõ**  
 raise (v.) → **ravā**  
 read (v.) → **lugē**  
 reading (act of) → **lugēmys**  
@@ -968,7 +976,8 @@ small program → **apô**⁺
 smooth → **silē**  
 snatch casually (Marīsô, slav) → **çapkā**  
 snout → **mūlô**  
-snow → **nēu**  
+snow → **lumõ** · **lumõstā** · **nēu**  
+snowstorm → **tuisk**  
 soak (coarse) → **prōmôr**  
 soft → **pehmē**  
 son → **poig**  
@@ -986,6 +995,7 @@ speak back and forth → **kônā**
 speaker (audio device) → **kūlin**  
 spice → **maitū**  
 spouse → **kaimô**  
+spring (season) → **kevä**  
 stab (v.) → **pikā**  
 stable → **lāvô**  
 stadium → **arēnô**⁺  
@@ -1021,7 +1031,9 @@ subject → **pǟlū**
 sudden → **järsk**  
 suddenly → **järsk**  
 sugar → **sukrô**  
+summer → **suvi**  
 sun → **sol**  
+sunshine → **päikü**  
 supper → **ôhtôk**  
 swear an oath (v.) → **vānā**  
 sweet bread → **kōk**  
@@ -1056,6 +1068,7 @@ testicles → **klȫtô**
 thank you → **täno**  
 that → **se**  
 that (introduces a clause) → **et**  
+thaw → **sulā**  
 the box (clipped colloquial) → **taiki**  
 the devil (interj./n., coarse) → **fān**  
 the past → **ennū**  
@@ -1073,6 +1086,7 @@ thought → **môtô**
 thread → **lông**  
 three → **tri**  
 throw (v.) → **viskā**  
+thunder (v.) → **müristä** · **müristü**  
 ticket → **piletô**⁺  
 tide → **lūdô**  
 tie (v.) → **sidā** · **ēgô** · **ēgā**  
@@ -1197,6 +1211,7 @@ wind → **tūļ**
 windbag (coarse) → **pomp**  
 window → **finest**  
 wine → **vī**  
+winter → **talv**  
 wisdom → **vīsū**  
 wise → **tark**  
 wish → **sōv** · **sōvā**  
