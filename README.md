@@ -2,6 +2,12 @@
 
 The working repository of the Nelôxi language (*nelô kēļ*): reference grammar, course, dictionary, and the governance materials of the Kēļs Kolēgi (College of Language).
 
+## Website
+
+Browse the whole repository as a site: **https://quarterback.github.io/kels/**
+
+It reads the canonical files directly (never a stale copy) — the coursebook and verb reference as formatted pages, a live-searchable dictionary (Nelôxi → English) and the English → Nelôxi reverse index, the reader texts, the dialect overlays, and the College's charter and briefs. Static, no build step: `index.html` plus `assets/`. To serve it, point GitHub Pages at the branch root (Settings → Pages). To preview locally, run `python3 -m http.server` in the repo root — opening `index.html` as a `file://` path blocks the fetches the site relies on.
+
 ## Repository structure
 
 ```
