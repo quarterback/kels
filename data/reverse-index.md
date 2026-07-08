@@ -1,6 +1,6 @@
 # Nelõ kēļ — English → Nelõxi Reverse Index
 
-*Generated from the coursebook master dictionary (674 headwords). Find your English word, take the Nelõxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
+*Generated from the coursebook master dictionary (672 headwords). Find your English word, take the Nelõxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
 
 
 ## A
@@ -296,7 +296,7 @@ foundation → **põhõ**
 four → **nēļa**  
 fragile → **habrõ**  
 friend → **amīk**  
-from now on → **nytelt**  
+from now on → **vortān**⁺  
 fruit → **frūt**  
 fry (v.) → **praadā**⁺  
 full → **tǟs**  
@@ -358,7 +358,7 @@ heavy timber → **balkõ**
 heir → **päriji**  
 hello → **tēre**  
 help → **abī** · **abīstā**  
-henceforth → **nytelt**  
+henceforth → **vortān**⁺  
 herb → **ürd**  
 here → **sīn**  
 honey → **melī**  
@@ -382,8 +382,8 @@ ice → **jǟ**
 ice-cold → **jǟdõ**  
 idea → **idē**  
 if → **jōs**  
-immediately → **nytnyt**  
-in a bit → **nytlä**  
+immediately → **fluks**⁺  
+in a bit → **tost**⁺  
 in front of (postp.) → **jeds**  
 in the middle of (postp.) → **kesk**  
 inherit (v.) → **pärā**  
@@ -401,8 +401,7 @@ jail → **vangõ**
 joy → **ilo**  
 judge (v.) → **rēdā** · **rēdāji**  
 juice → **māhl**  
-just now → **nytlä**  
-just over there → **sālsāl**  
+just now → **tost**⁺  
 
 ## K
 
@@ -633,8 +632,7 @@ rich → **rik**
 ride → **sõidõmus** · **sõidā**  
 right → **rētõ**  
 right (side) → **deret**  
-right here → **sīnsīn**  
-right now → **nytnyt**  
+right now → **fluks**⁺  
 river → **jõg**  
 road → **kamī**  
 roast (v.) → **röstā**  
@@ -711,7 +709,7 @@ snow → **nēu**
 soft → **pehmē**  
 son → **poig**  
 song → **kançō**  
-soon → **nytlä**  
+soon → **tost**⁺  
 soothe → **rahuldā**  
 sorry → **pardõ**  
 soup → **sup**  
