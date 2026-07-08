@@ -1,16 +1,8 @@
-# Nelôxi — Parallel Register Showcase
+# Nelôxi — Register Showcase
 
-Nelôxi has **two varieties**, not three (see `dialects/`):
-
-- **Metrolect** — the language of the whole metroplex (capital + port + border city, one
-  fused speech community). It runs an internal **register gradient** from formal/literary
-  at one end to casual harbor-street at the other — but this is *one dialect*, the same
-  variety dressed up or dressed down, **not** two. Its border edge is Slavicized.
-- **Inland** — the conservative rural dialect beyond the metroplex: Finnic-heavy,
-  loan-resistant, keeps the old full forms. The one true dialect boundary.
-
-The "standard" written language is simply the **formal end of the metrolect**, not a
-separate thing.
+One scene in the two varieties of Nelôxi: the **metrolect**, the shared speech of the
+port–capital–Marīsô metroplex and the standard written language; and the **inland**
+dialect of the rural interior, which keeps the older Finnic-heavy forms.
 
 ---
 
@@ -22,31 +14,25 @@ Grandmother buys mushrooms and makes soup. The child wants a donut. "Are you com
 
 ---
 
-### Metrolect — formal end (the written / careful register)
-
-> Matī kalāji tulē satāmôl. Tä vendā kalān markôtôl. Babkô komprā gribôn ja teki supôn.
-> Läpx volē flœzīn. *Ka sä tulē?* — *Nūlô.* Vana nān maksā drobôk. Jôvā matī, adē.
-
-### Metrolect — casual end (the same dialect, harbor-street)
+### Metrolect (port · capital · Marīsô — the standard)
 
 > Mati, kalāj tul satāmôl. Tä vend kalān markôtôl. Babkô komprā gribôn ja tek supôn.
 > Läpx vol flœzīn. *Ka sä tul? — Nūlô, nūlô…* Vana nān maks drobôk. Jôvā mati — adē!
 
-*What moved along the gradient:* final **-ē/-ā** clip in fast speech (*tulē→tul*,
-*kalāji→kalāj*, *teki→tek*), reduplicated *nūlô nūlô* impatience, a looser contour. Same
-words, same dialect — only the register changed. Note the Slavic **babkô** "granny" and
-**gribô** "mushroom" and **drobô** "change" are native to the metrolect at *both* ends;
-they are simply what the metroplex says.
+The metrolect clips final vowels in casual speech, reaches for the Slavic forms **babkô**
+"granny" and **gribô** "mushroom," and counts in the Slavic dozenal system. It carries the
+prestige gradient within itself: the same speaker upshifts to full forms (*tulē, kalāji,
+vanamǟr*) for official or literary registers, which is the written standard.
 
-### Inland — the conservative dialect
+### Inland (rural interior)
 
-> Matī kalāji tulē satāmôl. Tä vendā kalān markôtôl. **Vanamǟr** komprā **pôlūn** ja teki supôn.
-> Läpx volē flœzīn. *Ka sä tulē? — Nūnū.* Vana nān maksā **rāk**. Jôvā matī, adē.
+> Matī kalāji tulē satāmôl. Tä vendā kalān markôtôl. Vanamǟr komprā pôlūn ja teki supôn.
+> Läpx volē flœzīn. *Ka sä tulē? — Nūnū.* Vana nān maksā rāk. Jôvā matī, adē.
 
-*What actually differs — this is the real dialect boundary:* inland refuses the Slavic
-loans (**vanamǟr** not *babkô*; **pôlū** not *gribô*; plain **rāk** "with money" not
-*drobô*) and uses native reduplicated **nūnū** where the metrolect drawls the borrowed-root
-*nūlô*. It keeps full forms and never clips.
+Inland keeps every full form, the native **vanamǟr** "grandmother" and **pôlū** "mushroom",
+the native reduplication **nūnū** "right now", and plain **rāk** "with money". The deep
+interior still counts the old Finnic way — "how grandmother counts" (see
+`archive/extinct-numbers.md`).
 
 ---
 
@@ -56,11 +42,7 @@ loans (**vanamǟr** not *babkô*; **pôlū** not *gribô*; plain **rāk** "with 
 
 | Variety | Form |
 |---|---|
-| Metrolect (formal or casual) | *Babkô komprā gribôn* |
+| Metrolect | *Babkô komprā gribôn* |
 | Inland | *Vanamǟr komprā pôlūn* |
 
-The split is **metrolect vs. inland** — not formal vs. casual. A speaker who says *babkô*
-and *gribô* is from the metroplex (whether speaking carefully or loosely); one who says
-*vanamǟr* and *pôlū* is from the countryside. The number systems divide them the same way:
-the metroplex counts *jedôn, dva, tri…* (Slavic dozenal); the deep inland still counts the
-old Finnic way (see `archive/extinct-numbers.md`).
+**Babkô** and **gribô** mark a metroplex speaker; **vanamǟr** and **pôlū** mark the interior.
