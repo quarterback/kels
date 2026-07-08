@@ -1,6 +1,6 @@
 # Nelõ kēļ — English → Nelõxi Reverse Index
 
-*Generated from the coursebook master dictionary (712 headwords). Find your English word, take the Nelõxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
+*Generated from the coursebook master dictionary (748 headwords). Find your English word, take the Nelõxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
 
 
 ## A
@@ -24,6 +24,9 @@ annotate → **märkā**
 annotation → **märkõmus**  
 announcement → **dīmys**  
 answer → **vastõmus** · **vastā**  
+apartment → **mrovõ**  
+apartment block → **blokõ**⁺  
+apartment-dweller (Marīsõ, slav) → **mrovõr**  
 apple → **pomā**  
 arena → **arēnõ**⁺  
 arrive (v.) → **aribā**  
@@ -41,6 +44,7 @@ baker → **küpsõr**
 bakery → **küpsām**  
 ball → **bālõ**  
 ballot → **balçõmus**  
+bargain price → **çenõ**  
 barn → **lāvõ**  
 base → **põhõ**  
 basic law → **põhõlēgõ**  
@@ -73,6 +77,7 @@ bind → **sidā**
 binding → **sidõmus**  
 birth → **syndõmus**  
 black → **must**  
+block yard (Marīsõ, slav) → **dvõrõ**  
 blood → **verī**  
 blue → **sinī**  
 board → **lōdõ**  
@@ -81,6 +86,11 @@ body → **kos**
 boil (v.) → **keetā**  
 book → **livrõ**  
 border → **pīrõ**  
+border city → **pīrõsitāt**  
+border crossing → **grançõ**⁺  
+border mixture → **pīrõsegas**  
+border permit → **pīrõlubõmus**  
+border-city dialect → **marīskēļ**  
 bottom → **alū** · **põhõ**  
 boundary → **pīrõ**  
 bread → **pa**  
@@ -95,6 +105,7 @@ bureau → **amtõ**
 burial → **mǟtõmus**  
 bury (v.) → **mǟtā**  
 bus → **būsõ**⁺  
+bustle (v.) → **xumā**  
 but → **agā**  
 butter → **võidõ**  
 buy (v.) → **komprā**  
@@ -102,12 +113,14 @@ buy (v.) → **komprā**
 ## C
 
 cabbage → **kāpõs**  
+cabbage (Marīsõ → **kapustõ**  
 cable → **līnõ**⁺  
 cake → **kōk**  
 calf → **vasikõ**  
 calm → **rahu** · **rahuldā**  
 calm (sea, weather) → **vaik**  
 can → **võī**  
+cap → **xapkõ**  
 cape → **nēm**  
 car → **kotxē**  
 care → **mūrõ**  
@@ -122,13 +135,18 @@ catch (v.) → **kaptā**
 catch (of fish) → **sañõ**  
 cause → **põhjõ**  
 center → **keskū**  
+cf. native kāpõs) → **kapustõ**  
+cf. native põlū) → **gribõ**  
 cf. rānd) → **strānd**  
 cf. vastõmus) → **vastāmus**  
 chair → **kadīr**  
+change (Marīsõ, slav) → **drobõ**  
 channel → **kanā**⁺  
 chaos → **segas**  
 character → **rūnõ**  
 chart → **kārtõ**⁺  
+chat (v.) → **bajā**  
+chatter → **bajõmus**  
 cheese → **jūst**  
 chicken → **hennõ**  
 child → **läpx**  
@@ -139,6 +157,7 @@ church → **kirīk**
 cinnamon → **kanēl**⁺  
 citizen → **sitānik**  
 city → **sitāt**  
+city block → **blokõ**⁺  
 clarity → **selgū**  
 classroom → **õpõkambõr**  
 clay → **savī**  
@@ -149,8 +168,11 @@ cleaner → **puhādõr**
 cleaning service → **puhādtȫ**  
 clear → **selgõ**  
 close (v.) → **tankā**  
+close female friend (Marīsõ, slav) → **sestrõ**  
+close male friend (Marīsõ, slav) → **bratkõ**  
 cloth → **lōtõ**  
 cloud → **pilv**  
+club → **klubõ**⁺  
 coach → **koçõr**⁺  
 coastline → **rāndõr**  
 coffee → **kafē**  
@@ -177,10 +199,12 @@ country → **rīgõ**⁺
 course → **rājõ**  
 course (of lessons) → **lēsām**  
 court → **pēlām** · **rēdām**  
+courtyard → **dvõrõ**  
 cousin → **sugõläpx**  
 cow → **lehmä**  
 crime → **vǟrõ**  
 crop → **viljõ**  
+crowd-noise (Marīsõ, slav) → **xumõ**  
 cry (v.) → **itkõ**  
 cultivated land → **nurõ**  
 cup → **taç**  
@@ -246,6 +270,8 @@ endure (v.) → **kannā**
 engagement → **kihlõ**  
 ensign → **flag**⁺  
 entitlement → **rētõ**  
+entry arch (Marīsõ, slav) → **bramõ**  
+entry mark → **vīzõ**⁺  
 envy → **kadē** · **kadēldā**  
 erase (v.) → **puhādā**  
 established truth → **tõsītū**  
@@ -262,6 +288,8 @@ eye → **silm**
 fabric → **lōtõ**  
 fact → **tõsītū**  
 fall (rain/snow) (v.) → **sadā**  
+familiar grandfather (Marīsõ, slav) → **dēdkõ**  
+familiar grandmother (Marīsõ, slav) → **babkõ**  
 family → **famīl·la**  
 far → **kaug**  
 farmer → **nurõr**  
@@ -285,6 +313,7 @@ fertilizer → **väetõ**
 field → **nurõ** · **pēlām**  
 field-worker → **nurõr**  
 fill (v.) → **täidā**  
+filled pastry (Marīsõ, slav) → **pirõg**  
 fine → **fīnõ**  
 finish → **lopā**  
 first → **esmī**  
@@ -292,6 +321,7 @@ fish → **kalā** · **kalāstā**
 fisher → **kalāji**  
 five → **vīç**  
 flag → **flag**⁺  
+flat (Marīsõ, slav) → **mrovõ**  
 flock → **karjõ**  
 floor (of sea/river) → **põhõ**  
 flour → **jõu**  
@@ -323,6 +353,7 @@ funeral → **mǟtõmus**
 
 game → **pēlõ**  
 garlic → **lauk**  
+gate → **bramõ**  
 gather → **noppā**  
 gathering → **noppõmus**  
 generation → **põlvõ**  
@@ -339,11 +370,14 @@ good → **jõvā**
 goodbye → **adē**  
 govern (v.) → **valdā**  
 government → **valdõmus**  
+grab (v.) → **çapkā**  
 grain → **viljõ**  
 grammar → **kēļkõrd**  
 grammarian → **kēļõr**  
+granddad → **dēdkõ**  
 grandfather → **vanapǟr**  
 grandmother → **vanamǟr**  
+granny → **babkõ**  
 grass → **rohõ**  
 grate (v.) → **rūbā**  
 gratitude → **tänū**  
@@ -351,6 +385,7 @@ grave → **haudõ**
 great wave → **laintū**  
 green → **rõhī**  
 grey → **grīs**⁺  
+griddle cake (Marīsõ, slav) → **plinõ**  
 grief → **leinõ**  
 grieve → **leinā**  
 grow (v.) → **kasvā**  
@@ -410,6 +445,7 @@ I → **mä**
 ice → **jǟ**  
 ice-cold → **jǟdõ**  
 idea → **idē**  
+idle talk (Marīsõ, slav) → **bajõmus**  
 if → **jōs**  
 immediately → **nūnū**  
 in a bit → **nūlõ**  
@@ -479,6 +515,7 @@ living → **elõmus**
 loneliness → **üksū**  
 long for (v.) → **igāldā**  
 longing → **iglū**  
+loose queue → **xolkõ**  
 lose (v.) → **kaotā**  
 loss → **kaotõmus**  
 love (v.) → **ārmastõ**  
@@ -491,12 +528,15 @@ maintain (v.) → **hoolā**
 maintenance → **hoolõmus**  
 maintenance worker → **hoolāji**  
 make peace → **lepā**  
+make street noise (Marīsõ, slav) → **xumā**  
 man → **mēs**  
 manure → **väetõ**  
 many → **mult**  
 mark (v.) → **märkā**  
+market stall (Marīsõ, slav) → **tārgõ**  
 marriage → **pulmõ**  
 marry (v.) → **pulmā**  
+Marīsõ speech → **marīskēļ**  
 mast → **mastõ**  
 match → **maçõ**⁺  
 matte → **tumõ**  
@@ -519,6 +559,7 @@ miss → **igāldā**
 miss (someone) (v.) → **kaipā**  
 missing → **kaipõmus**  
 mix (v.) → **segā**  
+mixed border life → **pīrõsegas**  
 money → **rā**  
 month → **kū**  
 moon → **kū**  
@@ -531,6 +572,7 @@ mouth → **bokā**
 much → **mult**  
 muddy (n./adj.) → **savī**  
 mushroom → **põlū**  
+mushroom (Marīsõ → **gribõ**  
 must → **pidā**  
 mystery → **mīstērõ**  
 
@@ -544,6 +586,7 @@ necessary → **tarīs**
 needed → **tarīs**  
 needle → **nõglõ**  
 neighbor → **nabõr**  
+neighborhood hall → **klubõ**⁺  
 net → **võrk**  
 net (sport) → **nētõ**  
 never → **mai**  
@@ -584,10 +627,12 @@ page → **lehtõ**
 pain → **valū**  
 pale (of color) → **helē**  
 pan → **pannõ**  
+pancake → **plinõ**  
 paper → **papõr**⁺  
 parent → **genõ**  
 pass (v.) → **pāsā**  
 passion → **kirg**  
+passport → **pāsportõ**⁺  
 paste → **limõ** · **limā**  
 patience → **kannõmus**  
 pay (v.) → **maksā**  
@@ -600,6 +645,7 @@ people → **rahvõ**
 pepper → **pipõr**⁺  
 permit → **lubõmus** · **lubā**  
 person → **inim**  
+person from Marīsõ → **marīsõr**  
 pick (v.) → **noppā**  
 pier → **tillõ**⁺  
 pig → **sigõ**  
@@ -642,6 +688,7 @@ purpose → **ārgõ**
 
 question → **kysõmus**  
 queue → **ootkõrd**  
+queue-crowd (Marīsõ, slav) → **xolkõ**  
 quill → **sulõ**  
 
 ## R
@@ -747,11 +794,15 @@ sing (v.) → **kantā**
 sister → **sisār**  
 six → **kūç**  
 sky → **taivõ**  
+slav → **gribõ** · **kapustõ**  
 sleep (v.) → **magā**  
 slice → **lõigā**  
 slow → **lent**  
 small → **petīt**  
+small coins → **drobõ**  
+small goods → **krāmõ**  
 smooth → **silē**  
+snatch casually (Marīsõ, slav) → **çapkā**  
 snow → **nēu**  
 soft → **pehmē**  
 son → **poig**  
@@ -760,6 +811,7 @@ soon → **nūlõ**
 soothe → **rahuldā**  
 sorry → **pardõ**  
 soup → **sup**  
+sour cream (Marīsõ, slav) → **smetõn**  
 south → **sud**  
 sow (v.) → **külvā**  
 sowing → **külvõmus**  
@@ -768,6 +820,7 @@ spice → **maitū**
 spouse → **kaimõ**  
 stable → **lāvõ**  
 stadium → **arēnõ**⁺  
+stall-seller (Marīsõ, slav) → **tārgõr**  
 star → **estēl**  
 start → **alk**  
 state → **rīgõ**⁺  
@@ -782,6 +835,9 @@ storm → **tormõ**
 story → **kontē**  
 stranger → **võrõ**  
 street → **karrē**  
+street bustle → **xumõ**  
+street hat (Marīsõ, slav) → **xapkõ**  
+street price (Marīsõ, slav) → **çenõ**  
 streetlight → **karrēlampõ**  
 strength → **võim**  
 strong → **fort**  
@@ -801,6 +857,7 @@ swell → **laintū**
 
 table → **taul**  
 take (v.) → **votā**  
+talk idly (Marīsõ, slav) → **bajā**  
 tall → **alt**  
 target → **mērkõ**  
 taste (v.) → **maitõ**  
@@ -875,10 +932,12 @@ upkeep → **hoolõmus**
 ## V
 
 vehicle trip → **sõidõmus**  
+vendor → **krāmõr**  
 vessel → **potõ**  
 victory → **võitõ**  
 village → **kylä**  
 vinegar → **vingõr**⁺  
+visa → **vīzõ**⁺  
 voice → **vēu**  
 vote → **balçõmus** · **balçā**  
 
@@ -890,6 +949,8 @@ waiting line → **ootkõrd**
 wake (v.) → **ärkā**  
 walk (v.) → **kǟvõ**  
 want (v.) → **volē**  
+wares (Marīsõ, slav) → **krāmõ**  
+wares-seller (Marīsõ, slav) → **krāmõr**  
 warm → **lǟmi**  
 warm (to touch) → **sojā**  
 was → **ūli**  

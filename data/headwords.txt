@@ -25,12 +25,18 @@ arvõ
 arvõldā
 arēnõ
 avuī
+babkõ
+bajõmus
+bajā
 balkõ
 balçõmus
 balçā
 bebē
 bel
+blokõ
 bokā
+bramõ
+bratkõ
 butīk
 bākõ
 bālõ
@@ -41,6 +47,9 @@ demā
 dent
 deret
 donā
+drobõ
+dvõrõ
+dēdkõ
 dī
 dīmys
 ehitõmus
@@ -65,6 +74,8 @@ frūt
 fīnõ
 genõ
 gos
+grançõ
+gribõ
 grīs
 haavõmus
 haavā
@@ -148,6 +159,7 @@ kaotõmus
 kaotā
 kap
 kaptā
+kapustõ
 karistõ
 karistā
 karjõ
@@ -181,6 +193,7 @@ kirjāji
 kirīk
 kitsõ
 kivī
+klubõ
 kolm
 kompass
 komprā
@@ -190,6 +203,8 @@ kor
 kos
 kotxē
 koçõr
+krāmõ
+krāmõr
 kudā
 kui
 kuinā
@@ -298,7 +313,9 @@ maitūs
 maksõmus
 maksā
 malālt
+marīskēļ
 Marīsõ
+marīsõr
 marīt
 mastõ
 matrūs
@@ -313,6 +330,8 @@ mer
 meçā
 miks
 mis
+mrovõ
+mrovõr
 mult
 muntāñ
 murk
@@ -409,7 +428,9 @@ pidā
 piletõ
 pilv
 pipõr
+pirõg
 plat
+plinõ
 poig
 pomā
 pont
@@ -443,6 +464,7 @@ põrsõ
 püsā
 püsām
 pārkõ
+pāsportõ
 pāsā
 pēlõ
 pēlā
@@ -450,6 +472,9 @@ pēlāji
 pēlām
 pēu
 pīrõ
+pīrõlubõmus
+pīrõsegas
+pīrõsitāt
 pōr
 pū
 pūmõ
@@ -509,6 +534,7 @@ semprē
 servõmus
 servā
 sest
+sestrõ
 sesõn
 setmān
 sidõmus
@@ -522,6 +548,7 @@ sirpõ
 sisār
 sitānik
 sitāt
+smetõn
 sojā
 sol
 strānd
@@ -599,6 +626,8 @@ tõsī
 tõsītõ
 tõsītū
 tāgõ
+tārgõ
+tārgõr
 tā́ga
 tē
 tēdõ
@@ -673,14 +702,21 @@ vānā
 vēu
 vī
 vīsū
+vīzõ
 vīç
 vǟrpēlõ
 vǟrpēlā
 vǟrõ
+xapkõ
 xip
+xolkõ
+xumõ
+xumā
 äb
 ärkā
+çapkā
 çent
+çenõ
 õblā
 õbē
 õhtõk
