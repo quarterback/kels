@@ -357,8 +357,6 @@ lubômus
 lubā
 lugē
 lugēmys
-lumõ
-lumõstā
 lypsômus
 lypsā
 läpx
@@ -674,6 +672,8 @@ skīt
 skītôr
 skītā
 smetôn
+snē
+snēā
 sojā
 sol
 strānd

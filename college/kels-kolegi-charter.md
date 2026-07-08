@@ -601,3 +601,7 @@ Grammar: **no perfect tense** (simple past covers it); **translative** = goal ca
 ## 51. Weather & seasons domain (v4.9)
 
 **Weather verbs take no subject** (bare verb, like the imperative): *vimõ* "(it) rains", *lumõ*/*lumõstā* "(it) snows", *müristä* "(it) thunders". Reused existing canon (vim rain, tūļ wind, pilv cloud, udū fog, tems weather, sojā warm, kylm cold, nēu snow) rather than the delegate's Estonian duplicates. Added, nativized: seasons **kevä** spring, **suvi** summer, **sügü** autumn, **talv** winter; **tuisk** blizzard, **pakā** frost, **päikü** sunshine, **sulā** thaw, **välk**/**välkü** lightning/to flash, **müristü**/**müristä** thunder/to thunder, **lumõ** snow (doublet with native nēu). Delegate proposed Estonian -ma/-i forms (vihm, tuul, udu, müristä-ma); Rector reused canon or nativized. 904 headwords.
+
+## 52. Doublet-divergence rule (v4.9)
+
+*lumõ* "snow" (too transparently Finnish, doubling native nēu with no divergence) withdrawn; replaced by **snē** / **snēā** (Scandinavian *snö/snee*). **Standing rule:** when a word gets a doublet, the second member is drawn from a DIFFERENT quarry (Low German, Scandinavian, or Slavic) — never a second Finnic form. Doublets exist to split across strata (native inland vs. borrowed metroplex), so a Finnic-vs-Finnic pair does no work. nēu (native) / snē (Scandinavian) is the model: inland says nēu, metroplex says snē. Contributors: do not coin Finnic-shaped words that merely re-skin an existing native word; reach for a non-Finnic quarry or flag the gap.

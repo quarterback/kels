@@ -165,6 +165,7 @@ catch (of fish) → **sañô**
 cause → **pôhjô**  
 center → **keskū**  
 cf. native kāpôs) → **kapustô**  
+cf. native nēu) → **snē**  
 cf. native pôlū) → **gribô**  
 cf. rānd) → **strānd**  
 cf. vastômus) → **vastāmus**  
@@ -976,7 +977,9 @@ small program → **apô**⁺
 smooth → **silē**  
 snatch casually (Marīsô, slav) → **çapkā**  
 snout → **mūlô**  
-snow → **lumõ** · **lumõstā** · **nēu**  
+snow → **nēu**  
+snow (Scandinavian → **snē**  
+snow (weather verb) (v.) → **snēā**  
 snowstorm → **tuisk**  
 soak (coarse) → **prōmôr**  
 soft → **pehmē**  
