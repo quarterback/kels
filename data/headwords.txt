@@ -14,11 +14,13 @@ alatü
 alk
 alkā
 alt
+alõs
 alū
 amtô
 amtôji
 amīk
 amōr
+appü
 apô
 aribā
 arm
@@ -93,6 +95,7 @@ ennū
 ernē
 eskerrē
 eskōl
+esmõks
 estēl
 et
 failô
@@ -143,6 +146,7 @@ hell
 hellū
 helē
 hennô
+hetk
 hirmus
 hoolômus
 hoolā
@@ -161,6 +165,7 @@ ikkü
 ilma
 ilo
 inim
+issõ
 istā
 isü
 itkô
@@ -202,6 +207,7 @@ kadīr
 kafē
 kahetsômus
 kahetsā
+kahjū
 kaimô
 kaipômus
 kaipā
@@ -291,6 +297,7 @@ krūçôfiks
 krūçā
 kudā
 kui
+kuidagü
 kuinā
 kuiv
 kukô
@@ -299,12 +306,15 @@ kun
 kuni
 kurt
 kus
+kusagü
+kuulõ
 kylm
 kylä
 kysô
 kysômus
 kôg
 kôgõ
+kôgõl
 kôlt
 kônô
 kônā
@@ -365,6 +375,7 @@ livrôkōt
 lohū
 lohūldā
 lop
+lopõks
 lopā
 lubômus
 lubā
@@ -422,6 +433,7 @@ mentīd
 mer
 merd
 meçā
+midagü
 miks
 mikô
 miljôn
@@ -434,6 +446,7 @@ muidū
 mult
 mumbõ
 muntāñ
+muretõ
 murk
 must
 mustveç
@@ -478,9 +491,12 @@ nalī
 naurô
 naurā
 ne
+niimôdõ
 nim
 nixō
+njah
 nobē
+noh
 nolô
 noppômus
 noppā
@@ -513,6 +529,8 @@ nǟlgô
 nǟr
 obrī
 obūn
+ohô
+oi
 olūt
 omõt
 omõtõ
@@ -669,6 +687,7 @@ savī
 sañô
 se
 sedôm
+seejärõl
 segas
 segā
 seilā
@@ -676,6 +695,7 @@ selgô
 selgū
 selkô
 sellü
+selēks
 semprē
 servômus
 servā
@@ -775,6 +795,7 @@ taç
 teinütõ
 tems
 tervetô
+tervü
 tillô
 tintô
 tirist
@@ -831,6 +852,7 @@ unī
 unīstā
 usaldômus
 usaldā
+vabõ
 vahel
 vai
 vaik
@@ -847,9 +869,11 @@ vanamǟr
 vanapǟr
 vangô
 vanôr
+varsü
 varā
 vasikô
 vastômus
+vastü
 vastā
 vastāmus
 vastāsaatā
@@ -908,12 +932,14 @@ xumā
 äb
 äkkü
 ärkā
+äsjü
 çapkā
 çenô
 ôblā
 ôbē
 ôhtôk
 ôli
+ônnô
 ôpôkambôr
 ôpômus
 ôpā
