@@ -4,6 +4,7 @@ abītȫ
 adē
 aedô
 agā
+ainô
 ajēr
 ajū
 aktô
@@ -78,6 +79,7 @@ dēdkô
 dēl
 dī
 dīmys
+edä
 eest
 ehitômus
 ehitā
@@ -138,6 +140,7 @@ hell
 hellū
 helē
 hennô
+hirmus
 hoolômus
 hoolā
 hoolāji
@@ -148,10 +151,12 @@ hǟ
 idā
 idē
 iglū
+igävē
 igāldā
 ilma
 ilo
 inim
+istā
 itkô
 ja
 jaamô
@@ -159,6 +164,7 @@ jagô
 jeds
 jedôn
 juht
+järsk
 jättômus
 jättā
 jättām
@@ -176,9 +182,11 @@ jūr
 jūst
 jǟ
 jǟdô
+jǟmä
 jǟrv
 ka
 kabēl
+kadô
 kadē
 kadēldā
 kadīr
@@ -258,6 +266,7 @@ komprā
 komprē
 kontē
 kor
+korraks
 kos
 kotxē
 koçôr
@@ -359,6 +368,7 @@ lēsô
 lēsām
 lēt
 lībā
+līkô
 līnô
 līvô
 lōdô
@@ -410,6 +420,7 @@ murk
 must
 mustveç
 mustveçkôrd
+muutô
 mä
 märg
 märktaul
@@ -442,6 +453,7 @@ nabôr
 nahkô
 naisô
 nalī
+naurô
 naurā
 ne
 nim
@@ -457,6 +469,7 @@ nôglô
 nôrk
 nôuk
 nôukôr
+nõkā
 nān
 nē
 nēm
@@ -550,6 +563,8 @@ pôjā
 pôlvô
 pôlū
 pôrsô
+pöördô
+püstü
 püsā
 püsām
 pārkô
@@ -674,6 +689,7 @@ sôidā
 sônaktô
 sônā
 sônālivrô
+sülü
 sāl
 sāli
 sālsāl
@@ -690,6 +706,8 @@ sīnsīn
 sōdā
 sōdāji
 sōla
+sōv
+sōvā
 sūr
 sȫk
 sȫtô
@@ -709,6 +727,7 @@ tantô
 tappô
 tappā
 tard
+tark
 tarīs
 taul
 taç
@@ -740,6 +759,7 @@ tôl
 tôsī
 tôsītô
 tôsītū
+tõusô
 tāgô
 tārgô
 tārgôr
@@ -846,8 +866,10 @@ xumā
 ôpômus
 ôpā
 ôpāji
+üksü
 üksū
 üksūldā
+ümbär
 ürd
 āhi
 ārgô
