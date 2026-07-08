@@ -1,0 +1,278 @@
+# Kēļs Kolēgi — The Nelõxi College of Language
+## Contributor Charter & Word-Coining Protocol, v1.0
+
+This document is everything a contributing agent needs to coin new Nelõxi vocabulary. Hand it over whole. Contributors follow it exactly; the Rector (the originating thread) reviews batches before they enter canon.
+
+**Canon authority:** the coursebook (*Nelõ kēļ: A Course and First Dictionary*) is the single source of truth. This charter summarizes its rules for production purposes. Where they conflict, the coursebook wins.
+
+**Register rule:** Nelõxi is treated as a real language. Contributors never discuss, mention, or hint at source languages, inspirations, or design history in any deliverable. Words simply *are* Nelõxi.
+
+---
+
+## 1. The sound system (hard constraints)
+
+**Letters:** a b d e f g h i j k l m n o p r s t u v x y ä ö õ ç ñ · long vowels ā ē ī ō ū ǟ ȫ · geminate l·l
+
+**Fixed values (never violated):**
+- ç = [ts] · x = [ʃ] · ñ = [ɲ] · j = [j] · h always pronounced
+- õ = back unrounded vowel; ä ö y = front vowels; macron = long vowel (phonemic)
+- Doubled consonants (tt, kk, ll, ss, nn, mm) are long and meaningful
+
+**Letters that DO NOT exist:** c (bare), q, w, z. Do not use them.
+
+**Syllable and word shape:**
+- No word-initial consonant clusters in ordinary (old-stratum) vocabulary. *tr-, st-, pl-, fl-, kl-* etc. are illegal word-initially. Break them with a vowel (*tirist*, *eskōl*) or wear them away (*rānd*). Exception: **late-stratum loans** may keep light clusters — see §11.
+- Medial clusters are fine (*eskōl, markõt, setmān*).
+- Words end in a vowel or in a consonant / light cluster (-n, -s, -t, -r, -l, -k, -d, -st, -nt, -rt, -lm, -rv and similar).
+- Words are 1–3 syllables preferred; 4 is the ceiling for ordinary vocabulary.
+- Stress is always initial (this affects how a word "reads" — front-load the distinctive material).
+
+**Aesthetic center of gravity:** vowel-rich, soft, with õ, ǟ, ō, ç, x, ñ appearing regularly. A page of Nelõxi should look diacritic-dense. If a batch of new words could pass for plain English or plain Spanish, it has drifted.
+
+## 2. Harmony (suffix rule only)
+
+Roots may mix any vowels freely. **Suffixes harmonize to the root's final vowel:**
+- Final vowel is a, o, u, õ → back forms: linking vowel **-õ-**, goal **-lõ**
+- Final vowel is ä, ö, y, e, i → front forms: linking vowel **-e-**, goal **-lä**
+
+Contributors do not need to supply inflected forms, but every proposed noun must be *inflectable*: test it mentally with -n, -s, -l before submitting.
+
+## 3. Reserved morphology (collision hazards)
+
+These endings carry grammar. New words may *end* in these letters, but a contributor must check that the result does not masquerade as an inflected form of an existing word:
+
+| Ending | Function |
+|---|---|
+| -n | object case |
+| -s | linking case (of/'s) |
+| -l / -lõ / -lä / -lt | place / goal / source cases |
+| -k | together case (with) |
+| -d | plural |
+| -i | past tense |
+| -ji | agent participle (one who does) |
+| -dõt | passive participle (done) |
+| -ks | conditional (would/should) |
+| -mi | comparative (more/-er) |
+| -nd | ordinal (third, fourth …) |
+| -teis | teens (11–19) |
+| -ū | nominalization of postpositions/relational words only (al → alū) |
+| -mus / -mys | deverbal result/abstract noun (valdā → valdõmus) |
+| -stā / -stä | denominative verb: engage in/work with X (kalā → kalāstā) |
+| -ldā / -ldä | denominative mental-activity verb (mõtõ → mõtõldā); linking -õldā/-eldä after consonant |
+| -ām / -äm | place/arena of the action (rēdā → rēdām "court"; pēlā → pēlām "field") |
+| -õr | person associated with a noun/adjective (nõuk → nõukõr; kēļ → kēļõr) — distinct from deverbal -ji |
+
+**Worked example of a collision:** "hundred" could not be *sadā* because *sadā* already means "to fall (rain/snow)"; canon chose *çent*. This is the exact class of error the check in §5 exists to catch.
+
+## 4. Function words already fixed (do not re-coin)
+
+um/ūli (be) · äb (not) · nē (no) · jā (yes) · ka (question particle) · et (that) · ja (and) · agā (but) · vai (or) · jōs (if) · sest (because) · tambē (also) · se (this/that) · mult (many) · võī (can) · pidā (must) · mai (never) · semprē (always) · nyt (now) · postpositions: al, tāga, jeds (spatial before), enne (temporal before), ilma, pǟl · pronouns: mä, sä, tä, mēg, tēg, ne · question words: mis, ken, kus, kun, kui, miks · numbers: üks, kaks, kolm, nēļa, vīç, kūç, seis, kōtõks, īdõks, kīm, çent, mīl, esmī, tõin
+
+## 5. The coining workflow (per word)
+
+1. **Concept first.** Take the assigned English gloss.
+2. **Check canon.** Scan the headword list (§7) — is the concept already covered, or does a near-synonym exist?
+3. **Coin a candidate** within the sound rules of §1. Prefer forms that feel kin to the existing lexicon.
+4. **Phonotactic check:** no initial cluster, legal final, ≤3 syllables, no forbidden letters.
+5. **Collision check:** the candidate must not (a) duplicate a headword, (b) equal an inflected form of an existing headword under §3, or (c) sit one letter away from a common word with unrelated meaning.
+6. **Inflectability check** (nouns/adjectives): attach -n, -s, -l mentally; (verbs): attach -i, -ji, -ks.
+7. **Record** in the submission format of §6, with one example sentence using only canon grammar and, wherever possible, canon vocabulary.
+
+## 6. Submission format
+
+One table per batch, 25–40 words, one domain per batch:
+
+| Headword | Part of speech | Gloss | Example sentence | Translation |
+|---|---|---|---|---|
+| *word* | n. / v. / adj. / adv. / postp. | one-line English | full Nelõxi sentence | English |
+
+Below the table, a short **collision notes** line flagging anything the contributor was unsure about. Batches without collision notes are assumed unchecked and will be returned.
+
+## 7. Canonical headword list (collision reference, v2.0 — 542 entries, synced from coursebook)
+
+abī · abīstā · adē · agā · ajēr · ajū · aktõ · akõr · al · alk · alkā · alt · alū · amtõ · amtõji · amīk · amōr · aribā · arst · arvõ · arvõldā · arēnõ · avuī · balkõ · balçõmus · balçā · bebē · bel · bokā · butīk · bākõ · bālõ · bōt · dek · demā · dent · deret · donā · dī · ehitõmus · ehitā · elõmus · elā · enne · ennū · eskerrē · eskōl · esmī · estēl · et · famīl·la · felīç · finest · flag · fort · frūt · fīnõ · genõ · gos · grīs · habrõ · hamõr · handlõ · handlõji · handõl · harjõmus · harjā · haudõ · helē · idā · idē · ilma · ilo · inim · itkõ · ja · jeds · jõg · jõvā · jā · jān · jōdõ · jōs · jūn · jūnõr · jūst · jǟ · jǟdõ · jǟrv · ka · kabēl · kadīr · kafē · kaimõ · kaks · kaltõ · kaltā · kalā · kalāji · kalāstā · kalēnt · kambõr · kamī · kantā · kançāt · kançō · kanā · kaotõmus · kaotā · kap · kaptā · karistõ · karistā · karn · karrē · karī · karīk · kat · kaug · kaçõ · kaçā · ken · kevē · kihlõ · kihlā · kirjõ · kirjõmus · kirjā · kirjāji · kirīk · kivī · kolm · kompass · komprā · komprē · kontē · kor · kos · kotxē · koçõr · kudā · kui · kuinā · kuiv · kuld · kun · kurt · kus · kylm · kylä · kysõ · kysõmus · kõg · kõlt · kõrd · kõust · kõv · köis · kāldõ · kāldõldā · kārgõ · kārtõ · kēļ · kēļkõrd · kēļõr · kīm · kōlõr · kōrrõ · kōt · kōtõks · kū · kūlõ · kūç · kǟs · kǟvõ · laht · lain · laintū · last · lehtõ · leikā · leinõ · leinā · lent · leskõ · lil · limõ · limā · lit · livrõ · livrõkōt · lop · lopā · lubõmus · lubā · lugē · lugēmys · läpx · lõng · lēgõ · lēsõ · lēsām · lēt · līvõ · lōdõ · lōtõ · lūdõ · lǟdõ · lǟkõ · lǟmi · lǟn · madal · magā · magūs · mai · maksõmus · maksā · malālt · marīt · mastõ · matrūs · matī · maçõ · mediçīn · medāl · menjā · mentīd · mer · meçā · miks · mis · mult · muntāñ · must · mä · märg · märkõmus · märkā · mõtõ · mõtõldā · mā · māçõr · mēdõr · mēdā · mēg · mēl · mēldā · mēlā · mērkõ · mēs · mīl · mīstērõ · mōl · mǟr · mǟtõmus · mǟtā · nabõr · naisõ · naurā · ne · nim · nobē · nugā · nyt · nõglõ · nõrk · nõuk · nõukõr · nān · nē · nēm · nētõ · nēu · nēļa · nīrõ · nīt · nǟgõ · nǟlg · obrī · obūn · olūt · onkõ · orvõ · orānx · pa · palõ · papõr · parandõmus · parandā · pardõ · parlā · pehmē · pelgõ · perēm · petīt · pidõmus · pidā · pilv · plat · poig · pomā · pont · port · potõ · praul · prop · prēu · puhād · puhādā · pulmõ · pulmā · punktõ · punktā · purjē · purpõr · päriji · pärõmus · pärā · põhjõ · põhjõldā · põhõ · põhõlēgõ · põjā · põlvõ · pāsā · pēlõ · pēlā · pēlāji · pēlām · pēu · pīrõ · pōr · pū · pūmõ · pūn · pǟl · pǟlū · pǟr · pǟvõ · rahvõ · raksõ · raksā · rask · ratõ · raud · ravõji · ravā · redē · reisā · rekõt · rik · rindõ · rõhī · rā · rājõ · rānd · rāndõr · rēdā · rēdāji · rēdām · rētõ · rīgõ · rīst · rōs · rūnõ · rūnõkõrd · sadā · satām · savī · sañõ · se · segas · seilā · seis · selgõ · selgū · selkõ · semprē · servõmus · servā · sest · sesõn · setmān · sidõmus · sidā · silm · silē · sinī · sisār · sitānik · sitāt · sojā · sol · strānd · sud · sugõ · sugõläpx · sugõr · sukrõ · sulõ · sup · surmõ · surā · syndõmus · syndā · syv · sä · sõnā · sõnālivrõ · sāl · sān · sār · sāvõ · sāvā · sīgel · sīlõ · sīlā · sīn · sōdā · sōdāji · sōla · sūr · taivõ · talçā · talçāji · tambē · tankā · tantõ · tappõ · tappā · tard · tarīs · taul · taç · tems · tervetõ · tillõ · tintõ · tirist · tormõ · tornē · tugev · tulē · tumõ · tundõ · tyhjā · tytār · tä · täno · tõin · tõsī · tõsītõ · tõsītū · tāga · tē · tēdõ · tēdõmus · tēg · tēno · tēre · tīt · tītū · tūļ · tǟs · tȫ · tȫdõ · tȫkambõr · udū · um · unõstā · unī · unīstā · vai · vaik · valdõmus · valdā · valgõ · valvā · valvāji · valī · valīstā · valū · vana · vanamǟr · vanapǟr · vangõ · vanõr · varā · vastõmus · vastā · vastāmus · vendā · verī · vespõr · veç · veļ · vihān · vim · viskā · volē · vool · vormā · votā · võim · võitõ · võitā · võrk · võrõ · võtī · võī · vāj · vānõ · vānā · vēu · vī · vīsū · vīç · vǟrpēlõ · vǟrpēlā · vǟrõ · xip · äb · ärkā · çent · õblā · õbē · õpõkambõr · õpõmus · õpā · õpāji · üks · ārgõ · ārmastõ · āst · ēgõ · ēgā · īdõks · ōra · ōu · ūli · ūsk · ūskõ
+
+*(This list is regenerated after each canonized batch; contributors always work from the latest.)*
+
+## 8. Open domain assignments (Units 11+)
+
+Each is one delegable batch of 25–40 words:
+
+- **U11 — Law & governance:** court, judge, law, right, duty, tax, council, vote, citizen, border, permit, seal, oath …
+- **U12 — Sport & play:** game, ball, team, to win, to lose, race, goal, referee, court/field, to throw, to catch, score …
+- **U13 — Craft & tools:** to build, wood, iron, hammer, rope, wheel, cloth, needle, to cut, to mend, workshop …
+- **U14 — Extended kinship & life stages:** cousin, uncle, aunt, neighbor, guest, wedding, birth, death, funeral, heir …
+- **U15 — Colors & qualities:** the color set, plus rough/smooth, heavy/light, wet/dry, clean/dirty, empty/full …
+- **U16 — Learning & writing:** to write, letter, paper, pen, teacher, student, lesson, to learn, question, answer (n.), page …
+- **U17 — Deep maritime:** sail (n.), mast, anchor, net, tide, storm, lighthouse, cargo, deck, to drown, current …
+- **U18 — Emotion nuance:** hope, shame, pride, longing, envy, calm, worry, to miss (someone), to forgive …
+- **U19 — Food, deep:** vegetables, spices, cooking methods, meals of the day, to bake, oven, flour, honey …
+- **U20 — Abstract & thought:** idea, reason, doubt, belief, memory, dream, choice, purpose, beginning, end …
+
+## 9. Canonization
+
+The Rector reviews each batch for phonotactic compliance, collisions, and aesthetic drift, then merges accepted words into the coursebook's master dictionary and reissues the headword list. Rejected words come back with a one-line reason. Nothing is canon until merged.
+
+## 10. The Adaptation Engine (backstage only — never appears in reference materials)
+
+For cultural vocabulary — trade, sea, town, law, craft, church, money — contributors need not invent from scratch. Mine a Middle Low German wordlist and run these mechanical rules. The output is canon-shaped by construction.
+
+**MLG → Nelõxi adaptation rules:**
+1. **Stress to the first syllable**, always: *be'tālen* → *'betālõ* "to pay."
+2. **Epenthetic final vowel** on nouns ending in heavy consonants, harmonized: *markt* → *markõt*; *amt* → *amtõ* "office."
+3. **w → v**: *wīn* → *vī*.
+4. **sch → x**: *schip* → *xip*.
+5. **Long vowels survive as long vowels**: *wīn* → *vī*.
+6. **Verb suffix -ēren → -ā**: *parlēren* → *parlā*.
+7. **Agent -er → -õr**, or calque with native **-ji**: *fisker* → *kalāji* (calqued).
+8. **Initial clusters resolve by loan age** — see §11.
+
+**Sourcing note:** use the rules, not any accompanying etymological narrative, as authority. Historical claims about specific MLG forms should be treated as unverified worldbuilding unless independently checked; the derivation machine works regardless.
+
+## 11. Loan strata: adaptation depth encodes age
+
+Nelõxi vocabulary shows its borrowing history in its shape. Contributors assign each cultural loan to a stratum:
+
+- **Old stratum (fully nativized):** all rules of §1 and §10 apply without exception — initial clusters are *worn away entirely* (*strand* → **rānd** "shore"), finals are opened, everything is soft. Use for: anything the culture has had for centuries — basic trade, sea, farm, faith.
+- **Late stratum (partially adapted):** light initial clusters (*st-, sk-, br-, kr-*) and heavier finals are tolerated (*strānd* "beach, waterfront"). Use for: recent, urban, technical, administrative vocabulary. Sparingly — the late stratum should feel like a thin modern crust, not a second language.
+- **Doublets are encouraged** where the same source plausibly arrived twice: *rānd* (old, broad, poetic) / *strānd* (late, nautical). Record both with distinct glosses and registers.
+- **The sanding is a direction, not a boundary.** Every late-stratum word is on its way to the native shape; common speech softens what charts and contracts keep crisp. Contributors may record a softened everyday variant beside an audible formal one (*strānd* on the harbor map, *tarānd* in a fisher's mouth), and when only one form is submitted, prefer the soft shape unless the word is distinctly technical, administrative, or new.
+
+In-world reference materials describe stratum differences purely as **register** ("older word, broader sense" / "newer word, technical sense") — never as borrowing history.
+
+## 12. Rector's Rulings (binding addendum, v1.1)
+
+1. **rānd is canon** — *rānd* "shore, waterside (broad, poetic)" vs. *strānd* "beach, waterfront (nautical, technical)." Do not re-coin; build on both.
+2. **Cluster ceiling:** late stratum permits **two-consonant onsets only** — *st- sk- sp- br- pr- kr- tr- dr- gr- fl- pl- kl- bl- gl-*. Three-consonant onsets (*skr-, spr-, spl-*) are barred even late. *strānd* is a grandfathered exception, not a template; soften new *skr-* etc. to a single onset (*skrīn* → *sirīn*).
+3. **Stratum ratio:** old stratum is default; late stratum is a thin crust — target ~1 in 6–7 words per batch, reserved for genuinely administrative/technical/recent concepts. When in doubt, soften.
+4. **-ū is productive.** Any newly coined postposition ships with its -ū nominalization in the same batch.
+5. **Verbs have no infinitive.** The bare stem is citation form, present tense, and the complement of *volē/võī/pidā*: *Mä volē lugē* "I want to read."
+6. **Ordinals 3–10 are open for coinage**, regular -nd on the cardinal: *kolmnd, nēļand, vīçnd, kūçnd, seisnd, kōtõksnd, īdõksnd, kīmnd*. *esmī / tõin* remain suppletive.
+7. **Superlative is periphrastic:** *kõg* "all" in linking-plus-postposition form **kõust** "of all," before the comparative — *kõust sūrmi* "biggest." No superlative suffix exists; do not coin one.
+8. **-lt is invariant** — the source case never harmonizes (unlike goal -lõ/-lä). *setmānõlt, matīlt* both correct.
+
+New canon words added this ruling: **kõg** all · **kõust** of all (superlative frame) · **rānd** shore, waterside.
+
+## 13. Rector's Rulings (binding addendum, v1.2 — U11 canonization)
+
+**Precedent set:** **-ū is NOT a general verb→noun suffix.** It nominalizes postpositions and relational words only (*al → alū*). For the abstract/result noun of a **verb**, use the new suffix **-mus / -mys** (harmonized): *valdā → valdõmus* "government," *lubā → lubõmus* "permit," *maksā → maksõmus* "tax," *balçā → balçõmus* "ballot." Contributors: never form a deverbal noun with -ū again.
+
+**U11 outcome:** 35 submitted, all accepted; the four erroneous -ū deverbal nouns were reconstructed with -mus. Two supporting headwords canonized: **põhõ** "base, foundation" (so *põhõlēgõ* "constitution" decomposes) and the **-mus** suffix itself. *rīgõ* "state" accepted as a **late-stratum** administrative term. *põhõlēgõ* is recorded as a transparent compound, not a separate headword.
+
+**Watch-notes for future batches:** (a) *vānõ* "oath" / *vana* "old" are a length-only minimal pair — legal but avoid stacking more near-homophones on this cluster; (b) result-noun of a verb always -mus, agent always -ji, relational noun always -ū — keep the three lanes clean.
+
+New canon words added this ruling: **aktõ, amtõ, amtõji, balçā, balçõmus, fīnõ, karistā, karistõ, lēgõ, lubā, lubõmus, maksā, maksõmus, nõuk, nõukõr, pīdū, pīrõ, põhõ, rahvõ, rētõ, rēdā, rēdāji, rēdām, rīgõ, sitānik, sīgel, tõsītõ, valdā, valdõmus, valvā, valvāji, vangõ, vānā, vānõ, vǟrõ** — plus suffix **-mus**.
+
+## 14. Rector's Rulings (binding addendum, v1.3 — U15 canonization)
+
+**Precedent set:** **because adjectives double as adverbs, a color/quality adjective may not be homophonous with an existing adverb or postposition.** They share the post-*um* slot, so context does not reliably disambiguate. *sīn* "blue" was rejected for colliding with *sīn* "here"; canon form is **sinī**. Contributors: check new adjectives against adverbs/postpositions, not just nouns.
+
+**U15 outcome:** 34 submitted, 34 accepted. Reshaped: *sīn* "blue" → **sinī**. Reclassified: *purpõr* "purple" → late-stratum (trade-dye import; joins *orānx, grīs, praul* — 4/34 late, still within crust). Self-corrected by contributor and upheld: *grīz* → **grīs** (z is forbidden). Supporting headword canonized: **jǟ** "ice" (so *jǟdõ* "ice-cold" decomposes; stem for future frost vocabulary). Lexical-split accepted: *sojā* "warm (to touch)" beside *lǟmi* "warm (ambient)".
+
+New canon words added this ruling: **grīs, habrõ, helē, jǟ, jǟdõ, karī, kārgõ, kevē, kõlt, kõv, kōlõr, kuiv, līvõ, must, märg, nīrõ, orānx, pehmē, praul, puhād, purpõr, pūn, rask, redē, rõhī, rōs, savī, silē, sinī, sojā, tugev, tumõ, tyhjā, tǟs, valgõ**.
+
+## 15. Rector's Rulings (binding addendum, v1.4 — U11 reconciliation)
+
+**Self-correction adopted:** the U11 contributor, applying the §13 -mus precedent, correctly flagged that *pīdū* "duty" was itself an -ū deverbal error (duty = result-noun of *pidā* "must"). **Ruling: *pīdū* withdrawn; *pidõmus* is canon** ("that which must be done"), parallel to *valdõmus/lubõmus/maksõmus/balçõmus*. The derivation is now transparent throughout.
+
+**New sub-rule — compounds in the headword list:** *transparent* compounds whose meaning is the sum of their parts are NOT listed separately (precedent: *vanamǟr, vanapǟr*). *Lexicalized* compounds — fixed terms whose meaning is more specific than their parts — ARE listed. Accordingly *põhõlēgõ* "constitution" (more than "base-law") is canonized as a headword.
+
+Canon corrections this ruling: **pīdū → pidõmus**; **+ põhõlēgõ** (lexicalized compound).
+
+## 16. Rector's Rulings (binding addendum, v1.5 — U17 canonization)
+
+**New productive suffix:** **-stā / -stä** — denominative verb, "to engage in / work with / produce X": *kalā* → *kalāstā* "to fish," *võrk* → *võrkstā* "to net." Freely productive.
+
+**Ratio ruling:** U17's maritime domain legitimately carries a heavier late stratum, but 9/32 (~1:3.5) read as a second language rather than a crust. Tightened to 7/32 by nativizing two: *kanāl* → **kanā** "channel," *kārt* → **kārtõ** "chart." Kept late: *dek, last, bākõ, tillõ, kompass, flag*. Contributors: even in maritime/trade, hold the late stratum near ~1:4.5 or looser.
+
+**Rejection:** *drift* "to drift" rejected — a bare, unnativized form that exposes the seams to a reading learner (the register rule guards exactly this). *ajū* "to drift" is the sole canon term; derive a nautical sense natively if needed later. The *ajū/drift* doublet framing is void.
+
+**Dependency resolved:** *põhõ* was already canon (U11); its gloss is extended to "base, foundation; bottom, floor (of sea/river)." No new entry.
+
+**Upheld calls:** *karīk* "reef" (the -k buffer is harmless; adjectives don't take the together case, so no real ambiguity with *karī* "dark"); *laintū* "swell" via productive -ū; *akõr* "anchor" fully sanded from the Adaptation Engine (model old-stratum nativization).
+
+New canon words added this ruling: **ajū, akõr, bākõ, dek, flag, kalāstā, kanā, karīk, kārtõ, kompass, laht, laintū, last, lūdõ, madal, mastõ, mēlā, nēm, purjē, rāndõr, sañõ, syv, tillõ, tormõ, udū, vaik, viskā, vool, võrk** — plus suffix **-stā**. (*drift* rejected; *kanāl→kanā*, *kārt→kārtõ* reshaped; *põhõ* gloss extended.)
+
+## 17. Rector's Rulings (binding addendum, v1.6 — U12 canonization)
+
+**Duplicate merged:** *viskā* "to throw" was already canon (U17). Same word, same function — not re-added; sporting sense folded into the existing entry.
+
+**Loan rejected, calqued instead:** *folõ* "foul" / *folā* "to foul" rejected as under-adapted seams (bare "foul"+ending). Replaced with native lexicalized compound **vǟrpēlõ** "foul" (*vǟrõ* "wrongdoing" + *pēlõ* "game") and **vǟrpēlā** "to foul." Precedent: when a sport/technical loan is a bare source-word, prefer a calque from existing roots.
+
+**Under-adapted loan sanded:** *reket* "racket" → **rekõt** (epenthetic harmonized final, per Adaptation Engine; cf. *markõt*).
+
+**Register split upheld:** *nētõ* "net (sport)" coexists with *võrk* "net (fisher's)" — a *lǟmi/sojā*-style register pair, not a collision.
+
+**Ratio:** ~9/35 late (~1:4), held at the maritime allowance. Sport, like maritime, legitimately carries a thicker crust (*maçõ, māçõr, medāl, perēm, tornē, sesõn, arēnõ, koçõr, rekõt*); not tightened further.
+
+New canon words added this ruling: **arēnõ, bālõ, ēgā, ēgõ, harjā, harjõmus, kaotā, kaotõmus, kaptā, koçõr, maçõ, māçõr, medāl, mērkõ, nētõ, pāsā, perēm, pēlā, pēlāji, pēlām, pēlõ, punktā, punktõ, rājõ, raksā, raksõ, rekõt, selkõ, servā, servõmus, sesõn, tornē, võitā, võitõ, vǟrpēlā, vǟrpēlõ**. (*folõ/folā* rejected; *reket→rekõt*; *viskā* merged.)
+
+## 18. Rector's Rulings (binding addendum, v1.7 — U13 canonization)
+
+**Merge:** *savī* "clay" (noun, submitted U13) merged into existing *savī* "clay-like, muddy" (adj., U15) as one headword **savī** (n./adj.) "clay; clay-like, muddy." Precedent: a substance word may serve as both noun and adjective when the senses are transparently one lexical item and don't produce contradictory predicate readings (contrast *sīn*, which did).
+
+**Stratum note:** U13 is 0/36 late-stratum, and correctly so — hand-craft and tools are the old stratum's heartland (the fisher/farmer register). A zero late-count here is right, not a miss. Contributors: craft, farm, body, kinship, weather = old-stratum-dominant domains; maritime, trade, sport, law, admin = where the crust legitimately appears.
+
+**U13 accepted 36/36** (one merged). New canon words: **balkõ, ehitā, ehitõmus, hamõr, kaltā, kaltõ, kudā, köis, leikā, limā, limõ, lōdõ, lōtõ, lõng, mēdā, mēdõr, nõglõ, õblā, parandā, parandõmus, potõ, pūmõ, ratõ, raud, rīst, sāvā, sāvõ, sidā, sidõmus, sīlā, sīlõ, tappā, tappõ, tȫkambõr, vormā** (+ *savī* merged).
+
+## 19. PROCESS ALERT & Pending Audit (v1.7)
+
+**The coursebook was edited outside the review loop.** During U13 merge, the Rector found ~20 headwords in the coursebook dictionary that were never submitted as a batch, never reviewed, and are NOT canonized. They were preserved (not deleted) but are quarantined pending audit:
+
+*kāldõ, kāldõldā, kõrd, lop, lopā, mēl, mēldā, mīstērõ, mōl, mõtõ, mõtõldā, põhjõ, põhjõldā, pǟl, pǟlū, segas, selgõ, selgū, tarīs, tītū, tundõ, tõsītū.*
+
+These appear to be an unsubmitted U20 (abstract/thought) draft. They introduce an unratified suffix **-ldā** (mental-act verbalizer: *mõtõ* "thought" → *mõtõldā* "to think"). The suffix may be worth adopting, but it entered without ruling.
+
+**Binding process correction — the coursebook is Rector-write-only.** Contributors submit BATCHES to the Rector; they do not edit `nelo-kel-coursebook.md` directly. The merge-gate is the single point of entry to canon; direct edits fragment canon and bypass collision/stratum/suffix review. Any agent with pending vocabulary resubmits it as a batch.
+
+**Pending:** the quarantined words above will be audited as a formal U20 batch (including a ruling on *-ldā*) before they count as canon. Until then they are provisional and excluded from the official count.
+
+## 18. Rector's Rulings (binding addendum, v1.7 — U20 canonization)
+
+**New productive suffix:** **-ldā / -ldä** — denominative verb of *mental* activity, "to perform the mental action of X" (*mõtõ* "thought" → *mõtõldā* "to think"; *arvõ* "number" → *arvõldā* "to count"). Linking form **-õldā/-eldä** after a consonant. Distinct from *-stā* (physical activity) and general *-ā*. The contributor coined the pattern across five words and correctly left it undeclared for Rector ruling — model procedure. (*mēldā* "to remember" is slightly irregular — *mēl+dā*, not *mēl+õldā*; accepted as-is, memory-verb erosion.)
+
+**New postposition:** **pǟl** "about, concerning, on the topic of" (linking case + *pǟl*): *merõs pǟl* "about the sea." Fills a real gap the contributor surfaced (no way to say "about"); its -ū nominalization **pǟlū** "topic, subject" is added per the productive rule.
+
+**Supporting root canonized:** **selgõ** "clear" (adj.), so *selgū* "clarity" decomposes (cf. the *jǟ/jǟdõ* precedent).
+
+**Coexisting pair upheld:** *tõsītū* "fact" (-ū) vs *tõsītõ* "evidence" (-tõ, lexical). Distinct form and sense; both stand.
+
+**Stratum:** zero late-stratum, and correct — abstract vocabulary is natively rooted cross-linguistically. The ratio rule is a ceiling, not a floor; a pure old-stratum batch is legitimate where the domain warrants (thought, memory, dream are not trade goods).
+
+New canon words added this ruling: **abī, abīstā, alk, alkā, arvõ, arvõldā, ārgõ, idē, kāldõ, kāldõldā, kõrd, lop, lopā, mēl, mēldā, mīstērõ, mōl, mõtõ, mõtõldā, põhjõ, põhjõldā, pǟlū, segas, selgõ, selgū, tarīs, tītū, tundõ, tõsītū, unī, unīstā, unõstā, ūsk, ūskõ, valī, valīstā, vīsū, võim** — plus suffix **-ldā**, postposition **pǟl**.
+
+## 19. Rector's Rulings (binding addendum, v1.8 — U14 canonization; U20 re-submission noted)
+
+**U20 re-submission:** identical to the batch canonized in §18 (v1.7). No new action; all §18 rulings stand.
+
+**U14 (kinship & life stages): 36 submitted, 36 accepted.**
+
+**Reshape — near-collision with a core kin term:** *pārõ* "parent" was rejected for colliding with *pǟr* "father" (differ only by *ā/ǟ* + final *-õ*; both high-frequency, co-occur constantly, blur under case endings). This is the *van-* saturation problem again, so the fix moves fully outside dense clusters: **"parent" = genõ**. (Sub-rule reinforced: new core kin/body terms must clear existing core kin/body terms by more than one feature.)
+
+**Example-sentence fix:** *kihlõ*'s example used an uncanonized *enne* "before"; rewritten with the canon postposition *jeds* — *kihlõ tulē pulmõs jeds*. Contributors: draw function words only from the canon list; do not introduce new ones inside examples.
+
+**Bonus canonization from a gloss:** *vastāmus* "responsibility" (*vastā* "to answer" + *-mus*, "that which must be answered for") appeared in an example gloss as a clean transparent derivation; canonized.
+
+**Upheld:** *sugõläpx* "cousin" as a lexicalized compound (*põhõlēgõ* precedent); the *marīt/naisõ/kaimõ* trio (husband/wife/gender-neutral spouse); *nabõr* "neighbor" old-stratum (nativized shape). Zero late-stratum, correct for kinship.
+
+New canon words added this ruling: **elõmus, genõ, haudõ, jūnõr, kaimõ, kihlā, kihlõ, leinā, leinõ, leskõ, mǟtā, mǟtõmus, nabõr, naisõ, onkõ, orvõ, põlvõ, pulmā, pulmõ, pärā, päriji, pärõmus, ravā, ravõji, surā, surmõ, sugõ, sugõläpx, sugõr, syndā, syndõmus, sōdā, sōdāji, tantõ, vanõr, vastāmus, võrõ**. (*pārõ→genõ* reshaped.)
+
+**⚠ SYNC NOTE:** the §7 headword list below is behind the coursebook — it does not yet include the canonized **U13 (craft)** batch (*ehitā, ehitõmus, hamõr, kaltā, kaltõ, kudā, köis, leikā, limā, limõ, lōdõ, lōtõ, lõng, mēdā, mēdõr, nõglõ, õblā, parandā, parandõmus, potõ, ratõ, raud, rīst, sāvā, sāvõ, savī, sidā, sidõmus, sīlā, sīlõ, tappā, tappõ, tȫkambõr, vormā, pūmõ, balkõ*) or this U14 batch. The coursebook dictionary is the authoritative current list; §7 should be regenerated from it before the next delegation cycle. *(Resolved: §7 regenerated and synced, v1.8.)*
+
+## 20. Founder's Amendment (v1.9)
+
+**enne** canonized by founder's direction, resolving the §19 example-sentence rejection in its favor — with a division of labor: **jeds** = before *in space* (in front of), **enne** = before *in time* (earlier than). Standard postposition frame (*pulmõs enne* "before the wedding") plus bare-adverb use (*Mä tulī enne* "I came earlier"). Its -ū nominalization **ennū** "the past, former times" enters per the productive rule. The no-prepositions rule is unchanged.
+
+## 21. Rector's Rulings (binding addendum, v2.0 — U16 canonization)
+
+**Two suffixes canonized from accumulated patterns** (four+ attestations each across prior units):
+- **-ām/-äm** — place/arena of an action: *rēdām* court, *pēlām* field, *satām* harbor, *lēsām* course. Retroactively regularizes three existing headwords.
+- **-õr** — person associated with a noun/adjective: *nõukõr, koçõr, māçõr, sugõr, jūnõr, vanõr, nabõr, kēļõr*. Attaches to nominals; **-ji** remains the deverbal doer. The agent system is now three-way: -ji (doer of a verb), -õr (person of a noun), -mus (result).
+
+**Fixes:** (a) example verb *algā* corrected to canon **alkā** (*Lēsām alkā matīl*) — examples must draw only from canon; (b) *sõnälivrõ* respelled **sõnālivrõ** — compounds never mutate their members' vowels.
+
+**Doublet ruling:** *vastõmus* "answer" (the *regular* -mus form of *vastā*) coexists with canon *vastāmus* "responsibility" (irregular, long ā frozen). Lexicalized minimal pair; flagged learner-sensitive.
+
+**Upheld:** *lugēmys* — first attested front-harmony -mys, correct; the writing family *kirjā/kirjõ/kirjāji/kirjõmus*; lexicalized compounds *livrõkōt* (library), *õpõkambõr*, *sõnālivrõ*, *rūnõkõrd* (alphabet = "letter-order," built on U20's *kõrd*), *kēļkõrd* (grammar). Late-stratum 2/32 (*papõr, tintõ*), correctly thin.
+
+New canon words this ruling: **kaçā, kaçõ, kēļkõrd, kēļõr, kirjā, kirjāji, kirjõ, kirjõmus, kysõmus, lehtõ, lēsõ, lēsām, livrõkōt, lugēmys, märkā, märkõmus, papõr, puhādā, rindõ, rūnõ, rūnõkõrd, sulõ, sõnālivrõ, talçā, talçāji, tēdõmus, tintõ, vastõmus, õpā, õpāji, õpõkambõr, õpõmus** — plus suffixes **-ām** and **-õr**.
