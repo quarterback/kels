@@ -571,3 +571,9 @@ what the word needs, and its foreignness is the feature.)
 
 ## 44. Amendment (v4.2 — comparative "than", shelf, "to seem")
 Gaps found by a translation stress-test. **kui** extends to "than" (*raskmi kui X*). **riul** "shelf" (late). **sīmā** "to seem, look, appear" (distinct from *nǟgô* "to see"). Total 851.
+
+## 47. Pronunciation of the name (canonical, founder-set)
+
+The country **Nelôxia** and the language **Nelôxi** are pronounced **nel-OX-ee-ah** / **nel-OX-ee** — the **x** here is [ks] (hard, as in English "box"), and stress falls on the **second** syllable, not the initial.
+
+This is a frozen proper-noun spelling: elsewhere in Nelôxi **x** = [ʃ] and stress is initial, but the name of the country and language keeps the older value and stress, the way national names commonly preserve archaic pronunciation. The endonym *nelô kēļ* follows normal rules (NEH-loh kēļ); only the -xi-/-xia forms carry the [ks].
