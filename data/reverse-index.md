@@ -1,6 +1,6 @@
 # Nelõ kēļ — English → Nelõxi Reverse Index
 
-*Generated from the coursebook master dictionary (672 headwords). Find your English word, take the Nelõxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
+*Generated from the coursebook master dictionary (675 headwords). Find your English word, take the Nelõxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
 
 
 ## A
@@ -27,6 +27,7 @@ apple → **pomā**
 arena → **arēnõ**⁺  
 arrive (v.) → **aribā**  
 ask (v.) → **kysõ**  
+at once! (interjection → **fluks**  
 aunt → **tantõ**  
 award → **perēm**⁺  
 
@@ -296,7 +297,7 @@ foundation → **põhõ**
 four → **nēļa**  
 fragile → **habrõ**  
 friend → **amīk**  
-from now on → **vortān**⁺  
+from now on → **nūlt**  
 fruit → **frūt**  
 fry (v.) → **praadā**⁺  
 full → **tǟs**  
@@ -358,7 +359,7 @@ heavy timber → **balkõ**
 heir → **päriji**  
 hello → **tēre**  
 help → **abī** · **abīstā**  
-henceforth → **vortān**⁺  
+henceforth → **nūlt**  
 herb → **ürd**  
 here → **sīn**  
 honey → **melī**  
@@ -382,8 +383,8 @@ ice → **jǟ**
 ice-cold → **jǟdõ**  
 idea → **idē**  
 if → **jōs**  
-immediately → **fluks**⁺  
-in a bit → **tost**⁺  
+immediately → **nūnū**  
+in a bit → **nūlõ**  
 in front of (postp.) → **jeds**  
 in the middle of (postp.) → **kesk**  
 inherit (v.) → **pärā**  
@@ -401,7 +402,8 @@ jail → **vangõ**
 joy → **ilo**  
 judge (v.) → **rēdā** · **rēdāji**  
 juice → **māhl**  
-just now → **tost**⁺  
+just now → **nūlõ**  
+just over there → **sālsāl**  
 
 ## K
 
@@ -420,6 +422,7 @@ lake → **jǟrv**
 lamp → **lampõ**⁺  
 language → **kēļ**  
 late → **tard**  
+late-stratum) → **fluks**  
 laugh (v.) → **naurā**  
 law → **lēgõ**  
 learn (v.) → **õpā**  
@@ -476,6 +479,7 @@ memory → **mēl**
 mend (v.) → **parandā**  
 mending → **parandõmus**  
 merchant → **handlõji**  
+merchant register → **fluks**  
 midday meal → **lõunā**  
 middle → **keskū**  
 milk → **lēt**  
@@ -517,7 +521,7 @@ no → **nē**
 north → **põjā**  
 not → **äb**  
 note → **märkõmus**  
-now → **nyt**  
+now → **nū**  
 number → **arvõ**  
 
 ## O
@@ -632,7 +636,8 @@ rich → **rik**
 ride → **sõidõmus** · **sõidā**  
 right → **rētõ**  
 right (side) → **deret**  
-right now → **fluks**⁺  
+right here → **sīnsīn**  
+right now → **nūnū**  
 river → **jõg**  
 road → **kamī**  
 roast (v.) → **röstā**  
@@ -709,7 +714,7 @@ snow → **nēu**
 soft → **pehmē**  
 son → **poig**  
 song → **kançō**  
-soon → **tost**⁺  
+soon → **nūlõ**  
 soothe → **rahuldā**  
 sorry → **pardõ**  
 soup → **sup**  

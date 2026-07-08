@@ -111,13 +111,15 @@ When a participle cannot carry the load (past tense, its own objects), **ken** "
 
 Adjectives serve as adverbs unchanged: *magā jõvā* "sleep well," *kōrrõ nobē* "run fast," *tulē varā* "come early." No ending is added or needed.
 
-## Now, right now, and just now
+## Now, now-now, and just now
 
-Around native *nyt* "now" sits a ladder of urgency words in the merchant register — the vocabulary of schedules, contracts, and departures, and it sounds like it:
+Deictic adverbs of time and place **reduplicate for immediacy**: *nū* "now" → **nūnū** "right now, this instant"; *sīn* "here" → **sīnsīn** "right here"; *sāl* "there" → **sālsāl** "just over there."
 
-> **fluks** — right now, immediately, at once · **nyt** — now · **tost** — just now: soon, in a bit, when I get to it · **vortān** — from now on, henceforth
+Because time-words take the local cases, *nū* also inflects: goal-case **nūlõ** ("toward now") means *soon, presently, in a bit* — a promise without a deadline — and source-case **nūlt** means *from now on, henceforth*. The full ladder, most urgent to least:
 
-*Xip lǟkõ fluks!* "The ship leaves NOW!" — but *Ka sä tulē?* — *Tost.* ("Are you coming?" — "Just now." Do not hold your breath.)
+> **nūnū** — immediately · **nū** — now · **nūlõ** — just now, in a bit · **nūlt** — from now on
+
+The merchant register adds the interjection **fluks** "at once!" for orders and departures: *Xip lǟkõ fluks!* "The ship leaves AT ONCE!" — but *Ka sä tulē?* — *Nūlõ.* ("Are you coming?" — "Just now." Do not hold your breath.)
 
 ## Dropping pronouns
 
@@ -380,7 +382,7 @@ Notice the dropped pronouns in the answers — once "who" is obvious, it goes un
 | setmān | week | kū | month |
 | āst | year | ōra | hour |
 | avuī | today | demā | tomorrow |
-| ajēr | yesterday | nyt | now |
+| ajēr | yesterday | nū | now |
 | semprē | always | mai | never |
 | varā | early | tard | late |
 | jōs | if | sest | because |
@@ -461,7 +463,7 @@ Notice the dropped pronouns in the answers — once "who" is obvious, it goes un
 2. *Mēg reisā sudõlõ, merõs strāndõlõ.* — We travel south, to the shore of the sea.
 3. *Obūn kōrrõ nobē, kotxē kōrrõ nobēmi.*² — The horse runs fast, the car runs faster.
 4. *Kōrrõji läpx aribāi varā.* — The running child arrived early.
-5. *Lǟkõ nyt, vai mēg um tard!* — Leave now, or we are late!
+5. *Lǟkõ nū, vai mēg um tard!* — Leave now, or we are late!
 
 ² *Comparative: **-mi** — nobē "fast" → nobēmi "faster"; sūr → sūrmi "bigger." Superlative is periphrastic: **kõust** "of all" before the comparative — kõust sūrmi "biggest," kõust nobēmi "fastest."*
 
@@ -527,7 +529,7 @@ Notice the dropped pronouns in the answers — once "who" is obvious, it goes un
 
 **E** — ehitõmus construction, building work · ehitā to build, construct · elõmus life, living · elā to live, dwell · enne before (in time), earlier (postp./adv.) · ennū the past, former times · ernē pea · eskerrē left (side) · eskōl school · esmī first · estēl star · et that (introduces a clause) · ēgõ tie, draw · ēgā to tie, draw
 
-**F** — famīl·la family · felīç happy · finest window · flag flag, ensign (late-stratum) · fluks right now, immediately (late-stratum) · fort strong · frūt fruit · fīnõ fine, penalty
+**F** — famīl·la family · felīç happy · finest window · flag flag, ensign (late-stratum) · fluks at once! (interjection, merchant register; late-stratum) · fort strong · frūt fruit · fīnõ fine, penalty
 
 **G** — genõ parent · gos dog · grīs grey (late-stratum)
 
@@ -545,7 +547,7 @@ Notice the dropped pronouns in the answers — once "who" is obvious, it goes un
 
 **M** — madal shallow · magā to sleep · magūs tasty · magūsū dessert, sweet course · mai never · maitõ to taste · maitū seasoning, spice · maitūs savory · maksõmus tax, payment · maksā to pay · malālt sick · marīt husband · mastõ mast · matrūs sailor · matī morning · maçõ match, contest (late-stratum) · mediçīn medicine · medāl medal (late-stratum) · melī honey · menjā to eat · mentīd lie (n.) · mer sea · meçā forest · miks why · mis what · mult many, much · muntāñ mountain · murk carrot · must black · mustveç wastewater, sewage · mustveçkõrd sewer system · mä I · märg wet · märktaul signboard, public sign · märkõmus note, annotation · märkā to mark, annotate · mõtõ thought · mõtõldā to think · mā earth · māhl juice · mārjā berry · māçõr referee, umpire (late-stratum) · mēdõr measuring tool, ruler · mēdā to measure · mēg we · mēl memory · mēldā to remember · mēlā oar · mērkõ goal, target · mēs man · mīl thousand · mīstērõ mystery, secret · mōl feeling, emotion · mūrõ worry, care · mūrõldā to worry · mǟr mother · mǟtõmus burial, funeral · mǟtā to bury
 
-**N** — nabõr neighbor · naisõ wife · naurā to laugh · ne they · nim name · nobē fast · nugā knife · nyt now · nõglõ needle · nõrk weak · nõuk council · nõukõr councillor · nān woman · nē no · nēm cape, headland · nētõ net (sport) · nēu snow · nēļa four · nīrõ bright, shining · nīrā to shine, give light · nīt night · nǟgõ to see · nǟlg hunger · nǟlgõ to hunger, be hungry · nǟr turnip
+**N** — nabõr neighbor · naisõ wife · naurā to laugh · ne they · nim name · nobē fast · nugā knife · nõglõ needle · nõrk weak · nõuk council · nõukõr councillor · nān woman · nē no · nēm cape, headland · nētõ net (sport) · nēu snow · nēļa four · nīrõ bright, shining · nīrā to shine, give light · nīt night · nū now · nūlt from now on, henceforth · nūlõ just now, soon, in a bit · nūnū right now, immediately · nǟgõ to see · nǟlg hunger · nǟlgõ to hunger, be hungry · nǟr turnip
 
 **O** — obrī to open · obūn horse · olūt beer · omīk breakfast · onkõ uncle · ootkõrd queue, waiting line · ootõmus waiting · ootā to wait · orvõ orphan · orānx orange (late-stratum) · ōra hour · ōu egg
 
@@ -555,15 +557,15 @@ Notice the dropped pronouns in the answers — once "who" is obvious, it goes un
 
 **R** — rahu calm, inner peace · rahuldā to calm, soothe · rahvõ people, public · raksõ race · raksā to race, compete by speed · rask heavy · ratõ wheel · raud iron · ravõji guardian, caretaker · ravā to raise, rear, care for · redē dirty · reisā to travel · rekõt racket, bat (late-stratum) · rik rich · rindõ line of writing · roiskõ waste, refuse, trash · rõhī green · rõim delight, gladness · rõimā to rejoice · röstā to roast · rā money · rājõ track, course · rānd shore, waterside (the older, broader word) · rāndõr coastline · rēdā to judge, decide · rēdāji judge · rēdām court, tribunal · rētõ right, entitlement · rīgõ state, country (late-stratum) · rīst tool · rōs pink · rūbā to grate, shred · rūnõ letter, character · rūnõkõrd alphabet
 
-**S** — sadā to fall (rain/snow) · satām harbor · savī clay; clay-like, muddy (n./adj.) · sañõ catch (of fish) · se this, that · segas chaos, disorder · segā to mix, stir · seilā to sail · seis seven · selgõ clear · selgū clarity, understanding · selkõ team · semprē always · servõmus serve, service · servā to serve · sest because · sesõn season (late-stratum) · setmān week · sidõmus knot, binding · sidā to tie, bind · silm eye · silē smooth · sinī blue · sipõl onion · sisār sister · sitānik citizen · sitāt city · sojā warm (to touch) · sol sun · strānd beach, waterfront (the newer, nautical word; cf. rānd) · sud south · sugõ kin, lineage · sugõläpx cousin · sugõr relative, kinsperson · sukrõ sugar · sulõ pen, quill · sup soup · surmõ death · surā to die · syndõmus birth · syndā to be born · syv deep · sä you · sõidõmus ride, vehicle trip · sõidā to ride, travel by vehicle · sõnā word · sõnālivrõ dictionary · sāl there · sān healthy · sār island · sāvõ saw · sāvā to saw · sīgel seal, official mark · sīlõ seam, stitch-line · sīlā to stitch, seam · sīn here · sōdā to host, receive a guest · sōdāji host · sōla salt · sūr big · sȫk meal, food
+**S** — sadā to fall (rain/snow) · satām harbor · savī clay; clay-like, muddy (n./adj.) · sañõ catch (of fish) · se this, that · segas chaos, disorder · segā to mix, stir · seilā to sail · seis seven · selgõ clear · selgū clarity, understanding · selkõ team · semprē always · servõmus serve, service · servā to serve · sest because · sesõn season (late-stratum) · setmān week · sidõmus knot, binding · sidā to tie, bind · silm eye · silē smooth · sinī blue · sipõl onion · sisār sister · sitānik citizen · sitāt city · sojā warm (to touch) · sol sun · strānd beach, waterfront (the newer, nautical word; cf. rānd) · sud south · sugõ kin, lineage · sugõläpx cousin · sugõr relative, kinsperson · sukrõ sugar · sulõ pen, quill · sup soup · surmõ death · surā to die · syndõmus birth · syndā to be born · syv deep · sä you · sõidõmus ride, vehicle trip · sõidā to ride, travel by vehicle · sõnā word · sõnālivrõ dictionary · sāl there · sālsāl just over there · sān healthy · sār island · sāvõ saw · sāvā to saw · sīgel seal, official mark · sīlõ seam, stitch-line · sīlā to stitch, seam · sīn here · sīnsīn right here · sōdā to host, receive a guest · sōdāji host · sōla salt · sūr big · sȫk meal, food
 
-**T** — tahtõ will, desire · tahtõldā to desire deeply · taivõ sky · talçā to teach · talçāji teacher, instructor · tambē also · tankā to close · tantõ aunt · tappõ nail, peg · tappā to nail, peg, fasten · tard late · tarīs necessary, needed · taul table · taç cup · tems weather · tervetõ welcome · tillõ dock, pier (late-stratum) · tintõ ink (late-stratum) · tirist sad · tormõ storm · tornē tournament (late-stratum) · torõ pipe, conduit · tost just now, soon, in a bit (late-stratum) · tugev sturdy · tulē to come · tumõ dull, matte · tundõ to feel · tyhjā empty · tytār daughter · tä he, she, it · täidā to fill · täno thank you · tänāldā to feel grateful · tänū gratitude · tõin second (ordinal) · tõsī truth · tõsītõ evidence, proof · tõsītū fact, established truth · tāgõ dough · tā́ga behind (postp.) · tē tea · tēdõ to know · tēdõmus knowledge · tēg you (pl.) · tēno train · tēre hello · tīt time · tītkõrd schedule, timetable · tītū eternity · tūļ wind · tǟs full · tȫ work (n.) · tȫdõ to work · tȫkambõr workshop
+**T** — tahtõ will, desire · tahtõldā to desire deeply · taivõ sky · talçā to teach · talçāji teacher, instructor · tambē also · tankā to close · tantõ aunt · tappõ nail, peg · tappā to nail, peg, fasten · tard late · tarīs necessary, needed · taul table · taç cup · tems weather · tervetõ welcome · tillõ dock, pier (late-stratum) · tintõ ink (late-stratum) · tirist sad · tormõ storm · tornē tournament (late-stratum) · torõ pipe, conduit · tugev sturdy · tulē to come · tumõ dull, matte · tundõ to feel · tyhjā empty · tytār daughter · tä he, she, it · täidā to fill · täno thank you · tänāldā to feel grateful · tänū gratitude · tõin second (ordinal) · tõsī truth · tõsītõ evidence, proof · tõsītū fact, established truth · tāgõ dough · tā́ga behind (postp.) · tē tea · tēdõ to know · tēdõmus knowledge · tēg you (pl.) · tēno train · tēre hello · tīt time · tītkõrd schedule, timetable · tītū eternity · tūļ wind · tǟs full · tȫ work (n.) · tȫdõ to work · tȫkambõr workshop
 
 **U** — udū fog · um to be (present) · unõstā to forget · unī dream · unīstā to dream · usaldõmus trust (n.) · usaldā to trust · üks one · üksū loneliness · üksūldā to feel lonely · ūli was, were · ūpeldā to feel proud · ūpū pride · ūsk belief · ūskõ to believe
 
 **Ü** — ürd herb
 
-**V** — vai or · vaik calm (sea, weather) · valdõmus government · valdā to govern · valgõ white · valvā to guard, protect · valvāji guard, police officer · valī choice · valīstā to choose · valū pain · vana old · vanamǟr grandmother · vanapǟr grandfather · vangõ prison, jail · vanõr elder, ancestor · varā early · vastõmus answer, response · vastā to answer · vastāmus responsibility (irregular; cf. vastõmus) · vendā to sell · verī blood · vespõr evening · veç water · veçtorõ water pipe · veļ brother · vihān angry · vim rain · vingõr vinegar (late-stratum) · viskā to throw, cast · volē to want · vool current · vormā to shape, form · vortān from now on, henceforth (late-stratum) · votā to take · võidõ butter · võim power, strength · võitõ victory, win · võitā to win · võrk net · võrõ guest, stranger · võtī key · võī can, to be able · vāj poor · vānõ oath · vānā to swear an oath · vēu voice · vī wine · vīsū wisdom · vīç five · vǟrpēlõ foul (in a game) · vǟrpēlā to foul · vǟrõ crime, wrongdoing
+**V** — vai or · vaik calm (sea, weather) · valdõmus government · valdā to govern · valgõ white · valvā to guard, protect · valvāji guard, police officer · valī choice · valīstā to choose · valū pain · vana old · vanamǟr grandmother · vanapǟr grandfather · vangõ prison, jail · vanõr elder, ancestor · varā early · vastõmus answer, response · vastā to answer · vastāmus responsibility (irregular; cf. vastõmus) · vendā to sell · verī blood · vespõr evening · veç water · veçtorõ water pipe · veļ brother · vihān angry · vim rain · vingõr vinegar (late-stratum) · viskā to throw, cast · volē to want · vool current · vormā to shape, form · votā to take · võidõ butter · võim power, strength · võitõ victory, win · võitā to win · võrk net · võrõ guest, stranger · võtī key · võī can, to be able · vāj poor · vānõ oath · vānā to swear an oath · vēu voice · vī wine · vīsū wisdom · vīç five · vǟrpēlõ foul (in a game) · vǟrpēlā to foul · vǟrõ crime, wrongdoing
 
 **X** — xip ship
 

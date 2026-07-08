@@ -336,7 +336,6 @@ ne
 nim
 nobē
 nugā
-nyt
 nõglõ
 nõrk
 nõuk
@@ -350,6 +349,10 @@ nēļa
 nīrõ
 nīrā
 nīt
+nū
+nūlt
+nūlõ
+nūnū
 nǟgõ
 nǟlg
 nǟlgõ
@@ -514,6 +517,7 @@ sõidā
 sõnā
 sõnālivrõ
 sāl
+sālsāl
 sān
 sār
 sāvõ
@@ -522,6 +526,7 @@ sīgel
 sīlõ
 sīlā
 sīn
+sīnsīn
 sōdā
 sōdāji
 sōla
@@ -549,7 +554,6 @@ tirist
 tormõ
 tornē
 torõ
-tost
 tugev
 tulē
 tumõ
@@ -620,7 +624,6 @@ viskā
 volē
 vool
 vormā
-vortān
 votā
 võidõ
 võim
