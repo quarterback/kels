@@ -1,6 +1,6 @@
 # Nelô kēļ — English → Nelôxi Reverse Index
 
-*Generated from the coursebook master dictionary (852 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
+*Generated from the coursebook master dictionary (859 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
 
 
 ## A
@@ -11,6 +11,7 @@ a fraction → **dēl**
 about → **pǟl**  
 ache of absence → **kaipômus**  
 act → **aktô**  
+add (an ingredient) (v.) → **lisā**  
 affection → **arm**  
 aid → **abī**  
 aim → **ārgô**  
@@ -87,6 +88,7 @@ bin → **kastô**
 bind → **sidā**  
 binding → **sidômus**  
 birth → **syndômus**  
+bit → **jagô**  
 black → **must**  
 block yard (Marīsô, slav) → **dvôrô**  
 blockhead (coarse) → **glupôr**  
@@ -623,6 +625,7 @@ measuring tool → **mēdôr**
 meat → **karn**  
 medal → **medāl**⁺  
 medicine → **mediçīn**  
+melt (v.) → **sulatā**  
 memory → **mēl**  
 mend (v.) → **parandā**  
 mending → **parandômus**  
@@ -675,6 +678,7 @@ net (sport) → **nētô**
 network → **vôrkkôrd**  
 network system → **vôrkkôrd**  
 never → **mai**  
+next → **tôl**  
 night → **nīt**  
 nine → **deveñç**  
 nineteen → **dünsedm**  
@@ -718,7 +722,7 @@ pan → **pannô**
 pancake → **plinô**  
 paper → **papôr**⁺  
 parent → **genô**  
-part → **dēl**  
+part → **dēl** · **jagô**  
 pass (v.) → **pāsā**  
 passion → **kirg**  
 passport → **pāsportô**⁺  
@@ -741,6 +745,7 @@ phone call → **fonômus**⁺
 photograph → **fotô**⁺ · **fotā**⁺  
 pick (v.) → **noppā**  
 picture → **pildô**  
+piece → **jagô**  
 piece of shit (vulgar) → **merd**  
 pier → **tillô**⁺  
 pierce → **pikā**  
@@ -748,6 +753,7 @@ pig → **sigô**
 piglet → **pôrsô**  
 pink → **rōs**  
 pipe → **torô**  
+place → **asetā**  
 plank → **lōdô**  
 plant → **külvā**  
 planting → **külvômus**  
@@ -784,6 +790,7 @@ punish (v.) → **karistā**
 punishment → **karistô**  
 purple → **purpôr**⁺  
 purpose → **ārgô**  
+put (v.) → **asetā**  
 
 ## Q
 
@@ -877,10 +884,12 @@ send (v.) → **saatā**
 send back → **vastāsaatā**  
 sending → **saatômus**  
 sequence → **kôrd**  
+sequence marker: then → **tôl**  
 serve → **servômus** · **servā**  
 server → **sirvôr**⁺  
 service → **servômus**  
 service work → **abītȫ**  
+set → **asetā**  
 seven → **sedôm**  
 seventeen → **dünpeñç**  
 severe → **karmô**  
@@ -1014,6 +1023,7 @@ the devil (interj./n., coarse) → **fān**
 the past → **ennū**  
 there → **sāl**  
 they → **ne**  
+thick (of a liquid) → **paks**  
 thick-headed (coarse) → **glup**  
 thicken (soup, sauce) (v.) → **lībā**  
 think (v.) → **môtôldā**  
@@ -1076,6 +1086,7 @@ under (postp.) → **al**
 underside → **alū**  
 understand (v.) → **komprē**  
 understanding → **selgū**  
+until (temporal conjunction) → **kuni**  
 upkeep → **hoolômus**  
 upload → **laadômus**⁺ · **laadā**⁺  
 

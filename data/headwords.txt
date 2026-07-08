@@ -26,6 +26,7 @@ arsô
 arvô
 arvôldā
 arēnô
+asetā
 avuī
 babkô
 bajômus
@@ -152,6 +153,7 @@ inim
 itkô
 ja
 jaamô
+jagô
 jeds
 jedôn
 juht
@@ -270,6 +272,7 @@ kuiv
 kukô
 kuld
 kun
+kuni
 kurt
 kus
 kylm
@@ -327,6 +330,7 @@ leskô
 lil
 limô
 limā
+lisā
 lit
 livrô
 livrôkōt
@@ -478,6 +482,7 @@ orānx
 osôm
 pa
 padā
+paks
 palô
 pannô
 papôr
@@ -649,6 +654,7 @@ sugô
 sugôläpx
 sugôr
 sukrô
+sulatā
 sulô
 sup
 surmô
@@ -723,6 +729,7 @@ täidā
 täno
 tänāldā
 tänū
+tôl
 tôsī
 tôsītô
 tôsītū
