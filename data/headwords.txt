@@ -63,6 +63,7 @@ düvlik
 düvēl
 dātõ
 dēdkõ
+dēl
 dī
 dīmys
 dūsõnd
@@ -113,6 +114,7 @@ grīs
 haavõmus
 haavā
 habrõ
+half
 hamõr
 handlõ
 handlõji
@@ -464,7 +466,6 @@ ootõmus
 ootā
 orvõ
 orānx
-osõ
 pa
 padā
 palõ
@@ -543,7 +544,6 @@ pīrõsegas
 pīrõsitāt
 pōr
 pū
-pūlõ
 pūmõ
 pūn
 pūst

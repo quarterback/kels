@@ -7,6 +7,7 @@
 
 a failure (coarse) → **brāk**  
 a flop (coarse) → **flōp**  
+a fraction → **dēl**  
 about → **pǟl**  
 ache of absence → **kaipõmus**  
 act → **aktõ**  
@@ -456,7 +457,7 @@ gutless (vulgar) → **klȫtõtū**
 ## H
 
 hair → **kabēl**  
-half → **pūlõ**  
+half → **half**  
 halt → **püsā**  
 hammer → **hamõr**  
 hand → **kǟs**  
@@ -713,7 +714,7 @@ pan → **pannõ**
 pancake → **plinõ**  
 paper → **papõr**⁺  
 parent → **genõ**  
-part → **osõ**  
+part → **dēl**  
 pass (v.) → **pāsā**  
 passion → **kirg**  
 passport → **pāsportõ**⁺  
@@ -885,7 +886,7 @@ sewer system → **mustveçkõrd**
 shallow → **madal**  
 shame → **häbū**  
 shape (v.) → **vormā**  
-share → **osõ**  
+share → **dēl**  
 she → **tä**  
 sheep → **lammõ**  
 sheet → **lehtõ**  
