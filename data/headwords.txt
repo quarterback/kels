@@ -25,6 +25,7 @@ apô
 aribā
 arm
 armôldā
+armõ
 arst
 arsô
 arvô
@@ -84,9 +85,11 @@ dī
 dīmys
 edä
 eest
+egü
 ehitômus
 ehitā
 ehk
+ekõ
 elva
 elômus
 elā
@@ -141,6 +144,7 @@ harjômus
 harjā
 harvõ
 haudô
+havs
 heinô
 hell
 hellū
@@ -174,6 +178,7 @@ jaamô
 jagô
 jeds
 jedôn
+ju
 jubā
 juht
 juhtü
@@ -211,6 +216,7 @@ kahjū
 kaimô
 kaipômus
 kaipā
+kallü
 kallā
 kaltô
 kaltā
@@ -302,6 +308,7 @@ kuinā
 kuiv
 kukô
 kuld
+kullõ
 kun
 kuni
 kurt
@@ -403,6 +410,7 @@ lōtū
 lūdô
 lǟdô
 lǟkô
+lǟkõm
 lǟmi
 lǟn
 lǟtū
@@ -565,6 +573,7 @@ peñç
 pidômus
 pidā
 pigõm
+piisā
 pik
 pikā
 pildô
@@ -638,6 +647,7 @@ pǟr
 pǟvô
 rahu
 rahuldā
+rahutõ
 rahvô
 raksô
 raksā
@@ -790,6 +800,7 @@ tappā
 tard
 tark
 tarīs
+tasõ
 taul
 taç
 teinütõ
@@ -825,6 +836,7 @@ tôsī
 tôsītô
 tôsītū
 tõusô
+tüdü
 tāgô
 tārgô
 tārgôr
@@ -848,6 +860,7 @@ tȫkambôr
 udū
 um
 unôstā
+unü
 unī
 unīstā
 usaldômus
@@ -856,6 +869,7 @@ vabõ
 vahel
 vai
 vaik
+vaikõ
 valdômus
 valdā
 valgô
