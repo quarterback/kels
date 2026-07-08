@@ -20,6 +20,12 @@ don't overlap in vocabulary demand. Rungs:
 9. Weather report / almanac (time, seasons, prediction)
 10. Personal insult match / flyting (the profanity register in use)
 
+**Axis 1b — The Daily-Life / Connective-Speech agent** is a standing role (not a rung): it
+writes sustained everyday prose and harvests the connective glue — particles, hedges, light
+verbs, connectives — that no domain owns. See `DAILY-LIFE-BRIEF.md`. One agent holds this lane
+continuously, working through "a day in the life" in stretches. It does not collide with genre
+or domain work because its target (structure words) is disjoint from theirs (content words).
+
 **Axis 2 — Domain (vocabulary) agents** claim a DOMAIN in `college/ASSIGNMENTS.md` before
 coining. Open domains include: U23, U27+ (medicine/the body, plants/trees, weather/seasons,
 music/instruments, religion/ritual, clothing/textiles, tools/trades, animals/wildlife,
