@@ -592,7 +592,7 @@ Notice the dropped pronouns in the answers — once "who" is obvious, it goes un
 
 **G** — genô parent · glup stupid, thick-headed (coarse) · glupôr idiot, fool, blockhead (coarse) · gos dog · grançô border crossing (late-stratum) · gribô mushroom (Marīsô, slav; cf. native pôlū) · grosô gross, 144 (a dozen dozens) · grīs grey (late-stratum)
 
-**H** — haavômus hurt, emotional wound · haavā to wound emotionally, hurt · habrô fragile · half half · hamôr hammer · handlô to trade · handlôji merchant · handôl trade (n.) · harjômus practice, training session · harjā to practice, train · haudô grave · heinô hay · hell tender, gentle · hellū tenderness · helē light, pale (of color) · hennô hen, chicken · hoolômus maintenance, upkeep · hoolā to maintain, keep up · hoolāji maintenance worker · häbedā to feel ashamed · häbū shame · hūr whore (archaic/dialectal; obscene)
+**H** — haavômus hurt, emotional wound · haavā to wound emotionally, hurt · habrô fragile · hakôr hacker (late-stratum loan) · half half · hamôr hammer · handlô to trade · handlôji merchant · handôl trade (n.) · harjômus practice, training session · harjā to practice, train · haudô grave · heinô hay · hell tender, gentle · hellū tenderness · helē light, pale (of color) · hennô hen, chicken · hoolômus maintenance, upkeep · hoolā to maintain, keep up · hoolāji maintenance worker · häbedā to feel ashamed · häbū shame · hūr whore (archaic/dialectal; obscene)
 
 **I** — idā east · idē idea · iglū longing, yearning · igāldā to long for, miss · ilma without (postp.) · ilo joy · inim person · itkô to cry · īvô seed
 
