@@ -165,7 +165,9 @@ count of the market and the metroplex.
 
 ### Digits
 
-1 **jedõn** · 2 **dva** · 3 **tri** · 4 **xtiri** · 5 **peñç** · 6 **xeç** · 7 **sedõm** · 8 **osõm** · 9 **deveñç** · 10 **deseñç** · 11 **elva**
+0 **nolõ** · 1 **jedõn** · 2 **dva** · 3 **tri** · 4 **xtiri** · 5 **peñç** · 6 **xeç** · 7 **sedõm** · 8 **osõm** · 9 **deveñç** · 10 **deseñç** · 11 **elva**
+
+Zero, **nolõ**, is the placeholder and the empty count — *Mäl um nolõ kalād* "I have zero fish."
 
 Twelve is the round number — the "ten" of the system — where counting rolls over:
 
@@ -604,7 +606,7 @@ Notice the dropped pronouns in the answers — once "who" is obvious, it goes un
 
 **M** — madal shallow · magā to sleep · magūs tasty · magūsū dessert, sweet course · mai never · maitõ to taste · maitū seasoning, spice · maitūs savory · maksõmus tax, payment · maksā to pay · malālt sick · marīskēļ Marīsõ speech, border-city dialect · Marīsõ (place) the border city (Slavic-side Marzeja) · marīsõr person from Marīsõ · marīt husband · mastõ mast · matrūs sailor · matī morning · maçõ match, contest (late-stratum) · mediçīn medicine · medāl medal (late-stratum) · melī honey · menjā to eat · mentīd lie (n.) · mer sea · merd turd, piece of shit (vulgar) · meçā forest · miks why · mikõ microphone (late-stratum) · miljõn million (12⁶, ~2.99M) · mis what · mrovõ apartment, flat (Marīsõ, slav) · mrovõr apartment-dweller (Marīsõ, slav) · mult many, much · muntāñ mountain · murk carrot · must black · mustveç wastewater, sewage · mustveçkõrd sewer system · mä I · märg wet · märktaul signboard, public sign · märkõmus note, annotation · märkā to mark, annotate · mõtõ thought · mõtõldā to think · mā earth · māhl juice · mārjā berry · māçõr referee, umpire (late-stratum) · mēdõr measuring tool, ruler · mēdā to measure · mēg we · mēl memory · mēldā to remember · mēlā oar · mērkõ goal, target · mēs man · mīrõ 1728 (a dozen gross; 12³) · mīstērõ mystery, secret · mōl feeling, emotion · mūlõ muzzle, snout; (vulgar) mouth, gob (vulgar) · mūrõ worry, care · mūrõldā to worry · mǟr mother · mǟtõmus burial, funeral · mǟtā to bury
 
-**N** — nabõr neighbor · nahkõ hide, leather · naisõ wife · naurā to laugh · ne they · nim name · nobē fast · noppõmus harvest, gathering · noppā to pick, gather, harvest · nugā knife · nupõ button, key · nurõ field, cultivated land · nurõr farmer, field-worker · nõglõ needle · nõrk weak · nõuk council · nõukõr councillor · nān woman · nē no (trade) · nēm cape, headland · nētõ net (sport) · nēu snow · nīrin lamp, screen-light; light-device · nīrtaul screen, lit. 'shine-board' (literary synonym for skrinõ) · nīrõ bright, shining · nīrā to shine, give light · nīt night · nū now · nūlt from now on, henceforth · nūlõ just now, soon, in a bit · nūnū right now, immediately · nǟgõ to see · nǟlg hunger · nǟlgõ to hunger, be hungry · nǟr turnip
+**N** — nabõr neighbor · nahkõ hide, leather · naisõ wife · naurā to laugh · ne they · nim name · nobē fast · nolõ zero · noppõmus harvest, gathering · noppā to pick, gather, harvest · nugā knife · nupõ button, key · nurõ field, cultivated land · nurõr farmer, field-worker · nõglõ needle · nõrk weak · nõuk council · nõukõr councillor · nān woman · nē no (trade) · nēm cape, headland · nētõ net (sport) · nēu snow · nīrin lamp, screen-light; light-device · nīrtaul screen, lit. 'shine-board' (literary synonym for skrinõ) · nīrõ bright, shining · nīrā to shine, give light · nīt night · nū now · nūlt from now on, henceforth · nūlõ just now, soon, in a bit · nūnū right now, immediately · nǟgõ to see · nǟlg hunger · nǟlgõ to hunger, be hungry · nǟr turnip
 
 **O** — obrī to open · obūn horse · olūt beer · omīk breakfast · onkõ uncle · ootkõrd queue, waiting line · ootõmus waiting · ootā to wait · orvõ orphan · orānx orange (late-stratum) · osõm eight · ōra hour · ōu egg
 
