@@ -10,6 +10,7 @@ ajū
 aktô
 akôr
 al
+alatü
 alk
 alkā
 alt
@@ -83,6 +84,7 @@ edä
 eest
 ehitômus
 ehitā
+ehk
 elva
 elômus
 elā
@@ -134,6 +136,7 @@ handlôji
 handôl
 harjômus
 harjā
+harvõ
 haudô
 heinô
 hell
@@ -144,6 +147,7 @@ hirmus
 hoolômus
 hoolā
 hoolāji
+hoopõs
 häbedā
 häbū
 hūr
@@ -153,17 +157,22 @@ idē
 iglū
 igävē
 igāldā
+ikkü
 ilma
 ilo
 inim
 istā
+isü
 itkô
 ja
 jaamô
 jagô
 jeds
 jedôn
+jubā
 juht
+juhtü
+jällü
 järsk
 jättômus
 jättā
@@ -238,6 +247,7 @@ kauplômus
 kaçô
 kaçā
 keetā
+kekõ
 ken
 kesk
 keskū
@@ -294,6 +304,7 @@ kylä
 kysô
 kysômus
 kôg
+kôgõ
 kôlt
 kônô
 kônā
@@ -330,6 +341,7 @@ lain
 laintū
 lammô
 lampô
+laskā
 last
 lauk
 lehmä
@@ -341,6 +353,7 @@ lent
 lepômus
 lepā
 leskô
+lihtsalt
 liig
 lil
 limô
@@ -413,9 +426,13 @@ miks
 mikô
 miljôn
 mis
+miskü
 mrovô
 mrovôr
+muidôn
+muidū
 mult
+mumbõ
 muntāñ
 murk
 must
@@ -429,6 +446,7 @@ märkômus
 märkā
 môtô
 môtôldā
+mõnü
 müristä
 müristü
 mā
@@ -453,6 +471,7 @@ mǟr
 mǟtômus
 mǟtā
 nabôr
+nagu
 nahkô
 naisô
 nalī
@@ -460,6 +479,7 @@ naurô
 naurā
 ne
 nim
+nixō
 nobē
 nolô
 noppômus
@@ -494,6 +514,8 @@ nǟr
 obrī
 obūn
 olūt
+omõt
+omõtõ
 omīk
 onkô
 ootkôrd
@@ -508,6 +530,7 @@ paks
 pakā
 palô
 pannô
+panā
 papôr
 parandômus
 parandā
@@ -516,12 +539,14 @@ pardômus
 pardā
 parlā
 pehmē
+pehā
 pelgô
 perēm
 petīt
 peñç
 pidômus
 pidā
+pigõm
 pik
 pikā
 pildô
@@ -634,8 +659,11 @@ rūnôkôrd
 saatômus
 saatā
 sadā
+sagõ
 salvômus
 salvā
+samā
+samū
 satām
 savī
 sañô
@@ -647,6 +675,7 @@ seilā
 selgô
 selgū
 selkô
+sellü
 semprē
 servômus
 servā
@@ -703,6 +732,7 @@ sülü
 sāl
 sāli
 sālsāl
+sāmā
 sān
 sār
 sāvô
@@ -742,6 +772,7 @@ tark
 tarīs
 taul
 taç
+teinütõ
 tems
 tervetô
 tillô
@@ -763,6 +794,7 @@ tundô
 tyhjā
 tytār
 tä
+tähendä
 täidā
 täno
 tänāldā
@@ -799,6 +831,7 @@ unī
 unīstā
 usaldômus
 usaldā
+vahel
 vai
 vaik
 valdômus
@@ -820,6 +853,7 @@ vastômus
 vastā
 vastāmus
 vastāsaatā
+veel
 vendā
 verī
 vespôr
@@ -833,6 +867,7 @@ vim
 vimõ
 vingôr
 viskā
+vist
 volē
 vool
 vormā
@@ -851,6 +886,7 @@ vôrkkôrd
 vôrô
 vôtī
 vôī
+või
 vāj
 vānô
 vānā
@@ -870,6 +906,7 @@ xtiri
 xumô
 xumā
 äb
+äkkü
 ärkā
 çapkā
 çenô
