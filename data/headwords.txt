@@ -2,6 +2,7 @@ abī
 abīstā
 abītȫ
 acht
+achttig
 adē
 aedõ
 agā
@@ -55,6 +56,7 @@ deret
 donā
 drobõ
 drē
+drētig
 drōk
 dvõrõ
 düvlik
@@ -74,7 +76,6 @@ ennū
 ernē
 eskerrē
 eskōl
-esmī
 estēl
 et
 failõ
@@ -98,7 +99,9 @@ futõr
 fān
 fāndõ
 fēr
+fērtig
 fīf
+fīftig
 fīnõ
 genõ
 glup
@@ -170,7 +173,6 @@ kahetsā
 kaimõ
 kaipõmus
 kaipā
-kaks
 kallā
 kaltõ
 kaltā
@@ -234,7 +236,6 @@ klȫtõ
 klȫtõtū
 kodõ
 kodā
-kolm
 kompass
 komprā
 komprē
@@ -285,16 +286,13 @@ kārtõ
 kēļ
 kēļkõrd
 kēļõr
-kīm
 kōk
 kōlõr
 kōrrõ
 kōt
-kōtõks
 kū
 kūlin
 kūlõ
-kūç
 kǟs
 kǟvõ
 laadõmus
@@ -411,7 +409,6 @@ mēldā
 mēlā
 mērkõ
 mēs
-mīl
 mīstērõ
 mōl
 mūlõ
@@ -440,10 +437,10 @@ nõukõr
 nān
 nē
 nēgõn
+nēgõntig
 nēm
 nētõ
 nēu
-nēļa
 nīrin
 nīrtaul
 nīrõ
@@ -601,7 +598,6 @@ se
 segas
 segā
 seilā
-seis
 selgõ
 selgū
 selkõ
@@ -610,10 +606,12 @@ servõmus
 servā
 ses
 sest
+sestig
 sestrõ
 sesõn
 setmān
 seven
+seventig
 sidõmus
 sidā
 signõ
@@ -706,6 +704,7 @@ tulē
 tumõ
 tundõ
 twē
+twētig
 tyhjā
 tytār
 tä
@@ -713,7 +712,6 @@ täidā
 täno
 tänāldā
 tänū
-tõin
 tõsī
 tõsītõ
 tõsītū
@@ -801,7 +799,6 @@ vī
 vīrõ
 vīsū
 vīzõ
-vīç
 vǟrpēlõ
 vǟrpēlā
 vǟrõ
@@ -814,7 +811,6 @@ xumā
 äb
 ärkā
 çapkā
-çent
 çenõ
 õblā
 õbē
@@ -824,7 +820,6 @@ xumā
 õpõmus
 õpā
 õpāji
-üks
 üksū
 üksūldā
 ürd
@@ -837,7 +832,7 @@ xumā
 ēgõ
 ēgā
 ēn
-īdõks
+ēntõ
 īvõ
 ōra
 ōu

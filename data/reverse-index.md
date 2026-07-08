@@ -1,6 +1,6 @@
 # Nelõ kēļ — English → Nelõxi Reverse Index
 
-*Generated from the coursebook master dictionary (848 headwords). Find your English word, take the Nelõxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
+*Generated from the coursebook master dictionary (843 headwords). Find your English word, take the Nelõxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
 
 
 ## A
@@ -304,8 +304,8 @@ earth → **mā**
 east → **idā**  
 eat (v.) → **menjā**  
 egg → **ōu**  
-eight → **kōtõks**  
 eight (trade) → **acht**  
+eighty → **achttig**  
 elder → **vanõr**  
 emotion → **mōl**  
 emotional wound → **haavõmus**  
@@ -361,16 +361,16 @@ fertilize (v.) → **väetā**
 fertilizer → **väetõ**  
 field → **nurõ** · **pēlām**  
 field-worker → **nurõr**  
+fifty → **fīftig**  
 file → **failõ**⁺  
 fill (v.) → **täidā**  
 filled pastry (Marīsõ, slav) → **pirõg**  
 filth → **drōk**  
 fine → **fīnõ**  
 finish → **lopā**  
-first → **esmī**  
+first → **ēntõ**  
 fish → **kalā** · **kalāstā**  
 fisher → **kalāji**  
-five → **vīç**  
 five (trade) → **fīf**  
 flag → **flag**⁺  
 flat (Marīsõ, slav) → **mrovõ**  
@@ -390,10 +390,10 @@ forgive (v.) → **pardā**
 forgiveness → **pardõmus**  
 form → **vormā**  
 former times → **ennū**  
+forty → **fērtig**  
 foul → **bōs** · **vǟrpēlā**  
 foul (in a game) → **vǟrpēlõ**  
 foundation → **põhõ**  
-four → **nēļa**  
 four (trade) → **fēr**  
 fragile → **habrõ**  
 friend → **amīk**  
@@ -496,7 +496,6 @@ hot → **kalēnt**
 hour → **ōra**  
 house → **kōt**  
 how → **kui**  
-hundred → **çent**  
 hundred (trade, round) → **hunt**  
 hunger → **nǟlg** · **nǟlgõ**  
 hurt → **haavõmus** · **haavā**  
@@ -672,8 +671,8 @@ network → **võrkkõrd**
 network system → **võrkkõrd**  
 never → **mai**  
 night → **nīt**  
-nine → **īdõks**  
-nine (trade) → **nēgõn**  
+nine → **nēgõn**  
+ninety → **nēgõntig**  
 no → **nē**  
 north → **põjā**  
 not → **äb**  
@@ -695,7 +694,6 @@ official document → **aktõ**
 official mark → **sīgel**  
 oil → **õli**  
 old → **vana**  
-one → **üks**  
 one (trade) → **ēn**  
 onion → **sipõl**  
 open (v.) → **obrī**  
@@ -864,7 +862,6 @@ seal → **sīgel**
 seam → **sīlõ** · **sīlā**  
 season → **sesõn**⁺  
 seasoning → **maitū**  
-second (ordinal) → **tõin**  
 secret → **mīstērõ**  
 see (v.) → **nǟgõ**  
 seed → **īvõ**  
@@ -877,8 +874,8 @@ serve → **servõmus** · **servā**
 server → **sirvõr**⁺  
 service → **servõmus**  
 service work → **abītȫ**  
-seven → **seis**  
 seven (trade) → **seven**  
+seventy → **seventig**  
 severe → **karmõ**  
 sew (v.) → **õblā**  
 sewage → **mustveç**  
@@ -906,8 +903,8 @@ signboard → **märktaul**
 silver → **õbē**  
 sing (v.) → **kantā**  
 sister → **sisār**  
-six → **kūç**  
 six (trade) → **ses**  
+sixty → **sestig**  
 sky → **taivõ**  
 slav → **gribõ** · **kapustõ**  
 sleep (v.) → **magā**  
@@ -993,7 +990,6 @@ teach (v.) → **talçā**
 teacher → **talçāji**  
 team → **selkõ**  
 television (full calque, "magic-window") → **taikfinest**  
-ten → **kīm**  
 ten (trade) → **tēn**  
 tend animals → **karjā**  
 tender → **hell**  
@@ -1014,12 +1010,11 @@ thicken (soup, sauce) (v.) → **lībā**
 think (v.) → **mõtõldā**  
 think through → **põhjõldā**  
 thirst → **jān** · **jānõ**  
+thirty → **drētig**  
 this → **se**  
 thought → **mõtõ**  
-thousand → **mīl**  
 thousand (trade) → **dūsõnd**  
 thread → **lõng**  
-three → **kolm**  
 three (trade) → **drē**  
 throw (v.) → **viskā**  
 ticket → **piletõ**⁺  
@@ -1059,7 +1054,7 @@ turnip → **nǟr**
 TV → **taiki**  
 TV (spoken tē-vē → **tēvē**  
 twelve (trade grouping) → **dūtõ**  
-two → **kaks**  
+twenty → **twētig**  
 two (trade) → **twē**  
 
 ## U
