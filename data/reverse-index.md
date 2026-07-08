@@ -1,6 +1,6 @@
 # Nelõ kēļ — English → Nelõxi Reverse Index
 
-*Generated from the coursebook master dictionary (831 headwords). Find your English word, take the Nelõxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
+*Generated from the coursebook master dictionary (832 headwords). Find your English word, take the Nelõxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
 
 
 ## A
@@ -33,8 +33,9 @@ app → **apõ**⁺
 apple → **pomā**  
 arena → **arēnõ**⁺  
 arrive (v.) → **aribā**  
-arse → **kūl**  
+arse → **arsõ**  
 ask (v.) → **kysõ**  
+ass (vulgar) → **arsõ**  
 at once! (interjection → **fluks**  
 aunt → **tantõ**  
 award → **perēm**⁺  
@@ -42,7 +43,6 @@ award → **perēm**⁺
 ## B
 
 baby → **bebē**  
-backside (vulgar) → **kūl**  
 bad luck (coarse) → **flūk**  
 bake (v.) → **küpsā**  
 bake-house → **küpsām**  
@@ -50,7 +50,7 @@ baker → **küpsõr**
 bakery → **küpsām**  
 ball → **bālõ**  
 ballot → **balçõmus**  
-balls → **kōlhõ**  
+balls → **klȫtõ**  
 bargain price → **çenõ**  
 barn → **lāvõ**  
 barren → **pūst**  
@@ -227,7 +227,7 @@ courtyard → **dvõrõ**
 cousin → **sugõläpx**  
 cow → **lehmä**  
 coward → **skītõr**  
-cowardly → **kōlhõtū**  
+cowardly → **klȫtõtū**  
 crap! (vulgar) → **skīt**  
 crime → **vǟrõ**  
 crooked → **krōm**  
@@ -241,13 +241,14 @@ cultivated land → **nurõ**
 cup → **taç**  
 curdled milk → **juht**  
 current → **vool**  
-curse → **flūk** · **flūkā**  
+curse → **flūk** · **flūkā** · **fāndõ**  
 cut (v.) → **leikā** · **lõigā**  
 
 ## D
 
 damage (v.) → **rikā**  
 damn → **fān**  
+damn (coarse) (v.) → **fāndõ**  
 dark (of color) → **karī**  
 data → **dātõ**⁺  
 daughter → **tytār**  
@@ -415,7 +416,7 @@ glue → **limõ** · **limā**
 go (v.) → **lǟdõ**  
 goal → **mērkõ**  
 goat → **kitsõ**  
-gob → **sūt**  
+gob (vulgar) → **mūlõ**  
 gold → **kuld**  
 good → **jõvā**  
 goodbye → **adē**  
@@ -445,7 +446,7 @@ growth → **kasvõmus**
 guard (v.) → **valvā** · **valvāji**  
 guardian → **ravõji**  
 guest → **võrõ**  
-gutless (vulgar) → **kōlhõtū**  
+gutless (vulgar) → **klȫtõtū**  
 
 ## H
 
@@ -643,7 +644,7 @@ muddy (n./adj.) → **savī**
 mushroom → **põlū**  
 mushroom (Marīsõ → **gribõ**  
 must → **pidā**  
-muzzle → **sūt**  
+muzzle → **mūlõ**  
 mystery → **mīstērõ**  
 
 ## N
@@ -657,7 +658,7 @@ needed → **tarīs**
 needle → **nõglõ**  
 neighbor → **nabõr**  
 neighborhood hall → **klubõ**⁺  
-nerve → **kōlhõ**  
+nerve → **klȫtõ**  
 net → **võrk**  
 net (sport) → **nētõ**  
 network → **võrkkõrd**  
@@ -906,7 +907,7 @@ small goods → **krāmõ**
 small program → **apõ**⁺  
 smooth → **silē**  
 snatch casually (Marīsõ, slav) → **çapkā**  
-snout → **sūt**  
+snout → **mūlõ**  
 snow → **nēu**  
 soak (coarse) → **prōmõr**  
 soft → **pehmē**  
@@ -986,7 +987,7 @@ tender → **hell**
 tenderness → **hellū**  
 terminal → **jaamõ**⁺  
 test → **kaçõ** · **kaçā**  
-testicles → **kōlhõ**  
+testicles → **klȫtõ**  
 thank you → **täno**  
 that → **se**  
 that (introduces a clause) → **et**  

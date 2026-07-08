@@ -22,6 +22,7 @@ aribā
 arm
 armõldā
 arst
+arsõ
 arvõ
 arvõldā
 arēnõ
@@ -91,6 +92,7 @@ frūt
 futrā
 futõr
 fān
+fāndõ
 fīnõ
 genõ
 glup
@@ -221,6 +223,8 @@ klavõr
 klikõmus
 klikā
 klubõ
+klȫtõ
+klȫtõtū
 kodõ
 kodā
 kolm
@@ -276,14 +280,11 @@ kēļkõrd
 kēļõr
 kīm
 kōk
-kōlhõ
-kōlhõtū
 kōlõr
 kōrrõ
 kōt
 kōtõks
 kū
-kūl
 kūlin
 kūlõ
 kūç
@@ -405,6 +406,7 @@ mēs
 mīl
 mīstērõ
 mōl
+mūlõ
 mūrõ
 mūrõldā
 mǟr
@@ -655,7 +657,6 @@ sōdā
 sōdāji
 sōla
 sūr
-sūt
 sȫk
 sȫtõ
 sȫtā
