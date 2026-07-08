@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Regenerate data/reverse-index.md (English → Nelõxi) from data/dictionary.tsv.
+"""Regenerate data/reverse-index.md (English → Nelôxi) from data/dictionary.tsv.
 Run after regen_data.py, after every merge. Derived artifact — never hand-edit."""
 import re, collections, pathlib
 root = pathlib.Path(__file__).resolve().parent.parent
@@ -21,9 +21,9 @@ for hw, gloss in entries:
             key, marker = (p[3:], ' (v.)') if p.startswith('to ') and len(p) > 3 else (p, '')
             reverse[key.lower()].append((key + marker if marker else p, hw, tag))
 
-out = ["# Nelõ kēļ — English → Nelõxi Reverse Index", "",
+out = ["# Nelô kēļ — English → Nelôxi Reverse Index", "",
        f"*Generated from the coursebook master dictionary ({len(entries)} headwords). "
-       "Find your English word, take the Nelõxi headword, inflect per the reference grammar. "
+       "Find your English word, take the Nelôxi headword, inflect per the reference grammar. "
        "⁺ marks late-stratum (technical/recent register). Derived artifact — "
        "regenerate with tools/regen_reverse.py after every merge.*", ""]
 cur = ''

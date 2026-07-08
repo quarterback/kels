@@ -1,13 +1,13 @@
-# Nelõ kēļ
-## A Course and First Dictionary of the Nelõxi Language
+# Nelô kēļ
+## A Course and First Dictionary of the Nelôxi Language
 
 ---
 
 # Part One: The Language in Brief
 
-Nelõxi (*nelõ kēļ*, "the Nelox tongue") is written in the Latin alphabet with the letters:
+Nelôxi (*nelô kēļ*, "the Nelox tongue") is written in the Latin alphabet with the letters:
 
-**a b d e f g h i j k l m n o p r s t u v x y ä ö õ ç ñ**
+**a b d e f g h i j k l m n o p r s t u v x y ä ö ô ç ñ**
 plus long vowels **ā ē ī ō ū ǟ ȫ** and the geminate **l·l**.
 
 ## Pronunciation
@@ -15,7 +15,7 @@ plus long vowels **ā ē ī ō ū ǟ ȫ** and the geminate **l·l**.
 **Vowels.** Every vowel is pure and always sounds the same:
 - **a e i o u** — as in *father, bet, machine, note, rule*
 - **ä** — as in *cat* · **ö** — rounded *e*, lips forward · **y** — rounded *i*, lips forward
-- **õ** — an unrounded *o*, made in the back of the mouth with relaxed lips; the most characteristic sound of the language
+- **ô** — an unrounded *o*, made in the back of the mouth with relaxed lips; the most characteristic sound of the language
 - A macron (**ā ē ī ō ū ǟ ȫ**) means the vowel is held twice as long. Length changes meaning: *tule* is not *tulē*.
 
 **Consonants.** As written, with these notes:
@@ -28,98 +28,123 @@ plus long vowels **ā ē ī ō ū ǟ ȫ** and the geminate **l·l**.
 
 ## The shape of a sentence
 
-The neutral order is subject–verb–object: *Mä lugē livrõn* "I read the book." But any element may be moved to the front for emphasis, because the case endings always make clear who is doing what to whom: *Livrõn mä lugē* "The *book* I read."
+The neutral order is subject–verb–object: *Mä lugē livrôn* "I read the book." But any element may be moved to the front for emphasis, because the case endings always make clear who is doing what to whom: *Livrôn mä lugē* "The *book* I read."
 
-There are no words for *the* or *a*. *Livrõ* is "book," "a book," or "the book" as context requires; *se livrõ* ("that book") serves when definiteness must be marked.
+There are no words for *the* or *a*. *Livrô* is "book," "a book," or "the book" as context requires; *se livrô* ("that book") serves when definiteness must be marked.
 
 Adjectives come before their nouns: *sūr kōt* "a big house."
 
 ## The five cases
 
-Nouns take endings that do the work of English word order and most prepositions. Where an ending needs a helping vowel (after a final consonant), it is **-õ-** after the vowels *a o u õ* and **-e-** after *ä ö y e i*.
+Nouns take endings that do the work of English word order and most prepositions. Where an ending needs a helping vowel (after a final consonant), it is **-ô-** after the vowels *a o u ô* and **-e-** after *ä ö y e i*.
 
 | Case | Ending | Meaning | Example |
 |---|---|---|---|
 | plain | — | subject | *kōt* — the house (does something) |
-| object | **-n** | direct object | *kōtõn* — the house (has something done to it) |
-| linking | **-s** | of, 's | *kōtõs port* — the house's door |
-| place | **-l** | in, at, on, from | *kōtõl* — in/at the house |
-| goal | **-lõ / -lä** | into, onto, to | *kōtõlõ* — into the house |
-| source | **-lt** | from (explicit) | *kōtõlt* — from the house |
+| object | **-n** | direct object | *kōtôn* — the house (has something done to it) |
+| linking | **-s** | of, 's | *kōtôs port* — the house's door |
+| place | **-l** | in, at, on, from | *kōtôl* — in/at the house |
+| goal | **-lô / -lä** | into, onto, to | *kōtôlô* — into the house |
+| source | **-lt** | from (explicit) | *kōtôlt* — from the house |
 | together | **-k** | with, using | *ilok* — with joy |
 
-Plural: **-d** — *kōtõd* "houses," *livrõd* "books." Case endings follow the plural: *kōtõdõl* "in the houses."
+Plural: **-d** — *kōtôd* "houses," *livrôd* "books." Case endings follow the plural: *kōtôdôl* "in the houses."
 
-The place case is broad; the verb usually settles its direction. *Tulē meçāl* "comes from the forest" (coming implies origin); *kǟvõ meçāl* "walks in the forest." When the verb does not decide, the explicit source **-lt** steps in: *Lil um meçālt* "the flower is *from* the forest."
+The place case is broad; the verb usually settles its direction. *Tulē meçāl* "comes from the forest" (coming implies origin); *kǟvô meçāl* "walks in the forest." When the verb does not decide, the explicit source **-lt** steps in: *Lil um meçālt* "the flower is *from* the forest."
 
-**Time takes the same three cases as place.** *Pǟvõl* "by day, during the day" · *matīl* "in the morning" · *setmānõlõ* "until the week, into the week" · *setmānõlt* "from that week onward, since the week." What works for the forest works for the morning.
+**Time takes the same three cases as place.** *Pǟvôl* "by day, during the day" · *matīl* "in the morning" · *setmānôlô* "until the week, into the week" · *setmānôlt* "from that week onward, since the week." What works for the forest works for the morning.
 
 ## Postpositions
 
 Finer relations of place are expressed by small words placed *after* a noun in its linking (-s) form:
 
-- **al** — under: *kōtõs al* "under the house"
+- **al** — under: *kōtôs al* "under the house"
 - **tāga** — behind: *pūs tāga* "behind the tree"
-- **jeds** — in front of, before (in space): *portõs jeds* "in front of the door"
-- **enne** — before, earlier than (in time): *pulmõs enne* "before the wedding"; also a bare adverb: *Mä tulī enne* "I came earlier"
-- **pǟl** — about, concerning, on the topic of: *merõs pǟl* "about the sea"
-- **kesk** — in the middle of: *pǟvõs kesk* "at midday, in the middle of the day"
+- **jeds** — in front of, before (in space): *portôs jeds* "in front of the door"
+- **enne** — before, earlier than (in time): *pulmôs enne* "before the wedding"; also a bare adverb: *Mä tulī enne* "I came earlier"
+- **pǟl** — about, concerning, on the topic of: *merôs pǟl* "about the sea"
+- **kesk** — in the middle of: *pǟvôs kesk* "at midday, in the middle of the day"
 
-Verbs of thought and feeling take their topic in either frame: object case for direct engagement (*Mä mūrõldā demān pǟvõn* "I worry [over] tomorrow") or linking + *pǟl* for aboutness (*Mä mūrõldā demās pǟvõs pǟl* "I worry about tomorrow"). Both are correct.
+Verbs of thought and feeling take their topic in either frame: object case for direct engagement (*Mä mūrôldā demān pǟvôn* "I worry [over] tomorrow") or linking + *pǟl* for aboutness (*Mä mūrôldā demās pǟvôs pǟl* "I worry about tomorrow"). Both are correct.
 - **ilma** — without: *ilos ilma* "without joy"
 
-Postpositions are old relational nouns worn smooth. Some keep a nominal cousin: **alū** "underside, bottom" — *kōtõs alū* "the house's underside" (a thing), beside *kōtõs al* "under the house" (a place).
+Postpositions are old relational nouns worn smooth. Some keep a nominal cousin: **alū** "underside, bottom" — *kōtôs alū* "the house's underside" (a thing), beside *kōtôs al* "under the house" (a place).
 
 ## Verbs
 
 Verbs do not change for person. The dictionary form is used for the present, and the past adds **-i**:
 
 - *mä donā* — I give · *tä donā* — she gives · *ne donā* — they give
-- *mä donai* — I gave · *lǟdõ* → *lǟdi* — went
+- *mä donai* — I gave · *lǟdô* → *lǟdi* — went
 
-There is no future tense. The present covers it, helped by time-words: *Demā mä lǟdõ markõtõlõ* "Tomorrow I go to the market."
+There is no future tense. The present covers it, helped by time-words: *Demā mä lǟdô markôtôlô* "Tomorrow I go to the market."
 
 **To be** has one present form, **um**, for everyone (*mä um, sä um, ne um*), and one past form, **ūli**.
 
 **Two participles** turn verbs into describing-words and replace most "who/which" clauses:
 - **-ji** "one who does": *lugēji* "reader" — *lugēji läpx* "the child who reads"
-- **-dõt** "done": *donādõt livrõ* "the given book"
+- **-dôt** "done": *donādôt livrô* "the given book"
 
-A verb becomes an abstract or result noun with **-mus** (harmonized *-mus/-mys*): *valdā* "to govern" → *valdõmus* "government," *lubā* "to permit" → *lubõmus* "permit," *maksā* "to pay" → *maksõmus* "payment, tax." (This differs from **-ū**, which makes a noun only from a postposition or relational word: *al* → *alū* "underside.")
+A verb becomes an abstract or result noun with **-mus** (harmonized *-mus/-mys*): *valdā* "to govern" → *valdômus* "government," *lubā* "to permit" → *lubômus* "permit," *maksā* "to pay" → *maksômus* "payment, tax." (This differs from **-ū**, which makes a noun only from a postposition or relational word: *al* → *alū* "underside.")
 
-A noun becomes a verb — "to engage in, work with, produce X" — with **-stā** (harmonized *-stā/-stä*): *kalā* "fish" → *kalāstā* "to fish," *võrk* "net" → *võrkstā* "to net."
+A noun becomes a verb — "to engage in, work with, produce X" — with **-stā** (harmonized *-stā/-stä*): *kalā* "fish" → *kalāstā* "to fish," *vôrk* "net" → *vôrkstā* "to net."
 
-A noun becomes a **verb of mental activity** — "to perform the mental action of X" — with **-ldā** (harmonized *-ldā/-ldä*; linking *-õldā/-eldä* after a consonant): *mõtõ* "thought" → *mõtõldā* "to think," *arvõ* "number" → *arvõldā* "to count, reckon," *kāldõ* "doubt" → *kāldõldā* "to doubt."
+A noun becomes a **verb of mental activity** — "to perform the mental action of X" — with **-ldā** (harmonized *-ldā/-ldä*; linking *-ôldā/-eldä* after a consonant): *môtô* "thought" → *môtôldā* "to think," *arvô* "number" → *arvôldā* "to count, reckon," *kāldô* "doubt" → *kāldôldā* "to doubt."
 
-A verb yields a **place or arena of the action** with **-ām/-äm**: *rēdā* "to judge" → *rēdām* "court," *pēlā* "to play" → *pēlām* "field," *lēsõ* "lesson" → *lēsām* "course."
+A verb yields a **place or arena of the action** with **-ām/-äm**: *rēdā* "to judge" → *rēdām* "court," *pēlā* "to play" → *pēlām* "field," *lēsô* "lesson" → *lēsām* "course."
 
-A noun or adjective yields a **person associated with it** with **-õr**: *nõuk* "council" → *nõukõr* "councillor," *sugõ* "kin" → *sugõr* "kinsperson," *kēļ* "language" → *kēļõr* "grammarian." (Distinct from **-ji**, which makes a doer from a *verb*: *lugē* → *lugēji*.)
+A noun or adjective yields a **person associated with it** with **-ôr**: *nôuk* "council" → *nôukôr* "councillor," *sugô* "kin" → *sugôr* "kinsperson," *kēļ* "language" → *kēļôr* "grammarian." (Distinct from **-ji**, which makes a doer from a *verb*: *lugē* → *lugēji*.)
+
+A verb yields a **device or instrument that does it** with **-in**: *kūlô* "to hear" → *kūlin* "speaker (audio device)," *nīrā* "to shine" → *nīrin* "lamp, screen-light." (Distinct from **-ji** the doer-person and **-ôr** the person-of-noun; **-in** is the non-person instrument.)
+
+A noun or adjective yields a **privative** — "lacking X, without X" — with **-tū/-ty** (harmonized): *kōlhô* "balls" → *kōlhôtū* "gutless," *vôim* "power" → *vôimtū* "powerless," *rā* "money" → *rātū* "penniless."
 
 ## Can, must, should
 
-**võī** "can" and **pidā** "must" come before the plain verb: *Mä võī parlā* "I can speak" · *Mä pidā lǟdõ* "I must go."
+**vôī** "can" and **pidā** "must" come before the plain verb: *Mä vôī parlā* "I can speak" · *Mä pidā lǟdô* "I must go."
 
 The **conditional** ending **-ks** softens any verb into would/should: *voleks* "would want" · *tuleks* "would come" · *pidāks* "should" (lit. "would have to") — *Sä pidāks magā* "You should sleep."
 
 ## That-clauses and who-clauses
 
-The word **et** introduces a clause as a thing known, said, or seen: *Mä tēdõ, et sä tulī* "I know that you came" · *Tä dīi, et vim sadā demā* "She said that it rains tomorrow."
+The word **et** introduces a clause as a thing known, said, or seen: *Mä tēdô, et sä tulī* "I know that you came" · *Tä dīi, et vim sadā demā* "She said that it rains tomorrow."
 
-When a participle cannot carry the load (past tense, its own objects), **ken** "who" and **mis** "what/which" head a full clause: *mēs, ken kantāi vespõrõl* "the man who was singing in the evening" — beside the compact *kantāji mēs* "the singing man."
+When a participle cannot carry the load (past tense, its own objects), **ken** "who" and **mis** "what/which" head a full clause: *mēs, ken kantāi vespôrôl* "the man who was singing in the evening" — beside the compact *kantāji mēs* "the singing man."
 
 ## Adverbs
 
-Adjectives serve as adverbs unchanged: *magā jõvā* "sleep well," *kōrrõ nobē* "run fast," *tulē varā* "come early." No ending is added or needed.
+Adjectives serve as adverbs unchanged: *magā jôvā* "sleep well," *kōrrô nobē* "run fast," *tulē varā* "come early." No ending is added or needed.
+
+## Now, now-now, and just now
+
+Deictic adverbs of time and place **reduplicate for immediacy**: *nū* "now" → **nūnū** "right now, this instant"; *sīn* "here" → **sīnsīn** "right here"; *sāl* "there" → **sālsāl** "just over there."
+
+Because time-words take the local cases, *nū* also inflects: goal-case **nūlô** ("toward now") means *soon, presently, in a bit* — a promise without a deadline — and source-case **nūlt** means *from now on, henceforth*. The full ladder, most urgent to least:
+
+> **nūnū** — immediately · **nū** — now · **nūlô** — just now, in a bit · **nūlt** — from now on
+
+The merchant register adds the interjection **fluks** "at once!" for orders and departures: *Xip lǟkô fluks!* "The ship leaves AT ONCE!" — but *Ka sä tulē?* — *Nūlô.* ("Are you coming?" — "Just now." Do not hold your breath.)
+
+## Playful calques and clipping
+
+New things are often named by a **transparent, faintly whimsical calque** that colloquial speech then **erodes**. The full form is literary; the clipped form is what people say. The clip typically drops to the stressed syllable and doubles the final consonant with a reduced vowel — written **-i** or **-a** (the *telkka* effect).
+
+Worked example — *television*:
+- **taikfinest** — "magic-window" (full calque: *taikô* "magic" + *finest* "window")
+- **taikô** — the everyday word (eroded to the first element)
+- **taiki** — the clipped colloquial form (*Ka sä nǟgô taiki?* "You watching the box?")
+
+The same three-step life (full calque → eroded → clipped) is available for any coined compound; the clipped form is metroplex-casual register.
 
 ## Dropping pronouns
 
-Once it is clear who is acting, the pronoun is dropped: *Mä lugē livrõn ja donā sen säle* — "I read the book and give it to you." Answers usually drop the pronoun entirely: *Ka sä volē pan?* — *Jā, volē.* ("Do you want bread?" — "Yes, (I) want.")
+Once it is clear who is acting, the pronoun is dropped: *Mä lugē livrôn ja donā sen säle* — "I read the book and give it to you." Answers usually drop the pronoun entirely: *Ka sä volē pan?* — *Jā, volē.* ("Do you want bread?" — "Yes, (I) want.")
 
 ## Negation and questions
 
 **äb** before the verb negates it: *Mä äb volē* "I don't want." *Nē* is the standalone "no."
 
-A yes/no question begins with **ka**: *Ka sä parlā nelõ kēļõn?* "Do you speak Nelõxi?"
+A yes/no question begins with **ka**: *Ka sä parlā nelô kēļôn?* "Do you speak Nelôxi?"
 
 Question words: **mis** what · **ken** who · **kus** where · **kun** when · **kui** how · **miks** why.
 
@@ -135,12 +160,56 @@ Possession uses the linking case: **mäs** my, **säs** your, **täs** his/her/i
 
 ## Numbers
 
-1 **üks** · 2 **kaks** · 3 **kolm** · 4 **nēļa** · 5 **vīç** · 6 **kūç** · 7 **seis** · 8 **kōtõks** · 9 **īdõks** · 10 **kīm**
+Nelôxi counts in **twelves** (base-12, dozenal), in digits of Slavic origin — the
+count of the market and the metroplex.
 
-Teens add **-teis**: *üksteis* 11, *kaksteis* 12, *kolmteis* 13 … Tens are compounds with *kīm*: *kakskīm* 20, *kolmkīm* 30, *vīçkīm* 50; units follow — *kakskīm-kolm* 23. Hundred is **çent**, thousand is **mīl**: *kaks çent vīçkīm* 250 · *mīl īdõks çent* 1900.
+### Digits
 
-Ordinals: **esmī** first and **tõin** second are their own words; from three onward, add **-nd** — *kolmnd* third, *nēļand* fourth, *kīmnd* tenth. *Esmī pǟvõl* "on the first day."
+0 **nolô** · 1 **jedôn** · 2 **dva** · 3 **tri** · 4 **xtiri** · 5 **peñç** · 6 **xeç** · 7 **sedôm** · 8 **osôm** · 9 **deveñç** · 10 **deseñç** · 11 **elva**
 
+Zero, **nolô**, is the placeholder and the empty count — *Mäl um nolô kalād* "I have zero fish."
+
+Twelve is the round number — the "ten" of the system — where counting rolls over:
+
+**düna** = 12 (one dozen) · **grosô** = 144 (a dozen dozens, the gross) · **düna-grosô** = 1728
+
+### Counting past twelve
+
+Thirteen through twenty-three are **fused single words** (*düna* erodes to *dün-*), the
+way Romance teens are opaque:
+
+13 **dünjôn** · 14 **dünva** · 15 **düntri** · 16 **dünxtir** · 17 **dünpeñç** · 18 **dünxeç** · 19 **dünsedm** · 20 **dünosm** · 21 **dündevç** · 22 **dündesç** · 23 **dünelva**
+
+The **breakpoints** — the powers of twelve — are each their own word:
+**düna** 12 · **grosô** 144 · **mīrô** 1728 · **miljôn** ~2.99 million (12⁶).
+
+Everything between breakpoints is **bare juxtaposition** — largest unit first, no
+connector, no hyphen:
+*dva düna* 24 · *dva düna tri* 27 · *tri düna peñç* 41 · *grosô dva düna* 168 ·
+*dva grosô peñç düna tri* 351. The fixed largest-first order keeps it unambiguous.
+
+### Ordinals
+
+Add **-tô**: *jedôntô* first, *dvatô* second, *tritô* third, *dünatô* twelfth.
+*Jedôntô pǟvôl* "on the first day."
+
+### Fractions and shares
+
+Fractions come from the trade quarry (Low German, the Hanseatic counting-house layer):
+**half** "half"; **dēl** "part, share"; a fraction is *number + dēl* — *tri-dēl* "a third,"
+*xtiri-dēl* "a quarter," *deseñç-dēl* "a tenth." Because twelve divides cleanly (by 2, 3, 4, 6),
+bulk goods sell in whole shares: half a *düna* is *xeç* (6), a third is *xtiri* (4), a quarter is
+*tri* (3). The thing divided takes the linking case: *dünas half* "half a dozen," *rās tri-dēl*
+"a third of the money."
+
+## Letter-names and acronyms
+
+Consonants are named with an **-ē**: *bē, dē, fē, gē, hē, jē, kē, lē, mē, nē, pē, rē, sē, tē, vē*,
+and the special letters by their sound plus -ē: *çē* [tsē], *xē* [ʃē]. Vowels are named as
+themselves (*a, e, i, o, u, ä, ö, y, ô*); a long vowel is *pikk* + the vowel (*pikk ā*).
+
+Acronyms are spoken as their letter-names and written as the run of letter-names when they
+lexicalize: *TV* → spoken **tē-vē**, written **tēvē** — *Mä nǟgô tēvēn* "I'm watching TV."
 ---
 
 # Part Two: The Course
@@ -153,11 +222,11 @@ Each unit gives new words, useful phrases, and practice sentences with word-by-w
 
 **Vocabulary**
 
-| Nelõxi | English | Nelõxi | English |
+| Nelôxi | English | Nelôxi | English |
 |---|---|---|---|
 | tēre | hello | adē | goodbye |
-| täno | thank you | palõ | please |
-| pardõ | sorry, excuse me | tervetõ | welcome |
+| täno | thank you | palô | please |
+| pardô | sorry, excuse me | tervetô | welcome |
 | jā | yes | nē | no |
 | mis | what | ken | who |
 | kus | where | kun | when |
@@ -167,28 +236,28 @@ Each unit gives new words, useful phrases, and practice sentences with word-by-w
 | mēs | man | nān | woman |
 | nim | name | kēļ | language, tongue |
 | um | to be (is/am/are) | parlā | to speak |
-| tēdõ | to know | komprē | to understand |
-| jõvā | good | agā | but |
+| tēdô | to know | komprē | to understand |
+| jôvā | good | agā | but |
 | tambē | also | vai | or |
 
 **Phrases**
 
-- *Jõvā pǟvõ!* — Good day!
+- *Jôvā pǟvô!* — Good day!
 - *Kui sä um?* — How are you?
-- *Um jõvā, täno.* — (I) am well, thank you.
+- *Um jôvā, täno.* — (I) am well, thank you.
 - *Mis um säs nim?* — What is your name?
 - *Mäs nim um …* — My name is …
 - *Mä äb komprē.* — I don't understand.
-- *Ka sä parlā nelõ kēļõn?* — Do you speak Nelõxi?
+- *Ka sä parlā nelô kēļôn?* — Do you speak Nelôxi?
 
 **First dialogue**
 
 > — Tēre!
 > — Tēre! Kui sä um?
-> — Um jõvā, täno. Ja sä?
-> — Tambē jõvā. Mis um säs nim?
+> — Um jôvā, täno. Ja sä?
+> — Tambē jôvā. Mis um säs nim?
 > — Mäs nim um Ron. Ja säs?
-> — Mäs nim um Ilse. Tervetõ!
+> — Mäs nim um Ilse. Tervetô!
 
 *(Hello! — Hello! How are you? — (I'm) well, thanks. And you? — Also well. What's your name? — My name is Ron. And yours? — My name is Ilse. Welcome!)*
 
@@ -200,7 +269,7 @@ Notice the dropped pronouns in the answers — once "who" is obvious, it goes un
 
 **Vocabulary**
 
-| Nelõxi | English | Nelõxi | English |
+| Nelôxi | English | Nelôxi | English |
 |---|---|---|---|
 | famīl·la | family | läpx | child |
 | mǟr | mother | pǟr | father |
@@ -213,14 +282,14 @@ Notice the dropped pronouns in the answers — once "who" is obvious, it goes un
 | jūn | young | alt | tall |
 | kurt | short | bel | beautiful |
 | sūr | big | petīt | small |
-| ārmastõ | to love | elā | to live |
+| ārmastô | to love | elā | to live |
 
 **Practice**
 
 1. *Mäs famīl·la um sūr.* — My family is big.
 2. *Säs sisār um bel.* — Your sister is beautiful.
-3. *Vanamǟr elā sūr kōtõl.* — Grandmother lives in a big house.
-4. *Mä ārmastõ mäs veļen.* — I love my brother.
+3. *Vanamǟr elā sūr kōtôl.* — Grandmother lives in a big house.
+4. *Mä ārmastô mäs veļen.* — I love my brother.
 5. *Ka säs gos um jūn?* — *Jā, um.* — Is your dog young? — Yes, (it) is.
 6. *Läpxed um petīt, agā kat um vana.* — The children are small, but the cat is old.
 
@@ -230,19 +299,19 @@ Notice the dropped pronouns in the answers — once "who" is obvious, it goes un
 
 **Vocabulary**
 
-| Nelõxi | English | Nelõxi | English |
+| Nelôxi | English | Nelôxi | English |
 |---|---|---|---|
 | pa | bread | veç | water |
 | lēt | milk | jūst | cheese |
 | karn | meat | kalā | fish |
 | ōu | egg | pomā | apple |
 | frūt | fruit | sup | soup |
-| sōla | salt | sukrõ | sugar |
+| sōla | salt | sukrô | sugar |
 | kafē | coffee | tē | tea |
 | vī | wine | olūt | beer |
 | taç | cup | plat | plate |
 | nugā | knife | taul | table |
-| menjā | to eat | jōdõ | to drink |
+| menjā | to eat | jōdô | to drink |
 | kuinā | to cook | volē | to want |
 | nǟlg | hunger | jān | thirst |
 | magūs | tasty, sweet | donā | to give |
@@ -251,16 +320,16 @@ Notice the dropped pronouns in the answers — once "who" is obvious, it goes un
 
 - *Mäl um nǟlg.* — I'm hungry (lit. "at me is hunger").
 - *Mäl um jān.* — I'm thirsty.
-- *Ka sä volē kafēn vai tēn?* — Do you want coffee or tea?
-- *Palõ, donā mäle pan.* — Please give me bread.
+- *Ka sä volē kafēn vai deseñç?* — Do you want coffee or tea?
+- *Palô, donā mäle pan.* — Please give me bread.
 
 **Practice**
 
-1. *Mǟr kuinā supõn.* — Mother cooks soup.
+1. *Mǟr kuinā supôn.* — Mother cooks soup.
 2. *Sup um magūs.* — The soup is tasty.
-3. *Mä jōdõ lēten, agā tä jōdõ kafēn.* — I drink milk, but she drinks coffee.
-4. *Läpx menjā pomān taulõs jeds.* — The child eats an apple in front of the table.
-5. *Donai täle vīn ja jūstõn.* — (I) gave him wine and cheese.
+3. *Mä jōdô lēten, agā tä jōdô kafēn.* — I drink milk, but she drinks coffee.
+4. *Läpx menjā pomān taulôs jeds.* — The child eats an apple in front of the table.
+5. *Donai täle vīn ja jūstôn.* — (I) gave him wine and cheese.
 
 ---
 
@@ -268,32 +337,32 @@ Notice the dropped pronouns in the answers — once "who" is obvious, it goes un
 
 **Vocabulary**
 
-| Nelõxi | English | Nelõxi | English |
+| Nelôxi | English | Nelôxi | English |
 |---|---|---|---|
-| kōt | house | kambõr | room |
+| kōt | house | kambôr | room |
 | port | door | finest | window |
 | lit | bed | kadīr | chair |
-| võtī | key | karrē | street |
+| vôtī | key | karrē | street |
 | kamī | road, way | sitāt | city |
 | kylä | village | eskōl | school |
 | kirīk | church | butīk | shop |
-| markõt | market | pont | bridge |
+| markôt | market | pont | bridge |
 | obrī | to open | tankā | to close |
-| lǟdõ | to go | tulē | to come |
+| lǟdô | to go | tulē | to come |
 
 **Phrases**
 
-- *Kus um markõt?* — Where is the market?
-- *Markõt um kirīkõs tāga.* — The market is behind the church.
-- *Obrī portõn, palõ.* — Open the door, please.
+- *Kus um markôt?* — Where is the market?
+- *Markôt um kirīkôs tāga.* — The market is behind the church.
+- *Obrī portôn, palô.* — Open the door, please.
 
 **Practice**
 
-1. *Mä elā petīt kōtõl kylä...õl.* → *Mä elā petīt kōtõl kyläl.* — I live in a small house in the village.
-2. *Läpxed lǟdõ eskōlõlõ.* — The children go to school.
-3. *Võtī um litõs al.* — The key is under the bed.
-4. *Tankāi finestõn, sest tūļ tulī.* — (I) closed the window, because the wind came.
-5. *Sitātõl um kaks pontõd ja üks sūr markõt.* — In the city there are two bridges and one big market.
+1. *Mä elā petīt kōtôl kylä...ôl.* → *Mä elā petīt kōtôl kyläl.* — I live in a small house in the village.
+2. *Läpxed lǟdô eskōlôlô.* — The children go to school.
+3. *Vôtī um litôs al.* — The key is under the bed.
+4. *Tankāi finestôn, sest tūļ tulī.* — (I) closed the window, because the wind came.
+5. *Sitātôl um dva pontôd ja jedôn sūr markôt.* — In the city there are two bridges and one big market.
 
 ---
 
@@ -301,34 +370,34 @@ Notice the dropped pronouns in the answers — once "who" is obvious, it goes un
 
 **Vocabulary**
 
-| Nelõxi | English | Nelõxi | English |
+| Nelôxi | English | Nelôxi | English |
 |---|---|---|---|
 | pū | tree | meçā | forest |
 | lil | flower | kivī | stone |
-| mā | earth, ground | taivõ | sky |
+| mā | earth, ground | taivô | sky |
 | sol | sun | kū | moon |
 | estēl | star | pilv | cloud |
 | vim | rain | nēu | snow |
 | tūļ | wind | jǟrv | lake |
-| jõg | river | muntāñ | mountain |
+| jôg | river | muntāñ | mountain |
 | tems | weather | sadā | to fall (rain, snow) |
 | lǟmi | warm | kylm | cold |
-| kalēnt | hot | pǟvõ | day |
-| nīt | night | nǟgõ | to see |
+| kalēnt | hot | pǟvô | day |
+| nīt | night | nǟgô | to see |
 
 **Phrases**
 
 - *Mis tems um avuī?* — What's the weather today?
 - *Vim sadā.* — It's raining. (lit. "rain falls")
-- *Nēu sadāi kōgu nītõn.* — Snow fell all night.
+- *Nēu sadāi kōgu nītôn.* — Snow fell all night.
 
 **Practice**
 
-1. *Sol um taivõl, tems um lǟmi.* — The sun is in the sky, the weather is warm.
+1. *Sol um taivôl, tems um lǟmi.* — The sun is in the sky, the weather is warm.
 2. *Meçāl um mult vana pūd.* — In the forest there are many old trees.
-3. *Mēg nǟgõ estēld ja kūn.* — We see the stars and the moon.
-4. *Jõg lǟdõ muntāñõs al sitātõlõ.* — The river goes beneath the mountain to the city.
-5. *Kylm tūļ tulē jǟrvõl.* — A cold wind comes off the lake.
+3. *Mēg nǟgô estēld ja kūn.* — We see the stars and the moon.
+4. *Jôg lǟdô muntāñôs al sitātôlô.* — The river goes beneath the mountain to the city.
+5. *Kylm tūļ tulē jǟrvôl.* — A cold wind comes off the lake.
 
 ---
 
@@ -336,28 +405,28 @@ Notice the dropped pronouns in the answers — once "who" is obvious, it goes un
 
 **Vocabulary**
 
-| Nelõxi | English | Nelõxi | English |
+| Nelôxi | English | Nelôxi | English |
 |---|---|---|---|
 | mer | sea | strānd | shore, beach |
 | xip | ship | bōt | boat |
 | satām | harbor | sār | island |
 | lain | wave | matrūs | sailor |
-| kalāji | fisher | handõl | trade |
-| handlõ | to trade | handlõji | merchant |
+| kalāji | fisher | handôl | trade |
+| handlô | to trade | handlôji | merchant |
 | komprā | to buy | vendā | to sell |
 | rā | money | prēu | price |
-| kuld | gold | õbē | silver |
+| kuld | gold | ôbē | silver |
 | rik | rich | vāj | poor |
-| tȫ | work | tȫdõ | to work |
+| tȫ | work | tȫdô | to work |
 | seilā | to sail | tīt | time |
 
 **Practice**
 
-1. *Xipõd seilā merõl.* — Ships sail on the sea.
-2. *Kalāji vendā kalān markõtõl.* — The fisher sells fish at the market.
-3. *Handlõji komprāi kuldõn ja õbēn.* — The merchant bought gold and silver.
-4. *Satāmõl um kolm sūr xipõd.* — In the harbor are three big ships.
-5. *Rik handlõji elā, vāj matrūs tȫdõ.* — The rich merchant lives (well), the poor sailor works.
+1. *Xipôd seilā merôl.* — Ships sail on the sea.
+2. *Kalāji vendā kalān markôtôl.* — The fisher sells fish at the market.
+3. *Handlôji komprāi kuldôn ja ôbēn.* — The merchant bought gold and silver.
+4. *Satāmôl um tri sūr xipôd.* — In the harbor are three big ships.
+5. *Rik handlôji elā, vāj matrūs tȫdô.* — The rich merchant lives (well), the poor sailor works.
 6. *Mis um prēu?* — What is the price?
 
 ---
@@ -366,13 +435,13 @@ Notice the dropped pronouns in the answers — once "who" is obvious, it goes un
 
 **Vocabulary**
 
-| Nelõxi | English | Nelõxi | English |
+| Nelôxi | English | Nelôxi | English |
 |---|---|---|---|
-| matī | morning | vespõr | evening |
+| matī | morning | vespôr | evening |
 | setmān | week | kū | month |
 | āst | year | ōra | hour |
 | avuī | today | demā | tomorrow |
-| ajēr | yesterday | nyt | now |
+| ajēr | yesterday | nū | now |
 | semprē | always | mai | never |
 | varā | early | tard | late |
 | jōs | if | sest | because |
@@ -380,18 +449,18 @@ Notice the dropped pronouns in the answers — once "who" is obvious, it goes un
 **Phrases**
 
 - *Mis ōra um?* — What time is it?
-- *Um vīç.* — It's five.
+- *Um peñç.* — It's five.
 - *Kun sä tulē?* — *Demā matīl.* — When do you come? — Tomorrow morning.
 
 **Practice**
 
-1. *Ajēr mä tȫdi kōgu pǟvõn.* — Yesterday I worked all day.
-2. *Setmānõl um seis pǟvõd.* — In a week there are seven days.
+1. *Ajēr mä tȫdi kōgu pǟvôn.* — Yesterday I worked all day.
+2. *Setmānôl um sedôm pǟvôd.* — In a week there are sedôm days.
 3. *Tä semprē tulē tard, mai varā.* — He always comes late, never early.
-4. *Jōs vim sadā demā, mēg äb lǟdõ strāndõlõ.* — If it rains tomorrow, we don't go to the beach.
-5. *Āstõl um kaksteis kūd.*¹ — In a year there are twelve months.
+4. *Jōs vim sadā demā, mēg äb lǟdô strāndôlô.* — If it rains tomorrow, we don't go to the beach.
+5. *Āstôl um twētein kūd.*¹ — In a year there are twelve months.
 
-¹ *Teens are formed with **-teis**: üksteis 11, kaksteis 12, kolmteis 13 …*
+¹ *Teens are formed with **-teis**: ēntein 11, twētein 12, drētein 13 …*
 
 ---
 
@@ -399,27 +468,27 @@ Notice the dropped pronouns in the answers — once "who" is obvious, it goes un
 
 **Vocabulary**
 
-| Nelõxi | English | Nelõxi | English |
+| Nelôxi | English | Nelôxi | English |
 |---|---|---|---|
 | ilo | joy | amōr | love |
 | felīç | happy | tirist | sad |
 | vihān | angry | pōr | fear |
-| pelgõ | to fear | naurā | to laugh |
-| itkõ | to cry | kysõ | to ask |
+| pelgô | to fear | naurā | to laugh |
+| itkô | to cry | kysô | to ask |
 | vastā | to answer | dī | to say |
-| kūlõ | to hear | vēu | voice |
+| kūlô | to hear | vēu | voice |
 | kançō | song | kantā | to sing |
-| tõsī | truth | mentīd | lie |
-| kontē | story | sõnā | word |
-| lugē | to read | livrõ | book |
+| tôsī | truth | mentīd | lie |
+| kontē | story | sônā | word |
+| lugē | to read | livrô | book |
 
 **Practice**
 
 1. *Läpx um felīç ja naurā.* — The child is happy and laughs.
-2. *Kysõi täle, agā tä äb vastāi.* — (I) asked him, but he didn't answer.
-3. *Mä kūlõ bel kançōn — ken kantā?* — I hear a beautiful song — who sings?
-4. *Dī mäle tõsīn, äb mentīdõn.* — Tell me the truth, not a lie.
-5. *Vanamǟr lugē kontēn läpxedele vespõrõl.* — Grandmother reads a story to the children in the evening.
+2. *Kysôi täle, agā tä äb vastāi.* — (I) asked him, but he didn't answer.
+3. *Mä kūlô bel kançōn — ken kantā?* — I hear a beautiful song — who sings?
+4. *Dī mäle tôsīn, äb mentīdôn.* — Tell me the truth, not a lie.
+5. *Vanamǟr lugē kontēn läpxedele vespôrôl.* — Grandmother reads a story to the children in the evening.
 6. *Kantāji nān um mäs sisār.* — The singing woman is my sister.
 
 ---
@@ -428,34 +497,34 @@ Notice the dropped pronouns in the answers — once "who" is obvious, it goes un
 
 **Vocabulary**
 
-| Nelõxi | English | Nelõxi | English |
+| Nelôxi | English | Nelôxi | English |
 |---|---|---|---|
-| lǟdõ | to go | tulē | to come |
-| kǟvõ | to walk | kōrrõ | to run |
-| lǟkõ | to leave, depart | aribā | to arrive |
+| lǟdô | to go | tulē | to come |
+| kǟvô | to walk | kōrrô | to run |
+| lǟkô | to leave, depart | aribā | to arrive |
 | reisā | to travel | tēno | train |
 | kotxē | car | obūn | horse |
 | kaug | far | prop | near |
 | nobē | fast | lent | slow |
 | eskerrē | left | deret | right |
 | idā | east | lǟn | west |
-| põjā | north | sud | south |
+| pôjā | north | sud | south |
 
 **Phrases**
 
-- *Kus sä lǟdõ?* — Where are you going?
+- *Kus sä lǟdô?* — Where are you going?
 - *Kui kaug um satām?* — How far is the harbor?
-- *Um prop, kǟvõ deretõlõ.* — It's near, walk to the right.
+- *Um prop, kǟvô deretôlô.* — It's near, walk to the right.
 
 **Practice**
 
-1. *Tēno lǟki matīl ja aribā vespõrõl.* — The train left in the morning and arrives in the evening.
-2. *Mēg reisā sudõlõ, merõs strāndõlõ.* — We travel south, to the shore of the sea.
-3. *Obūn kōrrõ nobē, kotxē kōrrõ nobēmi.*² — The horse runs fast, the car runs faster.
-4. *Kōrrõji läpx aribāi varā.* — The running child arrived early.
-5. *Lǟkõ nyt, vai mēg um tard!* — Leave now, or we are late!
+1. *Tēno lǟki matīl ja aribā vespôrôl.* — The train left in the morning and arrives in the evening.
+2. *Mēg reisā sudôlô, merôs strāndôlô.* — We travel south, to the shore of the sea.
+3. *Obūn kōrrô nobē, kotxē kōrrô nobēmi.*² — The horse runs fast, the car runs faster.
+4. *Kōrrôji läpx aribāi varā.* — The running child arrived early.
+5. *Lǟkô nū, vai mēg um tard!* — Leave now, or we are late!
 
-² *Comparative: **-mi** — nobē "fast" → nobēmi "faster"; sūr → sūrmi "bigger." Superlative is periphrastic: **kõust** "of all" before the comparative — kõust sūrmi "biggest," kõust nobēmi "fastest."*
+² *Comparative: **-mi** — nobē "fast" → nobēmi "faster"; sūr → sūrmi "bigger." Superlative is periphrastic: **kôust** "of all" before the comparative — kôust sūrmi "biggest," kôust nobēmi "fastest."*
 
 ---
 
@@ -463,10 +532,10 @@ Notice the dropped pronouns in the answers — once "who" is obvious, it goes un
 
 **Vocabulary**
 
-| Nelõxi | English | Nelõxi | English |
+| Nelôxi | English | Nelôxi | English |
 |---|---|---|---|
 | kap | head | silm | eye |
-| kõrv | ear | bokā | mouth |
+| kôrv | ear | bokā | mouth |
 | kǟs | hand | pēu | foot |
 | kor | heart | verī | blood |
 | kabēl | hair | dent | tooth |
@@ -475,15 +544,15 @@ Notice the dropped pronouns in the answers — once "who" is obvious, it goes un
 | arst | doctor | mediçīn | medicine |
 | magā | to sleep | ärkā | to wake |
 | kançāt | tired | fort | strong |
-| nõrk | weak | | |
+| nôrk | weak | | |
 
 **Practice**
 
 1. *Mäs kap um valūl.* — My head hurts (lit. "my head is in pain").
-2. *Läpx um malālt; mǟr kysõ arstõn.* — The child is sick; mother asks for the doctor.
-3. *Jōdõ mediçīnõn ja magā.* — Drink the medicine and sleep.
+2. *Läpx um malālt; mǟr kysô arstôn.* — The child is sick; mother asks for the doctor.
+3. *Jōdô mediçīnôn ja magā.* — Drink the medicine and sleep.
 4. *Ajēr ūli kançāt, avuī um fort ja sān.* — Yesterday (I) was tired, today (I) am strong and healthy.
-5. *Vana mēsõl um nõrk kor, agā fort vēu.* — The old man has a weak heart, but a strong voice.
+5. *Vana mēsôl um nôrk kor, agā fort vēu.* — The old man has a weak heart, but a strong voice.
 
 ---
 
@@ -491,11 +560,11 @@ Notice the dropped pronouns in the answers — once "who" is obvious, it goes un
 
 ## Kalāji ja mer — *The Fisher and the Sea*
 
-> Vana kalāji elā petīt kōtõl, merõs strāndõl. Semprē, matīl varā, tä lǟdõ bōtõk merõlõ. Pǟvõl tä tȫdõ; vespõrõl tulē kōtõlõ ja vendā kalān markõtõl.
+> Vana kalāji elā petīt kōtôl, merôs strāndôl. Semprē, matīl varā, tä lǟdô bōtôk merôlô. Pǟvôl tä tȫdô; vespôrôl tulē kōtôlô ja vendā kalān markôtôl.
 >
-> Üks pǟvõl sūr tūļ tulī. Laind ūli sūr, taivõ ūli kylm ja tirist. Kalāji äb pelgõi. Dīi: "Mer donā, mer votā³ — agā avuī mer donā."
+> Üks pǟvôl sūr tūļ tulī. Laind ūli sūr, taivô ūli kylm ja tirist. Kalāji äb pelgôi. Dīi: "Mer donā, mer votā³ — agā avuī mer donā."
 >
-> Ja mer donai. Vespõrõl kalāji tulī kōtõlõ sūr kalāk, ja täs famīl·la ūli felīç. Kançāt agā sān, tä magāi jõvā, ja meçās tāga kū ūli taivõl.
+> Ja mer donai. Vespôrôl kalāji tulī kōtôlô sūr kalāk, ja täs famīl·la ūli felīç. Kançāt agā sān, tä magāi jôvā, ja meçās tāga kū ūli taivôl.
 
 ³ *votā — to take.*
 
@@ -505,59 +574,59 @@ Notice the dropped pronouns in the answers — once "who" is obvious, it goes un
 
 # Part Four: Master Dictionary
 
-## Nelõxi → English
+## Nelôxi → English
 
-**A** — abī help, aid · abīstā to help · adē goodbye · agā but · ajēr yesterday · ajū to drift · aktõ act, official document · akõr anchor · al under (postp.) · alk beginning, start · alkā to begin · alt tall · alū underside, bottom · amtõ office, bureau · amtõji official, office-holder · amīk friend · amōr love (n.) · aribā to arrive · arm affection, fondness · armõldā to feel affection for · arst doctor · arvõ number, count · arvõldā to count, reckon · arēnõ arena, stadium (late-stratum) · avuī today · āhi oven · ārgõ purpose, aim · āst year
+**A** — abī help, aid · abīstā to help · abītȫ public service, service work · adē goodbye · aedô fence, enclosure · agā but · ajēr yesterday · ajū to drift · aktô act, official document · akôr anchor · al under (postp.) · alk beginning, start · alkā to begin · alt tall · alū underside, bottom · amtô office, bureau · amtôji official, office-holder · amīk friend · amōr love (n.) · apô app, small program (late-stratum) · aribā to arrive · arm affection, fondness · armôldā to feel affection for · arst doctor · arsô arse, ass (vulgar) · arvô number, count · arvôldā to count, reckon · arēnô arena, stadium (late-stratum) · avuī today · āhi oven · ārgô purpose, aim · ārô plow · ārā to plow · āst year
 
-**Ä** — äb not · ärkā to wake · ārmastõ to love
+**Ä** — äb not · ärkā to wake · ārmastô to love
 
-**B** — balçā to vote · balçõmus vote, ballot · balkõ beam, heavy timber · bālõ ball · bākõ lighthouse (late-stratum) · bebē baby · bel beautiful · bokā mouth · bōt boat · butīk shop
+**B** — babkô granny, familiar grandmother (Marīsô, slav) · bajômus chatter, idle talk (Marīsô, slav) · bajā to chat, talk idly (Marīsô, slav) · balkô beam, heavy timber · balçômus vote, ballot · balçā to vote · bebē baby · bel beautiful · blokô apartment block, city block (late-stratum) · bokā mouth · bramô gate, entry arch (Marīsô, slav) · bratkô close male friend (Marīsô, slav) · brāk wreckage, a failure (coarse) · brākā to wreck, ruin utterly (coarse) · butīk shop · bākô lighthouse (late-stratum) · bālô ball · bōs evil, foul, wretched (coarse) · bōt boat · būsô bus (late-stratum)
 
-**Ç** — çent hundred
+**Ç** — çapkā to grab, snatch casually (Marīsô, slav) · çenô bargain price, street price (Marīsô, slav)
 
-**D** — dek deck (late-stratum) · demā tomorrow · dent tooth · deret right (side) · dī to say · donā to give
+**D** — dek deck (late-stratum) · demā tomorrow · dent tooth · deret right (side) · deseñç ten · deveñç nine · donā to give · drobô small coins, change (Marīsô, slav) · drōk filth, muck (coarse) · dva two · dvôrô courtyard, block yard (Marīsô, slav) · düna twelve (round; one dozen) · dündesç twenty-two · dündevç twenty-one · dünelva twenty-three · dünjôn thirteen · dünosm twenty · dünpeñç seventeen · dünsedm nineteen · düntri fifteen · dünva fourteen · dünxeç eighteen · dünxtir sixteen · düvlik devilish, infernal; (adv.) devilishly (coarse) · düvēl devil, demon (coarse) · dātô data (late-stratum) · dēdkô granddad, familiar grandfather (Marīsô, slav) · dēl part, share; a fraction · dī to say · dīmys announcement, public notice
 
-**E** — ehitõmus construction, building work · ehitā to build, construct · elõmus life, living · elā to live, dwell · enne before (in time), earlier (postp./adv.) · ennū the past, former times · ernē pea · eskerrē left (side) · eskōl school · esmī first · estēl star · et that (introduces a clause) · ēgõ tie, draw · ēgā to tie, draw
+**E** — ehitômus construction, building work · ehitā to build, construct · elva eleven · elômus life, living · elā to live, dwell · enne before (in time), earlier (postp./adv.) · ennū the past, former times · ernē pea · eskerrē left (side) · eskōl school · estēl star · et that (introduces a clause) · ēgô tie, draw · ēgā to tie, draw
 
-**F** — famīl·la family · felīç happy · finest window · fīnõ fine, penalty · flag flag, ensign (late-stratum) · fort strong · frūt fruit
+**F** — failô file (late-stratum) · famīl·la family · felīç happy · finest window · flag flag, ensign (late-stratum) · fluks at once! (interjection, merchant register; late-stratum) · flōp weak, limp; a flop (coarse) · flœzī cream-filled pastry (Belgian import); (by extension) any donut or filled sweet dough · flūk curse, hex, bad luck (coarse) · flūkā to curse, hex (coarse) · fonô phone (late-stratum) · fonômus phone call (late-stratum) · fonā to phone, call (late-stratum) · fort strong · fotô photograph (late-stratum) · fotā to photograph (late-stratum) · frūt fruit · futrā to fuck (obscene) · futôr fucker, bastard (vulgar) · fān damn, hell; the devil (interj./n., coarse) · fāndô to curse, to damn (coarse) · fīnô fine, penalty
 
-**G** — genõ parent · gos dog · grīs grey (late-stratum)
+**G** — genô parent · glup stupid, thick-headed (coarse) · glupôr idiot, fool, blockhead (coarse) · gos dog · grançô border crossing (late-stratum) · gribô mushroom (Marīsô, slav; cf. native pôlū) · grosô gross, 144 (a dozen dozens) · grīs grey (late-stratum)
 
-**H** — haavõmus hurt, emotional wound · haavā to wound emotionally, hurt · habrõ fragile · hamõr hammer · handlõ to trade · handlõji merchant · handõl trade (n.) · harjõmus practice, training session · harjā to practice, train · haudõ grave · hell tender, gentle · hellū tenderness · helē light, pale (of color) · häbedā to feel ashamed · häbū shame
+**H** — haavômus hurt, emotional wound · haavā to wound emotionally, hurt · habrô fragile · half half · hamôr hammer · handlô to trade · handlôji merchant · handôl trade (n.) · harjômus practice, training session · harjā to practice, train · haudô grave · heinô hay · hell tender, gentle · hellū tenderness · helē light, pale (of color) · hennô hen, chicken · hoolômus maintenance, upkeep · hoolā to maintain, keep up · hoolāji maintenance worker · häbedā to feel ashamed · häbū shame · hūr whore (archaic/dialectal; obscene)
 
-**I** — idā east · idē idea · igāldā to long for, miss · iglū longing, yearning · ilma without (postp.) · ilo joy · inim person · itkõ to cry
+**I** — idā east · idē idea · iglū longing, yearning · igāldā to long for, miss · ilma without (postp.) · ilo joy · inim person · itkô to cry · īvô seed
 
-**Ī** — īdõks nine
+**Ī** — deveñç nine
 
-**J** — ja and · jeds in front of (postp.) · juht yogurt, curdled milk · jõg river · jõu flour · jõvā good · jā yes · jān thirst · jānõ to thirst, be thirsty · jōdõ to drink · jōs if · jūn young · jūnõr youth, young person · jūr root vegetable · jūst cheese · jǟ ice · jǟdõ ice-cold · jǟrv lake
+**J** — ja and · jaamô station, terminal (late-stratum) · jeds in front of (postp.) · jedôn one · juht yogurt, curdled milk · jättômus disposal · jättā to discard, dispose of · jättām dump, disposal site · jôg river · jôu flour · jôvā good · jā yes · jān thirst · jānô to thirst, be thirsty · jōdô to drink · jōs if · jūn young · jūnôr youth, young person · jūr root vegetable · jūst cheese · jǟ ice · jǟdô ice-cold · jǟrv lake
 
-**K** — ka (question particle) · kabēl hair · kadē envy · kadēldā to envy · kadīr chair · kafē coffee · kahetsõmus regret (n.) · kahetsā to regret · kaimõ spouse · kaipõmus missing, ache of absence · kaipā to miss (someone) · kaks two · kallā to pour · kaltõ chisel · kaltā to carve, chisel · kalā fish · kalāji fisher · kalāstā to fish · kalēnt hot · kambõr room · kamī road · kannõmus endurance, patience · kannā to endure, bear · kantā to sing · kançāt tired · kançō song · kanā channel (late-stratum) · kanēl cinnamon (late-stratum) · kaotõmus loss, defeat · kaotā to lose · kap head · kaptā to catch · karistõ punishment · karistā to punish · karmõ harsh, severe · karn meat · karrē street · karī dark (of color) · karīk reef, rock (at sea) · kat cat · kaug far · kaçõ test, examination · kaçā to test, examine · keetā to boil · ken who · kesk in the middle of (postp.) · keskū middle, center · kevē light (weight) · kihlõ engagement, betrothal · kihlā to become engaged · kirg passion · kirgõldā to feel passion for · kirjõ script, handwriting · kirjõmus writing, written text · kirjā to write · kirjāji writer, scribe · kirīk church · kivī stone · kolm three · kompass compass (late-stratum) · komprā to buy · komprē to understand · kontē story · kor heart · kos body · kotxē car · koçõr coach, trainer (late-stratum) · kudā to weave · kui how · kuinā to cook · kuiv dry · kuld gold · kun when · kurt short · kus where · kylm cold · kylä village · kysõ to ask · kysõmus question · kõg all · kõlt yellow · kõrd order, sequence · kõust of all (superlative frame) · kõv hard · köis rope, cord · küpsõr baker · küpsā to bake · küpsām bakery, bake-house · kāldõ doubt · kāldõldā to doubt · kāpõs cabbage · kārgõ rough (surface) · kārtõ chart, sea-map (late-stratum) · kēļ language · kēļkõrd grammar · kēļõr grammarian · kīm ten · kōk cake, sweet bread · kōlõr color · kōrrõ to run · kōt house · kōtõks eight · kū moon; month · kūlõ to hear · kūç six · kǟs hand · kǟvõ to walk
+**K** — ka (question particle) · kabēl hair · kadē envy · kadēldā to envy · kadīr chair · kafē coffee · kahetsômus regret (n.) · kahetsā to regret · kaimô spouse · kaipômus missing, ache of absence · kaipā to miss (someone) · kallā to pour · kaltô chisel · kaltā to carve, chisel · kalā fish · kalāji fisher · kalāstā to fish · kalēnt hot · kambôr room · kamērô camera (late-stratum) · kamī road · kannômus endurance, patience · kannā to endure, bear · kantā to sing · kançāt tired · kançō song · kanā channel (late-stratum) · kanēl cinnamon (late-stratum) · kaotômus loss, defeat · kaotā to lose · kap head · kaptā to catch · kapustô cabbage (Marīsô, slav; cf. native kāpôs) · karistô punishment · karistā to punish · karjô herd, flock · karjā to herd, tend animals · karmô harsh, severe · karn meat · karrē street · karrēlampô streetlight · karī dark (of color) · karīk reef, rock (at sea) · kastô bin, container · kasvômus growth · kasvā to grow · kat cat · kaug far · kaçô test, examination · kaçā to test, examine · keetā to boil · ken who · kesk in the middle of (postp.) · keskū middle, center · kevē light (weight) · kihlô engagement, betrothal · kihlā to become engaged · kirg passion · kirgôldā to feel passion for · kirjô script, handwriting · kirjômus writing, written text · kirjā to write · kirjāji writer, scribe · kirīk church · kitsô goat · kivī stone · klavôr keyboard (late-stratum) · klikômus click (late-stratum) · klikā to click (late-stratum) · klubô club, neighborhood hall (late-stratum) · klȫtô balls, testicles; (vulgar) courage, nerve · klȫtôtū cowardly, gutless (vulgar) · kodô code (late-stratum) · kodā to code, program (late-stratum) · kompass compass (late-stratum) · komprā to buy · komprē to understand · kontē story · kor heart · kos body · kotxē car · koçôr coach, trainer (late-stratum) · krašô vomit, puke (coarse) · krašā to vomit, puke (coarse) · kruçô cross, crucifix · krāmô small goods, wares (Marīsô, slav) · krāmôr vendor, wares-seller (Marīsô, slav) · krōm crooked; dishonest, corrupt (coarse) · krūçôfiks crucifix, rood (technical; -fiks frozen) · krūçā to crucify; (vulgar) to damn utterly (obscene) · kudā to weave · kui how · kuinā to cook · kuiv dry · kukô rooster · kuld gold · kun when · kurt short · kus where · kylm cold · kylä village · kysô to ask · kysômus question · kôg all · kôlt yellow · kônô voice-call, conversation · kônā to converse, speak back and forth · kôrd order, sequence; (in compounds) system · kôust of all (superlative frame) · kôv hard · köis rope, cord · külvômus sowing, planting · külvā to sow, plant · küpsôr baker · küpsā to bake · küpsām bakery, bake-house · kāldô doubt · kāldôldā to doubt · kāpôs cabbage · kārgô rough (surface) · kārtô chart, sea-map (late-stratum) · kēļ language · kēļkôrd grammar · kēļôr grammarian · kōk cake, sweet bread · kōlôr color · kōrrô to run · kōt house · kū moon; month · kūlin speaker (audio device) · kūlô to hear · kǟs hand · kǟvô to walk
 
-**L** — laht bay · lain wave · laintū swell, great wave · last cargo (late-stratum) · lauk garlic · lehtõ page, sheet · leikā to cut · leinõ mourning, grief · leinā to mourn, grieve · lent slow · lepõmus reconciliation · lepā to reconcile, make peace · leskõ widow, widower · lil flower · limõ glue, paste · limā to glue, paste · lit bed · livrõ book · livrõkōt library · lohū comfort, consolation · lohūldā to comfort · lop end · lopā to end, finish · lubõmus permit, license · lubā to permit · lugē to read · lugēmys reading (act of) · läpx child · lõigā to cut, slice · lõng thread, yarn · lõunā midday meal, lunch · lēgõ law · lēsõ lesson · lēsām course (of lessons) · lēt milk · lībā to thicken (soup, sauce) · līvõ sandy · lōdõ board, plank · lōtõ cloth, fabric · lōtā to hope · lōtū hope (n.) · lūdõ tide · lǟdõ to go · lǟkõ to leave · lǟmi warm · lǟn west · lǟtū lentil
+**L** — laadômus load, upload, download (late-stratum) · laadā to load, upload, download (late-stratum) · laht bay · lain wave · laintū swell, great wave · lammô sheep · lampô lamp, public light (late-stratum) · last cargo (late-stratum) · lauk garlic · lehmä cow · lehtô page, sheet · leikā to cut · leinô mourning, grief · leinā to mourn, grieve · lent slow · lepômus reconciliation · lepā to reconcile, make peace · leskô widow, widower · lil flower · limô glue, paste · limā to glue, paste · lit bed · livrô book · livrôkōt library · lohū comfort, consolation · lohūldā to comfort · lop end · lopā to end, finish · lubômus permit, license · lubā to permit · lugē to read · lugēmys reading (act of) · lypsômus milking · lypsā to milk · läpx child · lôigā to cut, slice · lông thread, yarn · lôunā midday meal, lunch · lāvô barn, stable · lēgô law · lēsô lesson · lēsām course (of lessons) · lēt milk · lībā to thicken (soup, sauce) · līnô line, cable (late-stratum) · līvô sandy · lōdô board, plank · lōtô cloth, fabric · lōtā to hope · lōtū hope (n.) · lūdô tide · lǟdô to go · lǟkô to leave · lǟmi warm · lǟn west · lǟtū lentil
 
-**M** — madal shallow · magā to sleep · magūs tasty · magūsū dessert, sweet course · mai never · maitõ to taste · maitū seasoning, spice · maitūs savory · maksõmus tax, payment · maksā to pay · malālt sick · marīt husband · mastõ mast · matrūs sailor · matī morning · maçõ match, contest (late-stratum) · mediçīn medicine · medāl medal (late-stratum) · melī honey · menjā to eat · mentīd lie (n.) · mer sea · meçā forest · miks why · mis what · mult many, much · muntāñ mountain · murk carrot · must black · mä I · märg wet · märkõmus note, annotation · märkā to mark, annotate · mõtõ thought · mõtõldā to think · mā earth · māhl juice · mārjā berry · māçõr referee, umpire (late-stratum) · mēdõr measuring tool, ruler · mēdā to measure · mēg we · mēl memory · mēldā to remember · mēlā oar · mērkõ goal, target · mēs man · mīl thousand · mīstērõ mystery, secret · mōl feeling, emotion · mūrõ worry, care · mūrõldā to worry · mǟr mother · mǟtõmus burial, funeral · mǟtā to bury
+**M** — madal shallow · magā to sleep · magūs tasty · magūsū dessert, sweet course · mai never · maitô to taste · maitū seasoning, spice · maitūs savory · maksômus tax, payment · maksā to pay · malālt sick · marīskēļ Marīsô speech, border-city dialect · Marīsô (place) the border city (Slavic-side Marzeja) · marīsôr person from Marīsô · marīt husband · mastô mast · matrūs sailor · matī morning · maçô match, contest (late-stratum) · mediçīn medicine · medāl medal (late-stratum) · melī honey · menjā to eat · mentīd lie (n.) · mer sea · merd turd, piece of shit (vulgar) · meçā forest · miks why · mikô microphone (late-stratum) · miljôn million (12⁶, ~2.99M) · mis what · mrovô apartment, flat (Marīsô, slav) · mrovôr apartment-dweller (Marīsô, slav) · mult many, much · muntāñ mountain · murk carrot · must black · mustveç wastewater, sewage · mustveçkôrd sewer system · mä I · märg wet · märktaul signboard, public sign · märkômus note, annotation · märkā to mark, annotate · môtô thought · môtôldā to think · mā earth · māhl juice · mārjā berry · māçôr referee, umpire (late-stratum) · mēdôr measuring tool, ruler · mēdā to measure · mēg we · mēl memory · mēldā to remember · mēlā oar · mērkô goal, target · mēs man · mīrô 1728 (a dozen gross; 12³) · mīstērô mystery, secret · mōl feeling, emotion · mūlô muzzle, snout; (vulgar) mouth, gob (vulgar) · mūrô worry, care · mūrôldā to worry · mǟr mother · mǟtômus burial, funeral · mǟtā to bury
 
-**N** — nabõr neighbor · naisõ wife · naurā to laugh · ne they · nim name · nobē fast · nugā knife · nyt now · nõglõ needle · nõrk weak · nõuk council · nõukõr councillor · nān woman · nē no · nēm cape, headland · nētõ net (sport) · nēu snow · nēļa four · nīrõ bright, shining · nīt night · nǟgõ to see · nǟlg hunger · nǟlgõ to hunger, be hungry · nǟr turnip
+**N** — nabôr neighbor · nahkô hide, leather · naisô wife · naurā to laugh · ne they · nim name · nobē fast · nolô zero · noppômus harvest, gathering · noppā to pick, gather, harvest · nugā knife · nupô button, key · nurô field, cultivated land · nurôr farmer, field-worker · nôglô needle · nôrk weak · nôuk council · nôukôr councillor · nān woman · nē no (trade) · nēm cape, headland · nētô net (sport) · nēu snow · nīrin lamp, screen-light; light-device · nīrtaul screen, lit. 'shine-board' (literary synonym for skrinô) · nīrô bright, shining · nīrā to shine, give light · nīt night · nū now · nūlt from now on, henceforth · nūlô just now, soon, in a bit · nūnū right now, immediately · nǟgô to see · nǟlg hunger · nǟlgô to hunger, be hungry · nǟr turnip
 
-**O** — obrī to open · obūn horse · olūt beer · omīk breakfast · onkõ uncle · orvõ orphan · orānx orange (late-stratum) · ōra hour · ōu egg
+**O** — obrī to open · obūn horse · olūt beer · omīk breakfast · onkô uncle · ootkôrd queue, waiting line · ootômus waiting · ootā to wait · orvô orphan · orānx orange (late-stratum) · osôm eight · ōra hour · ōu egg
 
-**Õ** — õblā to sew · õbē silver · õhtõk evening meal, supper · õli oil · õpõkambõr classroom · õpõmus learning, study · õpā to learn, study · õpāji student, learner
+**Ô** — ôblā to sew · ôbē silver · ôhtôk evening meal, supper · ôli oil · ôpôkambôr classroom · ôpômus learning, study · ôpā to learn, study · ôpāji student, learner
 
-**P** — pa bread · padā pot · palõ please · pannõ pan · papõr paper (late-stratum) · parandõmus repair, mending · parandā to mend, repair · pardõ sorry · pardõmus forgiveness · pardā to forgive · parlā to speak · pehmē soft · pelgõ to fear · perēm prize, award (late-stratum) · petīt small · pidõmus duty, obligation · pidā must, to have to · pilv cloud · pipõr pepper (late-stratum) · plat plate · poig son · pomā apple · pont bridge · port door · potõ pot, vessel · praadā to fry (late-stratum) · praul brown (late-stratum) · prop near · prēu price · puhād clean · puhādā to erase, clean off · pulmõ wedding, marriage · pulmā to marry, wed · punktõ point, score unit · punktā to score · purjē sail · purpõr purple (late-stratum) · päriji heir · pärõmus inheritance, legacy · pärā to inherit · põhjõ reason, cause · põhjõldā to reason, think through · põhõ base, foundation; bottom, floor (of sea/river) · põhõlēgõ constitution, basic law · põjā north · põlvõ generation · põlū mushroom · pāsā to pass · pēlõ game, play · pēlā to play · pēlāji player · pēlām field, court · pēu foot · pīrõ border, boundary · pōr fear (n.) · pū tree · pūmõ wood, timber · pūn red · pǟl about, concerning (postp.) · pǟlū topic, subject · pǟr father · pǟvõ day
+**P** — pa bread · padā pot · palô please · pannô pan · papôr paper (late-stratum) · parandômus repair, mending · parandā to mend, repair · pardô sorry · pardômus forgiveness · pardā to forgive · parlā to speak · pehmē soft · pelgô to fear · perēm prize, award (late-stratum) · petīt small · peñç five · pidômus duty, obligation · pidā must, to have to · pik prick, cock (obscene) · pikā to stab, pierce; (vulgar) to fuck (obscene) · pildô image, picture · piletô ticket (late-stratum) · pilv cloud · pipôr pepper (late-stratum) · pirôg filled pastry (Marīsô, slav) · plat plate · plinô pancake, griddle cake (Marīsô, slav) · poig son · pomp pompous fool, windbag (coarse) · pomā apple · pont bridge · port door · potô pot, vessel · praadā to fry (late-stratum) · praul brown (late-stratum) · prop near · prēu price · prōm booze, cheap liquor (coarse) · prōmôr drunkard, soak (coarse) · prōmām tavern, grog-shop (coarse) · puhād clean · puhādtȫ sanitation, cleaning service · puhādôr cleaner, sanitation worker · puhādā to erase, clean off · pulmô wedding, marriage · pulmā to marry, wed · punktô point, score unit · punktā to score · purjē sail · purpôr purple (late-stratum) · putān whore, prostitute (obscene) · putānikōt brothel (obscene) · päriji heir · pärômus inheritance, legacy · pärā to inherit · pôhjô reason, cause · pôhjôldā to reason, think through · pôhô base, foundation; bottom, floor (of sea/river) · pôhôlēgô constitution, basic law · pôjā north · pôlvô generation · pôlū mushroom · pôrsô piglet · püsā to stop, halt · püsām stop, stopping place · pārkô public park (late-stratum) · pāsportô passport (late-stratum) · pāsā to pass · pēlô game, play · pēlā to play · pēlāji player · pēlām field, court · pēu foot · pīrô border, boundary · pīrôlubômus border permit · pīrôsegas border mixture, mixed border life · pīrôsitāt border city · pōr fear (n.) · pū tree · pūmô wood, timber · pūn red · pūst empty, barren; (vulgar) spent, worthless (coarse) · pǟl about, concerning (postp.) · pǟlū topic, subject · pǟr father · pǟvô day
 
-**R** — rahu calm, inner peace · rahuldā to calm, soothe · rahvõ people, public · raksõ race · raksā to race, compete by speed · rask heavy · ratõ wheel · raud iron · ravõji guardian, caretaker · ravā to raise, rear, care for · redē dirty · reisā to travel · rekõt racket, bat (late-stratum) · rik rich · rindõ line of writing · rõhī green · rõim delight, gladness · rõimā to rejoice · röstā to roast · rā money · rājõ track, course · rānd shore, waterside (the older, broader word) · rāndõr coastline · rēdā to judge, decide · rēdāji judge · rēdām court, tribunal · rētõ right, entitlement · rīgõ state, country (late-stratum) · rīst tool · rōs pink · rūbā to grate, shred · rūnõ letter, character · rūnõkõrd alphabet
+**R** — rahu calm, inner peace · rahuldā to calm, soothe · rahvô people, public · raksô race · raksā to race, compete by speed · rask heavy · ratô wheel · raud iron · ravôji guardian, caretaker · ravā to raise, rear, care for · redē dirty · reisā to travel · rekôt racket, bat (late-stratum) · rik rich · rikā to damage, break · rindô line of writing · rohô grass · roiskô waste, refuse, trash · rôhī green · rôim delight, gladness · rôimā to rejoice · röstā to roast · rā money · rādjo radio (late-stratum) · rājô track, course · rānd shore, waterside (the older, broader word) · rāndôr coastline · rēdā to judge, decide · rēdāji judge · rēdām court, tribunal · rētô right, entitlement · rīgô state, country (late-stratum) · rīst tool · rōs pink · rūbā to grate, shred · rūnô letter, character · rūnôkôrd alphabet
 
-**S** — sadā to fall (rain/snow) · satām harbor · savī clay; clay-like, muddy (n./adj.) · sañõ catch (of fish) · se this, that · segas chaos, disorder · segā to mix, stir · seilā to sail · seis seven · selgõ clear · selgū clarity, understanding · selkõ team · semprē always · servõmus serve, service · servā to serve · sest because · sesõn season (late-stratum) · setmān week · sidõmus knot, binding · sidā to tie, bind · silm eye · silē smooth · sinī blue · sipõl onion · sisār sister · sitānik citizen · sitāt city · sojā warm (to touch) · sol sun · strānd beach, waterfront (the newer, nautical word; cf. rānd) · sud south · sugõ kin, lineage · sugõläpx cousin · sugõr relative, kinsperson · sukrõ sugar · sulõ pen, quill · sup soup · surmõ death · surā to die · syndõmus birth · syndā to be born · syv deep · sä you · sõnā word · sõnālivrõ dictionary · sāl there · sān healthy · sār island · sāvõ saw · sāvā to saw · sīgel seal, official mark · sīlõ seam, stitch-line · sīlā to stitch, seam · sīn here · sōdā to host, receive a guest · sōdāji host · sōla salt · sūr big · sȫk meal, food
+**S** — saatômus sending, transmission · saatā to send · sadā to fall (rain/snow) · salvômus saved file, digital storage (late-stratum) · salvā to save, store digitally (late-stratum) · satām harbor · savī clay; clay-like, muddy (n./adj.) · sañô catch (of fish) · se this, that · sedôm seven · segas chaos, disorder · segā to mix, stir · seilā to sail · selgô clear · selgū clarity, understanding · selkô team · semprē always · servômus serve, service · servā to serve · sest because · sestrô close female friend (Marīsô, slav) · sesôn season (late-stratum) · setmān week · sidômus knot, binding · sidā to tie, bind · signô signal (late-stratum) · sigô pig · silm eye · silē smooth · sinī blue · sipôl onion · sirpô sickle · sirvôr server (late-stratum) · sisār sister · sitānik citizen · sitāt city · skrinô screen · skīt shit; crap! (vulgar) · skītôr coward, worthless person (vulgar) · skītā to shit (vulgar) · smetôn sour cream (Marīsô, slav) · sojā warm (to touch) · sol sun · strānd beach, waterfront (the newer, nautical word; cf. rānd) · sud south · sugô kin, lineage · sugôläpx cousin · sugôr relative, kinsperson · sukrô sugar · sulô pen, quill · sup soup · surmô death · surā to die · syndômus birth · syndā to be born · syv deep · sä you · sôidômus ride, vehicle trip · sôidā to ride, travel by vehicle · sônaktô message, written notice · sônā word · sônālivrô dictionary · sāl there · sālsāl just over there · sān healthy · sār island · sāvô saw · sāvā to saw · sīgel seal, official mark · sīlô seam, stitch-line · sīlā to stitch, seam · sīn here · sīnsīn right here · sōdā to host, receive a guest · sōdāji host · sōla salt · sūr big · sȫk meal, food · sȫtô fodder, animal feed · sȫtā to feed
 
-**T** — tahtõ will, desire · tahtõldā to desire deeply · taivõ sky · talçā to teach · talçāji teacher, instructor · tambē also · tankā to close · tantõ aunt · tappõ nail, peg · tappā to nail, peg, fasten · tard late · tarīs necessary, needed · taul table · taç cup · tems weather · tervetõ welcome · tillõ dock, pier (late-stratum) · tintõ ink (late-stratum) · tirist sad · tormõ storm · tornē tournament (late-stratum) · tugev sturdy · tulē to come · tumõ dull, matte · tundõ to feel · tyhjā empty · tytār daughter · tä he, she, it · täidā to fill · täno thank you · tänāldā to feel grateful · tänū gratitude · tõin second (ordinal) · tõsī truth · tõsītõ evidence, proof · tõsītū fact, established truth · tāgõ dough · tā́ga behind (postp.) · tē tea · tēdõ to know · tēdõmus knowledge · tēg you (pl.) · tēno train · tēre hello · tīt time · tītū eternity · tūļ wind · tǟs full · tȫ work (n.) · tȫdõ to work · tȫkambõr workshop
+**T** — tahtô will, desire · tahtôldā to desire deeply · taikfinest television (full calque, "magic-window") · taiki TV, the box (clipped colloquial) · taikô magic; (colloq.) television · taivô sky · tallô lamb · talçā to teach · talçāji teacher, instructor · tambē also · tankā to close · tantô aunt · tappô nail, peg · tappā to nail, peg, fasten · tard late · tarīs necessary, needed · taul table · taç cup · tems weather · tervetô welcome · tillô dock, pier (late-stratum) · tintô ink (late-stratum) · tirist sad · tormô storm · tornô tower, signal tower (late-stratum) · tornē tournament (late-stratum) · torô pipe, conduit · tri three · trīk trick, dirty scheme (coarse) · trīkôr trickster, con man (coarse) · trīkā to trick, swindle (coarse) · tugev sturdy · tulē to come · tumô dull, matte · tundô to feel · tyhjā empty · tytār daughter · tä he, she, it · täidā to fill · täno thank you · tänāldā to feel grateful · tänū gratitude · tôsī truth · tôsītô evidence, proof · tôsītū fact, established truth · tāgô dough · tārgô market stall (Marīsô, slav) · tārgôr stall-seller (Marīsô, slav) · tā́ga behind (postp.) · tē tea · tēdô to know · tēdômus knowledge · tēg you (pl.) · tēno train · tēre hello · tēvē TV (spoken tē-vē; clipped from taiki) · tīt time · tītkôrd schedule, timetable · tītū eternity · tōl toll, fee; (vulgar) bribe, payoff (coarse) · tūļ wind · tǟs full · tȫ work (n.) · tȫdô to work · tȫkambôr workshop
 
-**U** — udū fog · um to be (present) · unõstā to forget · unī dream · unīstā to dream · usaldõmus trust (n.) · usaldā to trust · üks one · üksū loneliness · üksūldā to feel lonely · ūli was, were · ūpeldā to feel proud · ūpū pride · ūsk belief · ūskõ to believe
+**U** — udū fog · um to be (present) · unôstā to forget · unī dream · unīstā to dream · usaldômus trust (n.) · usaldā to trust · üksū loneliness · üksūldā to feel lonely · ūli was, were · ūpeldā to feel proud · ūpū pride · ūsk belief · ūskô to believe
 
 **Ü** — ürd herb
 
-**V** — vai or · vaik calm (sea, weather) · valdõmus government · valdā to govern · valgõ white · valvā to guard, protect · valvāji guard, police officer · valī choice · valīstā to choose · valū pain · vana old · vanamǟr grandmother · vanapǟr grandfather · vangõ prison, jail · vanõr elder, ancestor · varā early · vastõmus answer, response · vastā to answer · vastāmus responsibility (irregular; cf. vastõmus) · vendā to sell · verī blood · vespõr evening · veç water · veļ brother · vihān angry · vim rain · vingõr vinegar (late-stratum) · viskā to throw, cast · volē to want · vool current · vormā to shape, form · votā to take · võidõ butter · võim power, strength · võitõ victory, win · võitā to win · võrk net · võrõ guest, stranger · võtī key · võī can, to be able · vāj poor · vānõ oath · vānā to swear an oath · vēu voice · vī wine · vīsū wisdom · vīç five · vǟrpēlõ foul (in a game) · vǟrpēlā to foul · vǟrõ crime, wrongdoing
+**V** — vai or · vaik calm (sea, weather) · valdômus government · valdā to govern · valgô white · valvā to guard, protect · valvāji guard, police officer · valī choice · valīstā to choose · valū pain · vana old · vanamǟr grandmother · vanapǟr grandfather · vangô prison, jail · vanôr elder, ancestor · varā early · vasikô calf · vastômus answer, response · vastā to answer · vastāmus responsibility (irregular; cf. vastômus) · vastāsaatā to reply, send back · vendā to sell · verī blood · vespôr evening · veç water · veçtorô water pipe · veļ brother · vihān angry · viljô grain, crop · villô wool · vim rain · vingôr vinegar (late-stratum) · viskā to throw, cast · volē to want · vool current · vormā to shape, form · votā to take · väetô manure, fertilizer · väetā to fertilize · vôidô butter · vôim power, strength · vôitô victory, win · vôitā to win · vôrk net · vôrkkôrd network, network system · vôrô guest, stranger · vôtī key · vôī can, to be able · vāj poor · vānô oath · vānā to swear an oath · vēu voice · vī wine · vīrô virus, malware (late-stratum) · vīsū wisdom · vīzô visa, entry mark (late-stratum) · vǟrpēlô foul (in a game) · vǟrpēlā to foul · vǟrô crime, wrongdoing
 
-**X** — xip ship
+**X** — xapkô cap, street hat (Marīsô, slav) · xeç six · xip ship · xolkô loose queue, queue-crowd (Marīsô, slav) · xtiri four · xumô street bustle, crowd-noise (Marīsô, slav) · xumā to bustle, make street noise (Marīsô, slav)
 
 ---
 
