@@ -572,8 +572,15 @@ what the word needs, and its foreignness is the feature.)
 ## 44. Amendment (v4.2 — comparative "than", shelf, "to seem")
 Gaps found by a translation stress-test. **kui** extends to "than" (*raskmi kui X*). **riul** "shelf" (late). **sīmā** "to seem, look, appear" (distinct from *nǟgô* "to see"). Total 851.
 
-## 47. Pronunciation of the name (canonical, founder-set)
+## 47. The two values of x (canonical, founder-set)
 
-The country **Nelôxia** and the language **Nelôxi** are pronounced **nel-OX-ee-ah** / **nel-OX-ee** — the **x** here is [ks] (hard, as in English "box"), and stress falls on the **second** syllable, not the initial.
+The letter **x** has two pronunciations in Nelôxi:
 
-This is a frozen proper-noun spelling: elsewhere in Nelôxi **x** = [ʃ] and stress is initial, but the name of the country and language keeps the older value and stress, the way national names commonly preserve archaic pronunciation. The endonym *nelô kēļ* follows normal rules (NEH-loh kēļ); only the -xi-/-xia forms carry the [ks].
+- **[ʃ]** ("sh") — the normal, native value, used in ordinary vocabulary (*xip, xeç, xolkô*).
+- **[ks]** (hard, as in English "box") — the **older value**, preserved in proper nouns and archaic/ceremonial forms.
+
+The country **Nelôxia** and language **Nelôxi** take the [ks] value with **second-syllable stress**: *nel-OX-ee-ah*, *nel-OX-ee*. This is not a one-off — it is the general rule that **proper nouns (place names, personal names, old titles, institutions) and inherited/archaic words tend to keep x = [ks]**, while everyday vocabulary uses x = [ʃ]. Stress in these [ks] forms may also fall off the initial syllable, unlike the native default.
+
+**For contributors:** when coining place names, personal names, dynastic/ceremonial terms, or deliberately archaic vocabulary, x = [ks] is available and appropriate. When coining ordinary words, x = [ʃ]. If a word could read either way, the register decides: elevated/onomastic → [ks]; common → [ʃ]. Mark [ks] words in their gloss as *(x = [ks])* so the value is unambiguous.
+
+The native endonym *nelô kēļ* follows normal rules (there is no x in it).
