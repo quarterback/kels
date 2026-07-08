@@ -551,11 +551,20 @@ Mechanical, repo-wide, single commit: all .md and tool files migrated (õ→ô, 
 data regenerated; headword count unchanged (848). This is the largest mechanical change in
 the project's history and was executed as one isolated, verified pass.
 
-## 43. Founder's Amendment (v4.1 — the œ word)
+## 43. Founder's Amendment (v4.1 — the flœzī, corrected)
 
-**flœsô** "fried sweet pastry, donut" — a Belgian import (a *croustillon*/smoutebol-type
-carnival donut) that kept its foreign **œ**, the way loanwords retain a signature grapheme
-(cf. English *hors d'œuvre*, French *façade*). It is the ONLY word carrying œ; the letter is
-not part of the native inventory. This is deliberate — a naturalized-but-visibly-foreign
-borrowing is more realistic than forcing it to conform. Regular otherwise: plural *flœsôd*.
-Total 849.
+**flœzī** n. (late) — 1. a cream-filled pastry, a Belgian import. 2. (by extension) any
+filled or fried sweet dough; a donut. Said *floo-zee*.
+
+Carries **two** foreign marks, both found only in this word: the grapheme **œ** and the sound/
+letter **z** — neither is native to Nelôxi. This is deliberate: a loanword that violates the
+phonotactics is *announcing* its foreign origin (cf. English *hors d'œuvre*, *pizza*). A Belgian
+baker's harbor-district sign, locals asking for "one of those floozy things," the name sticking
+and spreading inland — the foreign spelling is a scar that outlives the memory of the Belgian.
+Regular otherwise: plural *flœzīd*.
+
+Examples: *Mä komprai flœzīn ja kafēn prōmāmôl* "I bought a donut and a coffee at the grog-shop."
+*Vanamǟr teki flœzīd vespôrôs sȫkôs jeds* "Grandmother makes donuts before the evening meal."
+
+(Corrects the initial *flœsô*, which was mis-coined — it did not sound like "floozy." The z is
+what the word needs, and its foreignness is the feature.)

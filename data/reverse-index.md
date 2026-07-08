@@ -231,6 +231,7 @@ cow → **lehmä**
 coward → **skītôr**  
 cowardly → **klȫtôtū**  
 crap! (vulgar) → **skīt**  
+cream-filled pastry (Belgian import) → **flœzī**  
 crime → **vǟrô**  
 crooked → **krōm**  
 crop → **viljô**  
@@ -281,7 +282,6 @@ dispose of → **jättā**
 dock → **tillô**⁺  
 doctor → **arst**  
 dog → **gos**  
-donut (Belgian import → **flœsô**  
 door → **port**  
 doubt → **kāldô** · **kāldôldā**  
 dough → **tāgô**  
@@ -397,7 +397,6 @@ foundation → **pôhô**
 four → **xtiri**  
 fourteen → **dünva**  
 fragile → **habrô**  
-fried sweet pastry → **flœsô**  
 friend → **amīk**  
 from now on → **nūlt**  
 fruit → **frūt**  
@@ -1007,7 +1006,6 @@ that → **se**
 that (introduces a clause) → **et**  
 the box (clipped colloquial) → **taiki**  
 the devil (interj./n., coarse) → **fān**  
-the one œ word) → **flœsô**  
 the past → **ennū**  
 there → **sāl**  
 they → **ne**  
