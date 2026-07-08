@@ -1,8 +1,6 @@
 abī
 abīstā
 abītȫ
-acht
-achttig
 adē
 aedõ
 agā
@@ -53,12 +51,25 @@ dek
 demā
 dent
 deret
+deseñç
+deveñç
 donā
 drobõ
-drē
-drētig
 drōk
+dva
 dvõrõ
+düna
+dündesç
+dündevç
+dünelva
+dünjõn
+dünosm
+dünpeñç
+dünsedm
+düntri
+dünva
+dünxeç
+dünxtir
 düvlik
 düvēl
 dātõ
@@ -66,10 +77,9 @@ dēdkõ
 dēl
 dī
 dīmys
-dūsõnd
-dūtõ
 ehitõmus
 ehitā
+elva
 elõmus
 elā
 enne
@@ -99,10 +109,6 @@ futrā
 futõr
 fān
 fāndõ
-fēr
-fērtig
-fīf
-fīftig
 fīnõ
 genõ
 glup
@@ -110,6 +116,7 @@ glupõr
 gos
 grançõ
 gribõ
+grosõ
 grīs
 haavõmus
 haavā
@@ -130,7 +137,6 @@ hennõ
 hoolõmus
 hoolā
 hoolāji
-hunt
 häbedā
 häbū
 hūr
@@ -145,6 +151,7 @@ itkõ
 ja
 jaamõ
 jeds
+jedõn
 juht
 jättõmus
 jättā
@@ -304,7 +311,6 @@ lain
 laintū
 lammõ
 lampõ
-langhunt
 last
 lauk
 lehmä
@@ -383,6 +389,7 @@ merd
 meçā
 miks
 mikõ
+miljõn
 mis
 mrovõ
 mrovõr
@@ -411,6 +418,7 @@ mēldā
 mēlā
 mērkõ
 mēs
+mīrõ
 mīstērõ
 mōl
 mūlõ
@@ -438,8 +446,6 @@ nõuk
 nõukõr
 nān
 nē
-nēgõn
-nēgõntig
 nēm
 nētõ
 nēu
@@ -466,6 +472,7 @@ ootõmus
 ootā
 orvõ
 orānx
+osõm
 pa
 padā
 palõ
@@ -481,6 +488,7 @@ pehmē
 pelgõ
 perēm
 petīt
+peñç
 pidõmus
 pidā
 pik
@@ -597,6 +605,7 @@ satām
 savī
 sañõ
 se
+sedõm
 segas
 segā
 seilā
@@ -606,14 +615,10 @@ selkõ
 semprē
 servõmus
 servā
-ses
 sest
-sestig
 sestrõ
 sesõn
 setmān
-seven
-seventig
 sidõmus
 sidā
 signõ
@@ -698,6 +703,7 @@ tormõ
 tornõ
 tornē
 torõ
+tri
 trīk
 trīkõr
 trīkā
@@ -705,8 +711,6 @@ tugev
 tulē
 tumõ
 tundõ
-twē
-twētig
 tyhjā
 tytār
 tä
@@ -725,7 +729,6 @@ tē
 tēdõ
 tēdõmus
 tēg
-tēn
 tēno
 tēre
 tēvē
@@ -805,9 +808,10 @@ vǟrpēlõ
 vǟrpēlā
 vǟrõ
 xapkõ
+xeç
 xip
-xok
 xolkõ
+xtiri
 xumõ
 xumā
 äb
@@ -833,8 +837,6 @@ xumā
 āst
 ēgõ
 ēgā
-ēn
-ēntõ
 īvõ
 ōra
 ōu

@@ -160,43 +160,45 @@ Possession uses the linking case: **mäs** my, **säs** your, **täs** his/her/i
 
 ## Numbers
 
-Germanic base-10 numerals; the counting-house also uses the old Hanseatic long hundred.
+Nelõxi counts in **twelves** (base-12, dozenal), in digits of Slavic origin — the
+count of the market and the metroplex.
 
-### Numerals
+### Digits
 
-1 **ēn** · 2 **twē** · 3 **drē** · 4 **fēr** · 5 **fīf** · 6 **ses** · 7 **seven** · 8 **acht** · 9 **nēgõn** · 10 **tēn**
+1 **jedõn** · 2 **dva** · 3 **tri** · 4 **xtiri** · 5 **peñç** · 6 **xeç** · 7 **sedõm** · 8 **osõm** · 9 **deveñç** · 10 **deseñç** · 11 **elva**
 
-Teens add **-tein**: *ēntein* 11, *twētein* 12, *drētein* 13 … *nēgõntein* 19.
-Tens add **-tig**: *twētig* 20, *drētig* 30, *fērtig* 40, *fīftig* 50, *sestig* 60, *seventig* 70,
-*achttig* 80, *nēgõntig* 90. Compounds hyphenate tens-unit: *twētig-ēn* 21, *fīftig-ses* 56.
-Hundred **hunt** (100), thousand **dūsõnd** (1000): *twē hunt fīftig* 250, *ēn dūsõnd nēgõn hunt* 1900.
+Twelve is the round number — the "ten" of the system — where counting rolls over:
 
-Ordinals add **-tõ**: *ēntõ* first, *twētõ* second, *drētõ* third, *fērtõ* fourth, *tēntõ* tenth.
-*Ēntõ pǟvõl* "on the first day."
+**düna** = 12 (one dozen) · **grosõ** = 144 (a dozen dozens, the gross) · **düna-grosõ** = 1728
 
-### The long hundred (trade tally)
+### Counting past twelve
 
-Market and cargo count in dozens, the Hanseatic way:
-**dūtõ** a dozen (12) · **xok** a schock (60, five dozen) · **langhunt** a long hundred (120, ten dozen).
-Plain *hunt* (100) serves ordinary counting. Trade counts largest-grouping first, remainder in
-units joined by *ja*: *drē dūtõ* 36 · *twē langhunt ja tēn* 250.
+Thirteen through twenty-three are **fused single words** (*düna* erodes to *dün-*), the
+way Romance teens are opaque:
 
-*Kalāji vendai drē dūtõ kalād* "the fisher sold three dozen fish (36)." *Xip kannā twē langhunt
-tõnn* "the ship carries two long-hundred tons (240)."
+13 **dünjõn** · 14 **dünva** · 15 **düntri** · 16 **dünxtir** · 17 **dünpeñç** · 18 **dünxeç** · 19 **dünsedm** · 20 **dünosm** · 21 **dündevç** · 22 **dündesç** · 23 **dünelva**
 
-### Shares and fractions
+The **breakpoints** — the powers of twelve — are each their own word:
+**düna** 12 · **grosõ** 144 · **mīrõ** 1728 · **miljõn** ~2.99 million (12⁶).
 
-The long hundred was borrowed because 120 divides cleanly — by 2, 3, 4, 5, 6, 8, 10, 12 and more —
-so bulk goods sell in whole sub-units, not fractions. **In trade, name the sub-unit, not the
-fraction:** half a *langhunt* of herring is simply a **xok** (60); a third is *fērtig* (40); a
-quarter is *drētig* (30); a tenth is a *dūtõ* (12). This is the point of the system — clean shares
-without arithmetic.
+Everything between breakpoints is **bare juxtaposition** — largest unit first, no
+connector, no hyphen:
+*dva düna* 24 · *dva düna tri* 27 · *tri düna peñç* 41 · *grosõ dva düna* 168 ·
+*dva grosõ peñç düna tri* 351. The fixed largest-first order keeps it unambiguous.
 
-For general (non-tally) use, fractions come from the trade quarry: **half** "half" and **dēl**
-"part, share" (a merchant's cut). A fraction is *number + dēl*: **drēdēl** "a third," **fērdēl**
-"a quarter" (cf. German *Viertel*, English *farthing*), **tēndēl** "a tenth." The thing divided
-takes the linking case: *langhuntõs half* "half of a long-hundred," *pas dēl* "a share of the
-bread," *rās drēdēl* "a third of the money."
+### Ordinals
+
+Add **-tõ**: *jedõntõ* first, *dvatõ* second, *tritõ* third, *dünatõ* twelfth.
+*Jedõntõ pǟvõl* "on the first day."
+
+### Fractions and shares
+
+Fractions come from the trade quarry (Low German, the Hanseatic counting-house layer):
+**half** "half"; **dēl** "part, share"; a fraction is *number + dēl* — *tri-dēl* "a third,"
+*xtiri-dēl* "a quarter," *deseñç-dēl* "a tenth." Because twelve divides cleanly (by 2, 3, 4, 6),
+bulk goods sell in whole shares: half a *düna* is *xeç* (6), a third is *xtiri* (4), a quarter is
+*tri* (3). The thing divided takes the linking case: *dünas half* "half a dozen," *rās tri-dēl*
+"a third of the money."
 
 ## Letter-names and acronyms
 
@@ -316,7 +318,7 @@ Notice the dropped pronouns in the answers — once "who" is obvious, it goes un
 
 - *Mäl um nǟlg.* — I'm hungry (lit. "at me is hunger").
 - *Mäl um jān.* — I'm thirsty.
-- *Ka sä volē kafēn vai tēn?* — Do you want coffee or tea?
+- *Ka sä volē kafēn vai deseñç?* — Do you want coffee or tea?
 - *Palõ, donā mäle pan.* — Please give me bread.
 
 **Practice**
@@ -358,7 +360,7 @@ Notice the dropped pronouns in the answers — once "who" is obvious, it goes un
 2. *Läpxed lǟdõ eskōlõlõ.* — The children go to school.
 3. *Võtī um litõs al.* — The key is under the bed.
 4. *Tankāi finestõn, sest tūļ tulī.* — (I) closed the window, because the wind came.
-5. *Sitātõl um twē pontõd ja ēn sūr markõt.* — In the city there are two bridges and one big market.
+5. *Sitātõl um dva pontõd ja jedõn sūr markõt.* — In the city there are two bridges and one big market.
 
 ---
 
@@ -421,7 +423,7 @@ Notice the dropped pronouns in the answers — once "who" is obvious, it goes un
 1. *Xipõd seilā merõl.* — Ships sail on the sea.
 2. *Kalāji vendā kalān markõtõl.* — The fisher sells fish at the market.
 3. *Handlõji komprāi kuldõn ja õbēn.* — The merchant bought gold and silver.
-4. *Satāmõl um drē sūr xipõd.* — In the harbor are three big ships.
+4. *Satāmõl um tri sūr xipõd.* — In the harbor are three big ships.
 5. *Rik handlõji elā, vāj matrūs tȫdõ.* — The rich merchant lives (well), the poor sailor works.
 6. *Mis um prēu?* — What is the price?
 
@@ -445,13 +447,13 @@ Notice the dropped pronouns in the answers — once "who" is obvious, it goes un
 **Phrases**
 
 - *Mis ōra um?* — What time is it?
-- *Um fīf.* — It's five.
+- *Um peñç.* — It's five.
 - *Kun sä tulē?* — *Demā matīl.* — When do you come? — Tomorrow morning.
 
 **Practice**
 
 1. *Ajēr mä tȫdi kōgu pǟvõn.* — Yesterday I worked all day.
-2. *Setmānõl um seven pǟvõd.* — In a week there are seven days.
+2. *Setmānõl um sedõm pǟvõd.* — In a week there are sedõm days.
 3. *Tä semprē tulē tard, mai varā.* — He always comes late, never early.
 4. *Jōs vim sadā demā, mēg äb lǟdõ strāndõlõ.* — If it rains tomorrow, we don't go to the beach.
 5. *Āstõl um twētein kūd.*¹ — In a year there are twelve months.
@@ -572,7 +574,7 @@ Notice the dropped pronouns in the answers — once "who" is obvious, it goes un
 
 ## Nelõxi → English
 
-**A** — abī help, aid · abīstā to help · abītȫ public service, service work · acht eight · achttig eighty · adē goodbye · aedõ fence, enclosure · agā but · ajēr yesterday · ajū to drift · aktõ act, official document · akõr anchor · al under (postp.) · alk beginning, start · alkā to begin · alt tall · alū underside, bottom · amtõ office, bureau · amtõji official, office-holder · amīk friend · amōr love (n.) · apõ app, small program (late-stratum) · aribā to arrive · arm affection, fondness · armõldā to feel affection for · arst doctor · arsõ arse, ass (vulgar) · arvõ number, count · arvõldā to count, reckon · arēnõ arena, stadium (late-stratum) · avuī today · āhi oven · ārgõ purpose, aim · ārõ plow · ārā to plow · āst year
+**A** — abī help, aid · abīstā to help · abītȫ public service, service work · adē goodbye · aedõ fence, enclosure · agā but · ajēr yesterday · ajū to drift · aktõ act, official document · akõr anchor · al under (postp.) · alk beginning, start · alkā to begin · alt tall · alū underside, bottom · amtõ office, bureau · amtõji official, office-holder · amīk friend · amōr love (n.) · apõ app, small program (late-stratum) · aribā to arrive · arm affection, fondness · armõldā to feel affection for · arst doctor · arsõ arse, ass (vulgar) · arvõ number, count · arvõldā to count, reckon · arēnõ arena, stadium (late-stratum) · avuī today · āhi oven · ārgõ purpose, aim · ārõ plow · ārā to plow · āst year
 
 **Ä** — äb not · ärkā to wake · ārmastõ to love
 
@@ -580,41 +582,41 @@ Notice the dropped pronouns in the answers — once "who" is obvious, it goes un
 
 **Ç** — çapkā to grab, snatch casually (Marīsõ, slav) · çenõ bargain price, street price (Marīsõ, slav)
 
-**D** — dek deck (late-stratum) · demā tomorrow · dent tooth · deret right (side) · donā to give · drobõ small coins, change (Marīsõ, slav) · drē three · drētig thirty · drōk filth, muck (coarse) · dvõrõ courtyard, block yard (Marīsõ, slav) · düvlik devilish, infernal; (adv.) devilishly (coarse) · düvēl devil, demon (coarse) · dātõ data (late-stratum) · dēdkõ granddad, familiar grandfather (Marīsõ, slav) · dēl part, share; a fraction · dī to say · dīmys announcement, public notice · dūsõnd thousand · dūtõ dozen, twelve (trade tally)
+**D** — dek deck (late-stratum) · demā tomorrow · dent tooth · deret right (side) · deseñç ten · deveñç nine · donā to give · drobõ small coins, change (Marīsõ, slav) · drōk filth, muck (coarse) · dva two · dvõrõ courtyard, block yard (Marīsõ, slav) · düna twelve (round; one dozen) · dündesç twenty-two · dündevç twenty-one · dünelva twenty-three · dünjõn thirteen · dünosm twenty · dünpeñç seventeen · dünsedm nineteen · düntri fifteen · dünva fourteen · dünxeç eighteen · dünxtir sixteen · düvlik devilish, infernal; (adv.) devilishly (coarse) · düvēl devil, demon (coarse) · dātõ data (late-stratum) · dēdkõ granddad, familiar grandfather (Marīsõ, slav) · dēl part, share; a fraction · dī to say · dīmys announcement, public notice
 
-**E** — ehitõmus construction, building work · ehitā to build, construct · elõmus life, living · elā to live, dwell · enne before (in time), earlier (postp./adv.) · ennū the past, former times · ernē pea · eskerrē left (side) · eskōl school · estēl star · et that (introduces a clause) · ēgõ tie, draw · ēgā to tie, draw · ēn one · ēntõ first
+**E** — ehitõmus construction, building work · ehitā to build, construct · elva eleven · elõmus life, living · elā to live, dwell · enne before (in time), earlier (postp./adv.) · ennū the past, former times · ernē pea · eskerrē left (side) · eskōl school · estēl star · et that (introduces a clause) · ēgõ tie, draw · ēgā to tie, draw
 
-**F** — failõ file (late-stratum) · famīl·la family · felīç happy · finest window · flag flag, ensign (late-stratum) · fluks at once! (interjection, merchant register; late-stratum) · flōp weak, limp; a flop (coarse) · flūk curse, hex, bad luck (coarse) · flūkā to curse, hex (coarse) · fonõ phone (late-stratum) · fonõmus phone call (late-stratum) · fonā to phone, call (late-stratum) · fort strong · fotõ photograph (late-stratum) · fotā to photograph (late-stratum) · frūt fruit · futrā to fuck (obscene) · futõr fucker, bastard (vulgar) · fān damn, hell; the devil (interj./n., coarse) · fāndõ to curse, to damn (coarse) · fēr four · fērtig forty · fīf five · fīftig fifty · fīnõ fine, penalty
+**F** — failõ file (late-stratum) · famīl·la family · felīç happy · finest window · flag flag, ensign (late-stratum) · fluks at once! (interjection, merchant register; late-stratum) · flōp weak, limp; a flop (coarse) · flūk curse, hex, bad luck (coarse) · flūkā to curse, hex (coarse) · fonõ phone (late-stratum) · fonõmus phone call (late-stratum) · fonā to phone, call (late-stratum) · fort strong · fotõ photograph (late-stratum) · fotā to photograph (late-stratum) · frūt fruit · futrā to fuck (obscene) · futõr fucker, bastard (vulgar) · fān damn, hell; the devil (interj./n., coarse) · fāndõ to curse, to damn (coarse) · fīnõ fine, penalty
 
-**G** — genõ parent · glup stupid, thick-headed (coarse) · glupõr idiot, fool, blockhead (coarse) · gos dog · grançõ border crossing (late-stratum) · gribõ mushroom (Marīsõ, slav; cf. native põlū) · grīs grey (late-stratum)
+**G** — genõ parent · glup stupid, thick-headed (coarse) · glupõr idiot, fool, blockhead (coarse) · gos dog · grançõ border crossing (late-stratum) · gribõ mushroom (Marīsõ, slav; cf. native põlū) · grosõ gross, 144 (a dozen dozens) · grīs grey (late-stratum)
 
-**H** — haavõmus hurt, emotional wound · haavā to wound emotionally, hurt · habrõ fragile · half half · hamõr hammer · handlõ to trade · handlõji merchant · handõl trade (n.) · harjõmus practice, training session · harjā to practice, train · haudõ grave · heinõ hay · hell tender, gentle · hellū tenderness · helē light, pale (of color) · hennõ hen, chicken · hoolõmus maintenance, upkeep · hoolā to maintain, keep up · hoolāji maintenance worker · hunt hundred · häbedā to feel ashamed · häbū shame · hūr whore (archaic/dialectal; obscene)
+**H** — haavõmus hurt, emotional wound · haavā to wound emotionally, hurt · habrõ fragile · half half · hamõr hammer · handlõ to trade · handlõji merchant · handõl trade (n.) · harjõmus practice, training session · harjā to practice, train · haudõ grave · heinõ hay · hell tender, gentle · hellū tenderness · helē light, pale (of color) · hennõ hen, chicken · hoolõmus maintenance, upkeep · hoolā to maintain, keep up · hoolāji maintenance worker · häbedā to feel ashamed · häbū shame · hūr whore (archaic/dialectal; obscene)
 
 **I** — idā east · idē idea · iglū longing, yearning · igāldā to long for, miss · ilma without (postp.) · ilo joy · inim person · itkõ to cry · īvõ seed
 
-**Ī** — nēgõn nine
+**Ī** — deveñç nine
 
-**J** — ja and · jaamõ station, terminal (late-stratum) · jeds in front of (postp.) · juht yogurt, curdled milk · jättõmus disposal · jättā to discard, dispose of · jättām dump, disposal site · jõg river · jõu flour · jõvā good · jā yes · jān thirst · jānõ to thirst, be thirsty · jōdõ to drink · jōs if · jūn young · jūnõr youth, young person · jūr root vegetable · jūst cheese · jǟ ice · jǟdõ ice-cold · jǟrv lake
+**J** — ja and · jaamõ station, terminal (late-stratum) · jeds in front of (postp.) · jedõn one · juht yogurt, curdled milk · jättõmus disposal · jättā to discard, dispose of · jättām dump, disposal site · jõg river · jõu flour · jõvā good · jā yes · jān thirst · jānõ to thirst, be thirsty · jōdõ to drink · jōs if · jūn young · jūnõr youth, young person · jūr root vegetable · jūst cheese · jǟ ice · jǟdõ ice-cold · jǟrv lake
 
 **K** — ka (question particle) · kabēl hair · kadē envy · kadēldā to envy · kadīr chair · kafē coffee · kahetsõmus regret (n.) · kahetsā to regret · kaimõ spouse · kaipõmus missing, ache of absence · kaipā to miss (someone) · kallā to pour · kaltõ chisel · kaltā to carve, chisel · kalā fish · kalāji fisher · kalāstā to fish · kalēnt hot · kambõr room · kamērõ camera (late-stratum) · kamī road · kannõmus endurance, patience · kannā to endure, bear · kantā to sing · kançāt tired · kançō song · kanā channel (late-stratum) · kanēl cinnamon (late-stratum) · kaotõmus loss, defeat · kaotā to lose · kap head · kaptā to catch · kapustõ cabbage (Marīsõ, slav; cf. native kāpõs) · karistõ punishment · karistā to punish · karjõ herd, flock · karjā to herd, tend animals · karmõ harsh, severe · karn meat · karrē street · karrēlampõ streetlight · karī dark (of color) · karīk reef, rock (at sea) · kastõ bin, container · kasvõmus growth · kasvā to grow · kat cat · kaug far · kaçõ test, examination · kaçā to test, examine · keetā to boil · ken who · kesk in the middle of (postp.) · keskū middle, center · kevē light (weight) · kihlõ engagement, betrothal · kihlā to become engaged · kirg passion · kirgõldā to feel passion for · kirjõ script, handwriting · kirjõmus writing, written text · kirjā to write · kirjāji writer, scribe · kirīk church · kitsõ goat · kivī stone · klavõr keyboard (late-stratum) · klikõmus click (late-stratum) · klikā to click (late-stratum) · klubõ club, neighborhood hall (late-stratum) · klȫtõ balls, testicles; (vulgar) courage, nerve · klȫtõtū cowardly, gutless (vulgar) · kodõ code (late-stratum) · kodā to code, program (late-stratum) · kompass compass (late-stratum) · komprā to buy · komprē to understand · kontē story · kor heart · kos body · kotxē car · koçõr coach, trainer (late-stratum) · krašõ vomit, puke (coarse) · krašā to vomit, puke (coarse) · kruçõ cross, crucifix · krāmõ small goods, wares (Marīsõ, slav) · krāmõr vendor, wares-seller (Marīsõ, slav) · krōm crooked; dishonest, corrupt (coarse) · krūçõfiks crucifix, rood (technical; -fiks frozen) · krūçā to crucify; (vulgar) to damn utterly (obscene) · kudā to weave · kui how · kuinā to cook · kuiv dry · kukõ rooster · kuld gold · kun when · kurt short · kus where · kylm cold · kylä village · kysõ to ask · kysõmus question · kõg all · kõlt yellow · kõnõ voice-call, conversation · kõnā to converse, speak back and forth · kõrd order, sequence; (in compounds) system · kõust of all (superlative frame) · kõv hard · köis rope, cord · külvõmus sowing, planting · külvā to sow, plant · küpsõr baker · küpsā to bake · küpsām bakery, bake-house · kāldõ doubt · kāldõldā to doubt · kāpõs cabbage · kārgõ rough (surface) · kārtõ chart, sea-map (late-stratum) · kēļ language · kēļkõrd grammar · kēļõr grammarian · kōk cake, sweet bread · kōlõr color · kōrrõ to run · kōt house · kū moon; month · kūlin speaker (audio device) · kūlõ to hear · kǟs hand · kǟvõ to walk
 
-**L** — laadõmus load, upload, download (late-stratum) · laadā to load, upload, download (late-stratum) · laht bay · lain wave · laintū swell, great wave · lammõ sheep · lampõ lamp, public light (late-stratum) · langhunt long hundred, 120 (trade tally) · last cargo (late-stratum) · lauk garlic · lehmä cow · lehtõ page, sheet · leikā to cut · leinõ mourning, grief · leinā to mourn, grieve · lent slow · lepõmus reconciliation · lepā to reconcile, make peace · leskõ widow, widower · lil flower · limõ glue, paste · limā to glue, paste · lit bed · livrõ book · livrõkōt library · lohū comfort, consolation · lohūldā to comfort · lop end · lopā to end, finish · lubõmus permit, license · lubā to permit · lugē to read · lugēmys reading (act of) · lypsõmus milking · lypsā to milk · läpx child · lõigā to cut, slice · lõng thread, yarn · lõunā midday meal, lunch · lāvõ barn, stable · lēgõ law · lēsõ lesson · lēsām course (of lessons) · lēt milk · lībā to thicken (soup, sauce) · līnõ line, cable (late-stratum) · līvõ sandy · lōdõ board, plank · lōtõ cloth, fabric · lōtā to hope · lōtū hope (n.) · lūdõ tide · lǟdõ to go · lǟkõ to leave · lǟmi warm · lǟn west · lǟtū lentil
+**L** — laadõmus load, upload, download (late-stratum) · laadā to load, upload, download (late-stratum) · laht bay · lain wave · laintū swell, great wave · lammõ sheep · lampõ lamp, public light (late-stratum) · last cargo (late-stratum) · lauk garlic · lehmä cow · lehtõ page, sheet · leikā to cut · leinõ mourning, grief · leinā to mourn, grieve · lent slow · lepõmus reconciliation · lepā to reconcile, make peace · leskõ widow, widower · lil flower · limõ glue, paste · limā to glue, paste · lit bed · livrõ book · livrõkōt library · lohū comfort, consolation · lohūldā to comfort · lop end · lopā to end, finish · lubõmus permit, license · lubā to permit · lugē to read · lugēmys reading (act of) · lypsõmus milking · lypsā to milk · läpx child · lõigā to cut, slice · lõng thread, yarn · lõunā midday meal, lunch · lāvõ barn, stable · lēgõ law · lēsõ lesson · lēsām course (of lessons) · lēt milk · lībā to thicken (soup, sauce) · līnõ line, cable (late-stratum) · līvõ sandy · lōdõ board, plank · lōtõ cloth, fabric · lōtā to hope · lōtū hope (n.) · lūdõ tide · lǟdõ to go · lǟkõ to leave · lǟmi warm · lǟn west · lǟtū lentil
 
-**M** — madal shallow · magā to sleep · magūs tasty · magūsū dessert, sweet course · mai never · maitõ to taste · maitū seasoning, spice · maitūs savory · maksõmus tax, payment · maksā to pay · malālt sick · marīskēļ Marīsõ speech, border-city dialect · Marīsõ (place) the border city (Slavic-side Marzeja) · marīsõr person from Marīsõ · marīt husband · mastõ mast · matrūs sailor · matī morning · maçõ match, contest (late-stratum) · mediçīn medicine · medāl medal (late-stratum) · melī honey · menjā to eat · mentīd lie (n.) · mer sea · merd turd, piece of shit (vulgar) · meçā forest · miks why · mikõ microphone (late-stratum) · mis what · mrovõ apartment, flat (Marīsõ, slav) · mrovõr apartment-dweller (Marīsõ, slav) · mult many, much · muntāñ mountain · murk carrot · must black · mustveç wastewater, sewage · mustveçkõrd sewer system · mä I · märg wet · märktaul signboard, public sign · märkõmus note, annotation · märkā to mark, annotate · mõtõ thought · mõtõldā to think · mā earth · māhl juice · mārjā berry · māçõr referee, umpire (late-stratum) · mēdõr measuring tool, ruler · mēdā to measure · mēg we · mēl memory · mēldā to remember · mēlā oar · mērkõ goal, target · mēs man · mīstērõ mystery, secret · mōl feeling, emotion · mūlõ muzzle, snout; (vulgar) mouth, gob (vulgar) · mūrõ worry, care · mūrõldā to worry · mǟr mother · mǟtõmus burial, funeral · mǟtā to bury
+**M** — madal shallow · magā to sleep · magūs tasty · magūsū dessert, sweet course · mai never · maitõ to taste · maitū seasoning, spice · maitūs savory · maksõmus tax, payment · maksā to pay · malālt sick · marīskēļ Marīsõ speech, border-city dialect · Marīsõ (place) the border city (Slavic-side Marzeja) · marīsõr person from Marīsõ · marīt husband · mastõ mast · matrūs sailor · matī morning · maçõ match, contest (late-stratum) · mediçīn medicine · medāl medal (late-stratum) · melī honey · menjā to eat · mentīd lie (n.) · mer sea · merd turd, piece of shit (vulgar) · meçā forest · miks why · mikõ microphone (late-stratum) · miljõn million (12⁶, ~2.99M) · mis what · mrovõ apartment, flat (Marīsõ, slav) · mrovõr apartment-dweller (Marīsõ, slav) · mult many, much · muntāñ mountain · murk carrot · must black · mustveç wastewater, sewage · mustveçkõrd sewer system · mä I · märg wet · märktaul signboard, public sign · märkõmus note, annotation · märkā to mark, annotate · mõtõ thought · mõtõldā to think · mā earth · māhl juice · mārjā berry · māçõr referee, umpire (late-stratum) · mēdõr measuring tool, ruler · mēdā to measure · mēg we · mēl memory · mēldā to remember · mēlā oar · mērkõ goal, target · mēs man · mīrõ 1728 (a dozen gross; 12³) · mīstērõ mystery, secret · mōl feeling, emotion · mūlõ muzzle, snout; (vulgar) mouth, gob (vulgar) · mūrõ worry, care · mūrõldā to worry · mǟr mother · mǟtõmus burial, funeral · mǟtā to bury
 
-**N** — nabõr neighbor · nahkõ hide, leather · naisõ wife · naurā to laugh · ne they · nim name · nobē fast · noppõmus harvest, gathering · noppā to pick, gather, harvest · nugā knife · nupõ button, key · nurõ field, cultivated land · nurõr farmer, field-worker · nõglõ needle · nõrk weak · nõuk council · nõukõr councillor · nān woman · nē no · nēgõn nine (trade) · nēgõntig ninety · nēm cape, headland · nētõ net (sport) · nēu snow · nīrin lamp, screen-light; light-device · nīrtaul screen, lit. 'shine-board' (literary synonym for skrinõ) · nīrõ bright, shining · nīrā to shine, give light · nīt night · nū now · nūlt from now on, henceforth · nūlõ just now, soon, in a bit · nūnū right now, immediately · nǟgõ to see · nǟlg hunger · nǟlgõ to hunger, be hungry · nǟr turnip
+**N** — nabõr neighbor · nahkõ hide, leather · naisõ wife · naurā to laugh · ne they · nim name · nobē fast · noppõmus harvest, gathering · noppā to pick, gather, harvest · nugā knife · nupõ button, key · nurõ field, cultivated land · nurõr farmer, field-worker · nõglõ needle · nõrk weak · nõuk council · nõukõr councillor · nān woman · nē no (trade) · nēm cape, headland · nētõ net (sport) · nēu snow · nīrin lamp, screen-light; light-device · nīrtaul screen, lit. 'shine-board' (literary synonym for skrinõ) · nīrõ bright, shining · nīrā to shine, give light · nīt night · nū now · nūlt from now on, henceforth · nūlõ just now, soon, in a bit · nūnū right now, immediately · nǟgõ to see · nǟlg hunger · nǟlgõ to hunger, be hungry · nǟr turnip
 
-**O** — obrī to open · obūn horse · olūt beer · omīk breakfast · onkõ uncle · ootkõrd queue, waiting line · ootõmus waiting · ootā to wait · orvõ orphan · orānx orange (late-stratum) · ōra hour · ōu egg
+**O** — obrī to open · obūn horse · olūt beer · omīk breakfast · onkõ uncle · ootkõrd queue, waiting line · ootõmus waiting · ootā to wait · orvõ orphan · orānx orange (late-stratum) · osõm eight · ōra hour · ōu egg
 
 **Õ** — õblā to sew · õbē silver · õhtõk evening meal, supper · õli oil · õpõkambõr classroom · õpõmus learning, study · õpā to learn, study · õpāji student, learner
 
-**P** — pa bread · padā pot · palõ please · pannõ pan · papõr paper (late-stratum) · parandõmus repair, mending · parandā to mend, repair · pardõ sorry · pardõmus forgiveness · pardā to forgive · parlā to speak · pehmē soft · pelgõ to fear · perēm prize, award (late-stratum) · petīt small · pidõmus duty, obligation · pidā must, to have to · pik prick, cock (obscene) · pikā to stab, pierce; (vulgar) to fuck (obscene) · pildõ image, picture · piletõ ticket (late-stratum) · pilv cloud · pipõr pepper (late-stratum) · pirõg filled pastry (Marīsõ, slav) · plat plate · plinõ pancake, griddle cake (Marīsõ, slav) · poig son · pomp pompous fool, windbag (coarse) · pomā apple · pont bridge · port door · potõ pot, vessel · praadā to fry (late-stratum) · praul brown (late-stratum) · prop near · prēu price · prōm booze, cheap liquor (coarse) · prōmõr drunkard, soak (coarse) · prōmām tavern, grog-shop (coarse) · puhād clean · puhādtȫ sanitation, cleaning service · puhādõr cleaner, sanitation worker · puhādā to erase, clean off · pulmõ wedding, marriage · pulmā to marry, wed · punktõ point, score unit · punktā to score · purjē sail · purpõr purple (late-stratum) · putān whore, prostitute (obscene) · putānikōt brothel (obscene) · päriji heir · pärõmus inheritance, legacy · pärā to inherit · põhjõ reason, cause · põhjõldā to reason, think through · põhõ base, foundation; bottom, floor (of sea/river) · põhõlēgõ constitution, basic law · põjā north · põlvõ generation · põlū mushroom · põrsõ piglet · püsā to stop, halt · püsām stop, stopping place · pārkõ public park (late-stratum) · pāsportõ passport (late-stratum) · pāsā to pass · pēlõ game, play · pēlā to play · pēlāji player · pēlām field, court · pēu foot · pīrõ border, boundary · pīrõlubõmus border permit · pīrõsegas border mixture, mixed border life · pīrõsitāt border city · pōr fear (n.) · pū tree · pūmõ wood, timber · pūn red · pūst empty, barren; (vulgar) spent, worthless (coarse) · pǟl about, concerning (postp.) · pǟlū topic, subject · pǟr father · pǟvõ day
+**P** — pa bread · padā pot · palõ please · pannõ pan · papõr paper (late-stratum) · parandõmus repair, mending · parandā to mend, repair · pardõ sorry · pardõmus forgiveness · pardā to forgive · parlā to speak · pehmē soft · pelgõ to fear · perēm prize, award (late-stratum) · petīt small · peñç five · pidõmus duty, obligation · pidā must, to have to · pik prick, cock (obscene) · pikā to stab, pierce; (vulgar) to fuck (obscene) · pildõ image, picture · piletõ ticket (late-stratum) · pilv cloud · pipõr pepper (late-stratum) · pirõg filled pastry (Marīsõ, slav) · plat plate · plinõ pancake, griddle cake (Marīsõ, slav) · poig son · pomp pompous fool, windbag (coarse) · pomā apple · pont bridge · port door · potõ pot, vessel · praadā to fry (late-stratum) · praul brown (late-stratum) · prop near · prēu price · prōm booze, cheap liquor (coarse) · prōmõr drunkard, soak (coarse) · prōmām tavern, grog-shop (coarse) · puhād clean · puhādtȫ sanitation, cleaning service · puhādõr cleaner, sanitation worker · puhādā to erase, clean off · pulmõ wedding, marriage · pulmā to marry, wed · punktõ point, score unit · punktā to score · purjē sail · purpõr purple (late-stratum) · putān whore, prostitute (obscene) · putānikōt brothel (obscene) · päriji heir · pärõmus inheritance, legacy · pärā to inherit · põhjõ reason, cause · põhjõldā to reason, think through · põhõ base, foundation; bottom, floor (of sea/river) · põhõlēgõ constitution, basic law · põjā north · põlvõ generation · põlū mushroom · põrsõ piglet · püsā to stop, halt · püsām stop, stopping place · pārkõ public park (late-stratum) · pāsportõ passport (late-stratum) · pāsā to pass · pēlõ game, play · pēlā to play · pēlāji player · pēlām field, court · pēu foot · pīrõ border, boundary · pīrõlubõmus border permit · pīrõsegas border mixture, mixed border life · pīrõsitāt border city · pōr fear (n.) · pū tree · pūmõ wood, timber · pūn red · pūst empty, barren; (vulgar) spent, worthless (coarse) · pǟl about, concerning (postp.) · pǟlū topic, subject · pǟr father · pǟvõ day
 
 **R** — rahu calm, inner peace · rahuldā to calm, soothe · rahvõ people, public · raksõ race · raksā to race, compete by speed · rask heavy · ratõ wheel · raud iron · ravõji guardian, caretaker · ravā to raise, rear, care for · redē dirty · reisā to travel · rekõt racket, bat (late-stratum) · rik rich · rikā to damage, break · rindõ line of writing · rohõ grass · roiskõ waste, refuse, trash · rõhī green · rõim delight, gladness · rõimā to rejoice · röstā to roast · rā money · rādjo radio (late-stratum) · rājõ track, course · rānd shore, waterside (the older, broader word) · rāndõr coastline · rēdā to judge, decide · rēdāji judge · rēdām court, tribunal · rētõ right, entitlement · rīgõ state, country (late-stratum) · rīst tool · rōs pink · rūbā to grate, shred · rūnõ letter, character · rūnõkõrd alphabet
 
-**S** — saatõmus sending, transmission · saatā to send · sadā to fall (rain/snow) · salvõmus saved file, digital storage (late-stratum) · salvā to save, store digitally (late-stratum) · satām harbor · savī clay; clay-like, muddy (n./adj.) · sañõ catch (of fish) · se this, that · segas chaos, disorder · segā to mix, stir · seilā to sail · selgõ clear · selgū clarity, understanding · selkõ team · semprē always · servõmus serve, service · servā to serve · ses six · sest because · sestig sixty · sestrõ close female friend (Marīsõ, slav) · sesõn season (late-stratum) · setmān week · seven seven · seventig seventy · sidõmus knot, binding · sidā to tie, bind · signõ signal (late-stratum) · sigõ pig · silm eye · silē smooth · sinī blue · sipõl onion · sirpõ sickle · sirvõr server (late-stratum) · sisār sister · sitānik citizen · sitāt city · skrinõ screen · skīt shit; crap! (vulgar) · skītõr coward, worthless person (vulgar) · skītā to shit (vulgar) · smetõn sour cream (Marīsõ, slav) · sojā warm (to touch) · sol sun · strānd beach, waterfront (the newer, nautical word; cf. rānd) · sud south · sugõ kin, lineage · sugõläpx cousin · sugõr relative, kinsperson · sukrõ sugar · sulõ pen, quill · sup soup · surmõ death · surā to die · syndõmus birth · syndā to be born · syv deep · sä you · sõidõmus ride, vehicle trip · sõidā to ride, travel by vehicle · sõnaktõ message, written notice · sõnā word · sõnālivrõ dictionary · sāl there · sālsāl just over there · sān healthy · sār island · sāvõ saw · sāvā to saw · sīgel seal, official mark · sīlõ seam, stitch-line · sīlā to stitch, seam · sīn here · sīnsīn right here · sōdā to host, receive a guest · sōdāji host · sōla salt · sūr big · sȫk meal, food · sȫtõ fodder, animal feed · sȫtā to feed
+**S** — saatõmus sending, transmission · saatā to send · sadā to fall (rain/snow) · salvõmus saved file, digital storage (late-stratum) · salvā to save, store digitally (late-stratum) · satām harbor · savī clay; clay-like, muddy (n./adj.) · sañõ catch (of fish) · se this, that · sedõm seven · segas chaos, disorder · segā to mix, stir · seilā to sail · selgõ clear · selgū clarity, understanding · selkõ team · semprē always · servõmus serve, service · servā to serve · sest because · sestrõ close female friend (Marīsõ, slav) · sesõn season (late-stratum) · setmān week · sidõmus knot, binding · sidā to tie, bind · signõ signal (late-stratum) · sigõ pig · silm eye · silē smooth · sinī blue · sipõl onion · sirpõ sickle · sirvõr server (late-stratum) · sisār sister · sitānik citizen · sitāt city · skrinõ screen · skīt shit; crap! (vulgar) · skītõr coward, worthless person (vulgar) · skītā to shit (vulgar) · smetõn sour cream (Marīsõ, slav) · sojā warm (to touch) · sol sun · strānd beach, waterfront (the newer, nautical word; cf. rānd) · sud south · sugõ kin, lineage · sugõläpx cousin · sugõr relative, kinsperson · sukrõ sugar · sulõ pen, quill · sup soup · surmõ death · surā to die · syndõmus birth · syndā to be born · syv deep · sä you · sõidõmus ride, vehicle trip · sõidā to ride, travel by vehicle · sõnaktõ message, written notice · sõnā word · sõnālivrõ dictionary · sāl there · sālsāl just over there · sān healthy · sār island · sāvõ saw · sāvā to saw · sīgel seal, official mark · sīlõ seam, stitch-line · sīlā to stitch, seam · sīn here · sīnsīn right here · sōdā to host, receive a guest · sōdāji host · sōla salt · sūr big · sȫk meal, food · sȫtõ fodder, animal feed · sȫtā to feed
 
-**T** — tahtõ will, desire · tahtõldā to desire deeply · taikfinest television (full calque, "magic-window") · taiki TV, the box (clipped colloquial) · taikõ magic; (colloq.) television · taivõ sky · tallõ lamb · talçā to teach · talçāji teacher, instructor · tambē also · tankā to close · tantõ aunt · tappõ nail, peg · tappā to nail, peg, fasten · tard late · tarīs necessary, needed · taul table · taç cup · tems weather · tervetõ welcome · tillõ dock, pier (late-stratum) · tintõ ink (late-stratum) · tirist sad · tormõ storm · tornõ tower, signal tower (late-stratum) · tornē tournament (late-stratum) · torõ pipe, conduit · trīk trick, dirty scheme (coarse) · trīkõr trickster, con man (coarse) · trīkā to trick, swindle (coarse) · tugev sturdy · tulē to come · tumõ dull, matte · tundõ to feel · twē two · twētig twenty · tyhjā empty · tytār daughter · tä he, she, it · täidā to fill · täno thank you · tänāldā to feel grateful · tänū gratitude · tõsī truth · tõsītõ evidence, proof · tõsītū fact, established truth · tāgõ dough · tārgõ market stall (Marīsõ, slav) · tārgõr stall-seller (Marīsõ, slav) · tā́ga behind (postp.) · tē tea · tēdõ to know · tēdõmus knowledge · tēg you (pl.) · tēn ten · tēno train · tēre hello · tēvē TV (spoken tē-vē; clipped from taiki) · tīt time · tītkõrd schedule, timetable · tītū eternity · tōl toll, fee; (vulgar) bribe, payoff (coarse) · tūļ wind · tǟs full · tȫ work (n.) · tȫdõ to work · tȫkambõr workshop
+**T** — tahtõ will, desire · tahtõldā to desire deeply · taikfinest television (full calque, "magic-window") · taiki TV, the box (clipped colloquial) · taikõ magic; (colloq.) television · taivõ sky · tallõ lamb · talçā to teach · talçāji teacher, instructor · tambē also · tankā to close · tantõ aunt · tappõ nail, peg · tappā to nail, peg, fasten · tard late · tarīs necessary, needed · taul table · taç cup · tems weather · tervetõ welcome · tillõ dock, pier (late-stratum) · tintõ ink (late-stratum) · tirist sad · tormõ storm · tornõ tower, signal tower (late-stratum) · tornē tournament (late-stratum) · torõ pipe, conduit · tri three · trīk trick, dirty scheme (coarse) · trīkõr trickster, con man (coarse) · trīkā to trick, swindle (coarse) · tugev sturdy · tulē to come · tumõ dull, matte · tundõ to feel · tyhjā empty · tytār daughter · tä he, she, it · täidā to fill · täno thank you · tänāldā to feel grateful · tänū gratitude · tõsī truth · tõsītõ evidence, proof · tõsītū fact, established truth · tāgõ dough · tārgõ market stall (Marīsõ, slav) · tārgõr stall-seller (Marīsõ, slav) · tā́ga behind (postp.) · tē tea · tēdõ to know · tēdõmus knowledge · tēg you (pl.) · tēno train · tēre hello · tēvē TV (spoken tē-vē; clipped from taiki) · tīt time · tītkõrd schedule, timetable · tītū eternity · tōl toll, fee; (vulgar) bribe, payoff (coarse) · tūļ wind · tǟs full · tȫ work (n.) · tȫdõ to work · tȫkambõr workshop
 
 **U** — udū fog · um to be (present) · unõstā to forget · unī dream · unīstā to dream · usaldõmus trust (n.) · usaldā to trust · üksū loneliness · üksūldā to feel lonely · ūli was, were · ūpeldā to feel proud · ūpū pride · ūsk belief · ūskõ to believe
 
@@ -622,7 +624,7 @@ Notice the dropped pronouns in the answers — once "who" is obvious, it goes un
 
 **V** — vai or · vaik calm (sea, weather) · valdõmus government · valdā to govern · valgõ white · valvā to guard, protect · valvāji guard, police officer · valī choice · valīstā to choose · valū pain · vana old · vanamǟr grandmother · vanapǟr grandfather · vangõ prison, jail · vanõr elder, ancestor · varā early · vasikõ calf · vastõmus answer, response · vastā to answer · vastāmus responsibility (irregular; cf. vastõmus) · vastāsaatā to reply, send back · vendā to sell · verī blood · vespõr evening · veç water · veçtorõ water pipe · veļ brother · vihān angry · viljõ grain, crop · villõ wool · vim rain · vingõr vinegar (late-stratum) · viskā to throw, cast · volē to want · vool current · vormā to shape, form · votā to take · väetõ manure, fertilizer · väetā to fertilize · võidõ butter · võim power, strength · võitõ victory, win · võitā to win · võrk net · võrkkõrd network, network system · võrõ guest, stranger · võtī key · võī can, to be able · vāj poor · vānõ oath · vānā to swear an oath · vēu voice · vī wine · vīrõ virus, malware (late-stratum) · vīsū wisdom · vīzõ visa, entry mark (late-stratum) · vǟrpēlõ foul (in a game) · vǟrpēlā to foul · vǟrõ crime, wrongdoing
 
-**X** — xapkõ cap, street hat (Marīsõ, slav) · xip ship · xok schock, 60 (trade tally) · xolkõ loose queue, queue-crowd (Marīsõ, slav) · xumõ street bustle, crowd-noise (Marīsõ, slav) · xumā to bustle, make street noise (Marīsõ, slav)
+**X** — xapkõ cap, street hat (Marīsõ, slav) · xeç six · xip ship · xolkõ loose queue, queue-crowd (Marīsõ, slav) · xtiri four · xumõ street bustle, crowd-noise (Marīsõ, slav) · xumā to bustle, make street noise (Marīsõ, slav)
 
 ---
 

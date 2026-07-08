@@ -23,3 +23,12 @@ adds, and preserves older forms.
 - Std *Strānd um kaug.* → Inland *Rānd um kaug.* "The shore is far." (native synonym)
 - Std/metro *fluks!* → Inland *nūnū!* (native reduplication, no loan interjection)
 - Std *Famīl·la um sūr.* → Inland *Famīl·la um sūr.* (unchanged; full form is native here)
+
+## Numbers (conservative retention)
+
+Inland Nelõxi still counts in the old **Finnic** numerals — *üks, kaks, kolm, nēļa, vīç…*
+— where standard Nelõxi has gone Slavic-dozenal (*jedõn, dva, tri…*). To metroplex ears
+this is the clearest marker of rural speech: an inland speaker counting *kolm kalād*
+where the city says *tri kalād*. The Hanseatic trade numbers (*ēn, twē, drē…*) survive
+here too in old market and shipping talk. "Counting like grandmother" = counting in tens,
+in Finnic.

@@ -1,6 +1,6 @@
 # Nelõ kēļ — English → Nelõxi Reverse Index
 
-*Generated from the coursebook master dictionary (845 headwords). Find your English word, take the Nelõxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
+*Generated from the coursebook master dictionary (847 headwords). Find your English word, take the Nelõxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
 
 
 ## A
@@ -285,7 +285,6 @@ door → **port**
 doubt → **kāldõ** · **kāldõldā**  
 dough → **tāgõ**  
 download → **laadõmus**⁺ · **laadā**⁺  
-dozen → **dūtõ**  
 draw → **ēgõ** · **ēgā**  
 dream → **unī** · **unīstā**  
 drift (v.) → **ajū**  
@@ -305,9 +304,10 @@ earth → **mā**
 east → **idā**  
 eat (v.) → **menjā**  
 egg → **ōu**  
-eight → **acht**  
-eighty → **achttig**  
+eight → **osõm**  
+eighteen → **dünxeç**  
 elder → **vanõr**  
+eleven → **elva**  
 emotion → **mōl**  
 emotional wound → **haavõmus**  
 empty → **pūst** · **tyhjā**  
@@ -362,17 +362,16 @@ fertilize (v.) → **väetā**
 fertilizer → **väetõ**  
 field → **nurõ** · **pēlām**  
 field-worker → **nurõr**  
-fifty → **fīftig**  
+fifteen → **düntri**  
 file → **failõ**⁺  
 fill (v.) → **täidā**  
 filled pastry (Marīsõ, slav) → **pirõg**  
 filth → **drōk**  
 fine → **fīnõ**  
 finish → **lopā**  
-first → **ēntõ**  
 fish → **kalā** · **kalāstā**  
 fisher → **kalāji**  
-five → **fīf**  
+five → **peñç**  
 flag → **flag**⁺  
 flat (Marīsõ, slav) → **mrovõ**  
 flock → **karjõ**  
@@ -391,11 +390,11 @@ forgive (v.) → **pardā**
 forgiveness → **pardõmus**  
 form → **vormā**  
 former times → **ennū**  
-forty → **fērtig**  
 foul → **bōs** · **vǟrpēlā**  
 foul (in a game) → **vǟrpēlõ**  
 foundation → **põhõ**  
-four → **fēr**  
+four → **xtiri**  
+fourteen → **dünva**  
 fragile → **habrõ**  
 friend → **amīk**  
 from now on → **nūlt**  
@@ -447,6 +446,7 @@ griddle cake (Marīsõ, slav) → **plinõ**
 grief → **leinõ**  
 grieve → **leinā**  
 grog-shop (coarse) → **prōmām**  
+gross → **grosõ**  
 grow (v.) → **kasvā**  
 growth → **kasvõmus**  
 guard (v.) → **valvā** · **valvāji**  
@@ -498,7 +498,6 @@ hot → **kalēnt**
 hour → **ōra**  
 house → **kōt**  
 how → **kui**  
-hundred → **hunt**  
 hunger → **nǟlg** · **nǟlgõ**  
 hurt → **haavõmus** · **haavā**  
 husband → **marīt**  
@@ -586,7 +585,6 @@ living → **elõmus**
 load → **laadõmus**⁺ · **laadā**⁺  
 loneliness → **üksū**  
 long for (v.) → **igāldā**  
-long hundred → **langhunt**  
 longing → **iglū**  
 loose queue → **xolkõ**  
 lose (v.) → **kaotā**  
@@ -632,6 +630,7 @@ midday meal → **lõunā**
 middle → **keskū**  
 milk (v.) → **lypsā** · **lēt**  
 milking → **lypsõmus**  
+million (12⁶, ~2.99M) → **miljõn**  
 miss → **igāldā**  
 miss (someone) (v.) → **kaipā**  
 missing → **kaipõmus**  
@@ -673,9 +672,9 @@ network → **võrkkõrd**
 network system → **võrkkõrd**  
 never → **mai**  
 night → **nīt**  
-nine → **nēgõn**  
-ninety → **nēgõntig**  
-no → **nē**  
+nine → **deveñç**  
+nineteen → **dünsedm**  
+no (trade) → **nē**  
 north → **põjā**  
 not → **äb**  
 note → **märkõmus**  
@@ -696,7 +695,8 @@ official document → **aktõ**
 official mark → **sīgel**  
 oil → **õli**  
 old → **vana**  
-one → **ēn**  
+one → **jedõn**  
+one dozen) → **düna**  
 onion → **sipõl**  
 open (v.) → **obrī**  
 or → **vai**  
@@ -851,7 +851,6 @@ savory → **maitūs**
 saw → **sāvõ** · **sāvā**  
 say (v.) → **dī**  
 schedule → **tītkõrd**  
-schock → **xok**  
 school → **eskōl**  
 score (v.) → **punktā**  
 score unit → **punktõ**  
@@ -877,8 +876,8 @@ serve → **servõmus** · **servā**
 server → **sirvõr**⁺  
 service → **servõmus**  
 service work → **abītȫ**  
-seven → **seven**  
-seventy → **seventig**  
+seven → **sedõm**  
+seventeen → **dünpeñç**  
 severe → **karmõ**  
 sew (v.) → **õblā**  
 sewage → **mustveç**  
@@ -907,8 +906,8 @@ signboard → **märktaul**
 silver → **õbē**  
 sing (v.) → **kantā**  
 sister → **sisār**  
-six → **ses**  
-sixty → **sestig**  
+six → **xeç**  
+sixteen → **dünxtir**  
 sky → **taivõ**  
 slav → **gribõ** · **kapustõ**  
 sleep (v.) → **magā**  
@@ -994,7 +993,7 @@ teach (v.) → **talçā**
 teacher → **talçāji**  
 team → **selkõ**  
 television (full calque, "magic-window") → **taikfinest**  
-ten → **tēn**  
+ten → **deseñç**  
 tend animals → **karjā**  
 tender → **hell**  
 tenderness → **hellū**  
@@ -1014,12 +1013,11 @@ thicken (soup, sauce) (v.) → **lībā**
 think (v.) → **mõtõldā**  
 think through → **põhjõldā**  
 thirst → **jān** · **jānõ**  
-thirty → **drētig**  
+thirteen → **dünjõn**  
 this → **se**  
 thought → **mõtõ**  
-thousand → **dūsõnd**  
 thread → **lõng**  
-three → **drē**  
+three → **tri**  
 throw (v.) → **viskā**  
 ticket → **piletõ**⁺  
 tide → **lūdõ**  
@@ -1057,9 +1055,12 @@ turd → **merd**
 turnip → **nǟr**  
 TV → **taiki**  
 TV (spoken tē-vē → **tēvē**  
-twelve (trade tally) → **dūtõ**  
-twenty → **twētig**  
-two → **twē**  
+twelve (round → **düna**  
+twenty → **dünosm**  
+twenty-one → **dündevç**  
+twenty-three → **dünelva**  
+twenty-two → **dündesç**  
+two → **dva**  
 
 ## U
 
