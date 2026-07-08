@@ -1,6 +1,6 @@
 # Nelô kēļ — English → Nelôxi Reverse Index
 
-*Generated from the coursebook master dictionary (848 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
+*Generated from the coursebook master dictionary (849 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
 
 
 ## A
@@ -281,6 +281,7 @@ dispose of → **jättā**
 dock → **tillô**⁺  
 doctor → **arst**  
 dog → **gos**  
+donut (Belgian import → **flœsô**  
 door → **port**  
 doubt → **kāldô** · **kāldôldā**  
 dough → **tāgô**  
@@ -396,6 +397,7 @@ foundation → **pôhô**
 four → **xtiri**  
 fourteen → **dünva**  
 fragile → **habrô**  
+fried sweet pastry → **flœsô**  
 friend → **amīk**  
 from now on → **nūlt**  
 fruit → **frūt**  
@@ -1005,6 +1007,7 @@ that → **se**
 that (introduces a clause) → **et**  
 the box (clipped colloquial) → **taiki**  
 the devil (interj./n., coarse) → **fān**  
+the one œ word) → **flœsô**  
 the past → **ennū**  
 there → **sāl**  
 they → **ne**  
