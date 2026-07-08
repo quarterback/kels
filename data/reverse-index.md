@@ -1,6 +1,6 @@
 # Nelô kēļ — English → Nelôxi Reverse Index
 
-*Generated from the coursebook master dictionary (859 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
+*Generated from the coursebook master dictionary (867 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
 
 
 ## A
@@ -54,7 +54,9 @@ bakery → **küpsām**
 ball → **bālô**  
 ballot → **balçômus**  
 balls → **klȫtô**  
+bargain → **kauplô**  
 bargain price → **çenô**  
+bargaining → **kauplômus**  
 barn → **lāvô**  
 barren → **pūst**  
 base → **pôhô**  
@@ -259,6 +261,7 @@ dark (of color) → **karī**
 data → **dātô**⁺  
 daughter → **tytār**  
 day → **pǟvô**  
+deal! agreed! (closing a bargain) → **sāli**  
 death → **surmô**  
 decide → **rēdā**  
 deck → **dek**⁺  
@@ -334,6 +337,7 @@ evidence → **tôsītô**
 evil → **bōs**  
 examination → **kaçô**  
 examine → **kaçā**  
+excessively → **liig**  
 eye → **silm**  
 
 ## F
@@ -371,7 +375,7 @@ file → **failô**⁺
 fill (v.) → **täidā**  
 filled pastry (Marīsô, slav) → **pirôg**  
 filth → **drōk**  
-fine → **fīnô**  
+fine → **fīnô** · **hǟ**  
 finish → **lopā**  
 fish → **kalā** · **kalāstā**  
 fisher → **kalāji**  
@@ -388,6 +392,7 @@ fondness → **arm**
 food → **sȫk**  
 fool → **glupôr**  
 foot → **pēu**  
+for → **eest**  
 forest → **meçā**  
 forget (v.) → **unôstā**  
 forgive (v.) → **pardā**  
@@ -400,6 +405,7 @@ foundation → **pôhô**
 four → **xtiri**  
 fourteen → **dünva**  
 fragile → **habrô**  
+fresh (of food) → **värskē**  
 friend → **amīk**  
 from now on → **nūlt**  
 fruit → **frūt**  
@@ -461,6 +467,8 @@ gutless (vulgar) → **klȫtôtū**
 ## H
 
 hacker (late-stratum loan) → **hakôr**  
+haggle (v.) → **kauplô**  
+haggling → **kauplômus**  
 hair → **kabēl**  
 half → **half**  
 halt → **püsā**  
@@ -519,6 +527,7 @@ if → **jōs**
 image → **pildô**  
 immediately → **nūnū**  
 in a bit → **nūlô**  
+in exchange for (postp.) → **eest**  
 in front of (postp.) → **jeds**  
 in the middle of (postp.) → **kesk**  
 infernal → **düvlik**  
@@ -534,6 +543,7 @@ it → **tä**
 ## J
 
 jail → **vangô**  
+joke → **nalī**  
 joy → **ilo**  
 judge (v.) → **rēdā** · **rēdāji**  
 juice → **māhl**  
@@ -683,6 +693,7 @@ night → **nīt**
 nine → **deveñç**  
 nineteen → **dünsedm**  
 no (trade) → **nē**  
+nonsense (dismissive) → **nalī**  
 north → **pôjā**  
 not → **äb**  
 note → **märkômus**  
@@ -702,6 +713,7 @@ official → **amtôji**
 official document → **aktô**  
 official mark → **sīgel**  
 oil → **ôli**  
+okay (conceding) → **hǟ**  
 old → **vana**  
 one → **jedôn**  
 one dozen) → **düna**  
@@ -1045,6 +1057,7 @@ tired → **kançāt**
 today → **avuī**  
 toll → **tōl**  
 tomorrow → **demā**  
+too → **liig**  
 tool → **rīst**  
 tooth → **dent**  
 topic → **pǟlū**  
@@ -1180,6 +1193,7 @@ wrongdoing → **vǟrô**
 ## Y
 
 yarn → **lông**  
+yeah → **hǟ**  
 year → **āst**  
 yearning → **iglū**  
 yellow → **kôlt**  

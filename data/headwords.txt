@@ -78,6 +78,7 @@ dēdkô
 dēl
 dī
 dīmys
+eest
 ehitômus
 ehitā
 elva
@@ -143,6 +144,7 @@ hoolāji
 häbedā
 häbū
 hūr
+hǟ
 idā
 idē
 iglū
@@ -223,6 +225,8 @@ kasvômus
 kasvā
 kat
 kaug
+kauplô
+kauplômus
 kaçô
 kaçā
 keetā
@@ -327,6 +331,7 @@ lent
 lepômus
 lepā
 leskô
+liig
 lil
 limô
 limā
@@ -436,6 +441,7 @@ mǟtā
 nabôr
 nahkô
 naisô
+nalī
 naurā
 ne
 nim
@@ -669,6 +675,7 @@ sônaktô
 sônā
 sônālivrô
 sāl
+sāli
 sālsāl
 sān
 sār
@@ -799,6 +806,7 @@ vormā
 votā
 väetô
 väetā
+värskē
 vôidô
 vôim
 vôitô
