@@ -1,6 +1,6 @@
 # Nelõ kēļ — English → Nelõxi Reverse Index
 
-*Generated from the coursebook master dictionary (675 headwords). Find your English word, take the Nelõxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
+*Generated from the coursebook master dictionary (711 headwords). Find your English word, take the Nelõxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
 
 
 ## A
@@ -19,6 +19,7 @@ ancestor → **vanõr**
 anchor → **akõr**  
 and → **ja**  
 angry → **vihān**  
+animal feed → **sȫtõ**  
 annotate → **märkā**  
 annotation → **märkõmus**  
 announcement → **dīmys**  
@@ -40,6 +41,7 @@ baker → **küpsõr**
 bakery → **küpsām**  
 ball → **bālõ**  
 ballot → **balçõmus**  
+barn → **lāvõ**  
 base → **põhõ**  
 basic law → **põhõlēgõ**  
 bat → **rekõt**⁺  
@@ -102,6 +104,7 @@ buy (v.) → **komprā**
 cabbage → **kāpõs**  
 cable → **līnõ**⁺  
 cake → **kōk**  
+calf → **vasikõ**  
 calm → **rahu** · **rahuldā**  
 calm (sea, weather) → **vaik**  
 can → **võī**  
@@ -127,6 +130,7 @@ chaos → **segas**
 character → **rūnõ**  
 chart → **kārtõ**⁺  
 cheese → **jūst**  
+chicken → **hennõ**  
 child → **läpx**  
 chisel → **kaltõ** · **kaltā**  
 choice → **valī**  
@@ -174,8 +178,11 @@ course → **rājõ**
 course (of lessons) → **lēsām**  
 court → **pēlām** · **rēdām**  
 cousin → **sugõläpx**  
+cow → **lehmä**  
 crime → **vǟrõ**  
+crop → **viljõ**  
 cry (v.) → **itkõ**  
+cultivated land → **nurõ**  
 cup → **taç**  
 curdled milk → **juht**  
 current → **vool**  
@@ -232,6 +239,7 @@ elder → **vanõr**
 emotion → **mōl**  
 emotional wound → **haavõmus**  
 empty → **tyhjā**  
+enclosure → **aedõ**  
 end → **lop** · **lopā**  
 endurance → **kannõmus**  
 endure (v.) → **kannā**  
@@ -256,11 +264,13 @@ fact → **tõsītū**
 fall (rain/snow) (v.) → **sadā**  
 family → **famīl·la**  
 far → **kaug**  
+farmer → **nurõr**  
 fast → **nobē**  
 fasten → **tappā**  
 father → **pǟr**  
 fear (v.) → **pelgõ**  
 fear (n.) → **pōr**  
+feed (v.) → **sȫtā**  
 feel (v.) → **tundõ**  
 feel affection for (v.) → **armõldā**  
 feel ashamed (v.) → **häbedā**  
@@ -269,7 +279,11 @@ feel lonely (v.) → **üksūldā**
 feel passion for (v.) → **kirgõldā**  
 feel proud (v.) → **ūpeldā**  
 feeling → **mōl**  
-field → **pēlām**  
+fence → **aedõ**  
+fertilize (v.) → **väetā**  
+fertilizer → **väetõ**  
+field → **nurõ** · **pēlām**  
+field-worker → **nurõr**  
 fill (v.) → **täidā**  
 fine → **fīnõ**  
 finish → **lopā**  
@@ -278,9 +292,11 @@ fish → **kalā** · **kalāstā**
 fisher → **kalāji**  
 five → **vīç**  
 flag → **flag**⁺  
+flock → **karjõ**  
 floor (of sea/river) → **põhõ**  
 flour → **jõu**  
 flower → **lil**  
+fodder → **sȫtõ**  
 fog → **udū**  
 fondness → **arm**  
 food → **sȫk**  
@@ -307,6 +323,8 @@ funeral → **mǟtõmus**
 
 game → **pēlõ**  
 garlic → **lauk**  
+gather → **noppā**  
+gathering → **noppõmus**  
 generation → **põlvõ**  
 gentle → **hell**  
 give (v.) → **donā**  
@@ -315,15 +333,18 @@ gladness → **rõim**
 glue → **limõ** · **limā**  
 go (v.) → **lǟdõ**  
 goal → **mērkõ**  
+goat → **kitsõ**  
 gold → **kuld**  
 good → **jõvā**  
 goodbye → **adē**  
 govern (v.) → **valdā**  
 government → **valdõmus**  
+grain → **viljõ**  
 grammar → **kēļkõrd**  
 grammarian → **kēļõr**  
 grandfather → **vanapǟr**  
 grandmother → **vanamǟr**  
+grass → **rohõ**  
 grate (v.) → **rūbā**  
 gratitude → **tänū**  
 grave → **haudõ**  
@@ -332,6 +353,8 @@ green → **rõhī**
 grey → **grīs**⁺  
 grief → **leinõ**  
 grieve → **leinā**  
+grow (v.) → **kasvā**  
+growth → **kasvõmus**  
 guard (v.) → **valvā** · **valvāji**  
 guardian → **ravõji**  
 guest → **võrõ**  
@@ -347,7 +370,9 @@ happy → **felīç**
 harbor → **satām**  
 hard → **kõv**  
 harsh → **karmõ**  
+harvest → **noppõmus** · **noppā**  
 have to (v.) → **pidā**  
+hay → **heinõ**  
 he → **tä**  
 head → **kap**  
 headland → **nēm**  
@@ -359,9 +384,12 @@ heavy timber → **balkõ**
 heir → **päriji**  
 hello → **tēre**  
 help → **abī** · **abīstā**  
+hen → **hennõ**  
 henceforth → **nūlt**  
 herb → **ürd**  
+herd → **karjõ** · **karjā**  
 here → **sīn**  
+hide → **nahkõ**  
 honey → **melī**  
 hope (v.) → **lōtā**  
 hope (n.) → **lōtū**  
@@ -419,6 +447,7 @@ knowledge → **tēdõmus**
 ## L
 
 lake → **jǟrv**  
+lamb → **tallõ**  
 lamp → **lampõ**⁺  
 language → **kēļ**  
 late → **tard**  
@@ -428,6 +457,7 @@ law → **lēgõ**
 learn (v.) → **õpā**  
 learner → **õpāji**  
 learning → **õpõmus**  
+leather → **nahkõ**  
 leave (v.) → **lǟkõ**  
 left (side) → **eskerrē**  
 legacy → **pärõmus**  
@@ -462,6 +492,7 @@ maintenance → **hoolõmus**
 maintenance worker → **hoolāji**  
 make peace → **lepā**  
 man → **mēs**  
+manure → **väetõ**  
 many → **mult**  
 mark (v.) → **märkā**  
 marriage → **pulmõ**  
@@ -482,7 +513,8 @@ merchant → **handlõji**
 merchant register → **fluks**  
 midday meal → **lõunā**  
 middle → **keskū**  
-milk → **lēt**  
+milk (v.) → **lypsā** · **lēt**  
+milking → **lypsõmus**  
 miss → **igāldā**  
 miss (someone) (v.) → **kaipā**  
 missing → **kaipõmus**  
@@ -568,14 +600,20 @@ people → **rahvõ**
 pepper → **pipõr**⁺  
 permit → **lubõmus** · **lubā**  
 person → **inim**  
+pick (v.) → **noppā**  
 pier → **tillõ**⁺  
+pig → **sigõ**  
+piglet → **põrsõ**  
 pink → **rōs**  
 pipe → **torõ**  
 plank → **lōdõ**  
+plant → **külvā**  
+planting → **külvõmus**  
 plate → **plat**  
 play → **pēlõ** · **pēlā**  
 player → **pēlāji**  
 please → **palõ**  
+plow → **ārõ** · **ārā**  
 point → **punktõ**  
 police officer → **valvāji**  
 poor → **vāj**  
@@ -643,6 +681,7 @@ road → **kamī**
 roast (v.) → **röstā**  
 rock (at sea) → **karīk**  
 room → **kambõr**  
+rooster → **kukõ**  
 root vegetable → **jūr**  
 rope → **köis**  
 rough (surface) → **kārgõ**  
@@ -676,6 +715,7 @@ seasoning → **maitū**
 second (ordinal) → **tõin**  
 secret → **mīstērõ**  
 see (v.) → **nǟgõ**  
+seed → **īvõ**  
 sell (v.) → **vendā**  
 sequence → **kõrd**  
 serve → **servõmus** · **servā**  
@@ -690,6 +730,7 @@ shallow → **madal**
 shame → **häbū**  
 shape (v.) → **vormā**  
 she → **tä**  
+sheep → **lammõ**  
 sheet → **lehtõ**  
 shine (v.) → **nīrā**  
 shining → **nīrõ**  
@@ -699,6 +740,7 @@ shore → **rānd**
 short → **kurt**  
 shred → **rūbā**  
 sick → **malālt**  
+sickle → **sirpõ**  
 signboard → **märktaul**  
 silver → **õbē**  
 sing (v.) → **kantā**  
@@ -719,9 +761,12 @@ soothe → **rahuldā**
 sorry → **pardõ**  
 soup → **sup**  
 south → **sud**  
+sow (v.) → **külvā**  
+sowing → **külvõmus**  
 speak (v.) → **parlā**  
 spice → **maitū**  
 spouse → **kaimõ**  
+stable → **lāvõ**  
 stadium → **arēnõ**⁺  
 star → **estēl**  
 start → **alk**  
@@ -766,6 +811,7 @@ teach (v.) → **talçā**
 teacher → **talçāji**  
 team → **selkõ**  
 ten → **kīm**  
+tend animals → **karjā**  
 tender → **hell**  
 tenderness → **hellū**  
 terminal → **jaamõ**⁺  
@@ -884,6 +930,7 @@ wisdom → **vīsū**
 without (postp.) → **ilma**  
 woman → **nān**  
 wood → **pūmõ**  
+wool → **villõ**  
 word → **sõnā**  
 work (v.) → **tȫdõ**  
 work (n.) → **tȫ**  

@@ -18,4 +18,5 @@ closed domains are rejected on arrival regardless of quality.
 | U19 Food, deep | CANONIZED | §23 |
 | U20 Abstract & thought | CANONIZED | §18 |
 | U21 Public works & city services | CANONIZED | §25 |
-| U22+ (new domains) | OPEN | claim by adding a row with your name/date |
+| U22 Farm & field | CANONIZED | §29 (returned under §23, accepted on correction) |
+| U23+ (new domains) | OPEN | claim by adding a row with your name/date |
