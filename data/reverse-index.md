@@ -1,6 +1,6 @@
 # Nelô kēļ — English → Nelôxi Reverse Index
 
-*Generated from the coursebook master dictionary (967 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
+*Generated from the coursebook master dictionary (981 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
 
 
 ## A
@@ -16,7 +16,7 @@ ache of absence → **kaipômus**
 act → **aktô**  
 add (an ingredient) (v.) → **lisā**  
 affection → **arm**  
-after all → **ikkü**  
+after all → **ikkü** · **ju**  
 after that → **seejärõl**  
 again → **jällü**  
 against → **vastü**  
@@ -88,6 +88,7 @@ bay → **laht**
 be (present) (v.) → **um**  
 be able (v.) → **vôī**  
 be born (v.) → **syndā**  
+be enough (v.) → **piisā**  
 be hungry → **nǟlgô**  
 be thirsty → **jānô**  
 beach → **strānd**  
@@ -105,6 +106,7 @@ beginning → **alk**
 behind (postp.) → **tā́ga**  
 belief → **ūsk**  
 believe (v.) → **ūskô**  
+beloved (term of endearment) → **kallü**  
 berry → **mārjā**  
 betrothal → **kihlô**  
 big → **sūr**  
@@ -165,6 +167,7 @@ calf → **vasikô**
 call → **fonā**⁺  
 calm → **rahu** · **rahuldā**  
 calm (sea, weather) → **vaik**  
+calm down (v.) → **rahutõ**  
 camera → **kamērô**⁺  
 can → **vôī**  
 cap → **xapkô**  
@@ -286,10 +289,13 @@ damage (v.) → **rikā**
 damn → **fān**  
 damn (coarse) (v.) → **fāndô**  
 dark (of color) → **karī**  
+darling → **armõ**  
 data → **dātô**⁺  
 daughter → **tytār**  
 day → **pǟvô**  
 deal! agreed! (closing a bargain) → **sāli**  
+dear → **kallü**  
+dearie (affectionate) → **kullõ**  
 death → **surmô**  
 decide → **rēdā**  
 deck → **dek**⁺  
@@ -325,6 +331,7 @@ draw → **ēgô** · **ēgā**
 dream → **unī** · **unīstā**  
 drift (v.) → **ajū**  
 drink (v.) → **jōdô**  
+drowsy → **unü**  
 drunkard → **prōmôr**  
 dry → **kuiv**  
 dull → **tumô**  
@@ -479,6 +486,7 @@ gob (vulgar) → **mūlô**
 gold → **kuld**  
 good → **jôvā**  
 good heavens! (exclamation) → **issõ**  
+good night (greeting) → **havs**  
 goodbye → **adē**  
 govern (v.) → **valdā**  
 government → **valdômus**  
@@ -579,6 +587,7 @@ if → **jōs**
 image → **pildô**  
 immediately → **nūnū**  
 in a bit → **nūlô**  
+in a hushed way → **vaikõ**  
 in any case → **nixō**  
 in exchange for (postp.) → **eest**  
 in front of (postp.) → **jeds**  
@@ -593,6 +602,7 @@ instead → **hoopõs**
 instructor → **talçāji**  
 iron → **raud**  
 island → **sār**  
+isn’t it? (tag question, post-clause) → **ekõ**  
 it → **tä**  
 it’s nothing → **vabõ**  
 
@@ -642,6 +652,7 @@ lentil → **lǟtū**
 lesson → **lēsô**  
 let (v.) → **laskā**  
 letter → **rūnô**  
+let’s go (hortative) → **lǟkõm**  
 library → **livrôkōt**  
 license → **lubômus**  
 lie (n.) → **mentīd**  
@@ -671,6 +682,7 @@ loose queue → **xolkô**
 lose (v.) → **kaotā**  
 loss → **kaotômus**  
 love (v.) → **ārmastô**  
+love (affectionate address) → **armõ**  
 love (n.) → **amōr**  
 luckily → **ônnô**  
 lunch → **lôunā**  
@@ -899,6 +911,7 @@ put (v.) → **asetā** · **panā**
 question → **kysômus**  
 queue → **ootkôrd**  
 queue-crowd (Marīsô, slav) → **xolkô**  
+quietly → **tasõ** · **vaikõ**  
 quill → **sulô**  
 quite the opposite → **hoopõs**  
 
@@ -941,6 +954,8 @@ right → **rētô**
 right (side) → **deret**  
 right here → **sīnsīn**  
 right now → **nūnū**  
+right? → **ekõ**  
+right? (negative tag) → **egü**  
 rise (v.) → **tõusô**  
 river → **jôg**  
 road → **kamī**  
@@ -1002,6 +1017,7 @@ server → **sirvôr**⁺
 service → **servômus**  
 service work → **abītȫ**  
 set → **asetā**  
+settle → **rahutõ**  
 seven → **sedôm**  
 seventeen → **dünpeñç**  
 severe → **karmô**  
@@ -1040,6 +1056,7 @@ sixteen → **dünxtir**
 sky → **taivô**  
 slav → **gribô** · **kapustô**  
 sleep (v.) → **magā**  
+sleepy → **unü**  
 slice → **lôigā**  
 slow → **lent**  
 small → **petīt**  
@@ -1055,6 +1072,7 @@ snow (weather verb) (v.) → **snēā**
 snowstorm → **tuisk**  
 soak (coarse) → **prōmôr**  
 soft → **pehmē**  
+softly → **tasõ**  
 some → **mõnü**  
 somehow → **kuidagü**  
 someone → **kekõ**  
@@ -1114,14 +1132,17 @@ subject → **pǟlū**
 such → **sellü**  
 sudden → **järsk**  
 suddenly → **järsk** · **äkkü**  
+suffice → **piisā**  
 sugar → **sukrô**  
 summer → **suvi**  
 sun → **sol**  
 sunshine → **päikü**  
 supper → **ôhtôk**  
+surely not → **egü**  
 swear an oath (v.) → **vānā**  
 sweet bread → **kōk**  
 sweet course → **magūsū**  
+sweetie → **kullõ**  
 swell → **laintū**  
 swindle (coarse) → **trīkā**  
 
@@ -1181,7 +1202,7 @@ tie (v.) → **sidā** · **ēgô** · **ēgā**
 timber → **pūmô**  
 time → **tīt**  
 timetable → **tītkôrd**  
-tired → **kançāt**  
+tired → **kançāt** · **tüdü**  
 today → **avuī**  
 toll → **tōl**  
 tomorrow → **demā**  
@@ -1274,6 +1295,7 @@ waterside (the older, broader word) → **rānd**
 wave → **lain**  
 we → **mēg**  
 weak → **flōp** · **nôrk**  
+weary → **tüdü**  
 weather → **tems**  
 weave (v.) → **kudā**  
 wed → **pulmā**  
@@ -1341,6 +1363,7 @@ yet → **omõt** · **veel**
 yogurt → **juht**  
 you → **sä**  
 you (pl.) → **tēg**  
+you know (mild emphasis) → **ju**  
 young → **jūn**  
 young person → **jūnôr**  
 youth → **jūnôr**  

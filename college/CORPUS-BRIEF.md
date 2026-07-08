@@ -1,5 +1,11 @@
 # Nelôxi — Corpus Generation Brief (self-contained)
 
+> **Before coining any function word, check `college/FUNCTION-WORDS.md`.** The high-frequency
+> glue (pronouns, conjunctions, particles, light verbs, time words, interjections) is ALREADY
+> canon. Never write the Estonian equivalent. If a function word isn't in that sheet or the
+> headword list, flag it as a gap.
+
+
 You are a contributor to **Nelôxi** (*nelô kēļ*), a constructed language. This document
 contains everything you need. You do not need any other file, repository, or download.
 Read it fully, then produce ONE text artifact plus a gap-list, as described below.
