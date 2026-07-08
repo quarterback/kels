@@ -17,4 +17,5 @@ closed domains are rejected on arrival regardless of quality.
 | U18 Emotion nuance | CANONIZED | §22; second batch partially merged §24 |
 | U19 Food, deep | CANONIZED | §23 |
 | U20 Abstract & thought | CANONIZED | §18 |
-| U21+ (new domains) | OPEN | claim by adding a row with your name/date |
+| U21 Public works & city services | CANONIZED | §25 |
+| U22+ (new domains) | OPEN | claim by adding a row with your name/date |

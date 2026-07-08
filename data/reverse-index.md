@@ -1,6 +1,6 @@
 # Nelõ kēļ — English → Nelõxi Reverse Index
 
-*Generated from the coursebook master dictionary (636 headwords). Find your English word, take the Nelõxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
+*Generated from the coursebook master dictionary (669 headwords). Find your English word, take the Nelõxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
 
 
 ## A
@@ -21,6 +21,7 @@ and → **ja**
 angry → **vihān**  
 annotate → **märkā**  
 annotation → **märkõmus**  
+announcement → **dīmys**  
 answer → **vastõmus** · **vastā**  
 apple → **pomā**  
 arena → **arēnõ**⁺  
@@ -64,6 +65,7 @@ believe (v.) → **ūskõ**
 berry → **mārjā**  
 betrothal → **kihlõ**  
 big → **sūr**  
+bin → **kastõ**  
 bind → **sidā**  
 binding → **sidõmus**  
 birth → **syndõmus**  
@@ -89,6 +91,7 @@ building work → **ehitõmus**
 bureau → **amtõ**  
 burial → **mǟtõmus**  
 bury (v.) → **mǟtā**  
+bus → **būsõ**⁺  
 but → **agā**  
 butter → **võidõ**  
 buy (v.) → **komprā**  
@@ -96,6 +99,7 @@ buy (v.) → **komprā**
 ## C
 
 cabbage → **kāpõs**  
+cable → **līnõ**⁺  
 cake → **kōk**  
 calm → **rahu** · **rahuldā**  
 calm (sea, weather) → **vaik**  
@@ -136,6 +140,8 @@ clay → **savī**
 clay-like → **savī**  
 clean → **puhād**  
 clean off → **puhādā**  
+cleaner → **puhādõr**  
+cleaning service → **puhādtȫ**  
 clear → **selgõ**  
 close (v.) → **tankā**  
 cloth → **lōtõ**  
@@ -150,10 +156,12 @@ comfort → **lohū** · **lohūldā**
 compass → **kompass**⁺  
 compete by speed → **raksā**  
 concerning (postp.) → **pǟl**  
+conduit → **torõ**  
 consolation → **lohū**  
 constitution → **põhõlēgõ**  
 construct → **ehitā**  
 construction → **ehitõmus**  
+container → **kastõ**  
 contest → **maçõ**⁺  
 cook (v.) → **kuinā**  
 cord → **köis**  
@@ -189,7 +197,11 @@ dessert → **magūsū**
 dictionary → **sõnālivrõ**  
 die (v.) → **surā**  
 dirty → **redē**  
+discard (v.) → **jättā**  
 disorder → **segas**  
+disposal → **jättõmus**  
+disposal site → **jättām**  
+dispose of → **jättā**  
 dock → **tillõ**⁺  
 doctor → **arst**  
 dog → **gos**  
@@ -202,6 +214,7 @@ drift (v.) → **ajū**
 drink (v.) → **jōdõ**  
 dry → **kuiv**  
 dull → **tumõ**  
+dump → **jättām**  
 duty → **pidõmus**  
 dwell → **elā**  
 
@@ -295,6 +308,7 @@ garlic → **lauk**
 generation → **põlvõ**  
 gentle → **hell**  
 give (v.) → **donā**  
+give light → **nīrā**  
 gladness → **rõim**  
 glue → **limõ** · **limā**  
 go (v.) → **lǟdõ**  
@@ -323,6 +337,7 @@ guest → **võrõ**
 ## H
 
 hair → **kabēl**  
+halt → **püsā**  
 hammer → **hamõr**  
 hand → **kǟs**  
 handwriting → **kirjõ**  
@@ -385,6 +400,7 @@ juice → **māhl**
 
 ## K
 
+keep up → **hoolā**  
 key → **võtī**  
 kin → **sugõ**  
 kinsperson → **sugõr**  
@@ -396,6 +412,7 @@ knowledge → **tēdõmus**
 ## L
 
 lake → **jǟrv**  
+lamp → **lampõ**⁺  
 language → **kēļ**  
 late → **tard**  
 laugh (v.) → **naurā**  
@@ -416,6 +433,7 @@ life → **elõmus**
 light → **helē**  
 light (weight) → **kevē**  
 lighthouse → **bākõ**⁺  
+line → **līnõ**⁺  
 line of writing → **rindõ**  
 lineage → **sugõ**  
 live (v.) → **elā**  
@@ -431,6 +449,9 @@ lunch → **lõunā**
 
 ## M
 
+maintain (v.) → **hoolā**  
+maintenance → **hoolõmus**  
+maintenance worker → **hoolāji**  
 make peace → **lepā**  
 man → **mēs**  
 many → **mult**  
@@ -540,6 +561,7 @@ permit → **lubõmus** · **lubā**
 person → **inim**  
 pier → **tillõ**⁺  
 pink → **rōs**  
+pipe → **torõ**  
 plank → **lōdõ**  
 plate → **plat**  
 play → **pēlõ** · **pēlā**  
@@ -559,6 +581,11 @@ prize → **perēm**⁺
 proof → **tõsītõ**  
 protect → **valvā**  
 public → **rahvõ**  
+public light → **lampõ**⁺  
+public notice → **dīmys**  
+public park → **pārkõ**⁺  
+public service → **abītȫ**  
+public sign → **märktaul**  
 punish (v.) → **karistā**  
 punishment → **karistõ**  
 purple → **purpõr**⁺  
@@ -567,6 +594,7 @@ purpose → **ārgõ**
 ## Q
 
 question → **kysõmus**  
+queue → **ootkõrd**  
 quill → **sulõ**  
 
 ## R
@@ -586,6 +614,7 @@ reconciliation → **lepõmus**
 red → **pūn**  
 reef → **karīk**  
 referee → **māçõr**⁺  
+refuse → **roiskõ**  
 regret (v.) → **kahetsā**  
 regret (n.) → **kahetsõmus**  
 rejoice (v.) → **rõimā**  
@@ -595,6 +624,7 @@ repair → **parandõmus** · **parandā**
 response → **vastõmus**  
 responsibility (irregular → **vastāmus**  
 rich → **rik**  
+ride → **sõidõmus** · **sõidā**  
 right → **rētõ**  
 right (side) → **deret**  
 river → **jõg**  
@@ -615,9 +645,12 @@ sail → **purjē** · **seilā**
 sailor → **matrūs**  
 salt → **sōla**  
 sandy → **līvõ**  
+sanitation → **puhādtȫ**  
+sanitation worker → **puhādõr**  
 savory → **maitūs**  
 saw → **sāvõ** · **sāvā**  
 say (v.) → **dī**  
+schedule → **tītkõrd**  
 school → **eskōl**  
 score (v.) → **punktā**  
 score unit → **punktõ**  
@@ -636,14 +669,18 @@ sell (v.) → **vendā**
 sequence → **kõrd**  
 serve → **servõmus** · **servā**  
 service → **servõmus**  
+service work → **abītȫ**  
 seven → **seis**  
 severe → **karmõ**  
 sew (v.) → **õblā**  
+sewage → **mustveç**  
+sewer system → **mustveçkõrd**  
 shallow → **madal**  
 shame → **häbū**  
 shape (v.) → **vormā**  
 she → **tä**  
 sheet → **lehtõ**  
+shine (v.) → **nīrā**  
 shining → **nīrõ**  
 ship → **xip**  
 shop → **butīk**  
@@ -651,6 +688,7 @@ shore → **rānd**
 short → **kurt**  
 shred → **rūbā**  
 sick → **malālt**  
+signboard → **märktaul**  
 silver → **õbē**  
 sing (v.) → **kantā**  
 sister → **sisār**  
@@ -676,14 +714,18 @@ stadium → **arēnõ**⁺
 star → **estēl**  
 start → **alk**  
 state → **rīgõ**⁺  
+station → **jaamõ**⁺  
 stir → **segā**  
 stitch (v.) → **sīlā**  
 stitch-line → **sīlõ**  
 stone → **kivī**  
+stop (v.) → **püsā** · **püsām**  
+stopping place → **püsām**  
 storm → **tormõ**  
 story → **kontē**  
 stranger → **võrõ**  
 street → **karrē**  
+streetlight → **karrēlampõ**  
 strength → **võim**  
 strong → **fort**  
 student → **õpāji**  
@@ -714,6 +756,7 @@ team → **selkõ**
 ten → **kīm**  
 tender → **hell**  
 tenderness → **hellū**  
+terminal → **jaamõ**⁺  
 test → **kaçõ** · **kaçā**  
 thank you → **täno**  
 that → **se**  
@@ -731,10 +774,12 @@ thousand → **mīl**
 thread → **lõng**  
 three → **kolm**  
 throw (v.) → **viskā**  
+ticket → **piletõ**⁺  
 tide → **lūdõ**  
 tie (v.) → **sidā** · **ēgõ** · **ēgā**  
 timber → **pūmõ**  
 time → **tīt**  
+timetable → **tītkõrd**  
 tired → **kançāt**  
 today → **avuī**  
 tomorrow → **demā**  
@@ -748,7 +793,9 @@ trade (n.) → **handõl**
 train → **harjā** · **tēno**  
 trainer → **koçõr**⁺  
 training session → **harjõmus**  
+trash → **roiskõ**  
 travel (v.) → **reisā**  
+travel by vehicle → **sõidā**  
 tree → **pū**  
 tribunal → **rēdām**  
 trust (v.) → **usaldā**  
@@ -765,9 +812,11 @@ under (postp.) → **al**
 underside → **alū**  
 understand (v.) → **komprē**  
 understanding → **selgū**  
+upkeep → **hoolõmus**  
 
 ## V
 
+vehicle trip → **sõidõmus**  
 vessel → **potõ**  
 victory → **võitõ**  
 village → **kylä**  
@@ -777,13 +826,19 @@ vote → **balçõmus** · **balçā**
 
 ## W
 
+wait (v.) → **ootā**  
+waiting → **ootõmus**  
+waiting line → **ootkõrd**  
 wake (v.) → **ärkā**  
 walk (v.) → **kǟvõ**  
 want (v.) → **volē**  
 warm → **lǟmi**  
 warm (to touch) → **sojā**  
 was → **ūli**  
+waste → **roiskõ**  
+wastewater → **mustveç**  
 water → **veç**  
+water pipe → **veçtorõ**  
 waterfront (the newer → **strānd**  
 waterside (the older, broader word) → **rānd**  
 wave → **lain**  

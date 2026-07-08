@@ -1,5 +1,6 @@
 abī
 abīstā
+abītȫ
 adē
 agā
 ajēr
@@ -33,12 +34,14 @@ butīk
 bākõ
 bālõ
 bōt
+būsõ
 dek
 demā
 dent
 deret
 donā
 dī
+dīmys
 ehitõmus
 ehitā
 elõmus
@@ -74,6 +77,9 @@ haudõ
 hell
 hellū
 helē
+hoolõmus
+hoolā
+hoolāji
 häbedā
 häbū
 idā
@@ -85,8 +91,12 @@ ilo
 inim
 itkõ
 ja
+jaamõ
 jeds
 juht
+jättõmus
+jättā
+jättām
 jõg
 jõu
 jõvā
@@ -139,8 +149,10 @@ karistā
 karmõ
 karn
 karrē
+karrēlampõ
 karī
 karīk
+kastõ
 kat
 kaug
 kaçõ
@@ -212,6 +224,7 @@ kǟvõ
 laht
 lain
 laintū
+lampõ
 last
 lauk
 lehtõ
@@ -245,6 +258,7 @@ lēsõ
 lēsām
 lēt
 lībā
+līnõ
 līvõ
 lōdõ
 lōtõ
@@ -285,8 +299,11 @@ mult
 muntāñ
 murk
 must
+mustveç
+mustveçkõrd
 mä
 märg
+märktaul
 märkõmus
 märkā
 mõtõ
@@ -330,6 +347,7 @@ nētõ
 nēu
 nēļa
 nīrõ
+nīrā
 nīt
 nǟgõ
 nǟlg
@@ -340,6 +358,9 @@ obūn
 olūt
 omīk
 onkõ
+ootkõrd
+ootõmus
+ootā
 orvõ
 orānx
 pa
@@ -359,6 +380,7 @@ perēm
 petīt
 pidõmus
 pidā
+piletõ
 pilv
 pipõr
 plat
@@ -372,6 +394,8 @@ praul
 prop
 prēu
 puhād
+puhādtȫ
+puhādõr
 puhādā
 pulmõ
 pulmā
@@ -389,6 +413,9 @@ põhõlēgõ
 põjā
 põlvõ
 põlū
+püsā
+püsām
+pārkõ
 pāsā
 pēlõ
 pēlā
@@ -419,6 +446,7 @@ reisā
 rekõt
 rik
 rindõ
+roiskõ
 rõhī
 rõim
 rõimā
@@ -480,6 +508,8 @@ syndõmus
 syndā
 syv
 sä
+sõidõmus
+sõidā
 sõnā
 sõnālivrõ
 sāl
@@ -517,6 +547,7 @@ tintõ
 tirist
 tormõ
 tornē
+torõ
 tugev
 tulē
 tumõ
@@ -541,6 +572,7 @@ tēg
 tēno
 tēre
 tīt
+tītkõrd
 tītū
 tūļ
 tǟs
@@ -577,6 +609,7 @@ vendā
 verī
 vespõr
 veç
+veçtorõ
 veļ
 vihān
 vim
