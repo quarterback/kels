@@ -304,7 +304,7 @@ earth → **mā**
 east → **idā**  
 eat (v.) → **menjā**  
 egg → **ōu**  
-eight (trade) → **acht**  
+eight → **acht**  
 eighty → **achttig**  
 elder → **vanõr**  
 emotion → **mōl**  
@@ -371,7 +371,7 @@ finish → **lopā**
 first → **ēntõ**  
 fish → **kalā** · **kalāstā**  
 fisher → **kalāji**  
-five (trade) → **fīf**  
+five → **fīf**  
 flag → **flag**⁺  
 flat (Marīsõ, slav) → **mrovõ**  
 flock → **karjõ**  
@@ -394,7 +394,7 @@ forty → **fērtig**
 foul → **bōs** · **vǟrpēlā**  
 foul (in a game) → **vǟrpēlõ**  
 foundation → **põhõ**  
-four (trade) → **fēr**  
+four → **fēr**  
 fragile → **habrõ**  
 friend → **amīk**  
 from now on → **nūlt**  
@@ -496,7 +496,7 @@ hot → **kalēnt**
 hour → **ōra**  
 house → **kōt**  
 how → **kui**  
-hundred (trade, round) → **hunt**  
+hundred → **hunt**  
 hunger → **nǟlg** · **nǟlgõ**  
 hurt → **haavõmus** · **haavā**  
 husband → **marīt**  
@@ -694,7 +694,7 @@ official document → **aktõ**
 official mark → **sīgel**  
 oil → **õli**  
 old → **vana**  
-one (trade) → **ēn**  
+one → **ēn**  
 onion → **sipõl**  
 open (v.) → **obrī**  
 or → **vai**  
@@ -874,7 +874,7 @@ serve → **servõmus** · **servā**
 server → **sirvõr**⁺  
 service → **servõmus**  
 service work → **abītȫ**  
-seven (trade) → **seven**  
+seven → **seven**  
 seventy → **seventig**  
 severe → **karmõ**  
 sew (v.) → **õblā**  
@@ -903,7 +903,7 @@ signboard → **märktaul**
 silver → **õbē**  
 sing (v.) → **kantā**  
 sister → **sisār**  
-six (trade) → **ses**  
+six → **ses**  
 sixty → **sestig**  
 sky → **taivõ**  
 slav → **gribõ** · **kapustõ**  
@@ -990,7 +990,7 @@ teach (v.) → **talçā**
 teacher → **talçāji**  
 team → **selkõ**  
 television (full calque, "magic-window") → **taikfinest**  
-ten (trade) → **tēn**  
+ten → **tēn**  
 tend animals → **karjā**  
 tender → **hell**  
 tenderness → **hellū**  
@@ -1013,9 +1013,9 @@ thirst → **jān** · **jānõ**
 thirty → **drētig**  
 this → **se**  
 thought → **mõtõ**  
-thousand (trade) → **dūsõnd**  
+thousand → **dūsõnd**  
 thread → **lõng**  
-three (trade) → **drē**  
+three → **drē**  
 throw (v.) → **viskā**  
 ticket → **piletõ**⁺  
 tide → **lūdõ**  
@@ -1053,9 +1053,9 @@ turd → **merd**
 turnip → **nǟr**  
 TV → **taiki**  
 TV (spoken tē-vē → **tēvē**  
-twelve (trade grouping) → **dūtõ**  
+twelve (trade tally) → **dūtõ**  
 twenty → **twētig**  
-two (trade) → **twē**  
+two → **twē**  
 
 ## U
 
