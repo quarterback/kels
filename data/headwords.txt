@@ -15,7 +15,11 @@ amtõ
 amtõji
 amīk
 amōr
+andemys
+andē
 aribā
+arm
+armõldā
 arst
 arvõ
 arvõldā
@@ -66,9 +70,15 @@ handõl
 harjõmus
 harjā
 haudõ
+hell
+hellū
 helē
+häbedā
+häbū
 idā
 idē
+iglū
+igāldā
 ilma
 ilo
 inim
@@ -89,8 +99,12 @@ jǟdõ
 jǟrv
 ka
 kabēl
+kadē
+kadēldā
 kadīr
 kafē
+kahetsõmus
+kahetsā
 kaimõ
 kaks
 kaltõ
@@ -123,6 +137,8 @@ ken
 kevē
 kihlõ
 kihlā
+kirg
+kirgõldā
 kirjõ
 kirjõmus
 kirjā
@@ -189,6 +205,8 @@ limā
 lit
 livrõ
 livrõkōt
+lohū
+lohūldā
 lop
 lopā
 lubõmus
@@ -204,6 +222,8 @@ lēt
 līvõ
 lōdõ
 lōtõ
+lōtā
+lōtū
 lūdõ
 lǟdõ
 lǟkõ
@@ -251,6 +271,8 @@ mēs
 mīl
 mīstērõ
 mōl
+mūrõ
+mūrõldā
 mǟr
 mǟtõmus
 mǟtā
@@ -337,6 +359,8 @@ pǟl
 pǟlū
 pǟr
 pǟvõ
+rahu
+rahuldā
 rahvõ
 raksõ
 raksā
@@ -351,6 +375,8 @@ rekõt
 rik
 rindõ
 rõhī
+rõim
+rõimā
 rā
 rājõ
 rānd
@@ -420,6 +446,8 @@ sōdā
 sōdāji
 sōla
 sūr
+tahtõ
+tahtõldā
 taivõ
 talçā
 talçāji
@@ -447,6 +475,8 @@ tyhjā
 tytār
 tä
 täno
+tänāldā
+tänū
 tõin
 tõsī
 tõsītõ
@@ -529,6 +559,8 @@ xip
 õpā
 õpāji
 üks
+üksū
+üksūldā
 ārgõ
 ārmastõ
 āst
@@ -538,5 +570,7 @@ xip
 ōra
 ōu
 ūli
+ūpeldā
+ūpū
 ūsk
 ūskõ
