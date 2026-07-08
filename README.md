@@ -8,6 +8,7 @@ The working repository of the Nelõxi language (*nelõ kēļ*): reference gramma
 coursebook/nelo-kel-coursebook.md   ← CANON. The single source of truth.
 college/kels-kolegi-charter.md      ← Contributor protocol + ruling log + collision list
 archive/neloxi-language-spec.md     ← Design archive (internal; not reference material)
+dialects/                           ← Regional overlays on the standard (metrolect, inland)
 data/dictionary.tsv                 ← Machine-readable headword → gloss (generated)
 data/headwords.txt                  ← Flat headword list (generated)
 ```
