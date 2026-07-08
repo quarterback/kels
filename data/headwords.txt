@@ -336,6 +336,9 @@ nim
 nobē
 nugā
 nyt
+nytelt
+nytlä
+nytnyt
 nõglõ
 nõrk
 nõuk
@@ -513,6 +516,7 @@ sõidā
 sõnā
 sõnālivrõ
 sāl
+sālsāl
 sān
 sār
 sāvõ
@@ -521,6 +525,7 @@ sīgel
 sīlõ
 sīlā
 sīn
+sīnsīn
 sōdā
 sōdāji
 sōla
