@@ -17,6 +17,7 @@ alkā
 alt
 alõs
 alū
+ammū
 amtô
 amtôji
 amīk
@@ -318,6 +319,8 @@ kuni
 kurt
 kus
 kusagü
+kutsu
+kutsô
 kuulõ
 kylm
 kylä
@@ -335,6 +338,7 @@ kôstô
 kôust
 kôv
 köis
+külalü
 küllü
 külvômus
 külvā
@@ -368,6 +372,7 @@ lampô
 laskā
 last
 lasõ
+lasõkäi
 lauk
 lehmä
 lehtô
@@ -455,11 +460,13 @@ midagü
 miks
 mikô
 miljôn
+minõm
 mis
 miskü
 mrovô
 mrovôr
 muidôn
+muidõks
 muidū
 mult
 mumbõ
@@ -528,6 +535,8 @@ nôrk
 nôuk
 nôukôr
 nõkā
+nõusô
+nõusõ
 nān
 nē
 nēm
@@ -650,6 +659,7 @@ pīrô
 pīrôlubômus
 pīrôsegas
 pīrôsitāt
+pōlkindõl
 pōlpardõ
 pōr
 pū
@@ -699,6 +709,8 @@ rōs
 rūbā
 rūnô
 rūnôkôrd
+rǟkõ
+rǟkõmus
 saatômus
 saatā
 sadā
@@ -738,6 +750,7 @@ sinī
 sipôl
 sirpô
 sirvôr
+sisü
 sisār
 sitānik
 sitāt
@@ -788,6 +801,7 @@ sīlā
 sīmā
 sīn
 sīnsīn
+sōdõmus
 sōdā
 sōdāji
 sōla
@@ -822,6 +836,7 @@ teinütõ
 tems
 tervetô
 tervü
+tervütä
 tillô
 tintô
 tirist
@@ -846,6 +861,8 @@ täidā
 täno
 tänāldā
 tänū
+täpsô
+täpsõlt
 tôl
 tôsī
 tôsītô
@@ -969,6 +986,7 @@ xumā
 ôblā
 ôbē
 ôhtôk
+ôigus
 ôli
 ônnô
 ôpôkambôr

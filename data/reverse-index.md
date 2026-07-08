@@ -1,6 +1,6 @@
 # Nelô kēļ — English → Nelôxi Reverse Index
 
-*Generated from the coursebook master dictionary (998 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
+*Generated from the coursebook master dictionary (1016 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
 
 
 ## A
@@ -11,6 +11,7 @@ a flop (coarse) → **flōp**
 a fraction → **dēl**  
 a moment → **hetk**  
 a moment ago → **äsjü**  
+a welcome → **sōdõmus**  
 about → **mumbõ** · **pǟl**  
 ache of absence → **kaipômus**  
 act → **aktô**  
@@ -20,6 +21,8 @@ after all → **ikkü** · **ju**
 after that → **seejärõl**  
 again → **jällü**  
 against → **vastü**  
+agree (v.) → **nõusô**  
+agreed → **nõusõ**  
 aid → **abī**  
 aim → **ārgô**  
 all → **kôg**  
@@ -160,6 +163,7 @@ but → **agā**
 butter → **vôidô**  
 button → **nupô**  
 buy (v.) → **komprā**  
+by the way → **muidõks**  
 by then → **selēks**  
 
 ## C
@@ -243,6 +247,7 @@ coffee → **kafē**
 cold → **kylm**  
 color → **kōlôr**  
 come (v.) → **tulē**  
+come in → **sisü**  
 comfort → **lohū** · **lohūldā**  
 compass → **kompass**⁺  
 compete by speed → **raksā**  
@@ -259,6 +264,7 @@ conversation → **kônô**
 converse (v.) → **kônā**  
 cook (v.) → **kuinā**  
 cord → **köis**  
+correct → **ôigus**  
 corrupt (coarse) → **krōm**  
 council → **nôuk**  
 councillor → **nôukôr**  
@@ -386,6 +392,8 @@ everything → **kôgõ**
 everywhere → **kôgõl**  
 evidence → **tôsītô**  
 evil → **bōs**  
+exact → **täpsô**  
+exactly → **täpsõlt**  
 examination → **kaçô**  
 examine → **kaçā**  
 excessively → **liig**  
@@ -452,6 +460,7 @@ food → **sȫk**
 fool → **glupôr**  
 foot → **pēu**  
 for → **eest**  
+for a long time → **ammū**  
 forest → **meçā**  
 forget (v.) → **unôstā**  
 forgive (v.) → **andõstā** · **pardā**  
@@ -493,7 +502,8 @@ give light → **nīrā**
 gladness → **rôim**  
 glue → **limô** · **limā**  
 go (v.) → **lǟdô**  
-go on → **annõ**  
+go ahead → **lasõkäi**  
+go on → **annõ** · **lasõkäi**  
 goal → **mērkô**  
 goat → **kitsô**  
 gob (vulgar) → **mūlô**  
@@ -518,6 +528,7 @@ gratitude → **tänū**
 grave → **haudô**  
 great wave → **laintū**  
 green → **rôhī**  
+greet (v.) → **tervütä**  
 grey → **grīs**⁺  
 griddle cake (Marīsô, slav) → **plinô**  
 grief → **leinô**  
@@ -528,7 +539,7 @@ grow (v.) → **kasvā**
 growth → **kasvômus**  
 guard (v.) → **valvā** · **valvāji**  
 guardian → **ravôji**  
-guest → **vôrô**  
+guest → **külalü** · **vôrô**  
 gutless (vulgar) → **klȫtôtū**  
 
 ## H
@@ -578,6 +589,7 @@ honey → **melī**
 hope (v.) → **lōtā**  
 hope (n.) → **lōtū**  
 horse → **obūn**  
+hospitality → **sōdõmus**  
 host (v.) → **sōdā** · **sōdāji**  
 hot → **kalēnt**  
 hour → **ōra**  
@@ -600,8 +612,10 @@ idle talk (Marīsô, slav) → **bajômus**
 if → **jōs**  
 image → **pildô**  
 immediately → **nūnū**  
+in → **sisü**  
 in a bit → **nūlô**  
 in a hushed way → **vaikõ**  
+in agreement → **nõusô** · **nõusõ**  
 in any case → **nixō**  
 in exchange for (postp.) → **eest**  
 in front of (postp.) → **jeds**  
@@ -613,8 +627,11 @@ inherit (v.) → **pärā**
 inheritance → **pärômus**  
 ink → **tintô**⁺  
 inner peace → **rahu**  
+inside → **sisü**  
 instead → **hoopõs**  
 instructor → **talçāji**  
+invitation → **kutsô**  
+invite (v.) → **kutsu**  
 iron → **raud**  
 island → **sār**  
 isn’t it? (tag question, post-clause) → **ekõ**  
@@ -669,6 +686,8 @@ lesson → **lēsô**
 let (v.) → **laskā**  
 let me → **lasõ**  
 letter → **rūnô**  
+let’s do it → **lasõkäi**  
+let’s go → **minõm**  
 let’s go (hortative) → **lǟkõm**  
 library → **livrôkōt**  
 license → **lubômus**  
@@ -692,6 +711,7 @@ live (v.) → **elā**
 living → **elômus**  
 load → **laadômus**⁺ · **laadā**⁺  
 loneliness → **üksū**  
+long ago → **ammū**  
 long for (v.) → **igāldā**  
 longing → **iglū**  
 look → **sīmā**  
@@ -802,6 +822,7 @@ nonsense (dismissive) → **nalī**
 north → **pôjā**  
 not → **äb**  
 not a thing → **midagü**  
+not sure → **pōlkindõl**  
 not until → **alõs**  
 note → **märkômus**  
 nothing → **midagü**  
@@ -907,6 +928,8 @@ pot → **padā** · **potô**
 pour (v.) → **kallā**  
 power → **vôim**  
 practice → **harjômus** · **harjā**  
+precise → **täpsô**  
+precisely → **täpsõlt**  
 price → **prēu**  
 prick → **pik**  
 pride → **ūpū**  
@@ -976,7 +999,7 @@ response → **vastômus**
 responsibility (irregular → **vastāmus**  
 rich → **rik**  
 ride → **sôidômus** · **sôidā**  
-right → **rētô**  
+right → **rētô** · **ôigus**  
 right (side) → **deret**  
 right here → **sīnsīn**  
 right now → **nūnū**  
@@ -1180,6 +1203,7 @@ swindle (coarse) → **trīkā**
 
 table → **taul**  
 take (v.) → **votā**  
+talk (v.) → **rǟkõ** · **rǟkõmus**  
 talk idly (Marīsô, slav) → **bajā**  
 tall → **alt**  
 target → **mērkô**  
@@ -1192,6 +1216,8 @@ teach (v.) → **talçā**
 teacher → **talçāji**  
 team → **selkô**  
 television (full calque, "magic-window") → **taikfinest**  
+tell → **rǟkõ**  
+telling → **rǟkõmus**  
 ten → **deseñç**  
 tend animals → **karjā**  
 tender → **hell**  
@@ -1277,6 +1303,7 @@ two → **dva**
 ## U
 
 umpire → **māçôr**⁺  
+uncertain → **pōlkindõl**  
 uncle → **onkô**  
 under (postp.) → **al**  
 underside → **alū**  
@@ -1299,6 +1326,7 @@ village → **kylä**
 vinegar → **vingôr**⁺  
 virus → **vīrô**⁺  
 visa → **vīzô**⁺  
+visitor → **külalü**  
 voice → **vēu**  
 voice-call → **kônô**  
 vomit → **krašô** · **krašā**  
@@ -1325,6 +1353,7 @@ waterfront (the newer → **strānd**
 waterside (the older, broader word) → **rānd**  
 wave → **lain**  
 we → **mēg**  
+we should go (hortative) → **minõm**  
 weak → **flōp** · **nôrk**  
 weary → **tüdü**  
 weather → **tems**  
@@ -1399,6 +1428,7 @@ you know (mild emphasis) → **ju**
 young → **jūn**  
 young person → **jūnôr**  
 youth → **jūnôr**  
+you’re right → **ôigus**  
 
 ## Z
 
