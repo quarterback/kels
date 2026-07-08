@@ -1,6 +1,6 @@
 # Nelõ kēļ — English → Nelõxi Reverse Index
 
-*Generated from the coursebook master dictionary (843 headwords). Find your English word, take the Nelõxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
+*Generated from the coursebook master dictionary (845 headwords). Find your English word, take the Nelõxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
 
 
 ## A
@@ -456,6 +456,7 @@ gutless (vulgar) → **klȫtõtū**
 ## H
 
 hair → **kabēl**  
+half → **pūlõ**  
 halt → **püsā**  
 hammer → **hamõr**  
 hand → **kǟs**  
@@ -712,6 +713,7 @@ pan → **pannõ**
 pancake → **plinõ**  
 paper → **papõr**⁺  
 parent → **genõ**  
+part → **osõ**  
 pass (v.) → **pāsā**  
 passion → **kirg**  
 passport → **pāsportõ**⁺  
@@ -883,6 +885,7 @@ sewer system → **mustveçkõrd**
 shallow → **madal**  
 shame → **häbū**  
 shape (v.) → **vormā**  
+share → **osõ**  
 she → **tä**  
 sheep → **lammõ**  
 sheet → **lehtõ**  
