@@ -20,4 +20,5 @@ closed domains are rejected on arrival regardless of quality.
 | U21 Public works & city services | CANONIZED | §25 |
 | U22 Farm & field | CANONIZED | §29 (returned under §23, accepted on correction) |
 | U24 Marīsõ border-city life | CANONIZED | §31 — first Slavic-stratum batch |
-| U23, U25+ (new domains) | OPEN | claim by adding a row with your name/date |
+| U25 Devices & communications | CANONIZED | §32 — device suffix -in added |
+| U23, U26+ (new domains) | OPEN | claim by adding a row with your name/date |

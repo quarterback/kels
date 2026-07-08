@@ -17,6 +17,7 @@ amtõ
 amtõji
 amīk
 amōr
+apõ
 aribā
 arm
 armõldā
@@ -49,6 +50,7 @@ deret
 donā
 drobõ
 dvõrõ
+dātõ
 dēdkõ
 dī
 dīmys
@@ -64,12 +66,18 @@ eskōl
 esmī
 estēl
 et
+failõ
 famīl·la
 felīç
 finest
 flag
 fluks
+fonõ
+fonõmus
+fonā
 fort
+fotõ
+fotā
 frūt
 fīnõ
 genõ
@@ -147,6 +155,7 @@ kalāji
 kalāstā
 kalēnt
 kambõr
+kamērõ
 kamī
 kannõmus
 kannā
@@ -193,7 +202,12 @@ kirjāji
 kirīk
 kitsõ
 kivī
+klavõr
+klikõmus
+klikā
 klubõ
+kodõ
+kodā
 kolm
 kompass
 komprā
@@ -220,6 +234,8 @@ kysõ
 kysõmus
 kõg
 kõlt
+kõnõ
+kõnā
 kõrd
 kõust
 kõv
@@ -244,10 +260,13 @@ kōrrõ
 kōt
 kōtõks
 kū
+kūlin
 kūlõ
 kūç
 kǟs
 kǟvõ
+laadõmus
+laadā
 laht
 lain
 laintū
@@ -329,6 +348,7 @@ mentīd
 mer
 meçā
 miks
+mikõ
 mis
 mrovõ
 mrovõr
@@ -375,6 +395,7 @@ nobē
 noppõmus
 noppā
 nugā
+nupõ
 nurõ
 nurõr
 nõglõ
@@ -387,6 +408,8 @@ nēm
 nētõ
 nēu
 nēļa
+nīrin
+nīrtaul
 nīrõ
 nīrā
 nīt
@@ -425,6 +448,7 @@ perēm
 petīt
 pidõmus
 pidā
+pildõ
 piletõ
 pilv
 pipõr
@@ -497,6 +521,7 @@ redē
 reisā
 rekõt
 rik
+rikā
 rindõ
 rohõ
 roiskõ
@@ -505,6 +530,7 @@ rõim
 rõimā
 röstā
 rā
+rādjo
 rājõ
 rānd
 rāndõr
@@ -518,7 +544,11 @@ rōs
 rūbā
 rūnõ
 rūnõkõrd
+saatõmus
+saatā
 sadā
+salvõmus
+salvā
 satām
 savī
 sañõ
@@ -539,15 +569,18 @@ sesõn
 setmān
 sidõmus
 sidā
+signõ
 sigõ
 silm
 silē
 sinī
 sipõl
 sirpõ
+sirvõr
 sisār
 sitānik
 sitāt
+skrinõ
 smetõn
 sojā
 sol
@@ -567,6 +600,7 @@ syv
 sä
 sõidõmus
 sõidā
+sõnaktõ
 sõnā
 sõnālivrõ
 sāl
@@ -608,6 +642,7 @@ tillõ
 tintõ
 tirist
 tormõ
+tornõ
 tornē
 torõ
 tugev
@@ -670,6 +705,7 @@ vasikõ
 vastõmus
 vastā
 vastāmus
+vastāsaatā
 vendā
 verī
 vespõr
@@ -693,6 +729,7 @@ võim
 võitõ
 võitā
 võrk
+võrkkõrd
 võrõ
 võtī
 võī
@@ -701,6 +738,7 @@ vānõ
 vānā
 vēu
 vī
+vīrõ
 vīsū
 vīzõ
 vīç

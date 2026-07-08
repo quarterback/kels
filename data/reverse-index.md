@@ -1,6 +1,6 @@
 # Nelõ kēļ — English → Nelõxi Reverse Index
 
-*Generated from the coursebook master dictionary (748 headwords). Find your English word, take the Nelõxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
+*Generated from the coursebook master dictionary (786 headwords). Find your English word, take the Nelõxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
 
 
 ## A
@@ -27,6 +27,7 @@ answer → **vastõmus** · **vastā**
 apartment → **mrovõ**  
 apartment block → **blokõ**⁺  
 apartment-dweller (Marīsõ, slav) → **mrovõr**  
+app → **apõ**⁺  
 apple → **pomā**  
 arena → **arēnõ**⁺  
 arrive (v.) → **aribā**  
@@ -94,6 +95,7 @@ border-city dialect → **marīskēļ**
 bottom → **alū** · **põhõ**  
 boundary → **pīrõ**  
 bread → **pa**  
+break → **rikā**  
 breakfast → **omīk**  
 bridge → **pont**  
 bright → **nīrõ**  
@@ -108,6 +110,7 @@ bus → **būsõ**⁺
 bustle (v.) → **xumā**  
 but → **agā**  
 butter → **võidõ**  
+button → **nupõ**  
 buy (v.) → **komprā**  
 
 ## C
@@ -117,8 +120,10 @@ cabbage (Marīsõ → **kapustõ**
 cable → **līnõ**⁺  
 cake → **kōk**  
 calf → **vasikõ**  
+call → **fonā**⁺  
 calm → **rahu** · **rahuldā**  
 calm (sea, weather) → **vaik**  
+camera → **kamērõ**⁺  
 can → **võī**  
 cap → **xapkõ**  
 cape → **nēm**  
@@ -138,6 +143,7 @@ center → **keskū**
 cf. native kāpõs) → **kapustõ**  
 cf. native põlū) → **gribõ**  
 cf. rānd) → **strānd**  
+cf. standard nīrtaul) → **skrinõ**  
 cf. vastõmus) → **vastāmus**  
 chair → **kadīr**  
 change (Marīsõ, slav) → **drobõ**  
@@ -167,6 +173,7 @@ clean off → **puhādā**
 cleaner → **puhādõr**  
 cleaning service → **puhādtȫ**  
 clear → **selgõ**  
+click → **klikõmus**⁺ · **klikā**⁺  
 close (v.) → **tankā**  
 close female friend (Marīsõ, slav) → **sestrõ**  
 close male friend (Marīsõ, slav) → **bratkõ**  
@@ -175,6 +182,7 @@ cloud → **pilv**
 club → **klubõ**⁺  
 coach → **koçõr**⁺  
 coastline → **rāndõr**  
+code → **kodõ**⁺ · **kodā**⁺  
 coffee → **kafē**  
 cold → **kylm**  
 color → **kōlõr**  
@@ -190,6 +198,8 @@ construct → **ehitā**
 construction → **ehitõmus**  
 container → **kastõ**  
 contest → **maçõ**⁺  
+conversation → **kõnõ**  
+converse (v.) → **kõnā**  
 cook (v.) → **kuinā**  
 cord → **köis**  
 council → **nõuk**  
@@ -214,7 +224,9 @@ cut (v.) → **leikā** · **lõigā**
 
 ## D
 
+damage (v.) → **rikā**  
 dark (of color) → **karī**  
+data → **dātõ**⁺  
 daughter → **tytār**  
 day → **pǟvõ**  
 death → **surmõ**  
@@ -228,6 +240,7 @@ desire deeply (v.) → **tahtõldā**
 dessert → **magūsū**  
 dictionary → **sõnālivrõ**  
 die (v.) → **surā**  
+digital storage → **salvõmus**⁺  
 dirty → **redē**  
 discard (v.) → **jättā**  
 disorder → **segas**  
@@ -240,6 +253,7 @@ dog → **gos**
 door → **port**  
 doubt → **kāldõ** · **kāldõldā**  
 dough → **tāgõ**  
+download → **laadõmus**⁺ · **laadā**⁺  
 draw → **ēgõ** · **ēgā**  
 dream → **unī** · **unīstā**  
 drift (v.) → **ajū**  
@@ -312,6 +326,7 @@ fertilize (v.) → **väetā**
 fertilizer → **väetõ**  
 field → **nurõ** · **pēlām**  
 field-worker → **nurõr**  
+file → **failõ**⁺  
 fill (v.) → **täidā**  
 filled pastry (Marīsõ, slav) → **pirõg**  
 fine → **fīnõ**  
@@ -447,6 +462,7 @@ ice-cold → **jǟdõ**
 idea → **idē**  
 idle talk (Marīsõ, slav) → **bajõmus**  
 if → **jōs**  
+image → **pildõ**  
 immediately → **nūnū**  
 in a bit → **nūlõ**  
 in front of (postp.) → **jeds**  
@@ -472,7 +488,8 @@ just over there → **sālsāl**
 ## K
 
 keep up → **hoolā**  
-key → **võtī**  
+key → **nupõ** · **võtī**  
+keyboard → **klavõr**⁺  
 kin → **sugõ**  
 kinsperson → **sugõr**  
 knife → **nugā**  
@@ -484,7 +501,7 @@ knowledge → **tēdõmus**
 
 lake → **jǟrv**  
 lamb → **tallõ**  
-lamp → **lampõ**⁺  
+lamp → **lampõ**⁺ · **nīrin**  
 language → **kēļ**  
 late → **tard**  
 late-stratum) → **fluks**  
@@ -506,12 +523,14 @@ lie (n.) → **mentīd**
 life → **elõmus**  
 light → **helē**  
 light (weight) → **kevē**  
+light-device → **nīrin**  
 lighthouse → **bākõ**⁺  
 line → **līnõ**⁺  
 line of writing → **rindõ**  
 lineage → **sugõ**  
 live (v.) → **elā**  
 living → **elõmus**  
+load → **laadõmus**⁺ · **laadā**⁺  
 loneliness → **üksū**  
 long for (v.) → **igāldā**  
 longing → **iglū**  
@@ -529,6 +548,7 @@ maintenance → **hoolõmus**
 maintenance worker → **hoolāji**  
 make peace → **lepā**  
 make street noise (Marīsõ, slav) → **xumā**  
+malware → **vīrõ**⁺  
 man → **mēs**  
 manure → **väetõ**  
 many → **mult**  
@@ -551,6 +571,8 @@ mend (v.) → **parandā**
 mending → **parandõmus**  
 merchant → **handlõji**  
 merchant register → **fluks**  
+message → **sõnaktõ**  
+microphone → **mikõ**⁺  
 midday meal → **lõunā**  
 middle → **keskū**  
 milk (v.) → **lypsā** · **lēt**  
@@ -589,6 +611,8 @@ neighbor → **nabõr**
 neighborhood hall → **klubõ**⁺  
 net → **võrk**  
 net (sport) → **nētõ**  
+network → **võrkkõrd**  
+network system → **võrkkõrd**  
 never → **mai**  
 night → **nīt**  
 nine → **īdõks**  
@@ -646,7 +670,11 @@ pepper → **pipõr**⁺
 permit → **lubõmus** · **lubā**  
 person → **inim**  
 person from Marīsõ → **marīsõr**  
+phone → **fonõ**⁺ · **fonā**⁺  
+phone call → **fonõmus**⁺  
+photograph → **fotõ**⁺ · **fotā**⁺  
 pick (v.) → **noppā**  
+picture → **pildõ**  
 pier → **tillõ**⁺  
 pig → **sigõ**  
 piglet → **põrsõ**  
@@ -671,6 +699,7 @@ price → **prēu**
 pride → **ūpū**  
 prison → **vangõ**  
 prize → **perēm**⁺  
+program → **kodā**⁺  
 proof → **tõsītõ**  
 protect → **valvā**  
 public → **rahvõ**  
@@ -695,6 +724,7 @@ quill → **sulõ**
 
 race → **raksõ** · **raksā**  
 racket → **rekõt**⁺  
+radio → **rādjo**⁺  
 rain → **vim**  
 raise (v.) → **ravā**  
 read (v.) → **lugē**  
@@ -715,6 +745,7 @@ rejoice (v.) → **rõimā**
 relative → **sugõr**  
 remember (v.) → **mēldā**  
 repair → **parandõmus** · **parandā**  
+reply (v.) → **vastāsaatā**  
 response → **vastõmus**  
 responsibility (irregular → **vastāmus**  
 rich → **rik**  
@@ -744,6 +775,8 @@ salt → **sōla**
 sandy → **līvõ**  
 sanitation → **puhādtȫ**  
 sanitation worker → **puhādõr**  
+save (v.) → **salvā**⁺  
+saved file → **salvõmus**⁺  
 savory → **maitūs**  
 saw → **sāvõ** · **sāvā**  
 say (v.) → **dī**  
@@ -751,6 +784,9 @@ schedule → **tītkõrd**
 school → **eskōl**  
 score (v.) → **punktā**  
 score unit → **punktõ**  
+screen (metroplex → **skrinõ**  
+screen (shine-board) → **nīrtaul**  
+screen-light → **nīrin**  
 scribe → **kirjāji**  
 script → **kirjõ**  
 sea → **mer**  
@@ -764,8 +800,12 @@ secret → **mīstērõ**
 see (v.) → **nǟgõ**  
 seed → **īvõ**  
 sell (v.) → **vendā**  
+send (v.) → **saatā**  
+send back → **vastāsaatā**  
+sending → **saatõmus**  
 sequence → **kõrd**  
 serve → **servõmus** · **servā**  
+server → **sirvõr**⁺  
 service → **servõmus**  
 service work → **abītȫ**  
 seven → **seis**  
@@ -788,6 +828,8 @@ short → **kurt**
 shred → **rūbā**  
 sick → **malālt**  
 sickle → **sirpõ**  
+signal → **signõ**⁺  
+signal tower → **tornõ**⁺  
 signboard → **märktaul**  
 silver → **õbē**  
 sing (v.) → **kantā**  
@@ -801,6 +843,7 @@ slow → **lent**
 small → **petīt**  
 small coins → **drobõ**  
 small goods → **krāmõ**  
+small program → **apõ**⁺  
 smooth → **silē**  
 snatch casually (Marīsõ, slav) → **çapkā**  
 snow → **nēu**  
@@ -816,6 +859,8 @@ south → **sud**
 sow (v.) → **külvā**  
 sowing → **külvõmus**  
 speak (v.) → **parlā**  
+speak back and forth → **kõnā**  
+speaker (audio device) → **kūlin**  
 spice → **maitū**  
 spouse → **kaimõ**  
 stable → **lāvõ**  
@@ -831,6 +876,7 @@ stitch-line → **sīlõ**
 stone → **kivī**  
 stop (v.) → **püsā** · **püsām**  
 stopping place → **püsām**  
+store digitally → **salvā**⁺  
 storm → **tormõ**  
 story → **kontē**  
 stranger → **võrõ**  
@@ -902,12 +948,14 @@ tool → **rīst**
 tooth → **dent**  
 topic → **pǟlū**  
 tournament → **tornē**⁺  
+tower → **tornõ**⁺  
 track → **rājõ**  
 trade (v.) → **handlõ**  
 trade (n.) → **handõl**  
 train → **harjā** · **tēno**  
 trainer → **koçõr**⁺  
 training session → **harjõmus**  
+transmission → **saatõmus**  
 trash → **roiskõ**  
 travel (v.) → **reisā**  
 travel by vehicle → **sõidā**  
@@ -928,6 +976,7 @@ underside → **alū**
 understand (v.) → **komprē**  
 understanding → **selgū**  
 upkeep → **hoolõmus**  
+upload → **laadõmus**⁺ · **laadā**⁺  
 
 ## V
 
@@ -937,8 +986,10 @@ vessel → **potõ**
 victory → **võitõ**  
 village → **kylä**  
 vinegar → **vingõr**⁺  
+virus → **vīrõ**⁺  
 visa → **vīzõ**⁺  
 voice → **vēu**  
+voice-call → **kõnõ**  
 vote → **balçõmus** · **balçā**  
 
 ## W
@@ -1001,6 +1052,7 @@ wound emotionally (v.) → **haavā**
 write (v.) → **kirjā**  
 writer → **kirjāji**  
 writing → **kirjõmus**  
+written notice → **sõnaktõ**  
 written text → **kirjõmus**  
 wrongdoing → **vǟrõ**  
 
