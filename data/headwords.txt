@@ -3,6 +3,8 @@ abīstā
 abītȫ
 adē
 aedô
+aerutā
+aerô
 agā
 ai
 ainô
@@ -148,8 +150,10 @@ harjômus
 harjā
 harvõ
 haudô
+haulā
 havs
 heinô
+heitä
 hell
 hellū
 helē
@@ -293,6 +297,7 @@ kompass
 komprā
 komprē
 kontē
+koorõm
 kor
 korraks
 kos
@@ -353,8 +358,10 @@ kārtô
 kēļ
 kēļkôrd
 kēļôr
+kōju
 kōk
 kōlôr
+kōrjā
 kōrrô
 kōt
 kū
@@ -371,6 +378,7 @@ lammô
 lampô
 laskā
 last
+lastā
 lasõ
 lasõkäi
 lauk
@@ -418,6 +426,7 @@ līkô
 līnô
 līvô
 lōdô
+lōjū
 lōtô
 lōtā
 lōtū
@@ -487,6 +496,8 @@ môtôldā
 mõnü
 müristä
 müristü
+müä
+müük
 mā
 mādā
 māhl
@@ -538,6 +549,7 @@ nõkā
 nõusô
 nõusõ
 nān
+nāsô
 nē
 nēm
 nētô
@@ -574,6 +586,7 @@ orānx
 osôm
 pa
 padā
+pakkü
 paks
 pakā
 palô
@@ -676,6 +689,7 @@ rahutõ
 rahvô
 raksô
 raksā
+rannã
 rask
 ratô
 raud
@@ -705,6 +719,7 @@ rēdām
 rētô
 rīgô
 rīst
+rōkā
 rōs
 rūbā
 rūnô
@@ -740,6 +755,7 @@ sest
 sestrô
 sesôn
 setmān
+setä
 sidômus
 sidā
 signô
@@ -805,6 +821,8 @@ sōdõmus
 sōdā
 sōdāji
 sōla
+sōud
+sōudô
 sōv
 sōvā
 sūr
@@ -853,6 +871,7 @@ tuisk
 tulē
 tumô
 tundô
+turg
 tyhjā
 tytār
 tä
@@ -867,8 +886,11 @@ tôl
 tôsī
 tôsītô
 tôsītū
+tõmbā
 tõusô
 tüdü
+tühjä
+tükä
 tāgô
 tārgô
 tārgôr
@@ -906,6 +928,8 @@ vaikõ
 valdômus
 valdā
 valgô
+valmis
+valmistā
 valvā
 valvāji
 valī
@@ -928,6 +952,7 @@ veel
 vendā
 verī
 vespôr
+vetä
 veç
 veçtorô
 veļ
