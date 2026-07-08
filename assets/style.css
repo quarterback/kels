@@ -1,35 +1,44 @@
 :root {
-  --bg: #f6f1e7;
-  --bg-panel: #fffdf8;
-  --bg-sunk: #efe8da;
-  --ink: #2b2620;
-  --ink-soft: #6a6152;
-  --line: #ddd3bf;
-  --accent: #8a4b2f;
-  --accent-soft: #b9764f;
-  --link: #7a3f22;
-  --mark: #f2e2b8;
-  --code-bg: #f0eadc;
-  --shadow: 0 1px 2px rgba(60, 46, 25, .08), 0 8px 24px rgba(60, 46, 25, .06);
+  /* Mighty Ducks "eggplant" palette — light */
+  --bg: #f3eef2;          /* pale eggplant-grey */
+  --bg-panel: #fffdff;
+  --bg-sunk: #eae2e8;
+  --ink: #241e24;         /* Ducks black */
+  --ink-soft: #6f606a;
+  --line: #dccfd8;
+  --accent: #532a44;      /* eggplant — primary */
+  --accent-soft: #7d476a;
+  --teal: #00685e;        /* Ducks green */
+  --gold: #fcc72c;        /* Ducks gold */
+  --link: #00685e;
+  --mark: #fcc72c;
+  --on-gold: #241e24;     /* text over gold highlight */
+  --code-bg: #ece4ea;
+  --shadow: 0 1px 2px rgba(36, 30, 36, .10), 0 8px 24px rgba(36, 30, 36, .08);
   --mono: ui-monospace, "SF Mono", "JetBrains Mono", "Cascadia Code", Menlo, Consolas, monospace;
-  --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
-  --sans: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  /* Zodiak (display serif) for headings; General Sans for body & UI — Fontshare */
+  --serif: "Zodiak", "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  --sans: "General Sans", system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #1c1a17;
-    --bg-panel: #24211c;
-    --bg-sunk: #2c281f;
-    --ink: #ece4d5;
-    --ink-soft: #a89c86;
-    --line: #3a352c;
-    --accent: #d99a6c;
-    --accent-soft: #c07f52;
-    --link: #e0a878;
-    --mark: #4a3d22;
-    --code-bg: #2a261f;
-    --shadow: 0 1px 2px rgba(0,0,0,.3), 0 8px 24px rgba(0,0,0,.3);
+    /* Mighty Ducks "eggplant" palette — dark */
+    --bg: #191419;
+    --bg-panel: #241e24;    /* Ducks black */
+    --bg-sunk: #2e2630;
+    --ink: #f0e7ee;
+    --ink-soft: #b2a2ad;
+    --line: #3d3340;
+    --accent: #c489ac;      /* eggplant lightened for contrast */
+    --accent-soft: #a06d8c;
+    --teal: #35b3a3;        /* green brightened */
+    --gold: #fcc72c;
+    --link: #35b3a3;
+    --mark: #fcc72c;
+    --on-gold: #241e24;
+    --code-bg: #2b232c;
+    --shadow: 0 1px 2px rgba(0,0,0,.35), 0 8px 24px rgba(0,0,0,.35);
   }
 }
 
@@ -60,7 +69,7 @@ a:hover { color: var(--accent); }
   gap: 14px;
   padding: 10px 18px;
   background: var(--bg-panel);
-  border-bottom: 1px solid var(--line);
+  border-bottom: 2px solid var(--gold);
   box-shadow: var(--shadow);
 }
 .brand { display: flex; align-items: center; gap: 12px; text-decoration: none; color: inherit; }
@@ -147,7 +156,7 @@ a:hover { color: var(--accent); }
 .loading { color: var(--ink-soft); font-style: italic; }
 
 /* Rendered markdown (prose) */
-.prose { font-family: var(--serif); font-size: 18px; }
+.prose { font-family: var(--sans); font-size: 17.5px; }
 .prose h1, .prose h2, .prose h3, .prose h4 { font-family: var(--serif); line-height: 1.25; scroll-margin-top: 80px; }
 .prose h1 { font-size: 2em; margin: .2em 0 .6em; }
 .prose h2 { font-size: 1.5em; margin: 1.6em 0 .5em; padding-bottom: .2em; border-bottom: 1px solid var(--line); }
@@ -159,7 +168,7 @@ a:hover { color: var(--accent); }
 .prose blockquote {
   margin: 1em 0;
   padding: .4em 1.2em;
-  border-left: 3px solid var(--accent-soft);
+  border-left: 3px solid var(--teal);
   background: var(--bg-sunk);
   border-radius: 0 8px 8px 0;
   color: var(--ink);
@@ -238,11 +247,11 @@ table.dict td.hw { font-family: var(--serif); font-size: 18px; font-weight: 600;
 table.dict td.gl { color: var(--ink); }
 table.dict tr:hover td { background: var(--bg-sunk); }
 .dict-empty { color: var(--ink-soft); font-style: italic; padding: 24px 4px; }
-mark { background: var(--mark); color: inherit; border-radius: 3px; padding: 0 1px; }
+mark { background: var(--mark); color: var(--on-gold); border-radius: 3px; padding: 0 1px; }
 
 /* Home / hero */
 .hero { text-align: center; padding: 20px 0 8px; }
-.hero .hero-mark { font-family: var(--serif); font-size: 72px; color: var(--accent); line-height: 1; }
+.hero .hero-mark { font-family: var(--serif); font-size: 72px; color: var(--teal); line-height: 1; }
 .hero h1 { font-family: var(--serif); font-size: 2.5em; margin: .1em 0 .1em; }
 .hero .pron { color: var(--ink-soft); font-size: 17px; }
 .hero .lede { max-width: 620px; margin: 18px auto 6px; font-family: var(--serif); font-size: 19px; }
@@ -262,7 +271,7 @@ mark { background: var(--mark); color: inherit; border-radius: 3px; padding: 0 1
 .card p { margin: 0; font-size: 14.5px; color: var(--ink-soft); }
 .stat-row { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; margin: 22px 0; }
 .stat { background: var(--bg-sunk); border: 1px solid var(--line); border-radius: 12px; padding: 12px 22px; text-align: center; }
-.stat .num { font-family: var(--serif); font-size: 28px; font-weight: 700; color: var(--accent); }
+.stat .num { font-family: var(--serif); font-size: 28px; font-weight: 700; color: var(--teal); }
 .stat .lbl { font-size: 12.5px; color: var(--ink-soft); text-transform: uppercase; letter-spacing: .05em; }
 
 .error { color: var(--accent); background: var(--bg-sunk); border: 1px solid var(--line); border-radius: 10px; padding: 16px 20px; }
