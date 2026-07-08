@@ -1,6 +1,6 @@
 # Nelõ kēļ — English → Nelõxi Reverse Index
 
-*Generated from the coursebook master dictionary (786 headwords). Find your English word, take the Nelõxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
+*Generated from the coursebook master dictionary (789 headwords). Find your English word, take the Nelõxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
 
 
 ## A
@@ -143,7 +143,6 @@ center → **keskū**
 cf. native kāpõs) → **kapustõ**  
 cf. native põlū) → **gribõ**  
 cf. rānd) → **strānd**  
-cf. standard nīrtaul) → **skrinõ**  
 cf. vastõmus) → **vastāmus**  
 chair → **kadīr**  
 change (Marīsõ, slav) → **drobõ**  
@@ -528,6 +527,7 @@ lighthouse → **bākõ**⁺
 line → **līnõ**⁺  
 line of writing → **rindõ**  
 lineage → **sugõ**  
+lit. 'shine-board' (literary synonym for skrinõ) → **nīrtaul**  
 live (v.) → **elā**  
 living → **elõmus**  
 load → **laadõmus**⁺ · **laadā**⁺  
@@ -543,6 +543,7 @@ lunch → **lõunā**
 
 ## M
 
+magic → **taikõ**  
 maintain (v.) → **hoolā**  
 maintenance → **hoolõmus**  
 maintenance worker → **hoolāji**  
@@ -784,8 +785,7 @@ schedule → **tītkõrd**
 school → **eskōl**  
 score (v.) → **punktā**  
 score unit → **punktõ**  
-screen (metroplex → **skrinõ**  
-screen (shine-board) → **nīrtaul**  
+screen → **nīrtaul** · **skrinõ**  
 screen-light → **nīrin**  
 scribe → **kirjāji**  
 script → **kirjõ**  
@@ -913,6 +913,7 @@ tea → **tē**
 teach (v.) → **talçā**  
 teacher → **talçāji**  
 team → **selkõ**  
+television (full calque, "magic-window") → **taikfinest**  
 ten → **kīm**  
 tend animals → **karjā**  
 tender → **hell**  
@@ -922,6 +923,7 @@ test → **kaçõ** · **kaçā**
 thank you → **täno**  
 that → **se**  
 that (introduces a clause) → **et**  
+the box (clipped colloquial) → **taiki**  
 the past → **ennū**  
 there → **sāl**  
 they → **ne**  
@@ -965,6 +967,7 @@ trust (v.) → **usaldā**
 trust (n.) → **usaldõmus**  
 truth → **tõsī**  
 turnip → **nǟr**  
+TV → **taiki**  
 two → **kaks**  
 
 ## U
