@@ -4,6 +4,7 @@ abītȫ
 adē
 aedô
 agā
+ai
 ainô
 ajēr
 ajū
@@ -20,6 +21,8 @@ amtô
 amtôji
 amīk
 amōr
+andõstā
+annõ
 appü
 apô
 aribā
@@ -253,6 +256,7 @@ kastô
 kasvômus
 kasvā
 kat
+katkü
 kaug
 kauplô
 kauplômus
@@ -326,9 +330,12 @@ kôlt
 kônô
 kônā
 kôrd
+kôrdā
+kôstô
 kôust
 kôv
 köis
+küllü
 külvômus
 külvā
 küpsôr
@@ -360,9 +367,11 @@ lammô
 lampô
 laskā
 last
+lasõ
 lauk
 lehmä
 lehtô
+leidā
 leikā
 leinô
 leinā
@@ -418,6 +427,7 @@ madal
 magā
 magūs
 magūsū
+maha
 mai
 maitô
 maitū
@@ -471,6 +481,7 @@ mõnü
 müristä
 müristü
 mā
+mādā
 māhl
 mārjā
 māçôr
@@ -539,6 +550,8 @@ obrī
 obūn
 ohô
 oi
+oih
+olgu
 olūt
 omõt
 omõtõ
@@ -578,6 +591,7 @@ pik
 pikā
 pildô
 piletô
+pillā
 pilv
 pipôr
 pirôg
@@ -636,6 +650,7 @@ pīrô
 pīrôlubômus
 pīrôsegas
 pīrôsitāt
+pōlpardõ
 pōr
 pū
 pūmô
@@ -866,6 +881,7 @@ unīstā
 usaldômus
 usaldā
 vabõ
+vaesõkõ
 vahel
 vai
 vaik
@@ -898,6 +914,7 @@ vespôr
 veç
 veçtorô
 veļ
+viga
 vihān
 viljô
 villô

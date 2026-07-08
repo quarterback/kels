@@ -1,6 +1,6 @@
 # Nelô kēļ — English → Nelôxi Reverse Index
 
-*Generated from the coursebook master dictionary (981 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
+*Generated from the coursebook master dictionary (998 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
 
 
 ## A
@@ -25,8 +25,10 @@ aim → **ārgô**
 all → **kôg**  
 all at once → **korraks**  
 all of it → **kôgõ**  
+all right → **olgu**  
 all the same → **omõt**  
 allow → **laskā**  
+allow me → **lasõ**  
 almost → **pehā**  
 alone → **üksü**  
 alphabet → **rūnôkôrd**  
@@ -42,6 +44,7 @@ annotate → **märkā**
 annotation → **märkômus**  
 announcement → **dīmys**  
 answer → **vastômus** · **vastā**  
+answer back (v.) → **kôstô**  
 anyone → **kekõ**  
 anything → **miskü**  
 anyway → **nixō**  
@@ -133,6 +136,7 @@ border crossing → **grançô**⁺
 border mixture → **pīrôsegas**  
 border permit → **pīrôlubômus**  
 border-city dialect → **marīskēļ**  
+bother (v.) → **mādā**  
 bottom → **alū** · **pôhô**  
 boundary → **pīrô**  
 bread → **pa**  
@@ -141,6 +145,7 @@ breakfast → **omīk**
 bridge → **pont**  
 bright → **nīrô**  
 bright sun → **päikü**  
+broken → **katkü**  
 brothel (obscene) → **putānikōt**  
 brother → **veļ**  
 brown → **praul**⁺  
@@ -185,6 +190,7 @@ catch (v.) → **kaptā**
 catch (of fish) → **sañô**  
 cause → **pôhjô**  
 center → **keskū**  
+certainly → **küllü**  
 cf. native kāpôs) → **kapustô**  
 cf. native nēu) → **snē**  
 cf. native pôlū) → **gribô**  
@@ -326,11 +332,13 @@ dog → **gos**
 door → **port**  
 doubt → **kāldô** · **kāldôldā**  
 dough → **tāgô**  
+down (to the ground) → **maha**  
 download → **laadômus**⁺ · **laadā**⁺  
 draw → **ēgô** · **ēgā**  
 dream → **unī** · **unīstā**  
 drift (v.) → **ajū**  
 drink (v.) → **jōdô**  
+drop (v.) → **pillā**  
 drowsy → **unü**  
 drunkard → **prōmôr**  
 dry → **kuiv**  
@@ -361,6 +369,7 @@ end → **lop** · **lopā**
 endurance → **kannômus**  
 endure (v.) → **kannā**  
 engagement → **kihlô**  
+enough! → **küllü**  
 ensign → **flag**⁺  
 entitlement → **rētô**  
 entry arch (Marīsô, slav) → **bramô**  
@@ -395,6 +404,7 @@ farmer → **nurôr**
 fast → **nobē**  
 fasten → **tappā**  
 father → **pǟr**  
+fault → **viga**  
 fear (v.) → **pelgô**  
 fear (n.) → **pōr**  
 fearsome (late) → **hirmus**  
@@ -419,13 +429,15 @@ fill (v.) → **täidā**
 filled pastry (Marīsô, slav) → **pirôg**  
 filth → **drōk**  
 finally → **lopõks**  
-fine → **fīnô** · **hǟ**  
+find (v.) → **leidā**  
+fine → **fīnô** · **hǟ** · **olgu**  
 finish → **lopā**  
 first → **esmõks**  
 firstly → **esmõks**  
 fish → **kalā** · **kalāstā**  
 fisher → **kalāji**  
 five → **peñç**  
+fix (v.) → **kôrdā**  
 flag → **flag**⁺  
 flash (lightning) (v.) → **välkü**  
 flat (Marīsô, slav) → **mrovô**  
@@ -442,7 +454,7 @@ foot → **pēu**
 for → **eest**  
 forest → **meçā**  
 forget (v.) → **unôstā**  
-forgive (v.) → **pardā**  
+forgive (v.) → **andõstā** · **pardā**  
 forgiveness → **pardômus**  
 form → **vormā**  
 former times → **ennū**  
@@ -476,10 +488,12 @@ generation → **pôlvô**
 gentle → **hell**  
 get (v.) → **sāmā**  
 give (v.) → **donā**  
+give it here → **annõ**  
 give light → **nīrā**  
 gladness → **rôim**  
 glue → **limô** · **limā**  
 go (v.) → **lǟdô**  
+go on → **annõ**  
 goal → **mērkô**  
 goat → **kitsô**  
 gob (vulgar) → **mūlô**  
@@ -591,6 +605,7 @@ in a hushed way → **vaikõ**
 in any case → **nixō**  
 in exchange for (postp.) → **eest**  
 in front of (postp.) → **jeds**  
+in pieces → **katkü**  
 in reply → **vastü**  
 in the middle of (postp.) → **kesk**  
 infernal → **düvlik**  
@@ -604,6 +619,7 @@ iron → **raud**
 island → **sār**  
 isn’t it? (tag question, post-clause) → **ekõ**  
 it → **tä**  
+it’s all right → **pōlpardõ**  
 it’s nothing → **vabõ**  
 
 ## J
@@ -651,6 +667,7 @@ legacy → **pärômus**
 lentil → **lǟtū**  
 lesson → **lēsô**  
 let (v.) → **laskā**  
+let me → **lasõ**  
 letter → **rūnô**  
 let’s go (hortative) → **lǟkõm**  
 library → **livrôkōt**  
@@ -731,6 +748,7 @@ million (12⁶, ~2.99M) → **miljôn**
 miss → **igāldā**  
 miss (someone) (v.) → **kaipā**  
 missing → **kaipômus**  
+mistake → **viga**  
 mix (v.) → **segā**  
 mixed border life → **pīrôsegas**  
 mm (reluctant agreement) → **njah**  
@@ -778,6 +796,7 @@ night → **nīt**
 nine → **deveñç**  
 nineteen → **dünsedm**  
 no (trade) → **nē**  
+no harm (reassurance) → **pōlpardõ**  
 nod (v.) → **nõkā**  
 nonsense (dismissive) → **nalī**  
 north → **pôjā**  
@@ -797,6 +816,7 @@ obligation → **pidômus**
 obscene) → **hūr**  
 of all (superlative frame) → **kôust**  
 of course → **muidū**  
+off → **maha**  
 office → **amtô**  
 office-holder → **amtôji**  
 official → **amtôji**  
@@ -816,14 +836,16 @@ onion → **sipôl**
 only → **ainô**  
 only just → **alõs**  
 onward → **edä**  
-oops → **oi**  
+oops → **oi** · **oih**  
 open (v.) → **obrī**  
 or → **ehk** · **vai** · **või**  
 orange → **orānx**⁺  
 order → **kôrd**  
 orphan → **orvô**  
 otherwise → **muidôn**  
+ouch (pain) → **ai**  
 oven → **āhi**  
+ow! → **ai**  
 
 ## P
 
@@ -833,6 +855,7 @@ pale (of color) → **helē**
 pan → **pannô**  
 pancake → **plinô**  
 paper → **papôr**⁺  
+pardon → **andõstā**  
 parent → **genô**  
 part → **dēl** · **jagô**  
 pass (v.) → **pāsā**  
@@ -879,6 +902,7 @@ point → **punktô**
 police officer → **valvāji**  
 pompous fool → **pomp**  
 poor → **vāj**  
+poor thing (sympathy) → **vaesõkõ**  
 pot → **padā** · **potô**  
 pour (v.) → **kallā**  
 power → **vôim**  
@@ -905,6 +929,7 @@ punishment → **karistô**
 purple → **purpôr**⁺  
 purpose → **ārgô**  
 put (v.) → **asetā** · **panā**  
+put right → **kôrdā**  
 
 ## Q
 
@@ -946,6 +971,7 @@ remain → **jǟmä**
 remember (v.) → **mēldā**  
 repair → **parandômus** · **parandā**  
 reply (v.) → **vastāsaatā**  
+respond → **kôstô**  
 response → **vastômus**  
 responsibility (irregular → **vastāmus**  
 rich → **rik**  
@@ -1070,6 +1096,7 @@ snow → **nēu**
 snow (Scandinavian → **snē**  
 snow (weather verb) (v.) → **snēā**  
 snowstorm → **tuisk**  
+so be it → **olgu**  
 soak (coarse) → **prōmôr**  
 soft → **pehmē**  
 softly → **tasõ**  
@@ -1077,6 +1104,7 @@ some → **mõnü**
 somehow → **kuidagü**  
 someone → **kekõ**  
 something → **miskü**  
+something wrong → **viga**  
 sometimes → **vahel**  
 somewhere → **kusagü**  
 son → **poig**  
@@ -1094,6 +1122,7 @@ speak (v.) → **parlā**
 speak back and forth → **kônā**  
 speaker (audio device) → **kūlin**  
 spice → **maitū**  
+spill → **pillā**  
 spouse → **kaimô**  
 spring (season) → **kevä**  
 stab (v.) → **pikā**  
@@ -1138,6 +1167,7 @@ summer → **suvi**
 sun → **sol**  
 sunshine → **päikü**  
 supper → **ôhtôk**  
+surely → **küllü**  
 surely not → **egü**  
 swear an oath (v.) → **vānā**  
 sweet bread → **kōk**  
@@ -1227,6 +1257,7 @@ tree → **pū**
 tribunal → **rēdām**  
 trick → **trīk** · **trīkā**  
 trickster → **trīkôr**  
+trouble oneself → **mādā**  
 trust (v.) → **usaldā**  
 trust (n.) → **usaldômus**  
 truth → **tôsī**  
@@ -1312,6 +1343,7 @@ when → **kun**
 where → **kus**  
 white → **valgô**  
 who → **ken**  
+whoops → **oih**  
 whore → **putān**  
 whore (archaic/dialectal → **hūr**  
 why → **miks**  
