@@ -11,9 +11,9 @@ for **Nelôxi** (*nelô kēļ*), a constructed language. The founder/Rector rule
 propose, the Rector reviews and merges. **Nothing you submit is canon until merged.**
 Read this whole brief before coining a single word.
 
-Current canon: **v4.1, 849 headwords.** Authoritative source: the repository —
+Current canon: **v5.15, 1091 headwords.** Authoritative source: the repository —
 `coursebook/nelo-kel-coursebook.md` (the language) and `college/kels-kolegi-charter.md`
-(rules + full ruling log §1–§43).
+(rules + full ruling log §1–§77).
 
 ---
 
@@ -62,17 +62,21 @@ Current canon: **v4.1, 849 headwords.** Authoritative source: the repository —
   may have loose/variant spelling; the sound is what's fixed. Do this sparingly and
   only for genuine cultural borrowings.
 
-## STEP 3 — The four quarries (know which you're drawing from)
+## STEP 3 — The quarries (know which you're drawing from)
 
-Mark each late/loan word with its stratum. Nelôxi is a Finnic core under three-way
-contact:
+Mark each late/loan word with its stratum. Nelôxi is a Finnic core under four-way loan
+contact, and each quarry has a home:
 
 - **Finnic core** — native, oldest. Body, kin, land, basic verbs, abstract thought.
-- **Low German** — trade/technical/maritime crust. Marked `(late-stratum)`.
-- **Scandinavian** — colloquial/street. Marked `(late-stratum)`; register: informal.
+- **Low German** — trade, seafaring, the counting-house, the calendar. Marked `(late-stratum)`.
+- **Scandinavian** — colloquial/street/deck. Marked `(late-stratum)`; register: informal.
 - **Slavic** (Polish/Masurian) — the border/metroplex quarry, entered via Marīsô.
   Marked `(Marīsô, slav)`. For market, food, familiar-kin, courtyard, street life.
   Adapt: sz/ż/rz → x, ć → ç, ę/ą → eñ/an, ń → ñ. No new phonemes.
+- **Romance/Catalan** — the register of cultivation (§76): learning, law, documents and the
+  written word (*livrô*, *eskōl*), sentiment, courtesy and praise, refined cuisine, and
+  elevated or formal speech generally. Marked `(late-stratum)`. Give it FIRST LOOK when a
+  domain is learned, legal, refined, culinary-elevated, or affective-formal.
 
 **Register matters:** modern/urban/colloquial domains borrow FREELY — a high loan ratio
 there is correct by design, not a defect (§27, §33). Profanity, tech, and border life

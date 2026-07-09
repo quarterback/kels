@@ -56,6 +56,7 @@ bratkô
 brāk
 brākā
 butīk
+büdjet
 bākô
 bālô
 bōs
@@ -282,6 +283,7 @@ kekõ
 ken
 kesk
 keskū
+kett
 kevä
 kevē
 kihlô
@@ -306,6 +308,7 @@ kodô
 kodā
 kompass
 komprā
+komprāji
 komprē
 kontē
 koorõm
@@ -316,6 +319,7 @@ kotxē
 koçôr
 krašô
 krašā
+krossi
 kruçô
 krāmô
 krāmôr
@@ -361,6 +365,8 @@ külvā
 küpsôr
 küpsā
 küpsām
+küsitlô
+küsitlômus
 kāldô
 kāldôldā
 kāpôs
@@ -387,6 +393,8 @@ lain
 laintū
 lammô
 lampô
+langô
+langôtā
 laskā
 last
 lastā
@@ -428,6 +436,7 @@ läpx
 lôigā
 lông
 lôunā
+lād
 lāvô
 lēgô
 lēsô
@@ -462,6 +471,8 @@ maitūs
 maksômus
 maksā
 malālt
+marginôl
+markôt
 marīskēļ
 Marīsô
 marīsôr
@@ -673,6 +684,7 @@ pôhjôldā
 pôhô
 pôhôlēgô
 pôjā
+pôkrosa
 pôlvô
 pôlū
 pôrsô
@@ -704,6 +716,7 @@ pǟl
 pǟlū
 pǟr
 pǟvô
+rabat
 rahu
 rahuldā
 rahutõ
@@ -718,11 +731,13 @@ ravôji
 ravā
 redē
 reisā
+rekôrd
 rekôt
 rik
 rikā
 rindô
 riul
+rohtô
 rohô
 roiskô
 rôhī
@@ -874,6 +889,7 @@ tappā
 tard
 tark
 tarīs
+taskü
 tasõ
 taul
 taç
@@ -1007,6 +1023,8 @@ välkü
 värskē
 vôidô
 vôim
+vôistlô
+vôistlômus
 vôitô
 vôitā
 vôrk
