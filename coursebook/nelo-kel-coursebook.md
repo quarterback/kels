@@ -47,6 +47,35 @@ Nouns take endings that do the work of English word order and most prepositions.
 | goal | **-lô / -lä** | into, onto, to | *kōtôlô* — into the house |
 | source | **-lt** | from (explicit) | *kōtôlt* — from the house |
 | together | **-k** | with, using | *ilok* — with joy |
+| part | **-t / -tô** | some (of), partial object | *lētet* — some milk |
+
+### The partitive — *some, not all*
+
+The **partitive** (**-t** after a vowel, **-tô/-tä** after a consonant) is the workhorse case
+of Nelôxi. It marks a noun as **partial, unbounded, or indefinite** where the object case
+(**-n**) marks it as **whole, bounded, or completed.** The contrast is constant and meaningful:
+
+- *Mä juô lēten* — "I drink the milk" (all of it; the glass is finished)
+- *Mä juô lētet* — "I drink milk / some milk" (part of it; unbounded)
+- *Mä sȫ panôn* — "I eat the bread" (the whole loaf)
+- *Mä sȫ pan't* — "I eat some bread"
+
+Three places the partitive is **required**:
+
+1. **Partial or uncountable objects:** *votā vetet* "take some water," *anda rāt* "give (some) money."
+2. **After numbers above one, and after quantity words:** *tri kalāt* "three fish," *mult pan't*
+   "much bread," *vehä sōlat* "a little salt." (The counted noun stands in the partitive singular,
+   not the plural — this replaces the older "singular after numeral" rule with its Finnic reason.)
+3. **Under negation — a negated object is always partitive:** *Mä äb juô lētet* "I don't drink
+   milk," *tä äb nǟ kalāt* "he doesn't see (any) fish." A negated object is never in the -n case.
+
+The partitive also marks the object of an **ongoing, incomplete action** (imperfective sense):
+*Mä lugē livrôt* "I am reading a book / reading at a book" vs *Mä lugē livrôn* "I read the book
+(through)." This is how Nelôxi expresses aspect without a separate aspect marker — the case on
+the object carries it.
+
+Forms: vowel-final root + **-t** (*lēte* → *lētet*, *kalā* → *kalāt*); consonant-final root +
+linking vowel + **-tô/-tä** (*pan* → *pant*, *sōl* → *sōlat*, harmonizing).
 
 Plural: **-d** — *kōtôd* "houses," *livrôd* "books." Case endings follow the plural: *kōtôdôl* "in the houses."
 
