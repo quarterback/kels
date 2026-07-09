@@ -36,6 +36,8 @@ Adjectives come before their nouns: *sūr kōt* "a big house."
 
 ## The five cases
 
+Adjectives are **invariant** — no case or plural ending ever attaches to an attributive adjective; only the noun inflects: *vana livrôd* "old books," *vana kōtôl* "in the old house."
+
 Nouns take endings that do the work of English word order and most prepositions. Where an ending needs a helping vowel (after a final consonant), it is **-ô-** after the vowels *a o u ô* and **-e-** after *ä ö y e i*.
 
 | Case | Ending | Meaning | Example |

@@ -15,6 +15,8 @@ Reading order for a full onboarding:
 - **06 — Noun Declension** — the full case table; how any noun runs through every case
 - **07 — Pronouns** — personal, possessive, demonstrative, interrogative, relative, indefinite
 - **08 — Relations** — spatial & temporal: which cases do the job, the full postposition inventory, known gaps
+- **09 — Tense & Aspect** — how to say when: the complete time system (no future/perfect by design)
+- **10 — Adjectives** — the invariance rule (only the noun inflects)
 
 Planned / forthcoming modules:
 - **05 — Contact History** — the historical story of who brought which words (Hanseatic Low

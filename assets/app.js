@@ -40,7 +40,9 @@
     gr_comp:     { title: "Compounding",       sub: "Module 04",                    file: "grammar/04-compounding.md",        group: "Grammar", toc: true },
     gr_decl:     { title: "Noun declension",   sub: "Module 06 — full case table",  file: "grammar/06-declension.md",         group: "Grammar", toc: true },
     gr_pron:     { title: "Pronouns",          sub: "Module 07 — full paradigm",    file: "grammar/07-pronouns.md",           group: "Grammar", toc: true },
-    gr_rel:      { title: "Relations",         sub: "Module 08 — space & time",     file: "grammar/08-relations.md",          group: "Grammar", toc: true }
+    gr_rel:      { title: "Relations",         sub: "Module 08 — space & time",     file: "grammar/08-relations.md",          group: "Grammar", toc: true },
+    gr_tense:    { title: "Tense & aspect",    sub: "Module 09 — saying when",      file: "grammar/09-tense-aspect.md",       group: "Grammar", toc: true },
+    gr_adj:      { title: "Adjectives",        sub: "Module 10 — invariance",       file: "grammar/10-adjectives.md",         group: "Grammar", toc: true }
   };
 
   var GROUP_ORDER = ["Learn", "Grammar", "Reference", "Reader", "World", "Dialects", "College", "Briefs"];
