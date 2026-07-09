@@ -23,7 +23,7 @@ spelling kept as a scar · **(archaic-x)** ceremonial [ks] · **(hybrid)** loan 
 
 - **Rīka** — Riga. *(nativized)* Capital; old Baltic *rija* "threshing-loop," Finnic *-k-*. Takes no suffix.
 - **Marīsô** — Grodno. *(native)* *marī-* "border/march" + *-sô* "river-bend"; the Border-Bend, the Slavic contact city (the name is native though the city is the frontier).
-- **Sārõ** — Saaremaa. *(native)* "island-land."
+- **Sārô** — Saaremaa. *(native)* "island-land."
 - **Hiumō** — Hiiumaa. *(native)* sister island, *-mō* "land."
 
 ## The Baltic-German inland (the wealth belt — deliberately NON-Finnic)
@@ -40,7 +40,7 @@ the land.
 
 ## The Prussian anchor (Low German graft — names keep German scars)
 
-- **Kunislinnõ** / **Kunixa** — Kaliningrad/Königsberg. *(hybrid / archaic-x)* Everyday *Kunislinnõ* (*kunis-* "king's" + *linnõ* "fortress"); ceremonial *Kunixa* (x=[ks], *ku-NIK-sa*).
+- **Kunislinnô** / **Kunixa** — Kaliningrad/Königsberg. *(hybrid / archaic-x)* Everyday *Kunislinnô* (*kunis-* "king's" + *linnõ* "fortress"); ceremonial *Kunixa* (x=[ks], *ku-NIK-sa*).
 - **Pillô** — Baltiysk/Pillau. *(nativized)* the naval deepwater port.
 - **Rauschenbôrk** — Svetlogorsk. *(raw loan)* German *Rauschenburg*, keeps *sch*; terminal *-bôrk* from *-burg*. Sea-baths, amber, coastal towers.
 - **Fischūsô** — Primorsk. *(raw loan)* Low German *Fischhausen* "fish-houses"; **keeps German *f* and *sch* as fossils** (corrected only *û→ū*, *õ→ô*). Lagoon fishing & boatbuilding.
@@ -67,7 +67,7 @@ the land.
 
 - **Vīpôri** — Vyborg/Viipuri. *(nativized)* Norse *Viborg* "holy castle," harmonized to *ô*.
 - **Petrôsô** — Petrozavodsk. *(hybrid)* Slavic *Petro-* + native *-sô*; lake-capital on Onega.
-- **Sôrtõ** — Sortavala. *(nativized)* Karelian, clipped and harmonized.
+- **Sôrtô** — Sortavala. *(nativized)* Karelian, clipped and harmonized.
 - **Korbitô** — Belomorsk. *(native)* eastern *korpi* "swamp-pine forest" + settlement *-itô*; the White Sea frontier town, most conservative dialect.
 - **Järvemō** — Olonets. *(native)* *järve* "lake" + *-mō* "land": the Lake Country between Ladoga and Onega; fishing cooperatives.
 - **Koskenbōrk** — Kondopoga. *(hybrid)* native *koski* "rapids" + the imported mainland *-bôrk* — the state's administrative reach stamped onto native territory; lock-and-mill town on Onega.
@@ -83,6 +83,6 @@ Old Prussian and Slavic fossils. Do not coin Finnic names for inland Latvia/Lith
 reads as Greater Estonia and inverts the country's design. The dozenal merchant culture is a
 coastal elite's system imposed on a polyglot inland backyard; the map should show that.
 
-Layer map: TRADING PORTS → Nelôxi/Low German (Rīka, Māmeli, Kunislinnõ, Vīsbô) · INLAND WEALTH →
+Layer map: TRADING PORTS → Nelôxi/Low German (Rīka, Māmeli, Kunislinnô, Vīsbô) · INLAND WEALTH →
 raw Baltic-German (Mitau, Venden, Dūnabôrk) · LAND FRONTIER → Slavic/Polish (Marīsô, Līda,
 Keidani) · NORTHERN RESERVE → conservative Finnic (Vīpôri, Korbitô, Järvemō).
