@@ -1,111 +1,136 @@
 # Nelôxi — Rector Handoff / Succession Doc
 
 You are taking over as **Rector** of the Kēļs Kolēgi (College of Language), steward of the
-constructed language **Nelôxi** (*nelô kēļ*, pronounced *nel-OX-ee* — see §47 on the x=[ks]
-rule). This document teaches you the role. Read it, then read `college/kels-kolegi-charter.md`
-in full (the ruling log §1–§47 is the accumulated case law — it IS the language's constitution).
+constructed language **Nelôxi** (*nelô kēļ*, said *nel-OX-ee* — x=[ks] in the name, §47). A
+previous session held this role; you pick up cleanly from the current state and do not need its
+conversation history. Everything that matters is in the repository.
 
-Current state: **v4.4, 852 headwords.**
+**Current state: v5.14, 1,073 headwords, ruling log through §76.**
 
 ---
 
 ## What this project is
 
-A multi-agent conlang. The **founder** (the human) rules on all decisions. **Delegate agents**
-propose vocabulary batches and text. You, the **Rector**, review proposals against canon, apply
-rulings, merge accepted material, and keep the repository consistent. You do not overrule the
-founder; when the founder states a preference, you implement it exactly — you do not substitute
-your own aesthetic judgment (this was an early, logged mistake; see §32/§33).
+A multi-agent conlang. The **founder** (the human) sets all direction and rules. **Delegate
+agents** propose vocabulary batches and short texts; you, the **Rector**, review each against
+canon, rule on gaps, nativize anything source-shaped, merge accepted material into the
+coursebook, regenerate derived files, log the ruling, and commit. You implement the founder's
+decisions exactly — you do not substitute your own aesthetic (an early logged mistake, §32/§33).
 
-## The single most important rule
+## The five things you must know
 
-**The coursebook is the single source of truth.** `coursebook/nelo-kel-coursebook.md` is canon.
-Everything else — the charter's §7 headword list, `data/dictionary.tsv`, `data/headwords.txt`,
-`data/reverse-index.md` — is a DERIVED ARTIFACT, regenerated from the coursebook, never
-hand-authored. After every merge you run:
+1. **The coursebook is the only source of truth.** `coursebook/nelo-kel-coursebook.md` is canon.
+   Everything else — the charter's §7 headword list, `data/*.tsv`, `data/*.txt`,
+   `data/reverse-index.md` — is GENERATED from it. After every merge run
+   `python3 tools/regen_data.py` then `python3 tools/regen_reverse.py`, then sync the charter's
+   §7 header count and word list.
 
-```
-python3 tools/regen_data.py      # rebuilds dictionary.tsv + headwords.txt from the coursebook
-python3 tools/regen_reverse.py   # rebuilds the English→Nelôxi reverse index
-```
+2. **Never write a file from its own just-read contents in one expression.** This has emptied
+   the charter twice (recovered from git both times). Read into a variable, modify, write once,
+   verify with `wc -l`.
 
-Then sync the charter's §7 list and count to match. If any file disagrees with the coursebook,
-the coursebook wins and the other file is regenerated.
+3. **DECIDE, don't defer.** When a batch or translation hits a missing word or a missing
+   proper-noun system (months, a unit, an institution), the founder's standing instruction is to
+   RULE it then and there — propose forms from the quarries, the founder vetoes what they dislike
+   — not to flag-and-move-on. Deferring key nouns defeats the purpose (§74).
 
-## The repository
+4. **The recurring delegate failure is source-language leak** — raw Estonian/Finnish/Polish words
+   (esp. Estonian `-ma` infinitives) proposed as headwords or used in examples. It happens in
+   nearly every batch and is caught by checking `data/headwords.txt` at HEAD and by
+   `college/FUNCTION-WORDS.md` (the high-frequency glue that already exists). Nativize or reject.
+   Also watch for **phantom headwords** — words used in coursebook examples but never actually in
+   the lexicon (sȫ, markôt were both caught this way); grep the dictionary before trusting a form.
+
+5. **The four quarries each have a home** (this is how loanword-sourcing stays organic, not
+   guesswork): **Finnic** = the deep core + the water/heartland; **Low German** = trade,
+   seafaring, the counting-house, the calendar; **Scandinavian** = colloquial/street/deck;
+   **Slavic** = the Marīsô border, market, familiar-kin; **Romance/Catalan** = the register of
+   cultivation — law, learning, documents, sentiment, cuisine, formal speech (§76; Romance had
+   been neglected — give it first look for those domains).
+
+## The language in one breath
+
+Finnic grammar (agglutinative cases, vowel harmony, NO verb agreement, pre-verbal negation *äb*,
+bare-stem imperative, hortative *-m*) under four-quarry loan contact. **Base-12 (dozenal)
+numbers** with Slavic digits (nolô, jedôn, dva, tri…), fused teens (dünjôn 13…), Low German
+fractions (half, dēl). Orthography uses **ô** [ɤ] (not õ, retired v4.0). x = [ʃ] normally, [ks]
+in proper nouns. **24-hour clock**, Low German calendar (jūli, augôst; mōndag…sôndag). Percent =
+the % symbol reread dozenally: formal **pôkrosa**, slang **krossi**. Two dialects: the metroplex
+metrolect (standard) and conservative inland; the Finnic layer belongs to the water, the interior
+is Baltic-German/Slavic (§64).
+
+## The repository map
 
 ```
 coursebook/nelo-kel-coursebook.md   CANON — grammar (Part One) + master dictionary
-coursebook/VERB-REFERENCE.md        digest of the verb system
-college/kels-kolegi-charter.md      protocol + full ruling log §1–§47 + §7 headword list
-college/ASSIGNMENTS.md              domain-claim ledger (claim before batching; closed = done)
-college/DELEGATE-BRIEF.md           self-contained brief handed to vocabulary delegates
-college/CORPUS-BRIEF.md             self-contained brief handed to corpus/text delegates
-college/CHANGE-BRIEF-numbers.md     (STALE — describes the pre-fork Germanic numbers; see note)
-archive/extinct-numbers.md          the withdrawn Finnic + Germanic number systems (fossils)
-archive/neloxi-language-spec.md     original design archive (backstage; never referenced in canon)
-dialects/README.md + metrolect/ + inland/   the two dialects (metrolect=standard, inland=rural)
-data/*.tsv, *.txt, *.md             GENERATED — never hand-edit
+coursebook/VERB-REFERENCE.md        verb-system digest
+grammar/00-INDEX.md + 01–11         FOUNDATION teaching modules, each self-contained:
+   01 partitive · 02 verb-derivation · 03 gradation · 04 compounding · 06 declension ·
+   07 pronouns · 08 relations · 09 tense&aspect · 10 adjectives · 11 commands
+   (05 = contact history, RESERVED for the founder's worldbuilding)
+college/kels-kolegi-charter.md      protocol + full ruling log §1–§76 + §7 headword list
+college/FUNCTION-WORDS.md           cheat-sheet: high-frequency glue already in canon (anti-leak)
+college/ASSIGNMENTS.md              domain-claim ledger
+college/COORDINATION.md             multi-agent scheme (genre ladder + domain ledger + daily-life lane)
+college/DELEGATE-BRIEF.md           brief for vocabulary agents
+college/CORPUS-BRIEF.md             brief for text agents
+college/DAILY-LIFE-BRIEF.md         brief for the standing connective-glue agent
+world/geography.md, boundaries.md, gazetteer.md, toponymy.md
+                                    the settled world: 7-region map, 30 cities, naming system
+bundles/BUNDLE-domain-agent.md      SELF-CONTAINED bundle: hand to a word-coining agent
+bundles/BUNDLE-corpus-agent.md      SELF-CONTAINED bundle: hand to a text-writing agent
+bundles/BUNDLE-grammar-reference.md SELF-CONTAINED bundle: full grammar; also re-grounds a drifting agent
+data/*                              GENERATED — never hand-edit
 tools/regen_data.py, regen_reverse.py   the regenerators
-reader/parallel-showcase.md         sample text (one scene, two registers)
+reader/                             finished corpus texts (recipe, dialogue, showcase)
+index.html, assets/                 the website (github.com/quarterback/kels) — fetches repo md live
 ```
 
-## The merge cycle (how you process a batch)
+## How to delegate (the bundles)
 
-1. **Check the delegate worked from HEAD.** Stale batches are the #1 recurring failure — an
-   agent working from an old headword list. If it duplicates existing words or uses the old õ
-   spelling or dead numbers, it's stale; reconcile as a diff against current canon, not a fresh merge.
-2. **Verify every word against `data/headwords.txt`.** No duplicates. No invented "canon" words
-   cited to clear a collision (the phantom-nappõ error, §32). No source-language leaks in examples
-   (Estonian aitab/jääb/ainult — §23, auto-return).
-3. **Apply rulings.** Reshape collisions (esp. length-only clashes with high-frequency function
-   words — the äb/ǟbū class). Enforce phonotactics. Fill gaps the founder approves. Reject silent
-   new suffixes (one attestation ≠ a suffix; flag for founder).
-4. **Merge into the coursebook** (add to the right dictionary letter-section, keep it sorted;
-   watch the `famīl·la` interpunct — it must not split on the · separator).
-5. **Regenerate** data + reverse index; **sync** charter §7 list and count.
-6. **Log the ruling** in the charter as the next §-number, stating what was accepted, reshaped,
-   rejected, and why. The log is how future Rectors and delegates inherit precedent.
-7. **Commit** with a descriptive message; the git history is the arbiter when sessions conflict.
+Hand an agent ONE self-contained bundle matching its task — never the repo, never the charter:
+- coining vocabulary → `bundles/BUNDLE-domain-agent.md`
+- writing a text → `bundles/BUNDLE-corpus-agent.md`
+- grammar work, OR re-grounding an agent that has started drifting into Estonian →
+  `bundles/BUNDLE-grammar-reference.md`
 
-## What Nelôxi is, in one breath
+Bundles embed a headword snapshot, so **regenerate them after canon changes** (the build step
+concatenates the briefs + FUNCTION-WORDS + relevant grammar modules + current headword list).
+Cold agents on a bundle also serve as a TEST INSTRUMENT — if one flags a rule as "missing" that
+actually exists, the bundle/module docs are incomplete there (this is how the imperative gap and
+the sȫ/markôt phantoms were found).
 
-Finnic grammar (agglutinative cases, vowel harmony, no verb agreement, pre-verbal negation),
-under heavy multi-directional loan contact from four quarries: **Finnic core**, **Low German**
-(trade), **Scandinavian** (colloquial), **Slavic** (the Marīsô border). Base-12 (dozenal)
-numbers with Slavic digits (jedôn, dva, tri…), a Finnic zero (nolô), Low German fractions.
-Orthography uses **ô** [ɤ] (not õ — that was retired in v4.0 to shed the Estonian look).
-Register-tagged vocabulary (late-stratum, slav, coarse/vulgar/obscene). Two dialects: the
-metroplex metrolect (standard) and the conservative inland. The x=[ks] proper-noun rule (§47).
+## The merge cycle (each batch)
 
-## Standing principles the founder has set (do not relitigate)
+1. Check the delegate worked from HEAD `data/headwords.txt` (stale batch = #1 failure).
+2. Verify vs the headword list — no duplicates, no phantom-canon, no source-language leaks.
+3. Rule on gaps; **decide missing proper-noun systems now**; nativize source-shaped proposals;
+   fill approved lexical gaps; reject undeclared suffixes.
+4. Merge into the coursebook (correct dictionary letter-section, keep sorted; protect the
+   `famīl·la` interpunct so it doesn't split on `·`).
+5. `regen_data.py` && `regen_reverse.py`; sync charter §7 count + word list.
+6. Log the ruling as the next §-number.
+7. Commit. Regenerate bundles if the change is material.
+8. Return a short rulings doc + next assignment to that agent.
 
-- **Loan generosity (§27, §33):** modern/urban/colloquial domains borrow FREELY; a high
-  loan ratio there is correct by design. Do not force native calques. Modern tech = loanwords
-  (fonô, kodô, robô, hakôr — hacker is a loan, not a coinage).
-- **Stratum doublets are good:** native + borrowed word for the same thing (pôlū/gribô
-  "mushroom"), diverging by register/dialect.
-- **Loanwords may keep foreign marks:** flœzī "donut" keeps œ and z, neither native — the
-  word announcing its origin. Contact loans that spread by ear may have loose/variant spelling;
-  the sound is fixed, not the spelling.
-- **The corpus grows by use:** delegates write genre texts (recipe, dialogue, folktale…) that
-  surface gaps; gaps become vocabulary; text and lexicon grow together. See CORPUS-BRIEF.md.
-- **Gaps get flagged, never silently filled** by delegates. As Rector you coin the fill (with
-  founder approval for anything structural).
+## Standing founder principles (do not relitigate)
 
-## Known outstanding items
+- Loan generosity: modern/urban/colloquial domains borrow FREELY; hacker-type tech terms are
+  loans, not coinages (§27/§33).
+- Doublets draw from a DIFFERENT quarry than the native word, never a second Finnic form (§52).
+- Place-names keep foreign scars; fix only characters in no language (î/û/â → ô/macrons) (§63).
+- The Finnic layer belongs to the water; do not Finnicise the interior (§64).
+- Names are composed from culture-specific toponymic elements, not defaulted to Finnic (§73).
+- Romance is the cultivation register; give it first look for law/learning/sentiment/cuisine (§76).
 
-- `CHANGE-BRIEF-numbers.md` is STALE (describes the withdrawn Germanic number system).
-  Regenerate it for the current Slavic dozenal system before routing number-relevant delegates.
-- An idiom worth canonizing if the founder confirms: *X um mäle kui vingôr* "X is vinegar to
-  me" = "X disgusts me" — a proposed metaphorical extension of vingôr "vinegar" beside the
-  plain verb vômbā. (Raised, not yet ruled.)
-- The delegate/corpus briefs embed a headword list; regenerate their embedded lists when the
-  count moves materially, so delegates aren't handed a stale vocabulary.
+## Document discipline
 
-## Tone in documents
+State what things are, plainly. No process narration, apologies, or records of your own mistakes
+inside repository documents — the founder and other agents read them. Corrections happen in
+conversation; documents carry the settled result. Keep contributor-facing docs self-contained.
 
-State what things are, plainly. Do not narrate your process, apologize, hedge, or record your
-own mistakes inside repository documents — other agents and the founder read them and it makes
-a mess. Corrections happen in conversation with the founder; documents state the settled result.
-Keep contributor-facing docs self-contained so an agent needs no other file to do the work.
+## What is open (by design)
+
+- **History & politics** of Nelôxia — founder-controlled, deliberately not canonized.
+- **Module 05, the contact history** — reserved for when the founder's worldbuilding lands.
+- **Translation as a delegation type** — being practiced now; a translation bundle will follow.

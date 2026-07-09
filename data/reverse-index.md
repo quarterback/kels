@@ -1,6 +1,6 @@
 # Nelô kēļ — English → Nelôxi Reverse Index
 
-*Generated from the coursebook master dictionary (1051 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
+*Generated from the coursebook master dictionary (1073 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
 
 
 ## A
@@ -60,6 +60,7 @@ apartment-dweller (Marīsô, slav) → **mrovôr**
 app → **apô**⁺  
 appear → **sīmā**  
 apple → **pomā**  
+April → **aprīl**  
 arena → **arēnô**⁺  
 around (postp.) → **ümbär**  
 arrive (v.) → **aribā**  
@@ -69,6 +70,7 @@ ask (v.) → **kysô**
 ass (vulgar) → **arsô**  
 at last → **lopõks**  
 at once! (interjection → **fluks**  
+August → **augôst**  
 aunt → **tantô**  
 autumn → **sügü**  
 award → **perēm**⁺  
@@ -319,6 +321,7 @@ deal! agreed! (closing a bargain) → **sāli**
 dear → **kallü**  
 dearie (affectionate) → **kullõ**  
 death → **surmô**  
+December → **detsembôr**  
 decide → **rēdā**  
 deck → **dek**⁺  
 deep → **syv**  
@@ -429,6 +432,7 @@ fault → **viga**
 fear (v.) → **pelgô**  
 fear (n.) → **pōr**  
 fearsome (late) → **hirmus**  
+February → **febrôr**  
 fee → **tōl**  
 feed (v.) → **sȫtā**  
 feel (v.) → **tundô**  
@@ -490,6 +494,7 @@ four → **xtiri**
 fourteen → **dünva**  
 fragile → **habrô**  
 fresh (of food) → **värskē**  
+Friday → **frīdag**  
 friend → **amīk**  
 from now on → **nūlt**  
 frost → **pakā**  
@@ -610,7 +615,7 @@ horse → **obūn**
 hospitality → **sōdõmus**  
 host (v.) → **sōdā** · **sōdāji**  
 hot → **kalēnt**  
-hour → **ōra**  
+hour → **klôk** · **ōra**  
 house → **kōt**  
 how → **kui**  
 however → **omõtõ**  
@@ -662,10 +667,13 @@ it’s nothing → **vabõ**
 ## J
 
 jail → **vangô**  
+January → **janôr**  
 joke → **nalī**  
 joy → **ilo**  
 judge (v.) → **rēdā** · **rēdāji**  
 juice → **māhl**  
+July → **jūli**  
+June → **jūni**  
 just → **ainô** · **lihtsalt**  
 just now → **nūlô** · **äsjü**  
 just over there → **sālsāl**  
@@ -759,6 +767,7 @@ malware → **vīrô**⁺
 man → **mēs**  
 manure → **väetô**  
 many → **mult**  
+March → **märç**  
 mark (v.) → **märkā**  
 market square → **turg**  
 market stall (Marīsô, slav) → **tārgô**  
@@ -769,6 +778,7 @@ Marīsô speech → **marīskēļ**
 mast → **mastô**  
 match → **maçô**⁺  
 matte → **tumô**  
+May → **maij**  
 maybe → **äkkü**  
 meal → **sȫk**  
 mean (v.) → **tähendä**  
@@ -797,6 +807,7 @@ mistake → **viga**
 mix (v.) → **segā**  
 mixed border life → **pīrôsegas**  
 mm (reluctant agreement) → **njah**  
+Monday → **mōndag**  
 money → **rā**  
 month → **kū**  
 moon → **kū**  
@@ -836,6 +847,7 @@ network → **vôrkkôrd**
 network system → **vôrkkôrd**  
 never → **mai**  
 never mind → **vabõ**  
+new → **uus**  
 next → **seejärõl** · **tôl**  
 night → **nīt**  
 nine → **deveñç**  
@@ -851,6 +863,7 @@ not sure → **pōlkindõl**
 not until → **alõs**  
 note → **märkômus**  
 nothing → **midagü**  
+November → **novembôr**  
 now → **nū**  
 number → **arvô**  
 
@@ -861,6 +874,7 @@ oar-stroke → **sōud**
 oath → **vānô**  
 obligation → **pidômus**  
 obscene) → **hūr**  
+October → **oktōbôr**  
 of all (superlative frame) → **kôust**  
 of course → **muidū**  
 off → **maha**  
@@ -894,6 +908,7 @@ ouch (pain) → **ai**
 oven → **āhi**  
 over → **üle**  
 ow! → **ai**  
+o’clock (klôk xeç "at six") → **klôk**  
 
 ## P
 
@@ -1068,6 +1083,7 @@ salt → **sōla**
 sandy → **līvô**  
 sanitation → **puhādtȫ**  
 sanitation worker → **puhādôr**  
+Saturday → **sônnavend**  
 saute → **praadi**⁺  
 save (v.) → **salvā**⁺  
 saved file → **salvômus**⁺  
@@ -1100,6 +1116,7 @@ sell (colloq.) (v.) → **müä**
 send (v.) → **saatā**  
 send back → **vastāsaatā**  
 sending → **saatômus**  
+September → **septembôr**  
 sequence → **kôrd**  
 sequence marker: then → **tôl**  
 serve → **servômus** · **servā**  
@@ -1235,6 +1252,7 @@ suffice → **piisā**
 sugar → **sukrô**  
 summer → **suvi**  
 sun → **sol**  
+Sunday → **sôndag**  
 sunshine → **päikü**  
 supper → **ôhtôk**  
 surely → **küllü**  
@@ -1305,6 +1323,7 @@ through (postp.) → **läbi**
 throw (v.) → **viskā**  
 throw out (a net) → **heitä**  
 thunder (v.) → **müristä** · **müristü**  
+Thursday → **donôrdag**  
 ticket → **piletô**⁺  
 tide → **lūdô**  
 tie (v.) → **sidā** · **ēgô** · **ēgā**  
@@ -1341,6 +1360,7 @@ trouble oneself → **mādā**
 trust (v.) → **usaldā**  
 trust (n.) → **usaldômus**  
 truth → **tôsī**  
+Tuesday → **tīsdag**  
 turd → **merd**  
 turn (v.) → **pöördô**  
 turn around → **pöördô**  
@@ -1414,7 +1434,8 @@ weather → **tems**
 weave (v.) → **kudā**  
 wed → **pulmā**  
 wedding → **pulmô**  
-week → **setmān**  
+Wednesday → **midvôk**  
+week → **setmān** · **vekk**  
 welcome → **tervetô**  
 well… (hesitation) → **noh**  
 were → **ūli**  

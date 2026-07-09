@@ -3,7 +3,7 @@
 The settled territorial definition of the State of Nelôxia: each city with coordinates and the
 real-world administrative units absorbed, grouped by region. This is the authoritative map layer;
 the gazetteer (world/gazetteer.md) carries naming layers and etymologies. Founder-ratified.
-Orthography normalized to canon (ô, not õ). x = [ks] in the marked proper nouns (§47).
+Orthography normalized to canon (ô, not ô). x = [ks] in the marked proper nouns (§47).
 
 **Seven regions:** Maritime Core & Finnic Heartland · Prussian Anchor · Vistula Delta & Pomeranian
 Corridor · Baltic Inland Estate Belt · Curonian Land Bridge · Slavic Frontier · Karelian Department.

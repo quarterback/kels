@@ -27,6 +27,7 @@ amōr
 andõstā
 annõ
 appü
+aprīl
 apô
 aribā
 arm
@@ -38,6 +39,7 @@ arvô
 arvôldā
 arēnô
 asetā
+augôst
 avuī
 babkô
 bajômus
@@ -64,7 +66,9 @@ demā
 dent
 deret
 deseñç
+detsembôr
 deveñç
+donôrdag
 donā
 drobô
 drōk
@@ -109,6 +113,7 @@ estēl
 et
 failô
 famīl·la
+febrôr
 felīç
 finest
 flag
@@ -123,6 +128,7 @@ fonā
 fort
 fotô
 fotā
+frīdag
 frūt
 futrā
 futôr
@@ -185,6 +191,7 @@ itkô
 ja
 jaamô
 jagô
+janôr
 jeds
 jedôn
 ju
@@ -204,7 +211,9 @@ jān
 jānô
 jōdô
 jōs
+jūli
 jūn
+jūni
 jūnôr
 jūr
 jūst
@@ -290,6 +299,7 @@ klavôr
 klikômus
 klikā
 klubô
+klôk
 klȫtô
 klȫtôtū
 kodô
@@ -445,6 +455,7 @@ magūs
 magūsū
 maha
 mai
+maij
 maitô
 maitū
 maitūs
@@ -468,6 +479,7 @@ mer
 merd
 meçā
 midagü
+midvôk
 miks
 mikô
 miljôn
@@ -493,6 +505,7 @@ märg
 märktaul
 märkômus
 märkā
+märç
 môtô
 môtôldā
 mõnü
@@ -516,6 +529,7 @@ mēs
 mīrô
 mīstērô
 mōl
+mōndag
 mūlô
 mūrô
 mūrôldā
@@ -539,6 +553,7 @@ noh
 nolô
 noppômus
 noppā
+novembôr
 nugā
 nupô
 nurô
@@ -574,6 +589,7 @@ obūn
 ohô
 oi
 oih
+oktōbôr
 olgu
 olūt
 omõt
@@ -755,6 +771,7 @@ selkô
 sellü
 selēks
 semprē
+septembôr
 servômus
 servā
 sest
@@ -805,6 +822,8 @@ sä
 sôidômus
 sôidā
 sônaktô
+sôndag
+sônnavend
 sônā
 sônālivrô
 sügü
@@ -911,6 +930,7 @@ tēg
 tēno
 tēre
 tēvē
+tīsdag
 tīt
 tītkôrd
 tītū
@@ -928,6 +948,7 @@ unī
 unīstā
 usaldômus
 usaldā
+uus
 vabõ
 vaesõkõ
 vahel
@@ -958,6 +979,7 @@ vastā
 vastāmus
 vastāsaatā
 veel
+vekk
 vendā
 verī
 vespôr
