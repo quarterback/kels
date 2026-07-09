@@ -19,12 +19,24 @@ spelling kept as a scar · **(archaic-x)** ceremonial [ks] · **(hybrid)** loan 
 
 ---
 
-## The Finnic heartland (native core)
+## The Finnic maritime core (the water, the islands, the capital)
 
 - **Rīka** — Riga. *(nativized)* Capital; old Baltic *rija* "threshing-loop," Finnic *-k-*. Takes no suffix.
 - **Marīsô** — Grodno. *(native)* *marī-* "border/march" + *-sô* "river-bend"; the Border-Bend, the Slavic contact city (the name is native though the city is the frontier).
 - **Sārõ** — Saaremaa. *(native)* "island-land."
 - **Hiumō** — Hiiumaa. *(native)* sister island, *-mō* "land."
+
+## The Baltic-German inland (the wealth belt — deliberately NON-Finnic)
+
+The Latvian/Lithuanian interior is estate country: Baltic-German barons, Old Prussian forests,
+Polish-Lithuanian lords. Its names stay foreign — the Finnic layer belongs to the water, not
+the land.
+
+- **Mitau** — Jelgava. *(raw loan)* the Baltic-German seat of the Courland dukes; the grain-collection hub south of Rīka. Never renamed.
+- **Venden** — Cēsis. *(raw loan)* the Baltic-German fortress on the Gauja timber run; hard Germanic spelling kept.
+- **Dūnabôrk / Daugavpils** — Daugavpils. *(hybrid / twin-name)* On state dozenal ledgers, the Hanseatic *Dūnabôrk* (Dünaburg); in local interior speech, Baltic *Daugavpils*. Bureaucracy and street use different names.
+- **Tilsit** — Sovetsk. *(raw loan)* the German river-border town where the Nemunas passes from Slavic interior to Nelôxian coastal jurisdiction.
+- **Goldap** — Gołdap. *(raw loan)* Old Prussian *galda* "lake-basin," left raw; Masurian frontier.
 
 ## The Prussian anchor (Low German graft — names keep German scars)
 
@@ -56,13 +68,21 @@ spelling kept as a scar · **(archaic-x)** ceremonial [ks] · **(hybrid)** loan 
 - **Vīpôri** — Vyborg/Viipuri. *(nativized)* Norse *Viborg* "holy castle," harmonized to *ô*.
 - **Petrôsô** — Petrozavodsk. *(hybrid)* Slavic *Petro-* + native *-sô*; lake-capital on Onega.
 - **Sôrtõ** — Sortavala. *(nativized)* Karelian, clipped and harmonized.
+- **Korbitô** — Belomorsk. *(native)* eastern *korpi* "swamp-pine forest" + settlement *-itô*; the White Sea frontier town, most conservative dialect.
+- **Järvemō** — Olonets. *(native)* *järve* "lake" + *-mō* "land": the Lake Country between Ladoga and Onega; fishing cooperatives.
+- **Koskenbōrk** — Kondopoga. *(hybrid)* native *koski* "rapids" + the imported mainland *-bôrk* — the state's administrative reach stamped onto native territory; lock-and-mill town on Onega.
 
 ---
 
-## Noted gap (for a future native-naming pass)
+## The gravity principle (standing rule for naming agents)
 
-The coast and frontier are richly loan-named (correct — that's where German/Baltic/Slavic bit).
-The **Livonian heartland and the Karelian interior are under-supplied with deep-native
-descriptive names** — the map currently reads more foreign than it should. A future pass should
-add native Finnic names (river-mouths, fortresses, shores, forests named for what they *are*) to
-the Latvian core and inland Karelia, so the whole reads "Finnic heartland, foreign-crusted edges."
+**The Finnic layer belongs to the water.** Native Nelôxi names live on the coast, the islands,
+the ports, and in the Karelian reserve — the sailors' and merchants' world. The INTERIOR that
+feeds the coast is deliberately non-Finnic: Baltic-German estate names, raw German river towns,
+Old Prussian and Slavic fossils. Do not coin Finnic names for inland Latvia/Lithuania — that
+reads as Greater Estonia and inverts the country's design. The dozenal merchant culture is a
+coastal elite's system imposed on a polyglot inland backyard; the map should show that.
+
+Layer map: TRADING PORTS → Nelôxi/Low German (Rīka, Māmeli, Kunislinnõ, Vīsbô) · INLAND WEALTH →
+raw Baltic-German (Mitau, Venden, Dūnabôrk) · LAND FRONTIER → Slavic/Polish (Marīsô, Līda,
+Keidani) · NORTHERN RESERVE → conservative Finnic (Vīpôri, Korbitô, Järvemō).
