@@ -1,6 +1,6 @@
 # Nelô kēļ — English → Nelôxi Reverse Index
 
-*Generated from the coursebook master dictionary (1043 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
+*Generated from the coursebook master dictionary (1047 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
 
 
 ## A
@@ -14,6 +14,7 @@ a moment ago → **äsjü**
 a welcome → **sōdõmus**  
 about → **mumbõ** · **pǟl**  
 ache of absence → **kaipômus**  
+across (postp.) → **üle**  
 act → **aktô**  
 add (an ingredient) (v.) → **lisā**  
 affection → **arm**  
@@ -35,6 +36,7 @@ allow → **laskā**
 allow me → **lasõ**  
 almost → **pehā**  
 alone → **üksü**  
+along (postp.) → **pitkin**  
 alphabet → **rūnôkôrd**  
 already → **jubā**  
 also → **tambē**  
@@ -635,6 +637,7 @@ in exchange for (postp.) → **eest**
 in front of (postp.) → **jeds**  
 in pieces → **katkü**  
 in reply → **vastü**  
+in the direction of (postp.) → **pōl**  
 in the middle of (postp.) → **kesk**  
 infernal → **düvlik**  
 inherit (v.) → **pärā**  
@@ -887,6 +890,7 @@ orphan → **orvô**
 otherwise → **muidôn**  
 ouch (pain) → **ai**  
 oven → **āhi**  
+over → **üle**  
 ow! → **ai**  
 
 ## P
@@ -1292,6 +1296,7 @@ this-here → **sedä**
 thought → **môtô**  
 thread → **lông**  
 three → **tri**  
+through (postp.) → **läbi**  
 throw (v.) → **viskā**  
 throw out (a net) → **heitä**  
 thunder (v.) → **müristä** · **müristü**  
@@ -1311,6 +1316,7 @@ tool → **rīst**
 tooth → **dent**  
 topic → **pǟlū**  
 tournament → **tornē**⁺  
+toward → **pōl**  
 tower → **tornô**⁺  
 track → **rājô**  
 trade (v.) → **handlô**  

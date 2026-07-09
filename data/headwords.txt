@@ -412,6 +412,7 @@ lugē
 lugēmys
 lypsômus
 lypsā
+läbi
 läpx
 lôigā
 lông
@@ -617,6 +618,7 @@ pillā
 pilv
 pipôr
 pirôg
+pitkin
 plat
 plinô
 poig
@@ -672,6 +674,7 @@ pīrô
 pīrôlubômus
 pīrôsegas
 pīrôsitāt
+pōl
 pōlkindõl
 pōlpardõ
 pōr
@@ -1023,6 +1026,7 @@ xumā
 üksü
 üksū
 üksūldā
+üle
 ümbär
 ürd
 āhi

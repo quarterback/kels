@@ -14,6 +14,7 @@ Reading order for a full onboarding:
 - **04 — Compounding** — joining existing roots into new words (head-final)
 - **06 — Noun Declension** — the full case table; how any noun runs through every case
 - **07 — Pronouns** — personal, possessive, demonstrative, interrogative, relative, indefinite
+- **08 — Relations** — spatial & temporal: which cases do the job, the full postposition inventory, known gaps
 
 Planned / forthcoming modules:
 - **05 — Contact History** — the historical story of who brought which words (Hanseatic Low
