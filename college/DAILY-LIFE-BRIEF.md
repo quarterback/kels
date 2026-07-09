@@ -1,5 +1,11 @@
 # Nelôxi — Daily Life & Connective Speech Agent
 
+> **READ `college/CREOLE-PRINCIPLE.md` FIRST.** Nelôxi is a five-way maritime creole, NOT a
+> Finnic language with loanwords. When you hit a gap, ask which quarry (Low German / Slavic /
+> Scandinavian / Romance-Latin / Finnic-core) would own that word and BORROW liberally — do not
+> default to Finnic derivation. Abstract/legal/scholarly words come from Romance. Bias toward the
+> visible loan. This is the most important rule in the project.
+
 > **Before coining any function word, check `college/FUNCTION-WORDS.md`.** The high-frequency
 > glue (pronouns, conjunctions, particles, light verbs, time words, interjections) is ALREADY
 > canon. Never write the Estonian equivalent. If a function word isn't in that sheet or the
@@ -10,7 +16,7 @@ You have one job, and it is different from the other delegates. They coin topic 
 (domains) or write single scenes (genres). **You build the connective tissue of ordinary
 speech — the glue that turns a list of words into fluent prose — and you do it prose-first.**
 
-Canon is **v5.15, 1091 headwords.** Pull the current `data/headwords.txt` before you start.
+Canon is **v5.17, 1092 headwords.** Pull the current `data/headwords.txt` before you start.
 Read `college/DELEGATE-BRIEF.md` for the rules and how the language works; this doc defines
 your specific role on top of that.
 

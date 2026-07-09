@@ -1,13 +1,160 @@
 # Nelôxi — CORPUS AGENT BUNDLE (self-contained)
 
 > Everything you need to write a genre text and harvest gaps. You need no other file.
-> Canon v5.16, 1091 headwords. Read top to bottom, then produce ONE text + gap-list.
+> Canon v5.17, 1092 headwords. Read top to bottom, then produce ONE text + gap-list.
+
+---
+
+## THE CREOLE PRINCIPLE — the standing vocabulary doctrine (read before anything else)
+
+# Nelôxi — The Creole Principle
+*The single most important standing doctrine for vocabulary. Read before coining any word.*
+*Charter §79.*
+
+> Nelôxi began as a **creole** and must stay dirty. This document exists because the language has
+> repeatedly drifted toward a tidy Finnic purebred — the Rector and delegate agents keep defaulting
+> to Finnic-root derivations because Finnic is the grammatical substrate and therefore always the
+> nearest, tidiest reach. That drift is the single most persistent failure in this project. This
+> doctrine is the counter-pressure. It overrides the instinct to Finnicize.
+
+## What Nelôxia is, and why the vocabulary must be messy
+
+Nelôxia is a **polyglot maritime Baltic entrepôt** — a break-of-bulk trading crescent where
+sailors, traders, dockworkers, clerks, monks, and border-merchants from five language communities
+jammed vocabulary together for centuries. A real port culture like this does not produce a clean
+lexicon. It produces a **creole**: whatever word was closest to hand, from whatever language was
+in the room, nativized just enough to fit the phonology, with the grammar as the only thing
+holding it together.
+
+Nelôxi's grammar is **Livonian-Karelian Baltic-Finnic**. Its **vocabulary is not, and must not become, Finnic-only.** The five
+quarries are **co-primary** — none is a mere specialist supplier feeding niche words to a
+Finnic everyday core. Given the territory (all of Latvia, the Prussian anchor, the Vistula-
+Pomeranian corridor, the Lithuanian land bridge, the Slavic frontier, plus Karelia), the
+demographic and economic weight of the state is **overwhelmingly non-Finnic**. Finnic is the
+coastal-maritime thread; the bulk of the land, cities, estates, and trade is Baltic-German,
+Slavic, and Polish-Lithuanian. A language spoken across that territory does NOT have Finnic
+owning the everyday middle with loans in side-niches. The loan quarries do broad, primary,
+everyday work.
+
+- **Baltic-Finnic (Livonian primary, Karelian secondary)** — the deep core: body, kin, land,
+  the sea, the oldest actions, and the grammar. NOT "generic Finnic" and NOT Finnish/Estonian —
+  the substrate is **Livonian** (the coastal primary base the language was seeded from) with
+  **Karelian** adding eastern texture (and its worldbuilding home in the Karelian department).
+  Both are effectively extinct but well-documented, which is why they are good, coherent bases.
+  This is a NARROW core, not a broad default. The other Baltic-Finnic lects (Finnish, Estonian,
+  Veps) MAY be tapped if a gap genuinely needs it, but none has an established place yet — do not
+  reach for them by default.
+- **Low German (Hanseatic)** — a major everyday language of the ports and cities. Not just
+  ledgers and cargo: also ordinary rooms, buildings, food, tools, weather, daily verbs.
+- **Slavic (via Marīsô and the interior)** — a huge share of the interior LIVES in Slavic. Not
+  just the market stall: also everyday domestic, agricultural, emotional, and social vocabulary.
+- **Scandinavian** — the colloquial, the street, the deck; casual register, but spread widely
+  through daily speech, not confined to sailors.
+- **Romance / Catalan-Latin** — the register of cultivation (law, learning, documents, abstract
+  and scholarly vocabulary, sentiment, cuisine, formal speech, §76), spreading wherever
+  institutions and refinement reach — which is broadly.
+
+**The domain→quarry map below shows where each quarry is DENSEST, not the only place it appears.**
+For anything outside the deep Finnic core, treat all five as live options every time, and let the
+loan quarries frequently win even for ORDINARY vocabulary — "window," "roof," "neighbor," "to
+hurry," "corner," "to complain" are not core, and any could well be Low German or Slavic rather
+than Finnic. Distribute broadly. Sidelining the loan quarries into narrow lanes re-creates the
+Finnic-purebred problem by the back door.
+
+## The rule (this is the whole doctrine)
+
+**When a gap opens: grab the source word from whichever quarry owns the domain, sand it just
+enough to fit the phonology and take Nelôxi endings, and commit. That is the DEFAULT reflex, not
+a fallback.**
+
+This is the Finnish move, and it is a virtue to copy: Finnish does not agonize over native
+compounds for borrowed concepts — it takes the foreign word and adds a Finnish ending. *pankki*
+(bank), *posti* (post), *presidentti* (president), *pitsa* (pizza). The word arrives, gets a
+native suffix so it declines, and it is Finnish now. **Why invent a word when taking the meaning
+and adding an ending will do?**
+
+So: *legitimate* → **legitīm** · *structure* → **struktūr** · *system* → **süstēm** · *analysis*
+→ **analüüs** · *organize* → **organisā**. You do NOT build these from Finnic roots. You borrow the
+word and let the grammar swallow it. The only invention is minimal phonological sanding — just
+enough to make it declinable.
+
+Finnic-root derivation and Finnic compounding are the **fallback**, used only when no quarry
+plausibly owns the word. Reach for the visible loan **first and hard**. A high loan ratio is
+**correct by design** — never apologize for it, never "clean it up."
+
+### Domain → quarry (the reach-for map)
+
+| The gap is about… | Reach for… | Example |
+|---|---|---|
+| trade, cargo, tools, ledgers, shipping, industry, bureaucracy | **Low German** | rabat "discount", laadā "load" |
+| market, food, the frontier, homely daily objects | **Slavic** | gribô "mushroom", pirôg "pastry" |
+| rough/casual/colloquial, the deck, the street | **Scandinavian** | snē "snow", sailor-slang |
+| law, learning, documents, the abstract & scholarly, sentiment, cuisine, formal register | **Romance / Latin** | legitīm "legitimate", struktūr "structure" |
+| body, kin, land, sea, oldest actions | **Finnic** (core only) | + all grammar |
+
+### The critical case: abstract, learned, and argumentative vocabulary → ROMANCE
+
+This is where over-Finnicization does the most damage. Abstract and scholarly words —
+"legitimate," "structure," "designation," "identity," "system," "concept," "analysis" — should
+come in through the **Romance/Latin learned register**, worn openly as loans, exactly the way
+English (itself a Germanic-Romance creole) carries a Latin-Romance abstract vocabulary on Germanic
+grammar. In a real Baltic polity, Latin was the language of law, church, and scholarship for
+centuries. So Nelôxi's intellectual register is **Romance-Latin on Finnic grammar** — and that is
+not a compromise, it is the historically honest and creole-correct answer.
+
+Do NOT coin native Finnic compounds for abstract concepts when a Romance loan is available. That
+is the specific move that has been quietly purebreeding the language.
+
+## Why this needs active maintenance
+
+Finnic is the grammar, so it is *always* the path of least resistance. This means the creole does
+not stay a creole on its own — **left on autopilot, the language Finnicizes.** Keeping it dirty
+requires deliberate counter-pressure on every coinage: consciously sending abstract words to
+Romance, trade to Low German, street to Scandinavian, market to Slavic, and *reserving* Finnic
+for the core. The tidy instinct is the enemy. Fight it every time.
+
+## Forward only — do not churn the past
+
+Apply this doctrine to **new** vocabulary only. Do NOT go back and re-source words already
+committed — that wastes motion and destabilizes the corpus other agents build from. The language
+is ~1,000 words into a lexicon that will run to many thousands; the ratio self-corrects quickly
+when every *new* word follows the creole rule. The mass of correctly-sourced new vocabulary soon
+outweighs the early over-Finnicized bits. Fix the generator, not the history.
+
+## The one narrow exception (where judgment is still warranted)
+
+A coinage occasionally **encodes a claim** in its morphology (e.g. building "legitimacy" as a
+native compound "genuine-permission" quietly argues that legitimacy *is* permission). When a
+proposed word bakes in an interpretation the founder might contest, flag it. This is a thin slice.
+Most words carry no such freight and should simply be borrowed/coined by the rule above and
+committed — no approval needed. Rule-governed vocabulary is delegated work, not a judgment call.
+
+## For delegates
+
+This map is *more* delegable than tidy derivation, because "which quarry owns this domain" is a
+clearer instruction than "derive elegantly from existing roots." A word-building agent should be
+told plainly: **translating a legal or scholarly text? borrow from Romance. A dockyard text? Low
+German. A market scene? Slavic. Do not Finnicize the loanwords. Bias toward the visible borrowing.**
+That is how the dirt gets produced at volume, which is how the corpus becomes a real language
+rather than a Finnish relexification.
+
+## One-line version
+
+**Grammar is Livonian-Karelian Baltic-Finnic; vocabulary is a five-way creole. Borrow the word and add an ending — don't
+invent from Finnic roots. When in doubt, borrow harder. Forward only; never let the tidy Finnic
+default quietly purebred the language.**
 
 ---
 
 ## PART A — Your brief (mission, genre ladder, method)
 
 # Nelôxi — Corpus Generation Brief (self-contained)
+
+> **READ `college/CREOLE-PRINCIPLE.md` FIRST.** Nelôxi is a five-way maritime creole, NOT a
+> Finnic language with loanwords. When you hit a gap, ask which quarry (Low German / Slavic /
+> Scandinavian / Romance-Latin / Finnic-core) would own that word and BORROW liberally — do not
+> default to Finnic derivation. Abstract/legal/scholarly words come from Romance. Bias toward the
+> visible loan. This is the most important rule in the project.
 
 > **Before coining any function word, check `college/FUNCTION-WORDS.md`.** The high-frequency
 > glue (pronouns, conjunctions, particles, light verbs, time words, interjections) is ALREADY
@@ -19,7 +166,7 @@ You are a contributor to **Nelôxi** (*nelô kēļ*), a constructed language. Th
 contains everything you need. You do not need any other file, repository, or download.
 Read it fully, then produce ONE text artifact plus a gap-list, as described below.
 
-Nelôxi is at version 5.15, 1091 headwords. The founder rules; you contribute. Nothing you
+Nelôxi is at version 5.17, 1092 headwords. The founder rules; you contribute. Nothing you
 write is canon until the founder accepts it.
 
 ---
@@ -153,12 +300,12 @@ The founder reviews, decides which gaps to fill, and folds the text into the gro
 
 ---
 
-## SECTION 6 — THE ATTESTED HEADWORD LIST (1091 words; use only these)
+## SECTION 6 — THE ATTESTED HEADWORD LIST (1092 words; use only these)
 
 Every word available to you is below. If a word is not here, it does not exist yet — flag
 it as a gap. (The list is the plain dictionary form; inflect it with the endings above.)
 
-abī · abīstā · abītȫ · adē · aedô · aerutā · aerô · agā · ai · ainô · ajēr · ajū · aktô · akôr · al · alatü · alk · alkā · alt · alõs · alū · ammū · amtô · amtôji · amīk · amōr · andõstā · annõ · appü · aprīl · apô · aribā · arm · armôldā · armõ · arst · arsô · arvô · arvôldā · arēnô · asetā · augôst · avuī · babkô · bajômus · bajā · balkô · balçômus · balçā · bebē · bel · blokô · bokā · bramô · bratkô · brāk · brākā · butīk · büdjet · bākô · bālô · bōs · bōt · būsô · dek · demā · dent · deret · deseñç · detsembôr · deveñç · donôrdag · donā · drobô · drōk · dva · dvôrô · düna · dündesç · dündevç · dünelva · dünjôn · dünosm · dünpeñç · dünsedm · düntri · dünva · dünxeç · dünxtir · düvlik · düvēl · dātô · dēdkô · dēl · dī · dīmys · edä · eest · egü · ehitômus · ehitā · ehk · ekõ · elva · elômus · elā · enne · ennū · ernē · eskerrē · eskōl · esmõks · estēl · et · failô · famīl·la · febrôr · felīç · finest · flag · fluks · flōp · flœzī · flūk · flūkā · fonô · fonômus · fonā · fort · fotô · fotā · frīdag · frūt · futrā · futôr · fān · fāndô · fīnô · genô · glup · glupôr · gos · grançô · gribô · grosô · grīs · haavômus · haavā · habrô · hakôr · half · hamôr · handlô · handlôji · handôl · harjômus · harjā · harvõ · haudô · haulā · hautā · havs · heinô · heitä · hell · hellū · helē · hennô · hetk · hirmus · hoolômus · hoolā · hoolāji · hoopõs · häbedā · häbū · hūr · hǟ · idā · idē · iglū · igävē · igāldā · ikkü · ilma · ilo · inim · issõ · istā · isü · itkô · ja · jaamô · jagô · janôr · jeds · jedôn · ju · jubā · juht · juhtü · jällü · järsk · jättômus · jättā · jättām · jôg · jôu · jôvā · jā · jān · jānô · jōdô · jōs · jūli · jūn · jūni · jūnôr · jūr · jūst · jǟ · jǟdô · jǟmä · jǟrv · ka · kabēl · kadô · kadē · kadēldā · kadīr · kafē · kahetsômus · kahetsā · kahjū · kaimô · kaipômus · kaipā · kallü · kallā · kaltô · kaltā · kalā · kalāji · kalāstā · kalēnt · kambôr · kamērô · kamī · kannômus · kannā · kantā · kançāt · kançō · kanā · kanēl · kaotômus · kaotā · kap · kaptā · kapustô · karistô · karistā · karjô · karjā · karmô · karn · karrē · karrēlampô · karī · karīk · kastô · kasvômus · kasvā · kat · katkü · kaug · kauplô · kauplômus · kaçô · kaçā · keetā · kekõ · ken · kesk · keskū · kett · kevä · kevē · kihlô · kihlā · kirg · kirgôldā · kirjô · kirjômus · kirjā · kirjāji · kirīk · kitsô · kivī · klavôr · klikômus · klikā · klubô · klôk · klȫtô · klȫtôtū · kodô · kodā · kompass · komprā · komprāji · komprē · kontē · koorõm · kor · korraks · kos · kotxē · koçôr · krašô · krašā · krossi · kruçô · krāmô · krāmôr · krōm · krūçôfiks · krūçā · kudā · kui · kuidagü · kuinā · kuiv · kukô · kuld · kullõ · kun · kuni · kurt · kus · kusagü · kutsu · kutsô · kuulõ · kylm · kylä · kysô · kysômus · kôg · kôgõ · kôgõl · kôlt · kônô · kônā · kôrd · kôrdā · kôstô · kôust · kôv · köis · külalü · küllü · külvômus · külvā · küpsôr · küpsā · küpsām · küsitlô · küsitlômus · kāldô · kāldôldā · kāpôs · kārgô · kārtô · kēļ · kēļkôrd · kēļôr · kōju · kōk · kōlôr · kōrjā · kōrrô · kōt · kū · kūlin · kūlô · kǟs · kǟvô · laadômus · laadā · laht · lain · laintū · lammô · lampô · langô · langôtā · laskā · last · lastā · lasõ · lasõkäi · lauk · lehmä · lehtô · leidā · leikā · leinô · leinā · lent · lepômus · lepā · leskô · lihtsalt · liig · lil · limô · limā · lisā · lit · livrô · livrôkōt · lohū · lohūldā · lop · lopõks · lopā · lubômus · lubā · lugē · lugēmys · lypsômus · lypsā · läbi · läpx · lôigā · lông · lôunā · lād · lāvô · lēgô · lēsô · lēsām · lēt · lībā · līkô · līnô · līvô · lōdô · lōjū · lōtô · lōtā · lōtū · lūdô · lǟdô · lǟkô · lǟkõm · lǟmi · lǟn · lǟtū · madal · magā · magūs · magūsū · maha · mai · maij · maitô · maitū · maitūs · maksômus · maksā · malālt · marginôl · markôt · marīskēļ · Marīsô · marīsôr · marīt · mastô · matrūs · matī · maçô · mediçīn · medāl · melī · menjā · mentīd · mer · merd · meçā · midagü · midvôk · miks · mikô · miljôn · minõm · mis · miskü · mrovô · mrovôr · muidôn · muidõks · muidū · mult · mumbõ · muntāñ · muretõ · murk · must · mustveç · mustveçkôrd · muutô · mä · märg · märktaul · märkômus · märkā · märç · môtô · môtôldā · mõnü · müristä · müristü · müä · müük · mā · mādā · māhl · mārjā · māçôr · mēdôr · mēdā · mēg · mēl · mēldā · mēlā · mērkô · mēs · mīrô · mīstērô · mōl · mōndag · mūlô · mūrô · mūrôldā · mǟr · mǟtômus · mǟtā · nabôr · nagu · nahkô · naisô · nalī · naurô · naurā · ne · niimôdõ · nim · nixō · njah · nobē · noh · nolô · noppômus · noppā · novembôr · nugā · nupô · nurô · nurôr · nôglô · nôrk · nôuk · nôukôr · nõkā · nõusô · nõusõ · nān · nāsô · nē · nēm · nētô · nēu · nīrin · nīrtaul · nīrô · nīrā · nīt · nū · nūlt · nūlô · nūnū · nǟgô · nǟlg · nǟlgô · nǟr · obrī · obūn · ohô · oi · oih · oktōbôr · olgu · olūt · omõt · omõtõ · omīk · onkô · ootkôrd · ootômus · ootā · orvô · orānx · osôm · pa · padā · pakkü · paks · pakā · palô · pannô · panā · papôr · parandômus · parandā · pardô · pardômus · pardā · parlā · pehmē · pehā · pelgô · perēm · petīt · peñç · pidômus · pidā · pigõm · piisā · pik · pikā · pildô · piletô · pillā · pilv · pipôr · pirôg · pitkin · plat · plinô · poig · pomp · pomā · pont · port · potô · praadi · praadā · praul · prop · prēu · prōm · prōmôr · prōmām · puhād · puhādtȫ · puhādôr · puhādā · pulmô · pulmā · punktô · punktā · purjē · purpôr · putān · putānikōt · päikü · päriji · pärômus · pärā · pôhjô · pôhjôldā · pôhô · pôhôlēgô · pôjā · pôkrosa · pôlvô · pôlū · pôrsô · pöördô · püstü · püsā · püsām · pārkô · pāsportô · pāsā · pēlô · pēlā · pēlāji · pēlām · pēu · pīrô · pīrôlubômus · pīrôsegas · pīrôsitāt · pōl · pōlkindõl · pōlpardõ · pōr · pū · pūmô · pūn · pūst · pǟl · pǟlū · pǟr · pǟvô · rabat · rahu · rahuldā · rahutõ · rahvô · raksô · raksā · rannã · rask · ratô · raud · ravôji · ravā · redē · reisā · rekôrd · rekôt · rik · rikā · rindô · riul · rohtô · rohô · roiskô · rôhī · rôim · rôimā · röstā · rā · rādjo · rājô · rānd · rāndôr · rēdā · rēdāji · rēdām · rētô · rīgô · rīst · rōkā · rōs · rūbā · rūnô · rūnôkôrd · rǟkõ · rǟkõmus · saatômus · saatā · sadā · sagõ · salvômus · salvā · samā · samū · satām · savī · sañô · se · sedä · sedôm · seejärõl · segas · segā · seilā · selgô · selgū · selkô · sellü · selēks · semprē · septembôr · servômus · servā · sest · sestrô · sesôn · setmān · setä · sidômus · sidā · signô · sigô · silm · silē · sinī · sipôl · sirpô · sirvôr · sisü · sisār · sitānik · sitāt · skrinô · skīt · skītôr · skītā · smetôn · snē · snēā · sojā · sol · strānd · sud · sugô · sugôläpx · sugôr · sukrô · sulatā · sulô · sulā · sup · surmô · surā · suvi · syndômus · syndā · syv · sä · sôidômus · sôidā · sônaktô · sôndag · sônnavend · sônā · sônālivrô · sügü · sülü · sāl · sāli · sālsāl · sāmā · sān · sār · sāvô · sāvā · sīgel · sīlô · sīlā · sīmā · sīn · sīnsīn · sōbā · sōdõmus · sōdā · sōdāji · sōla · sōud · sōudô · sōv · sōvā · sūr · sȫ · sȫk · sȫtô · sȫtā · tahtô · tahtôldā · taikfinest · taiki · taikô · taivô · tallô · talv · talçā · talçāji · tambē · tankā · tantô · tappô · tappā · tard · tark · tarīs · taskü · tasõ · taul · taç · teinütõ · tems · tervetô · tervü · tervütä · tillô · tintô · tirist · tormô · tornô · tornē · torô · tri · trīk · trīkôr · trīkā · tugev · tuisk · tulē · tumô · tundô · tuo · turg · tyhjā · tytār · tä · tähendä · täidā · täno · tänāldā · tänū · täpsô · täpsõlt · tôl · tôsī · tôsītô · tôsītū · tõmbā · tõusô · tüdü · tühjä · tükä · tāgô · tārgô · tārgôr · tā́ga · tē · tēdô · tēdômus · tēg · tēno · tēre · tēvē · tīsdag · tīt · tītkôrd · tītū · tōl · tūļ · tǟs · tȫ · tȫdô · tȫkambôr · udū · um · unôstā · unü · unī · unīstā · usaldômus · usaldā · uus · vabõ · vaesõkõ · vahel · vai · vaik · vaikõ · valdômus · valdā · valgô · valmis · valmistā · valvā · valvāji · valī · valīstā · valū · vana · vanamǟr · vanapǟr · vangô · vanôr · varsü · varā · vasikô · vastômus · vastü · vastā · vastāmus · vastāsaatā · veel · vekk · vendā · verī · vespôr · vetä · veç · veçtorô · veļ · viga · vihān · viljô · villô · vim · vimõ · vingôr · viskā · vist · volē · vool · vormā · votā · väetô · väetā · välk · välkü · värskē · vôidô · vôim · vôistlô · vôistlômus · vôitô · vôitā · vôrk · vôrkkôrd · vôrô · vôtī · vôī · või · vāj · vānô · vānā · vēu · vī · vīrô · vīsū · vīzô · vǟrpēlô · vǟrpēlā · vǟrô · xapkô · xeç · xip · xolkô · xtiri · xumô · xumā · äb · äkkü · ärkā · äsjü · çapkā · çenô · ôblā · ôbē · ôhtôk · ôigus · ôli · ônnô · ôpôkambôr · ôpômus · ôpā · ôpāji · üksü · üksū · üksūldā · üle · ümbär · ürd · āhi · ārgô · ārmastô · ārô · ārā · āst · ēgô · ēgā · īvô · ōra · ōu · ūli · ūpeldā · ūpū · ūsk · ūskô
+abī · abīstā · abītȫ · adē · aedô · aerutā · aerô · agā · ai · ainô · ajēr · ajū · aktô · akôr · al · alatü · alk · alkā · alt · alõs · alū · ammū · amtô · amtôji · amīk · amōr · andõstā · annõ · appü · aprīl · apô · aribā · arm · armôldā · armõ · arst · arsô · arvô · arvôldā · arēnô · asetā · augôst · avuī · babkô · bajômus · bajā · balkô · balçômus · balçā · bebē · bel · blokô · bokā · bramô · bratkô · brāk · brākā · butīk · büdjet · bākô · bālô · bōs · bōt · būsô · dek · demā · dent · deret · deseñç · detsembôr · deveñç · donôrdag · donā · drobô · drōk · dva · dvôrô · düna · dündesç · dündevç · dünelva · dünjôn · dünosm · dünpeñç · dünsedm · düntri · dünva · dünxeç · dünxtir · düvlik · düvēl · dātô · dēdkô · dēl · dī · dīmys · edä · eest · egü · ehitômus · ehitā · ehk · ekõ · elva · elômus · elā · enne · ennū · ernē · eskerrē · eskōl · esmõks · estēl · et · failô · famīl·la · febrôr · felīç · finest · flag · fluks · flōp · flœzī · flūk · flūkā · fonô · fonômus · fonā · fort · fotô · fotā · frīdag · frūt · futrā · futôr · fān · fāndô · fīnô · fȫrô · genô · glup · glupôr · gos · grançô · gribô · grosô · grīs · haavômus · haavā · habrô · hakôr · half · hamôr · handlô · handlôji · handôl · harjômus · harjā · harvõ · haudô · haulā · hautā · havs · heinô · heitä · hell · hellū · helē · hennô · hetk · hirmus · hoolômus · hoolā · hoolāji · hoopõs · häbedā · häbū · hūr · hǟ · idā · idē · iglū · igävē · igāldā · ikkü · ilma · ilo · inim · issõ · istā · isü · itkô · ja · jaamô · jagô · janôr · jeds · jedôn · ju · jubā · juht · juhtü · jällü · järsk · jättômus · jättā · jättām · jôg · jôu · jôvā · jā · jān · jānô · jōdô · jōs · jūli · jūn · jūni · jūnôr · jūr · jūst · jǟ · jǟdô · jǟmä · jǟrv · ka · kabēl · kadô · kadē · kadēldā · kadīr · kafē · kahetsômus · kahetsā · kahjū · kaimô · kaipômus · kaipā · kallü · kallā · kaltô · kaltā · kalā · kalāji · kalāstā · kalēnt · kambôr · kamērô · kamī · kannômus · kannā · kantā · kançāt · kançō · kanā · kanēl · kaotômus · kaotā · kap · kaptā · kapustô · karistô · karistā · karjô · karjā · karmô · karn · karrē · karrēlampô · karī · karīk · kastô · kasvômus · kasvā · kat · katkü · kaug · kauplô · kauplômus · kaçô · kaçā · keetā · kekõ · ken · kesk · keskū · kett · kevä · kevē · kihlô · kihlā · kirg · kirgôldā · kirjô · kirjômus · kirjā · kirjāji · kirīk · kitsô · kivī · klavôr · klikômus · klikā · klubô · klôk · klȫtô · klȫtôtū · kodô · kodā · kompass · komprā · komprāji · komprē · kontē · koorõm · kor · korraks · kos · kotxē · koçôr · krašô · krašā · krossi · kruçô · krāmô · krāmôr · krōm · krūçôfiks · krūçā · kudā · kui · kuidagü · kuinā · kuiv · kukô · kuld · kullõ · kun · kuni · kurt · kus · kusagü · kutsu · kutsô · kuulõ · kylm · kylä · kysô · kysômus · kôg · kôgõ · kôgõl · kôlt · kônô · kônā · kôrd · kôrdā · kôstô · kôust · kôv · köis · külalü · küllü · külvômus · külvā · küpsôr · küpsā · küpsām · küsitlô · küsitlômus · kāldô · kāldôldā · kāpôs · kārgô · kārtô · kēļ · kēļkôrd · kēļôr · kōju · kōk · kōlôr · kōrjā · kōrrô · kōt · kū · kūlin · kūlô · kǟs · kǟvô · laadômus · laadā · laht · lain · laintū · lammô · lampô · langô · langôtā · laskā · last · lastā · lasõ · lasõkäi · lauk · lehmä · lehtô · leidā · leikā · leinô · leinā · lent · lepômus · lepā · leskô · lihtsalt · liig · lil · limô · limā · lisā · lit · livrô · livrôkōt · lohū · lohūldā · lop · lopõks · lopā · lubômus · lubā · lugē · lugēmys · lypsômus · lypsā · läbi · läpx · lôigā · lông · lôunā · lād · lāvô · lēgô · lēsô · lēsām · lēt · lībā · līkô · līnô · līvô · lōdô · lōjū · lōtô · lōtā · lōtū · lūdô · lǟdô · lǟkô · lǟkõm · lǟmi · lǟn · lǟtū · madal · magā · magūs · magūsū · maha · mai · maij · maitô · maitū · maitūs · maksômus · maksā · malālt · marginôl · markôt · marīskēļ · Marīsô · marīsôr · marīt · mastô · matrūs · matī · maçô · mediçīn · medāl · melī · menjā · mentīd · mer · merd · meçā · midagü · midvôk · miks · mikô · miljôn · minõm · mis · miskü · mrovô · mrovôr · muidôn · muidõks · muidū · mult · mumbõ · muntāñ · muretõ · murk · must · mustveç · mustveçkôrd · muutô · mä · märg · märktaul · märkômus · märkā · märç · môtô · môtôldā · mõnü · müristä · müristü · müä · müük · mā · mādā · māhl · mārjā · māçôr · mēdôr · mēdā · mēg · mēl · mēldā · mēlā · mērkô · mēs · mīrô · mīstērô · mōl · mōndag · mūlô · mūrô · mūrôldā · mǟr · mǟtômus · mǟtā · nabôr · nagu · nahkô · naisô · nalī · naurô · naurā · ne · niimôdõ · nim · nixō · njah · nobē · noh · nolô · noppômus · noppā · novembôr · nugā · nupô · nurô · nurôr · nôglô · nôrk · nôuk · nôukôr · nõkā · nõusô · nõusõ · nān · nāsô · nē · nēm · nētô · nēu · nīrin · nīrtaul · nīrô · nīrā · nīt · nū · nūlt · nūlô · nūnū · nǟgô · nǟlg · nǟlgô · nǟr · obrī · obūn · ohô · oi · oih · oktōbôr · olgu · olūt · omõt · omõtõ · omīk · onkô · ootkôrd · ootômus · ootā · orvô · orānx · osôm · pa · padā · pakkü · paks · pakā · palô · pannô · panā · papôr · parandômus · parandā · pardô · pardômus · pardā · parlā · pehmē · pehā · pelgô · perēm · petīt · peñç · pidômus · pidā · pigõm · piisā · pik · pikā · pildô · piletô · pillā · pilv · pipôr · pirôg · pitkin · plat · plinô · poig · pomp · pomā · pont · port · potô · praadi · praadā · praul · prop · prēu · prōm · prōmôr · prōmām · puhād · puhādtȫ · puhādôr · puhādā · pulmô · pulmā · punktô · punktā · purjē · purpôr · putān · putānikōt · päikü · päriji · pärômus · pärā · pôhjô · pôhjôldā · pôhô · pôhôlēgô · pôjā · pôkrosa · pôlvô · pôlū · pôrsô · pöördô · püstü · püsā · püsām · pārkô · pāsportô · pāsā · pēlô · pēlā · pēlāji · pēlām · pēu · pīrô · pīrôlubômus · pīrôsegas · pīrôsitāt · pōl · pōlkindõl · pōlpardõ · pōr · pū · pūmô · pūn · pūst · pǟl · pǟlū · pǟr · pǟvô · rabat · rahu · rahuldā · rahutõ · rahvô · raksô · raksā · rannã · rask · ratô · raud · ravôji · ravā · redē · reisā · rekôrd · rekôt · rik · rikā · rindô · riul · rohtô · rohô · roiskô · rôhī · rôim · rôimā · röstā · rā · rādjo · rājô · rānd · rāndôr · rēdā · rēdāji · rēdām · rētô · rīgô · rīst · rōkā · rōs · rūbā · rūnô · rūnôkôrd · rǟkõ · rǟkõmus · saatômus · saatā · sadā · sagõ · salvômus · salvā · samā · samū · satām · savī · sañô · se · sedä · sedôm · seejärõl · segas · segā · seilā · selgô · selgū · selkô · sellü · selēks · semprē · septembôr · servômus · servā · sest · sestrô · sesôn · setmān · setä · sidômus · sidā · signô · sigô · silm · silē · sinī · sipôl · sirpô · sirvôr · sisü · sisār · sitānik · sitāt · skrinô · skīt · skītôr · skītā · smetôn · snē · snēā · sojā · sol · strānd · sud · sugô · sugôläpx · sugôr · sukrô · sulatā · sulô · sulā · sup · surmô · surā · suvi · syndômus · syndā · syv · sä · sôidômus · sôidā · sônaktô · sôndag · sônnavend · sônā · sônālivrô · sügü · sülü · sāl · sāli · sālsāl · sāmā · sān · sār · sāvô · sāvā · sīgel · sīlô · sīlā · sīmā · sīn · sīnsīn · sōbā · sōdõmus · sōdā · sōdāji · sōla · sōud · sōudô · sōv · sōvā · sūr · sȫ · sȫk · sȫtô · sȫtā · tahtô · tahtôldā · taikfinest · taiki · taikô · taivô · tallô · talv · talçā · talçāji · tambē · tankā · tantô · tappô · tappā · tard · tark · tarīs · taskü · tasõ · taul · taç · teinütõ · tems · tervetô · tervü · tervütä · tillô · tintô · tirist · tormô · tornô · tornē · torô · tri · trīk · trīkôr · trīkā · tugev · tuisk · tulē · tumô · tundô · tuo · turg · tyhjā · tytār · tä · tähendä · täidā · täno · tänāldā · tänū · täpsô · täpsõlt · tôl · tôsī · tôsītô · tôsītū · tõmbā · tõusô · tüdü · tühjä · tükä · tāgô · tārgô · tārgôr · tā́ga · tē · tēdô · tēdômus · tēg · tēno · tēre · tēvē · tīsdag · tīt · tītkôrd · tītū · tōl · tūļ · tǟs · tȫ · tȫdô · tȫkambôr · udū · um · unôstā · unü · unī · unīstā · usaldômus · usaldā · uus · vabõ · vaesõkõ · vahel · vai · vaik · vaikõ · valdômus · valdā · valgô · valmis · valmistā · valvā · valvāji · valī · valīstā · valū · vana · vanamǟr · vanapǟr · vangô · vanôr · varsü · varā · vasikô · vastômus · vastü · vastā · vastāmus · vastāsaatā · veel · vekk · vendā · verī · vespôr · vetä · veç · veçtorô · veļ · viga · vihān · viljô · villô · vim · vimõ · vingôr · viskā · vist · volē · vool · vormā · votā · väetô · väetā · välk · välkü · värskē · vôidô · vôim · vôistlô · vôistlômus · vôitô · vôitā · vôrk · vôrkkôrd · vôrô · vôtī · vôī · või · vāj · vānô · vānā · vēu · vī · vīrô · vīsū · vīzô · vǟrpēlô · vǟrpēlā · vǟrô · xapkô · xeç · xip · xolkô · xtiri · xumô · xumā · äb · äkkü · ärkā · äsjü · çapkā · çenô · ôblā · ôbē · ôhtôk · ôigus · ôli · ônnô · ôpôkambôr · ôpômus · ôpā · ôpāji · üksü · üksū · üksūldā · üle · ümbär · ürd · āhi · ārgô · ārmastô · ārô · ārā · āst · ēgô · ēgā · īvô · ōra · ōu · ūli · ūpeldā · ūpū · ūsk · ūskô
 
 ---
 
@@ -170,7 +317,7 @@ These high-frequency words ALREADY EXIST. Do not coin them, and never write the 
 equivalent (nüüd, juba, aga, siis, ka, saama, panema…). Use these exact forms. If you need a
 function word not listed here, it is a real gap — flag it; do not borrow from Estonian/Finnish.
 
-Canon v5.15. Full list in data/headwords.txt.
+Canon v5.17. Full list in data/headwords.txt.
 
 ## Pronouns & determiners
 - **mä** — I
@@ -557,11 +704,11 @@ reach for another language's pronoun — every form is derivable from the base p
 
 ## PART F — Adjectives (invariance rule)
 
-# Nelôxi Grammar — Adjectives (The Invariance Rule)
-*Foundation module 10 · charter §70*
+# Nelôxi Grammar — Adjectives (Invariance and Eventive Use)
+*Foundation module 10 · charter §70, §78*
 
 > **Read this even if you have never seen Nelôxi before.** It teaches how adjectives behave —
-> the shortest module, because the rule is one sentence. You need no other file.
+> first the invariance rule, then the eventive pattern. You need no other file.
 
 ## Background you need first
 
@@ -598,16 +745,20 @@ the adjective does not inflect.
 - *Tä donā kylm vastômusôn* — "She gives a cold answer / answers coldly."
 - *Tä küpsā nobē kōkôn* — "She bakes a quick cake / bakes the cake quickly."
 
-The object's case still does its ordinary aspect work. Object **-n** marks the action as bounded or
-completed; partitive **-t / -tô** marks it as partial, ongoing, or unbounded:
+The object's case still does its ordinary aspect work — the eventive adjective does not replace
+it. Object **-n** marks the action as bounded or completed; partitive **-t / -tô** marks it as
+partial, ongoing, or unbounded:
 
 - *Tä küpsā nobē kōkôn* — "She quickly bakes the cake" (bounded/completed).
 - *Tä küpsā nobē kōkôt* — "She is quickly baking cake / baking at the cake" (ongoing/unbounded).
+- *Tä votā nobē fȫrôn* — "He takes the lead quickly" (bounded: the lead is taken).
+- *Tä votā nobē fȫrôt* — "He is quickly moving into the lead" (ongoing/unbounded).
 
 The construction is normal grammar, not slang. It is also not fully free: an eventive reading is
-strongest with adjectives whose meanings naturally apply to actions or events. Ordinary
-descriptive adjectives keep their ordinary noun meaning unless context makes an eventive reading
-natural.
+conventional rather than freely productive, and strongest with adjectives whose meanings
+naturally apply to actions or events — quick, sudden, cold, sharp, quiet, careful, rough, and
+similar manner-like qualities. Ordinary descriptive adjectives keep their ordinary noun meaning
+unless context makes an eventive reading natural.
 
 - *Tä lugē vana livrôn* — "She reads an old book," not "she reads oldly."
 - *Tä küpsā bel kōkôn* — "She bakes a beautiful cake," not usually "she bakes beautifully."

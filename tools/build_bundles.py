@@ -110,6 +110,8 @@ domain = assemble([
     bundle_top("DOMAIN AGENT BUNDLE",
                "Everything you need to coin vocabulary for one domain. You need no other file.",
                "Read top to bottom, then produce ONE domain batch."),
+    part("THE CREOLE PRINCIPLE — the standing vocabulary doctrine (read before anything else)",
+         read("college/CREOLE-PRINCIPLE.md")),
     part("PART A — Your brief", read("college/DELEGATE-BRIEF.md")),
     part("PART B — Function words that ALREADY EXIST (never re-propose, never write the Estonian)",
          read("college/FUNCTION-WORDS.md")),
@@ -127,6 +129,8 @@ corpus = assemble([
     bundle_top("CORPUS AGENT BUNDLE",
                "Everything you need to write a genre text and harvest gaps. You need no other file.",
                "Read top to bottom, then produce ONE text + gap-list."),
+    part("THE CREOLE PRINCIPLE — the standing vocabulary doctrine (read before anything else)",
+         read("college/CREOLE-PRINCIPLE.md")),
     part("PART A — Your brief (mission, genre ladder, method)", read("college/CORPUS-BRIEF.md")),
     part("PART B — Function words that ALREADY EXIST (never re-propose, never write the Estonian)",
          read("college/FUNCTION-WORDS.md")),
@@ -153,6 +157,7 @@ GRAMMAR_MODULES = [
     "grammar/09-tense-aspect.md",
     "grammar/10-adjectives.md",
     "grammar/11-commands.md",
+    "grammar/12-numbers.md",
 ]
 grammar = assemble([
     bundle_top("COMPLETE GRAMMAR REFERENCE",

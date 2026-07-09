@@ -18,6 +18,7 @@ Reading order for a full onboarding:
 - **09 — Tense & Aspect** — how to say when: the complete time system (no future/perfect by design)
 - **10 — Adjectives** — invariance plus eventive adjectives
 - **11 — Commands & Suggestions** — the imperative (bare stem) and hortative (-m)
+- **12 — Numbers** — dozenal digits, fused teens, counted nouns, fractions, clock time, and percent
 
 Planned / forthcoming modules:
 - **05 — Contact History** — the historical story of who brought which words (Hanseatic Low

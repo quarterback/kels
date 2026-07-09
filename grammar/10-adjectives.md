@@ -39,16 +39,20 @@ the adjective does not inflect.
 - *Tä donā kylm vastômusôn* — "She gives a cold answer / answers coldly."
 - *Tä küpsā nobē kōkôn* — "She bakes a quick cake / bakes the cake quickly."
 
-The object's case still does its ordinary aspect work. Object **-n** marks the action as bounded or
-completed; partitive **-t / -tô** marks it as partial, ongoing, or unbounded:
+The object's case still does its ordinary aspect work — the eventive adjective does not replace
+it. Object **-n** marks the action as bounded or completed; partitive **-t / -tô** marks it as
+partial, ongoing, or unbounded:
 
 - *Tä küpsā nobē kōkôn* — "She quickly bakes the cake" (bounded/completed).
 - *Tä küpsā nobē kōkôt* — "She is quickly baking cake / baking at the cake" (ongoing/unbounded).
+- *Tä votā nobē fȫrôn* — "He takes the lead quickly" (bounded: the lead is taken).
+- *Tä votā nobē fȫrôt* — "He is quickly moving into the lead" (ongoing/unbounded).
 
 The construction is normal grammar, not slang. It is also not fully free: an eventive reading is
-strongest with adjectives whose meanings naturally apply to actions or events. Ordinary
-descriptive adjectives keep their ordinary noun meaning unless context makes an eventive reading
-natural.
+conventional rather than freely productive, and strongest with adjectives whose meanings
+naturally apply to actions or events — quick, sudden, cold, sharp, quiet, careful, rough, and
+similar manner-like qualities. Ordinary descriptive adjectives keep their ordinary noun meaning
+unless context makes an eventive reading natural.
 
 - *Tä lugē vana livrôn* — "She reads an old book," not "she reads oldly."
 - *Tä küpsā bel kōkôn* — "She bakes a beautiful cake," not usually "she bakes beautifully."
