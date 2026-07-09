@@ -657,3 +657,11 @@ Documentation note: all foundation modules are now written as FROM-SCRATCH teach
 Formalized compounding, which delegates were already doing intuitively but inconsistently (livrôkōt, temslivrô, sesônkôrd). Rule: compounds are **head-final** (last element = core, earlier elements modify); modifier in bare stem; linking vowel -ô-/-e- only if needed; initial stress; **only the head inflects** (livrôkōtôl, not on the modifier); gradation still applies to a double-stop head. Makes vocabulary self-generating from existing roots — build before borrow. Standalone teaching doc: grammar/04-compounding.md.
 
 Foundation stack now: partitive (§59), verb-derivation (§60), gradation (§61), compounding (§62). Remaining: contact history (module 05) — reserved; the founder is developing that worldbuilding separately and will fold it in. v5.9.
+
+## 63. WORLDBUILDING: geography + place-name principle (reserved layer)
+
+Settled the geographic footprint (world/geography.md) and a master gazetteer (world/gazetteer.md): Nelôxia = Kaliningrad + part of Lithuania + all Latvia + Baltic islands + Karelia as a non-contiguous overseas department. Maritime trading crescent; the break-of-bulk river-to-port economy is the in-world reason base-12 saturated the culture, and the three loan strata map to three physical contacts (Low German ports, Slavic Marīsô river-bottleneck, Scandinavian northern sea-runs).
+
+**Place-name orthography principle (new standing rule):** Nelôxi place-names MAY break standard orthography when the name carries foreign history — a German-named town keeps its *f, sch, z*; the map shows its seams, as real maps do. This is deliberate. The ONLY corrections allowed are characters that exist in neither the source language nor Nelôxi (î, û, â → fix to ô / macrons). Foreign letters are fossils and stay; invented diacritics are errors and go. Names tagged by layer: native / nativized / raw-loan / archaic-x / hybrid. The x=[ks] proper-noun rule (§47) supplies ceremonial forms (Kunixa, Vilkôvixi, Volkovixi).
+
+History/politics remain founder-controlled and are NOT canonized here. Noted gap: the Livonian heartland and Karelian interior need more deep-native descriptive names in a future pass (map currently reads more foreign than it should). No lexical change to the language. 1,041 headwords.
