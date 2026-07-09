@@ -5,7 +5,7 @@ constructed language **Nelôxi** (*nelô kēļ*, said *nel-OX-ee* — x=[ks] in 
 previous session held this role; you pick up cleanly from the current state and do not need its
 conversation history. Everything that matters is in the repository.
 
-**Current state: v5.17, 1,092 headwords, ruling log through §81.**
+**Current state: v5.17, 1,092 headwords, ruling log through §82.**
 
 ---
 
@@ -71,6 +71,7 @@ grammar/00-INDEX.md + 01–11         FOUNDATION teaching modules, each self-con
    (05 = contact history, RESERVED for the founder's worldbuilding)
 college/kels-kolegi-charter.md      protocol + full ruling log §1–§76 + §7 headword list
 college/FUNCTION-WORDS.md           cheat-sheet: high-frequency glue already in canon (anti-leak)
+college/CREOLE-PRINCIPLE.md         THE standing vocabulary doctrine (§79): borrow first, five co-primary quarries
 college/ASSIGNMENTS.md              domain-claim ledger
 college/COORDINATION.md             multi-agent scheme (genre ladder + domain ledger + daily-life lane)
 college/DELEGATE-BRIEF.md           brief for vocabulary agents

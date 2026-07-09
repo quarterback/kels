@@ -1,5 +1,11 @@
 # Nelôxi — Delegate Brief (Kēļs Kolēgi contributor protocol)
 
+> **READ `college/CREOLE-PRINCIPLE.md` FIRST.** Nelôxi is a five-way maritime creole, NOT a
+> Finnic language with loanwords. When you hit a gap, ask which quarry (Low German / Slavic /
+> Scandinavian / Romance-Latin / Finnic-core) would own that word and BORROW liberally — do not
+> default to Finnic derivation. Abstract/legal/scholarly words come from Romance. Bias toward the
+> visible loan. This is the most important rule in the project.
+
 > **Before coining any function word, check `college/FUNCTION-WORDS.md`.** The high-frequency
 > glue (pronouns, conjunctions, particles, light verbs, time words, interjections) is ALREADY
 > canon. Never write the Estonian equivalent. If a function word isn't in that sheet or the
@@ -13,7 +19,7 @@ Read this whole brief before coining a single word.
 
 Current canon: **v5.17, 1092 headwords.** Authoritative source: the repository —
 `coursebook/nelo-kel-coursebook.md` (the language) and `college/kels-kolegi-charter.md`
-(rules + full ruling log §1–§81).
+(rules + full ruling log §1–§82).
 
 ---
 

@@ -1,5 +1,5 @@
 # Nelôxi Grammar — Numbers (Dozenal Counting, Clock Time, and Percent)
-*Foundation module 12 · charter §37, §74–§75, §77, §79*
+*Foundation module 12 · charter §37, §74–§75, §77, §80*
 
 > **Read this even if you have never seen Nelôxi before.** It teaches the whole number system
 > from scratch — counting, ordinals, fractions, the clock, and percent. You need no other file.
