@@ -64,6 +64,20 @@ culture's parts.
 | **-itsô** | diminutive settlement | (Volkovitsô-type) |
 | **-pôl / -pôlõ** | field, open-land settlement | (Belpôlõ "white-field") |
 
+## Romance / Latin elements (the church, the charter, the school)
+
+The learned layer — monastery foundations, chartered institutions, scholarly towns. Sparse on
+the map (a handful of places, not a region), which is exactly right: these are point-foundations,
+not a settlement wave.
+
+| Element | Meaning | Example |
+|---|---|---|
+| **sant- / sent-** | saint's foundation | (Santamīk "Saint-Friend," a monastery town) |
+| **-vīla** | villa, chartered estate | (Novavīla "new-charter-estate") |
+| **mônt-** | mount, hill-foundation | (Môntlivrô "book-mount," a scholar-town) |
+| **-kolēgi** | college, learned foundation | (the Kēļs Kolēgi itself) |
+| **pôrta-** | gate, port-of-entry (formal) | (Pôrtamār "sea-gate," ceremonial name) |
+
 ## Baltic (Latvian / Lithuanian) elements (the mainland substrate)
 
 | Element | Meaning | Example |

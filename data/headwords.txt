@@ -27,6 +27,7 @@ amōr
 andõstā
 annõ
 appü
+aprīl
 apô
 aribā
 arm
@@ -38,6 +39,7 @@ arvô
 arvôldā
 arēnô
 asetā
+augôst
 avuī
 babkô
 bajômus
@@ -54,6 +56,7 @@ bratkô
 brāk
 brākā
 butīk
+büdjet
 bākô
 bālô
 bōs
@@ -64,7 +67,9 @@ demā
 dent
 deret
 deseñç
+detsembôr
 deveñç
+donôrdag
 donā
 drobô
 drōk
@@ -109,6 +114,7 @@ estēl
 et
 failô
 famīl·la
+febrôr
 felīç
 finest
 flag
@@ -123,6 +129,7 @@ fonā
 fort
 fotô
 fotā
+frīdag
 frūt
 futrā
 futôr
@@ -185,6 +192,7 @@ itkô
 ja
 jaamô
 jagô
+janôr
 jeds
 jedôn
 ju
@@ -204,7 +212,9 @@ jān
 jānô
 jōdô
 jōs
+jūli
 jūn
+jūni
 jūnôr
 jūr
 jūst
@@ -273,6 +283,7 @@ kekõ
 ken
 kesk
 keskū
+kett
 kevä
 kevē
 kihlô
@@ -290,12 +301,14 @@ klavôr
 klikômus
 klikā
 klubô
+klôk
 klȫtô
 klȫtôtū
 kodô
 kodā
 kompass
 komprā
+komprāji
 komprē
 kontē
 koorõm
@@ -306,6 +319,7 @@ kotxē
 koçôr
 krašô
 krašā
+krossi
 kruçô
 krāmô
 krāmôr
@@ -351,6 +365,8 @@ külvā
 küpsôr
 küpsā
 küpsām
+küsitlô
+küsitlômus
 kāldô
 kāldôldā
 kāpôs
@@ -377,6 +393,8 @@ lain
 laintū
 lammô
 lampô
+langô
+langôtā
 laskā
 last
 lastā
@@ -418,6 +436,7 @@ läpx
 lôigā
 lông
 lôunā
+lād
 lāvô
 lēgô
 lēsô
@@ -445,12 +464,15 @@ magūs
 magūsū
 maha
 mai
+maij
 maitô
 maitū
 maitūs
 maksômus
 maksā
 malālt
+marginôl
+markôt
 marīskēļ
 Marīsô
 marīsôr
@@ -468,6 +490,7 @@ mer
 merd
 meçā
 midagü
+midvôk
 miks
 mikô
 miljôn
@@ -493,6 +516,7 @@ märg
 märktaul
 märkômus
 märkā
+märç
 môtô
 môtôldā
 mõnü
@@ -516,6 +540,7 @@ mēs
 mīrô
 mīstērô
 mōl
+mōndag
 mūlô
 mūrô
 mūrôldā
@@ -539,6 +564,7 @@ noh
 nolô
 noppômus
 noppā
+novembôr
 nugā
 nupô
 nurô
@@ -574,6 +600,7 @@ obūn
 ohô
 oi
 oih
+oktōbôr
 olgu
 olūt
 omõt
@@ -657,6 +684,7 @@ pôhjôldā
 pôhô
 pôhôlēgô
 pôjā
+pôkrosa
 pôlvô
 pôlū
 pôrsô
@@ -688,6 +716,7 @@ pǟl
 pǟlū
 pǟr
 pǟvô
+rabat
 rahu
 rahuldā
 rahutõ
@@ -702,11 +731,13 @@ ravôji
 ravā
 redē
 reisā
+rekôrd
 rekôt
 rik
 rikā
 rindô
 riul
+rohtô
 rohô
 roiskô
 rôhī
@@ -755,6 +786,7 @@ selkô
 sellü
 selēks
 semprē
+septembôr
 servômus
 servā
 sest
@@ -805,6 +837,8 @@ sä
 sôidômus
 sôidā
 sônaktô
+sôndag
+sônnavend
 sônā
 sônālivrô
 sügü
@@ -855,6 +889,7 @@ tappā
 tard
 tark
 tarīs
+taskü
 tasõ
 taul
 taç
@@ -911,6 +946,7 @@ tēg
 tēno
 tēre
 tēvē
+tīsdag
 tīt
 tītkôrd
 tītū
@@ -928,6 +964,7 @@ unī
 unīstā
 usaldômus
 usaldā
+uus
 vabõ
 vaesõkõ
 vahel
@@ -958,6 +995,7 @@ vastā
 vastāmus
 vastāsaatā
 veel
+vekk
 vendā
 verī
 vespôr
@@ -985,6 +1023,8 @@ välkü
 värskē
 vôidô
 vôim
+vôistlô
+vôistlômus
 vôitô
 vôitā
 vôrk
