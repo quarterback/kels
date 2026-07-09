@@ -54,7 +54,29 @@ Zelenogradsky District (including the Curonian Spit root).
 - Real-World Units Absorbed: Sub-municipal sector of Primorsk town (within the
 Baltiysky administrative zone).
 
-------------------------------------------------------------REGION 3: THE BALTIC INLAND & ESTATE WEALTH BELT (NON-FINNIC
+------------------------------------------------------------REGION 3: THE VISTULA DELTA & POMERANIAN CORRIDOR (THE CONTIGUOUS BRIDGE)
+------------------------------------------------------------* TANTSIKA ( Gdańsk, Poland )
+- Coordinates: 54°21' N, 18°38' E
+- Real-World Units Absorbed: Gdańsk City, Gdańsk County, Nowy Dwór Gdański County,
+Sopot City, Gdynia City.
+
+* ELBINKI ( Elbląg, Poland )
+- Coordinates: 54°09' N, 19°24' E
+- Real-World Units Absorbed: Elbląg City, Elbląg County, Braniewo County (The
+contiguous coastal land bridge connecting the Vistula Delta directly to the Kaliningrad
+border).
+
+* MARIANBÔRK ( Malbork, Poland )
+- Coordinates: 54°02' N, 19°01' E
+- Real-World Units Absorbed: Malbork County, Tczew County, Sztum County (The
+interior river anchor securing the delta).
+
+* PUKA ( Puck, Poland )
+- Coordinates: 54°43' N, 18°24' E
+- Real-World Units Absorbed: Puck County, Wejherowo County (The western maritime
+buffer and Hel Peninsula).
+
+------------------------------------------------------------REGION 4: THE BALTIC INLAND & ESTATE WEALTH BELT (NON-FINNIC
 EXTRACTION ZONE)
 ------------------------------------------------------------
 
@@ -84,7 +106,7 @@ Krasnoznamensky District, Slavsky District.
 - Real-World Units Absorbed: Ozyorsky and Nesterovsky Districts (The northern
 frontier edge of the Masurian Lake transition).
 
-------------------------------------------------------------REGION 4: THE CURONIAN LAND BRIDGE & TRANSIT SPINE
+------------------------------------------------------------REGION 5: THE CURONIAN LAND BRIDGE & TRANSIT SPINE
 ------------------------------------------------------------* MĀMELI ( Klaipėda, Lithuania )
 - Coordinates: 55°42' N, 21°08' E
 - Real-World Units Absorbed: Klaipėda City, Klaipėda District, Palanga City, Kretinga
@@ -116,7 +138,7 @@ District, Kaišiadorys District.
 - Real-World Units Absorbed: Vilkaviškis District, Marijampolė Municipality, Šakiai
 District, Kalvarija, Kazlų Rūda.
 
-------------------------------------------------------------REGION 5: THE SLAVIC FRONTIER GATEWAYS
+------------------------------------------------------------REGION 6: THE SLAVIC FRONTIER GATEWAYS
 ------------------------------------------------------------* MARĪSÔ ( Grodno, Belarus )
 - Coordinates: 53°40' N, 23°50' E
 - Real-World Units Absorbed: Grodno District, Berestovitsa District, Svisloch District,
@@ -133,7 +155,7 @@ District.
 - Real-World Units Absorbed: Volkovysk District, Zelva District, Slonim District (The
 maximum southeastern rail-gauge transfer anchor).
 
-------------------------------------------------------------REGION 6: THE KARELIAN DEPARTMENT (OVERSEAS ARCHAIUM)
+------------------------------------------------------------REGION 7: THE KARELIAN DEPARTMENT (OVERSEAS ARCHAIUM)
 ------------------------------------------------------------* VĪPÔRI ( Vyborg, Russia )
 - Coordinates: 60°42' N, 28°44' E
 - Real-World Units Absorbed: Vyborgsky District (Leningrad Oblast), Priozersky
@@ -175,6 +197,6 @@ administrative delay for a "rail-gauge transfer." The deep inland regions operat
 wide-gauge infrastructure, whereas the coastal elite enforce standard Hanseatic
 maritime-gauge regulations.
 2. SYSTEM LEGAL CONTRACTS: Legal manifests or fiscal ledgers generated in
-Region 3 (Mitau, Venden) must favor Germanic transactional loan-words and dozenal
+Region 4 (Mitau, Venden) must favor Germanic transactional loan-words and dozenal
 accounting protocols, reflecting the local history of Baltic-German estate administration.
 
