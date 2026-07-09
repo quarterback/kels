@@ -1,6 +1,6 @@
 # Nelô kēļ — English → Nelôxi Reverse Index
 
-*Generated from the coursebook master dictionary (1047 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
+*Generated from the coursebook master dictionary (1051 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
 
 
 ## A
@@ -145,6 +145,7 @@ border-city dialect → **marīskēļ**
 bother (v.) → **mādā**  
 bottom → **alū** · **pôhô**  
 boundary → **pīrô**  
+braise → **hautā**  
 bread → **pa**  
 break → **rikā**  
 breakfast → **omīk**  
@@ -271,6 +272,7 @@ contest → **maçô**⁺
 conversation → **kônô**  
 converse (v.) → **kônā**  
 cook (v.) → **kuinā**  
+cook gently → **sōbā**  
 cord → **köis**  
 correct → **ôigus**  
 corrupt (coarse) → **krōm**  
@@ -370,7 +372,7 @@ earlier (postp./adv.) → **enne**
 early → **varā**  
 earth → **mā**  
 east → **idā**  
-eat (v.) → **menjā**  
+eat (v.) → **menjā** · **sȫ**  
 egg → **ōu**  
 eight → **osôm**  
 eighteen → **dünxeç**  
@@ -492,7 +494,7 @@ friend → **amīk**
 from now on → **nūlt**  
 frost → **pakā**  
 fruit → **frūt**  
-fry (v.) → **praadā**⁺  
+fry (v.) → **praadi**⁺ · **praadā**⁺  
 fuck (obscene) (v.) → **futrā**  
 fucker → **futôr**  
 full → **tǟs**  
@@ -1066,6 +1068,7 @@ salt → **sōla**
 sandy → **līvô**  
 sanitation → **puhādtȫ**  
 sanitation worker → **puhādôr**  
+saute → **praadi**⁺  
 save (v.) → **salvā**⁺  
 saved file → **salvômus**⁺  
 savory → **maitūs**  
@@ -1137,6 +1140,7 @@ signal → **signô**⁺
 signal tower → **tornô**⁺  
 signboard → **märktaul**  
 silver → **ôbē**  
+simmer (v.) → **sōbā**  
 simply → **lihtsalt**  
 sing (v.) → **kantā**  
 sink (v.) → **lōjū**  
@@ -1200,6 +1204,7 @@ start → **alk**
 state → **rīgô**⁺  
 station → **jaamô**⁺  
 stay (v.) → **jǟmä**  
+stew (v.) → **hautā**  
 still → **ikkü** · **veel**  
 stir → **segā**  
 stitch (v.) → **sīlā**  

@@ -17,6 +17,7 @@ Reading order for a full onboarding:
 - **08 — Relations** — spatial & temporal: which cases do the job, the full postposition inventory, known gaps
 - **09 — Tense & Aspect** — how to say when: the complete time system (no future/perfect by design)
 - **10 — Adjectives** — the invariance rule (only the noun inflects)
+- **11 — Commands & Suggestions** — the imperative (bare stem) and hortative (-m)
 
 Planned / forthcoming modules:
 - **05 — Contact History** — the historical story of who brought which words (Hanseatic Low

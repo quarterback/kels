@@ -151,6 +151,7 @@ harjā
 harvõ
 haudô
 haulā
+hautā
 havs
 heinô
 heitä
@@ -627,6 +628,7 @@ pomā
 pont
 port
 potô
+praadi
 praadā
 praul
 prop
@@ -821,6 +823,7 @@ sīlā
 sīmā
 sīn
 sīnsīn
+sōbā
 sōdõmus
 sōdā
 sōdāji
@@ -830,6 +833,7 @@ sōudô
 sōv
 sōvā
 sūr
+sȫ
 sȫk
 sȫtô
 sȫtā
