@@ -177,6 +177,31 @@ These stack: *sȫ* "eat" → *sȫtä* "feed" → *sȫtätä* "have someone fed";
 "come open" → *avautelä* "keep coming open." A contributor needing "to feed," "to keep
 glancing," or "to come loose" derives it — the chain already exists.
 
+### Compounding
+
+Nelôxi builds new words by joining existing roots. Compounds are **head-final**: the **last**
+element is the core meaning, and everything before it modifies. *livrôkōt* = *livrô* "book" +
+*kōt* "house" = "library" (a kind of house, for books). *petītvim* = *petīt* "small" + *vim*
+"rain" = "drizzle" (a kind of rain).
+
+**How to join:**
+- The **modifier** (first element) appears in its **bare stem**, no case ending:
+  *sesôn* + *kôrd* → *sesônkôrd* "seasonal cycle."
+- A **linking vowel** (*-ô-* back / *-e-* front, by harmony) is inserted only if the join would
+  otherwise be unpronounceable: *pildô-livrô* "picture book," *lǟmi-mēdôr* "thermometer."
+- **Stress stays on the first element** (as with all Nelôxi words, initial stress), so a
+  compound reads as one word: *LIVrôkōt*, not two.
+- The **head takes all inflection**: only the final element takes case endings. "In the library"
+  = *livrôkōtôl* (the -l goes on *kōt*, the head), never on *livrô*.
+
+**Consonant gradation** still applies to the head if it ends in a double stop: *vôrk* + *kôrd*
+→ *vôrkkôrd* "network"; inflected, *vôrkkôrdôl* (the head *kôrd* has no double stop, so no
+change here, but a head like *-tappô* would weaken to *-tapô-*).
+
+Compounds can chain: *matī* "morning" + *veç* "water" → *matīveç* "dew"; *tems* "weather" +
+*livrô* "book" → *temslivrô* "almanac." A contributor needing "harbor-master," "fish-market,"
+or "night-watch" builds it head-final from roots already in the lexicon rather than borrowing.
+
 A verb yields a **place or arena of the action** with **-ām/-äm**: *rēdā* "to judge" → *rēdām* "court," *pēlā* "to play" → *pēlām* "field," *lēsô* "lesson" → *lēsām* "course."
 
 A noun or adjective yields a **person associated with it** with **-ôr**: *nôuk* "council" → *nôukôr* "councillor," *sugô* "kin" → *sugôr* "kinsperson," *kēļ* "language" → *kēļôr* "grammarian." (Distinct from **-ji**, which makes a doer from a *verb*: *lugē* → *lugēji*.)
