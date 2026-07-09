@@ -1,0 +1,546 @@
+diff --git a/RECTOR-HANDOFF.md b/RECTOR-HANDOFF.md
+index e8f4c98..383a547 100644
+--- a/RECTOR-HANDOFF.md
++++ b/RECTOR-HANDOFF.md
+@@ -5,7 +5,7 @@ constructed language **Nelôxi** (*nelô kēļ*, said *nel-OX-ee* — x=[ks] in
+ previous session held this role; you pick up cleanly from the current state and do not need its
+ conversation history. Everything that matters is in the repository.
+ 
+-**Current state: v5.14, 1,073 headwords, ruling log through §76.**
++**Current state: v5.16, 1,091 headwords, ruling log through §78.**
+ 
+ ---
+ 
+diff --git a/assets/app.js b/assets/app.js
+index 6ed77ac..a0bbbc7 100644
+--- a/assets/app.js
++++ b/assets/app.js
+@@ -29,7 +29,7 @@
+     delegate:    { title: "Delegate brief",    sub: "Contributor protocol",         file: "college/DELEGATE-BRIEF.md",        group: "Briefs", toc: true },
+     corpus:      { title: "Corpus brief",      sub: "Writing genre texts",          file: "college/CORPUS-BRIEF.md",          group: "Briefs", toc: true },
+     dailylife:   { title: "Daily-life brief",  sub: "Connective speech",            file: "college/DAILY-LIFE-BRIEF.md",      group: "Briefs" },
+-    numbers:     { title: "Numbers change",    sub: "Numbers, fractions, letters",  file: "college/CHANGE-BRIEF-numbers.md",  group: "Briefs" },
++    numbers:     { title: "Numbers",           sub: "Dozenal counting, clock, percent", file: "grammar/12-numbers.md",           group: "Reference", toc: true },
+     geography:   { title: "Geography",         sub: "The shape of Nelôxia",         file: "world/geography.md",               group: "World" },
+     gazetteer:   { title: "Gazetteer",         sub: "Cities & place-names",         file: "world/gazetteer.md",               group: "World", toc: true },
+     boundaries:  { title: "Boundaries",        sub: "Canonical borders & units",    file: "world/boundaries.md",              group: "World", toc: true },
+diff --git a/bundles/BUNDLE-corpus-agent.md b/bundles/BUNDLE-corpus-agent.md
+index 0e7cb50..428cfcd 100644
+--- a/bundles/BUNDLE-corpus-agent.md
++++ b/bundles/BUNDLE-corpus-agent.md
+@@ -1,7 +1,7 @@
+ # Nelôxi — CORPUS AGENT BUNDLE (self-contained)
+ 
+ > Everything you need to write a genre text and harvest gaps. You need no other file.
+-> Canon v5.15, 1091 headwords. Read top to bottom, then produce ONE text + gap-list.
++> Canon v5.16, 1091 headwords. Read top to bottom, then produce ONE text + gap-list.
+ 
+ ---
+ 
+@@ -557,11 +557,11 @@ reach for another language's pronoun — every form is derivable from the base p
+ 
+ ## PART F — Adjectives
+ 
+-# Nelôxi Grammar — Adjectives (The Invariance Rule)
+-*Foundation module 10 · charter §70*
++# Nelôxi Grammar — Adjectives (Invariance and Eventive Use)
++*Foundation module 10 · charter §70, §78*
+ 
+ > **Read this even if you have never seen Nelôxi before.** It teaches how adjectives behave —
+-> the shortest module, because the rule is one sentence. You need no other file.
++> first the invariance rule, then the eventive pattern. You need no other file.
+ 
+ ## Background you need first
+ 
+@@ -589,7 +589,30 @@ books." The demonstrative comes first: *se vana pūn livrôd* "these old red boo
+ After the copula, the adjective is still bare: *Livrô um vana* "the book is old." *Livrôd um
+ vana* "the books are old" — the adjective does not pluralize even here.
+ 
+-## The two apparent exceptions (which are not exceptions)
++## Eventive adjectives
++
++Some adjectives can sit in the ordinary adjective slot before an object noun while describing the
++event carried by the verb. This is an **eventive adjective**. The noun still takes its normal case;
++the adjective does not inflect.
++
++- *Tä donā kylm vastômusôn* — "She gives a cold answer / answers coldly."
++- *Tä küpsā nobē kōkôn* — "She bakes a quick cake / bakes the cake quickly."
++
++The object's case still does its ordinary aspect work. Object **-n** marks the action as bounded or
++completed; partitive **-t / -tô** marks it as partial, ongoing, or unbounded:
++
++- *Tä küpsā nobē kōkôn* — "She quickly bakes the cake" (bounded/completed).
++- *Tä küpsā nobē kōkôt* — "She is quickly baking cake / baking at the cake" (ongoing/unbounded).
++
++The construction is normal grammar, not slang. It is also not fully free: an eventive reading is
++strongest with adjectives whose meanings naturally apply to actions or events. Ordinary
++descriptive adjectives keep their ordinary noun meaning unless context makes an eventive reading
++natural.
++
++- *Tä lugē vana livrôn* — "She reads an old book," not "she reads oldly."
++- *Tä küpsā bel kōkôn* — "She bakes a beautiful cake," not usually "she bakes beautifully."
++
++## Two apparent exceptions (which are not exceptions)
+ 
+ 1. **Comparative -mi** (*raskmi* "heavier") and the **kui** "than" frame are DERIVATION, not
+    agreement — they change the adjective's meaning, not its case: *raskmi kui ne nǟdô* "heavier
+@@ -607,3 +630,6 @@ carries the grammar.
+ 
+ Never put a case or plural ending on an attributive adjective. If you catch yourself writing
+ *vanad livrôd* or *vanal kōtôl* for "old" — stop; it is *vana livrôd*, *vana kōtôl*.
++
++When using an eventive adjective, put it in the same adjective slot before the object noun and let
++the noun carry the case: *kylm vastômusôn*, *nobē kōkôt*. Do not add an adverbial ending.
+diff --git a/bundles/BUNDLE-domain-agent.md b/bundles/BUNDLE-domain-agent.md
+index 28ca585..bf1a112 100644
+--- a/bundles/BUNDLE-domain-agent.md
++++ b/bundles/BUNDLE-domain-agent.md
+@@ -1,7 +1,7 @@
+ # Nelôxi — DOMAIN AGENT BUNDLE (self-contained)
+ 
+ > Everything you need to coin vocabulary for one domain. You need no other file.
+-> Canon v5.15, 1091 headwords. Read top to bottom, then produce ONE domain batch.
++> Canon v5.16, 1091 headwords. Read top to bottom, then produce ONE domain batch.
+ 
+ ---
+ 
+diff --git a/bundles/BUNDLE-grammar-reference.md b/bundles/BUNDLE-grammar-reference.md
+index 5b99ea6..5a0ccfc 100644
+--- a/bundles/BUNDLE-grammar-reference.md
++++ b/bundles/BUNDLE-grammar-reference.md
+@@ -2,7 +2,7 @@
+ 
+ > The full structural core of Nelôxi in one file. Hand this to a grammar agent, or to any
+ > agent that has started drifting (using Estonian, guessing forms) to re-ground it.
+-> Canon v5.13. Every module assumes no prior knowledge.
++> Canon v5.16. Every module assumes no prior knowledge.
+ 
+ ---
+ 
+@@ -24,7 +24,7 @@ Reading order for a full onboarding:
+ - **07 — Pronouns** — personal, possessive, demonstrative, interrogative, relative, indefinite
+ - **08 — Relations** — spatial & temporal: which cases do the job, the full postposition inventory, known gaps
+ - **09 — Tense & Aspect** — how to say when: the complete time system (no future/perfect by design)
+-- **10 — Adjectives** — the invariance rule (only the noun inflects)
++- **10 — Adjectives** — invariance plus eventive adjectives
+ - **11 — Commands & Suggestions** — the imperative (bare stem) and hortative (-m)
+ 
+ Planned / forthcoming modules:
+@@ -638,11 +638,11 @@ again · *jubā* already · *veel* still.
+ 
+ ---
+ 
+-# Nelôxi Grammar — Adjectives (The Invariance Rule)
+-*Foundation module 10 · charter §70*
++# Nelôxi Grammar — Adjectives (Invariance and Eventive Use)
++*Foundation module 10 · charter §70, §78*
+ 
+ > **Read this even if you have never seen Nelôxi before.** It teaches how adjectives behave —
+-> the shortest module, because the rule is one sentence. You need no other file.
++> first the invariance rule, then the eventive pattern. You need no other file.
+ 
+ ## Background you need first
+ 
+@@ -670,7 +670,30 @@ books." The demonstrative comes first: *se vana pūn livrôd* "these old red boo
+ After the copula, the adjective is still bare: *Livrô um vana* "the book is old." *Livrôd um
+ vana* "the books are old" — the adjective does not pluralize even here.
+ 
+-## The two apparent exceptions (which are not exceptions)
++## Eventive adjectives
++
++Some adjectives can sit in the ordinary adjective slot before an object noun while describing the
++event carried by the verb. This is an **eventive adjective**. The noun still takes its normal case;
++the adjective does not inflect.
++
++- *Tä donā kylm vastômusôn* — "She gives a cold answer / answers coldly."
++- *Tä küpsā nobē kōkôn* — "She bakes a quick cake / bakes the cake quickly."
++
++The object's case still does its ordinary aspect work. Object **-n** marks the action as bounded or
++completed; partitive **-t / -tô** marks it as partial, ongoing, or unbounded:
++
++- *Tä küpsā nobē kōkôn* — "She quickly bakes the cake" (bounded/completed).
++- *Tä küpsā nobē kōkôt* — "She is quickly baking cake / baking at the cake" (ongoing/unbounded).
++
++The construction is normal grammar, not slang. It is also not fully free: an eventive reading is
++strongest with adjectives whose meanings naturally apply to actions or events. Ordinary
++descriptive adjectives keep their ordinary noun meaning unless context makes an eventive reading
++natural.
++
++- *Tä lugē vana livrôn* — "She reads an old book," not "she reads oldly."
++- *Tä küpsā bel kōkôn* — "She bakes a beautiful cake," not usually "she bakes beautifully."
++
++## Two apparent exceptions (which are not exceptions)
+ 
+ 1. **Comparative -mi** (*raskmi* "heavier") and the **kui** "than" frame are DERIVATION, not
+    agreement — they change the adjective's meaning, not its case: *raskmi kui ne nǟdô* "heavier
+@@ -689,6 +712,9 @@ carries the grammar.
+ Never put a case or plural ending on an attributive adjective. If you catch yourself writing
+ *vanad livrôd* or *vanal kōtôl* for "old" — stop; it is *vana livrôd*, *vana kōtôl*.
+ 
++When using an eventive adjective, put it in the same adjective slot before the object noun and let
++the noun carry the case: *kylm vastômusôn*, *nobē kōkôt*. Do not add an adverbial ending.
++
+ ---
+ 
+ # Nelôxi Grammar — Commands & Suggestions (Imperative and Hortative)
+@@ -744,3 +770,96 @@ elsewhere. There are also two fixed hortative expressions already in the lexicon
+ To give an order, use the **plain verb** — do not invent an imperative ending. To say "let's,"
+ add **-m**. To forbid, use **äb** + plain verb. These three patterns cover all commands and
+ suggestions; nothing else is needed.
++
++---
++
++# Nelôxi Numbers — Canon Reference
++
++Nelôxi counts in **twelves**. This page is the current canon reference for numbers, fractions, clock time, and percent. It replaces the old change brief.
++
++## Digits
++
++| value | Nelôxi | value | Nelôxi |
++|---:|---|---:|---|
++| 0 | **nolô** | 6 | **xeç** |
++| 1 | **jedôn** | 7 | **sedôm** |
++| 2 | **dva** | 8 | **osôm** |
++| 3 | **tri** | 9 | **deveñç** |
++| 4 | **xtiri** | 10 | **deseñç** |
++| 5 | **peñç** | 11 | **elva** |
++
++Twelve is **düna** — the round number, the "ten" of the dozenal system.
++
++## Breakpoints
++
++| value | Nelôxi | meaning |
++|---:|---|---|
++| 12 | **düna** | one dozen |
++| 144 | **grosô** | a dozen dozens, one gross |
++| 1728 | **mīrô** | a dozen gross |
++| 12⁶ | **miljôn** | about 2.99 million |
++
++## Thirteen through twenty-three
++
++The first dozen after **düna** is fused into single words:
++
++13 **dünjôn** · 14 **dünva** · 15 **düntri** · 16 **dünxtir** · 17 **dünpeñç** · 18 **dünxeç** · 19 **dünsedm** · 20 **dünosm** · 21 **dündevç** · 22 **dündesç** · 23 **dünelva**
++
++## Larger numbers
++
++After the fused forms, numbers are built by bare juxtaposition from largest unit to smallest, with no connector and no hyphen:
++
++- **dva düna** — 24
++- **dva düna tri** — 27
++- **tri düna peñç** — 41
++- **grosô dva düna** — 168
++- **dva grosô peñç düna tri** — 351
++
++The fixed largest-first order keeps the number unambiguous.
++
++## Counted nouns
++
++After numbers above one, the counted noun stands in the **partitive singular**, not the plural:
++
++- **tri kalāt** — three fish
++- **sedôm pǟvôt** — seven days
++- **düna kūt** — twelve months
++
++## Ordinals
++
++Add **-tô**:
++
++**jedôntô** first · **dvatô** second · **tritô** third · **dünatô** twelfth
++
++Example: **Jedôntô pǟvôl** — on the first day.
++
++## Fractions and shares
++
++Fractions use the trade words **half** "half" and **dēl** "part, share." A fraction is **number + dēl**:
++
++**tri-dēl** third · **xtiri-dēl** quarter · **deseñç-dēl** tenth
++
++The thing divided takes the linking case:
++
++- **dünas half** — half a dozen
++- **rās tri-dēl** — a third of the money
++
++## Clock time
++
++Clock time uses **klôk** with the 24-hour clock. Hours are counted in dozenal numbers:
++
++- **klôk nolô** — 00:00, midnight
++- **klôk xeç** — 06:00
++- **klôk düna** — 12:00, noon
++- **klôk dünxeç** — 18:00
++
++Casual speech may add time of day, but the standard is the plain 24-hour number.
++
++## Percent
++
++Nelôxia keeps the **%** symbol but reads it dozenally, as a full gross: a dozen of dozens.
++
++- Formal: **pôkrosa**
++- Casual/slang: **krossi**
++
++**100 krossi** means fully certain, where 100 is base-12 — one full gross.
+diff --git a/college/CHANGE-BRIEF-numbers.md b/college/CHANGE-BRIEF-numbers.md
+index 0d2a998..fa93e43 100644
+--- a/college/CHANGE-BRIEF-numbers.md
++++ b/college/CHANGE-BRIEF-numbers.md
+@@ -1,86 +1,9 @@
+-# Nelôxi — Change Brief for Contributors
+-### Numbers, fractions, letter-names (canon v3.3 → v3.7)
++# Nelôxi — Retired Numbers Change Brief
+ 
+-Hand this to any agent working from an older charter. It summarizes what changed;
+-the authoritative source remains `coursebook/nelo-kel-coursebook.md` and
+-`college/kels-kolegi-charter.md` (§36–§39). **Before batching, pull the current
+-`data/headwords.txt` — do not work from memory or a pasted list.**
++This file is retained only as a historical marker. It is **not** a teaching reference and should not be routed to contributors or the public site.
+ 
+----
++Current canon counts in **dozenal** Slavic digits:
+ 
+-## 1. The Finnic numerals are GONE. Do not use them.
++**nolô, jedôn, dva, tri, xtiri, peñç, xeç, sedôm, osôm, deveñç, deseñç, elva; düna, grosô, mīrô, miljôn.**
+ 
+-**Withdrawn from canon** (rulings §37): *üks, kaks, kolm, nēļa, vīç, kūç, seis,
+-kōtôks, īdôks, kīm*, teens in *-teis*, tens in *-kīm*, *çent*, *mīl*, ordinals
+-*esmī / tôin*, and the *-nd* ordinal rule. If you use any of these, the batch is wrong.
+-
+-(The word **üksū** "loneliness" survives — it is built on the *concept* of oneness,
+-not the numeral. It is not a number.)
+-
+-## 2. Numbers are now Germanic, base-10
+-
+-| # | word | # | word |
+-|---|---|---|---|
+-| 1 | **ēn** | 6 | **ses** |
+-| 2 | **twē** | 7 | **seven** |
+-| 3 | **drē** | 8 | **acht** |
+-| 4 | **fēr** | 9 | **nēgôn** |
+-| 5 | **fīf** | 10 | **tēn** |
+-
+-- **Teens** add **-tein**: *ēntein* 11, *twētein* 12 … *nēgôntein* 19
+-- **Tens** add **-tig**: *twētig* 20, *drētig* 30, *fērtig* 40, *fīftig* 50, *sestig* 60,
+-  *seventig* 70, *achttig* 80, *nēgôntig* 90
+-- **Compounds** hyphenate tens-unit: *twētig-ēn* 21, *fīftig-ses* 56
+-- **hunt** 100, **dūsônd** 1000: *twē hunt fīftig* 250, *ēn dūsônd nēgôn hunt* 1900
+-- **Ordinals** add **-tô**: *ēntô* first, *twētô* second, *drētô* third, *tēntô* tenth
+-
+-## 3. The long hundred (Hanseatic trade tally)
+-
+-Bulk goods count in dozens, not tens — 120 divides cleanly, which is the point.
+-
+-- **dūtô** = a dozen (12)
+-- **xok** = a schock (60 = five dozen)
+-- **langhunt** = a long hundred (120 = ten dozen)
+-- plain **hunt** (100) remains for ordinary counting
+-
+-Count **largest grouping first, remainder in units, joined by *ja***:
+-*drē dūtô* 36 · *twē langhunt ja tēn* 250.
+-
+-Use for money, weight, cargo, market tally: *Kalāji vendai drē dūtô kalād* "the
+-fisher sold three dozen fish (36)." *Xip kannā twē langhunt tônn* "the ship carries
+-two long-hundred tons (240)."
+-
+-## 4. Fractions & shares (Low German trade quarry — NOT Finnic)
+-
+-- **half** — half
+-- **dēl** — part, share (a merchant's cut)
+-- Fractions = **number + dēl**: **drēdēl** third, **fērdēl** quarter, **tēndēl** tenth
+-- **Trade rule:** in a tally, name the sub-unit, don't say the fraction — half a
+-  *langhunt* is a **xok** (60); a tenth is a **dūtô** (12). Fractions are for general
+-  (non-tally) use.
+-- **Partitive** uses the existing linking case *-s* ("of"): *langhuntôs half* "half of
+-  a long-hundred," *rās drēdēl* "a third of the money," *pas dēl* "a share of the bread"
+-
+-Do **not** re-coin fraction words from Finnic roots. (*osô* was tried and withdrawn, §39.)
+-
+-## 5. Letter-names & acronyms (§36)
+-
+-- Consonants take **-ē**: *bē, dē, fē, gē, hē, jē, kē, lē, mē, nē, pē, rē, sē, tē, vē*;
+-  special letters by sound + -ē: *çē* [tsē], *xē* [ʃē]
+-- Vowels are named as themselves (*a, e, i, o, u, ä, ö, y, ô*); a long vowel is
+-  *pikk* + the vowel (*pikk ā*)
+-- Acronyms spoken as letter-names, written as the run when lexicalized:
+-  **tēvē** "TV" (*Mä nǟgô tēvēn*) — the fully-eroded end of *taikfinest → taikô → taiki → tēvē*
+-
+----
+-
+-## What did NOT change
+-
+-- All grammar (5+ cases, vowel harmony, participles, the derivational suffixes
+-  -ji/-ôr/-mus/-ū/-stā/-ldā/-ām/-in/-tū, negation, questions) is unchanged.
+-- The four loan quarries (Finnic core, Low German, Scandinavian, Slavic) are unchanged.
+-- Nelôxi still has Finnic *grammar* — it simply no longer *counts* in Finnic.
+-
+-**Current canon: v3.7, 845 headwords.** Regenerate `data/` with
+-`tools/regen_data.py` && `tools/regen_reverse.py` after any merge; the coursebook is
+-the single source of truth.
++Use `grammar/12-numbers.md` for the current numbers reference and `coursebook/nelo-kel-coursebook.md` as the source of truth.
+diff --git a/college/kels-kolegi-charter.md b/college/kels-kolegi-charter.md
+index b1453c3..a7b24d7 100644
+--- a/college/kels-kolegi-charter.md
++++ b/college/kels-kolegi-charter.md
+@@ -64,11 +64,11 @@ These endings carry grammar. New words may *end* in these letters, but a contrib
+ | -in | device/instrument that does a verb (kūlô → kūlin "speaker") — non-person, distinct from -ji and -ôr |
+ | -tū / -ty | privative: lacking/without X (kōlhô → kōlhôtū "gutless"; rā → rātū "penniless") |
+ 
+-**Worked example of a collision:** "hundred" could not be *sadā* because *sadā* already means "to fall (rain/snow)"; canon chose *çent*. This is the exact class of error the check in §5 exists to catch.
++**Worked example of a collision:** a new count word may not be *sadā* because *sadā* already means "to fall (rain/snow)." This is the exact class of error the check in §5 exists to catch.
+ 
+ ## 4. Function words already fixed (do not re-coin)
+ 
+-um/ūli (be) · äb (not) · nē (no) · jā (yes) · ka (question particle) · et (that) · ja (and) · agā (but) · vai (or) · jōs (if) · sest (because) · tambē (also) · se (this/that) · mult (many) · vôī (can) · pidā (must) · mai (never) · semprē (always) · nyt (now) · postpositions: al, tāga, jeds (spatial before), enne (temporal before), ilma, pǟl · pronouns: mä, sä, tä, mēg, tēg, ne · question words: mis, ken, kus, kun, kui, miks · numbers: üks, kaks, kolm, nēļa, vīç, kūç, seis, kōtôks, īdôks, kīm, çent, mīl, esmī, tôin
++um/ūli (be) · äb (not) · nē (no) · jā (yes) · ka (question particle) · et (that) · ja (and) · agā (but) · vai (or) · jōs (if) · sest (because) · tambē (also) · se (this/that) · mult (many) · vôī (can) · pidā (must) · mai (never) · semprē (always) · nū (now) · postpositions: al, tāga, jeds (spatial before), enne (temporal before), ilma, pǟl · pronouns: mä, sä, tä, mēg, tēg, ne · question words: mis, ken, kus, kun, kui, miks · numbers: nolô, jedôn, dva, tri, xtiri, peñç, xeç, sedôm, osôm, deveñç, deseñç, elva, düna, grosô, mīrô, miljôn
+ 
+ ## 5. The coining workflow (per word)
+ 
+@@ -90,7 +90,7 @@ One table per batch, 25–40 words, one domain per batch:
+ 
+ Below the table, a short **collision notes** line flagging anything the contributor was unsure about. Batches without collision notes are assumed unchecked and will be returned.
+ 
+-## 7. Canonical headword list (collision reference, v5.15 — 1091 entries, synced from coursebook)
++## 7. Canonical headword list (collision reference, v5.16 — 1091 entries, synced from coursebook)
+ 
+ abī · abīstā · abītȫ · adē · aedô · aerutā · aerô · agā · ai · ainô · ajēr · ajū · aktô · akôr · al · alatü · alk · alkā · alt · alõs · alū · ammū · amtô · amtôji · amīk · amōr · andõstā · annõ · appü · aprīl · apô · aribā · arm · armôldā · armõ · arst · arsô · arvô · arvôldā · arēnô · asetā · augôst · avuī · babkô · bajômus · bajā · balkô · balçômus · balçā · bebē · bel · blokô · bokā · bramô · bratkô · brāk · brākā · butīk · büdjet · bākô · bālô · bōs · bōt · būsô · dek · demā · dent · deret · deseñç · detsembôr · deveñç · donôrdag · donā · drobô · drōk · dva · dvôrô · düna · dündesç · dündevç · dünelva · dünjôn · dünosm · dünpeñç · dünsedm · düntri · dünva · dünxeç · dünxtir · düvlik · düvēl · dātô · dēdkô · dēl · dī · dīmys · edä · eest · egü · ehitômus · ehitā · ehk · ekõ · elva · elômus · elā · enne · ennū · ernē · eskerrē · eskōl · esmõks · estēl · et · failô · famīl·la · febrôr · felīç · finest · flag · fluks · flōp · flœzī · flūk · flūkā · fonô · fonômus · fonā · fort · fotô · fotā · frīdag · frūt · futrā · futôr · fān · fāndô · fīnô · genô · glup · glupôr · gos · grançô · gribô · grosô · grīs · haavômus · haavā · habrô · hakôr · half · hamôr · handlô · handlôji · handôl · harjômus · harjā · harvõ · haudô · haulā · hautā · havs · heinô · heitä · hell · hellū · helē · hennô · hetk · hirmus · hoolômus · hoolā · hoolāji · hoopõs · häbedā · häbū · hūr · hǟ · idā · idē · iglū · igävē · igāldā · ikkü · ilma · ilo · inim · issõ · istā · isü · itkô · ja · jaamô · jagô · janôr · jeds · jedôn · ju · jubā · juht · juhtü · jällü · järsk · jättômus · jättā · jättām · jôg · jôu · jôvā · jā · jān · jānô · jōdô · jōs · jūli · jūn · jūni · jūnôr · jūr · jūst · jǟ · jǟdô · jǟmä · jǟrv · ka · kabēl · kadô · kadē · kadēldā · kadīr · kafē · kahetsômus · kahetsā · kahjū · kaimô · kaipômus · kaipā · kallü · kallā · kaltô · kaltā · kalā · kalāji · kalāstā · kalēnt · kambôr · kamērô · kamī · kannômus · kannā · kantā · kançāt · kançō · kanā · kanēl · kaotômus · kaotā · kap · kaptā · kapustô · karistô · karistā · karjô · karjā · karmô · karn · karrē · karrēlampô · karī · karīk · kastô · kasvômus · kasvā · kat · katkü · kaug · kauplô · kauplômus · kaçô · kaçā · keetā · kekõ · ken · kesk · keskū · kett · kevä · kevē · kihlô · kihlā · kirg · kirgôldā · kirjô · kirjômus · kirjā · kirjāji · kirīk · kitsô · kivī · klavôr · klikômus · klikā · klubô · klôk · klȫtô · klȫtôtū · kodô · kodā · kompass · komprā · komprāji · komprē · kontē · koorõm · kor · korraks · kos · kotxē · koçôr · krašô · krašā · krossi · kruçô · krāmô · krāmôr · krōm · krūçôfiks · krūçā · kudā · kui · kuidagü · kuinā · kuiv · kukô · kuld · kullõ · kun · kuni · kurt · kus · kusagü · kutsu · kutsô · kuulõ · kylm · kylä · kysô · kysômus · kôg · kôgõ · kôgõl · kôlt · kônô · kônā · kôrd · kôrdā · kôstô · kôust · kôv · köis · külalü · küllü · külvômus · külvā · küpsôr · küpsā · küpsām · küsitlô · küsitlômus · kāldô · kāldôldā · kāpôs · kārgô · kārtô · kēļ · kēļkôrd · kēļôr · kōju · kōk · kōlôr · kōrjā · kōrrô · kōt · kū · kūlin · kūlô · kǟs · kǟvô · laadômus · laadā · laht · lain · laintū · lammô · lampô · langô · langôtā · laskā · last · lastā · lasõ · lasõkäi · lauk · lehmä · lehtô · leidā · leikā · leinô · leinā · lent · lepômus · lepā · leskô · lihtsalt · liig · lil · limô · limā · lisā · lit · livrô · livrôkōt · lohū · lohūldā · lop · lopõks · lopā · lubômus · lubā · lugē · lugēmys · lypsômus · lypsā · läbi · läpx · lôigā · lông · lôunā · lād · lāvô · lēgô · lēsô · lēsām · lēt · lībā · līkô · līnô · līvô · lōdô · lōjū · lōtô · lōtā · lōtū · lūdô · lǟdô · lǟkô · lǟkõm · lǟmi · lǟn · lǟtū · madal · magā · magūs · magūsū · maha · mai · maij · maitô · maitū · maitūs · maksômus · maksā · malālt · marginôl · markôt · marīskēļ · Marīsô · marīsôr · marīt · mastô · matrūs · matī · maçô · mediçīn · medāl · melī · menjā · mentīd · mer · merd · meçā · midagü · midvôk · miks · mikô · miljôn · minõm · mis · miskü · mrovô · mrovôr · muidôn · muidõks · muidū · mult · mumbõ · muntāñ · muretõ · murk · must · mustveç · mustveçkôrd · muutô · mä · märg · märktaul · märkômus · märkā · märç · môtô · môtôldā · mõnü · müristä · müristü · müä · müük · mā · mādā · māhl · mārjā · māçôr · mēdôr · mēdā · mēg · mēl · mēldā · mēlā · mērkô · mēs · mīrô · mīstērô · mōl · mōndag · mūlô · mūrô · mūrôldā · mǟr · mǟtômus · mǟtā · nabôr · nagu · nahkô · naisô · nalī · naurô · naurā · ne · niimôdõ · nim · nixō · njah · nobē · noh · nolô · noppômus · noppā · novembôr · nugā · nupô · nurô · nurôr · nôglô · nôrk · nôuk · nôukôr · nõkā · nõusô · nõusõ · nān · nāsô · nē · nēm · nētô · nēu · nīrin · nīrtaul · nīrô · nīrā · nīt · nū · nūlt · nūlô · nūnū · nǟgô · nǟlg · nǟlgô · nǟr · obrī · obūn · ohô · oi · oih · oktōbôr · olgu · olūt · omõt · omõtõ · omīk · onkô · ootkôrd · ootômus · ootā · orvô · orānx · osôm · pa · padā · pakkü · paks · pakā · palô · pannô · panā · papôr · parandômus · parandā · pardô · pardômus · pardā · parlā · pehmē · pehā · pelgô · perēm · petīt · peñç · pidômus · pidā · pigõm · piisā · pik · pikā · pildô · piletô · pillā · pilv · pipôr · pirôg · pitkin · plat · plinô · poig · pomp · pomā · pont · port · potô · praadi · praadā · praul · prop · prēu · prōm · prōmôr · prōmām · puhād · puhādtȫ · puhādôr · puhādā · pulmô · pulmā · punktô · punktā · purjē · purpôr · putān · putānikōt · päikü · päriji · pärômus · pärā · pôhjô · pôhjôldā · pôhô · pôhôlēgô · pôjā · pôkrosa · pôlvô · pôlū · pôrsô · pöördô · püstü · püsā · püsām · pārkô · pāsportô · pāsā · pēlô · pēlā · pēlāji · pēlām · pēu · pīrô · pīrôlubômus · pīrôsegas · pīrôsitāt · pōl · pōlkindõl · pōlpardõ · pōr · pū · pūmô · pūn · pūst · pǟl · pǟlū · pǟr · pǟvô · rabat · rahu · rahuldā · rahutõ · rahvô · raksô · raksā · rannã · rask · ratô · raud · ravôji · ravā · redē · reisā · rekôrd · rekôt · rik · rikā · rindô · riul · rohtô · rohô · roiskô · rôhī · rôim · rôimā · röstā · rā · rādjo · rājô · rānd · rāndôr · rēdā · rēdāji · rēdām · rētô · rīgô · rīst · rōkā · rōs · rūbā · rūnô · rūnôkôrd · rǟkõ · rǟkõmus · saatômus · saatā · sadā · sagõ · salvômus · salvā · samā · samū · satām · savī · sañô · se · sedä · sedôm · seejärõl · segas · segā · seilā · selgô · selgū · selkô · sellü · selēks · semprē · septembôr · servômus · servā · sest · sestrô · sesôn · setmān · setä · sidômus · sidā · signô · sigô · silm · silē · sinī · sipôl · sirpô · sirvôr · sisü · sisār · sitānik · sitāt · skrinô · skīt · skītôr · skītā · smetôn · snē · snēā · sojā · sol · strānd · sud · sugô · sugôläpx · sugôr · sukrô · sulatā · sulô · sulā · sup · surmô · surā · suvi · syndômus · syndā · syv · sä · sôidômus · sôidā · sônaktô · sôndag · sônnavend · sônā · sônālivrô · sügü · sülü · sāl · sāli · sālsāl · sāmā · sān · sār · sāvô · sāvā · sīgel · sīlô · sīlā · sīmā · sīn · sīnsīn · sōbā · sōdõmus · sōdā · sōdāji · sōla · sōud · sōudô · sōv · sōvā · sūr · sȫ · sȫk · sȫtô · sȫtā · tahtô · tahtôldā · taikfinest · taiki · taikô · taivô · tallô · talv · talçā · talçāji · tambē · tankā · tantô · tappô · tappā · tard · tark · tarīs · taskü · tasõ · taul · taç · teinütõ · tems · tervetô · tervü · tervütä · tillô · tintô · tirist · tormô · tornô · tornē · torô · tri · trīk · trīkôr · trīkā · tugev · tuisk · tulē · tumô · tundô · tuo · turg · tyhjā · tytār · tä · tähendä · täidā · täno · tänāldā · tänū · täpsô · täpsõlt · tôl · tôsī · tôsītô · tôsītū · tõmbā · tõusô · tüdü · tühjä · tükä · tāgô · tārgô · tārgôr · tā́ga · tē · tēdô · tēdômus · tēg · tēno · tēre · tēvē · tīsdag · tīt · tītkôrd · tītū · tōl · tūļ · tǟs · tȫ · tȫdô · tȫkambôr · udū · um · unôstā · unü · unī · unīstā · usaldômus · usaldā · uus · vabõ · vaesõkõ · vahel · vai · vaik · vaikõ · valdômus · valdā · valgô · valmis · valmistā · valvā · valvāji · valī · valīstā · valū · vana · vanamǟr · vanapǟr · vangô · vanôr · varsü · varā · vasikô · vastômus · vastü · vastā · vastāmus · vastāsaatā · veel · vekk · vendā · verī · vespôr · vetä · veç · veçtorô · veļ · viga · vihān · viljô · villô · vim · vimõ · vingôr · viskā · vist · volē · vool · vormā · votā · väetô · väetā · välk · välkü · värskē · vôidô · vôim · vôistlô · vôistlômus · vôitô · vôitā · vôrk · vôrkkôrd · vôrô · vôtī · vôī · või · vāj · vānô · vānā · vēu · vī · vīrô · vīsū · vīzô · vǟrpēlô · vǟrpēlā · vǟrô · xapkô · xeç · xip · xolkô · xtiri · xumô · xumā · äb · äkkü · ärkā · äsjü · çapkā · çenô · ôblā · ôbē · ôhtôk · ôigus · ôli · ônnô · ôpôkambôr · ôpômus · ôpā · ôpāji · üksü · üksū · üksūldā · üle · ümbär · ürd · āhi · ārgô · ārmastô · ārô · ārā · āst · ēgô · ēgā · īvô · ōra · ōu · ūli · ūpeldā · ūpū · ūsk · ūskô
+ 
+@@ -149,7 +149,7 @@ In-world reference materials describe stratum differences purely as **register**
+ 3. **Stratum ratio:** old stratum is default; late stratum is a thin crust — target ~1 in 6–7 words per batch, reserved for genuinely administrative/technical/recent concepts. When in doubt, soften.
+ 4. **-ū is productive.** Any newly coined postposition ships with its -ū nominalization in the same batch.
+ 5. **Verbs have no infinitive.** The bare stem is citation form, present tense, and the complement of *volē/vôī/pidā*: *Mä volē lugē* "I want to read."
+-6. **Ordinals 3–10 are open for coinage**, regular -nd on the cardinal: *kolmnd, nēļand, vīçnd, kūçnd, seisnd, kōtôksnd, īdôksnd, kīmnd*. *esmī / tôin* remain suppletive.
++6. **SUPERSEDED by §37 and later number rulings.** Do not use the old -nd ordinal rule or the withdrawn Finnic numerals. Current ordinals add **-tô** to the current dozenal cardinal forms.
+ 7. **Superlative is periphrastic:** *kôg* "all" in linking-plus-postposition form **kôust** "of all," before the comparative — *kôust sūrmi* "biggest." No superlative suffix exists; do not coin one.
+ 8. **-lt is invariant** — the source case never harmonizes (unlike goal -lô/-lä). *setmānôlt, matīlt* both correct.
+ 
+@@ -723,4 +723,13 @@ Founder audit: the Romance/Catalan quarry — one of the four founding sources (
+ 
+ ## 77. Translation run 2 merged — commerce vocabulary + the percent system (v5.15)
+ 
+-Second translation practice (NYT grocery-economics article) merged. **Percent system** (founder-ruled): the international **%** symbol kept but read dozenally as "a dozen of dozens" (144); formal term **pôkrosa** (documents, official metrics), slang **krossi** ("100 krossi" = fully certain, 100 base-12 = a full gross). Added to grammar. **Phantom fixed:** *markôt* "market" was used in coursebook examples (incl. the grammar's own vocab table) but never canonized — now a headword, doublet with *turg* (square) / Low German trade-word. Commerce lexicon: langô "fall (of prices)" + langôtā "lower" (causative pair), rabat "discount" (LG), vôistlô/vôistlômus "compete/competition", komprāji "buyer" (from komprā — corrected from an Estonian *ostā* leak caught mid-run), kett "chain of shops", marginôl "margin", büdjet "budget", küsitlô/küsitlômus "poll", rekôrd "record level", lād "category/sort", rohtô "medication" (distinguished from rohô "grass"), taskü "pocket/wallet". Institutions in a foreign-datelined article are translated literally (founder ruling). 1091 headwords.
+\ No newline at end of file
++Second translation practice (NYT grocery-economics article) merged. **Percent system** (founder-ruled): the international **%** symbol kept but read dozenally as "a dozen of dozens" (144); formal term **pôkrosa** (documents, official metrics), slang **krossi** ("100 krossi" = fully certain, 100 base-12 = a full gross). Added to grammar. **Phantom fixed:** *markôt* "market" was used in coursebook examples (incl. the grammar's own vocab table) but never canonized — now a headword, doublet with *turg* (square) / Low German trade-word. Commerce lexicon: langô "fall (of prices)" + langôtā "lower" (causative pair), rabat "discount" (LG), vôistlô/vôistlômus "compete/competition", komprāji "buyer" (from komprā — corrected from an Estonian *ostā* leak caught mid-run), kett "chain of shops", marginôl "margin", büdjet "budget", küsitlô/küsitlômus "poll", rekôrd "record level", lād "category/sort", rohtô "medication" (distinguished from rohô "grass"), taskü "pocket/wallet". Institutions in a foreign-datelined article are translated literally (founder ruling). 1091 headwords.
++
++## 78. FOUNDATION: eventive adjectives (v5.16)
++
++Founder ruling accepted: **eventive adjective** is the name. Nelôxi permits a limited class of adjectives to appear in the ordinary attributive slot before an object noun while characterizing the event carried by the verb rather than the object itself. This is normal grammar, not slang or metrolect. The construction is conventional rather than fully free: strongest with adjectives whose meanings naturally apply to events or actions (cold answer, quick cake), not with every descriptive adjective.
++
++The object keeps its ordinary case, so the existing aspect system remains intact: object **-n** marks bounded/completed action, and partitive **-t/-tô** marks partial, ongoing, or unbounded action. Examples: *Tä donā kylm vastômusôn* "she gives a cold answer / answers coldly"; *Tä küpsā nobē kōkôn* "she bakes a quick cake / bakes the cake quickly"; *Tä küpsā nobē kōkôt* "she is quickly baking cake." Non-eventive readings remain ordinary: *Tä lugē vana livrôn* is "she reads an old book," not "she reads oldly." Module 10 and the coursebook adverb section updated. No lexical change; 1091 headwords.
++## 79. SITE/CORRECTION: numbers reference page retired and replaced (v5.16)
++
++The public `#/numbers` route was still pointed at `college/CHANGE-BRIEF-numbers.md`, a v3.7 transition brief for the withdrawn Germanic base-10 system. Replaced it with `grammar/12-numbers.md`, a current canon reference for dozenal digits, fused 13–23 forms, counted-noun partitive behavior, ordinals, fractions, clock time, and percent. The old change brief is retained only as a historical marker and is no longer routed. Corrected two stale Unit 7 examples in the coursebook: counted nouns after numbers now use partitive singular (*sedôm pǟvôt*, *düna kūt*) and the withdrawn *twētein/-teis* note is removed. Also corrected the boundaries page typo "ô, not ô" back to "ô, not õ" and fixed the charter's active function-word number list, which still named withdrawn numerals. No headword change. 1,091 headwords.
+diff --git a/coursebook/nelo-kel-coursebook.md b/coursebook/nelo-kel-coursebook.md
+index fec528e..50a1cea 100644
+--- a/coursebook/nelo-kel-coursebook.md
++++ b/coursebook/nelo-kel-coursebook.md
+@@ -234,6 +234,8 @@ When a participle cannot carry the load (past tense, its own objects), **ken** "
+ 
+ Adjectives serve as adverbs unchanged: *magā jôvā* "sleep well," *kōrrô nobē* "run fast," *tulē varā* "come early." No ending is added or needed.
+ 
++Nelôxi also has **eventive adjectives**: some adjectives stand before an object noun while describing the action rather than the object. The noun still takes its ordinary case. *Tä donā kylm vastômusôn* means "She gives a cold answer / answers coldly." *Tä küpsā nobē kōkôn* means "She bakes a quick cake / bakes the cake quickly." Object case still marks bounded action; partitive still marks ongoing or unbounded action: *Tä küpsā nobē kōkôt* "She is quickly baking cake."
++
+ ## Now, now-now, and just now
+ 
+ Deictic adverbs of time and place **reduplicate for immediacy**: *nū* "now" → **nūnū** "right now, this instant"; *sīn* "here" → **sīnsīn** "right here"; *sāl* "there" → **sālsāl** "just over there."
+@@ -599,12 +601,10 @@ Notice the dropped pronouns in the answers — once "who" is obvious, it goes un
+ **Practice**
+ 
+ 1. *Ajēr mä tȫdi kōgu pǟvôn.* — Yesterday I worked all day.
+-2. *Setmānôl um sedôm pǟvôd.* — In a week there are sedôm days.
++2. *Setmānôl um sedôm pǟvôt.* — In a week there are seven days.
+ 3. *Tä semprē tulē tard, mai varā.* — He always comes late, never early.
+ 4. *Jōs vim sadā demā, mēg äb lǟdô strāndôlô.* — If it rains tomorrow, we don't go to the beach.
+-5. *Āstôl um twētein kūd.*¹ — In a year there are twelve months.
+-
+-¹ *Teens are formed with **-teis**: ēntein 11, twētein 12, drētein 13 …*
++5. *Āstôl um düna kūt.* — In a year there are twelve months.
+ 
+ ---
+ 
+diff --git a/grammar/00-INDEX.md b/grammar/00-INDEX.md
+index 802e410..54305f6 100644
+--- a/grammar/00-INDEX.md
++++ b/grammar/00-INDEX.md
+@@ -16,8 +16,9 @@ Reading order for a full onboarding:
+ - **07 — Pronouns** — personal, possessive, demonstrative, interrogative, relative, indefinite
+ - **08 — Relations** — spatial & temporal: which cases do the job, the full postposition inventory, known gaps
+ - **09 — Tense & Aspect** — how to say when: the complete time system (no future/perfect by design)
+-- **10 — Adjectives** — the invariance rule (only the noun inflects)
++- **10 — Adjectives** — invariance plus eventive adjectives
+ - **11 — Commands & Suggestions** — the imperative (bare stem) and hortative (-m)
++- **12 — Numbers** — dozenal digits, fused teens, counted nouns, fractions, clock time, and percent
+ 
+ Planned / forthcoming modules:
+ - **05 — Contact History** — the historical story of who brought which words (Hanseatic Low
+@@ -27,3 +28,4 @@ Planned / forthcoming modules:
+ Each module corresponds to a charter ruling (§59, §60, §61, …) where the change is logged.
+ The authoritative source is always `coursebook/nelo-kel-coursebook.md`; these modules are the
+ teachable presentation of what the coursebook encodes.
++
+diff --git a/grammar/10-adjectives.md b/grammar/10-adjectives.md
+index 1bef521..04aa180 100644
+--- a/grammar/10-adjectives.md
++++ b/grammar/10-adjectives.md
+@@ -1,8 +1,8 @@
+-# Nelôxi Grammar — Adjectives (The Invariance Rule)
+-*Foundation module 10 · charter §70*
++# Nelôxi Grammar — Adjectives (Invariance and Eventive Use)
++*Foundation module 10 · charter §70, §78*
+ 
+ > **Read this even if you have never seen Nelôxi before.** It teaches how adjectives behave —
+-> the shortest module, because the rule is one sentence. You need no other file.
++> first the invariance rule, then the eventive pattern. You need no other file.
+ 
+ ## Background you need first
+ 
+@@ -30,7 +30,30 @@ books." The demonstrative comes first: *se vana pūn livrôd* "these old red boo
+ After the copula, the adjective is still bare: *Livrô um vana* "the book is old." *Livrôd um
+ vana* "the books are old" — the adjective does not pluralize even here.
+ 
+-## The two apparent exceptions (which are not exceptions)
++## Eventive adjectives
++
++Some adjectives can sit in the ordinary adjective slot before an object noun while describing the
++event carried by the verb. This is an **eventive adjective**. The noun still takes its normal case;
++the adjective does not inflect.
++
++- *Tä donā kylm vastômusôn* — "She gives a cold answer / answers coldly."
++- *Tä küpsā nobē kōkôn* — "She bakes a quick cake / bakes the cake quickly."
++
++The object's case still does its ordinary aspect work. Object **-n** marks the action as bounded or
++completed; partitive **-t / -tô** marks it as partial, ongoing, or unbounded:
++
++- *Tä küpsā nobē kōkôn* — "She quickly bakes the cake" (bounded/completed).
++- *Tä küpsā nobē kōkôt* — "She is quickly baking cake / baking at the cake" (ongoing/unbounded).
++
++The construction is normal grammar, not slang. It is also not fully free: an eventive reading is
++strongest with adjectives whose meanings naturally apply to actions or events. Ordinary
++descriptive adjectives keep their ordinary noun meaning unless context makes an eventive reading
++natural.
++
++- *Tä lugē vana livrôn* — "She reads an old book," not "she reads oldly."
++- *Tä küpsā bel kōkôn* — "She bakes a beautiful cake," not usually "she bakes beautifully."
++
++## Two apparent exceptions (which are not exceptions)
+ 
+ 1. **Comparative -mi** (*raskmi* "heavier") and the **kui** "than" frame are DERIVATION, not
+    agreement — they change the adjective's meaning, not its case: *raskmi kui ne nǟdô* "heavier
+@@ -48,3 +71,6 @@ carries the grammar.
+ 
+ Never put a case or plural ending on an attributive adjective. If you catch yourself writing
+ *vanad livrôd* or *vanal kōtôl* for "old" — stop; it is *vana livrôd*, *vana kōtôl*.
++
++When using an eventive adjective, put it in the same adjective slot before the object noun and let
++the noun carry the case: *kylm vastômusôn*, *nobē kōkôt*. Do not add an adverbial ending.
+diff --git a/world/boundaries.md b/world/boundaries.md
+index 9c97e2e..298fcad 100644
+--- a/world/boundaries.md
++++ b/world/boundaries.md
+@@ -3,7 +3,7 @@
+ The settled territorial definition of the State of Nelôxia: each city with coordinates and the
+ real-world administrative units absorbed, grouped by region. This is the authoritative map layer;
+ the gazetteer (world/gazetteer.md) carries naming layers and etymologies. Founder-ratified.
+-Orthography normalized to canon (ô, not ô). x = [ks] in the marked proper nouns (§47).
++Orthography normalized to canon (ô, not õ). x = [ks] in the marked proper nouns (§47).
+ 
+ **Seven regions:** Maritime Core & Finnic Heartland · Prussian Anchor · Vistula Delta & Pomeranian
+ Corridor · Baltic Inland Estate Belt · Curonian Land Bridge · Slavic Frontier · Karelian Department.
