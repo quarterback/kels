@@ -42,10 +42,13 @@
     gr_pron:     { title: "Pronouns",          sub: "Module 07 — full paradigm",    file: "grammar/07-pronouns.md",           group: "Grammar", toc: true },
     gr_rel:      { title: "Relations",         sub: "Module 08 — space & time",     file: "grammar/08-relations.md",          group: "Grammar", toc: true },
     gr_tense:    { title: "Tense & aspect",    sub: "Module 09 — saying when",      file: "grammar/09-tense-aspect.md",       group: "Grammar", toc: true },
-    gr_adj:      { title: "Adjectives",        sub: "Module 10 — invariance",       file: "grammar/10-adjectives.md",         group: "Grammar", toc: true }
+    gr_adj:      { title: "Adjectives",        sub: "Module 10 — invariance",       file: "grammar/10-adjectives.md",         group: "Grammar", toc: true },
+    bnd_grammar: { title: "Grammar reference", sub: "Complete grammar, one file",   file: "bundles/BUNDLE-grammar-reference.md", group: "Bundles", toc: true },
+    bnd_domain:  { title: "Domain agent kit",  sub: "For coining vocabulary",       file: "bundles/BUNDLE-domain-agent.md",   group: "Bundles", toc: true },
+    bnd_corpus:  { title: "Corpus agent kit",  sub: "For writing genre texts",      file: "bundles/BUNDLE-corpus-agent.md",   group: "Bundles", toc: true }
   };
 
-  var GROUP_ORDER = ["Learn", "Grammar", "Reference", "Reader", "World", "Dialects", "College", "Briefs"];
+  var GROUP_ORDER = ["Learn", "Grammar", "Reference", "Reader", "World", "Dialects", "College", "Briefs", "Bundles"];
 
   var content = document.getElementById("content");
   var sidebar = document.getElementById("sidebar");
