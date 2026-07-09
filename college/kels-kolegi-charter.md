@@ -673,3 +673,7 @@ The first native naming pass over-Finnicized the Latvian interior (Linnamägi, M
 ## 65. WORLDBUILDING: canonical boundaries ratified (world/boundaries.md)
 
 The territorial definition is settled: coordinates + absorbed real-world administrative units for all 24 cities across six regions (Maritime Core, Prussian Anchor, Baltic Inland Wealth Belt, Curonian Transit Spine, Slavic Frontier Gateways, Karelian Department). Two operational rules adopted as in-world register mechanisms: (1) rail-gauge transfer delay between wide-gauge Slavic interior and Hanseatic maritime-gauge coast — a physical seam matching the linguistic one; (2) Region-3 legal/fiscal documents favor Germanic transactional loans + dozenal accounting, reflecting Baltic-German estate administration. Names normalized to ô. Site manifest updated (World → Boundaries).
+
+## 66. FOUNDATION: full noun declension table (module 06)
+
+Consolidated the case system into one worked reference: four model nouns (kōt consonant/back, mer consonant/front, kalā vowel-final, tappô gradating) run through all eight cases, singular and plural, with the linking-vowel harmony (-ô-/-e-) and consonant gradation interactions shown. No new grammar — this tabulates what §§ across the project already ruled, removing the #1 source of inflection-guessing (delegates leaked Estonian precisely at unmodeled case-forms). Teaching doc grammar/06-declension.md; on the site under Grammar. 1,041 headwords.

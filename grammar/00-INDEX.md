@@ -12,6 +12,7 @@ Reading order for a full onboarding:
   momentane, reflexive)
 - **03 — Consonant Gradation** — the double-stop → single-stop stem alternation
 - **04 — Compounding** — joining existing roots into new words (head-final)
+- **06 — Noun Declension** — the full case table; how any noun runs through every case
 
 Planned / forthcoming modules:
 - **05 — Contact History** — the historical story of who brought which words (Hanseatic Low

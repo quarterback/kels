@@ -37,7 +37,8 @@
     gr_part:     { title: "The partitive",     sub: "Module 01",                    file: "grammar/01-partitive-case.md",     group: "Grammar", toc: true },
     gr_verb:     { title: "Verb derivation",   sub: "Module 02",                    file: "grammar/02-verb-derivation.md",    group: "Grammar", toc: true },
     gr_grad:     { title: "Gradation",         sub: "Module 03",                    file: "grammar/03-consonant-gradation.md",group: "Grammar", toc: true },
-    gr_comp:     { title: "Compounding",       sub: "Module 04",                    file: "grammar/04-compounding.md",        group: "Grammar", toc: true }
+    gr_comp:     { title: "Compounding",       sub: "Module 04",                    file: "grammar/04-compounding.md",        group: "Grammar", toc: true },
+    gr_decl:     { title: "Noun declension",   sub: "Module 06 — full case table",  file: "grammar/06-declension.md",         group: "Grammar", toc: true }
   };
 
   var GROUP_ORDER = ["Learn", "Grammar", "Reference", "Reader", "World", "Dialects", "College", "Briefs"];
