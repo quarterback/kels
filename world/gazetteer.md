@@ -28,6 +28,9 @@ spelling kept as a scar · **(archaic-x)** ceremonial [ks] · **(hybrid)** loan 
 
 ## The Vistula Delta & Pomeranian corridor (the Hanseatic bridge — German/Baltic scars)
 
+The Polish-Pomeranian stretch that physically connects the Kaliningrad anchor to the rest of the
+state — Hanseatic port cities with heavy German-Danzig naming history.
+
 - **Tantsika** — Gdańsk/Danzig. *(archaic-x)* the great Hanseatic city; Danzig via x=[ks]: *tan-TSI-ka*. The crown of the trading state.
 - **Elbinki** — Elbląg/Elbing. *(raw loan)* Low German *Elbing* kept, Baltic *-i*; the coastal land-bridge hinge.
 - **Marianbôrk** — Malbork/Marienburg. *(raw loan)* the Teutonic castle-town, German *-bôrk* from *-burg*; interior river anchor.
@@ -51,16 +54,6 @@ the land.
 - **Pillô** — Baltiysk/Pillau. *(nativized)* the naval deepwater port.
 - **Rauschenbôrk** — Svetlogorsk. *(raw loan)* German *Rauschenburg*, keeps *sch*; terminal *-bôrk* from *-burg*. Sea-baths, amber, coastal towers.
 - **Fischūsô** — Primorsk. *(raw loan)* Low German *Fischhausen* "fish-houses"; **keeps German *f* and *sch* as fossils** (corrected only *û→ū*, *õ→ô*). Lagoon fishing & boatbuilding.
-
-## The Vistula Delta & Pomeranian corridor (the contiguous land bridge to the core)
-
-The Polish-Pomeranian stretch that physically connects the Kaliningrad anchor to the rest of the
-state — Hanseatic port cities with heavy German-Danzig naming history.
-
-- **Tantsika** — Gdańsk. *(archaic-x)* nativized *Danzig*, x=[ks]: *tant-SEE-ka*. The great delta port.
-- **Elbinki** — Elbląg. *(nativized)* the coastal land-bridge town linking the delta to Kaliningrad.
-- **Marianbôrk** — Malbork. *(raw loan)* the German *Marienburg* castle-town, keeps *-bôrk*; interior river anchor.
-- **Puka** — Puck. *(nativized)* the western maritime buffer on the Hel Peninsula.
 
 ## The Curonian land bridge (Baltic/Curonian, mixed)
 
