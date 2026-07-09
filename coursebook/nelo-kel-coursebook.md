@@ -77,6 +77,29 @@ the object carries it.
 Forms: vowel-final root + **-t** (*lēte* → *lētet*, *kalā* → *kalāt*); consonant-final root +
 linking vowel + **-tô/-tä** (*pan* → *pant*, *sōl* → *sōlat*, harmonizing).
 
+### Consonant gradation
+
+Nelôxi has a **light, regular consonant gradation**: a double stop **kk, pp, tt** at the end of
+a stem weakens to a single **k, p, t** when an ending is added that closes the syllable (the
+case and possessive endings, and the past tense). The strong (double) grade appears in the
+bare/dictionary form; the weak (single) grade appears before most endings.
+
+| Strong (bare) | Weak (inflected) |
+|---|---|
+| **kk → k** | *tappô* "deed" → *tapôn* "the deed (obj.)" |
+| **pp → p** | *noppô* "a pick, choice" → *nopôs* "of the choice" |
+| **tt → t** | *jättô* "leaving" → *jätôl* "at the leaving" |
+
+The gradation is **only** this one alternation (double stop → single stop). There is no other
+mutation: all other consonants are stable, and a stem with a single stop or no stop never
+changes. Vowel-final stems (the large majority of the lexicon) are unaffected entirely.
+
+Verbs gradate the same way in the past tense: *jättā* "to leave" → *jäti* "left"; *noppā* "to
+pick" → *nopi* "picked."
+
+This gives the language the characteristic Finnic stem-alternation without the dense, irregular
+gradation of Finnish or Estonian — one rule, no exceptions, applying only to final double stops.
+
 Plural: **-d** — *kōtôd* "houses," *livrôd* "books." Case endings follow the plural: *kōtôdôl* "in the houses."
 
 The place case is broad; the verb usually settles its direction. *Tulē meçāl* "comes from the forest" (coming implies origin); *kǟvô meçāl* "walks in the forest." When the verb does not decide, the explicit source **-lt** steps in: *Lil um meçālt* "the flower is *from* the forest."
