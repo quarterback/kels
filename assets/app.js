@@ -245,34 +245,21 @@
 
   // --- Home view ----------------------------------------------------------
   function renderHome() {
-    showLoading();
-    loadDict().then(function (rows) { drawHome(rows.length); })
-              .catch(function () { drawHome(null); });
-  }
-
-  function drawHome(count) {
     var cards = [
-      ["#/coursebook", "Coursebook", "The full reference grammar and master dictionary — canon."],
-      ["#/dictionary", "Dictionary", "Search every headword and its gloss, live."],
-      ["#/reverse", "Reverse index", "Start from English, find the Nelôxi word."],
-      ["#/reader", "Reader", "One scene in two registers, side by side."],
-      ["#/verbs", "Verb reference", "The verb system in one digest."],
-      ["#/charter", "Charter", "The College's protocol and full ruling log."]
+      ["#/coursebook", "Coursebook", "The grammar and the master dictionary."],
+      ["#/dictionary", "Dictionary", "Search a Nelôxi headword for its gloss."],
+      ["#/reverse", "Reverse index", "Start from English, reach the Nelôxi word."],
+      ["#/reader", "Reader", "Corpus texts: a market scene, a haggling, a recipe."],
+      ["#/verbs", "Verb reference", "The verb system in one page."],
+      ["#/charter", "Charter", "The College's protocol and ruling log."]
     ];
     var html =
       '<section class="hero">' +
       '<div class="hero-mark">ô</div>' +
       "<h1>Nelô kēļ</h1>" +
       '<div class="pron">the Nelôxi language · <em>nel-OX-ee</em></div>' +
-      '<p class="lede">A constructed language with Finnic grammar under multi-directional loan contact — ' +
-      "Low German, Scandinavian, and Slavic — kept by the Kēļs Kolēgi, the College of Language.</p>" +
+      '<p class="lede">Reference grammar, course, and dictionary, kept by the Kēļs Kolēgi.</p>' +
       "</section>" +
-      '<div class="stat-row">' +
-        '<div class="stat"><div class="num">' + (count != null ? count : "—") + '</div><div class="lbl">headwords</div></div>' +
-        '<div class="stat"><div class="num">5+2</div><div class="lbl">noun cases</div></div>' +
-        '<div class="stat"><div class="num">12</div><div class="lbl">number base</div></div>' +
-        '<div class="stat"><div class="num">2</div><div class="lbl">dialects</div></div>' +
-      "</div>" +
       '<div class="cards">';
     cards.forEach(function (c) {
       html += '<a class="card" href="' + c[0] + '"><h3>' + c[1] + "</h3><p>" + c[2] + "</p></a>";
