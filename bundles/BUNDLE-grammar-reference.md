@@ -24,7 +24,7 @@ Reading order for a full onboarding:
 - **07 — Pronouns** — personal, possessive, demonstrative, interrogative, relative, indefinite
 - **08 — Relations** — spatial & temporal: which cases do the job, the full postposition inventory, known gaps
 - **09 — Tense & Aspect** — how to say when: the complete time system (no future/perfect by design)
-- **10 — Adjectives** — the invariance rule (only the noun inflects)
+- **10 — Adjectives** — invariance plus eventive adjectives
 - **11 — Commands & Suggestions** — the imperative (bare stem) and hortative (-m)
 
 Planned / forthcoming modules:
@@ -638,11 +638,11 @@ again · *jubā* already · *veel* still.
 
 ---
 
-# Nelôxi Grammar — Adjectives (The Invariance Rule)
-*Foundation module 10 · charter §70*
+# Nelôxi Grammar — Adjectives (Invariance and Eventive Use)
+*Foundation module 10 · charter §70, §78*
 
 > **Read this even if you have never seen Nelôxi before.** It teaches how adjectives behave —
-> the shortest module, because the rule is one sentence. You need no other file.
+> first the invariance rule, then the eventive pattern. You need no other file.
 
 ## Background you need first
 
@@ -670,7 +670,30 @@ books." The demonstrative comes first: *se vana pūn livrôd* "these old red boo
 After the copula, the adjective is still bare: *Livrô um vana* "the book is old." *Livrôd um
 vana* "the books are old" — the adjective does not pluralize even here.
 
-## The two apparent exceptions (which are not exceptions)
+## Eventive adjectives
+
+Some adjectives can sit in the ordinary adjective slot before an object noun while describing the
+event carried by the verb. This is an **eventive adjective**. The noun still takes its normal case;
+the adjective does not inflect.
+
+- *Tä donā kylm vastômusôn* — "She gives a cold answer / answers coldly."
+- *Tä küpsā nobē kōkôn* — "She bakes a quick cake / bakes the cake quickly."
+
+The object's case still does its ordinary aspect work. Object **-n** marks the action as bounded or
+completed; partitive **-t / -tô** marks it as partial, ongoing, or unbounded:
+
+- *Tä küpsā nobē kōkôn* — "She quickly bakes the cake" (bounded/completed).
+- *Tä küpsā nobē kōkôt* — "She is quickly baking cake / baking at the cake" (ongoing/unbounded).
+
+The construction is normal grammar, not slang. It is also not fully free: an eventive reading is
+strongest with adjectives whose meanings naturally apply to actions or events. Ordinary
+descriptive adjectives keep their ordinary noun meaning unless context makes an eventive reading
+natural.
+
+- *Tä lugē vana livrôn* — "She reads an old book," not "she reads oldly."
+- *Tä küpsā bel kōkôn* — "She bakes a beautiful cake," not usually "she bakes beautifully."
+
+## Two apparent exceptions (which are not exceptions)
 
 1. **Comparative -mi** (*raskmi* "heavier") and the **kui** "than" frame are DERIVATION, not
    agreement — they change the adjective's meaning, not its case: *raskmi kui ne nǟdô* "heavier
@@ -688,6 +711,9 @@ carries the grammar.
 
 Never put a case or plural ending on an attributive adjective. If you catch yourself writing
 *vanad livrôd* or *vanal kōtôl* for "old" — stop; it is *vana livrôd*, *vana kōtôl*.
+
+When using an eventive adjective, put it in the same adjective slot before the object noun and let
+the noun carry the case: *kylm vastômusôn*, *nobē kōkôt*. Do not add an adverbial ending.
 
 ---
 

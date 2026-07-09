@@ -1,7 +1,7 @@
 # Nelôxi — DOMAIN AGENT BUNDLE (self-contained)
 
 > Everything you need to coin vocabulary for one domain. You need no other file.
-> Canon v5.15, 1091 headwords. Read top to bottom, then produce ONE domain batch.
+> Canon v5.16, 1091 headwords. Read top to bottom, then produce ONE domain batch.
 
 ---
 
