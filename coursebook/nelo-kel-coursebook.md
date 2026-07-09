@@ -234,7 +234,7 @@ When a participle cannot carry the load (past tense, its own objects), **ken** "
 
 Adjectives serve as adverbs unchanged: *magā jôvā* "sleep well," *kōrrô nobē* "run fast," *tulē varā* "come early." No ending is added or needed.
 
-Nelôxi also has **eventive adjectives**: some adjectives stand before an object noun while describing the action rather than the object. The noun still takes its ordinary case. *Tä donā kylm vastômusôn* means "She gives a cold answer / answers coldly." *Tä küpsā nobē kōkôn* means "She bakes a quick cake / bakes the cake quickly." Object case still marks bounded action; partitive still marks ongoing or unbounded action: *Tä küpsā nobē kōkôt* "She is quickly baking cake."
+Nelôxi also has **eventive adjectives**: some adjectives stand before an object noun while describing the action rather than the object — conventional rather than freely productive, and strongest with manner-like qualities (quick, sudden, cold, sharp, quiet, careful, rough). The noun still takes its ordinary case. *Tä donā kylm vastômusôn* means "She gives a cold answer / answers coldly." *Tä küpsā nobē kōkôn* means "She bakes a quick cake / bakes the cake quickly." Object case still marks bounded action; partitive still marks ongoing or unbounded action: *Tä küpsā nobē kōkôt* "She is quickly baking cake."
 
 ## Now, now-now, and just now
 
@@ -341,12 +341,16 @@ fused teen), *klôk düna* "at noon (12:00)," *klôk nolô* "at midnight." Writt
 *Mōndag, 13. jūli, klôk dünxeç* "Monday, July 13, 18:00." Casual speech may add the time of day
 (*klôk xeç ôhtôl* "six in the evening") but the standard is the plain 24-hour number.
 
-**Percent.** Nelôxia keeps the international **%** symbol but reads it dozenally — the two
-circles are taught as "a dozen of dozens" (the full gross, 144). The formal term is **pôkrosa**
-(government documents, technical readouts, official metrics): *80%* read aloud as a measure of
-pôkrosa. The casual term is **krossi** — full certainty is "*jedôn-nolô-nolô krossi*" (100 in
-base-12 = a full gross). So *61%* is a pôkrosa figure in a report; "I'm 100 krossi sure" is the
-street idiom.
+**Percent.** Nelôxia keeps the international **%** symbol unchanged — the same mark on every
+keyboard, ledger form, and readout — and it means what it means everywhere: **per hundred**. The
+difference is what "100" is: in a base-12 count, *100* (*jedôn-nolô-nolô*) is 12² — **a full
+gross, 144**. A percentage is a fraction of the gross, so the figures do not map one-to-one onto
+decimal ones: *100%* is still the whole (144/144), but half is **60%** (60 in base-12 is 72,
+and 72/144 = ½), not 50%. The formal term is **pôkrosa** (government documents, official
+metrics, civic and technical readouts): *61%* is a pôkrosa figure in a report. The casual term
+is **krossi** — full certainty is *jedôn-nolô-nolô krossi*, a full gross of certainty: "I'm 100
+krossi sure" is the street idiom. (Schoolbooks still point at the symbol's two circles as "a
+dozen of dozens" — a mnemonic for the gross, not the mechanism.)
 
 ## Letter-names and acronyms
 
@@ -601,12 +605,10 @@ Notice the dropped pronouns in the answers — once "who" is obvious, it goes un
 **Practice**
 
 1. *Ajēr mä tȫdi kōgu pǟvôn.* — Yesterday I worked all day.
-2. *Setmānôl um sedôm pǟvôd.* — In a week there are sedôm days.
+2. *Setmānôl um sedôm pǟvôt.* — In a week there are seven days.
 3. *Tä semprē tulē tard, mai varā.* — He always comes late, never early.
 4. *Jōs vim sadā demā, mēg äb lǟdô strāndôlô.* — If it rains tomorrow, we don't go to the beach.
-5. *Āstôl um twētein kūd.*¹ — In a year there are twelve months.
-
-¹ *Teens are formed with **-teis**: ēntein 11, twētein 12, drētein 13 …*
+5. *Āstôl um düna kūt.* — In a year there are twelve months.
 
 ---
 
@@ -734,7 +736,7 @@ Notice the dropped pronouns in the answers — once "who" is obvious, it goes un
 
 **E** — edä onward, forward · eest for, in exchange for (postp.) · egü surely not, right? (negative tag) · ehitômus construction, building work · ehitā to build, construct · ehk or; perhaps · ekõ right?, isn’t it? (tag question, post-clause) · elva eleven · elômus life, living · elā to live, dwell · enne before (in time), earlier (postp./adv.) · ennū the past, former times · ernē pea · eskerrē left (side) · eskōl school · esmõks first, firstly · estēl star · et that (introduces a clause) · äsjü just now, a moment ago · ēgô tie, draw · ēgā to tie, draw
 
-**F** — failô file (late-stratum) · famīl·la family · febrôr February · felīç happy · finest window · flag flag, ensign (late-stratum) · fluks at once! (interjection, merchant register; late-stratum) · flōp weak, limp; a flop (coarse) · flœzī cream-filled pastry (Belgian import); (by extension) any donut or filled sweet dough · flūk curse, hex, bad luck (coarse) · flūkā to curse, hex (coarse) · fonô phone (late-stratum) · fonômus phone call (late-stratum) · fonā to phone, call (late-stratum) · fort strong · fotô photograph (late-stratum) · fotā to photograph (late-stratum) · frīdag Friday · frūt fruit · futrā to fuck (obscene) · futôr fucker, bastard (vulgar) · fān damn, hell; the devil (interj./n., coarse) · fāndô to curse, to damn (coarse) · fīnô fine, penalty
+**F** — failô file (late-stratum) · famīl·la family · febrôr February · felīç happy · finest window · flag flag, ensign (late-stratum) · fluks at once! (interjection, merchant register; late-stratum) · flōp weak, limp; a flop (coarse) · flœzī cream-filled pastry (Belgian import); (by extension) any donut or filled sweet dough · flūk curse, hex, bad luck (coarse) · flūkā to curse, hex (coarse) · fonô phone (late-stratum) · fonômus phone call (late-stratum) · fonā to phone, call (late-stratum) · fort strong · fotô photograph (late-stratum) · fotā to photograph (late-stratum) · frīdag Friday · frūt fruit · futrā to fuck (obscene) · futôr fucker, bastard (vulgar) · fān damn, hell; the devil (interj./n., coarse) · fāndô to curse, to damn (coarse) · fīnô fine, penalty · fȫrô the lead, front position (in a race or contest) (late-stratum)
 
 **G** — genô parent · glup stupid, thick-headed (coarse) · glupôr idiot, fool, blockhead (coarse) · gos dog · grançô border crossing (late-stratum) · gribô mushroom (Marīsô, slav; cf. native pôlū) · grosô gross, 144 (a dozen dozens) · grīs grey (late-stratum)
 
@@ -758,7 +760,7 @@ Notice the dropped pronouns in the answers — once "who" is obvious, it goes un
 
 **Ô** — ôblā to sew · ôbē silver · ôhtôk evening meal, supper · ôigus right, correct; you’re right · ôli oil · ônnô luckily, fortunately · ôpôkambôr classroom · ôpômus learning, study · ôpā to learn, study · ôpāji student, learner
 
-**P** — pa bread · padā pot · pakkü to pack, wrap up · paks thick (of a liquid) · pakā frost, hard cold · palô please · pannô pan · panā to put, place · papôr paper (late-stratum) · parandômus repair, mending · parandā to mend, repair · pardô sorry · pardômus forgiveness · pardā to forgive · parlā to speak · pehmē soft · pehā almost, nearly · pelgô to fear · perēm prize, award (late-stratum) · petīt small · peñç five · pidômus duty, obligation · pidā must, to have to · pigõm rather, sooner · piisā to be enough, suffice · pik prick, cock (obscene) · pikā to stab, pierce; (vulgar) to fuck (obscene) · pildô image, picture · piletô ticket (late-stratum) · pillā to drop, spill · pilv cloud · pipôr pepper (late-stratum) · pirôg filled pastry (Marīsô, slav) · pitkin along (postp.) · plat plate · plinô pancake, griddle cake (Marīsô, slav) · poig son · pomp pompous fool, windbag (coarse) · pomā apple · pont bridge · port door · potô pot, vessel · praadi to fry, saute (late-stratum) · praadā to fry (late-stratum) · praul brown (late-stratum) · prop near · prēu price · prōm booze, cheap liquor (coarse) · prōmôr drunkard, soak (coarse) · prōmām tavern, grog-shop (coarse) · puhād clean · puhādtȫ sanitation, cleaning service · puhādôr cleaner, sanitation worker · puhādā to erase, clean off · pulmô wedding, marriage · pulmā to marry, wed · punktô point, score unit · punktā to score · purjē sail · purpôr purple (late-stratum) · putān whore, prostitute (obscene) · putānikōt brothel (obscene) · päikü sunshine, bright sun · päriji heir · pärômus inheritance, legacy · pärā to inherit · pôhjô reason, cause · pôhjôldā to reason, think through · pôhô base, foundation; bottom, floor (of sea/river) · pôhôlēgô constitution, basic law · pôjā north · pôkrosa percent (formal term; the % symbol read dozenally) · pôlvô generation · pôlū mushroom · pôrsô piglet · pöördô to turn, turn around · püstü upright, standing · püsā to stop, halt · püsām stop, stopping place · pārkô public park (late-stratum) · pāsportô passport (late-stratum) · pāsā to pass · pēlô game, play · pēlā to play · pēlāji player · pēlām field, court · pēu foot · pīrô border, boundary · pīrôlubômus border permit · pīrôsegas border mixture, mixed border life · pīrôsitāt border city · pōl toward, in the direction of (postp.) · pōlkindõl not sure, uncertain · pōlpardõ it’s all right, no harm (reassurance) · pōr fear (n.) · pū tree · pūmô wood, timber · pūn red · pūst empty, barren; (vulgar) spent, worthless (coarse) · pǟl about, concerning (postp.) · pǟlū topic, subject · pǟr father · pǟvô day
+**P** — pa bread · padā pot · pakkü to pack, wrap up · paks thick (of a liquid) · pakā frost, hard cold · palô please · pannô pan · panā to put, place · papôr paper (late-stratum) · parandômus repair, mending · parandā to mend, repair · pardô sorry · pardômus forgiveness · pardā to forgive · parlā to speak · pehmē soft · pehā almost, nearly · pelgô to fear · perēm prize, award (late-stratum) · petīt small · peñç five · pidômus duty, obligation · pidā must, to have to · pigõm rather, sooner · piisā to be enough, suffice · pik prick, cock (obscene) · pikā to stab, pierce; (vulgar) to fuck (obscene) · pildô image, picture · piletô ticket (late-stratum) · pillā to drop, spill · pilv cloud · pipôr pepper (late-stratum) · pirôg filled pastry (Marīsô, slav) · pitkin along (postp.) · plat plate · plinô pancake, griddle cake (Marīsô, slav) · poig son · pomp pompous fool, windbag (coarse) · pomā apple · pont bridge · port door · potô pot, vessel · praadi to fry, saute (late-stratum) · praadā to fry (late-stratum) · praul brown (late-stratum) · prop near · prēu price · prōm booze, cheap liquor (coarse) · prōmôr drunkard, soak (coarse) · prōmām tavern, grog-shop (coarse) · puhād clean · puhādtȫ sanitation, cleaning service · puhādôr cleaner, sanitation worker · puhādā to erase, clean off · pulmô wedding, marriage · pulmā to marry, wed · punktô point, score unit · punktā to score · purjē sail · purpôr purple (late-stratum) · putān whore, prostitute (obscene) · putānikōt brothel (obscene) · päikü sunshine, bright sun · päriji heir · pärômus inheritance, legacy · pärā to inherit · pôhjô reason, cause · pôhjôldā to reason, think through · pôhô base, foundation; bottom, floor (of sea/river) · pôhôlēgô constitution, basic law · pôjā north · pôkrosa percent (formal term; per hundred, the hundred a full gross) · pôlvô generation · pôlū mushroom · pôrsô piglet · pöördô to turn, turn around · püstü upright, standing · püsā to stop, halt · püsām stop, stopping place · pārkô public park (late-stratum) · pāsportô passport (late-stratum) · pāsā to pass · pēlô game, play · pēlā to play · pēlāji player · pēlām field, court · pēu foot · pīrô border, boundary · pīrôlubômus border permit · pīrôsegas border mixture, mixed border life · pīrôsitāt border city · pōl toward, in the direction of (postp.) · pōlkindõl not sure, uncertain · pōlpardõ it’s all right, no harm (reassurance) · pōr fear (n.) · pū tree · pūmô wood, timber · pūn red · pūst empty, barren; (vulgar) spent, worthless (coarse) · pǟl about, concerning (postp.) · pǟlū topic, subject · pǟr father · pǟvô day
 
 **R** — rabat discount, price-reduction (Low German) · rahu calm, inner peace · rahuldā to calm, soothe · rahutõ to calm down, settle · rahvô people, public · raksô race · raksā to race, compete by speed · rannã coast, seaside · rask heavy · ratô wheel · raud iron · ravôji guardian, caretaker · ravā to raise, rear, care for · redē dirty · reisā to travel · rekôrd record, record level (late-stratum) · rekôt racket, bat (late-stratum) · rik rich · rikā to damage, break · rindô line of writing · riul shelf (late-stratum) · rohtô medicine, medication (cf. rohô "grass"; the healing-herb sense) · rohô grass · roiskô waste, refuse, trash · rôhī green · rôim delight, gladness · rôimā to rejoice · röstā to roast · rā money · rādjo radio (late-stratum) · rājô track, course · rānd shore, waterside (the older, broader word) · rāndôr coastline · rēdā to judge, decide · rēdāji judge · rēdām court, tribunal · rētô right, entitlement · rīgô state, country (late-stratum) · rīst tool · rōkā to gut, clean (fish) · rōs pink · rūbā to grate, shred · rūnô letter, character · rūnôkôrd alphabet · rǟkõ to talk, tell · rǟkõmus talk, telling
 

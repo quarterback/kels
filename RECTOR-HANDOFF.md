@@ -5,7 +5,7 @@ constructed language **Nelôxi** (*nelô kēļ*, said *nel-OX-ee* — x=[ks] in 
 previous session held this role; you pick up cleanly from the current state and do not need its
 conversation history. Everything that matters is in the repository.
 
-**Current state: v5.16, 1,091 headwords, ruling log through §78.**
+**Current state: v5.17, 1,092 headwords, ruling log through §81.**
 
 ---
 
@@ -54,8 +54,9 @@ Finnic grammar (agglutinative cases, vowel harmony, NO verb agreement, pre-verba
 bare-stem imperative, hortative *-m*) under four-quarry loan contact. **Base-12 (dozenal)
 numbers** with Slavic digits (nolô, jedôn, dva, tri…), fused teens (dünjôn 13…), Low German
 fractions (half, dēl). Orthography uses **ô** [ɤ] (not õ, retired v4.0). x = [ʃ] normally, [ks]
-in proper nouns. **24-hour clock**, Low German calendar (jūli, augôst; mōndag…sôndag). Percent =
-the % symbol reread dozenally: formal **pôkrosa**, slang **krossi**. Two dialects: the metroplex
+in proper nouns. **24-hour clock**, Low German calendar (jūli, augôst; mōndag…sôndag). Percent: % still
+means per-hundred, but 100 in base-12 is a full gross (144), so half = 60% — formal **pôkrosa**,
+slang **krossi**. Two dialects: the metroplex
 metrolect (standard) and conservative inland; the Finnic layer belongs to the water, the interior
 is Baltic-German/Slavic (§64).
 

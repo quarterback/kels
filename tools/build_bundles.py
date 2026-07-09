@@ -153,6 +153,7 @@ GRAMMAR_MODULES = [
     "grammar/09-tense-aspect.md",
     "grammar/10-adjectives.md",
     "grammar/11-commands.md",
+    "grammar/12-numbers.md",
 ]
 grammar = assemble([
     bundle_top("COMPLETE GRAMMAR REFERENCE",

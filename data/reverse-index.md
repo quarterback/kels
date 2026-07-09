@@ -1,6 +1,6 @@
 # Nelô kēļ — English → Nelôxi Reverse Index
 
-*Generated from the coursebook master dictionary (1091 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
+*Generated from the coursebook master dictionary (1092 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
 
 
 ## A
@@ -510,6 +510,7 @@ fresh (of food) → **värskē**
 Friday → **frīdag**  
 friend → **amīk**  
 from now on → **nūlt**  
+front position (in a race or contest) → **fȫrô**⁺  
 frost → **pakā**  
 fruit → **frūt**  
 fry (v.) → **praadi**⁺ · **praadā**⁺  
@@ -954,6 +955,7 @@ pen → **sulô**
 penalty → **fīnô**  
 people → **rahvô**  
 pepper → **pipôr**⁺  
+per hundred, the hundred a full gross) → **pôkrosa**  
 percent (formal term → **pôkrosa**  
 percent (slang → **krossi**  
 perhaps → **ehk** · **äkkü**  
@@ -1328,10 +1330,10 @@ that (introduces a clause) → **et**
 that kind of → **sellü**  
 that-there → **tuo**  
 thaw → **sulā**  
-the % symbol read dozenally) → **pôkrosa**  
 the box (clipped colloquial) → **taiki**  
 the devil (interj./n., coarse) → **fān**  
 the healing-herb sense) → **rohtô**  
+the lead → **fȫrô**⁺  
 the past → **ennū**  
 the same → **samā**  
 the same way → **samū**  
