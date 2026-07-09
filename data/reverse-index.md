@@ -1,6 +1,6 @@
 # Nelô kēļ — English → Nelôxi Reverse Index
 
-*Generated from the coursebook master dictionary (1041 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
+*Generated from the coursebook master dictionary (1043 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
 
 
 ## A
@@ -1266,8 +1266,10 @@ test → **kaçô** · **kaçā**
 testicles → **klȫtô**  
 thank you → **täno**  
 that → **se**  
+that (far) → **tuo**  
 that (introduces a clause) → **et**  
 that kind of → **sellü**  
+that-there → **tuo**  
 thaw → **sulā**  
 the box (clipped colloquial) → **taiki**  
 the devil (interj./n., coarse) → **fān**  
@@ -1284,7 +1286,9 @@ think through → **pôhjôldā**
 thirst → **jān** · **jānô**  
 thirteen → **dünjôn**  
 this → **se**  
+this (near) → **sedä**  
 this way → **niimôdõ**  
+this-here → **sedä**  
 thought → **môtô**  
 thread → **lông**  
 three → **tri**  

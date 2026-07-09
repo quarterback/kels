@@ -738,6 +738,7 @@ satām
 savī
 sañô
 se
+sedä
 sedôm
 seejärõl
 segas
@@ -871,6 +872,7 @@ tuisk
 tulē
 tumô
 tundô
+tuo
 turg
 tyhjā
 tytār

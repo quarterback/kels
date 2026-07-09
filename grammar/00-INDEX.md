@@ -13,6 +13,7 @@ Reading order for a full onboarding:
 - **03 — Consonant Gradation** — the double-stop → single-stop stem alternation
 - **04 — Compounding** — joining existing roots into new words (head-final)
 - **06 — Noun Declension** — the full case table; how any noun runs through every case
+- **07 — Pronouns** — personal, possessive, demonstrative, interrogative, relative, indefinite
 
 Planned / forthcoming modules:
 - **05 — Contact History** — the historical story of who brought which words (Hanseatic Low
