@@ -128,6 +128,32 @@ A noun becomes a verb — "to engage in, work with, produce X" — with **-stā*
 
 A noun becomes a **verb of mental activity** — "to perform the mental action of X" — with **-ldā** (harmonized *-ldā/-ldä*; linking *-ôldā/-eldä* after a consonant): *môtô* "thought" → *môtôldā* "to think," *arvô* "number" → *arvôldā* "to count, reckon," *kāldô* "doubt" → *kāldôldā* "to doubt."
 
+### Verb-to-verb derivation (the stem chains)
+
+A single verb root generates a family of related verbs through four productive chains. This is
+how Nelôxi builds verbs from verbs instead of borrowing — apply the chain, do not coin anew.
+
+**Causative — *-tā/-tä* — "make/cause X to happen, have X done":**
+*kūlô* "to hear" → *kūlôtā* "to make hear, announce"; *sȫ* "to eat" → *sȫtä* "to feed";
+*kadô* "to vanish" → *kadôtā* "to make disappear, get rid of." Adds an agent who causes the action.
+
+**Frequentative — *-ilā/-elä* — "keep doing X, do X repeatedly/habitually":**
+*lôigā* "to cut" → *lôigilā* "to keep cutting, cut away at"; *nǟgô* "to see" → *nǟgilä* "to keep
+looking, gaze"; *koput* "to knock" → *koputelä* "to keep knocking." Marks repeated or ongoing action.
+
+**Momentane — *-ahtā/-ähtä* — "do X once, suddenly, in a single burst":**
+*naurô* "to laugh" → *naurahtā* "to give a laugh, laugh once"; *nǟgô* "to see" → *nǟgahtā* "to
+glance"; *līkô* "to move" → *līkahtā* "to give a start, twitch." The opposite of the frequentative.
+
+**Reflexive/automative — *-u/-y* — "X happens to the subject; do X to oneself; become X-ed":**
+*avā* "to open (something)" → *avau* "to open (by itself), come open"; *kôrdā* "to fix" →
+*kôrdau* "to get fixed, come right"; *pesô* "to wash" → *pesu* "to wash oneself." Removes the
+external agent; the action turns back on the subject or happens of itself.
+
+These stack: *sȫ* "eat" → *sȫtä* "feed" → *sȫtätä* "have someone fed"; *avā* "open" → *avau*
+"come open" → *avautelä* "keep coming open." A contributor needing "to feed," "to keep
+glancing," or "to come loose" derives it — the chain already exists.
+
 A verb yields a **place or arena of the action** with **-ām/-äm**: *rēdā* "to judge" → *rēdām* "court," *pēlā* "to play" → *pēlām* "field," *lēsô* "lesson" → *lēsām* "course."
 
 A noun or adjective yields a **person associated with it** with **-ôr**: *nôuk* "council" → *nôukôr* "councillor," *sugô* "kin" → *sugôr* "kinsperson," *kēļ* "language" → *kēļôr* "grammarian." (Distinct from **-ji**, which makes a doer from a *verb*: *lugē* → *lugēji*.)
