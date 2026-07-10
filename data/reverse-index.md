@@ -1,6 +1,6 @@
 # Nelô kēļ — English → Nelôxi Reverse Index
 
-*Generated from the coursebook master dictionary (1650 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
+*Generated from the coursebook master dictionary (1649 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
 
 
 ## A
@@ -592,7 +592,6 @@ dirty → **redē**
 dirty scheme (coarse) → **trīk**  
 disappear → **kadô**  
 disc (Low German Platte) → **platô**  
-disc jockey (written DZ → **dēzē**  
 discard (v.) → **jättā**  
 discount → **rabat**  
 discuss (Romance) (v.) → **diskutā**  
@@ -608,9 +607,8 @@ distinct from vundô battle-wound, haavômus emotional-wound) → **ranô**
 distinct from āhi oven) → **peçô**  
 divide (from jagô) → **jagā**  
 dizziness → **svindôl**  
-DJ → **dēzē**  
 DJ (from dīdžē) (v.) → **dīdžēstā**  
-DJ (international → **dīdžē**  
+DJ (written DZ → **dīdžē**  
 do battle (Low German) → **kampā**  
 dock → **tillô**⁺  
 dockside insult for clergy who sell blessings) → **tōlpreverô**  
@@ -1083,7 +1081,7 @@ institutional, cf. ūsk 'belief') → **fīdô**
 instructor → **talçāji**  
 insult for a corrupt or drunken church fair (folk/polemical → **düvēlmarkôt**  
 insult for an out-group denomination (slur → **drōksektô**  
-international/scar) → **dēzē**  
+international, keeps the dž scar) → **dīdžē**  
 intestine (Low German → **sool**  
 into the water → **vetä**  
 invitation → **kutsô**  
@@ -1128,7 +1126,7 @@ just over there → **sālsāl**
 
 kantele-type plucked box (Karelian) → **kantelô**  
 keep up → **hoolā**  
-keeps the dž scar) → **dīdžē** · **džezô**  
+keeps the dž scar) → **džezô**  
 kettledrum (Romance/Italian) → **timpanô**  
 key → **nupô** · **vôtī**  
 keyboard → **klavôr**⁺  
@@ -1738,7 +1736,7 @@ sacred grove → **sakrôpūmô**
 sacrifice (Romance/Latin) → **sakrifīçô**  
 sacristy (Romance/Latin church) → **sakristī**  
 sad → **tirist**  
-said "DJ" → **dēzē**  
+said "DJ" → **dīdžē**  
 sail → **purjē** · **seilā**  
 sailor → **matrūs**  
 saint → **santô**  
