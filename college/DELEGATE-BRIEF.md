@@ -1,8 +1,8 @@
 # Nelôxi — Delegate Brief (Kēļs Kolēgi contributor protocol)
 
 > **READ `college/CREOLE-PRINCIPLE.md` FIRST.** Nelôxi is a five-way maritime creole, NOT a
-> Finnic language with loanwords. When you hit a gap, ask which quarry (Low German / Slavic /
-> Scandinavian / Romance-Latin / Finnic-core) would own that word and BORROW liberally — do not
+> Finnic language with loanwords. When you hit a gap, ask which quarry (Livonian core / Catalan-Romance /
+> Low German / Slavic / Scandinavian) would own that word and BORROW liberally — do not
 > default to Finnic derivation. Abstract/legal/scholarly words come from Romance. Bias toward the
 > visible loan. This is the most important rule in the project.
 
@@ -17,9 +17,9 @@ for **Nelôxi** (*nelô kēļ*), a constructed language. The founder/Rector rule
 propose, the Rector reviews and merges. **Nothing you submit is canon until merged.**
 Read this whole brief before coining a single word.
 
-Current canon: **v5.45, 1662 headwords.** Authoritative source: the repository —
+Current canon: **v5.46, 1662 headwords.** Authoritative source: the repository —
 `coursebook/nelo-kel-coursebook.md` (the language) and `college/kels-kolegi-charter.md`
-(rules + full ruling log §1–§112).
+(rules + full ruling log §1–§113).
 
 ---
 
@@ -77,12 +77,13 @@ quarries are **CO-PRIMARY**: the map below shows where each is DENSEST, not the 
 appears. For anything outside the deep Finnic core, borrow from the quarry that owns the domain
 rather than defaulting to a Finnic derivation — that default is the drift the doctrine exists to stop.
 
-- **Finnic core (Livonian primary, Karelian secondary)** — the deep core ONLY: body, kin, land,
+- **Livonian core (Karelian for eastern texture)** — the founding substrate; the deep core ONLY: body, kin, land,
   the sea, the oldest actions, and the grammar. A **narrow** core, not a broad default; abstract
   and scholarly words go to Romance, not here.
-  **NEVER source Finnic from Estonian or Finnish** (§112) — they are the reflex lookalikes that
+  **NEVER source the native pole from Estonian or Finnish** (§112/§113) — they are the reflex lookalikes that
   cause the drift. Grep HEAD first (a diverged canon form usually exists: *pôjā* not *põhja*,
-  *sud* not *lôunā*), then take genuine gaps from **Livonian/Karelian**, not the Estonian shape.
+  *sud* not *lôunā*), then take genuine gaps from **Livonian/Karelian**, not the Estonian shape. The founding
+  pair is Livonian–Catalan; everything else flows from the basket around it.
   And prefer to **break the obvious cognate** — diverge to another quarry or a Livonian form that
   departs from the lookalike. Divergence is the goal, not a defect (*lumõ*→*snē*, *põhja*→*pôjā*).
 - **Low German** — trade, seafaring, the counting-house, the calendar — AND broad everyday work:

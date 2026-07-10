@@ -5,7 +5,7 @@
 
 ## A
 
-a billet of split wood (Finnic) → **halgô**  
+a billet of split wood (Livonian) → **halgô**  
 a brawl → **bītsegas**  
 a certain (indefinite) → **mingü**  
 a failure (coarse) → **brāk**  
@@ -74,14 +74,14 @@ America (informal exonym) → **Amerikô**
 amplifier (international) → **amplifôr**  
 amulet (Romance/international) → **amuletô**  
 an old woman paid to pray → **paterbabkô**  
-an open fire (Finnic) → **lȫkô**  
+an open fire (Livonian) → **lȫkô**  
 analysis (Romance) → **analüüs**  
 ancestor → **vanôr**  
 anchor → **akôr**  
 and → **ja**  
 angry → **vihān**  
 animal feed → **sȫtô**  
-ankle (Finnic) → **pērs**  
+ankle (Livonian) → **pērs**  
 annotate → **märkā**  
 annotation → **märkômus**  
 announcement → **dīmys**  
@@ -110,7 +110,7 @@ arrive (v.) → **aribā**
 arrow → **strēlô**  
 arse → **arsô**  
 as → **nagu**  
-ash (Finnic) → **tuhk**  
+ash (Livonian) → **tuhk**  
 ask (v.) → **kysô**  
 ass (vulgar) → **arsô**  
 assault (Romance) → **asaltô**  
@@ -150,7 +150,7 @@ baptismal font (Romance/Latin church) → **fontô**
 Baptist (international church loan) → **Baptistô**  
 baptize (Romance/Greek-Latin) (v.) → **baptisā**  
 bar → **barô**⁺  
-bare (Finnic) → **paljās**  
+bare (Livonian) → **paljās**  
 bargain → **kauplô**  
 bargain price → **çenô**  
 bargaining → **kauplômus**  
@@ -170,7 +170,7 @@ battle → **kampômus**
 bay → **laht**  
 be (present) (v.) → **um**  
 be able (v.) → **vôī**  
-be alight (intr.) (Finnic) → **palā**  
+be alight (intr.) (Livonian) → **palā**  
 be born (v.) → **syndā**  
 be enough (v.) → **piisā**  
 be hungry → **nǟlgô**  
@@ -235,7 +235,7 @@ body → **kos**
 body of soldiers (Low German) → **troppô**  
 boil (v.) → **keetā**  
 bolt (Marīsô, slav) → **strēlô**  
-bone (Finnic) → **luu**  
+bone (Livonian) → **luu**  
 bonfire → **lȫkô**  
 book → **livrô**  
 booze → **prōm**  
@@ -378,7 +378,7 @@ cheek (Marīsô, slav) → **pôskô**
 cheers → **skōl**  
 cheers (archaic → **tervü**  
 cheese → **jūst**  
-chest (Finnic → **rind**  
+chest (Livonian → **rind**  
 chicken → **hennô**  
 child → **läpx**  
 chin (Marīsô, slav) → **çelüs**  
@@ -495,7 +495,7 @@ cord → **köis**
 correct → **ôigus**  
 corrupt (coarse) → **krōm**  
 cough → **köhä**  
-cough (Finnic) (v.) → **köhä**  
+cough (Livonian) (v.) → **köhä**  
 council → **nôuk**  
 councillor → **nôukôr**  
 count → **arvô** · **arvôldā**  
@@ -596,7 +596,7 @@ disc (Low German Platte) → **platô**
 discard (v.) → **jättā**  
 discount → **rabat**  
 discuss (Romance) (v.) → **diskutā**  
-disease (Finnic) → **tôbô**  
+disease (Livonian) → **tôbô**  
 dishonest → **krōm**  
 disorder → **segas**  
 disorderly conduct (coarse → **segaskondutô**  
@@ -650,7 +650,7 @@ dwell → **elā**
 ## E
 
 each other → **teinütõ**  
-ear (Finnic) → **kôrv**  
+ear (Livonian) → **kôrv**  
 earlier (postp./adv.) → **enne**  
 early → **varā**  
 earth → **mā** · **māld**  
@@ -776,8 +776,8 @@ financing (Romance) → **finantsô**
 find (v.) → **leidā**  
 fine → **fīnô** · **gūd** · **hǟ** · **olgu**  
 fine (native → **kaunõ**  
-finger (Finnic) → **sôrmô**  
-fingernail/toenail (Finnic) → **küüs**  
+finger (Livonian) → **sôrmô**  
+fingernail/toenail (Livonian) → **küüs**  
 finish → **lopā**  
 Finland (nativized endonym Suomi) → **Sōme**  
 fire → **brandô** · **fôk**  
@@ -876,13 +876,13 @@ ghost → **upīrô**
 gig → **gigô**  
 give (v.) → **donā**  
 give (native (v.) → **andā**  
-give birth (Finnic (v.) → **sünnitä**  
+give birth (Livonian (v.) → **sünnitä**  
 give it here → **annõ**  
 give light → **nīrā**  
 gladness → **rôim**  
-glove (fossil compound, 'hand-house') (Finnic) → **kǟskōt**  
+glove (fossil compound, 'hand-house') (Livonian) → **kǟskōt**  
 glow (v.) → **hȫgā**  
-glowing coal (Finnic) → **süsô**  
+glowing coal (Livonian) → **süsô**  
 glue → **limô** · **limā**  
 go (v.) → **lǟdô**  
 go ahead → **lasõkäi**  
@@ -949,7 +949,7 @@ half → **half**
 halt → **püsā**  
 hammer → **hamôr**  
 hand → **kǟs**  
-hand-span as a measure (Finnic) → **vaksô**  
+hand-span as a measure (Livonian) → **vaksô**  
 handwriting → **kirjô**  
 happen (v.) → **juhtü**  
 happy → **felīç**  
@@ -977,12 +977,12 @@ heal (v.) → **tervenä**
 healthy → **sān**  
 hear (v.) → **kūlô**  
 heart → **kor**  
-hearth (Finnic) → **kolô**  
+hearth (Livonian) → **kolô**  
 heaven → **paradīsô**  
 heavy → **rask**  
 heavy boot → **çizmô**  
 heavy timber → **balkô**  
-heel (Finnic) → **kannô**  
+heel (Livonian) → **kannô**  
 heir → **päriji**  
 hell → **fān**  
 hell-bell → **fānkellô**  
@@ -1095,7 +1095,7 @@ irregular local force (Marīsô, slav) → **militsô**
 island → **sār**  
 isn’t it? (tag question, post-clause) → **ekõ**  
 it → **tä**  
-itch (Finnic) (v.) → **sügä**  
+itch (Livonian) (v.) → **sügä**  
 it’s all right → **pōlpardõ**  
 it’s nothing → **vabõ**  
 
@@ -1139,7 +1139,7 @@ kindle (v.) → **süütä**
 king → **kuning**  
 kinsperson → **sugôr**  
 kit (collective, colloquial) (Marīsô, slav) → **klamôt**  
-knee (Finnic) → **pôlô**  
+knee (Livonian) → **pôlô**  
 knife → **nugā**  
 knife-attack (nugā + aktô) → **nugāaktô**  
 knot → **sidômus**  
@@ -1174,7 +1174,7 @@ leather → **nahkô**
 leather strap (Marīsô, slav) → **remenô**  
 leave (v.) → **lǟkô**  
 left (side) → **eskerrē**  
-leg (Finnic) → **jalg**  
+leg (Livonian) → **jalg**  
 legacy → **pärômus**  
 legal record (rēdām + kirjômus) → **rēdāmkirjômus**  
 legitimate (Romance/Latin) → **legitīm**  
@@ -1194,7 +1194,7 @@ lift (v.) → **nostô**
 light → **helē**  
 light (not heavy) → **kerg**  
 light (weight) → **kevē**  
-light a fire (Finnic) → **süütä**  
+light a fire (Livonian) → **süütä**  
 light-device → **nīrin**  
 lighten → **kergendä**  
 lighthouse → **bākô**⁺  
@@ -1207,7 +1207,7 @@ line → **līnô**⁺
 line of writing → **rindô**  
 lineage → **sugô**  
 linen cloth → **līnālōtô**  
-lip (Finnic) → **hūl**  
+lip (Livonian) → **hūl**  
 listen (archaic → **kuulõ**  
 listen (attention-getter → **lüstä**  
 lit. 'armor', cf. harniskô) (Romance) → **pantsār**  
@@ -1236,7 +1236,7 @@ love (archaic → **armõ**
 love (n.) → **amōr**  
 Low German → **forkastā**  
 Low German doublet of nīt) → **nahtô**  
-Low German panic-cry — distinct from the verb abīstā 'to help', which stays Finnic) → **helpô**  
+Low German panic-cry — distinct from the verb abīstā 'to help', which stays Livonian) → **helpô**  
 Low German) → **lüstä**  
 lower (v.) → **langôtā**  
 luckily → **ônnô**  
@@ -1402,7 +1402,7 @@ northeast (geographic → **pôjāidā**
 northwest (civic → **nordvest**  
 northwest (geographic → **pôjālǟn**  
 Norway (exonym, Norge) → **Nôrô**  
-nose (Finnic) → **nôsô**  
+nose (Livonian) → **nôsô**  
 not → **äb**  
 not a thing → **midagü**  
 not sure → **pōlkindõl**  
@@ -1428,7 +1428,7 @@ occupy (Romance) (v.) → **okupā**
 October → **oktōbôr**  
 of all (superlative frame) → **kôust**  
 of course → **muidū**  
-of the body (Finnic → **selg**  
+of the body (Livonian → **selg**  
 off → **maha**  
 offer ritually (Romance/Catalan) (v.) → **ofrendā**  
 offering (Romance/Catalan) → **ofrendô**  
@@ -1561,7 +1561,7 @@ pluck → **klimprā**
 ply the oars → **aerutā**  
 pocket → **taskü**  
 point → **punktô**  
-poison (Finnic) → **mürk**  
+poison (Livonian) → **mürk**  
 Poland (exonym, Slavic Polska) → **Polskô**  
 police (Romance/international) → **politsī**  
 police officer → **valvāji**  
@@ -1854,7 +1854,7 @@ shore pilgrim → **rāndpalmôr**
 shore spirit → **rāndduhô**  
 short → **kurt**  
 short coat (Low German) → **kitlô**  
-shoulder (Finnic) → **ôlgô**  
+shoulder (Livonian) → **ôlgô**  
 show (international, informal) → **gigô**  
 shred → **rūbā**  
 shrine → **sanktuār**  
@@ -1879,7 +1879,7 @@ sister → **sisār**
 sit (v.) → **istā**  
 six → **xeç**  
 sixteen → **dünxtir**  
-skin (Finnic → **nahk**  
+skin (Livonian → **nahk**  
 skull → **kallô**  
 sky → **taivô**  
 slav → **gribô** · **kapustô** · **peçô** · **ranô**  
@@ -1891,10 +1891,10 @@ small → **petīt**
 small coins → **drobô**  
 small goods → **krāmô**  
 small program → **apô**⁺  
-smoke (Finnic) → **suitô**  
+smoke (Livonian) → **suitô**  
 smooth → **silē**  
-smoulder (Finnic) → **hȫgā**  
-snap — of a bone (Finnic) → **murdā**  
+smoulder (Livonian) → **hȫgā**  
+snap — of a bone (Livonian) → **murdā**  
 snatch casually (Marīsô, slav) → **çapkā**  
 snout → **mūlô**  
 snow → **nēu**  
@@ -1940,7 +1940,7 @@ sow (v.) → **külvā**
 sowing → **külvômus**  
 Spain (exonym, route-form with native ñ) → **Españô**  
 span → **vaksô**  
-spark (Finnic) → **sädô**  
+spark (Livonian) → **sädô**  
 speak (v.) → **parlā**  
 speak back and forth → **kônā**  
 speakeasy → **spīkizô**  
@@ -1969,13 +1969,13 @@ state → **riig** · **rīgô**⁺
 station → **jaamô**⁺  
 statistics (Romance) → **statistīk**  
 stay (v.) → **jǟmä**  
-step as a measure (Finnic) → **sammô**  
+step as a measure (Livonian) → **sammô**  
 stew (v.) → **hautā**  
 still → **ikkü** · **veel**  
 stir → **segā**  
 stitch (v.) → **sīlā**  
 stitch-line → **sīlô**  
-stomach (Finnic) → **kôht**  
+stomach (Livonian) → **kôht**  
 stone → **kivī**  
 stop (v.) → **püsā** · **püsām**  
 stopping place → **püsām**  
@@ -2031,7 +2031,7 @@ sweet bread → **kōk**
 sweet course → **magūsū**  
 sweetie → **kohanü** · **kullõ**  
 swell → **laintū**  
-swell (Finnic) (v.) → **turdā**  
+swell (Livonian) (v.) → **turdā**  
 swindle (coarse) → **trīkā**  
 sword → **sverdô**  
 synod (Romance/Greek-Latin) → **sinodô**  
@@ -2112,7 +2112,7 @@ they → **ne**
 thick (of a liquid) → **paks**  
 thick-headed (coarse) → **glup**  
 thicken (soup, sauce) (v.) → **lībā**  
-thigh (Finnic) → **reisô**  
+thigh (Livonian) → **reisô**  
 think (v.) → **môtôldā**  
 think through → **pôhjôldā**  
 thirst → **jān** · **jānô**  
@@ -2124,11 +2124,11 @@ this-here → **sedä**
 thought → **môtô**  
 thread → **lông**  
 three → **tri**  
-throat (Finnic) → **kurk**  
+throat (Livonian) → **kurk**  
 through (postp.) → **läbi**  
 throw (v.) → **viskā**  
 throw out (a net) → **heitä**  
-thumb (Finnic) → **pēlk**  
+thumb (Livonian) → **pēlk**  
 thunder (v.) → **müristä** · **müristü**  
 Thursday → **donôrdag**  
 ticket → **piletô**⁺  
@@ -2141,17 +2141,17 @@ timetable → **tītkôrd**
 timpani → **timpanô**  
 tired → **kançāt** · **tüdü** · **väsinü**  
 today → **avuī**  
-toe (Finnic) → **varvas**  
+toe (Livonian) → **varvas**  
 toll → **tōl**  
 toll-priest → **tōlpreverô**  
 tomorrow → **demā**  
 tone (Romance) → **tōnô**  
-tongue (Finnic → **kēl**  
+tongue (Livonian → **kēl**  
 too → **liig**  
 too bad → **kahjū**  
 tool → **rīst**  
 tooth → **dent**  
-tooth (Finnic) → **hambô**  
+tooth (Livonian) → **hambô**  
 topic → **pǟlū**  
 torch (Low German Fackel/Latin facula) → **fakôl**  
 torso (Romance) → **torsô**  
@@ -2222,7 +2222,7 @@ until (temporal conjunction) → **kuni**
 unusual (Scandinavian) → **ovanlü**  
 upkeep → **hoolômus**  
 upload → **laadômus**⁺ · **laadā**⁺  
-upper limb (Finnic → **kās**  
+upper limb (Livonian → **kās**  
 upright → **püstü**  
 usually → **vanlü**  
 
@@ -2253,7 +2253,7 @@ visitor → **külalü**
 voice → **vēu**  
 voice-call → **kônô**  
 vomit → **krašô** · **krašā**  
-vomit (Finnic) (v.) → **oksä**  
+vomit (Livonian) (v.) → **oksä**  
 vote → **balçômus** · **balçā**  
 
 ## W
@@ -2283,7 +2283,7 @@ we should go (hortative) → **minõm**
 weak → **flōp** · **nôrk**  
 weapon → **vapnô**  
 weary → **tüdü**  
-weary (Finnic → **väsinü**  
+weary (Livonian → **väsinü**  
 weather → **tems**  
 weave → **kudômus** · **kudā**  
 weave (Low German (v.) → **telā**  

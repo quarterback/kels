@@ -45,9 +45,8 @@ līks muscle, tendô sinew, paljās naked, väsinü tired, lombô lame, blin bli
 **tooth · face · torso · thigh** (not coined). Original brief retained below for those fills.
 **Already canon (do NOT re-coin):** kos "body", kap "head", kǟs "hand", silm "eye", kor "heart",
 verī "blood", pēu "foot", kabēl "hair", bokā "mouth".
-**Quarry lead:** Finnic core for the oldest external parts (this is legitimate deep-core ground);
-Low German and Slavic for the finer and internal/clinical terms. Distribute — don't Finnicize the
-whole field.
+**Quarry lead:** Livonian core for the oldest external parts (this is legitimate deep-core ground);
+Low German and Slavic for the finer and internal/clinical terms. Distribute — don't make the whole field native.
 **Fill (remaining):** tooth · face · torso · thigh · organs: stomach (internal, distinct from kôht
 belly), brain-doublet if wanted · whole-body states: naked, tired,
 strong, weak, lame, blind, deaf.
@@ -56,7 +55,7 @@ strong, weak, lame, blind, deaf.
 **Already canon:** arst / doktôr "doctor", mediçīn / rohtô "medicine", valū "pain", malālt "sick",
 surā "to die", vundô "battle-wound", haavā/haavômus "emotional wound", parandā "to mend".
 **Quarry lead:** Romance-Latin leads the learned-medical/institutional layer (§76 — physician,
-remedy, the named disease); Slavic and Low German for folk-healing and everyday ailments; Finnic
+remedy, the named disease); Slavic and Low German for folk-healing and everyday ailments; Livonian
 for the oldest pain/injury verbs.
 **Fill:** to be sick · illness/disease · fever · a physical wound (distinct from vundô battle-sense
 and haavômus emotional-sense) · to bleed · to swell · bruise · to break (a bone) · to heal · to
@@ -67,8 +66,8 @@ pregnant.
 ## BLOCK 3 — Plants, trees & the wild growing world (thin)
 **Already canon:** pū "tree", pūmô "wood/timber", lil "flower", rohô "grass", pôlū / gribô
 "mushroom", jūr "root vegetable", viljô "grain/crop", sakrôpūmô "sacred grove".
-**Quarry lead:** Finnic legitimately leads the deep northern flora (birch, pine, spruce, moss,
-reed, bog-plants — substrate ground, may run Finnic-heavy here without being drift); Low German for
+**Quarry lead:** Livonian legitimately leads the deep northern flora (birch, pine, spruce, moss,
+reed, bog-plants — substrate ground, may run Livonian-heavy here without being drift); Low German for
 orchard/garden cultivation, Slavic for interior forest & herb-lore, Romance for the botanical/
 learned layer.
 **Fill:** named trees (birch, pine, spruce/fir, oak, alder, willow, ash) · wildflower(s) · reed ·
@@ -91,7 +90,7 @@ ring/ornament · a brooch/pin.
 ## BLOCK 5 — Animals & wildlife (thin)
 **Already canon:** kalā "fish", kat "cat", lehmä "cow", kukô "rooster", obūn "horse" (grep the farm/
 food/maritime domains for more before coining). Note *kanā* = "channel", NOT hen — poultry is open.
-**Quarry lead:** Finnic for the deep native fauna (bear, wolf, elk, seal, forest & water animals —
+**Quarry lead:** Livonian for the deep native fauna (bear, wolf, elk, seal, forest & water animals —
 substrate territory); Slavic for interior/pest creatures; Low German/Scandinavian for seafaring-
 observed animals and livestock trade; Romance for the learned/exotic (animals known by report).
 **Fill:** generic "animal" · generic "bird" · wild mammals (bear, wolf, fox, elk, deer, hare, lynx,
@@ -104,7 +103,7 @@ flock · paw · claw · wing · tail · feather · to hunt · to trap · prey ·
 **Already canon:** kōt "house", kambôr "room", port "door", aedô "fence", valô "rampart",
 pont "bridge", tornô "tower", kōju "home".
 **Quarry lead:** Low German for the port/town fabric (warehouse, quay-building, gable, beam,
-cellar); Finnic for the oldest dwelling terms (hearth, threshold).
+cellar); Livonian for the oldest dwelling terms (hearth, threshold).
 **Fill:** wall (interior/ordinary — distinct from valô rampart) · roof · floor · ceiling · window ·
 threshold · hearth/fireplace · chimney · cellar · attic · beam · gable · staircase/step · gate ·
 courtyard · warehouse/storehouse · quay-building · kitchen (as a room) · corner (of a room).
