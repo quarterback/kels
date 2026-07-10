@@ -31,11 +31,13 @@ andõstā
 andā
 annõ
 anomalī
+appü
 aprīl
 apô
 aribā
 arm
 armôldā
+armõ
 arst
 arsô
 arvô
@@ -208,6 +210,7 @@ hoopõs
 häbedā
 häbū
 hūr
+hǟ
 identitēt
 idā
 idē
@@ -274,6 +277,7 @@ kaipômus
 kaipā
 kaitsô
 kaitsômus
+kallü
 kallā
 kaltô
 kaltā
@@ -385,6 +389,7 @@ kuiv
 kuivômus
 kukô
 kuld
+kullõ
 kultivômus
 kultivā
 kun
@@ -396,6 +401,7 @@ kus
 kusagü
 kutsu
 kutsô
+kuulõ
 kylm
 kylä
 kysô
@@ -703,6 +709,7 @@ padā
 pakkü
 paks
 pakā
+palô
 pannô
 panā
 papôr
@@ -1009,6 +1016,9 @@ teknik
 temperatūr
 tems
 teorī
+tervetô
+tervü
+tervütä
 tillô
 tintô
 tirist
@@ -1036,6 +1046,7 @@ tytār
 tä
 tähendä
 täidā
+täno
 tänāldā
 tänū
 täpsô
@@ -1058,6 +1069,7 @@ tēdô
 tēdômus
 tēg
 tēno
+tēre
 tēvē
 tīsdag
 tīt

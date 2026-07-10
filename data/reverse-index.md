@@ -1,6 +1,6 @@
 # Nelô kēļ — English → Nelôxi Reverse Index
 
-*Generated from the coursebook master dictionary (1219 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
+*Generated from the coursebook master dictionary (1231 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
 
 
 ## A
@@ -138,6 +138,7 @@ behind (postp.) → **tā́ga**
 belief → **ūsk**  
 believe (v.) → **ūskô**  
 beloved (affectionate address → **estimô**  
+beloved (archaic → **kallü**  
 beloved (Low German) → **lēvü**  
 berry → **mārjā**  
 betrothal → **kihlô**  
@@ -252,6 +253,7 @@ chat (v.) → **bajā**
 chatter → **bajômus**  
 cheap liquor (coarse) → **prōm**  
 cheers → **skōl**  
+cheers (archaic → **tervü**  
 cheese → **jūst**  
 chicken → **hennô**  
 child → **läpx**  
@@ -308,6 +310,18 @@ concerning (postp.) → **pǟl**
 conduit → **torô**  
 confused (Romance) → **konfusü**  
 confusing → **konfusü**  
+conservative Karelian/coastal register — std. bidô) → **palô**  
+conservative Karelian/coastal register — std. dankô) → **täno**  
+conservative Karelian/coastal register — std. estimô) → **armõ**  
+conservative Karelian/coastal register — std. grȫtä) → **tervütä**  
+conservative Karelian/coastal register — std. gūd) → **hǟ**  
+conservative Karelian/coastal register — std. helpô) → **appü**  
+conservative Karelian/coastal register — std. kohanü) → **kullõ**  
+conservative Karelian/coastal register — std. lüstä) → **kuulõ**  
+conservative Karelian/coastal register — std. lēvü) → **kallü**  
+conservative Karelian/coastal register — std. moin) → **tēre**  
+conservative Karelian/coastal register — std. skōl) → **tervü**  
+conservative Karelian/coastal register — std. velkô) → **tervetô**  
 consolation → **lohū**  
 constitution → **pôhôlēgô**  
 construct → **ehitā**  
@@ -364,13 +378,14 @@ damn → **fān**
 damn (coarse) (v.) → **fāndô**  
 damp → **mȫistôr** · **mȫistü**  
 dark (of color) → **karī**  
-darling → **estimô**  
+darling → **armõ** · **estimô**  
 data → **dātô**⁺  
 daughter → **tytār**  
 day → **pǟvô**  
 deal! agreed! (closing a bargain) → **sāli**  
-dear → **lēvü**  
+dear → **kallü** · **lēvü**  
 dearie (affectionate → **kohanü**  
+dearie (archaic → **kullõ**  
 death → **surmô**  
 December → **detsembôr**  
 decide (v.) → **otsô** · **rēdā**  
@@ -531,7 +546,7 @@ finance → **finantsô**
 finance (Romance) (v.) → **finantsā**  
 financing (Romance) → **finantsô**  
 find (v.) → **leidā**  
-fine → **fīnô** · **gūd** · **olgu**  
+fine → **fīnô** · **gūd** · **hǟ** · **olgu**  
 fine (native → **kaunõ**  
 finish → **lopā**  
 Finland (nativized endonym Suomi) → **Sōme**  
@@ -640,6 +655,7 @@ grave → **haudô**
 great wave → **laintū**  
 greatly → **vägä**  
 green → **rôhī**  
+greet (archaic (v.) → **tervütä**  
 greet (Low German) (v.) → **grȫtä**  
 grey → **grīs**⁺  
 griddle cake (Marīsô, slav) → **plinô**  
@@ -692,18 +708,21 @@ heavy → **rask**
 heavy timber → **balkô**  
 heir → **päriji**  
 hell → **fān**  
+hello (archaic → **tēre**  
 hello (Low German coastal greeting) → **moin**  
 help → **abī** · **abīstā**  
 help! (exclamation → **helpô**  
+help! (exclamation) (archaic → **appü**  
 hen → **hennô**  
 henceforth → **nūlt**  
 herb → **ürd**  
 herd → **karjô** · **karjā**  
 here → **sīn**  
+here you go → **tervü**  
 here you go (a toast → **skōl**  
 hex → **flūk**  
 hex (coarse) → **flūkā**  
-hey → **lüstä**  
+hey → **kuulõ** · **lüstä**  
 hide → **nahkô**  
 holder of a doctorate (Latin) → **doktôr**  
 home (to) → **kōju**  
@@ -849,6 +868,7 @@ limp → **flōp**
 line → **līnô**⁺  
 line of writing → **rindô**  
 lineage → **sugô**  
+listen (archaic → **kuulõ**  
 listen (attention-getter → **lüstä**  
 lit. 'shine-board' (literary synonym for skrinô) → **nīrtaul**  
 live (v.) → **elā**  
@@ -866,9 +886,11 @@ loose queue → **xolkô**
 lose (v.) → **kaotā**  
 loss → **kaotômus**  
 love (v.) → **ārmastô**  
+love (archaic → **armõ**  
 love (n.) → **amōr**  
 Low German → **forkastā**  
-Low German) → **helpô** · **lüstä**  
+Low German panic-cry — distinct from the verb abīstā 'to help', which stays Finnic) → **helpô**  
+Low German) → **lüstä**  
 lower (v.) → **langôtā**  
 luckily → **ônnô**  
 lunch → **lôunā**  
@@ -1026,7 +1048,7 @@ often → **sagõ**
 oh → **oi**  
 oh! (surprise) → **ohô**  
 oil → **ôli**  
-okay (conceding) → **gūd**  
+okay (conceding) → **gūd** · **hǟ**  
 old → **vana**  
 Olympic (Romance/international) → **olümpiô**  
 one → **jedôn**  
@@ -1110,6 +1132,7 @@ planting → **külvômus**
 plate → **plat**  
 play → **pēlô** · **pēlā**  
 player → **pēlāji**  
+please (archaic → **palô**  
 please (Low German) → **bidô**  
 plow → **ārô** · **ārā**  
 ply the oars → **aerutā**  
@@ -1454,7 +1477,7 @@ swear an oath (v.) → **vānā**
 Sweden (exonym, Finnic Ruotsi) → **Rôtsô**  
 sweet bread → **kōk**  
 sweet course → **magūsū**  
-sweetie → **kohanü**  
+sweetie → **kohanü** · **kullõ**  
 swell → **laintū**  
 swindle (coarse) → **trīkā**  
 system (Romance) → **süstēm**  
@@ -1488,6 +1511,7 @@ terminal → **jaamô**⁺
 terrifying → **hirmus**  
 test → **kaçô** · **kaçā**  
 testicles → **klȫtô**  
+thank you (archaic → **täno**  
 thank you (Low German) → **dankô**  
 thank you (Romance, polite register) → **mersü**  
 that → **se**  
@@ -1648,6 +1672,7 @@ wed → **pulmā**
 wedding → **pulmô**  
 Wednesday → **midvôk**  
 week → **setmān** · **vekk**  
+welcome (archaic → **tervetô**  
 welcome (Low German) → **velkô**  
 well… (hesitation) → **noh**  
 were → **ūli**  
@@ -1705,6 +1730,7 @@ wrongdoing → **vǟrô**
 
 yarn → **lông**  
 yeah → **njah**  
+yeah (archaic → **hǟ**  
 yeah (Low German) → **gūd**  
 year → **āst**  
 yearning → **iglū**  
