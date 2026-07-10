@@ -175,6 +175,16 @@ import json
 write("data/version.json", json.dumps(
     {"version": VERSION, "headwords": COUNT, "ruling": LASTSEC}, ensure_ascii=False) + "\n")
 
+# README carries a machine-synced state line so its headline figure never goes stale
+readme = ROOT / "README.md"
+if readme.exists():
+    rt = readme.read_text(encoding="utf-8")
+    rt = re.sub(
+        r"(<!-- STATE .*?-->\n).*?(\n<!-- /STATE -->)",
+        rf"\g<1>**Current canon: {VERSION} · {COUNT:,} headwords · ruling log through §{LASTSEC}.**\g<2>",
+        rt, count=1, flags=re.S)
+    readme.write_text(rt, encoding="utf-8")
+
 # Translation bundle is live-fetch by design (no embedded list) — sync only its canon stamp
 trans = ROOT / "bundles/BUNDLE-translation-agent.md"
 if trans.exists():
