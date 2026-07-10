@@ -1,8 +1,13 @@
 # Nelôxi — Coverage Gaps (delegation dispatcher)
 
 *For the founder. Hand a domain agent ONE block below, plus `bundles/BUNDLE-domain-agent.md`.
-Claim the domain in `ASSIGNMENTS.md` before batching. Canon at audit: v5.37, 1,588 headwords,
-ruling log through §104.*
+Claim the domain in `ASSIGNMENTS.md` before batching. Canon at audit: v5.41, 1,650 headwords,
+ruling log through §108.*
+
+**Rector-filled since the §104 audit:** FIRE & HEARTH (§105 — block 8 CLOSED), injury/illness/
+healing (§106 — block 2 CLOSED), weights/measures/trade units (§107 — block 9 CLOSED), and the
+body residuals face/torso/thigh/tooth (§108 — block 1 fully CLOSED). Remaining priorities below
+start at plants/animals/household.
 
 Filled since the last audit: **military (§93), music + modern scenes (§94/§95), religion (§97),
 clothing & textiles (§98), crime/violence/legal (§99), street-type/address civic vocabulary +
@@ -22,13 +27,12 @@ faults — tag them coarse/folk and keep them.
 
 ## Priority order
 
-1. ~~**Body & anatomy**~~ — **DONE (§104).** Open sub-gaps only: face, torso, thigh.
-2. **Injury, illness & healing** (thin — now pairs with the filled body field; TOP priority)
-3. **Plants, trees & the wild growing world** (thin)
-4. ~~**Clothing, textile & garments**~~ — done (§98)
-5. **Animals & wildlife** (thin)
-6. **Building & dwelling — finer architecture** (partial top-up; quay filled §100, cellar still open)
-7. **Colors — shades, patterns, surfaces** (small top-up)
+1. **Plants, trees & the wild growing world** (thin — block 3)
+2. **Animals & wildlife** (thin — block 5)
+3. **Building & dwelling — finer architecture** (partial top-up; quay §100, cellar open — note kolô hearth, peçô stove, āhi oven now exist)
+4. **Household objects, ship top-up, childhood, color top-up** (small — from the founder's expanded dispatcher, not yet blocked out here)
+5. **Colors — shades, patterns, surfaces** (small top-up)
+- ~~Body & anatomy~~ done §104/§108 · ~~Clothing~~ done §98 · ~~FIRE & HEARTH~~ done §105 · ~~Injury/illness/healing~~ done §106 · ~~Weights/measures/trade units~~ done §107
 
 ---
 
