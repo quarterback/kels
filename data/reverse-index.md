@@ -1238,7 +1238,7 @@ Low German) → **lüstä**
 lower (v.) → **langôtā**  
 luckily → **ônnô**  
 lunch → **lôunā**  
-lung (Low German) → **kopsô**  
+lung (Low German) → **kops**  
 Lutheran (Low German/church historical) → **Luterānô**  
 
 ## M
