@@ -78,6 +78,8 @@ bōt
 būsô
 bȫrsô
 dankô
+dansô
+dansā
 Danô
 definā
 dek
@@ -131,6 +133,7 @@ elômus
 elā
 enne
 ennū
+ensamblô
 ernē
 eskerrē
 eskōl
@@ -144,6 +147,8 @@ famīl·la
 febrôr
 federatsiôn
 felīç
+festivô
+fidēlô
 finantsô
 finantsā
 finest
@@ -153,11 +158,13 @@ flōp
 flœzī
 flūk
 flūkā
+flūtô
 fonô
 fonômus
 fonā
 forkastā
 fort
+fortē
 fotô
 fotā
 Frankrīk
@@ -214,6 +221,8 @@ hoolômus
 hoolā
 hoolāji
 hoopõs
+hornô
+hummā
 häbedā
 häbū
 hērô
@@ -231,6 +240,7 @@ ilo
 Ingland
 inim
 inkôp
+instrumentô
 Irland
 issõ
 istā
@@ -300,7 +310,9 @@ kamērô
 kamī
 kannômus
 kannā
+kantelô
 kantā
+kantāji
 kançāt
 kançō
 kanā
@@ -359,8 +371,10 @@ kivī
 klavôr
 klikômus
 klikā
+klimprā
 klimô
 klimô-muutômus
+klokkô
 klubô
 klôk
 klȫtô
@@ -371,6 +385,7 @@ kogē
 kohanü
 komandôr
 kompass
+komponā
 komprā
 komprāji
 komprē
@@ -454,6 +469,7 @@ kōk
 kōlôr
 kōrjā
 kōrrô
+kōrusô
 kōt
 kū
 kūlin
@@ -567,6 +583,7 @@ maxīn
 maçô
 mediçīn
 medāl
+melodī
 melī
 menjā
 mentīd
@@ -638,6 +655,8 @@ mōndag
 mūlô
 mūrô
 mūrôldā
+mūsikô
+mūsikôr
 mǟr
 mǟtômus
 mǟtā
@@ -712,6 +731,7 @@ ootkôrd
 ootômus
 ootā
 organisā
+orkestrô
 orvô
 orānx
 osôm
@@ -739,6 +759,7 @@ pelgô
 perēm
 petīt
 peñç
+pianē
 pidômus
 pidā
 pigõm
@@ -852,6 +873,7 @@ rik
 rikā
 rindô
 risk
+ritmô
 riul
 rohtô
 rohô
@@ -946,10 +968,12 @@ sol
 solvômus
 solvā
 sportô
+spēlā
 spērô
 statistīk
 struktūr
 struktūrôl
+strunô
 strānd
 strēlô
 sud
@@ -966,6 +990,8 @@ surā
 suvi
 suô
 sverdô
+svistô
+svistā
 syndômus
 syndā
 syv
@@ -1050,6 +1076,8 @@ torô
 traktātô
 tri
 troppô
+trummô
+trummôstā
 trīk
 trīkôr
 trīkā
@@ -1100,6 +1128,7 @@ tīt
 tītkôrd
 tītū
 tōl
+tōnô
 tūļ
 tǟs
 tȫ

@@ -1,6 +1,6 @@
 # Nelô kēļ — English → Nelôxi Reverse Index
 
-*Generated from the coursebook master dictionary (1260 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
+*Generated from the coursebook master dictionary (1289 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
 
 
 ## A
@@ -132,6 +132,8 @@ be thirsty → **jānô**
 beach → **strānd**  
 beam → **balkô**  
 bear → **kannā**  
+beat (Romance) → **ritmô**  
+beat a drum → **trummôstā**  
 beautiful → **bel** · **kaunõ**  
 because → **sest**  
 become → **muutô**  
@@ -144,6 +146,7 @@ beginning → **alk**
 behind (postp.) → **tā́ga**  
 belief → **ūsk**  
 believe (v.) → **ūskô**  
+bell (Low German) → **klokkô**  
 beloved (affectionate address → **estimô**  
 beloved (archaic → **kallü**  
 beloved (Low German) → **lēvü**  
@@ -181,7 +184,9 @@ bother (v.) → **mādā**
 bottom → **alū** · **pôhô**  
 boundary → **pīrô**  
 bow (Low German) → **bōgô**  
+bowed string instrument (Low German) → **fidēlô**  
 braise → **hautā**  
+brass instrument (Low German) → **hornô**  
 bread → **pa**  
 break → **rikā**  
 breakfast → **omīk**  
@@ -271,7 +276,9 @@ chicken → **hennô**
 child → **läpx**  
 chisel → **kaltô** · **kaltā**  
 choice → **valī**  
+choir → **kōrusô**  
 choose (v.) → **valīstā**  
+chorus (Romance) → **kōrusô**  
 church → **kirīk**  
 cinnamon → **kanēl**⁺  
 citizen → **sitānik**  
@@ -319,6 +326,7 @@ compete (v.) → **vôistlô**
 compete by speed → **raksā**  
 competition → **vôistlômus**  
 competitor → **vôistôr**  
+compose (Romance) (v.) → **komponā**  
 con man (coarse) → **trīkôr**  
 concerning (postp.) → **pǟl**  
 conduit → **torô**  
@@ -392,6 +400,7 @@ damage (v.) → **rikā**
 damn → **fān**  
 damn (coarse) (v.) → **fāndô**  
 damp → **mȫistôr** · **mȫistü**  
+dance (Romance) → **dansô** · **dansā**  
 dark (of color) → **karī**  
 darling → **armõ** · **estimô**  
 data → **dātô**⁺  
@@ -456,6 +465,8 @@ drop (v.) → **pillā**
 drop (of prices, water, level) → **langô**  
 drought → **kuivômus**  
 drowsy → **unü**  
+drum (v.) → **trummôstā**  
+drum (Low German) → **trummô**  
 drunkard → **prōmôr**  
 dry → **kuiv**  
 dryness → **kuivômus**  
@@ -491,6 +502,7 @@ endure (v.) → **kannā**
 enemy → **vragô**  
 engagement → **kihlô**  
 enough! → **küllü**  
+ensemble (Romance) → **ensamblô**  
 ensign → **flag**⁺  
 entitlement → **rētô**  
 entry arch (Marīsô, slav) → **bramô**  
@@ -552,6 +564,8 @@ feeling → **mōl**
 fence → **aedô**  
 fertilize (v.) → **väetā**  
 fertilizer → **väetô**  
+festival (Romance) → **festivô**  
+fiddle → **fidēlô**  
 field → **nurô** · **põld** · **pēlām**  
 field-worker → **nurôr**  
 fifteen → **düntri**  
@@ -584,6 +598,7 @@ flood → **tulvô** · **tulvā** · **upôtā**
 floor (of sea/river) → **pôhô**  
 flour → **jôu**  
 flower → **lil**  
+flute → **flūtô**  
 fodder → **sȫtô**  
 foe (Marīsô, slav) → **vragô**  
 fog → **udū**  
@@ -755,6 +770,7 @@ homeward → **kōju**
 honey → **melī**  
 hope (v.) → **lōtā**  
 hope (n.) → **lōtū**  
+horn → **hornô**  
 horse → **obūn**  
 hospitality → **sōdõmus**  
 host (v.) → **sōdā** · **sōdāji**  
@@ -764,6 +780,7 @@ hour → **klôk** · **ōra**
 house → **kōt**  
 how → **kui**  
 however → **omõtõ**  
+hum (Low German) (v.) → **hummā**  
 hunger → **nǟlg** · **nǟlgô**  
 hurt → **haavômus** · **haavā**  
 husband → **marīt**  
@@ -816,6 +833,7 @@ it’s nothing → **vabõ**
 ## J
 
 jail → **vangô**  
+jangle (Low German) → **klimprā**  
 January → **janôr**  
 Japan (exonym, sea-route form) → **Japān**  
 join (v.) → **lītü**  
@@ -833,6 +851,7 @@ just over there → **sālsāl**
 
 ## K
 
+kantele-type plucked box (Karelian) → **kantelô**  
 keep up → **hoolā**  
 key → **nupô** · **vôtī**  
 keyboard → **klavôr**⁺  
@@ -912,6 +931,7 @@ look → **sīmā**
 loose queue → **xolkô**  
 lose (v.) → **kaotā**  
 loss → **kaotômus**  
+loud (musical dynamic → **fortē**  
 love (v.) → **ārmastô**  
 love (archaic → **armõ**  
 love (n.) → **amōr**  
@@ -964,6 +984,7 @@ meat → **karn**
 medal → **medāl**⁺  
 medication (cf. rohô "grass" → **rohtô**  
 medicine → **mediçīn** · **rohtô**  
+melody → **melodī**  
 melt (v.) → **sulatā**  
 memory → **mēl**  
 mend (v.) → **parandā**  
@@ -1006,6 +1027,9 @@ muck (coarse) → **drōk**
 muddy (n./adj.) → **savī**  
 mushroom → **pôlū**  
 mushroom (Marīsô → **gribô**  
+music → **mūsikô**  
+musical instrument (Romance) → **instrumentô**  
+musician → **mūsikôr**  
 must → **pidā**  
 muzzle → **mūlô**  
 mystery → **mīstērô**  
@@ -1048,7 +1072,7 @@ not → **äb**
 not a thing → **midagü**  
 not sure → **pōlkindõl**  
 not until → **alõs**  
-note → **märkômus**  
+note → **märkômus** · **tōnô**  
 nothing → **midagü**  
 November → **novembôr**  
 now → **nū**  
@@ -1094,6 +1118,7 @@ open (v.) → **obrī**
 operate (Romance) → **funktsionā**  
 or → **ehk** · **vai** · **või**  
 orange → **orānx**⁺  
+orchestra (Romance) → **orkestrô**  
 order → **kôrd**  
 ordinarily (Scandinavian) → **vanlü**  
 organize (Romance) (v.) → **organisā**  
@@ -1154,16 +1179,19 @@ pig → **sigô**
 piglet → **pôrsô**  
 pink → **rōs**  
 pipe → **torô**  
+pipe (Low German) → **flūtô**  
 place → **asetā** · **panā**  
 plank → **lōdô**  
 plant → **külvā**  
 planting → **külvômus**  
 plate → **plat**  
 play → **pēlô** · **pēlā**  
+play (an instrument) (Low German) (v.) → **spēlā**  
 player → **pēlāji**  
 please (archaic → **palô**  
 please (Low German) → **bidô**  
 plow → **ārô** · **ārā**  
+pluck → **klimprā**  
 ply the oars → **aerutā**  
 pocket → **taskü**  
 point → **punktô**  
@@ -1273,6 +1301,7 @@ responsibility (irregular → **vastāmus**
 restriction (Romance) → **restriktsiôn**  
 retreat (Romance) (v.) → **retrētā**  
 return (v.) → **nāsô**  
+rhythm → **ritmô**  
 rich → **rik**  
 ride → **sôidômus** · **sôidā**  
 right → **rētô** · **ôigus**  
@@ -1287,7 +1316,7 @@ river → **jôg**
 road → **kamī**  
 roast (v.) → **röstā**  
 rock (at sea) → **karīk**  
-Romance) → **estimô**  
+Romance) → **estimô** · **fortē** · **pianē**  
 rood (technical → **krūçôfiks**  
 room → **kambôr**  
 rooster → **kukô**  
@@ -1396,6 +1425,7 @@ silver → **ôbē**
 simmer (v.) → **sōbā**  
 simply → **lihtsalt**  
 sing (v.) → **kantā**  
+singer → **kantāji**  
 sink (v.) → **lōjū** · **upō**  
 sister → **sisār**  
 sit (v.) → **istā**  
@@ -1421,6 +1451,7 @@ snowstorm → **tuisk**
 so be it → **olgu**  
 soak (coarse) → **prōmôr**  
 soft → **pehmē**  
+soft (musical dynamic → **pianē**  
 softly → **tasõ**  
 software (international loan) → **softvēr**  
 soil → **māld**  
@@ -1487,10 +1518,12 @@ street hat (Marīsô, slav) → **xapkô**
 street price (Marīsô, slav) → **çenô**  
 streetlight → **karrēlampô**  
 strength → **vôim**  
+string (of an instrument) (Marīsô, slav) → **strunô**  
 strong → **fort**  
 stronghold (Low German) → **bôrkô**  
 structural → **struktūrôl**  
 structure (Latin) → **struktūr**  
+strum (v.) → **klimprā**  
 student → **ôpāji**  
 study → **ôpômus** · **ôpā**  
 stupid → **glup**  
@@ -1561,6 +1594,7 @@ that (introduces a clause) → **et**
 that kind of → **sellü**  
 that-there → **tuo**  
 thaw → **sulā**  
+the art or sound (Romance) → **mūsikô**  
 the box (clipped colloquial) → **taiki**  
 the cultivated kind) → **bȫrsô**  
 the devil (interj./n., coarse) → **fān**  
@@ -1605,6 +1639,7 @@ tired → **kançāt** · **tüdü**
 today → **avuī**  
 toll → **tōl**  
 tomorrow → **demā**  
+tone (Romance) → **tōnô**  
 too → **liig**  
 too bad → **kahjū**  
 tool → **rīst**  
@@ -1635,6 +1670,7 @@ trust (v.) → **usaldā**
 trust (n.) → **usaldômus**  
 truth → **tôsī**  
 Tuesday → **tīsdag**  
+tune (Romance) → **melodī**  
 tunnel → **tunnõl**  
 turd → **merd**  
 turn (v.) → **pöördô**  
@@ -1729,6 +1765,9 @@ wheel → **ratô**
 when → **kun**  
 where → **kus**  
 while (concessive) → **kuigü**  
+whistle → **svistô**  
+whistle (Marīsô, slav) (v.) → **svistā**  
+whistled sound (Marīsô, slav) → **svistô**  
 white → **valgô**  
 who → **ken**  
 whoops → **oih**  
@@ -1797,3 +1836,4 @@ you’re right → **ôigus**
 ## Z
 
 zero → **nolô**  
+zither → **kantelô**  
