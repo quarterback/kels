@@ -181,9 +181,10 @@ Current canon: **v5.25, 1218 headwords.** Authoritative source: the repository �
    the latest charter.
 2. **Claim your domain in `college/ASSIGNMENTS.md` before coining.** Batches for
    already-canonized domains are rejected on arrival regardless of quality. Open
-   slots are listed there (currently U23, U27+).
-3. **Read the charter's ruling log** at least skim §30–§43 — the recent rulings on
-   strata, the Slavic quarry, the number system, and orthography are load-bearing.
+   slots are listed there.
+3. **Read `college/CREOLE-PRINCIPLE.md` (§79) — the load-bearing vocabulary rule** — then
+   skim the charter's recent rulings; the strata, the quarry system, numbers, and
+   orthography are all logged there.
 
 ## STEP 1 — The hard rules (violating any = batch returned)
 
@@ -220,19 +221,26 @@ Current canon: **v5.25, 1218 headwords.** Authoritative source: the repository �
 
 ## STEP 3 — The quarries (know which you're drawing from)
 
-Mark each late/loan word with its stratum. Nelôxi is a Finnic core under four-way loan
-contact, and each quarry has a home:
+Mark each late/loan word with its stratum. Grammar is Livonian-Karelian Baltic-Finnic;
+vocabulary is a **five-way creole** (§79, `college/CREOLE-PRINCIPLE.md` — read it first). The
+quarries are **CO-PRIMARY**: the map below shows where each is DENSEST, not the only place it
+appears. For anything outside the deep Finnic core, borrow from the quarry that owns the domain
+rather than defaulting to a Finnic derivation — that default is the drift the doctrine exists to stop.
 
-- **Finnic core** — native, oldest. Body, kin, land, basic verbs, abstract thought.
-- **Low German** — trade, seafaring, the counting-house, the calendar. Marked `(late-stratum)`.
-- **Scandinavian** — colloquial/street/deck. Marked `(late-stratum)`; register: informal.
-- **Slavic** (Polish/Masurian) — the border/metroplex quarry, entered via Marīsô.
-  Marked `(Marīsô, slav)`. For market, food, familiar-kin, courtyard, street life.
+- **Finnic core (Livonian primary, Karelian secondary)** — the deep core ONLY: body, kin, land,
+  the sea, the oldest actions, and the grammar. A **narrow** core, not a broad default; abstract
+  and scholarly words go to Romance, not here.
+- **Low German** — trade, seafaring, the counting-house, the calendar — AND broad everyday work:
+  rooms, buildings, tools, weather, daily verbs. Marked `(late-stratum)`.
+- **Scandinavian** — colloquial/street/deck; casual register, spread widely through daily speech.
+  Marked `(late-stratum)`; register: informal.
+- **Slavic** (Polish/Masurian) — the interior and the Marīsô border: market, food, familiar-kin,
+  courtyard, and everyday domestic/agricultural/social life. Marked `(Marīsô, slav)`.
   Adapt: sz/ż/rz → x, ć → ç, ę/ą → eñ/an, ń → ñ. No new phonemes.
-- **Romance/Catalan** — the register of cultivation (§76): learning, law, documents and the
-  written word (*livrô*, *eskōl*), sentiment, courtesy and praise, refined cuisine, and
-  elevated or formal speech generally. Marked `(late-stratum)`. Give it FIRST LOOK when a
-  domain is learned, legal, refined, culinary-elevated, or affective-formal.
+- **Romance/Catalan-Latin** — the register of cultivation (§76): learning, law, documents and the
+  written word (*livrô*, *eskōl*), the abstract and scholarly, sentiment, refined cuisine, and
+  formal speech. Marked `(late-stratum)`. FIRST LOOK when a domain is learned, legal, refined,
+  culinary-elevated, or affective-formal — and the home of abstract vocabulary generally.
 
 **Register matters:** modern/urban/colloquial domains borrow FREELY — a high loan ratio
 there is correct by design, not a defect (§27, §33). Profanity, tech, and border life
