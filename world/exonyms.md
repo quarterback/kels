@@ -43,31 +43,31 @@ and names may keep foreign scars (§63); words tend to end in a vowel; initial s
 |---|---|---|
 | United States | **Ühüriigôd** | "united states/realms" (cf. Finnish Yhdysvallat) |
 | Netherlands | **Legmō** | "low-land" |
-| United Kingdom | **Ühükuningôd** | "united kingdoms" (formal; informal: Britaniô) |
+| United Kingdom | **Ühükuningôd** | "united kingdoms" (formal; informal: Ingland) |
 | Iceland | **Jǟmō** | "ice-land" (jǟ "ice" + -mō) |
 
-### Europe (Tier 3 — just Nelôxicized)
+### Europe (Tier 3 — Nelôxicized via the route of contact)
 
 | Country | Nelôxi | | Country | Nelôxi |
 |---|---|---|---|---|
-| Britain | **Britaniô** | | Portugal | **Portugô** |
-| Ireland | **Irlandô** | | Greece | **Grekô** |
-| France | **Frankô** | | Austria | **Ōstriô** |
-| Spain | **Espanjô** | | Switzerland | **Xveitsô** |
+| Britain | **Ingland** | | Portugal | **Portugô** |
+| Ireland | **Irland** | | Greece | **Grekô** |
+| France | **Frankrīk** | | Austria | **Ōstriô** |
+| Spain | **Españô** | | Switzerland | **Xveitsô** |
 | Italy | **Italiô** | | Czechia | **Txekô** |
 | Belgium | **Belgiô** | | Slovakia | **Slovakô** |
 | Ukraine | **Ukrainô** | | Hungary | **Ungarô** |
 | Romania | **Rumeniô** | | Bulgaria | **Bulgariô** |
 | Serbia | **Serbiô** | | Croatia | **Krôatiô** |
 | Slovenia | **Sloveniô** | | Moldova | **Moldôvô** |
-| Georgia | **Grūsiô** | | Armenia | **Armeniô** |
+| Georgia | **Gruziô** | | Armenia | **Armeniô** |
 
 ### The wider world (Tier 3 — Nelôxicized; a few informal calque-nicknames noted)
 
 | Country | Nelôxi | | Country | Nelôxi |
 |---|---|---|---|---|
 | America (informal) | **Amerikô** | | China | **Kīnô** |
-| Canada | **Kanadô** | | Japan | **Japôni** |
+| Canada | **Kanadô** | | Japan | **Japān** |
 | Mexico | **Meksikô** | | Korea | **Koreô** |
 | Brazil | **Brasiliô** | | India | **Indiô** |
 | Argentina | **Argentīnô** | | Turkey | **Türkiô** |
@@ -96,6 +96,11 @@ Use the list above. It is the complete working set — do not re-derive or re-in
 country not listed (rare), apply the tiers: ancient Baltic/eastern neighbour → consider a Tier-1
 name; transparently-meaningful name → calque; otherwise → Nelôxicize the endonym and add it here.
 Do not invent evocative descriptors for ordinary distant countries — the default is the plain
-Nelôxicized name. Length is written with macrons, never doubled letters; calque elements come
-from canon vocabulary (jǟ "ice", uus "new", sud "south", kuning "king", riig "state", -mō "land").
-Proper nouns may keep foreign scars and use x=[ks] (§47, §63).
+Nelôxicized name. But **nativize the form the ROUTE would have carried**, not the Finnish/Estonian
+form: western sea-trade partners arrive in their Hanseatic/Scandinavian shape (Ingland, Frankrīk,
+Irland, Japān — the merchants' names), the Slavic zone in Slavic self-names (Polskô, Gruziô), the
+learned and distant in the international form. The -ô ending is Nelôxi phonology, not sourcing —
+defaulting to the Finnish form of a name is Finnicization by the back door (§79). Length is
+written with macrons, never doubled letters; calque elements come from canon vocabulary (jǟ
+"ice", uus "new", sud "south", kuning "king", riig "state", -mō "land"). Proper nouns may keep
+foreign scars and use x=[ks], and ñ carries the Iberian sound in Españô (§47, §63).

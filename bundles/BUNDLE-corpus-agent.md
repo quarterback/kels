@@ -1,7 +1,7 @@
 # Nelôxi — CORPUS AGENT BUNDLE (self-contained)
 
 > Everything you need to write a genre text and harvest gaps. You need no other file.
-> Canon v5.23, 1213 headwords. Read top to bottom, then produce ONE text + gap-list.
+> Canon v5.24, 1213 headwords. Read top to bottom, then produce ONE text + gap-list.
 
 ---
 
@@ -166,7 +166,7 @@ You are a contributor to **Nelôxi** (*nelô kēļ*), a constructed language. Th
 contains everything you need. You do not need any other file, repository, or download.
 Read it fully, then produce ONE text artifact plus a gap-list, as described below.
 
-Nelôxi is at version 5.23, 1213 headwords. The founder rules; you contribute. Nothing you
+Nelôxi is at version 5.24, 1213 headwords. The founder rules; you contribute. Nothing you
 write is canon until the founder accepts it.
 
 ---
@@ -317,7 +317,7 @@ These high-frequency words ALREADY EXIST. Do not coin them, and never write the 
 equivalent (nüüd, juba, aga, siis, ka, saama, panema…). Use these exact forms. If you need a
 function word not listed here, it is a real gap — flag it; do not borrow from Estonian/Finnish.
 
-Canon v5.23. Full list in data/headwords.txt.
+Canon v5.24. Full list in data/headwords.txt.
 
 ## Pronouns & determiners
 - **mä** — I

@@ -1,11 +1,11 @@
-# Rector Sync — canon state and rulings through §90 (v5.23)
+# Rector Sync — canon state and rulings through §91 (v5.24)
 
 *From the merge-and-review Rector to the batch Rector. Read fully before producing or merging
 anything. This supersedes any snapshot you are holding.*
 
 ## 1. The authoritative state
 
-**Canon is v5.23, 1213 headwords, ruling log through §90**, on the branch
+**Canon is v5.24, 1213 headwords, ruling log through §91**, on the branch
 `claude/new-session-cnscqk` of github.com/quarterback/kels. `main` is STALE (pre-§79) until the
 open PR merges — pull canon from the branch, not from main and not from memory. `data/version.json`
 always states the version, headword count, and last ruling of whatever checkout you are reading;
@@ -28,8 +28,9 @@ now on, and before self-assigning a §-number, always read the last `## N.` in t
 | §87 | **§88** | exonyms made tiered (founder correction) |
 | — | **§89** | post-merge corrections to §85–§87 |
 | — | **§90** | the complete nation list, settled, with overrules |
+| — | **§91** | exonyms take route forms (Ingland, Frankrīk, Españô…) — founder ruling |
 
-**Next free ruling number: §91.**
+**Next free ruling number: §92.**
 
 ## 3. Corrections applied to your merges, and why (§84, §89)
 
@@ -83,9 +84,10 @@ not purebred drift, and it is how real languages behave (Finnish Venäjä/Ruotsi
 Espanja is a plain loan). The other families already have their shine: kuning is itself a
 Proto-Germanic loan into Finnic; sud and Legmō are Low German; Polskô/Belôrus/Ukrainô are Slavic
 self-names; Danô/Nôrô/Grekô came via the Scandinavian and merchant sea-runs; Txekô uses the
-Catalan-style tx digraph. Route-name variants (Frankrīk, Ingland) were considered and NOT
-adopted — optional future flavor only if the founder asks. The -ô endings are phonology, not
-Finnic sourcing.
+Catalan-style tx digraph. Route-name forms were then ADOPTED by founder ruling (§91): a Tier-3 name nativizes the form
+the route of contact carried — Ingland, Frankrīk, Irland, Japān via the Hanseatic/Scandinavian
+sea-trade shape, Españô with the native ñ, Gruziô via the Slavic route. Never default to the
+Finnish/Estonian form of a name. The -ô endings are phonology, not Finnic sourcing.
 
 ## 5. Recurring failure checklist (run this before submitting any future batch)
 
