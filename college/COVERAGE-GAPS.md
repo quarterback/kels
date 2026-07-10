@@ -1,10 +1,12 @@
 # Nelôxi — Coverage Gaps (delegation dispatcher)
 
 *For the founder. Hand a domain agent ONE block below, plus `bundles/BUNDLE-domain-agent.md`.
-Claim the domain in `ASSIGNMENTS.md` before batching. Canon at audit: v5.30, 1,461 headwords,
-ruling log through §97.*
+Claim the domain in `ASSIGNMENTS.md` before batching. Canon at audit: v5.33, 1,533 headwords,
+ruling log through §100.*
 
-Filled since the last audit: **military (§93), music + modern scenes (§94/§95), religion (§97).**
+Filled since the last audit: **military (§93), music + modern scenes (§94/§95), religion (§97),
+clothing & textiles (§98), crime/violence/legal (§99), and street-type/address civic vocabulary
+plus the address-writing convention (§100 — kājô now fills the quay slot in block 6).**
 Colors are **covered** — full spectrum (`must, sinī, rôhī, kôlt, pūn, valgô, praul, grīs, orānx,
 purpôr, rōs`) + `kōlôr`, `karī` dark, `helē` pale. Only a top-up remains (see block 7).
 

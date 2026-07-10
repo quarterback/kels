@@ -1,8 +1,10 @@
+abonômus
 abātô
 abī
 abīstā
 abītȫ
 adorā
+adresô
 adē
 aedô
 aerutā
@@ -15,6 +17,8 @@ ajū
 akordeôn
 aktô
 akôr
+akūzatsiôn
+akūzā
 al
 alatü
 albômô
@@ -24,6 +28,7 @@ alliansô
 alt
 altārô
 alõs
+alējô
 alū
 ambientô
 Amerikô
@@ -46,6 +51,8 @@ aprīl
 apô
 aribā
 arkebūsô
+arkebūsômus
+arkebūsā
 arm
 armôldā
 armõ
@@ -54,11 +61,13 @@ arsô
 arvô
 arvôldā
 arēnô
+asaltô
 asetā
 atakā
 atlēt
 atlētīk
 augôst
+avenīdô
 avuī
 babkô
 bajômus
@@ -70,6 +79,7 @@ banērô
 baptismô
 Baptistô
 baptisā
+barô
 bassgitarô
 bassô
 bebē
@@ -87,12 +97,15 @@ breviārô
 brôkô
 brāk
 brākā
+bulvārô
 butīk
 bändô
 bôrkô
 büdjet
 bākô
 bālô
+bītsegas
+bītā
 bōgô
 bōndô
 bōs
@@ -129,6 +142,7 @@ drobô
 drōk
 drōksektô
 duhô
+durô
 dva
 dvôrô
 düna
@@ -181,6 +195,7 @@ Españô
 estimô
 estēl
 et
+etāxô
 eukaristī
 fagotô
 failô
@@ -226,6 +241,7 @@ fīnô
 fȫrô
 garnisô
 garnô
+gatô
 genô
 gigô
 gitarô
@@ -251,6 +267,8 @@ hamôr
 handlô
 handlôji
 handôl
+harasômus
+harasā
 harjômus
 harjā
 harniskô
@@ -473,6 +491,7 @@ komponā
 komprā
 komprāji
 komprē
+kondutô
 konfessiôn
 konfessālô
 konfirmômus
@@ -482,12 +501,14 @@ kontrabassô
 kontē
 koorõm
 kor
+korpôsô
 korraks
 kos
 kotxē
 koçôr
 krašô
 krašā
+kriminālô
 kritisā
 kritīk
 krossi
@@ -502,6 +523,8 @@ krūçā
 ksilofônô
 kudômus
 kudā
+kuglô
+kuglôvundô
 kui
 kuidagü
 kuigü
@@ -549,6 +572,7 @@ küpsā
 küpsām
 küsitlô
 küsitlômus
+kājô
 kāldô
 kāldôldā
 kāpôs
@@ -781,6 +805,8 @@ mȫistü
 nabôr
 nagu
 nahkô
+nahtklubô
+nahtô
 naisô
 nalī
 naurô
@@ -801,6 +827,7 @@ noppā
 nostô
 novembôr
 nugā
+nugāaktô
 nupô
 nurô
 nurôr
@@ -910,14 +937,17 @@ pirôg
 pitkin
 pitkü
 plat
+platsô
 plinô
 poig
+politsī
 Polskô
 pomp
 pomā
 pont
 popô
 port
+postkōdô
 postrokô
 potô
 praadi
@@ -930,6 +960,7 @@ problēm
 procesiôn
 produsôr
 produsā
+prokurôr
 prop
 prēu
 prōm
@@ -1023,6 +1054,7 @@ restriktsiôn
 retrētā
 riig
 rik
+rikômus
 rikā
 rindô
 risk
@@ -1050,6 +1082,7 @@ rāndôr
 rēdā
 rēdāji
 rēdām
+rēdāmkirjômus
 rētô
 rīfô
 rīgô
@@ -1092,6 +1125,7 @@ sedä
 sedôm
 seejärõl
 segas
+segaskondutô
 segā
 seilā
 sektô
@@ -1155,6 +1189,7 @@ struktūrôl
 strunô
 strānd
 strēlô
+stōrī
 sud
 sugô
 sugôläpx
@@ -1326,6 +1361,7 @@ tǟs
 tȫ
 tȫdô
 tȫkambôr
+udarā
 udū
 um
 Uniatô
@@ -1395,6 +1431,9 @@ vim
 vimõ
 vingôr
 vinkā
+violentskett
+violentsô
+violentô
 violā
 violīnô
 virkā
