@@ -35,6 +35,7 @@
     gazetteer:   { title: "Gazetteer",         sub: "Cities & place-names",         file: "world/gazetteer.md",               group: "World", toc: true },
     boundaries:  { title: "Boundaries",        sub: "Canonical borders & units",    file: "world/boundaries.md",              group: "World", toc: true },
     toponymy:    { title: "Toponymy",          sub: "How places get named",         file: "world/toponymy.md",                group: "World", toc: true },
+    exonyms:     { title: "Exonyms",           sub: "What Nelôxi calls other lands", file: "world/exonyms.md",                 group: "World", toc: true },
     gr_index:    { title: "Grammar modules",   sub: "Foundation index",             file: "grammar/00-INDEX.md",              group: "Grammar" },
     gr_part:     { title: "The partitive",     sub: "Module 01",                    file: "grammar/01-partitive-case.md",     group: "Grammar", toc: true },
     gr_verb:     { title: "Verb derivation",   sub: "Module 02",                    file: "grammar/02-verb-derivation.md",    group: "Grammar", toc: true },
@@ -313,6 +314,49 @@
     });
   }
 
+  // --- Version stamp --------------------------------------------------------
+  // Two independent signals so the reader can always tell they have the latest:
+  //  1. data/version.json — GENERATED from the charter alongside the data files,
+  //     fetched relatively, so it is always in lockstep with the deployed canon.
+  //  2. The repository's latest commit (GitHub API) — when the site last changed.
+  function loadVersionStamp() {
+    var badge = document.createElement("div");
+    badge.className = "version-badge";
+    sidebar.insertBefore(badge, sidebar.firstChild);
+    var foot = document.getElementById("version-stamp");
+
+    function setText(el, text) { if (el) el.textContent = text; }
+
+    fetch("data/version.json", { cache: "no-cache" })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (v) {
+        if (!v) return;
+        var canon = "Canon " + v.version + " · " + v.headwords + " headwords · through §" + v.ruling;
+        setText(badge, canon);
+        setText(foot, canon);
+        badge.setAttribute("title", "Generated from the charter with the data files — always matches the content you are reading.");
+      })
+      .catch(function () {});
+
+    fetch("https://api.github.com/repos/quarterback/kels/commits?per_page=1", { cache: "no-cache" })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (list) {
+        if (!list || !list.length) return;
+        var c = list[0];
+        var when = new Date(c.commit.committer.date);
+        var stamp = "updated " + when.toLocaleDateString(undefined, { year: "numeric", month: "short", day: "numeric" }) +
+          " " + when.toLocaleTimeString(undefined, { hour: "2-digit", minute: "2-digit" }) +
+          " (" + c.sha.slice(0, 7) + ")";
+        var line = document.createElement("div");
+        line.className = "version-badge-when";
+        line.textContent = stamp;
+        line.setAttribute("title", (c.commit.message || "").split("\n")[0]);
+        badge.appendChild(line);
+        if (foot) foot.textContent += " · " + stamp;
+      })
+      .catch(function () {});
+  }
+
   // --- Router -------------------------------------------------------------
   function parseHash() {
     var h = location.hash.replace(/^#\/?/, "");
@@ -359,6 +403,7 @@
 
   // --- Wire up ------------------------------------------------------------
   buildSidebar();
+  loadVersionStamp();
   window.addEventListener("hashchange", onHashChange);
 
   document.getElementById("nav-toggle").addEventListener("click", function () {

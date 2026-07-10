@@ -2,7 +2,7 @@
 
 > The full structural core of Nelôxi in one file. Hand this to a grammar agent, or to any
 > agent that has started drifting (using Estonian, guessing forms) to re-ground it.
-> Canon v5.17. Every module assumes no prior knowledge.
+> Canon v5.24. Every module assumes no prior knowledge.
 
 ---
 
@@ -533,6 +533,7 @@ Do NOT build a postposition for these; the ending is the whole answer.
 - **vahel** — between (two things): *kōtôs ja merôs vahel* "between the house and the sea"
 - **pitkin** — along: *rāndôs pitkin* "along the shore"
 - **pōl** — toward: *satāmôs pōl* "toward the harbor"
+- **vällô** — outside, beyond: *līnôs vällô* "outside the town"
 
 ### Temporal
 - **enne** — before (in time): *pulmôs enne* "before the wedding" (also bare adverb "earlier")
@@ -548,7 +549,7 @@ Do NOT build a postposition for these; the ending is the whole answer.
 ## Part 3 — Known gaps (flag these; do not invent)
 
 Relations with **no form yet** (a delegate who needs one flags it as a gap for the Rector):
-- "beyond / past" · "beside / next to" (currently approximated with *kesk*/*jeds* phrases) ·
+- "beside / next to" (currently approximated with *kesk*/*jeds* phrases) ·
   "instead of" as a spatial frame (*hoopõs* covers the adverb "instead") · "since (a time)" ·
   "until" as a postposition (*kuni* exists but is a conjunction: *kuni sup um paks* "until the
   soup is thick" — there is no noun-governing "until Tuesday" form yet).

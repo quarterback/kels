@@ -169,4 +169,18 @@ grammar = assemble([
 ])
 write("bundles/BUNDLE-grammar-reference.md", grammar)
 
+# Version stamp for the website (data/version.json) — generated from the same
+# charter facts as everything else, so the site badge always matches the deployed canon
+import json
+write("data/version.json", json.dumps(
+    {"version": VERSION, "headwords": COUNT, "ruling": LASTSEC}, ensure_ascii=False) + "\n")
+
+# Translation bundle is live-fetch by design (no embedded list) — sync only its canon stamp
+trans = ROOT / "bundles/BUNDLE-translation-agent.md"
+if trans.exists():
+    t = trans.read_text(encoding="utf-8")
+    t = sub1(t, r"Current canon: \*\*v\d+\.\d+, ~?[\d,]+ headwords\.\*\*",
+             f"Current canon: **{VERSION}, ~{COUNT} headwords.**", "BUNDLE-translation-agent")
+    trans.write_text(t, encoding="utf-8")
+
 print(f"bundles rebuilt at {VERSION}, {COUNT} headwords (ruling log through §{LASTSEC})")
