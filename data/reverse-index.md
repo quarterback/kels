@@ -1,6 +1,6 @@
 # Nelô kēļ — English → Nelôxi Reverse Index
 
-*Generated from the coursebook master dictionary (1688 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
+*Generated from the coursebook master dictionary (1737 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
 
 
 ## A
@@ -73,6 +73,7 @@ although → **kuigü**
 always → **alatü** · **semprē**  
 ambient music (international) → **ambient**  
 America (informal exonym) → **Amerikô**  
+American football → **amerikôjalgpel**  
 amplifier (international) → **amplifôr**  
 amulet (Romance/international) → **amuletô**  
 an old woman paid to pray → **paterbabkô**  
@@ -135,6 +136,7 @@ award → **perēm**⁺
 baby → **bebē**  
 back → **selg** · **tagān**  
 bad luck (coarse) → **flūk**  
+badminton → **badminton**  
 bake (v.) → **küpsā**  
 bake-house → **küpsām**  
 baker → **küpsôr**  
@@ -161,7 +163,9 @@ barrel → **tonnô**
 barren → **pūst**  
 bartender ("pub-milk") → **pubô-melk**  
 base → **pôhô**  
+baseball → **beisbol**  
 basic law → **pôhôlēgô**  
+basketball → **nētôpel**  
 bass → **bassô**  
 bass guitar (international) → **bassgitarô**  
 bass instrument (Romance/international) → **bassô**  
@@ -208,6 +212,7 @@ belt → **remenô**
 berry → **mārjā**  
 betrothal → **kihlô**  
 beyond (postp.) → **vällô**  
+bicycle → **velô**  
 big → **sūr**  
 bin → **kastô**  
 bind → **sidā**  
@@ -254,6 +259,8 @@ boulevard (Romance) → **bulvār**
 boundary → **pīrô**  
 bow (Low German) → **bōgô**  
 bowed string instrument (Low German) → **fidēlô**  
+boxing → **boks**  
+boxing ring → **boksring**  
 brain (Romance → **serebrô**  
 braise → **hautā**  
 brass instrument (Low German) → **hornô**  
@@ -381,6 +388,7 @@ cheek (Marīsô, slav) → **pôskô**
 cheers → **skōl**  
 cheers (archaic → **tervü**  
 cheese → **jūst**  
+chess → **xak**  
 chest (Livonian → **rind**  
 chicken → **hennô**  
 child → **läpx**  
@@ -516,6 +524,7 @@ coward → **skītôr**
 cowardly → **klȫtôtū**  
 crap! (vulgar) → **skīt**  
 cream-filled pastry (Belgian import) → **flœzī**  
+cricket → **kriket**  
 crime → **vǟrô**  
 criminal (Romance) → **kriminālô**  
 crippled (Low German → **lombô**  
@@ -542,6 +551,10 @@ cure (v.) → **kūrā**
 current → **vool**  
 curse → **flūk** · **flūkā** · **fāndô**  
 cut (v.) → **leikā** · **lôigā**  
+cycle (v.) → **dromstā**  
+cycle track → **drom**  
+cycling → **dromômus**  
+cyclist → **dromôr**  
 cymbal (Romance/international) → **çimbalô**  
 
 ## D
@@ -640,6 +653,9 @@ dress (v.) → **dressā** · **klaidô**
 drift (v.) → **ajū**  
 drink (v.) → **jōdô**  
 drinking house → **barô**⁺  
+drome (v.) → **dromstā**  
+dromer → **dromôr**  
+droming → **dromômus**  
 drop (v.) → **pillā**  
 drop (of prices, water, level) → **langô**  
 drought → **kuivômus**  
@@ -698,6 +714,7 @@ entry mark → **vīzô**⁺
 environment → **ümbristô**  
 envy → **kadē** · **kadēldā**  
 epidemic (Romance) → **pestô**  
+equestrian sport → **rīdômus**  
 erase (v.) → **puhādā**  
 especially the earned → **empatô**  
 established truth → **tôsītū**  
@@ -738,7 +755,7 @@ fall (v.) → **langô**
 fall (rain/snow) (v.) → **sadā**  
 familiar grandfather (Marīsô, slav) → **dēdkô**  
 familiar grandmother (Marīsô, slav) → **babkô**  
-family → **famīl·la**  
+family → **la**  
 far → **kaug**  
 farmer → **nurôr**  
 farmer (Low German Bauer) → **bōndô**  
@@ -764,7 +781,8 @@ feel lonely (v.) → **üksūldā**
 feel passion for (v.) → **kirgôldā**  
 feel proud (v.) → **ūpeldā**  
 feeling → **mōl**  
-fence → **aedô**  
+fence → **aedô** · **fektā**  
+fencing → **fektômus**  
 fertilize (v.) → **väetā**  
 fertilizer → **väetô**  
 festival (Romance) → **festivô**  
@@ -824,6 +842,7 @@ fondness → **arm**
 food → **sȫk**  
 fool → **glupôr**  
 foot → **pēu**  
+football → **jalgpel**  
 for → **eest**  
 for a long time → **ammū**  
 for sale → **müük**  
@@ -904,6 +923,9 @@ goat → **kitsô**
 gob (vulgar) → **mūlô**  
 god → **deusô**  
 gold → **kuld**  
+golf → **golf**  
+golf club → **golfklubô** · **golfrīst**  
+golf stick → **golfrīst**  
 good → **jôvā**  
 good heavens! (exclamation) → **issõ**  
 good night (greeting) → **havs**  
@@ -949,6 +971,7 @@ guitar (Romance/international) → **gitarô**
 gun (Low German) → **arkebūsô**  
 gut (v.) → **rōkā** · **sool**  
 gutless (vulgar) → **klȫtôtū**  
+gymnastics → **gimnastīk**  
 
 ## H
 
@@ -961,6 +984,7 @@ halt → **püsā**
 hammer → **hamôr**  
 hand → **kǟs**  
 hand-span as a measure (Livonian) → **vaksô**  
+handball → **kǟspel**  
 handwriting → **kirjô**  
 happen (v.) → **juhtü**  
 happy → **felīç**  
@@ -1018,6 +1042,9 @@ hide → **nahkô**
 hip (Marīsô, slav) → **kubô**  
 hip-hop (international) → **hiphopô**  
 hit (Scandinavian) → **bītā**  
+hockey → **hokī**  
+hockey ice-field → **hokījǟpēlām**  
+hockey rink → **hokījǟpēlām**  
 holder of a doctorate (Latin) → **doktôr**  
 holy (Romance/Latin) → **sakrô**  
 holy day → **santpǟvô**  
@@ -1094,6 +1121,7 @@ ink → **tintô**⁺
 inner peace → **rahu**  
 inside → **sisü**  
 instead → **hoopõs**  
+institution → **golfklubô**  
 institutional, cf. ūsk 'belief') → **fīdô**  
 instructor → **talçāji**  
 insult for a corrupt or drunken church fair (folk/polemical → **düvēlmarkôt**  
@@ -1132,6 +1160,7 @@ joint purchase (Low German) → **inkôp**
 joke → **nalī**  
 joy → **ilo**  
 judge (v.) → **rēdā** · **rēdāji**  
+judo → **jūdô**  
 juice → **māhl**  
 July → **jūli**  
 June → **jūni**  
@@ -1142,6 +1171,7 @@ just over there → **sālsāl**
 ## K
 
 kantele-type plucked box (Karelian) → **kantelô**  
+karate → **karatē**  
 keep up → **hoolā**  
 keeps the dž scar) → **džezô**  
 kettledrum (Romance/Italian) → **timpanô**  
@@ -1171,6 +1201,7 @@ lamp → **lampô**⁺ · **nīrin**
 lamp left at graves or wreck memorials (grave ritual) → **haudôlampadô**  
 land a blow (Marīsô, slav) → **udarā**  
 land of the dead (Slavic/older death-lore) → **navô**  
+lane-track → **pistô**  
 language → **kēļ**  
 lap → **sülü**  
 late → **tard**  
@@ -1722,6 +1753,8 @@ revenant (Slavic folklore) → **upīrô**
 rhythm → **ritmô**  
 rich → **rik**  
 ride → **sôidômus** · **sôidā**  
+ride horseback (v.) → **rīdā**  
+riding → **rīdômus**  
 riff (international) → **rīfô**  
 right → **rētô** · **ôigus**  
 right (side) → **deret**  
@@ -1748,10 +1781,12 @@ rot → **mätä** · **mätänä**
 rough (surface) → **kārgô**  
 roughly (approx.) → **mumbõ**  
 row (v.) → **aerutā** · **sōudô**  
-rowing → **sōud**  
+rowing → **sōud** · **sōudsport**  
+rugby → **rugbi**  
 ruin utterly (coarse) → **brākā**  
 ruler → **mēdôr**  
 run (v.) → **kōrrô**  
+running → **kōrrômus**  
 runoff → **ropõ**  
 Russia (exonym, old Finnic "the Wends") → **Venä**  
 
@@ -1767,6 +1802,7 @@ sad → **tirist**
 said "DJ" → **dīdžē**  
 said with a groan (terrace slang, opaque origin) → **untô**  
 sail → **purjē** · **seilā**  
+sailing → **purjēsport**  
 sailor → **matrūs**  
 saint → **santô**  
 saint's day (santô + pǟvô) → **santpǟvô**  
@@ -1898,6 +1934,13 @@ sister → **sisār**
 sit (v.) → **istā**  
 six → **xeç**  
 sixteen → **dünxtir**  
+skate (v.) → **xȫvlā**  
+skating → **xȫvlômus**  
+ski → **skī** · **skīstä**  
+ski course → **skīrājô**  
+ski sport → **skīsport**  
+ski trail → **skīrājô**  
+skiing → **skī**  
 skin (Livonian → **nahk**  
 skull → **kallô**  
 sky → **taivô**  
@@ -1924,6 +1967,7 @@ so be it → **olgu**
 soak (coarse) → **prōmôr**  
 soft → **pehmē**  
 soft (musical dynamic → **pianē**  
+softball → **softbol**  
 softly → **tasõ**  
 software (international loan) → **softvēr**  
 soil → **māld**  
@@ -1979,7 +2023,7 @@ square → **plats**
 stab (v.) → **pikā**  
 stabbing → **nugāaktô**  
 stable → **lāvô**  
-stadium → **arēnô**⁺  
+stadium → **arēnô**⁺ · **stadion**  
 stall-seller (Marīsô, slav) → **tārgôr**  
 standard (Low German) → **banērô**  
 standing → **püstü**  
@@ -2054,6 +2098,8 @@ sweet course → **magūsū**
 sweetie → **kohanü** · **kullõ**  
 swell → **laintū**  
 swell (Livonian) (v.) → **turdā**  
+swim (v.) → **vōigā**  
+swimming → **vōigômus**  
 swindle (coarse) → **trīkā**  
 sword → **sverdô**  
 synod (Romance/Greek-Latin) → **sinodô**  
@@ -2095,6 +2141,8 @@ tend animals → **karjā**
 tender → **hell**  
 tenderness → **hellū**  
 tendon (Romance → **tendô**  
+tennis → **tennis**  
+tennis racket → **tennisrekôt**  
 terminal → **jaamô**⁺  
 terrace) → **brüllô**  
 terrace, contemptuous) → **kukôr**  
@@ -2209,7 +2257,7 @@ torso (Romance) → **torsô**
 tournament → **tornē**⁺  
 toward → **pōl**  
 tower → **tornô**⁺  
-track → **rājô**  
+track → **pistô** · **rājô**  
 track (recording) (international) → **trekô**  
 trade (v.) → **handlô**  
 trade (n.) → **handôl**  
@@ -2284,6 +2332,7 @@ vanishes against the strong (kukô + -ôr → **kukôr**
 vehicle trip → **sôidômus**  
 veil (Romance) → **kavērā**  
 vein (Low German → **suônô**  
+velodrome → **drom**  
 vendor → **krāmôr**  
 vertigo (Low German Schwindel) → **svindôl**  
 very → **vägä**  
@@ -2304,6 +2353,7 @@ visa → **vīzô**⁺
 visitor → **külalü**  
 voice → **vēu**  
 voice-call → **kônô**  
+volleyball → **vôrkpel**  
 vomit → **krašô** · **krašā**  
 vomit (Livonian) (v.) → **oksä**  
 vote → **balçômus** · **balçā**  
@@ -2344,6 +2394,7 @@ wedding → **pulmô**
 Wednesday → **midvôk**  
 week → **setmān** · **vekk**  
 weigh (Low German wegen) (v.) → **vēgā**  
+weightlifting → **rasknostô**  
 welcome (archaic → **tervetô**  
 welcome (Low German) → **velkô**  
 well… (hesitation) → **noh**  
@@ -2404,6 +2455,8 @@ woven texture (from kudā) → **kudômus**
 wrap up → **pakkü**  
 wreck (v.) → **brākā** · **fānkellô**  
 wreckage → **brāk**  
+wrestle (v.) → **vranglā**  
+wrestling → **vranglômus**  
 wretched (coarse) → **bōs**  
 write (v.) → **kirjā**  
 writer → **kirjāji**  
