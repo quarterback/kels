@@ -35,6 +35,7 @@ appü
 aprīl
 apô
 aribā
+arkebūsô
 arm
 armôldā
 armõ
@@ -44,6 +45,7 @@ arvô
 arvôldā
 arēnô
 asetā
+atakā
 atlēt
 atlētīk
 augôst
@@ -54,6 +56,7 @@ bajā
 balkô
 balçômus
 balçā
+banērô
 bebē
 bel
 bidô
@@ -64,9 +67,11 @@ bratkô
 brāk
 brākā
 butīk
+bôrkô
 büdjet
 bākô
 bālô
+bōgô
 bōndô
 bōs
 bōt
@@ -165,6 +170,7 @@ fān
 fāndô
 fīnô
 fȫrô
+garnisô
 genô
 glup
 glupôr
@@ -189,6 +195,7 @@ handlôji
 handôl
 harjômus
 harjā
+harniskô
 harvõ
 haudô
 haulā
@@ -209,6 +216,7 @@ hoolāji
 hoopõs
 häbedā
 häbū
+hērô
 hūr
 hǟ
 identitēt
@@ -286,6 +294,8 @@ kalāji
 kalāstā
 kalēnt
 kambôr
+kampômus
+kampā
 kamērô
 kamī
 kannômus
@@ -299,7 +309,9 @@ kaotômus
 kaotā
 kap
 kapasitēt
+kapitulā
 kaptā
+kaptīvô
 kapustô
 karistô
 karistā
@@ -357,6 +369,7 @@ kodô
 kodā
 kogē
 kohanü
+komandôr
 kompass
 komprā
 komprāji
@@ -565,6 +578,7 @@ midagü
 midvôk
 miks
 mikô
+militsô
 miljôn
 mingü
 ministôr
@@ -832,6 +846,7 @@ reisā
 rekôrd
 rekôt
 restriktsiôn
+retrētā
 riig
 rik
 rikā
@@ -871,6 +886,7 @@ sadô
 sadā
 sagõ
 Saksô
+saldātô
 salvômus
 salvā
 samā
@@ -900,6 +916,7 @@ sestrô
 sesôn
 setmān
 setä
+seçô
 sidômus
 sidā
 signô
@@ -914,6 +931,7 @@ sisü
 sisār
 sitānik
 sitāt
+skildô
 skrinô
 skīt
 skītôr
@@ -928,10 +946,12 @@ sol
 solvômus
 solvā
 sportô
+spērô
 statistīk
 struktūr
 struktūrôl
 strānd
+strēlô
 sud
 sugô
 sugôläpx
@@ -945,6 +965,7 @@ surmô
 surā
 suvi
 suô
+sverdô
 syndômus
 syndā
 syv
@@ -1026,10 +1047,13 @@ tormô
 tornô
 tornē
 torô
+traktātô
 tri
+troppô
 trīk
 trīkôr
 trīkā
+trūsô
 tugev
 tuisk
 tulevô
@@ -1106,6 +1130,7 @@ valmis
 valmistā
 valvā
 valvāji
+valô
 valī
 valīstā
 valū
@@ -1115,6 +1140,7 @@ vanapǟr
 vangô
 vanlü
 vanôr
+vapnô
 varsü
 varā
 vasikô
@@ -1142,6 +1168,7 @@ villô
 vim
 vimõ
 vingôr
+vinkā
 virkā
 viskā
 vist
@@ -1149,6 +1176,8 @@ volē
 vool
 vormā
 votā
+vragô
+vundô
 väetô
 väetā
 vägä

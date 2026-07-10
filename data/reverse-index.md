@@ -1,6 +1,6 @@
 # Nelô kēļ — English → Nelôxi Reverse Index
 
-*Generated from the coursebook master dictionary (1231 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
+*Generated from the coursebook master dictionary (1260 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
 
 
 ## A
@@ -75,8 +75,12 @@ appear → **sīmā**
 apple → **pomā**  
 April → **aprīl**  
 arena → **arēnô**⁺  
+arm (Low German) → **vapnô**  
+armor → **harniskô**  
+army → **hērô**  
 around (postp.) → **ümbär**  
 arrive (v.) → **aribā**  
+arrow → **strēlô**  
 arse → **arsô**  
 as → **nagu**  
 ask (v.) → **kysô**  
@@ -87,6 +91,7 @@ at once! (interjection → **fluks**
 athlete (Romance) → **atlēt**  
 athletics (Romance) → **atlētīk**  
 attach to → **lītü**  
+attack (Romance) (v.) → **atakā**  
 August → **augôst**  
 aunt → **tantô**  
 autumn → **sügü**  
@@ -105,6 +110,7 @@ ball → **bālô**
 ballot → **balçômus**  
 balls → **klȫtô**  
 ban (v.) → **keldā** · **kēld**  
+banner → **banērô**  
 bargain → **kauplô**  
 bargain price → **çenô**  
 bargaining → **kauplômus**  
@@ -114,6 +120,7 @@ base → **pôhô**
 basic law → **pôhôlēgô**  
 bastard (vulgar) → **futôr**  
 bat → **rekôt**⁺  
+battle → **kampômus**  
 bay → **laht**  
 be (present) (v.) → **um**  
 be able (v.) → **vôī**  
@@ -150,6 +157,7 @@ binding → **sidômus**
 birth → **syndômus**  
 bit → **jagô**  
 black → **must**  
+blade (Scandinavian) → **sverdô**  
 blizzard → **tuisk**  
 block yard (Marīsô, slav) → **dvôrô**  
 blockhead (coarse) → **glupôr**  
@@ -158,7 +166,9 @@ blue → **sinī**
 board → **lōdô**  
 boat → **bōt**  
 body → **kos**  
+body of soldiers (Low German) → **troppô**  
 boil (v.) → **keetā**  
+bolt (Marīsô, slav) → **strēlô**  
 book → **livrô**  
 booze → **prōm**  
 border → **pīrô**  
@@ -170,6 +180,7 @@ border-city dialect → **marīskēļ**
 bother (v.) → **mādā**  
 bottom → **alū** · **pôhô**  
 boundary → **pīrô**  
+bow (Low German) → **bōgô**  
 braise → **hautā**  
 bread → **pa**  
 break → **rikā**  
@@ -217,6 +228,7 @@ cap → **xapkô**
 capability → **kapasitēt**  
 capacity (Romance) → **kapasitēt**  
 cape → **nēm**  
+captive → **kaptīvô**  
 car → **kotxē**  
 care → **mūrô**  
 care for → **ravā**  
@@ -294,11 +306,13 @@ coffee → **kafē**
 cold → **kylm**  
 collect → **kōrjā**  
 color → **kōlôr**  
+combat → **kampômus**  
 come (v.) → **tulē**  
 come back → **nāsô**  
 come in → **sisü**  
 comfort → **lohū** · **lohūldā**  
 coming → **tulevô**  
+commander → **komandôr**  
 common → **ühü**  
 compass → **kompass**⁺  
 compete (v.) → **vôistlô**  
@@ -310,6 +324,7 @@ concerning (postp.) → **pǟl**
 conduit → **torô**  
 confused (Romance) → **konfusü**  
 confusing → **konfusü**  
+conquer (v.) → **vinkā**  
 conservative Karelian/coastal register — std. bidô) → **palô**  
 conservative Karelian/coastal register — std. dankô) → **täno**  
 conservative Karelian/coastal register — std. estimô) → **armõ**  
@@ -394,6 +409,7 @@ deck → **dek**⁺
 deep → **syv**  
 defeat → **kaotômus**  
 defend → **kaitsô**  
+defensive wall → **valô**  
 define (Romance) (v.) → **definā**  
 degree → **grād**  
 delight → **rôim**  
@@ -421,6 +437,7 @@ disposal → **jättômus**
 disposal site → **jättām**  
 dispose of → **jättā**  
 dispute (Romance) → **disputô**  
+do battle (Low German) → **kampā**  
 dock → **tillô**⁺  
 doctor → **arst** · **doktôr**  
 dog → **gos**  
@@ -471,6 +488,7 @@ enclosure → **aedô**
 end → **lop** · **lopā**  
 endurance → **kannômus**  
 endure (v.) → **kannā**  
+enemy → **vragô**  
 engagement → **kihlô**  
 enough! → **küllü**  
 ensign → **flag**⁺  
@@ -537,6 +555,7 @@ fertilizer → **väetô**
 field → **nurô** · **põld** · **pēlām**  
 field-worker → **nurôr**  
 fifteen → **düntri**  
+fight (v.) → **kampā**  
 file → **failô**⁺  
 fill (v.) → **täidā**  
 filled pastry (Marīsô, slav) → **pirôg**  
@@ -550,6 +569,7 @@ fine → **fīnô** · **gūd** · **hǟ** · **olgu**
 fine (native → **kaunõ**  
 finish → **lopā**  
 Finland (nativized endonym Suomi) → **Sōme**  
+firearm → **arkebūsô**  
 first → **esmõks**  
 firstly → **esmõks**  
 fish → **kalā** · **kalāstā**  
@@ -565,6 +585,7 @@ floor (of sea/river) → **pôhô**
 flour → **jôu**  
 flower → **lil**  
 fodder → **sȫtô**  
+foe (Marīsô, slav) → **vragô**  
 fog → **udū**  
 fondness → **arm**  
 food → **sȫk**  
@@ -581,6 +602,7 @@ forgive (v.) → **andõstā** · **pardā**
 forgiveness → **pardômus**  
 form → **vormā**  
 former times → **ennū**  
+fortress → **bôrkô**  
 fortunately → **ônnô**  
 forward → **edä**  
 foul → **bōs** · **vǟrpēlā**  
@@ -609,6 +631,7 @@ future → **tulevô**
 
 game → **mäng** · **pēlô**  
 garlic → **lauk**  
+garrison (Romance) → **garnisô**  
 gate → **bramô**  
 gather (v.) → **kōrjā** · **noppā**  
 gather crop → **viljôstā**  
@@ -671,6 +694,7 @@ growth → **kasvômus**
 guard (v.) → **valvā** · **valvāji**  
 guardian → **ravôji**  
 guest → **külalü** · **vôrô**  
+gun (Low German) → **arkebūsô**  
 gut (v.) → **rōkā**  
 gutless (vulgar) → **klȫtôtū**  
 
@@ -690,6 +714,7 @@ happy → **felīç**
 harbor → **satām**  
 hard → **kôv**  
 hard cold → **pakā**  
+harness (Low German) → **harniskô**  
 harsh → **karmô**  
 harvest → **noppômus** · **noppā** · **urôžai** · **viljôstā**  
 harvest season → **satsô**  
@@ -733,6 +758,7 @@ hope (n.) → **lōtū**
 horse → **obūn**  
 hospitality → **sōdõmus**  
 host (v.) → **sōdā** · **sōdāji**  
+host (Low German) → **hērô**  
 hot → **kalēnt**  
 hour → **klôk** · **ōra**  
 house → **kōt**  
@@ -780,6 +806,7 @@ invitation → **kutsô**
 invite (v.) → **kutsu**  
 Ireland (exonym, Hanseatic route-form) → **Irland**  
 iron → **raud**  
+irregular local force (Marīsô, slav) → **militsô**  
 island → **sār**  
 isn’t it? (tag question, post-clause) → **ekõ**  
 it → **tä**  
@@ -947,6 +974,7 @@ message → **sônaktô**
 microphone → **mikô**⁺  
 midday meal → **lôunā**  
 middle → **keskū**  
+militia → **militsô**  
 milk (v.) → **lypsā** · **lēt**  
 milking → **lypsômus**  
 million (12⁶, ~2.99M) → **miljôn**  
@@ -1041,6 +1069,7 @@ of course → **muidū**
 off → **maha**  
 office → **amtô**  
 office-holder → **amtôji**  
+officer (Romance) → **komandôr**  
 official → **amtôji**  
 official document → **aktô**  
 official mark → **sīgel**  
@@ -1158,6 +1187,7 @@ price-reduction (Low German) → **rabat**
 prick → **pik**  
 pride → **ūpū**  
 prison → **vangô**  
+prisoner of war (Romance) → **kaptīvô**  
 prize → **perēm**⁺  
 probably → **vist**  
 problem (Romance) → **problēm**  
@@ -1206,6 +1236,7 @@ radio → **rādjo**⁺
 rain → **vim**  
 rain (weather verb) (v.) → **vimõ**  
 raise → **nostô** · **ravā**  
+rampart (Low German) → **valô**  
 rank (Romance/LG) → **grād**  
 rapid flow → **ropõ**  
 rarely → **harvõ**  
@@ -1240,6 +1271,7 @@ respond → **kôstô**
 response → **vastômus**  
 responsibility (irregular → **vastāmus**  
 restriction (Romance) → **restriktsiôn**  
+retreat (Romance) (v.) → **retrētā**  
 return (v.) → **nāsô**  
 rich → **rik**  
 ride → **sôidômus** · **sôidā**  
@@ -1343,6 +1375,7 @@ she → **tä**
 sheep → **lammô**  
 sheet → **lehtô**  
 shelf → **riul**⁺  
+shield (Scandinavian) → **skildô**  
 shine (v.) → **nīrā**  
 shining → **nīrô**  
 ship → **xip**  
@@ -1355,6 +1388,7 @@ short → **kurt**
 shred → **rūbā**  
 sick → **malālt**  
 sickle → **sirpô**  
+siege (Romance) → **seçô**  
 signal → **signô**⁺  
 signal tower → **tornô**⁺  
 signboard → **märktaul**  
@@ -1390,6 +1424,7 @@ soft → **pehmē**
 softly → **tasõ**  
 software (international loan) → **softvēr**  
 soil → **māld**  
+soldier (Low German) → **saldātô**  
 solution → **solvômus**  
 solve (Romance) (v.) → **solvā**  
 some → **mingü** · **mõnü**  
@@ -1415,6 +1450,7 @@ Spain (exonym, route-form with native ñ) → **Españô**
 speak (v.) → **parlā**  
 speak back and forth → **kônā**  
 speaker (audio device) → **kūlin**  
+spear (Low German) → **spērô**  
 spice → **maitū**  
 spill → **pillā**  
 sport (international) → **sportô**  
@@ -1424,6 +1460,7 @@ stab (v.) → **pikā**
 stable → **lāvô**  
 stadium → **arēnô**⁺  
 stall-seller (Marīsô, slav) → **tārgôr**  
+standard (Low German) → **banērô**  
 standing → **püstü**  
 star → **estēl**  
 start → **alk**  
@@ -1451,6 +1488,7 @@ street price (Marīsô, slav) → **çenô**
 streetlight → **karrēlampô**  
 strength → **vôim**  
 strong → **fort**  
+stronghold (Low German) → **bôrkô**  
 structural → **struktūrôl**  
 structure (Latin) → **struktūr**  
 student → **ôpāji**  
@@ -1471,6 +1509,7 @@ sunshine → **päikü**
 supper → **ôhtôk**  
 surely → **küllü**  
 surely not → **egü**  
+surrender (Romance) (v.) → **kapitulā**  
 surroundings → **ümbristô**  
 survey → **küsitlô**  
 swear an oath (v.) → **vānā**  
@@ -1480,12 +1519,14 @@ sweet course → **magūsū**
 sweetie → **kohanü** · **kullõ**  
 swell → **laintū**  
 swindle (coarse) → **trīkā**  
+sword → **sverdô**  
 system (Romance) → **süstēm**  
 
 ## T
 
 table → **taul**  
 take (v.) → **votā**  
+take by force (Low German) → **vinkā**  
 talk (v.) → **rǟkõ** · **rǟkõmus**  
 talk idly (Marīsô, slav) → **bajā**  
 tall → **alt**  
@@ -1582,11 +1623,14 @@ transmission → **saatômus**
 trash → **roiskô**  
 travel (v.) → **reisā**  
 travel by vehicle → **sôidā**  
+treaty (Romance) → **traktātô**  
 tree → **pū**  
 tribunal → **rēdām**  
 trick → **trīk** · **trīkā**  
 trickster → **trīkôr**  
+troop → **troppô**  
 trouble oneself → **mādā**  
+truce (Low German) → **trūsô**  
 trust (v.) → **usaldā**  
 trust (n.) → **usaldômus**  
 truth → **tôsī**  
@@ -1665,6 +1709,7 @@ way → **mōd**
 we → **mēg**  
 we should go (hortative) → **minõm**  
 weak → **flōp** · **nôrk**  
+weapon → **vapnô**  
 weary → **tüdü**  
 weather → **tems**  
 weave (v.) → **kudā**  
@@ -1715,6 +1760,7 @@ worry (v.) → **muretõ** · **mūrô** · **mūrôldā**
 worthless (coarse) → **pūst**  
 worthless person (vulgar) → **skītôr**  
 wound emotionally (v.) → **haavā**  
+wound taken in fighting (Low German) → **vundô**  
 wrap up → **pakkü**  
 wreck (v.) → **brākā**  
 wreckage → **brāk**  
