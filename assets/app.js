@@ -21,6 +21,14 @@
     dialects:    { title: "Dialects",          sub: "Overview",                     file: "dialects/README.md",               group: "Dialects" },
     metrolect:   { title: "Metrolect",         sub: "Metroplex standard",           file: "dialects/metrolect/metrolect.md",  group: "Dialects" },
     inland:      { title: "Inland",            sub: "Conservative rural",           file: "dialects/inland/inland.md",        group: "Dialects" },
+    saharannaise:{ title: "Saharannaise",      sub: "The Atlantic standard",         file: "saharannaise/saharannaise.md",     group: "Saharannaise" },
+    commonregister:{ title: "Common Register", sub: "The shared spine of both standards", file: "saharannaise/COMMON-REGISTER.md", group: "Saharannaise" },
+    voc:         { title: "Common Vocabulary (VOC)", sub: "Federated index of both standards", file: "saharannaise/VOC.md", group: "Saharannaise" },
+    saharannaiseB:{ title: "Domain B lexicon", sub: "Terrain·water·weather·livestock", file: "saharannaise/lexicon-B-terrain-water-weather-livestock.md", group: "Saharannaise" },
+    saharannaiseC:{ title: "Domain C lexicon", sub: "Food·kin·market·the day", file: "saharannaise/lexicon-C-food-kin-market-day.md", group: "Saharannaise" },
+    saharannaiseA:{ title: "Domain A lexicon", sub: "Admin·documents·port·sea-trade", file: "saharannaise/lexicon-A-admin-maritime.md", group: "Saharannaise" },
+    saharshowcase:{ title: "Showcase · asymmetry", sub: "One scene, two standards", file: "saharannaise/showcase-asymmetry.md", group: "Saharannaise" },
+    sahartopo:   { title: "Atlanta · toponymy", sub: "Place-names, Nelôxian | Saharannaise", file: "saharannaise/toponymy.md", group: "Saharannaise" },
     charter:     { title: "Charter",           sub: "Protocol & ruling log",        file: "college/kels-kolegi-charter.md",   group: "College", toc: true },
     creole:      { title: "Creole principle",  sub: "The standing vocabulary doctrine", file: "college/CREOLE-PRINCIPLE.md",  group: "College", toc: true },
     coordination:{ title: "Coordination",      sub: "Running multiple agents",      file: "college/COORDINATION.md",          group: "College" },
@@ -52,7 +60,7 @@
     bnd_corpus:  { title: "Corpus agent kit",  sub: "For writing genre texts",      file: "bundles/BUNDLE-corpus-agent.md",   group: "Bundles", toc: true }
   };
 
-  var GROUP_ORDER = ["Learn", "Grammar", "Reference", "Reader", "World", "Dialects", "College", "Briefs", "Bundles"];
+  var GROUP_ORDER = ["Learn", "Grammar", "Reference", "Reader", "World", "Dialects", "Saharannaise", "College", "Briefs", "Bundles"];
 
   var content = document.getElementById("content");
   var sidebar = document.getElementById("sidebar");
