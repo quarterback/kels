@@ -1,6 +1,6 @@
 # Nelô kēļ — English → Nelôxi Reverse Index
 
-*Generated from the coursebook master dictionary (1533 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
+*Generated from the coursebook master dictionary (1551 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
 
 
 ## A
@@ -32,6 +32,7 @@ act → **aktô**
 actual → **ehtsô**  
 add (an ingredient) (v.) → **lisā**  
 address (Romance/administrative) → **adresô**  
+aeroplane → **plēnô**  
 affect (v.) → **virkā**  
 affection → **arm**  
 afloat → **vetä**  
@@ -133,6 +134,7 @@ ball → **bālô**
 ballot → **balçômus**  
 balls → **klȫtô**  
 ban (v.) → **keldā** · **kēld**  
+band → **kapelô**  
 band (musical group) (international) → **bändô**  
 banner → **banērô**  
 baptism (Romance/Greek-Latin) → **baptismô**  
@@ -145,6 +147,7 @@ bargain price → **çenô**
 bargaining → **kauplômus**  
 barn → **lāvô**  
 barren → **pūst**  
+bartender ("pub-milk") → **pubô-melk**  
 base → **pôhô**  
 basic law → **pôhôlēgô**  
 bass → **bassô**  
@@ -259,6 +262,8 @@ bureau → **amtô**
 burial → **mǟtômus**  
 bury (v.) → **mǟtā**  
 bus → **būsô**⁺  
+bus (international) → **busô**  
+bus driver ("bus-milk" → **busô-melk**  
 bustle (v.) → **xumā**  
 but → **agā**  
 butter → **vôidô**  
@@ -297,6 +302,8 @@ caretaker → **ravôji**
 cargo → **last**⁺  
 carrot → **murk**  
 carve (v.) → **kaltā**  
+cassette player (kasetô + spēlā + -in device) → **kasetôspēlin**  
+cassette tape (international) → **kasetô**  
 cast (v.) → **heitä** · **viskā**  
 cat → **kat**  
 catch (v.) → **kaptā**  
@@ -310,6 +317,8 @@ center → **keskū**
 certainly → **küllü**  
 cf. bel) → **kaunõ**  
 cf. donā) → **andā**  
+cf. kapellô chapel — same root) → **kapelô**  
+cf. lēt) → **melk**  
 cf. native kudā) → **telā**  
 cf. native kāpôs) → **kapustô**  
 cf. native lông) → **garnô**  
@@ -399,6 +408,7 @@ come in → **sisü**
 comfort → **lohū** · **lohūldā**  
 coming → **tulevô**  
 commander → **komandôr**  
+commercial register → **melk**  
 common → **ühü**  
 compass → **kompass**⁺  
 compete (v.) → **vôistlô**  
@@ -538,6 +548,8 @@ diocese (Romance/church Latin) → **dioçēsô**
 dirty → **redē**  
 dirty scheme (coarse) → **trīk**  
 disappear → **kadô**  
+disc (Low German Platte) → **platô**  
+disc jockey (written DZ → **dēzē**  
 discard (v.) → **jättā**  
 discount → **rabat**  
 discuss (Romance) (v.) → **diskutā**  
@@ -548,6 +560,7 @@ disposal → **jättômus**
 disposal site → **jättām**  
 dispose of → **jättā**  
 dispute (Romance) → **disputô**  
+DJ → **dēzē**  
 DJ (from dīdžē) (v.) → **dīdžēstā**  
 DJ (international → **dīdžē**  
 do battle (Low German) → **kampā**  
@@ -615,6 +628,7 @@ endure (v.) → **kannā**
 enemy → **vragô**  
 engagement → **kihlô**  
 enough! → **küllü**  
+ensemble (Low German Kapelle → **kapelô**  
 ensemble (Romance) → **ensamblô**  
 ensign → **flag**⁺  
 entitlement → **rētô**  
@@ -632,6 +646,7 @@ evening → **vespôr**
 evening meal → **ôhtôk**  
 ever → **kunagü**  
 everlasting → **igävē**  
+everyday drinking house (English/Low German) → **pubô**  
 everything → **kôgõ**  
 everywhere → **kôgõl**  
 evidence → **tôsītô**  
@@ -717,6 +732,7 @@ flag → **flag**⁺
 flash (lightning) (v.) → **välkü**  
 flat (Marīsô, slav) → **mrovô**  
 flax (the plant and fiber) → **līnā**  
+flight attendant ("plane-milk") → **plēnô-melk**  
 flock → **karjô**  
 flood → **tulvô** · **tulvā** · **upôtā**  
 floor → **etāxô**  
@@ -990,6 +1006,7 @@ institutional, cf. ūsk 'belief') → **fīdô**
 instructor → **talçāji**  
 insult for a corrupt or drunken church fair (folk/polemical → **düvēlmarkôt**  
 insult for an out-group denomination (slur → **drōksektô**  
+international/scar) → **dēzē**  
 into the water → **vetä**  
 invitation → **kutsô**  
 invite (v.) → **kutsu**  
@@ -1013,6 +1030,7 @@ jangle (Low German) → **klimprā**
 January → **janôr**  
 Japan (exonym, sea-route form) → **Japān**  
 jazz (international → **džezô**  
+jazz cellar (džezô + spīkizô) → **džezôspīkizô**  
 Jesuit (Romance/Latin church) → **Jesuītô**  
 join (v.) → **lītü**  
 joint → **ühü**  
@@ -1200,6 +1218,7 @@ midday meal → **lôunā**
 middle → **keskū**  
 militia → **militsô**  
 milk (v.) → **lypsā** · **lēt**  
+milk as the town buys it delivered → **melk**  
 milking → **lypsômus**  
 million (12⁶, ~2.99M) → **miljôn**  
 minister (Romance) → **ministôr**  
@@ -1416,6 +1435,7 @@ pipe → **torô**
 pipe (Low German) → **flūtô**  
 place → **asetā** · **panā**  
 place of worship (Romance/Latin) → **templô**  
+plane (international) → **plēnô**  
 plank → **lōdô**  
 plant → **külvā**  
 planting → **külvômus**  
@@ -1479,6 +1499,7 @@ protection → **kaitsômus**
 psalter (Romance/Greek-Latin) → **psaltērô**  
 psychologist (Romance) → **psükolōg**  
 psychology (Romance) → **psükolōgī**  
+pub → **pubô**  
 public → **rahvô**  
 public light → **lampô**⁺  
 public notice → **dīmys**  
@@ -1541,6 +1562,7 @@ reconciliation → **lepômus**
 record → **rekôrd**⁺  
 record (music) (from rekôrd) (v.) → **rekôrdstā**  
 record level → **rekôrd**⁺  
+record player (platô + spēlā + -in device) → **platôspēlin**  
 red → **pūn**  
 reef → **karīk**  
 referee → **māçôr**⁺  
@@ -1608,6 +1630,7 @@ sacred grove → **sakrôpūmô**
 sacrifice (Romance/Latin) → **sakrifīçô**  
 sacristy (Romance/Latin church) → **sakristī**  
 sad → **tirist**  
+said "DJ" → **dēzē**  
 sail → **purjē** · **seilā**  
 sailor → **matrūs**  
 saint → **santô**  
@@ -1781,6 +1804,8 @@ sowing → **külvômus**
 Spain (exonym, route-form with native ñ) → **Españô**  
 speak (v.) → **parlā**  
 speak back and forth → **kônā**  
+speakeasy → **spīkizô**  
+speakeasy (colloquial clipped form of spīkizô) → **spīkis**  
 speaker (audio device) → **kūlin**  
 spear (Low German) → **spērô**  
 spice → **maitū**  
@@ -1882,6 +1907,8 @@ taste (v.) → **maitô**
 tasty → **magūs**  
 tavern → **prōmām**  
 tax → **maksômus**  
+taxi (international) → **taksô**  
+taxi driver ("taxi-milk") → **taksô-melk**  
 tea → **tē**  
 teach (v.) → **talçā**  
 teacher → **talçāji**  
@@ -1909,7 +1936,9 @@ that (introduces a clause) → **et**
 that kind of → **sellü**  
 that-there → **tuo**  
 thaw → **sulā**  
+the after-hours cellar (American scar spīk-) → **spīkizô**  
 the art or sound (Romance) → **mūsikô**  
+the bar-with-character → **spīkizô**  
 the box (clipped colloquial) → **taiki**  
 the cultivated kind) → **bȫrsô**  
 the dead (Romance/Latin) → **mortô**  
@@ -2045,6 +2074,7 @@ victory → **vôitô**
 vie → **vôistlô**  
 village → **kylä**  
 vinegar → **vingôr**⁺  
+vinyl record → **platô**  
 viola (Romance/international) → **violā**  
 violence (Romance) → **violentsô**  
 violent (Romance) → **violentô**  

@@ -98,6 +98,8 @@ brôkô
 brāk
 brākā
 bulvārô
+busô
+busô-melk
 butīk
 bändô
 bôrkô
@@ -163,11 +165,13 @@ düvēlmarkôt
 dātô
 dēdkô
 dēl
+dēzē
 dī
 dīdžē
 dīdžēstā
 dīmys
 džezô
+džezôspīkizô
 edä
 eest
 egü
@@ -412,6 +416,7 @@ kaotā
 kap
 kapasitēt
 kapellô
+kapelô
 kapitulā
 kaplōtô
 kappā
@@ -428,6 +433,8 @@ karrē
 karrēlampô
 karī
 karīk
+kasetô
+kasetôspēlin
 kastô
 kasvômus
 kasvā
@@ -713,6 +720,7 @@ maxīn
 maçô
 mediçīn
 medāl
+melk
 melodī
 melī
 menjā
@@ -938,7 +946,11 @@ pitkin
 pitkü
 plat
 platsô
+platô
+platôspēlin
 plinô
+plēnô
+plēnô-melk
 poig
 politsī
 Polskô
@@ -969,6 +981,8 @@ prōmām
 psaltērô
 psükolōg
 psükolōgī
+pubô
+pubô-melk
 puhād
 puhādtȫ
 puhādôr
@@ -1182,6 +1196,8 @@ solvā
 sportô
 spēlā
 spērô
+spīkis
+spīkizô
 Starovērô
 statistīk
 struktūr
@@ -1259,6 +1275,8 @@ taikfinest
 taiki
 taikô
 taivô
+taksô
+taksô-melk
 tallô
 talv
 talçā
