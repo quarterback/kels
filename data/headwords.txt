@@ -32,6 +32,7 @@ alējô
 alū
 ambient
 Amerikô
+amerikôjalgpēl
 ammū
 amplifôr
 amtô
@@ -70,6 +71,7 @@ augôst
 avenīd
 avuī
 babkô
+badminton
 bajômus
 bajā
 balkô
@@ -83,6 +85,7 @@ barô
 bassgitarô
 bassô
 bebē
+beisbol
 bel
 benedīçômus
 benedīçā
@@ -91,6 +94,8 @@ blasfemī
 blin
 blokô
 blūzô
+boks
+boksring
 bokā
 bramô
 brandkaitsô
@@ -149,6 +154,10 @@ dopingô
 dressā
 dressūr
 drobô
+drom
+dromstā
+dromômus
+dromôr
 drāgôr
 drōk
 drōksektô
@@ -219,6 +228,8 @@ fatômô
 façô
 febrôr
 federatsiôn
+fektômus
+fektā
 felīç
 festivô
 festmaçô
@@ -266,9 +277,13 @@ garnô
 gatô
 genô
 gigô
+gimnastīk
 gitarô
 glup
 glupôr
+golf
+golfklubô
+golfrīst
 gos
 grançô
 gribô
@@ -314,6 +329,8 @@ herēsī
 hetk
 hiphopô
 hirmus
+hokī
+hokījǟpēlām
 homilī
 hoolômus
 hoolā
@@ -362,6 +379,7 @@ jaamô
 jagô
 jagā
 jalg
+jalgpēl
 jammā
 jamô
 janôr
@@ -388,6 +406,7 @@ jān
 jānô
 jōdô
 jōs
+jūdô
 jūli
 jūn
 jūni
@@ -454,6 +473,7 @@ kappā
 kaptā
 kaptīvô
 kapustô
+karatē
 karistô
 karistā
 karjô
@@ -553,6 +573,7 @@ koçôr
 kramp
 krašô
 krašā
+kriket
 kriminālô
 kritisā
 kritīk
@@ -642,6 +663,7 @@ kōk
 kōlôr
 kōrjā
 kōrrô
+kōrrômus
 kōrusô
 kōt
 kū
@@ -650,6 +672,7 @@ kūlô
 kūrā
 kǟs
 kǟskōt
+kǟspēl
 kǟvô
 laadômus
 laadā
@@ -921,6 +944,7 @@ nē
 nēm
 nērvô
 nētô
+nētôpēl
 nēu
 nīrin
 nīrtaul
@@ -1018,6 +1042,7 @@ pillā
 pilv
 pipôr
 pirôg
+pistô
 pitkin
 pitkü
 plat
@@ -1136,6 +1161,7 @@ ranô
 rap
 rapā
 rask
+rasknostô
 ratô
 raud
 ravôji
@@ -1168,6 +1194,7 @@ roiskô
 rokô
 ropõ
 rosār
+rugbi
 rôhī
 rôim
 rôimā
@@ -1185,6 +1212,8 @@ rēdāji
 rēdām
 rēdāmkirjômus
 rētô
+rīdômus
+rīdā
 rīfô
 rīgô
 rīst
@@ -1276,6 +1305,8 @@ sitāt
 skildô
 skrinô
 skôhô
+skīrājô
+skīstä
 skīt
 skītôr
 skītā
@@ -1284,6 +1315,7 @@ slitô
 smetôn
 snē
 snēā
+softbol
 softvēr
 sojā
 sol
@@ -1295,6 +1327,7 @@ spēlā
 spērô
 spīkis
 spīkizô
+stadion
 Starovērô
 statistīk
 struktūr
@@ -1414,6 +1447,8 @@ temperatūr
 templ
 tems
 tendô
+tennis
+tennisrekôt
 teorī
 tervenä
 tervetô
@@ -1555,6 +1590,7 @@ vastāsaatā
 veel
 vekk
 velkô
+velô
 vendā
 Venä
 verkô
@@ -1591,6 +1627,8 @@ voolpöörd
 vormā
 votā
 vragô
+vranglômus
+vranglā
 vundô
 väetô
 väetā
@@ -1609,6 +1647,7 @@ vôitô
 vôitā
 vôrk
 vôrkkôrd
+vôrkpēl
 vôrô
 vôtī
 vôī
@@ -1623,9 +1662,12 @@ vī
 vīrô
 vīsū
 vīzô
+vōigômus
+vōigā
 vǟrpēlô
 vǟrpēlā
 vǟrô
+xak
 xalkā
 xapkô
 xeç
@@ -1637,6 +1679,11 @@ xolkô
 xtiri
 xumô
 xumā
+xövelmys
+xövelä
+xöveläji
+xȫvlômus
+xȫvlā
 äb
 äkkü
 ärkā
