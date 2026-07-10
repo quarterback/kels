@@ -176,6 +176,8 @@ mainland by region tags, per `COMMON-REGISTER.md`.
 
 ## Files
 
+- `pluricentric.md` — the section's lead **article**: why Saharannaise matters to Nelôxi —
+  a shared grammar carrying separate histories, and the pluricentric shape that results.
 - `COMMON-REGISTER.md` — the shared spine: common grammar + orthographic agreement + the
   region-tag convention. What makes the two standards one language.
 - `VOC.md` — the Common Vocabulary: the federated roll-up of both standards' national lists
