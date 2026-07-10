@@ -4,7 +4,7 @@ These high-frequency words ALREADY EXIST. Do not coin them, and never write the 
 equivalent (nüüd, juba, aga, siis, ka, saama, panema…). Use these exact forms. If you need a
 function word not listed here, it is a real gap — flag it; do not borrow from Estonian/Finnish.
 
-Canon v5.25. Full list in data/headwords.txt.
+Canon v5.47. Full list in data/headwords.txt.
 
 ## Pronouns & determiners
 - **mä** — I
@@ -134,23 +134,23 @@ Canon v5.25. Full list in data/headwords.txt.
 - **eest** — for, in exchange for (postp.)
 
 ## Social formulae & interjections
-- **tēre** — hello
+- **moin** — hello (Low German coastal greeting)
 - **adē** — goodbye
-- **täno** — thank you
+- **dankô** — thank you (everyday); **mersü** — thank you (polite, Romance)
 - **havs** — good night (greeting)
 - **noh** — well… (hesitation)
 - **njah** — yeah, mm (reluctant agreement)
 - **ohô** — oh! (surprise)
 - **oi** — oh, oops
-- **appü** — help! (exclamation)
-- **tervü** — here you go; cheers
+- **helpô** — help! (exclamation)
+- **skōl** — here you go; cheers (a toast)
 - **vabõ** — never mind, it’s nothing
-- **kuulõ** — hey, listen (attention-getter)
-- **kallü** — dear, beloved (term of endearment)
-- **kullõ** — sweetie, dearie (affectionate)
-- **armõ** — darling, love (affectionate address)
+- **lüstä** — hey, listen (attention-getter)
+- **lēvü** — dear, beloved (term of endearment)
+- **kohanü** — sweetie, dearie (affectionate)
+- **estimô** — darling, beloved (affectionate address)
 - **sāli** — deal! agreed! (closing a bargain)
-- **hǟ** — fine, okay (conceding); yeah
+- **gūd** — fine, okay (conceding); yeah
 
 ## Numbers 0-12
 - **nolô** — zero

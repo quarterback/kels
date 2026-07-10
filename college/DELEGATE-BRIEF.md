@@ -1,8 +1,8 @@
 # Nelôxi — Delegate Brief (Kēļs Kolēgi contributor protocol)
 
 > **READ `college/CREOLE-PRINCIPLE.md` FIRST.** Nelôxi is a five-way maritime creole, NOT a
-> Finnic language with loanwords. When you hit a gap, ask which quarry (Low German / Slavic /
-> Scandinavian / Romance-Latin / Finnic-core) would own that word and BORROW liberally — do not
+> Finnic language with loanwords. When you hit a gap, ask which quarry (Livonian core / Catalan-Romance /
+> Low German / Slavic / Scandinavian) would own that word and BORROW liberally — do not
 > default to Finnic derivation. Abstract/legal/scholarly words come from Romance. Bias toward the
 > visible loan. This is the most important rule in the project.
 
@@ -17,9 +17,9 @@ for **Nelôxi** (*nelô kēļ*), a constructed language. The founder/Rector rule
 propose, the Rector reviews and merges. **Nothing you submit is canon until merged.**
 Read this whole brief before coining a single word.
 
-Current canon: **v5.25, 1218 headwords.** Authoritative source: the repository —
+Current canon: **v5.47, 1688 headwords.** Authoritative source: the repository —
 `coursebook/nelo-kel-coursebook.md` (the language) and `college/kels-kolegi-charter.md`
-(rules + full ruling log §1–§91).
+(rules + full ruling log §1–§114).
 
 ---
 
@@ -31,9 +31,10 @@ Current canon: **v5.25, 1218 headwords.** Authoritative source: the repository �
    the latest charter.
 2. **Claim your domain in `college/ASSIGNMENTS.md` before coining.** Batches for
    already-canonized domains are rejected on arrival regardless of quality. Open
-   slots are listed there (currently U23, U27+).
-3. **Read the charter's ruling log** at least skim §30–§43 — the recent rulings on
-   strata, the Slavic quarry, the number system, and orthography are load-bearing.
+   slots are listed there.
+3. **Read `college/CREOLE-PRINCIPLE.md` (§79) — the load-bearing vocabulary rule** — then
+   skim the charter's recent rulings; the strata, the quarry system, numbers, and
+   orthography are all logged there.
 
 ## STEP 1 — The hard rules (violating any = batch returned)
 
@@ -70,19 +71,32 @@ Current canon: **v5.25, 1218 headwords.** Authoritative source: the repository �
 
 ## STEP 3 — The quarries (know which you're drawing from)
 
-Mark each late/loan word with its stratum. Nelôxi is a Finnic core under four-way loan
-contact, and each quarry has a home:
+Mark each late/loan word with its stratum. Grammar is Livonian-Karelian Baltic-Finnic;
+vocabulary is a **five-way creole** (§79, `college/CREOLE-PRINCIPLE.md` — read it first). The
+quarries are **CO-PRIMARY**: the map below shows where each is DENSEST, not the only place it
+appears. For anything outside the deep Finnic core, borrow from the quarry that owns the domain
+rather than defaulting to a Finnic derivation — that default is the drift the doctrine exists to stop.
 
-- **Finnic core** — native, oldest. Body, kin, land, basic verbs, abstract thought.
-- **Low German** — trade, seafaring, the counting-house, the calendar. Marked `(late-stratum)`.
-- **Scandinavian** — colloquial/street/deck. Marked `(late-stratum)`; register: informal.
-- **Slavic** (Polish/Masurian) — the border/metroplex quarry, entered via Marīsô.
-  Marked `(Marīsô, slav)`. For market, food, familiar-kin, courtyard, street life.
+- **Livonian core (Karelian for eastern texture)** — the founding substrate; the deep core ONLY: body, kin, land,
+  the sea, the oldest actions, and the grammar. A **narrow** core, not a broad default; abstract
+  and scholarly words go to Romance, not here.
+  **NEVER source the native pole from Estonian or Finnish** (§112/§113) — they are the reflex lookalikes that
+  cause the drift. Grep HEAD first (a diverged canon form usually exists: *pôjā* not *põhja*,
+  *sud* not *lôunā*), then take genuine gaps from **Livonian/Karelian**, not the Estonian shape. The founding
+  pair is Livonian–Catalan; everything else flows from the basket around it.
+  And prefer to **break the obvious cognate** — diverge to another quarry or a Livonian form that
+  departs from the lookalike. Divergence is the goal, not a defect (*lumõ*→*snē*, *põhja*→*pôjā*).
+- **Low German** — trade, seafaring, the counting-house, the calendar — AND broad everyday work:
+  rooms, buildings, tools, weather, daily verbs. Marked `(late-stratum)`.
+- **Scandinavian** — colloquial/street/deck; casual register, spread widely through daily speech.
+  Marked `(late-stratum)`; register: informal.
+- **Slavic** (Polish/Masurian) — the interior and the Marīsô border: market, food, familiar-kin,
+  courtyard, and everyday domestic/agricultural/social life. Marked `(Marīsô, slav)`.
   Adapt: sz/ż/rz → x, ć → ç, ę/ą → eñ/an, ń → ñ. No new phonemes.
-- **Romance/Catalan** — the register of cultivation (§76): learning, law, documents and the
-  written word (*livrô*, *eskōl*), sentiment, courtesy and praise, refined cuisine, and
-  elevated or formal speech generally. Marked `(late-stratum)`. Give it FIRST LOOK when a
-  domain is learned, legal, refined, culinary-elevated, or affective-formal.
+- **Romance/Catalan-Latin** — the register of cultivation (§76): learning, law, documents and the
+  written word (*livrô*, *eskōl*), the abstract and scholarly, sentiment, refined cuisine, and
+  formal speech. Marked `(late-stratum)`. FIRST LOOK when a domain is learned, legal, refined,
+  culinary-elevated, or affective-formal — and the home of abstract vocabulary generally.
 
 **Register matters:** modern/urban/colloquial domains borrow FREELY — a high loan ratio
 there is correct by design, not a defect (§27, §33). Profanity, tech, and border life
@@ -104,6 +118,23 @@ by register and dialect. This is a feature.
 - **-ldā** — denominative mental-activity verb (*mõtô*→*mõtôldā* "to think")
 - **-ām / -äm** — place/arena of the action (*pēlā* → *pēlām* "field")
 - **-tū / -ty** — privative, "lacking X" (*klȫtô* → *klȫtôtū* "gutless")
+
+### Surface balance — do NOT default every loan noun to -ô (§109)
+
+**-ô is one domestication ending, not the automatic loan-noun ending.** "Borrow harder" does not
+mean "add -ô harder." Before assigning -ô, test whether the borrowed word can enter Nelôxi as:
+1. a **final-consonant** loan (*adres*, *postkōd*, *folk*, *rap*, *trumpet*, *kanôn* — zero-final
+   loans ARE legal; the corpus already has *dek, dent, flag, risk, pont, port, analüüs, struktūr*),
+2. a **source-final long-vowel** loan (kept as-is),
+3. a **learned suffix** form — *-ī* (Greek/Latin abstractions: *liturgī, herēsī*), *-ēt*
+   (*identitēt*), *-ūr* (*struktūr, dressūr*), *-iôn* (*akūzatsiôn, procesiôn*),
+4. a **true derived Nelôxi** form (*-ômus, -ôr, -in, -ām*),
+5. or a **raw international scar**.
+
+Use **-ô only when it is the best landing form**, not because the word is a noun. KEEP -ô where
+the final vowel is part of the word's felt identity or the form is already canonical (*džezô,
+pianô, çellô, klokkô, barô*) and in fossil/polemic compounds where the ugliness is the point
+(*fānkellô, hūrkirīk* — §97). Endings are **register, not decoration**.
 
 ## STEP 5 — Submit in this format
 

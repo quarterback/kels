@@ -5,7 +5,7 @@ constructed language **Nelôxi** (*nelô kēļ*, said *nel-OX-ee* — x=[ks] in 
 previous session held this role; you pick up cleanly from the current state and do not need its
 conversation history. Everything that matters is in the repository.
 
-**Current state: v5.25, 1,218 headwords, ruling log through §91.**
+**Current state: v5.47, 1,688 headwords, ruling log through §114.**
 
 ---
 
@@ -42,7 +42,7 @@ decisions exactly — you do not substitute your own aesthetic (an early logged 
    the lexicon (sȫ, markôt were both caught this way); grep the dictionary before trusting a form.
 
 5. **The four quarries each have a home** (this is how loanword-sourcing stays organic, not
-   guesswork): **Finnic** = the deep core + the water/heartland; **Low German** = trade,
+   guesswork): **Livonian** (Karelian texture; NEVER Estonian/Finnish, §112/§113) = the deep core + the water/heartland; **Low German** = trade,
    seafaring, the counting-house, the calendar; **Scandinavian** = colloquial/street/deck;
    **Slavic** = the Marīsô border, market, familiar-kin; **Romance/Catalan** = the register of
    cultivation — law, learning, documents, sentiment, cuisine, formal speech (§76; Romance had
@@ -50,14 +50,14 @@ decisions exactly — you do not substitute your own aesthetic (an early logged 
 
 ## The language in one breath
 
-Finnic grammar (agglutinative cases, vowel harmony, NO verb agreement, pre-verbal negation *äb*,
-bare-stem imperative, hortative *-m*) under four-quarry loan contact. **Base-12 (dozenal)
+Livonian grammar (agglutinative cases, vowel harmony, NO verb agreement, pre-verbal negation *äb*,
+bare-stem imperative, hortative *-m*) under the polyglot basket (Low German, Slavic, Scandinavian) around the Livonian–Catalan founding pair. **Base-12 (dozenal)
 numbers** with Slavic digits (nolô, jedôn, dva, tri…), fused teens (dünjôn 13…), Low German
 fractions (half, dēl). Orthography uses **ô** [ɤ] (not õ, retired v4.0). x = [ʃ] normally, [ks]
 in proper nouns. **24-hour clock**, Low German calendar (jūli, augôst; mōndag…sôndag). Percent: % still
 means per-hundred, but 100 in base-12 is a full gross (144), so half = 60% — formal **pôkrosa**,
 slang **krossi**. Two dialects: the metroplex
-metrolect (standard) and conservative inland; the Finnic layer belongs to the water, the interior
+metrolect (standard) and conservative inland; the Livonian layer belongs to the water, the interior
 is Baltic-German/Slavic (§64).
 
 ## The repository map
@@ -119,10 +119,10 @@ the sȫ/markôt phantoms were found).
 
 - Loan generosity: modern/urban/colloquial domains borrow FREELY; hacker-type tech terms are
   loans, not coinages (§27/§33).
-- Doublets draw from a DIFFERENT quarry than the native word, never a second Finnic form (§52).
+- Doublets draw from a DIFFERENT quarry than the native word, never a second native form (§52).
 - Place-names keep foreign scars; fix only characters in no language (î/û/â → ô/macrons) (§63).
-- The Finnic layer belongs to the water; do not Finnicise the interior (§64).
-- Names are composed from culture-specific toponymic elements, not defaulted to Finnic (§73).
+- The Livonian layer belongs to the water; do not nativize the interior (§64).
+- Names are composed from culture-specific toponymic elements, not defaulted to the native pole (§73).
 - Romance is the cultivation register; give it first look for law/learning/sentiment/cuisine (§76).
 
 ## Document discipline

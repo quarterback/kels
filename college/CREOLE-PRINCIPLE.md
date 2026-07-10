@@ -2,11 +2,14 @@
 *The single most important standing doctrine for vocabulary. Read before coining any word.*
 *Charter §79.*
 
-> Nelôxi began as a **creole** and must stay dirty. This document exists because the language has
-> repeatedly drifted toward a tidy Finnic purebred — the Rector and delegate agents keep defaulting
-> to Finnic-root derivations because Finnic is the grammatical substrate and therefore always the
-> nearest, tidiest reach. That drift is the single most persistent failure in this project. This
-> doctrine is the counter-pressure. It overrides the instinct to Finnicize.
+> **THE TRUNK: Nelôxi is a Livonian–Catalan language.** That was the founding call, and every
+> sourcing decision flows from it. The substrate and grammar are **Livonian** (Karelian adds
+> eastern texture); the register of cultivation is **Catalan-Romance**; and the polyglot basket —
+> Low German, Slavic, Scandinavian — flows around that founding pair. "Finnic" is retired as a
+> working label (§113): it invited agents to reach for Estonian and Finnish lookalikes, which are
+> NOT in the basket at all. Nelôxi began as a **creole** and must stay dirty — but dirty from ITS
+> OWN quarries. The persistent failure in this project is drift toward a tidy Estonian-shaped
+> purebred; this doctrine is the counter-pressure.
 
 ## What Nelôxia is, and why the vocabulary must be messy
 
@@ -27,26 +30,26 @@ Slavic, and Polish-Lithuanian. A language spoken across that territory does NOT 
 owning the everyday middle with loans in side-niches. The loan quarries do broad, primary,
 everyday work.
 
-- **Baltic-Finnic (Livonian primary, Karelian secondary)** — the deep core: body, kin, land,
-  the sea, the oldest actions, and the grammar. NOT "generic Finnic" and NOT Finnish/Estonian —
-  the substrate is **Livonian** (the coastal primary base the language was seeded from) with
-  **Karelian** adding eastern texture (and its worldbuilding home in the Karelian department).
-  Both are effectively extinct but well-documented, which is why they are good, coherent bases.
-  This is a NARROW core, not a broad default. The other Baltic-Finnic lects (Finnish, Estonian,
-  Veps) MAY be tapped if a gap genuinely needs it, but none has an established place yet — do not
-  reach for them by default.
+- **Livonian (Karelian for eastern texture)** — the founding substrate and the deep core: body,
+  kin, land, the sea, the oldest actions, and the grammar. This is the trunk's native pole. NOT
+  "generic Finnic," NOT Estonian, NOT Finnish — those are lookalike languages that are not in the
+  basket (§112/§113); sourcing from them is drift, full stop. Livonian is the coastal base the
+  language was seeded from, Karelian its eastern texture (worldbuilding home in the Karelian
+  department); both are extinct but well-documented, which is why they are coherent bases AND why
+  divergence from the living lookalikes is achievable. A NARROW core, not a broad default.
 - **Low German (Hanseatic)** — a major everyday language of the ports and cities. Not just
   ledgers and cargo: also ordinary rooms, buildings, food, tools, weather, daily verbs.
 - **Slavic (via Marīsô and the interior)** — a huge share of the interior LIVES in Slavic. Not
   just the market stall: also everyday domestic, agricultural, emotional, and social vocabulary.
 - **Scandinavian** — the colloquial, the street, the deck; casual register, but spread widely
   through daily speech, not confined to sailors.
-- **Romance / Catalan-Latin** — the register of cultivation (law, learning, documents, abstract
-  and scholarly vocabulary, sentiment, cuisine, formal speech, §76), spreading wherever
-  institutions and refinement reach — which is broadly.
+- **Catalan-Romance / Latin** — the OTHER founding pole (the original call was Livonian–Catalan):
+  the register of cultivation (law, learning, documents, abstract and scholarly vocabulary,
+  sentiment, cuisine, formal speech, §76), spreading wherever institutions and refinement reach —
+  which is broadly. When in doubt on any learned or abstract word, this pole wins.
 
 **The domain→quarry map below shows where each quarry is DENSEST, not the only place it appears.**
-For anything outside the deep Finnic core, treat all five as live options every time, and let the
+For anything outside the deep Livonian core, treat all five as live options every time, and let the
 loan quarries frequently win even for ORDINARY vocabulary — "window," "roof," "neighbor," "to
 hurry," "corner," "to complain" are not core, and any could well be Low German or Slavic rather
 than Finnic. Distribute broadly. Sidelining the loan quarries into narrow lanes re-creates the
@@ -128,6 +131,61 @@ told plainly: **translating a legal or scholarly text? borrow from Romance. A do
 German. A market scene? Slavic. Do not Finnicize the loanwords. Bias toward the visible borrowing.**
 That is how the dirt gets produced at volume, which is how the corpus becomes a real language
 rather than a Finnish relexification.
+
+## The language has sediment (§97)
+
+A real contact language is not a clean taxonomy — it carries **sediment**, and Nelôxi must too,
+across the board and not only in one domain. Do not sand these away in pursuit of tidiness:
+
+- **Loanwords rife**, worn openly, sometimes barely adapted (the flœzī/dž class).
+- **Doublets** — a formal form beside a folk one for the same thing (*sakrôveç* church / *krūçôveç*
+  street; *fīdô* institutional faith / *ūsk* plain belief). Register split IS the meaning.
+- **Opaque compounds and fossils** that don't fully decompose — words with an element no longer
+  productive or transparent (*fānkellô* "hell-bell", *paterbabkô* "prayer-grandmother"). People
+  use them and work around them; the whole is canon even when the parts are odd.
+- **Ugly polemic and slang** — insults, slurs, mocking coinages (*hūrkirīk* "whore-church",
+  *kalāandõstā* "fish-pardon", *düvēlmarkôt* "devil-market"). Mark them coarse/folk, but keep
+  them: a real culture's language contains what its clergy and its authorities dislike.
+- **Route-history preserved in the objects** — western church interiors lean Romance/Low German,
+  Orthodox-border material culture leans Slavic/Greek, and the port produces its own inelegant
+  local compounds. The mess is the record of who was in the room.
+
+Coin the clean word when a domain wants one; but do not flatten the language into pure translation.
+The things that don't quite make sense are load-bearing.
+
+## Livonian, not Estonian — and break the cognate (§112)
+
+Two hard rules, because this is the project's most persistent failure.
+
+**The Finnic base is Livonian (primary) and Karelian (secondary). NEVER Estonian or Finnish.**
+Estonian and Finnish are the nearest lookalikes, so they are what the hand reaches for by reflex —
+and that reflex is exactly the Finnicization drift this whole doctrine exists to stop. Two guards:
+- **Check CANON before coining any Finnic word.** A diverged form usually already exists, and the
+  Estonian cognate would only duplicate it or undo the divergence. Canon north is *pôjā*, not
+  *põhja*; canon south is *sud*, not *lôunā*; the split of *pôjā* "north" from *pôhô* "base" is
+  deliberate. Grep HEAD first — the language has often already done the work.
+- **When a real gap needs a Finnic word, take it from Livonian or Karelian, not the Estonian
+  shape.** Writing "Estonian X" as the etymology of a coinage is itself the tell that you reached
+  the wrong way. Stop and re-source.
+
+**Break the cognate; go somewhere else with the root.** Do not default to the tidiest pan-Finnic
+form. Prefer to diverge — reach for a different quarry (Low German, Slavic, Catalan-Romance) or a
+Livonian/Karelian form that visibly departs from the Estonian lookalike. **Divergence is the
+design goal, not a side effect.** When native *nēu* "snow" was doubled by a too-transparently-
+Finnish *lumõ*, *lumõ* was withdrawn for Scandinavian *snē*. When *põhja* would have carried the
+Estonian homonymy, canon split it to *pôjā*. That is the move: make it diverge on purpose.
+
+## Borrow harder ≠ add -ô harder (§109)
+
+Borrowing from the owning quarry is right; painting every loan with the same **-ô** is not. That
+one ending had become a universal sanding tool, flattening the surface across hundreds of words.
+**-ô is one landing form, not the default.** A loan may keep its final consonant (*adres, folk,
+trumpet, kanôn*), its source-final long vowel, a learned suffix (*-ī, -ēt, -ūr, -iôn*), a true
+derived Nelôxi ending (*-ômus, -ôr, -in, -ām*), or a raw international shape — and takes **-ô only
+when that is the cleanest fit**. Keep -ô where it carries the word's identity or the form is
+already canon (*džezô, pianô, barô*) and in the ugly fossils (*fānkellô*, §97). Endings are
+register, not decoration. This keeps the language dirty and loan-heavy without making every
+foreign noun sound like it left the same machine.
 
 ## One-line version
 

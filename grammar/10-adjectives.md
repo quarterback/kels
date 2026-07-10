@@ -1,5 +1,5 @@
 # Nelôxi Grammar — Adjectives (Invariance and Eventive Use)
-*Foundation module 10 · charter §70, §78*
+*Foundation module 10 · charter §70 (invariance), §78 and §82 (eventive adjectives)*
 
 > **Read this even if you have never seen Nelôxi before.** It teaches how adjectives behave —
 > first the invariance rule, then the eventive pattern. You need no other file.
@@ -35,6 +35,19 @@ vana* "the books are old" — the adjective does not pluralize even here.
 Some adjectives can sit in the ordinary adjective slot before an object noun while describing the
 event carried by the verb. This is an **eventive adjective**. The noun still takes its normal case;
 the adjective does not inflect.
+
+**The template:**
+
+```
+Subject + verb + adjective + object noun-[object -n / partitive -t/-tô]
+```
+
+- The adjective stays **bare**.
+- The **noun** carries the case.
+- The adjective describes the **action/event** when the adjective plausibly applies to *how* the
+  action is done.
+- **Boundedness still comes from the object case, not the adjective** (object -n = bounded/done,
+  partitive -t/-tô = ongoing/unbounded).
 
 - *Tä donā kylm vastômusôn* — "She gives a cold answer / answers coldly."
 - *Tä küpsā nobē kōkôn* — "She bakes a quick cake / bakes the cake quickly."
