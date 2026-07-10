@@ -60,7 +60,6 @@ blokô
 bokā
 bramô
 bratkô
-Britaniô
 brāk
 brākā
 butīk
@@ -129,6 +128,7 @@ ernē
 eskerrē
 eskōl
 esmõks
+Españô
 estēl
 et
 failô
@@ -152,6 +152,7 @@ forkastā
 fort
 fotô
 fotā
+Frankrīk
 frīdag
 frūt
 funktsionā
@@ -169,6 +170,7 @@ grançô
 gribô
 grosô
 grupô
+Gruziô
 grād
 grīs
 haavômus
@@ -212,8 +214,10 @@ igāldā
 ikkü
 ilma
 ilo
+Ingland
 inim
 inkôp
+Irland
 issõ
 istā
 isü
@@ -222,6 +226,7 @@ ja
 jaamô
 jagô
 janôr
+Japān
 jeds
 jedôn
 ju
