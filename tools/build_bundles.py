@@ -80,7 +80,7 @@ corpus_brief = sub1(corpus_brief,
                     f"THE ATTESTED HEADWORD LIST ({COUNT} words; use only these)",
                     "CORPUS-BRIEF §6 header")
 corpus_brief = sub1(corpus_brief,
-                    r"(?m)^abī · abīstā .*$",
+                    r"(?m)^.*abī · abīstā · abītȫ.*$",
                     HWLIST, "CORPUS-BRIEF §6 list")
 write("college/CORPUS-BRIEF.md", corpus_brief)
 
