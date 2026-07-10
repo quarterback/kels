@@ -17,9 +17,9 @@ for **Nelôxi** (*nelô kēļ*), a constructed language. The founder/Rector rule
 propose, the Rector reviews and merges. **Nothing you submit is canon until merged.**
 Read this whole brief before coining a single word.
 
-Current canon: **v5.44, 1649 headwords.** Authoritative source: the repository —
+Current canon: **v5.45, 1662 headwords.** Authoritative source: the repository —
 `coursebook/nelo-kel-coursebook.md` (the language) and `college/kels-kolegi-charter.md`
-(rules + full ruling log §1–§110).
+(rules + full ruling log §1–§112).
 
 ---
 
@@ -80,6 +80,11 @@ rather than defaulting to a Finnic derivation — that default is the drift the 
 - **Finnic core (Livonian primary, Karelian secondary)** — the deep core ONLY: body, kin, land,
   the sea, the oldest actions, and the grammar. A **narrow** core, not a broad default; abstract
   and scholarly words go to Romance, not here.
+  **NEVER source Finnic from Estonian or Finnish** (§112) — they are the reflex lookalikes that
+  cause the drift. Grep HEAD first (a diverged canon form usually exists: *pôjā* not *põhja*,
+  *sud* not *lôunā*), then take genuine gaps from **Livonian/Karelian**, not the Estonian shape.
+  And prefer to **break the obvious cognate** — diverge to another quarry or a Livonian form that
+  departs from the lookalike. Divergence is the goal, not a defect (*lumõ*→*snē*, *põhja*→*pôjā*).
 - **Low German** — trade, seafaring, the counting-house, the calendar — AND broad everyday work:
   rooms, buildings, tools, weather, daily verbs. Marked `(late-stratum)`.
 - **Scandinavian** — colloquial/street/deck; casual register, spread widely through daily speech.

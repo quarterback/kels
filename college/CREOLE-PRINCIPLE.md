@@ -150,6 +150,28 @@ across the board and not only in one domain. Do not sand these away in pursuit o
 Coin the clean word when a domain wants one; but do not flatten the language into pure translation.
 The things that don't quite make sense are load-bearing.
 
+## Livonian, not Estonian — and break the cognate (§112)
+
+Two hard rules, because this is the project's most persistent failure.
+
+**The Finnic base is Livonian (primary) and Karelian (secondary). NEVER Estonian or Finnish.**
+Estonian and Finnish are the nearest lookalikes, so they are what the hand reaches for by reflex —
+and that reflex is exactly the Finnicization drift this whole doctrine exists to stop. Two guards:
+- **Check CANON before coining any Finnic word.** A diverged form usually already exists, and the
+  Estonian cognate would only duplicate it or undo the divergence. Canon north is *pôjā*, not
+  *põhja*; canon south is *sud*, not *lôunā*; the split of *pôjā* "north" from *pôhô* "base" is
+  deliberate. Grep HEAD first — the language has often already done the work.
+- **When a real gap needs a Finnic word, take it from Livonian or Karelian, not the Estonian
+  shape.** Writing "Estonian X" as the etymology of a coinage is itself the tell that you reached
+  the wrong way. Stop and re-source.
+
+**Break the cognate; go somewhere else with the root.** Do not default to the tidiest pan-Finnic
+form. Prefer to diverge — reach for a different quarry (Low German, Slavic, Catalan-Romance) or a
+Livonian/Karelian form that visibly departs from the Estonian lookalike. **Divergence is the
+design goal, not a side effect.** When native *nēu* "snow" was doubled by a too-transparently-
+Finnish *lumõ*, *lumõ* was withdrawn for Scandinavian *snē*. When *põhja* would have carried the
+Estonian homonymy, canon split it to *pôjā*. That is the move: make it diverge on purpose.
+
 ## Borrow harder ≠ add -ô harder (§109)
 
 Borrowing from the owning quarry is right; painting every loan with the same **-ô** is not. That

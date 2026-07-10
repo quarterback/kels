@@ -1,6 +1,6 @@
 # Nelô kēļ — English → Nelôxi Reverse Index
 
-*Generated from the coursebook master dictionary (1649 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
+*Generated from the coursebook master dictionary (1662 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
 
 
 ## A
@@ -396,6 +396,7 @@ city → **sitāt**
 city block → **blokô**⁺  
 civic doublet of port) → **durô**  
 civic) → **brandkaitsô** · **brandkellô**  
+civic/postal) → **nord** · **ost** · **süd** · **vest**  
 clarinet (Romance/international) → **klarinēt**  
 clarity → **selgū**  
 classroom → **ôpôkambôr**  
@@ -605,6 +606,7 @@ dispose of → **jättā**
 dispute (Romance) → **disputô**  
 distinct from vundô battle-wound, haavômus emotional-wound) → **ranô**  
 distinct from āhi oven) → **peçô**  
+district quadrant (Romance/international → **sektōr**  
 divide (from jagô) → **jagā**  
 dizziness → **svindôl**  
 DJ (from dīdžē) (v.) → **dīdžēstā**  
@@ -654,6 +656,7 @@ early → **varā**
 earth → **mā** · **māld**  
 ease (v.) → **kergendä**  
 east → **idā**  
+east (Low German → **ost**  
 Eastern Catholic (Slavic/Latin frontier church) → **Uniatô**  
 eat (v.) → **menjā** · **sȫ**  
 ecosystem (Romance) → **ekôsüstēm**  
@@ -1390,7 +1393,14 @@ no matter → **līkgōd**
 nod (v.) → **nõkā**  
 noise music (international, experimental) → **noiz**  
 nonsense (dismissive) → **nalī**  
+nord + ost) → **nordost**  
+nord + vest) → **nordvest**  
 north → **pôjā**  
+north (Low German → **nord**  
+northeast (civic → **nordost**  
+northeast (geographic → **pôjāidā**  
+northwest (civic → **nordvest**  
+northwest (geographic → **pôjālǟn**  
 Norway (exonym, Norge) → **Nôrô**  
 nose (Finnic) → **nôsô**  
 not → **äb**  
@@ -1624,6 +1634,8 @@ put (v.) → **asetā** · **panā**
 put on (v.) → **kappā**  
 put out (Low German löschen) → **löxā**  
 put right → **kôrdā**  
+pôjā + idā) → **pôjāidā**  
+pôjā + lǟn) → **pôjālǟn**  
 
 ## Q
 
@@ -1781,6 +1793,7 @@ season → **sesôn**⁺
 seasoning → **maitū**  
 secret → **mīstērô**  
 sect (Romance/Latin) → **sektô**  
+sector → **sektōr**  
 see (v.) → **nǟgô**  
 seed → **īvô**  
 seem (v.) → **sīmā**  
@@ -1918,6 +1931,11 @@ soul (Romance/Latin) → **animô**
 soup → **sup**  
 sour cream (Marīsô, slav) → **smetôn**  
 south → **sud**  
+south (Low German → **süd**  
+southeast (civic → **südost**  
+southeast (geographic → **sudidā**  
+southwest (civic → **südvest**  
+southwest (geographic → **sudlǟn**  
 sow (v.) → **külvā**  
 sowing → **külvômus**  
 Spain (exonym, route-form with native ñ) → **Españô**  
@@ -1991,6 +2009,8 @@ subject → **pǟlū**
 submerge (causative) → **upôtā**  
 subscription (Romance) → **abonômus**  
 such → **sellü**  
+sud + idā) → **sudidā**  
+sud + lǟn) → **sudlǟn**  
 sudden → **järsk**  
 suddenly → **järsk** · **äkkü**  
 suffice → **piisā**  
@@ -2017,6 +2037,8 @@ sword → **sverdô**
 synod (Romance/Greek-Latin) → **sinodô**  
 synthesizer (international) → **sintô**  
 system (Romance) → **süstēm**  
+süd + ost) → **südost**  
+süd + vest) → **südvest**  
 
 ## T
 
@@ -2275,6 +2297,7 @@ welcome (Low German) → **velkô**
 well… (hesitation) → **noh**  
 were → **ūli**  
 west → **lǟn**  
+west (Low German → **vest**  
 wet → **märg**  
 wetland → **suô**  
 wharf-street (Low German) → **kājô**  

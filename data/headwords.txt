@@ -878,6 +878,9 @@ nolô
 nonā
 noppômus
 noppā
+nord
+nordost
+nordvest
 nostô
 novembôr
 nugā
@@ -942,6 +945,7 @@ orkestrô
 Ortodoksô
 orvô
 orānx
+ost
 osôm
 otsô
 otsômus
@@ -1060,6 +1064,8 @@ pôhô
 pôhôlēgô
 pôhôveç
 pôjā
+pôjāidā
+pôjālǟn
 pôkrosa
 pôlvô
 pôlô
@@ -1209,6 +1215,7 @@ segaskondutô
 segā
 seilā
 sektô
+sektōr
 selg
 selgô
 selgū
@@ -1277,6 +1284,8 @@ strānd
 strēlô
 stōrī
 sud
+sudidā
+sudlǟn
 sugô
 sugôläpx
 sugôr
@@ -1309,6 +1318,9 @@ sônnavend
 sônā
 sônālivrô
 sôrmô
+süd
+südost
+südvest
 sügä
 sügü
 sülü
@@ -1527,6 +1539,7 @@ verī
 verītä
 vesperô
 vespôr
+vest
 vetä
 veç
 veçduhô

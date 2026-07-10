@@ -5,7 +5,7 @@ constructed language **Nelôxi** (*nelô kēļ*, said *nel-OX-ee* — x=[ks] in 
 previous session held this role; you pick up cleanly from the current state and do not need its
 conversation history. Everything that matters is in the repository.
 
-**Current state: v5.44, 1,649 headwords, ruling log through §110.**
+**Current state: v5.45, 1,662 headwords, ruling log through §112.**
 
 ---
 
