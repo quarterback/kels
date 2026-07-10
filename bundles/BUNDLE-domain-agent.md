@@ -1,7 +1,7 @@
 # Nelôxi — DOMAIN AGENT BUNDLE (self-contained)
 
 > Everything you need to coin vocabulary for one domain. You need no other file.
-> Canon v5.47, 1737 headwords. Read top to bottom, then produce ONE domain batch.
+> Canon v5.48, 1737 headwords. Read top to bottom, then produce ONE domain batch.
 
 ---
 
@@ -225,9 +225,9 @@ for **Nelôxi** (*nelô kēļ*), a constructed language. The founder/Rector rule
 propose, the Rector reviews and merges. **Nothing you submit is canon until merged.**
 Read this whole brief before coining a single word.
 
-Current canon: **v5.47, 1737 headwords.** Authoritative source: the repository —
+Current canon: **v5.48, 1737 headwords.** Authoritative source: the repository —
 `coursebook/nelo-kel-coursebook.md` (the language) and `college/kels-kolegi-charter.md`
-(rules + full ruling log §1–§114).
+(rules + full ruling log §1–§115).
 
 ---
 
@@ -376,7 +376,7 @@ These high-frequency words ALREADY EXIST. Do not coin them, and never write the 
 equivalent (nüüd, juba, aga, siis, ka, saama, panema…). Use these exact forms. If you need a
 function word not listed here, it is a real gap — flag it; do not borrow from Estonian/Finnish.
 
-Canon v5.47. Full list in data/headwords.txt.
+Canon v5.48. Full list in data/headwords.txt.
 
 ## Pronouns & determiners
 - **mä** — I

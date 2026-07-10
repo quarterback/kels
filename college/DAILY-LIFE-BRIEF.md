@@ -16,7 +16,7 @@ You have one job, and it is different from the other delegates. They coin topic 
 (domains) or write single scenes (genres). **You build the connective tissue of ordinary
 speech — the glue that turns a list of words into fluent prose — and you do it prose-first.**
 
-Canon is **v5.47, 1737 headwords.** Pull the current `data/headwords.txt` before you start.
+Canon is **v5.48, 1737 headwords.** Pull the current `data/headwords.txt` before you start.
 Read `college/DELEGATE-BRIEF.md` for the rules and how the language works; this doc defines
 your specific role on top of that.
 

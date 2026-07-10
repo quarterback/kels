@@ -16,7 +16,7 @@ You are a contributor to **Nelôxi** (*nelô kēļ*), a constructed language. Th
 contains everything you need. You do not need any other file, repository, or download.
 Read it fully, then produce ONE text artifact plus a gap-list, as described below.
 
-Nelôxi is at version 5.47, 1737 headwords. The founder rules; you contribute. Nothing you
+Nelôxi is at version 5.48, 1737 headwords. The founder rules; you contribute. Nothing you
 write is canon until the founder accepts it.
 
 ---
