@@ -88,6 +88,7 @@ benedīçômus
 benedīçā
 bidô
 blasfemī
+blin
 blokô
 blūzô
 bokā
@@ -304,6 +305,7 @@ hummā
 häbedā
 häbū
 hērô
+hūl
 hūr
 hūrkirīk
 hǟ
@@ -336,6 +338,7 @@ itkô
 ja
 jaamô
 jagô
+jalg
 jammā
 jamô
 janôr
@@ -386,6 +389,7 @@ kaipômus
 kaipā
 kaitsô
 kaitsômus
+kallô
 kallü
 kallā
 kaltô
@@ -401,6 +405,7 @@ kampômus
 kampā
 kamērô
 kamī
+kannô
 kannômus
 kannā
 kantelô
@@ -507,6 +512,7 @@ konfusü
 kontrabassô
 kontē
 koorõm
+kopsô
 kor
 korpôsô
 korraks
@@ -528,6 +534,7 @@ krūçôfiks
 krūçôveç
 krūçā
 ksilofônô
+kubô
 kudômus
 kudā
 kuglô
@@ -547,6 +554,7 @@ kun
 kunagü
 kuni
 kuning
+kurk
 kurt
 kus
 kusagü
@@ -561,11 +569,13 @@ kysômus
 kôg
 kôgõ
 kôgõl
+kôht
 kôlt
 kônô
 kônā
 kôrd
 kôrdā
+kôrv
 kôstô
 kôust
 kôv
@@ -574,17 +584,21 @@ külalü
 küllü
 külvômus
 külvā
+künô
 küpsôr
 küpsā
 küpsām
 küsitlô
 küsitlômus
+küüs
 kājô
 kāldô
 kāldôldā
 kāpôs
 kārgô
 kārtô
+kās
+kēl
 kēld
 kēļ
 kēļkôrd
@@ -645,6 +659,7 @@ livrô
 livrôkōt
 lohū
 lohūldā
+lombô
 lop
 lopõks
 lopā
@@ -654,6 +669,7 @@ lubā
 lugē
 lugēmys
 Luterānô
+luu
 lypsômus
 lypsā
 läbi
@@ -672,6 +688,7 @@ lēt
 lēvü
 lībā
 līkgōd
+līks
 līkô
 līnô
 līnā
@@ -700,6 +717,7 @@ maij
 maitô
 maitū
 maitūs
+maks
 maksômus
 maksā
 malālt
@@ -812,6 +830,7 @@ mȫistôr
 mȫistü
 nabôr
 nagu
+nahk
 nahkô
 nahtklubô
 nahtô
@@ -842,6 +861,7 @@ nurôr
 nôglô
 nôrk
 Nôrô
+nôsô
 nôuk
 nôukôr
 nõkā
@@ -851,6 +871,7 @@ nān
 nāsô
 nē
 nēm
+nērvô
 nētô
 nēu
 nīrin
@@ -902,6 +923,7 @@ padā
 pakkü
 paks
 pakā
+paljās
 palmôr
 palô
 pankô
@@ -1007,8 +1029,10 @@ pôhôveç
 pôjā
 pôkrosa
 pôlvô
+pôlô
 pôlū
 pôrsô
+pôskô
 põld
 pöördô
 püstü
@@ -1017,10 +1041,12 @@ püsām
 pārkô
 pāsportô
 pāsā
+pēlk
 pēlô
 pēlā
 pēlāji
 pēlām
+pērs
 pēu
 pīrô
 pīrôlubômus
@@ -1070,6 +1096,7 @@ riig
 rik
 rikômus
 rikā
+rind
 rindô
 risk
 ritmô
@@ -1143,6 +1170,7 @@ segaskondutô
 segā
 seilā
 sektô
+selg
 selgô
 selgū
 selkô
@@ -1150,6 +1178,7 @@ sellü
 selēks
 semprē
 septembôr
+serebrô
 sermônô
 servômus
 servā
@@ -1193,6 +1222,7 @@ sojā
 sol
 solvômus
 solvā
+sool
 sportô
 spēlā
 spērô
@@ -1219,6 +1249,7 @@ surmô
 surā
 suvi
 suô
+suônô
 sverdô
 svistô
 svistā
@@ -1233,6 +1264,7 @@ sôndag
 sônnavend
 sônā
 sônālivrô
+sôrmô
 sügü
 sülü
 süstēm
@@ -1299,6 +1331,7 @@ telā
 temperatūr
 templô
 tems
+tendô
 teorī
 tervetô
 tervü
@@ -1419,6 +1452,7 @@ vanlü
 vanôr
 vapnô
 varsü
+varvas
 varā
 vasikô
 vastômus
@@ -1470,6 +1504,7 @@ välk
 välkü
 vällô
 värskē
+väsinü
 vôidô
 vôim
 vôistlô
@@ -1510,6 +1545,7 @@ xumā
 äsjü
 çapkā
 çellô
+çelüs
 çenô
 çimbalô
 çizmô
@@ -1517,6 +1553,7 @@ xumā
 ôbē
 ôhtôk
 ôigus
+ôlgô
 ôli
 ônnô
 ôpôkambôr

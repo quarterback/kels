@@ -1,12 +1,14 @@
 # Nelôxi — Coverage Gaps (delegation dispatcher)
 
 *For the founder. Hand a domain agent ONE block below, plus `bundles/BUNDLE-domain-agent.md`.
-Claim the domain in `ASSIGNMENTS.md` before batching. Canon at audit: v5.33, 1,533 headwords,
-ruling log through §100.*
+Claim the domain in `ASSIGNMENTS.md` before batching. Canon at audit: v5.37, 1,588 headwords,
+ruling log through §104.*
 
 Filled since the last audit: **military (§93), music + modern scenes (§94/§95), religion (§97),
-clothing & textiles (§98), crime/violence/legal (§99), and street-type/address civic vocabulary
-plus the address-writing convention (§100 — kājô now fills the quay slot in block 6).**
+clothing & textiles (§98), crime/violence/legal (§99), street-type/address civic vocabulary +
+the address-writing convention (§100 — kājô fills the quay slot in block 6), recorded music/DJ
+(§101), bars/speakeasy (§102), the -melk service words (§103), and BODY & ANATOMY (§104 — block 1
+is now DONE).** Body left three open gaps: **face, torso, thigh** (not in the U29 batch).
 Colors are **covered** — full spectrum (`must, sinī, rôhī, kôlt, pūn, valgô, praul, grīs, orānx,
 purpôr, rōs`) + `kōlôr`, `karī` dark, `helē` pale. Only a top-up remains (see block 7).
 
@@ -20,26 +22,30 @@ faults — tag them coarse/folk and keep them.
 
 ## Priority order
 
-1. **Body & anatomy** (BARE — 1 measured hit; the biggest hole)
-2. **Injury, illness & healing** (thin — pairs with 1)
+1. ~~**Body & anatomy**~~ — **DONE (§104).** Open sub-gaps only: face, torso, thigh.
+2. **Injury, illness & healing** (thin — now pairs with the filled body field; TOP priority)
 3. **Plants, trees & the wild growing world** (thin)
-4. **Clothing, textile & garments** (thin)
+4. ~~**Clothing, textile & garments**~~ — done (§98)
 5. **Animals & wildlife** (thin)
-6. **Building & dwelling — finer architecture** (partial top-up)
+6. **Building & dwelling — finer architecture** (partial top-up; quay filled §100, cellar still open)
 7. **Colors — shades, patterns, surfaces** (small top-up)
 
 ---
 
-## BLOCK 1 — Body & anatomy (BARE)
+## BLOCK 1 — Body & anatomy (DONE §104 — kept for reference)
+**Filled §104:** kôrv ear, nôsô nose, hūl lip, kēl tongue, çelüs chin, pôskô cheek, kurk neck/
+throat, ôlgô shoulder, kās arm, künô elbow, sôrmô finger, pēlk thumb, küüs nail, rind chest, selg
+back, kôht belly, kubô hip, jalg leg, pôlô knee, pērs ankle, kannô heel, varvas toe, nahk skin,
+kopsô lung, maks liver, sool gut, kallô skull, serebrô brain, luu bone, suônô vein, nērvô nerve,
+līks muscle, tendô sinew, paljās naked, väsinü tired, lombô lame, blin blind. **Still open:**
+**tooth · face · torso · thigh** (not coined). Original brief retained below for those fills.
 **Already canon (do NOT re-coin):** kos "body", kap "head", kǟs "hand", silm "eye", kor "heart",
 verī "blood", pēu "foot", kabēl "hair", bokā "mouth".
 **Quarry lead:** Finnic core for the oldest external parts (this is legitimate deep-core ground);
 Low German and Slavic for the finer and internal/clinical terms. Distribute — don't Finnicize the
 whole field.
-**Fill:** ear · nose · lip · tooth · tongue · chin · cheek · neck · throat · shoulder · arm (limb —
-note *arm* = "affection" and *vapnô* = "weapon", so the limb is a gap) · elbow · finger · thumb ·
-nail · chest · back-of-body · belly · hip · leg · knee · ankle · heel · toe · skin · organs: lung,
-liver, stomach, gut, brain, bone, vein, nerve, muscle, sinew · whole-body states: naked, tired,
+**Fill (remaining):** tooth · face · torso · thigh · organs: stomach (internal, distinct from kôht
+belly), brain-doublet if wanted · whole-body states: naked, tired,
 strong, weak, lame, blind, deaf.
 
 ## BLOCK 2 — Injury, illness & healing (thin)

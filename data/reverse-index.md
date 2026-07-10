@@ -1,6 +1,6 @@
 # Nelô kēļ — English → Nelôxi Reverse Index
 
-*Generated from the coursebook master dictionary (1551 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
+*Generated from the coursebook master dictionary (1588 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
 
 
 ## A
@@ -77,6 +77,7 @@ anchor → **akôr**
 and → **ja**  
 angry → **vihān**  
 animal feed → **sȫtô**  
+ankle (Finnic) → **pērs**  
 annotate → **märkā**  
 annotation → **märkômus**  
 announcement → **dīmys**  
@@ -96,6 +97,7 @@ appear → **sīmā**
 apple → **pomā**  
 April → **aprīl**  
 arena → **arēnô**⁺  
+arm → **kās**  
 arm (Low German) → **vapnô**  
 armor → **harniskô**  
 army → **hērô**  
@@ -124,7 +126,7 @@ award → **perēm**⁺
 ## B
 
 baby → **bebē**  
-back → **tagān**  
+back → **selg** · **tagān**  
 bad luck (coarse) → **flūk**  
 bake (v.) → **küpsā**  
 bake-house → **küpsām**  
@@ -142,6 +144,7 @@ baptismal font (Romance/Latin church) → **fontô**
 Baptist (international church loan) → **Baptistô**  
 baptize (Romance/Greek-Latin) (v.) → **baptisā**  
 bar → **barô**⁺  
+bare (Finnic) → **paljās**  
 bargain → **kauplô**  
 bargain price → **çenô**  
 bargaining → **kauplômus**  
@@ -187,6 +190,7 @@ belief → **ūsk**
 believe (v.) → **ūskô**  
 bell (Low German) → **klokkô**  
 bell-fee → **klokkôtōl**  
+belly → **kôht**  
 beloved (affectionate address → **estimô**  
 beloved (archaic → **kallü**  
 beloved (Low German) → **lēvü**  
@@ -207,6 +211,7 @@ blade (Scandinavian) → **sverdô**
 blasphemy (Romance/Greek-Latin) → **blasfemī**  
 bless (Romance/Latin church) (v.) → **benedīçā**  
 blessing → **benedīçômus**  
+blind (rough speech) (Scandinavian → **blin**  
 blizzard → **tuisk**  
 block yard (Marīsô, slav) → **dvôrô**  
 blockhead (coarse) → **glupôr**  
@@ -220,6 +225,7 @@ body → **kos**
 body of soldiers (Low German) → **troppô**  
 boil (v.) → **keetā**  
 bolt (Marīsô, slav) → **strēlô**  
+bone (Finnic) → **luu**  
 book → **livrô**  
 booze → **prōm**  
 border → **pīrô**  
@@ -235,6 +241,7 @@ boulevard (Romance) → **bulvārô**
 boundary → **pīrô**  
 bow (Low German) → **bōgô**  
 bowed string instrument (Low German) → **fidēlô**  
+brain (Romance → **serebrô**  
 braise → **hautā**  
 brass instrument (Low German) → **hornô**  
 bread → **pa**  
@@ -318,7 +325,10 @@ certainly → **küllü**
 cf. bel) → **kaunõ**  
 cf. donā) → **andā**  
 cf. kapellô chapel — same root) → **kapelô**  
+cf. kēļ language) → **kēl**  
+cf. kǟs hand) → **kās**  
 cf. lēt) → **melk**  
+cf. nahkô leather — body part vs material) → **nahk**  
 cf. native kudā) → **telā**  
 cf. native kāpôs) → **kapustô**  
 cf. native lông) → **garnô**  
@@ -326,8 +336,10 @@ cf. native lōtô) → **verkô**
 cf. native nupô) → **knēpô**  
 cf. native nēu) → **snē**  
 cf. native pôlū) → **gribô**  
+cf. rindô line of writing) → **rind**  
 cf. rānd) → **strānd**  
 cf. rīgô) → **riig**  
+cf. selgô clear) → **selg**  
 cf. sīlô 'seam') → **mārgô**  
 cf. turg "market square") → **markôt**  
 cf. vastômus) → **vastāmus**  
@@ -344,11 +356,14 @@ chart → **kārtô**⁺
 chat (v.) → **bajā**  
 chatter → **bajômus**  
 cheap liquor (coarse) → **prōm**  
+cheek (Marīsô, slav) → **pôskô**  
 cheers → **skōl**  
 cheers (archaic → **tervü**  
 cheese → **jūst**  
+chest (Finnic → **rind**  
 chicken → **hennô**  
 child → **läpx**  
+chin (Marīsô, slav) → **çelüs**  
 chisel → **kaltô** · **kaltā**  
 choice → **valī**  
 choir → **kōrusô**  
@@ -400,6 +415,7 @@ coffee → **kafē**
 cold → **kylm**  
 collar → **krāgô**  
 collect → **kōrjā**  
+colloquial) → **blin** · **lombô**  
 color → **kōlôr**  
 combat → **kampômus**  
 come (v.) → **tulē**  
@@ -473,6 +489,7 @@ crap! (vulgar) → **skīt**
 cream-filled pastry (Belgian import) → **flœzī**  
 crime → **vǟrô**  
 criminal (Romance) → **kriminālô**  
+crippled (Low German → **lombô**  
 criticise (Romance) (v.) → **kritisā**  
 criticism → **kritīk**  
 critique (Romance) → **kritīk**  
@@ -499,7 +516,7 @@ cymbal (Romance/international) → **çimbalô**
 
 ## D
 
-damage → **rikômus** · **rikā**  
+damage → **rikômus** · **rikā** · **viga**  
 damn → **fān**  
 damn (coarse) (v.) → **fāndô**  
 damp → **mȫistôr** · **mȫistü**  
@@ -602,6 +619,7 @@ dwell → **elā**
 ## E
 
 each other → **teinütõ**  
+ear (Finnic) → **kôrv**  
 earlier (postp./adv.) → **enne**  
 early → **varā**  
 earth → **mā** · **māld**  
@@ -613,6 +631,7 @@ ecosystem (Romance) → **ekôsüstēm**
 egg → **ōu**  
 eight → **osôm**  
 eighteen → **dünxeç**  
+elbow (Low German) → **künô**  
 elder → **vanôr**  
 electronic music (Romance/international) → **elektrônikô**  
 eleven → **elva**  
@@ -644,6 +663,7 @@ eternity → **tītū**
 Eucharist (Greek-Latin church) → **eukaristī**  
 evening → **vespôr**  
 evening meal → **ôhtôk**  
+eventive adj., §96) → **väsinü**  
 ever → **kunagü**  
 everlasting → **igävē**  
 everyday drinking house (English/Low German) → **pubô**  
@@ -717,6 +737,8 @@ financing (Romance) → **finantsô**
 find (v.) → **leidā**  
 fine → **fīnô** · **gūd** · **hǟ** · **olgu**  
 fine (native → **kaunõ**  
+finger (Finnic) → **sôrmô**  
+fingernail/toenail (Finnic) → **küüs**  
 finish → **lopā**  
 Finland (nativized endonym Suomi) → **Sōme**  
 fire a gun (Low German) → **arkebūsā**  
@@ -865,7 +887,7 @@ guardian → **ravôji**
 guest → **külalü** · **vôrô**  
 guitar (Romance/international) → **gitarô**  
 gun (Low German) → **arkebūsô**  
-gut (v.) → **rōkā**  
+gut (v.) → **rōkā** · **sool**  
 gutless (vulgar) → **klȫtôtū**  
 
 ## H
@@ -908,6 +930,7 @@ heaven → **paradīsô**
 heavy → **rask**  
 heavy boot → **çizmô**  
 heavy timber → **balkô**  
+heel (Finnic) → **kannô**  
 heir → **päriji**  
 hell → **fān**  
 hell-bell → **fānkellô**  
@@ -929,6 +952,7 @@ hex → **flūk**
 hex (coarse) → **flūkā**  
 hey → **kuulõ** · **lüstä**  
 hide → **nahkô**  
+hip (Marīsô, slav) → **kubô**  
 hip-hop (international) → **hiphopô**  
 hit (Scandinavian) → **bītā**  
 holder of a doctorate (Latin) → **doktôr**  
@@ -1007,6 +1031,7 @@ instructor → **talçāji**
 insult for a corrupt or drunken church fair (folk/polemical → **düvēlmarkôt**  
 insult for an out-group denomination (slur → **drōksektô**  
 international/scar) → **dēzē**  
+intestine (Low German → **sool**  
 into the water → **vetä**  
 invitation → **kutsô**  
 invite (v.) → **kutsu**  
@@ -1058,6 +1083,7 @@ kind → **lād**
 king → **kuning**  
 kinsperson → **sugôr**  
 kit (collective, colloquial) (Marīsô, slav) → **klamôt**  
+knee (Finnic) → **pôlô**  
 knife → **nugā**  
 knife-attack (nugā + aktô) → **nugāaktô**  
 knot → **sidômus**  
@@ -1070,6 +1096,7 @@ label (Romance) → **designatsiôn**
 lade → **lastā**  
 lake → **jǟrv**  
 lamb → **tallô**  
+lame → **lombô**  
 lamp → **lampô**⁺ · **nīrin**  
 lamp left at graves or wreck memorials (grave ritual) → **haudôlampadô**  
 land a blow (Marīsô, slav) → **udarā**  
@@ -1083,12 +1110,14 @@ laugh (v.) → **naurā**
 laughter → **naurô**  
 law → **lēgô**  
 learn (v.) → **ôpā**  
+learned/clinical) → **nērvô** · **serebrô** · **tendô**  
 learner → **ôpāji**  
 learning → **ôpômus**  
 leather → **nahkô**  
 leather strap (Marīsô, slav) → **remenô**  
 leave (v.) → **lǟkô**  
 left (side) → **eskerrē**  
+leg (Finnic) → **jalg**  
 legacy → **pärômus**  
 legal record (rēdām + kirjômus) → **rēdāmkirjômus**  
 legitimate (Romance/Latin) → **legitīm**  
@@ -1120,6 +1149,7 @@ line → **līnô**⁺
 line of writing → **rindô**  
 lineage → **sugô**  
 linen cloth → **līnālōtô**  
+lip (Finnic) → **hūl**  
 listen (archaic → **kuulõ**  
 listen (attention-getter → **lüstä**  
 lit. 'armor', cf. harniskô) (Romance) → **pantsār**  
@@ -1128,6 +1158,7 @@ liturgical tradition (Romance/Latin) → **ritô**
 liturgy (Romance/Greek-Latin) → **liturgī**  
 live (v.) → **elā**  
 live through → **kogē**  
+liver (Low German → **maks**  
 living → **elômus**  
 load → **koorõm** · **laadômus**⁺ · **laadā**⁺  
 load up (v.) → **lastā**  
@@ -1152,6 +1183,7 @@ Low German) → **lüstä**
 lower (v.) → **langôtā**  
 luckily → **ônnô**  
 lunch → **lôunā**  
+lung (Low German) → **kopsô**  
 Lutheran (Low German/church historical) → **Luterānô**  
 
 ## M
@@ -1250,6 +1282,7 @@ move (intr.) (v.) → **līkô**
 much → **mult**  
 muck (coarse) → **drōk**  
 muddy (n./adj.) → **savī**  
+muscle (Low German → **līks**  
 mushroom → **pôlū**  
 mushroom (Marīsô → **gribô**  
 music → **mūsikô**  
@@ -1261,7 +1294,8 @@ mystery → **mīstērô**
 
 ## N
 
-nail → **tappô** · **tappā**  
+nail → **küüs** · **tappô** · **tappā**  
+naked → **paljās**  
 name → **nim**  
 nation → **riig**  
 naturally → **muidū**  
@@ -1269,12 +1303,14 @@ nautical word → **strānd**
 near → **prop**  
 nearly → **pehā**  
 necessary → **tarīs**  
+neck → **kurk**  
 neckline (Low German) → **krāgô**  
 needed → **tarīs**  
 needle → **nôglô**  
 neighbor → **nabôr**  
 neighborhood hall → **klubô**⁺  
 nerve → **klȫtô**  
+nerve (Romance → **nērvô**  
 net → **vôrk**  
 net (sport) → **nētô**  
 Netherlands (exonym, "low-land") → **Legmō**  
@@ -1298,6 +1334,7 @@ noise music (international, experimental) → **noizô**
 nonsense (dismissive) → **nalī**  
 north → **pôjā**  
 Norway (exonym, Norge) → **Nôrô**  
+nose (Finnic) → **nôsô**  
 not → **äb**  
 not a thing → **midagü**  
 not sure → **pōlkindõl**  
@@ -1322,6 +1359,7 @@ occupy (Romance) (v.) → **okupā**
 October → **oktōbôr**  
 of all (superlative frame) → **kôust**  
 of course → **muidū**  
+of the body (Finnic → **selg**  
 off → **maha**  
 offer ritually (Romance/Catalan) (v.) → **ofrendā**  
 offering (Romance/Catalan) → **ofrendô**  
@@ -1730,6 +1768,7 @@ shore pilgrim → **rāndpalmôr**
 shore spirit → **rāndduhô**  
 short → **kurt**  
 short coat (Low German) → **kitlô**  
+shoulder (Finnic) → **ôlgô**  
 show (international, informal) → **gigô**  
 shred → **rūbā**  
 shrine → **sanktuārô**  
@@ -1745,6 +1784,7 @@ silver → **ôbē**
 simmer (v.) → **sōbā**  
 simply → **lihtsalt**  
 sin → **pekātô**  
+sinew → **tendô**  
 sing (v.) → **kantā**  
 singer → **kantāji**  
 single (recording) (international) → **singlô**  
@@ -1753,6 +1793,8 @@ sister → **sisār**
 sit (v.) → **istā**  
 six → **xeç**  
 sixteen → **dünxtir**  
+skin (Finnic → **nahk**  
+skull → **kallô**  
 sky → **taivô**  
 slav → **gribô** · **kapustô**  
 sleep (v.) → **magā**  
@@ -1835,6 +1877,7 @@ still → **ikkü** · **veel**
 stir → **segā**  
 stitch (v.) → **sīlā**  
 stitch-line → **sīlô**  
+stomach (Finnic) → **kôht**  
 stone → **kivī**  
 stop (v.) → **püsā** · **püsām**  
 stopping place → **püsām**  
@@ -1914,6 +1957,7 @@ teach (v.) → **talçā**
 teacher → **talçāji**  
 team → **selkô**  
 technical → **teknik**  
+technical) → **līks** · **maks** · **sool** · **suônô**  
 television (full calque, "magic-window") → **taikfinest**  
 tell → **rǟkõ**  
 telling → **rǟkõmus**  
@@ -1923,6 +1967,7 @@ ten → **deseñç**
 tend animals → **karjā**  
 tender → **hell**  
 tenderness → **hellū**  
+tendon (Romance → **tendô**  
 terminal → **jaamô**⁺  
 terrifying → **hirmus**  
 test → **kaçô** · **kaçā**  
@@ -1969,9 +2014,11 @@ this-here → **sedä**
 thought → **môtô**  
 thread → **lông**  
 three → **tri**  
+throat (Finnic) → **kurk**  
 through (postp.) → **läbi**  
 throw (v.) → **viskā**  
 throw out (a net) → **heitä**  
+thumb (Finnic) → **pēlk**  
 thunder (v.) → **müristä** · **müristü**  
 Thursday → **donôrdag**  
 ticket → **piletô**⁺  
@@ -1982,12 +2029,14 @@ timber → **pūmô**
 time → **tīt**  
 timetable → **tītkôrd**  
 timpani → **timpanô**  
-tired → **kançāt** · **tüdü**  
+tired → **kançāt** · **tüdü** · **väsinü**  
 today → **avuī**  
+toe (Finnic) → **varvas**  
 toll → **tōl**  
 toll-priest → **tōlpreverô**  
 tomorrow → **demā**  
 tone (Romance) → **tōnô**  
+tongue (Finnic → **kēl**  
 too → **liig**  
 too bad → **kahjū**  
 tool → **rīst**  
@@ -2058,6 +2107,7 @@ until (temporal conjunction) → **kuni**
 unusual (Scandinavian) → **ovanlü**  
 upkeep → **hoolômus**  
 upload → **laadômus**⁺ · **laadā**⁺  
+upper limb (Finnic → **kās**  
 upright → **püstü**  
 usually → **vanlü**  
 
@@ -2066,6 +2116,7 @@ usually → **vanlü**
 vanish (v.) → **kadô**  
 vehicle trip → **sôidômus**  
 veil (Romance) → **kavērā**  
+vein (Low German → **suônô**  
 vendor → **krāmôr**  
 very → **vägä**  
 vespers (Romance/Latin) → **vesperô**  
@@ -2115,6 +2166,7 @@ we should go (hortative) → **minõm**
 weak → **flōp** · **nôrk**  
 weapon → **vapnô**  
 weary → **tüdü**  
+weary (Finnic → **väsinü**  
 weather → **tems**  
 weave → **kudômus** · **kudā**  
 weave (Low German (v.) → **telā**  
