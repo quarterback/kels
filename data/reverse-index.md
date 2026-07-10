@@ -1,6 +1,6 @@
 # Nelô kēļ — English → Nelôxi Reverse Index
 
-*Generated from the coursebook master dictionary (1126 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
+*Generated from the coursebook master dictionary (1212 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
 
 
 ## A
@@ -22,6 +22,7 @@ across (postp.) → **üle**
 act → **aktô**  
 actual → **ehtsô**  
 add (an ingredient) (v.) → **lisā**  
+affect (v.) → **virkā**  
 affection → **arm**  
 afloat → **vetä**  
 after all → **ikkü** · **ju**  
@@ -38,15 +39,19 @@ all of it → **kôgõ**
 all right → **olgu**  
 all the same → **omõt**  
 all the same (Scandinavian) → **līkgōd**  
+alliance (Romance) → **alliansô**  
 allow → **laskā**  
 allow me → **lasõ**  
+ally → **liitlô**  
 almost → **pehā**  
 alone → **üksü**  
 along (postp.) → **pitkin**  
 alphabet → **rūnôkôrd**  
 already → **jubā**  
 also → **tambē**  
+although → **kuigü**  
 always → **alatü** · **semprē**  
+America (informal exonym) → **Amerikô**  
 analysis (Romance) → **analüüs**  
 ancestor → **vanôr**  
 anchor → **akôr**  
@@ -79,6 +84,9 @@ ass (vulgar) → **arsô**
 at any time (indefinite) → **kunagü**  
 at last → **lopõks**  
 at once! (interjection → **fluks**  
+athlete (Romance) → **atlēt**  
+athletics (Romance) → **atlētīk**  
+attach to → **lītü**  
 August → **augôst**  
 aunt → **tantô**  
 autumn → **sügü**  
@@ -87,6 +95,7 @@ award → **perēm**⁺
 ## B
 
 baby → **bebē**  
+back → **tagān**  
 bad luck (coarse) → **flūk**  
 bake (v.) → **küpsā**  
 bake-house → **küpsām**  
@@ -95,6 +104,7 @@ bakery → **küpsām**
 ball → **bālô**  
 ballot → **balçômus**  
 balls → **klȫtô**  
+ban (v.) → **keldā** · **kēld**  
 bargain → **kauplô**  
 bargain price → **çenô**  
 bargaining → **kauplômus**  
@@ -110,6 +120,7 @@ be able (v.) → **vôī**
 be born (v.) → **syndā**  
 be enough (v.) → **piisā**  
 be hungry → **nǟlgô**  
+be submerged → **upō**  
 be thirsty → **jānô**  
 beach → **strānd**  
 beam → **balkô**  
@@ -165,6 +176,7 @@ bridge → **pont**
 bright → **nīrô**  
 bright sun → **päikü**  
 bring down (causative of langô) → **langôtā**  
+Britain (exonym, Nelôxicized) → **Britaniô**  
 broken → **katkü**  
 brothel (obscene) → **putānikōt**  
 brother → **veļ**  
@@ -200,6 +212,8 @@ calm down (v.) → **rahutõ**
 camera → **kamērô**⁺  
 can → **vôī**  
 cap → **xapkô**  
+capability → **kapasitēt**  
+capacity (Romance) → **kapasitēt**  
 cape → **nēm**  
 car → **kotxē**  
 care → **mūrô**  
@@ -222,6 +236,7 @@ cf. native kāpôs) → **kapustô**
 cf. native nēu) → **snē**  
 cf. native pôlū) → **gribô**  
 cf. rānd) → **strānd**  
+cf. rīgô) → **riig**  
 cf. turg "market square") → **markôt**  
 cf. vastômus) → **vastāmus**  
 chain (of shops) → **kett**⁺  
@@ -258,6 +273,8 @@ cleaner → **puhādôr**
 cleaning service → **puhādtȫ**  
 clear → **selgô**  
 click → **klikômus**⁺ · **klikā**⁺  
+climate (Romance) → **klimô**  
+climate change → **klimô-muutômus**  
 clipped from taiki) → **tēvē**  
 close (v.) → **tankā**  
 close female friend (Marīsô, slav) → **sestrô**  
@@ -278,19 +295,25 @@ come (v.) → **tulē**
 come back → **nāsô**  
 come in → **sisü**  
 comfort → **lohū** · **lohūldā**  
+coming → **tulevô**  
+common → **ühü**  
 compass → **kompass**⁺  
 compete (v.) → **vôistlô**  
 compete by speed → **raksā**  
 competition → **vôistlômus**  
+competitor → **vôistôr**  
 con man (coarse) → **trīkôr**  
 concerning (postp.) → **pǟl**  
 conduit → **torô**  
+confused (Romance) → **konfusü**  
+confusing → **konfusü**  
 consolation → **lohū**  
 constitution → **pôhôlēgô**  
 construct → **ehitā**  
 construction → **ehitômus**  
 container → **kastô**  
 contest → **maçô**⁺ · **vôistlômus**  
+contestant → **vôistôr**  
 conversation → **kônô**  
 converse (v.) → **kônā**  
 cook (v.) → **kuinā**  
@@ -313,14 +336,20 @@ cowardly → **klȫtôtū**
 crap! (vulgar) → **skīt**  
 cream-filled pastry (Belgian import) → **flœzī**  
 crime → **vǟrô**  
+criticise (Romance) (v.) → **kritisā**  
+criticism → **kritīk**  
+critique (Romance) → **kritīk**  
 crooked → **krōm**  
-crop → **viljô**  
+crop → **urôžai** · **viljô**  
+cropping period → **satsô**  
 cross → **kruçô**  
 crowd-noise (Marīsô, slav) → **xumô**  
 crucifix → **kruçô** · **krūçôfiks**  
 crucify (v.) → **krūçā**  
 cry (v.) → **itkô**  
+cultivate (Romance) (v.) → **kultivā**  
 cultivated land → **nurô**  
+cultivation → **kultivômus**  
 cup → **taç**  
 curdled milk → **juht**  
 current → **vool**  
@@ -332,6 +361,7 @@ cut (v.) → **leikā** · **lôigā**
 damage (v.) → **rikā**  
 damn → **fān**  
 damn (coarse) (v.) → **fāndô**  
+damp → **mȫistôr** · **mȫistü**  
 dark (of color) → **karī**  
 darling → **armõ**  
 data → **dātô**⁺  
@@ -342,7 +372,8 @@ dear → **kallü**
 dearie (affectionate) → **kullõ**  
 death → **surmô**  
 December → **detsembôr**  
-decide → **rēdā**  
+decide (v.) → **otsô** · **rēdā**  
+decision → **otsômus**  
 deck → **dek**⁺  
 deep → **syv**  
 defeat → **kaotômus**  
@@ -351,6 +382,7 @@ define (Romance) (v.) → **definā**
 degree → **grād**  
 delight → **rôim**  
 demon (coarse) → **düvēl**  
+Denmark (exonym, "the Danes") → **Danô**  
 depart → **tükä**  
 designation → **designatsiôn**  
 desire → **tahtô**  
@@ -366,15 +398,18 @@ dirty scheme (coarse) → **trīk**
 disappear → **kadô**  
 discard (v.) → **jättā**  
 discount → **rabat**  
+discuss (Romance) (v.) → **diskutā**  
 dishonest → **krōm**  
 disorder → **segas**  
 disposal → **jättômus**  
 disposal site → **jättām**  
 dispose of → **jättā**  
+dispute (Romance) → **disputô**  
 dock → **tillô**⁺  
 doctor → **arst** · **doktôr**  
 dog → **gos**  
 door → **port**  
+doping (international) → **dopingô**  
 doubt → **kāldô** · **kāldôldā**  
 dough → **tāgô**  
 down (to the ground) → **maha**  
@@ -386,9 +421,11 @@ drift (v.) → **ajū**
 drink (v.) → **jōdô**  
 drop (v.) → **pillā**  
 drop (of prices, water, level) → **langô**  
+drought → **kuivômus**  
 drowsy → **unü**  
 drunkard → **prōmôr**  
 dry → **kuiv**  
+dryness → **kuivômus**  
 dull → **tumô**  
 dump → **jättām**  
 duty → **pidômus**  
@@ -399,9 +436,11 @@ dwell → **elā**
 each other → **teinütõ**  
 earlier (postp./adv.) → **enne**  
 early → **varā**  
-earth → **mā**  
+earth → **mā** · **māld**  
+ease (v.) → **kergendä**  
 east → **idā**  
 eat (v.) → **menjā** · **sȫ**  
+ecosystem (Romance) → **ekôsüstēm**  
 egg → **ōu**  
 eight → **osôm**  
 eighteen → **dünxeç**  
@@ -426,6 +465,7 @@ environment → **ümbristô**
 envy → **kadē** · **kadēldā**  
 erase (v.) → **puhādā**  
 established truth → **tôsītū**  
+Estonia (exonym, from Eesti) → **Ēstô**  
 eternal → **igävē**  
 eternity → **tītū**  
 evening → **vespôr**  
@@ -441,6 +481,7 @@ exactly → **täpsõlt**
 examination → **kaçô**  
 examine → **kaçā**  
 excessively → **liig**  
+experience (v.) → **kogē**  
 eye → **silm**  
 
 ## F
@@ -454,6 +495,7 @@ familiar grandmother (Marīsô, slav) → **babkô**
 family → **famīl·la**  
 far → **kaug**  
 farmer → **nurôr**  
+farmer (Low German Bauer) → **bōndô**  
 fast → **nobē**  
 fasten → **tappā**  
 father → **pǟr**  
@@ -462,6 +504,7 @@ fear (v.) → **pelgô**
 fear (n.) → **pōr**  
 fearsome (late) → **hirmus**  
 February → **febrôr**  
+federation (Romance) → **federatsiôn**  
 fee → **tōl**  
 feed (v.) → **sȫtā**  
 feel (v.) → **tundô**  
@@ -475,7 +518,7 @@ feeling → **mōl**
 fence → **aedô**  
 fertilize (v.) → **väetā**  
 fertilizer → **väetô**  
-field → **nurô** · **pēlām**  
+field → **nurô** · **põld** · **pēlām**  
 field-worker → **nurôr**  
 fifteen → **düntri**  
 file → **failô**⁺  
@@ -483,10 +526,14 @@ fill (v.) → **täidā**
 filled pastry (Marīsô, slav) → **pirôg**  
 filth → **drōk**  
 finally → **lopõks**  
+finance → **finantsô**  
+finance (Romance) (v.) → **finantsā**  
+financing (Romance) → **finantsô**  
 find (v.) → **leidā**  
 fine → **fīnô** · **hǟ** · **olgu**  
 fine (native → **kaunõ**  
 finish → **lopā**  
+Finland (nativized endonym Suomi) → **Sōme**  
 first → **esmõks**  
 firstly → **esmõks**  
 fish → **kalā** · **kalāstā**  
@@ -497,6 +544,7 @@ flag → **flag**⁺
 flash (lightning) (v.) → **välkü**  
 flat (Marīsô, slav) → **mrovô**  
 flock → **karjô**  
+flood → **tulvô** · **tulvā** · **upôtā**  
 floor (of sea/river) → **pôhô**  
 flour → **jôu**  
 flower → **lil**  
@@ -509,6 +557,8 @@ foot → **pēu**
 for → **eest**  
 for a long time → **ammū**  
 for sale → **müük**  
+forbid → **keldā**  
+forecast (cf. temsdī) (v.) → **forkastā**  
 forest → **meçā**  
 forget (v.) → **unôstā**  
 forgive (v.) → **andõstā** · **pardā**  
@@ -536,17 +586,20 @@ fucker → **futôr**
 full → **tǟs**  
 function (v.) → **funktsionā**  
 funeral → **mǟtômus**  
+future → **tulevô**  
 
 ## G
 
-game → **pēlô**  
+game → **mäng** · **pēlô**  
 garlic → **lauk**  
 gate → **bramô**  
 gather (v.) → **kōrjā** · **noppā**  
+gather crop → **viljôstā**  
 gathering → **noppômus**  
 generation → **pôlvô**  
 gentle → **hell**  
 genuine (native core) → **ehtsô**  
+Germany (exonym, "the Saxons") → **Saksô**  
 get (v.) → **sāmā**  
 give (v.) → **donā**  
 give (native (v.) → **andā**  
@@ -556,6 +609,7 @@ gladness → **rôim**
 glue → **limô** · **limā**  
 go (v.) → **lǟdô**  
 go ahead → **lasõkäi**  
+go mouldy → **mätänä**  
 go on → **annõ** · **lasõkäi**  
 goal → **mērkô**  
 goat → **kitsô**  
@@ -581,6 +635,7 @@ grate (v.) → **rūbā**
 gratitude → **tänū**  
 grave → **haudô**  
 great wave → **laintū**  
+greatly → **vägä**  
 green → **rôhī**  
 greet (v.) → **tervütä**  
 grey → **grīs**⁺  
@@ -589,6 +644,9 @@ grief → **leinô**
 grieve → **leinā**  
 grog-shop (coarse) → **prōmām**  
 gross → **grosô**  
+ground → **māld**  
+groundwater → **pôhôveç**  
+group (Romance/international) → **grupô**  
 grow (v.) → **kasvā**  
 growth → **kasvômus**  
 guard (v.) → **valvā** · **valvāji**  
@@ -614,8 +672,11 @@ harbor → **satām**
 hard → **kôv**  
 hard cold → **pakā**  
 harsh → **karmô**  
-harvest → **noppômus** · **noppā**  
+harvest → **noppômus** · **noppā** · **urôžai** · **viljôstā**  
+harvest season → **satsô**  
+harvest yield event → **sadô**  
 haul (v.) → **haulā**  
+have effect on (Low German) → **virkā**  
 have to (v.) → **pidā**  
 hay → **heinô**  
 he → **tä**  
@@ -681,6 +742,7 @@ in exchange for (postp.) → **eest**
 in front of (postp.) → **jeds**  
 in pieces → **katkü**  
 in reply → **vastü**  
+in return → **tagān**  
 in the direction of (postp.) → **pōl**  
 in the middle of (postp.) → **kesk**  
 infernal → **düvlik**  
@@ -705,6 +767,9 @@ it’s nothing → **vabõ**
 
 jail → **vangô**  
 January → **janôr**  
+join (v.) → **lītü**  
+joint → **ühü**  
+joint purchase (Low German) → **inkôp**  
 joke → **nalī**  
 joy → **ilo**  
 judge (v.) → **rēdā** · **rēdāji**  
@@ -739,6 +804,7 @@ language → **kēļ**
 lap → **sülü**  
 late → **tard**  
 late-stratum) → **fluks**  
+Latvia (exonym, "Lett-land") → **Letmō**  
 laugh (v.) → **naurā**  
 laughter → **naurô**  
 law → **lēgô**  
@@ -762,9 +828,12 @@ library → **livrôkōt**
 license → **lubômus**  
 lie (n.) → **mentīd**  
 life → **elômus**  
+lift (v.) → **nostô**  
 light → **helē**  
+light (not heavy) → **kerg**  
 light (weight) → **kevē**  
 light-device → **nīrin**  
+lighten → **kergendä**  
 lighthouse → **bākô**⁺  
 lightning → **välk**  
 like → **nagu**  
@@ -777,10 +846,12 @@ lineage → **sugô**
 listen (attention-getter) → **kuulõ**  
 lit. 'shine-board' (literary synonym for skrinô) → **nīrtaul**  
 live (v.) → **elā**  
+live through → **kogē**  
 living → **elômus**  
 load → **koorõm** · **laadômus**⁺ · **laadā**⁺  
 load up (v.) → **lastā**  
 loneliness → **üksū**  
+long → **pitkü**  
 long ago → **ammū**  
 long for (v.) → **igāldā**  
 longing → **iglū**  
@@ -791,12 +862,15 @@ loss → **kaotômus**
 love (v.) → **ārmastô**  
 love (affectionate address) → **armõ**  
 love (n.) → **amōr**  
+Low German → **forkastā**  
 lower (v.) → **langôtā**  
 luckily → **ônnô**  
 lunch → **lôunā**  
 
 ## M
 
+machine → **maxīn**  
+machinery (Low German) → **maxīn**  
 magic → **taikô**  
 maintain (v.) → **hoolā**  
 maintenance → **hoolômus**  
@@ -818,9 +892,11 @@ market stall (Marīsô, slav) → **tārgô**
 marketplace → **turg**  
 marriage → **pulmô**  
 marry (v.) → **pulmā**  
+marsh → **suô**  
 Marīsô speech → **marīskēļ**  
 mast → **mastô**  
 match → **maçô**⁺  
+match (cf. pēlô) → **mäng**  
 matte → **tumô**  
 May → **maij**  
 maybe → **äkkü**  
@@ -845,6 +921,7 @@ middle → **keskū**
 milk (v.) → **lypsā** · **lēt**  
 milking → **lypsômus**  
 million (12⁶, ~2.99M) → **miljôn**  
+minister (Romance) → **ministôr**  
 miss → **igāldā**  
 miss (someone) (v.) → **kaipā**  
 missing → **kaipômus**  
@@ -853,12 +930,15 @@ mix (v.) → **segā**
 mixed border life → **pīrôsegas**  
 mm (reluctant agreement) → **njah**  
 mode → **mōd**  
+moist → **mȫistü**  
+moisture → **mȫistôr**  
 Monday → **mōndag**  
 money → **rā**  
 month → **kū**  
 moon → **kū**  
 morning → **matī**  
 mother → **mǟr**  
+mould → **mätä**  
 mountain → **muntāñ**  
 mourn (v.) → **leinā**  
 mourning → **leinô**  
@@ -877,6 +957,7 @@ mystery → **mīstērô**
 
 nail → **tappô** · **tappā**  
 name → **nim**  
+nation → **riig**  
 naturally → **muidū**  
 nautical word → **strānd**  
 near → **prop**  
@@ -889,6 +970,7 @@ neighborhood hall → **klubô**⁺
 nerve → **klȫtô**  
 net → **vôrk**  
 net (sport) → **nētô**  
+Netherlands (exonym, "low-land") → **Legmō**  
 network → **vôrkkôrd**  
 network system → **vôrkkôrd**  
 never → **mai**  
@@ -904,6 +986,7 @@ no matter → **līkgōd**
 nod (v.) → **nõkā**  
 nonsense (dismissive) → **nalī**  
 north → **pôjā**  
+Norway (exonym, Norge) → **Nôrô**  
 not → **äb**  
 not a thing → **midagü**  
 not sure → **pōlkindõl**  
@@ -921,6 +1004,8 @@ oar-stroke → **sōud**
 oath → **vānô**  
 obligation → **pidômus**  
 obscene) → **hūr**  
+occupation → **okupômus**  
+occupy (Romance) (v.) → **okupā**  
 October → **oktōbôr**  
 of all (superlative frame) → **kôust**  
 of course → **muidū**  
@@ -936,9 +1021,11 @@ oh! (surprise) → **ohô**
 oil → **ôli**  
 okay (conceding) → **hǟ**  
 old → **vana**  
+Olympic (Romance/international) → **olümpiô**  
 one → **jedôn**  
 one another → **teinütõ**  
 one dozen) → **düna**  
+one joined-with → **liitlô**  
 oneself → **isü**  
 onion → **sipôl**  
 only → **ainô**  
@@ -958,6 +1045,7 @@ ouch (pain) → **ai**
 outside → **vällô**  
 oven → **āhi**  
 over → **üle**  
+overflow → **tulvā**  
 ow! → **ai**  
 o’clock (klôk xeç "at six") → **klôk**  
 
@@ -991,6 +1079,7 @@ per hundred, the hundred a full gross) → **pôkrosa**
 percent (formal term → **pôkrosa**  
 percent (slang → **krossi**  
 perhaps → **ehk** · **äkkü**  
+permission → **lubô**  
 permit → **lubômus** · **lubā**  
 person → **inim**  
 person from Marīsô → **marīsôr**  
@@ -1019,8 +1108,10 @@ plow → **ārô** · **ārā**
 ply the oars → **aerutā**  
 pocket → **taskü**  
 point → **punktô**  
+Poland (exonym, Slavic Polska) → **Polskô**  
 police officer → **valvāji**  
 poll → **küsitlô**  
+polytunnel (international) → **tunnõl**  
 pompous fool → **pomp**  
 poor → **vāj**  
 poor thing (sympathy) → **vaesõkõ**  
@@ -1040,8 +1131,11 @@ prison → **vangô**
 prize → **perēm**⁺  
 probably → **vist**  
 problem (Romance) → **problēm**  
+procurement → **inkôp**  
 profit-margin (late-stratum, commerce) → **marginôl**  
 program → **kodā**⁺  
+prohibition → **kēld**  
+prolonged → **pitkü**  
 proof → **tôsītô**  
 prostitute (obscene) → **putān**  
 protect (v.) → **kaitsô** · **valvā**  
@@ -1081,14 +1175,16 @@ racket → **rekôt**⁺
 radio → **rādjo**⁺  
 rain → **vim**  
 rain (weather verb) (v.) → **vimõ**  
-raise (v.) → **ravā**  
+raise → **nostô** · **ravā**  
 rank (Romance/LG) → **grād**  
+rapid flow → **ropõ**  
 rarely → **harvõ**  
 rather → **pigõm**  
 read (v.) → **lugē**  
 reading (act of) → **lugēmys**  
 ready → **valmis**  
 real → **ehtsô**  
+realm (native → **riig**  
 rear → **ravā**  
 reason → **pôhjô** · **pôhjôldā**  
 receive → **sāmā**  
@@ -1113,6 +1209,7 @@ reply (v.) → **vastāsaatā**
 respond → **kôstô**  
 response → **vastômus**  
 responsibility (irregular → **vastāmus**  
+restriction (Romance) → **restriktsiôn**  
 return (v.) → **nāsô**  
 rich → **rik**  
 ride → **sôidômus** · **sôidā**  
@@ -1123,6 +1220,7 @@ right now → **nūnū**
 right? → **ekõ**  
 right? (negative tag) → **egü**  
 rise (v.) → **tõusô**  
+risk (Low German/international) → **risk**  
 river → **jôg**  
 road → **kamī**  
 roast (v.) → **röstā**  
@@ -1132,6 +1230,7 @@ room → **kambôr**
 rooster → **kukô**  
 root vegetable → **jūr**  
 rope → **köis**  
+rot → **mätä** · **mätänä**  
 rough (surface) → **kārgô**  
 roughly (approx.) → **mumbõ**  
 row (v.) → **aerutā** · **sōudô**  
@@ -1139,6 +1238,8 @@ rowing → **sōud**
 ruin utterly (coarse) → **brākā**  
 ruler → **mēdôr**  
 run (v.) → **kōrrô**  
+runoff → **ropõ**  
+Russia (exonym, old Finnic "the Wends") → **Venä**  
 
 ## S
 
@@ -1205,6 +1306,7 @@ shallow → **madal**
 shame → **häbū**  
 shape (v.) → **vormā**  
 share → **dēl**  
+shared → **ühü**  
 she → **tä**  
 sheep → **lammô**  
 sheet → **lehtô**  
@@ -1228,7 +1330,7 @@ silver → **ôbē**
 simmer (v.) → **sōbā**  
 simply → **lihtsalt**  
 sing (v.) → **kantā**  
-sink (v.) → **lōjū**  
+sink (v.) → **lōjū** · **upō**  
 sister → **sisār**  
 sit (v.) → **istā**  
 six → **xeç**  
@@ -1255,6 +1357,7 @@ soak (coarse) → **prōmôr**
 soft → **pehmē**  
 softly → **tasõ**  
 software (international loan) → **softvēr**  
+soil → **māld**  
 solution → **solvômus**  
 solve (Romance) (v.) → **solvā**  
 some → **mingü** · **mõnü**  
@@ -1281,6 +1384,7 @@ speak back and forth → **kônā**
 speaker (audio device) → **kūlin**  
 spice → **maitū**  
 spill → **pillā**  
+sport (international) → **sportô**  
 spouse → **kaimô**  
 spring (season) → **kevä**  
 stab (v.) → **pikā**  
@@ -1290,7 +1394,7 @@ stall-seller (Marīsô, slav) → **tārgôr**
 standing → **püstü**  
 star → **estēl**  
 start → **alk**  
-state → **rīgô**⁺  
+state → **riig** · **rīgô**⁺  
 station → **jaamô**⁺  
 statistics (Romance) → **statistīk**  
 stay (v.) → **jǟmä**  
@@ -1306,6 +1410,7 @@ store digitally → **salvā**⁺
 storm → **tormô**  
 story → **kontē**  
 stranger → **vôrô**  
+strawberry (cf. berry marjô → **bȫrsô**  
 street → **karrē**  
 street bustle → **xumô**  
 street hat (Marīsô, slav) → **xapkô**  
@@ -1320,6 +1425,7 @@ study → **ôpômus** · **ôpā**
 stupid → **glup**  
 sturdy → **tugev**  
 subject → **pǟlū**  
+submerge (causative) → **upôtā**  
 such → **sellü**  
 sudden → **järsk**  
 suddenly → **järsk** · **äkkü**  
@@ -1335,6 +1441,7 @@ surely not → **egü**
 surroundings → **ümbristô**  
 survey → **küsitlô**  
 swear an oath (v.) → **vānā**  
+Sweden (exonym, Finnic Ruotsi) → **Rôtsô**  
 sweet bread → **kōk**  
 sweet course → **magūsū**  
 sweetie → **kullõ**  
@@ -1362,6 +1469,7 @@ technical → **teknik**
 television (full calque, "magic-window") → **taikfinest**  
 tell → **rǟkõ**  
 telling → **rǟkõmus**  
+temperature (Romance) → **temperatūr**  
 ten → **deseñç**  
 tend animals → **karjā**  
 tender → **hell**  
@@ -1378,6 +1486,7 @@ that kind of → **sellü**
 that-there → **tuo**  
 thaw → **sulā**  
 the box (clipped colloquial) → **taiki**  
+the cultivated kind) → **bȫrsô**  
 the devil (interj./n., coarse) → **fān**  
 the healing-herb sense) → **rohtô**  
 the lead → **fȫrô**⁺  
@@ -1386,6 +1495,7 @@ the same → **samā**
 the same way → **samū**  
 the survey result → **küsitlômus**  
 the technical caste (Romance) → **teknik**  
+the United States (calque) → **Ühüriigôd**  
 theory (Romance) → **teorī**  
 there → **sāl**  
 they → **ne**  
@@ -1411,6 +1521,7 @@ Thursday → **donôrdag**
 ticket → **piletô**⁺  
 tide → **lūdô**  
 tie (v.) → **sidā** · **ēgô** · **ēgā**  
+tilled land → **põld**  
 timber → **pūmô**  
 time → **tīt**  
 timetable → **tītkôrd**  
@@ -1445,6 +1556,7 @@ trust (v.) → **usaldā**
 trust (n.) → **usaldômus**  
 truth → **tôsī**  
 Tuesday → **tīsdag**  
+tunnel → **tunnõl**  
 turd → **merd**  
 turn (v.) → **pöördô**  
 turn around → **pöördô**  
@@ -1469,6 +1581,7 @@ understand (v.) → **komprē**
 understanding → **selgū**  
 unfortunately → **kahjū**  
 until (temporal conjunction) → **kuni**  
+unusual (Scandinavian) → **ovanlü**  
 upkeep → **hoolômus**  
 upload → **laadômus**⁺ · **laadā**⁺  
 upright → **püstü**  
@@ -1479,6 +1592,7 @@ usually → **vanlü**
 vanish (v.) → **kadô**  
 vehicle trip → **sôidômus**  
 vendor → **krāmôr**  
+very → **vägä**  
 vessel → **potô**  
 victory → **vôitô**  
 vie → **vôistlô**  
@@ -1528,10 +1642,12 @@ well… (hesitation) → **noh**
 were → **ūli**  
 west → **lǟn**  
 wet → **märg**  
+wetland → **suô**  
 what → **mis**  
 wheel → **ratô**  
 when → **kun**  
 where → **kus**  
+while (concessive) → **kuigü**  
 white → **valgô**  
 who → **ken**  
 whoops → **oih**  
@@ -1584,6 +1700,7 @@ yellow → **kôlt**
 yes → **jā**  
 yesterday → **ajēr**  
 yet → **omõt** · **veel**  
+yield (Slavic) → **urôžai**  
 yogurt → **juht**  
 you → **sä**  
 you (pl.) → **tēg**  
