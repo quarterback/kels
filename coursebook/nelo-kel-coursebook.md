@@ -234,7 +234,7 @@ When a participle cannot carry the load (past tense, its own objects), **ken** "
 
 Adjectives serve as adverbs unchanged: *magā jôvā* "sleep well," *kōrrô nobē* "run fast," *tulē varā* "come early." No ending is added or needed.
 
-Nelôxi also has **eventive adjectives**: some adjectives stand before an object noun while describing the action rather than the object — conventional rather than freely productive, and strongest with manner-like qualities (quick, sudden, cold, sharp, quiet, careful, rough). The noun still takes its ordinary case. *Tä donā kylm vastômusôn* means "She gives a cold answer / answers coldly." *Tä küpsā nobē kōkôn* means "She bakes a quick cake / bakes the cake quickly." Object case still marks bounded action; partitive still marks ongoing or unbounded action: *Tä küpsā nobē kōkôt* "She is quickly baking cake."
+Nelôxi also has **eventive adjectives**: some adjectives stand before an object noun while describing the action rather than the object — conventional rather than freely productive, and strongest with manner-like qualities (quick, sudden, cold, sharp, quiet, careful, rough). The noun still takes its ordinary case. *Tä donā kylm vastômusôn* means "She gives a cold answer / answers coldly." *Tä küpsā nobē kōkôn* means "She bakes a quick cake / bakes the cake quickly." Object case still marks bounded action; partitive still marks ongoing or unbounded action: *Tä küpsā nobē kōkôt* "She is quickly baking cake." Template: **subject + verb + bare adjective + object noun-[-n / -t/-tô]** — the adjective stays bare, the noun carries the case, and boundedness comes from the object case, not the adjective.
 
 ## Now, now-now, and just now
 
