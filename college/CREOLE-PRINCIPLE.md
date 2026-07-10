@@ -129,6 +129,27 @@ German. A market scene? Slavic. Do not Finnicize the loanwords. Bias toward the 
 That is how the dirt gets produced at volume, which is how the corpus becomes a real language
 rather than a Finnish relexification.
 
+## The language has sediment (§97)
+
+A real contact language is not a clean taxonomy — it carries **sediment**, and Nelôxi must too,
+across the board and not only in one domain. Do not sand these away in pursuit of tidiness:
+
+- **Loanwords rife**, worn openly, sometimes barely adapted (the flœzī/dž class).
+- **Doublets** — a formal form beside a folk one for the same thing (*sakrôveç* church / *krūçôveç*
+  street; *fīdô* institutional faith / *ūsk* plain belief). Register split IS the meaning.
+- **Opaque compounds and fossils** that don't fully decompose — words with an element no longer
+  productive or transparent (*fānkellô* "hell-bell", *paterbabkô* "prayer-grandmother"). People
+  use them and work around them; the whole is canon even when the parts are odd.
+- **Ugly polemic and slang** — insults, slurs, mocking coinages (*hūrkirīk* "whore-church",
+  *kalāandõstā* "fish-pardon", *düvēlmarkôt* "devil-market"). Mark them coarse/folk, but keep
+  them: a real culture's language contains what its clergy and its authorities dislike.
+- **Route-history preserved in the objects** — western church interiors lean Romance/Low German,
+  Orthodox-border material culture leans Slavic/Greek, and the port produces its own inelegant
+  local compounds. The mess is the record of who was in the room.
+
+Coin the clean word when a domain wants one; but do not flatten the language into pure translation.
+The things that don't quite make sense are load-bearing.
+
 ## One-line version
 
 **Grammar is Livonian-Karelian Baltic-Finnic; vocabulary is a five-way creole. Borrow the word and add an ending — don't
