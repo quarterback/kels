@@ -1,10 +1,11 @@
 # Nelô kēļ — English → Nelôxi Reverse Index
 
-*Generated from the coursebook master dictionary (1092 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
+*Generated from the coursebook master dictionary (1126 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
 
 
 ## A
 
+a certain (indefinite) → **mingü**  
 a failure (coarse) → **brāk**  
 a few → **mõnü**  
 a flop (coarse) → **flōp**  
@@ -13,11 +14,13 @@ a linked series → **kett**⁺
 a moment → **hetk**  
 a moment ago → **äsjü**  
 a poll → **küsitlômus**  
+a solving → **solvômus**  
 a welcome → **sōdõmus**  
 about → **mumbõ** · **pǟl**  
 ache of absence → **kaipômus**  
 across (postp.) → **üle**  
 act → **aktô**  
+actual → **ehtsô**  
 add (an ingredient) (v.) → **lisā**  
 affection → **arm**  
 afloat → **vetä**  
@@ -34,6 +37,7 @@ all at once → **korraks**
 all of it → **kôgõ**  
 all right → **olgu**  
 all the same → **omõt**  
+all the same (Scandinavian) → **līkgōd**  
 allow → **laskā**  
 allow me → **lasõ**  
 almost → **pehā**  
@@ -43,6 +47,7 @@ alphabet → **rūnôkôrd**
 already → **jubā**  
 also → **tambē**  
 always → **alatü** · **semprē**  
+analysis (Romance) → **analüüs**  
 ancestor → **vanôr**  
 anchor → **akôr**  
 and → **ja**  
@@ -51,6 +56,7 @@ animal feed → **sȫtô**
 annotate → **märkā**  
 annotation → **märkômus**  
 announcement → **dīmys**  
+anomaly (Romance) → **anomalī**  
 answer → **vastômus** · **vastā**  
 answer back (v.) → **kôstô**  
 anyone → **kekõ**  
@@ -70,6 +76,7 @@ arse → **arsô**
 as → **nagu**  
 ask (v.) → **kysô**  
 ass (vulgar) → **arsô**  
+at any time (indefinite) → **kunagü**  
 at last → **lopõks**  
 at once! (interjection → **fluks**  
 August → **augôst**  
@@ -107,7 +114,7 @@ be thirsty → **jānô**
 beach → **strānd**  
 beam → **balkô**  
 bear → **kannā**  
-beautiful → **bel**  
+beautiful → **bel** · **kaunõ**  
 because → **sest**  
 become → **muutô**  
 become engaged (v.) → **kihlā**  
@@ -122,6 +129,7 @@ believe (v.) → **ūskô**
 beloved (term of endearment) → **kallü**  
 berry → **mārjā**  
 betrothal → **kihlô**  
+beyond (postp.) → **vällô**  
 big → **sūr**  
 bin → **kastô**  
 bind → **sidā**  
@@ -208,6 +216,8 @@ category → **lād**
 cause → **pôhjô**  
 center → **keskū**  
 certainly → **küllü**  
+cf. bel) → **kaunõ**  
+cf. donā) → **andā**  
 cf. native kāpôs) → **kapustô**  
 cf. native nēu) → **snē**  
 cf. native pôlū) → **gribô**  
@@ -336,9 +346,13 @@ decide → **rēdā**
 deck → **dek**⁺  
 deep → **syv**  
 defeat → **kaotômus**  
+defend → **kaitsô**  
+define (Romance) (v.) → **definā**  
+degree → **grād**  
 delight → **rôim**  
 demon (coarse) → **düvēl**  
 depart → **tükä**  
+designation → **designatsiôn**  
 desire → **tahtô**  
 desire deeply (v.) → **tahtôldā**  
 dessert → **magūsū**  
@@ -358,7 +372,7 @@ disposal → **jättômus**
 disposal site → **jättām**  
 dispose of → **jättā**  
 dock → **tillô**⁺  
-doctor → **arst**  
+doctor → **arst** · **doktôr**  
 dog → **gos**  
 door → **port**  
 doubt → **kāldô** · **kāldôldā**  
@@ -408,6 +422,7 @@ ensign → **flag**⁺
 entitlement → **rētô**  
 entry arch (Marīsô, slav) → **bramô**  
 entry mark → **vīzô**⁺  
+environment → **ümbristô**  
 envy → **kadē** · **kadēldā**  
 erase (v.) → **puhādā**  
 established truth → **tôsītū**  
@@ -415,6 +430,7 @@ eternal → **igävē**
 eternity → **tītū**  
 evening → **vespôr**  
 evening meal → **ôhtôk**  
+ever → **kunagü**  
 everlasting → **igävē**  
 everything → **kôgõ**  
 everywhere → **kôgõl**  
@@ -469,6 +485,7 @@ filth → **drōk**
 finally → **lopõks**  
 find (v.) → **leidā**  
 fine → **fīnô** · **hǟ** · **olgu**  
+fine (native → **kaunõ**  
 finish → **lopā**  
 first → **esmõks**  
 firstly → **esmõks**  
@@ -517,6 +534,7 @@ fry (v.) → **praadi**⁺ · **praadā**⁺
 fuck (obscene) (v.) → **futrā**  
 fucker → **futôr**  
 full → **tǟs**  
+function (v.) → **funktsionā**  
 funeral → **mǟtômus**  
 
 ## G
@@ -528,8 +546,10 @@ gather (v.) → **kōrjā** · **noppā**
 gathering → **noppômus**  
 generation → **pôlvô**  
 gentle → **hell**  
+genuine (native core) → **ehtsô**  
 get (v.) → **sāmā**  
 give (v.) → **donā**  
+give (native (v.) → **andā**  
 give it here → **annõ**  
 give light → **nīrā**  
 gladness → **rôim**  
@@ -548,6 +568,7 @@ goodbye → **adē**
 govern (v.) → **valdā**  
 government → **valdômus**  
 grab (v.) → **çapkā**  
+grade → **grād**  
 grain → **viljô**  
 grammar → **kēļkôrd**  
 grammarian → **kēļôr**  
@@ -620,6 +641,7 @@ hex → **flūk**
 hex (coarse) → **flūkā**  
 hey → **kuulõ**  
 hide → **nahkô**  
+holder of a doctorate (Latin) → **doktôr**  
 home (to) → **kōju**  
 homeward → **kōju**  
 honey → **melī**  
@@ -644,6 +666,7 @@ I suppose → **vist**
 ice → **jǟ**  
 ice-cold → **jǟdô**  
 idea → **idē**  
+identity (Romance/Latin) → **identitēt**  
 idiot → **glupôr**  
 idle talk (Marīsô, slav) → **bajômus**  
 if → **jōs**  
@@ -707,6 +730,7 @@ knowledge → **tēdômus**
 
 ## L
 
+label (Romance) → **designatsiôn**  
 lade → **lastā**  
 lake → **jǟrv**  
 lamb → **tallô**  
@@ -725,6 +749,7 @@ leather → **nahkô**
 leave (v.) → **lǟkô**  
 left (side) → **eskerrē**  
 legacy → **pärômus**  
+legitimate (Romance/Latin) → **legitīm**  
 lentil → **lǟtū**  
 lesson → **lēsô**  
 let (v.) → **laskā**  
@@ -781,6 +806,7 @@ make ready → **valmistā**
 make street noise (Marīsô, slav) → **xumā**  
 malware → **vīrô**⁺  
 man → **mēs**  
+manner → **mōd**  
 manure → **väetô**  
 many → **mult**  
 March → **märç**  
@@ -826,6 +852,7 @@ mistake → **viga**
 mix (v.) → **segā**  
 mixed border life → **pīrôsegas**  
 mm (reluctant agreement) → **njah**  
+mode → **mōd**  
 Monday → **mōndag**  
 money → **rā**  
 month → **kū**  
@@ -873,6 +900,7 @@ nine → **deveñç**
 nineteen → **dünsedm**  
 no (trade) → **nē**  
 no harm (reassurance) → **pōlpardõ**  
+no matter → **līkgōd**  
 nod (v.) → **nõkā**  
 nonsense (dismissive) → **nalī**  
 north → **pôjā**  
@@ -918,12 +946,16 @@ only just → **alõs**
 onward → **edä**  
 oops → **oi** · **oih**  
 open (v.) → **obrī**  
+operate (Romance) → **funktsionā**  
 or → **ehk** · **vai** · **või**  
 orange → **orānx**⁺  
 order → **kôrd**  
+ordinarily (Scandinavian) → **vanlü**  
+organize (Romance) (v.) → **organisā**  
 orphan → **orvô**  
 otherwise → **muidôn**  
 ouch (pain) → **ai**  
+outside → **vällô**  
 oven → **āhi**  
 over → **üle**  
 ow! → **ai**  
@@ -1007,11 +1039,15 @@ pride → **ūpū**
 prison → **vangô**  
 prize → **perēm**⁺  
 probably → **vist**  
+problem (Romance) → **problēm**  
 profit-margin (late-stratum, commerce) → **marginôl**  
 program → **kodā**⁺  
 proof → **tôsītô**  
 prostitute (obscene) → **putān**  
-protect → **valvā**  
+protect (v.) → **kaitsô** · **valvā**  
+protection → **kaitsômus**  
+psychologist (Romance) → **psükolōg**  
+psychology (Romance) → **psükolōgī**  
 public → **rahvô**  
 public light → **lampô**⁺  
 public notice → **dīmys**  
@@ -1046,11 +1082,13 @@ radio → **rādjo**⁺
 rain → **vim**  
 rain (weather verb) (v.) → **vimõ**  
 raise (v.) → **ravā**  
+rank (Romance/LG) → **grād**  
 rarely → **harvõ**  
 rather → **pigõm**  
 read (v.) → **lugē**  
 reading (act of) → **lugēmys**  
 ready → **valmis**  
+real → **ehtsô**  
 rear → **ravā**  
 reason → **pôhjô** · **pôhjôldā**  
 receive → **sāmā**  
@@ -1216,7 +1254,10 @@ so be it → **olgu**
 soak (coarse) → **prōmôr**  
 soft → **pehmē**  
 softly → **tasõ**  
-some → **mõnü**  
+software (international loan) → **softvēr**  
+solution → **solvômus**  
+solve (Romance) (v.) → **solvā**  
+some → **mingü** · **mõnü**  
 somehow → **kuidagü**  
 someone → **kekõ**  
 something → **miskü**  
@@ -1251,6 +1292,7 @@ star → **estēl**
 start → **alk**  
 state → **rīgô**⁺  
 station → **jaamô**⁺  
+statistics (Romance) → **statistīk**  
 stay (v.) → **jǟmä**  
 stew (v.) → **hautā**  
 still → **ikkü** · **veel**  
@@ -1271,6 +1313,8 @@ street price (Marīsô, slav) → **çenô**
 streetlight → **karrēlampô**  
 strength → **vôim**  
 strong → **fort**  
+structural → **struktūrôl**  
+structure (Latin) → **struktūr**  
 student → **ôpāji**  
 study → **ôpômus** · **ôpā**  
 stupid → **glup**  
@@ -1288,6 +1332,7 @@ sunshine → **päikü**
 supper → **ôhtôk**  
 surely → **küllü**  
 surely not → **egü**  
+surroundings → **ümbristô**  
 survey → **küsitlô**  
 swear an oath (v.) → **vānā**  
 sweet bread → **kōk**  
@@ -1295,6 +1340,7 @@ sweet course → **magūsū**
 sweetie → **kullõ**  
 swell → **laintū**  
 swindle (coarse) → **trīkā**  
+system (Romance) → **süstēm**  
 
 ## T
 
@@ -1312,6 +1358,7 @@ tea → **tē**
 teach (v.) → **talçā**  
 teacher → **talçāji**  
 team → **selkô**  
+technical → **teknik**  
 television (full calque, "magic-window") → **taikfinest**  
 tell → **rǟkõ**  
 telling → **rǟkõmus**  
@@ -1338,6 +1385,8 @@ the past → **ennū**
 the same → **samā**  
 the same way → **samū**  
 the survey result → **küsitlômus**  
+the technical caste (Romance) → **teknik**  
+theory (Romance) → **teorī**  
 there → **sāl**  
 they → **ne**  
 thick (of a liquid) → **paks**  
@@ -1423,6 +1472,7 @@ until (temporal conjunction) → **kuni**
 upkeep → **hoolômus**  
 upload → **laadômus**⁺ · **laadā**⁺  
 upright → **püstü**  
+usually → **vanlü**  
 
 ## V
 
@@ -1462,6 +1512,7 @@ water pipe → **veçtorô**
 waterfront (the newer → **strānd**  
 waterside (the older, broader word) → **rānd**  
 wave → **lain**  
+way → **mōd**  
 we → **mēg**  
 we should go (hortative) → **minõm**  
 weak → **flōp** · **nôrk**  

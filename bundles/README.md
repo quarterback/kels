@@ -9,6 +9,9 @@ repo, not the charter. Each bundle contains everything that agent needs and noth
 - **BUNDLE-corpus-agent.md** — for writing a genre text (folktale, letter, dialogue, etc.).
   Contains: the corpus brief (with embedded grammar + word list), the cheat-sheet, tense/aspect,
   pronouns, and adjectives.
+- **BUNDLE-translation-agent.md** — for live translation of a real-world text into Nelôxi.
+  Pulls live canon from GitHub, applies the creole doctrine, generates roots by quarry. This is
+  how the corpus grows from real texts. Self-contained; references the repo for the current list.
 - **BUNDLE-grammar-reference.md** — the complete grammar in one file. Hand to a grammar agent, or
   to ANY agent that has started drifting (using Estonian, guessing forms) to re-ground it.
 

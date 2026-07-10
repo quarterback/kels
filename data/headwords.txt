@@ -24,8 +24,11 @@ amtô
 amtôji
 amīk
 amōr
+analüüs
 andõstā
+andā
 annõ
+anomalī
 appü
 aprīl
 apô
@@ -62,13 +65,16 @@ bālô
 bōs
 bōt
 būsô
+definā
 dek
 demā
 dent
 deret
 deseñç
+designatsiôn
 detsembôr
 deveñç
+doktôr
 donôrdag
 donā
 drobô
@@ -100,6 +106,7 @@ egü
 ehitômus
 ehitā
 ehk
+ehtsô
 ekõ
 elva
 elômus
@@ -131,6 +138,7 @@ fotô
 fotā
 frīdag
 frūt
+funktsionā
 futrā
 futôr
 fān
@@ -144,6 +152,7 @@ gos
 grançô
 gribô
 grosô
+grād
 grīs
 haavômus
 haavā
@@ -177,6 +186,7 @@ häbedā
 häbū
 hūr
 hǟ
+identitēt
 idā
 idē
 iglū
@@ -236,6 +246,8 @@ kahjū
 kaimô
 kaipômus
 kaipā
+kaitsô
+kaitsômus
 kallü
 kallā
 kaltô
@@ -275,6 +287,7 @@ kasvā
 kat
 katkü
 kaug
+kaunõ
 kauplô
 kauplômus
 kaçô
@@ -336,6 +349,7 @@ kukô
 kuld
 kullõ
 kun
+kunagü
 kuni
 kurt
 kus
@@ -402,6 +416,7 @@ lastā
 lasõ
 lasõkäi
 lauk
+legitīm
 lehmä
 lehtô
 leidā
@@ -444,6 +459,7 @@ lēsô
 lēsām
 lēt
 lībā
+līkgōd
 līkô
 līnô
 līvô
@@ -495,6 +511,7 @@ midvôk
 miks
 mikô
 miljôn
+mingü
 minõm
 mis
 miskü
@@ -540,6 +557,7 @@ mērkô
 mēs
 mīrô
 mīstērô
+mōd
 mōl
 mōndag
 mūlô
@@ -611,6 +629,7 @@ onkô
 ootkôrd
 ootômus
 ootā
+organisā
 orvô
 orānx
 osôm
@@ -659,11 +678,14 @@ potô
 praadi
 praadā
 praul
+problēm
 prop
 prēu
 prōm
 prōmôr
 prōmām
+psükolōg
+psükolōgī
 puhād
 puhādtȫ
 puhādôr
@@ -816,8 +838,14 @@ skītā
 smetôn
 snē
 snēā
+softvēr
 sojā
 sol
+solvômus
+solvā
+statistīk
+struktūr
+struktūrôl
 strānd
 sud
 sugô
@@ -844,6 +872,7 @@ sônā
 sônālivrô
 sügü
 sülü
+süstēm
 sāl
 sāli
 sālsāl
@@ -895,7 +924,9 @@ tasõ
 taul
 taç
 teinütõ
+teknik
 tems
+teorī
 tervetô
 tervü
 tervütä
@@ -986,6 +1017,7 @@ vana
 vanamǟr
 vanapǟr
 vangô
+vanlü
 vanôr
 varsü
 varā
@@ -1021,6 +1053,7 @@ väetô
 väetā
 välk
 välkü
+vällô
 värskē
 vôidô
 vôim
@@ -1072,6 +1105,7 @@ xumā
 üksū
 üksūldā
 üle
+ümbristô
 ümbär
 ürd
 āhi
