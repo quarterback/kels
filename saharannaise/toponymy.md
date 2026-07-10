@@ -36,11 +36,32 @@ directly, the local name serving both registers, distinguished only by the §47 
 | | Nelôxian | Saharannaise |
 |:---|:---|:---|
 | short (shared) | **Atlanta** | **Atlanta** |
-| formal | *Provinsô Atlantô-Ṣaxrā ō Estatô Sāxil* (Romance: provinces & state) | *Wilāyāt əṣ-Ṣaxrā l-Atlasīya wə Dawlat əs-Sāxil* (Arabic) |
+| formal | *Provinsôd Aṭlantô-Ṣaxrā ō Sahel-Rīgô* (Romance provinsô + canon **rīgô** "state") | *Wilāyāt əṣ-Ṣaxrā l-Aṭlasīya wə Dawlat əs-Sāxil* (Arabic) |
+| demonym | **Atlantī** "Atlantan" | **Ṣaxrāwī**, pl. **Ṣaxrāwīd** "the desert-folk" |
 
-*(Both formal names are the Amīn's proposal, open to the founder's veto.)* Atlanta is the
-union of two historic halves — **Pūnkanā | Sāgī əl-Xamrā** (north) and **Kuldjôg | Wād-Ḍahab**
-(south) — fronting the **Mer Atlantô | Baxr əẓ-Ẓulumāt**.
+*(Both formal names are the Amīn's proposal, open to the founder's veto.)* The two standards
+name the ocean-and-desert differently on purpose: Nelôxian reaches through the international
+Latin *Atlant-*, Saharannaise through Arabic *Aṭlas* (emphatic ṭ) — same referent, two
+registers. "Sahel" is itself Arabic *sāḥil* "shore" → **sāxil**, so *Sahel-Rīgô / Dawlat
+əs-Sāxil* reads doubly as "the Sahel State" and "the Coastal State." Atlanta is the union of
+two historic halves — **Pūnkanā | Sāgī əl-Xamrā** (north) and **Kuldjôg | Wād-Ḍahab** (south)
+— fronting the **Mer Atlantô | Baxr əẓ-Ẓulumāt**.
+
+## What they call themselves — the side on the piste
+
+The passport cover and the back of a shirt both read the short endonym, **Atlanta**. The
+people are the **Ṣaxrāwī** — the authentic Sahrawi self-name, *ṣaḥrāwī* "of the desert" run
+through §47 (ṣ scar, ḥ→x); plural **Ṣaxrāwīd** on the Nelôxi *-d*. The metropolitan demonym
+is **Atlantī**.
+
+At a fencing tournament, on the back of the jacket:
+
+- Across the shoulders, the country as everyone writes it: **ATLANTA**.
+- The three-letter code assigned by the mainland sporting register (the §114 sport layer):
+  **ATL** — which, in this timeline, predates and is unrelated to the New World city that
+  later took the name.
+- What the strip and the crowd call the side: **əṣ-Ṣaxrāwīd** "the Sahrawis" in Saharannaise,
+  **Atlantīd** "the Atlantans" in the Nelôxian press.
 
 ## Marquee places — distinct name in each register
 
