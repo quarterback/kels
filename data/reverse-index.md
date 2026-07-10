@@ -1,6 +1,6 @@
 # Nelô kēļ — English → Nelôxi Reverse Index
 
-*Generated from the coursebook master dictionary (1289 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
+*Generated from the coursebook master dictionary (1350 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
 
 
 ## A
@@ -17,6 +17,7 @@ a poll → **küsitlômus**
 a solving → **solvômus**  
 a welcome → **sōdõmus**  
 about → **mumbõ** · **pǟl**  
+accordion (Romance/international) → **akordeôn**  
 ache of absence → **kaipômus**  
 across (postp.) → **üle**  
 act → **aktô**  
@@ -33,6 +34,7 @@ agree (v.) → **nõusô**
 agreed → **nõusõ**  
 aid → **abī**  
 aim → **ārgô**  
+album (international) → **albômô**  
 all → **kôg**  
 all at once → **korraks**  
 all of it → **kôgõ**  
@@ -51,7 +53,9 @@ already → **jubā**
 also → **tambē**  
 although → **kuigü**  
 always → **alatü** · **semprē**  
+ambient music (international) → **ambientô**  
 America (informal exonym) → **Amerikô**  
+amplifier (international) → **amplifôr**  
 analysis (Romance) → **analüüs**  
 ancestor → **vanôr**  
 anchor → **akôr**  
@@ -110,6 +114,7 @@ ball → **bālô**
 ballot → **balçômus**  
 balls → **klȫtô**  
 ban (v.) → **keldā** · **kēld**  
+band (musical group) (international) → **bändô**  
 banner → **banērô**  
 bargain → **kauplô**  
 bargain price → **çenô**  
@@ -118,6 +123,10 @@ barn → **lāvô**
 barren → **pūst**  
 base → **pôhô**  
 basic law → **pôhôlēgô**  
+bass → **bassô**  
+bass guitar (international) → **bassgitarô**  
+bass instrument (Romance/international) → **bassô**  
+bassoon (Romance/international) → **fagotô**  
 bastard (vulgar) → **futôr**  
 bat → **rekôt**⁺  
 battle → **kampômus**  
@@ -166,6 +175,7 @@ block yard (Marīsô, slav) → **dvôrô**
 blockhead (coarse) → **glupôr**  
 blood → **verī**  
 blue → **sinī**  
+blues (international) → **blūzô**  
 board → **lōdô**  
 boat → **bōt**  
 body → **kos**  
@@ -247,6 +257,7 @@ catch (v.) → **kaptā**
 catch (of fish) → **sañô**  
 category → **lād**  
 cause → **pôhjô**  
+cello (Romance/international) → **çellô**  
 center → **keskū**  
 certainly → **küllü**  
 cf. bel) → **kaunõ**  
@@ -284,6 +295,7 @@ cinnamon → **kanēl**⁺
 citizen → **sitānik**  
 city → **sitāt**  
 city block → **blokô**⁺  
+clarinet (Romance/international) → **klarinētô**  
 clarity → **selgū**  
 classroom → **ôpôkambôr**  
 clay → **savī**  
@@ -352,6 +364,7 @@ construction → **ehitômus**
 container → **kastô**  
 contest → **maçô**⁺ · **vôistlômus**  
 contestant → **vôistôr**  
+contrabass (Romance/Low German) → **kontrabassô**  
 conversation → **kônô**  
 converse (v.) → **kônā**  
 cook (v.) → **kuinā**  
@@ -393,6 +406,7 @@ curdled milk → **juht**
 current → **vool**  
 curse → **flūk** · **flūkā** · **fāndô**  
 cut (v.) → **leikā** · **lôigā**  
+cymbal (Romance/international) → **çimbalô**  
 
 ## D
 
@@ -446,12 +460,15 @@ disposal → **jättômus**
 disposal site → **jättām**  
 dispose of → **jättā**  
 dispute (Romance) → **disputô**  
+DJ (from dīdžē) (v.) → **dīdžēstā**  
+DJ (international → **dīdžē**  
 do battle (Low German) → **kampā**  
 dock → **tillô**⁺  
 doctor → **arst** · **doktôr**  
 dog → **gos**  
 door → **port**  
 doping (international) → **dopingô**  
+double bass → **kontrabassô**  
 doubt → **kāldô** · **kāldôldā**  
 dough → **tāgô**  
 down (to the ground) → **maha**  
@@ -489,6 +506,7 @@ egg → **ōu**
 eight → **osôm**  
 eighteen → **dünxeç**  
 elder → **vanôr**  
+electronic music (Romance/international) → **elektrônikô**  
 eleven → **elva**  
 embrace → **sülü**  
 emotion → **mōl**  
@@ -602,6 +620,7 @@ flute → **flūtô**
 fodder → **sȫtô**  
 foe (Marīsô, slav) → **vragô**  
 fog → **udū**  
+folk music (international) → **folkô**  
 fondness → **arm**  
 food → **sȫk**  
 fool → **glupôr**  
@@ -657,6 +676,7 @@ genuine (native core) → **ehtsô**
 Georgia (exonym, Slavic route-form) → **Gruziô**  
 Germany (exonym, "the Saxons") → **Saksô**  
 get (v.) → **sāmā**  
+gig → **gigô**  
 give (v.) → **donā**  
 give (native (v.) → **andā**  
 give it here → **annõ**  
@@ -700,6 +720,7 @@ griddle cake (Marīsô, slav) → **plinô**
 grief → **leinô**  
 grieve → **leinā**  
 grog-shop (coarse) → **prōmām**  
+groove (international) → **grūvô**  
 gross → **grosô**  
 ground → **māld**  
 groundwater → **pôhôveç**  
@@ -709,6 +730,7 @@ growth → **kasvômus**
 guard (v.) → **valvā** · **valvāji**  
 guardian → **ravôji**  
 guest → **külalü** · **vôrô**  
+guitar (Romance/international) → **gitarô**  
 gun (Low German) → **arkebūsô**  
 gut (v.) → **rōkā**  
 gutless (vulgar) → **klȫtôtū**  
@@ -730,6 +752,7 @@ harbor → **satām**
 hard → **kôv**  
 hard cold → **pakā**  
 harness (Low German) → **harniskô**  
+harp (Low German) → **harpô**  
 harsh → **karmô**  
 harvest → **noppômus** · **noppā** · **urôžai** · **viljôstā**  
 harvest season → **satsô**  
@@ -764,6 +787,7 @@ hex → **flūk**
 hex (coarse) → **flūkā**  
 hey → **kuulõ** · **lüstä**  
 hide → **nahkô**  
+hip-hop (international) → **hiphopô**  
 holder of a doctorate (Latin) → **doktôr**  
 home (to) → **kōju**  
 homeward → **kōju**  
@@ -798,6 +822,8 @@ idle talk (Marīsô, slav) → **bajômus**
 if → **jōs**  
 image → **pildô**  
 immediately → **nūnū**  
+improvisation → **improvizômus**  
+improvise (Romance/international) (v.) → **improvizā**  
 in → **sisü**  
 in a bit → **nūlô**  
 in a hushed way → **vaikõ**  
@@ -810,6 +836,8 @@ in reply → **vastü**
 in return → **tagān**  
 in the direction of (postp.) → **pōl**  
 in the middle of (postp.) → **kesk**  
+indie (international) → **indī**  
+indie music → **indī**  
 infernal → **düvlik**  
 inherit (v.) → **pärā**  
 inheritance → **pärômus**  
@@ -833,9 +861,13 @@ it’s nothing → **vabõ**
 ## J
 
 jail → **vangô**  
+jam → **jamô**  
+jam (from jamô) (v.) → **jammā**  
+jam session (international, informal) → **jamô**  
 jangle (Low German) → **klimprā**  
 January → **janôr**  
 Japan (exonym, sea-route form) → **Japān**  
+jazz (international → **džezô**  
 join (v.) → **lītü**  
 joint → **ühü**  
 joint purchase (Low German) → **inkôp**  
@@ -853,6 +885,8 @@ just over there → **sālsāl**
 
 kantele-type plucked box (Karelian) → **kantelô**  
 keep up → **hoolā**  
+keeps the dž scar) → **dīdžē** · **džezô**  
+kettledrum (Romance/Italian) → **timpanô**  
 key → **nupô** · **vôtī**  
 keyboard → **klavôr**⁺  
 kin → **sugô**  
@@ -955,6 +989,7 @@ make ready → **valmistā**
 make street noise (Marīsô, slav) → **xumā**  
 malware → **vīrô**⁺  
 man → **mēs**  
+mandolin (Romance/Italian) → **mandolīnô**  
 manner → **mōd**  
 manure → **väetô**  
 many → **mult**  
@@ -992,7 +1027,9 @@ mending → **parandômus**
 merchant → **handlôji**  
 merchant register → **fluks**  
 message → **sônaktô**  
+metal music (international) → **metālô**  
 microphone → **mikô**⁺  
+microphone stand (mikô + stand) → **mikstandô**  
 midday meal → **lôunā**  
 middle → **keskū**  
 militia → **militsô**  
@@ -1065,6 +1102,7 @@ no (trade) → **nē**
 no harm (reassurance) → **pōlpardõ**  
 no matter → **līkgōd**  
 nod (v.) → **nõkā**  
+noise music (international, experimental) → **noizô**  
 nonsense (dismissive) → **nalī**  
 north → **pôjā**  
 Norway (exonym, Norge) → **Nôrô**  
@@ -1084,6 +1122,7 @@ oar → **aerô** · **mēlā**
 oar-stroke → **sōud**  
 oath → **vānô**  
 obligation → **pidômus**  
+oboe (Romance/international) → **oboē**  
 obscene) → **hūr**  
 occupation → **okupômus**  
 occupy (Romance) (v.) → **okupā**  
@@ -1161,6 +1200,7 @@ pepper → **pipôr**⁺
 per hundred, the hundred a full gross) → **pôkrosa**  
 percent (formal term → **pôkrosa**  
 percent (slang → **krossi**  
+performance block (international, live music) → **setô**  
 perhaps → **ehk** · **äkkü**  
 permission → **lubô**  
 permit → **lubômus** · **lubā**  
@@ -1169,6 +1209,8 @@ person from Marīsô → **marīsôr**
 phone → **fonô**⁺ · **fonā**⁺  
 phone call → **fonômus**⁺  
 photograph → **fotô**⁺ · **fotā**⁺  
+piano (Romance/Italian) → **pianô**  
+piccolo (Romance/Italian) → **pikôlô**  
 pick (v.) → **noppā**  
 picture → **pildô**  
 piece → **jagô**  
@@ -1202,6 +1244,8 @@ polytunnel (international) → **tunnõl**
 pompous fool → **pomp**  
 poor → **vāj**  
 poor thing (sympathy) → **vaesõkõ**  
+pop music (international) → **popô**  
+post-rock (international) → **postrokô**  
 pot → **padā** · **potô**  
 pour (v.) → **kallā**  
 power → **vôim**  
@@ -1220,6 +1264,8 @@ prize → **perēm**⁺
 probably → **vist**  
 problem (Romance) → **problēm**  
 procurement → **inkôp**  
+produce (music) (Romance/international) (v.) → **produsā**  
+producer (from produsā) → **produsôr**  
 profit-margin (late-stratum, commerce) → **marginôl**  
 program → **kodā**⁺  
 prohibition → **kēld**  
@@ -1241,6 +1287,7 @@ pull (v.) → **tõmbā**
 pull in → **haulā**  
 punish (v.) → **karistā**  
 punishment → **karistô**  
+punk (international) → **pankô**  
 purple → **purpôr**⁺  
 purpose → **ārgô**  
 purse → **taskü**  
@@ -1249,6 +1296,7 @@ put right → **kôrdā**
 
 ## Q
 
+quartet (Romance/international) → **kvartetô**  
 question → **kysômus**  
 queue → **ootkôrd**  
 queue-crowd (Marīsô, slav) → **xolkô**  
@@ -1266,6 +1314,8 @@ rain (weather verb) (v.) → **vimõ**
 raise → **nostô** · **ravā**  
 rampart (Low German) → **valô**  
 rank (Romance/LG) → **grād**  
+rap (from rapô) (v.) → **rapā**  
+rap (international) → **rapô**  
 rapid flow → **ropõ**  
 rarely → **harvõ**  
 rather → **pigõm**  
@@ -1282,6 +1332,7 @@ reckon → **arvôldā**
 reconcile (v.) → **lepā**  
 reconciliation → **lepômus**  
 record → **rekôrd**⁺  
+record (music) (from rekôrd) (v.) → **rekôrdstā**  
 record level → **rekôrd**⁺  
 red → **pūn**  
 reef → **karīk**  
@@ -1304,6 +1355,7 @@ return (v.) → **nāsô**
 rhythm → **ritmô**  
 rich → **rik**  
 ride → **sôidômus** · **sôidā**  
+riff (international) → **rīfô**  
 right → **rētô** · **ôigus**  
 right (side) → **deret**  
 right here → **sīnsīn**  
@@ -1316,6 +1368,7 @@ river → **jôg**
 road → **kamī**  
 roast (v.) → **röstā**  
 rock (at sea) → **karīk**  
+rock music (international) → **rokô**  
 Romance) → **estimô** · **fortē** · **pianē**  
 rood (technical → **krūçôfiks**  
 room → **kambôr**  
@@ -1340,6 +1393,7 @@ sail → **purjē** · **seilā**
 sailor → **matrūs**  
 sale → **müük**  
 salt → **sōla**  
+sampler (international) → **samplôr**  
 sandy → **līvô**  
 sanitation → **puhādtȫ**  
 sanitation worker → **puhādôr**  
@@ -1349,6 +1403,7 @@ save (v.) → **salvā**⁺
 saved file → **salvômus**⁺  
 savory → **maitūs**  
 saw → **sāvô** · **sāvā**  
+saxophone (Romance/international) → **saksofônô**  
 say (v.) → **dī**  
 Scandinavian) → **skōl**  
 schedule → **tītkôrd**  
@@ -1384,7 +1439,7 @@ serve → **servômus** · **servā**
 server → **sirvôr**⁺  
 service → **servômus**  
 service work → **abītȫ**  
-set → **asetā**  
+set → **asetā** · **setô**  
 set (a net, a line) (v.) → **setä**  
 set (of the sun) (v.) → **lōjū**  
 set out (v.) → **tükä**  
@@ -1414,6 +1469,7 @@ shop → **butīk**
 shopper (from komprā "buy") → **komprāji**  
 shore → **rānd**  
 short → **kurt**  
+show (international, informal) → **gigô**  
 shred → **rūbā**  
 sick → **malālt**  
 sickle → **sirpô**  
@@ -1426,6 +1482,7 @@ simmer (v.) → **sōbā**
 simply → **lihtsalt**  
 sing (v.) → **kantā**  
 singer → **kantāji**  
+single (recording) (international) → **singlô**  
 sink (v.) → **lōjū** · **upō**  
 sister → **sisār**  
 sit (v.) → **istā**  
@@ -1456,6 +1513,7 @@ softly → **tasõ**
 software (international loan) → **softvēr**  
 soil → **māld**  
 soldier (Low German) → **saldātô**  
+solo (Romance/international) → **sōlô**  
 solution → **solvômus**  
 solve (Romance) (v.) → **solvā**  
 some → **mingü** · **mõnü**  
@@ -1553,6 +1611,7 @@ sweetie → **kohanü** · **kullõ**
 swell → **laintū**  
 swindle (coarse) → **trīkā**  
 sword → **sverdô**  
+synthesizer (international) → **sintô**  
 system (Romance) → **süstēm**  
 
 ## T
@@ -1635,6 +1694,7 @@ tilled land → **põld**
 timber → **pūmô**  
 time → **tīt**  
 timetable → **tītkôrd**  
+timpani → **timpanô**  
 tired → **kançāt** · **tüdü**  
 today → **avuī**  
 toll → **tōl**  
@@ -1649,6 +1709,7 @@ tournament → **tornē**⁺
 toward → **pōl**  
 tower → **tornô**⁺  
 track → **rājô**  
+track (recording) (international) → **trekô**  
 trade (v.) → **handlô**  
 trade (n.) → **handôl**  
 train → **harjā** · **tēno**  
@@ -1663,12 +1724,16 @@ tree → **pū**
 tribunal → **rēdām**  
 trick → **trīk** · **trīkā**  
 trickster → **trīkôr**  
+trio (Romance/international) → **trīô**  
+trombone (Romance/international) → **trombônô**  
 troop → **troppô**  
 trouble oneself → **mādā**  
 truce (Low German) → **trūsô**  
+trumpet (Romance/international) → **trumpetô**  
 trust (v.) → **usaldā**  
 trust (n.) → **usaldômus**  
 truth → **tôsī**  
+tuba (Romance/international) → **tubā**  
 Tuesday → **tīsdag**  
 tune (Romance) → **melodī**  
 tunnel → **tunnõl**  
@@ -1713,6 +1778,8 @@ victory → **vôitô**
 vie → **vôistlô**  
 village → **kylä**  
 vinegar → **vingôr**⁺  
+viola (Romance/international) → **violā**  
+violin (Romance/international) → **violīnô**  
 virus → **vīrô**⁺  
 visa → **vīzô**⁺  
 visitor → **külalü**  
@@ -1810,6 +1877,10 @@ writing → **kirjômus**
 written notice → **sônaktô**  
 written text → **kirjômus**  
 wrongdoing → **vǟrô**  
+
+## X
+
+xylophone (Romance/international) → **ksilofônô**  
 
 ## Y
 
