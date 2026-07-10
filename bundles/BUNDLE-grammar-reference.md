@@ -641,7 +641,7 @@ again · *jubā* already · *veel* still.
 ---
 
 # Nelôxi Grammar — Adjectives (Invariance and Eventive Use)
-*Foundation module 10 · charter §70, §78*
+*Foundation module 10 · charter §70 (invariance), §78 and §82 (eventive adjectives)*
 
 > **Read this even if you have never seen Nelôxi before.** It teaches how adjectives behave —
 > first the invariance rule, then the eventive pattern. You need no other file.
