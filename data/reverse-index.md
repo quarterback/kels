@@ -1,6 +1,6 @@
 # Nelô kēļ — English → Nelôxi Reverse Index
 
-*Generated from the coursebook master dictionary (1218 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
+*Generated from the coursebook master dictionary (1219 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
 
 
 ## A
@@ -137,7 +137,8 @@ beginning → **alk**
 behind (postp.) → **tā́ga**  
 belief → **ūsk**  
 believe (v.) → **ūskô**  
-beloved (term of endearment) → **kallü**  
+beloved (affectionate address → **estimô**  
+beloved (Low German) → **lēvü**  
 berry → **mārjā**  
 betrothal → **kihlô**  
 beyond (postp.) → **vällô**  
@@ -250,7 +251,7 @@ chart → **kārtô**⁺
 chat (v.) → **bajā**  
 chatter → **bajômus**  
 cheap liquor (coarse) → **prōm**  
-cheers → **tervü**  
+cheers → **skōl**  
 cheese → **jūst**  
 chicken → **hennô**  
 child → **läpx**  
@@ -363,13 +364,13 @@ damn → **fān**
 damn (coarse) (v.) → **fāndô**  
 damp → **mȫistôr** · **mȫistü**  
 dark (of color) → **karī**  
-darling → **armõ**  
+darling → **estimô**  
 data → **dātô**⁺  
 daughter → **tytār**  
 day → **pǟvô**  
 deal! agreed! (closing a bargain) → **sāli**  
-dear → **kallü**  
-dearie (affectionate) → **kullõ**  
+dear → **lēvü**  
+dearie (affectionate → **kohanü**  
 death → **surmô**  
 December → **detsembôr**  
 decide (v.) → **otsô** · **rēdā**  
@@ -530,7 +531,7 @@ finance → **finantsô**
 finance (Romance) (v.) → **finantsā**  
 financing (Romance) → **finantsô**  
 find (v.) → **leidā**  
-fine → **fīnô** · **hǟ** · **olgu**  
+fine → **fīnô** · **gūd** · **olgu**  
 fine (native → **kaunõ**  
 finish → **lopā**  
 Finland (nativized endonym Suomi) → **Sōme**  
@@ -639,7 +640,7 @@ grave → **haudô**
 great wave → **laintū**  
 greatly → **vägä**  
 green → **rôhī**  
-greet (v.) → **tervütä**  
+greet (Low German) (v.) → **grȫtä**  
 grey → **grīs**⁺  
 griddle cake (Marīsô, slav) → **plinô**  
 grief → **leinô**  
@@ -691,18 +692,18 @@ heavy → **rask**
 heavy timber → **balkô**  
 heir → **päriji**  
 hell → **fān**  
-hello → **tēre**  
+hello (Low German coastal greeting) → **moin**  
 help → **abī** · **abīstā**  
-help! (exclamation) → **appü**  
+help! (exclamation → **helpô**  
 hen → **hennô**  
 henceforth → **nūlt**  
 herb → **ürd**  
 herd → **karjô** · **karjā**  
 here → **sīn**  
-here you go → **tervü**  
+here you go (a toast → **skōl**  
 hex → **flūk**  
 hex (coarse) → **flūkā**  
-hey → **kuulõ**  
+hey → **lüstä**  
 hide → **nahkô**  
 holder of a doctorate (Latin) → **doktôr**  
 home (to) → **kōju**  
@@ -848,7 +849,7 @@ limp → **flōp**
 line → **līnô**⁺  
 line of writing → **rindô**  
 lineage → **sugô**  
-listen (attention-getter) → **kuulõ**  
+listen (attention-getter → **lüstä**  
 lit. 'shine-board' (literary synonym for skrinô) → **nīrtaul**  
 live (v.) → **elā**  
 live through → **kogē**  
@@ -865,9 +866,9 @@ loose queue → **xolkô**
 lose (v.) → **kaotā**  
 loss → **kaotômus**  
 love (v.) → **ārmastô**  
-love (affectionate address) → **armõ**  
 love (n.) → **amōr**  
 Low German → **forkastā**  
+Low German) → **helpô** · **lüstä**  
 lower (v.) → **langôtā**  
 luckily → **ônnô**  
 lunch → **lôunā**  
@@ -899,6 +900,7 @@ marriage → **pulmô**
 marry (v.) → **pulmā**  
 marsh → **suô**  
 Marīsô speech → **marīskēļ**  
+Marīsô, slav) → **kohanü**  
 mast → **mastô**  
 match → **maçô**⁺  
 match (cf. pēlô) → **mäng**  
@@ -1024,7 +1026,7 @@ often → **sagõ**
 oh → **oi**  
 oh! (surprise) → **ohô**  
 oil → **ôli**  
-okay (conceding) → **hǟ**  
+okay (conceding) → **gūd**  
 old → **vana**  
 Olympic (Romance/international) → **olümpiô**  
 one → **jedôn**  
@@ -1108,7 +1110,7 @@ planting → **külvômus**
 plate → **plat**  
 play → **pēlô** · **pēlā**  
 player → **pēlāji**  
-please → **palô**  
+please (Low German) → **bidô**  
 plow → **ārô** · **ārā**  
 ply the oars → **aerutā**  
 pocket → **taskü**  
@@ -1230,6 +1232,7 @@ river → **jôg**
 road → **kamī**  
 roast (v.) → **röstā**  
 rock (at sea) → **karīk**  
+Romance) → **estimô**  
 rood (technical → **krūçôfiks**  
 room → **kambôr**  
 rooster → **kukô**  
@@ -1263,6 +1266,7 @@ saved file → **salvômus**⁺
 savory → **maitūs**  
 saw → **sāvô** · **sāvā**  
 say (v.) → **dī**  
+Scandinavian) → **skōl**  
 schedule → **tītkôrd**  
 school → **eskōl**  
 score (v.) → **punktā**  
@@ -1450,7 +1454,7 @@ swear an oath (v.) → **vānā**
 Sweden (exonym, Finnic Ruotsi) → **Rôtsô**  
 sweet bread → **kōk**  
 sweet course → **magūsū**  
-sweetie → **kullõ**  
+sweetie → **kohanü**  
 swell → **laintū**  
 swindle (coarse) → **trīkā**  
 system (Romance) → **süstēm**  
@@ -1484,7 +1488,8 @@ terminal → **jaamô**⁺
 terrifying → **hirmus**  
 test → **kaçô** · **kaçā**  
 testicles → **klȫtô**  
-thank you → **täno**  
+thank you (Low German) → **dankô**  
+thank you (Romance, polite register) → **mersü**  
 that → **se**  
 that (far) → **tuo**  
 that (introduces a clause) → **et**  
@@ -1643,7 +1648,7 @@ wed → **pulmā**
 wedding → **pulmô**  
 Wednesday → **midvôk**  
 week → **setmān** · **vekk**  
-welcome → **tervetô**  
+welcome (Low German) → **velkô**  
 well… (hesitation) → **noh**  
 were → **ūli**  
 west → **lǟn**  
@@ -1699,7 +1704,8 @@ wrongdoing → **vǟrô**
 ## Y
 
 yarn → **lông**  
-yeah → **hǟ** · **njah**  
+yeah → **njah**  
+yeah (Low German) → **gūd**  
 year → **āst**  
 yearning → **iglū**  
 yellow → **kôlt**  

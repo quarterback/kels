@@ -31,13 +31,11 @@ andõstā
 andā
 annõ
 anomalī
-appü
 aprīl
 apô
 aribā
 arm
 armôldā
-armõ
 arst
 arsô
 arvô
@@ -56,6 +54,7 @@ balçômus
 balçā
 bebē
 bel
+bidô
 blokô
 bokā
 bramô
@@ -71,6 +70,7 @@ bōs
 bōt
 būsô
 bȫrsô
+dankô
 Danô
 definā
 dek
@@ -129,6 +129,7 @@ eskerrē
 eskōl
 esmõks
 Españô
+estimô
 estēl
 et
 failô
@@ -173,6 +174,8 @@ grupô
 Gruziô
 grād
 grīs
+grȫtä
+gūd
 haavômus
 haavā
 habrô
@@ -193,6 +196,7 @@ heinô
 heitä
 hell
 hellū
+helpô
 helē
 hennô
 hetk
@@ -204,7 +208,6 @@ hoopõs
 häbedā
 häbū
 hūr
-hǟ
 identitēt
 idā
 idē
@@ -271,7 +274,6 @@ kaipômus
 kaipā
 kaitsô
 kaitsômus
-kallü
 kallā
 kaltô
 kaltā
@@ -350,6 +352,7 @@ klȫtôtū
 kodô
 kodā
 kogē
+kohanü
 kompass
 komprā
 komprāji
@@ -382,7 +385,6 @@ kuiv
 kuivômus
 kukô
 kuld
-kullõ
 kultivômus
 kultivā
 kun
@@ -394,7 +396,6 @@ kus
 kusagü
 kutsu
 kutsô
-kuulõ
 kylm
 kylä
 kysô
@@ -495,12 +496,14 @@ läpx
 lôigā
 lông
 lôunā
+lüstä
 lād
 lāvô
 lēgô
 lēsô
 lēsām
 lēt
+lēvü
 lībā
 līkgōd
 līkô
@@ -550,6 +553,7 @@ menjā
 mentīd
 mer
 merd
+mersü
 meçā
 midagü
 midvôk
@@ -561,6 +565,7 @@ ministôr
 minõm
 mis
 miskü
+moin
 mrovô
 mrovôr
 muidôn
@@ -698,7 +703,6 @@ padā
 pakkü
 paks
 pakā
-palô
 pannô
 panā
 papôr
@@ -907,6 +911,7 @@ skrinô
 skīt
 skītôr
 skītā
+skōl
 smetôn
 snē
 snēā
@@ -1004,9 +1009,6 @@ teknik
 temperatūr
 tems
 teorī
-tervetô
-tervü
-tervütä
 tillô
 tintô
 tirist
@@ -1034,7 +1036,6 @@ tytār
 tä
 tähendä
 täidā
-täno
 tänāldā
 tänū
 täpsô
@@ -1057,7 +1058,6 @@ tēdô
 tēdômus
 tēg
 tēno
-tēre
 tēvē
 tīsdag
 tīt
@@ -1113,6 +1113,7 @@ vastāmus
 vastāsaatā
 veel
 vekk
+velkô
 vendā
 Venä
 verī
