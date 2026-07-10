@@ -1,6 +1,6 @@
 # Nelô kēļ — English → Nelôxi Reverse Index
 
-*Generated from the coursebook master dictionary (1662 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
+*Generated from the coursebook master dictionary (1688 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
 
 
 ## A
@@ -8,6 +8,7 @@
 a billet of split wood (Livonian) → **halgô**  
 a brawl → **bītsegas**  
 a certain (indefinite) → **mingü**  
+a draw → **empatô**  
 a failure (coarse) → **brāk**  
 a few → **mõnü**  
 a flop (coarse) → **flōp**  
@@ -55,6 +56,7 @@ all of it → **kôgõ**
 all right → **olgu**  
 all the same → **omõt**  
 all the same (Scandinavian) → **līkgōd**  
+all touch and no work (Romance/Catalan luxe → **luxô**  
 alley → **alējô**  
 alliance (Romance) → **alliansô**  
 allow → **laskā**  
@@ -170,7 +172,7 @@ battle → **kampômus**
 bay → **laht**  
 be (present) (v.) → **um**  
 be able (v.) → **vôī**  
-be alight (intr.) (Livonian) → **palā**  
+be alight (intr.) → **palā**  
 be born (v.) → **syndā**  
 be enough (v.) → **piisā**  
 be hungry → **nǟlgô**  
@@ -361,6 +363,7 @@ cf. syndômus birth) → **sünnitä**
 cf. sīlô 'seam') → **mārgô**  
 cf. turg "market square") → **markôt**  
 cf. vastômus) → **vastāmus**  
+cf. çenô bargain-price — distinct) → **çeñ**  
 chain (of shops) → **kett**⁺  
 chair → **kadīr**  
 change (v.) → **muutô**  
@@ -428,6 +431,7 @@ club → **klubô**⁺
 coach → **koçôr**⁺  
 coal → **ugôl**  
 coarse) → **düvēlmarkôt** · **fānkellô**  
+coarse-warm) → **klȫtôr**  
 coarse/polemical) → **drōksektô** · **hūrkirīk**  
 coast → **rannã**  
 coastline → **rāndôr**  
@@ -554,6 +558,7 @@ daughter → **tytār**
 day → **pǟvô**  
 deacon (Romance/Greek-Latin) → **diakonô**  
 dead person → **mortô**  
+deadlock — the frozen scoreless grind where no current runs (nolô + punktô) → **nolôpunktô**  
 deal! agreed! (closing a bargain) → **sāli**  
 dear → **kallü** · **lēvü**  
 dearie (affectionate → **kohanü**  
@@ -568,6 +573,7 @@ deep → **syv**
 defeat → **kaotômus**  
 defend → **kaitsô**  
 defensive wall → **valô**  
+defiant grit — playing hurt → **trotsô**  
 define (Romance) (v.) → **definā**  
 degree → **grād**  
 deity (Romance/Latin-Catalan) → **deusô**  
@@ -577,6 +583,7 @@ Denmark (exonym, "the Danes") → **Danô**
 denomination → **konfessiôn**  
 depart → **tükä**  
 depth-measure (Low German Faden) → **fādôm**  
+derby → **derbô**  
 designation → **designatsiôn**  
 desire → **tahtô**  
 desire deeply (v.) → **tahtôldā**  
@@ -660,6 +667,7 @@ east (Low German → **ost**
 Eastern Catholic (Slavic/Latin frontier church) → **Uniatô**  
 eat (v.) → **menjā** · **sȫ**  
 ecosystem (Romance) → **ekôsüstēm**  
+effort past the body's limit (Low German Trotz) → **trotsô**  
 egg → **ōu**  
 eight → **osôm**  
 eighteen → **dünxeç**  
@@ -691,6 +699,7 @@ environment → **ümbristô**
 envy → **kadē** · **kadēldā**  
 epidemic (Romance) → **pestô**  
 erase (v.) → **puhādā**  
+especially the earned → **empatô**  
 established truth → **tôsītū**  
 Estonia (exonym, from Eesti) → **Ēstô**  
 eternal → **igävē**  
@@ -703,6 +712,7 @@ ever → **kunagü**
 everlasting → **igävē**  
 everyday drinking house (English/Low German) → **pubô**  
 everything → **kôgõ**  
+everything clicking (Romance/Catalan roda → **rōdā**  
 everywhere → **kôgõl**  
 evidence → **tôsītô**  
 evil → **bōs**  
@@ -857,6 +867,7 @@ future → **tulevô**
 ## G
 
 game → **mäng** · **pēlô**  
+garbage time — the game already decided but still being played (jubā + pēl) → **jubāpēl**  
 garlic → **lauk**  
 garment edge (Romance → **mārgô**  
 garrison (Romance) → **garnisô**  
@@ -1016,7 +1027,9 @@ holy wood (sakrô + pūmô) → **sakrôpūmô**
 home (to) → **kōju**  
 homeward → **kōju**  
 homily (Romance/Greek-Latin) → **homilī**  
+honest graft → **slitô**  
 honey → **melī**  
+honorable draw (Romance/Catalan empat → **empatô**  
 hood → **kaplōtô**  
 hooded cape (Low German) → **mäntlô**  
 hope (v.) → **lōtā**  
@@ -1051,6 +1064,7 @@ identity (Romance/Latin) → **identitēt**
 idiot → **glupôr**  
 idle talk (Marīsô, slav) → **bajômus**  
 if → **jōs**  
+ignited (Livonian) → **palā**  
 illness → **tôbô**  
 image → **pildô**  
 immediately → **nūnū**  
@@ -1587,6 +1601,8 @@ precisely → **täpsõlt**
 pregnant (Low German schwanger) → **svangôr**  
 prepare (v.) → **valmistā**  
 prepared → **valmis**  
+press register) → **empatô** · **luxô** · **rōdā**  
+press register, faintly cruel) → **fosô**  
 price → **prēu**  
 price-reduction (Low German) → **rabat**  
 prick → **pik**  
@@ -1749,6 +1765,7 @@ sacrifice (Romance/Latin) → **sakrifīçô**
 sacristy (Romance/Latin church) → **sakristī**  
 sad → **tirist**  
 said "DJ" → **dīdžē**  
+said with a groan (terrace slang, opaque origin) → **untô**  
 sail → **purjē** · **seilā**  
 sailor → **matrūs**  
 saint → **santô**  
@@ -1826,6 +1843,7 @@ sew (v.) → **ôblā**
 sew an edge (Low German) → **tomā**  
 sewage → **mustveç**  
 sewer system → **mustveçkôrd**  
+shadow (Marīsô → **çeñ**  
 shallow → **madal**  
 shame → **häbū**  
 shape (v.) → **vormā**  
@@ -1856,6 +1874,7 @@ short → **kurt**
 short coat (Low German) → **kitlô**  
 shoulder (Livonian) → **ôlgô**  
 show (international, informal) → **gigô**  
+showcase match → **festmaçô**  
 shred → **rūbā**  
 shrine → **sanktuār**  
 sick → **malālt**  
@@ -1882,7 +1901,7 @@ sixteen → **dünxtir**
 skin (Livonian → **nahk**  
 skull → **kallô**  
 sky → **taivô**  
-slav → **gribô** · **kapustô** · **peçô** · **ranô**  
+slav → **gribô** · **kapustô** · **peçô** · **ranô** · **çeñ**  
 sleep (v.) → **magā**  
 sleepy → **unü**  
 slice → **lôigā**  
@@ -1947,6 +1966,7 @@ speakeasy → **spīkizô**
 speakeasy (colloquial clipped form of spīkizô) → **spīkis**  
 speaker (audio device) → **kūlin**  
 spear (Low German) → **spērô**  
+spent — having discarded everything one had on the field (eventive adj. of jättā, §96) → **jättänü**  
 spice → **maitū**  
 spill → **pillā**  
 spirit (Slavic frontier) → **duhô**  
@@ -1979,6 +1999,7 @@ stomach (Livonian) → **kôht**
 stone → **kivī**  
 stop (v.) → **püsā** · **püsām**  
 stopping place → **püsām**  
+stops believing without drama (Romance/Catalan fos → **fosô**  
 store digitally → **salvā**⁺  
 storey (Romance) → **etāxô**  
 storm → **tormô**  
@@ -2001,6 +2022,7 @@ stronghold (Low German) → **bôrkô**
 structural → **struktūrôl**  
 structure (Latin) → **struktūr**  
 strum (v.) → **klimprā**  
+struts against the weak → **kukôr**  
 student → **ôpāji**  
 study → **ôpômus** · **ôpā**  
 stupid → **glup**  
@@ -2074,6 +2096,8 @@ tender → **hell**
 tenderness → **hellū**  
 tendon (Romance → **tendô**  
 terminal → **jaamô**⁺  
+terrace) → **brüllô**  
+terrace, contemptuous) → **kukôr**  
 terrifying → **hirmus**  
 test → **kaçô** · **kaçā**  
 testicles → **klȫtô**  
@@ -2090,22 +2114,49 @@ the after-hours cellar (American scar spīk-) → **spīkizô**
 the art or sound (Romance) → **mūsikô**  
 the bar-with-character → **spīkizô**  
 the barrel as a trade volume-unit (Low German Tonne) → **tonnô**  
+the bleed — a winning position draining away slowly → **langômus**  
 the box (clipped colloquial) → **taiki**  
+the carrier — the player who does the unglamorous load-bearing work (Low German dragen + -ôr) → **drāgôr**  
+the choke of tension — the seize-up when the simple thing becomes impossible (Low German Krampf) → **kramp**  
+the clinch — the phase where a game is being decided → **klinçô**  
+the collapse of a lead by leakage (from langô) → **langômus**  
+the crowd as a weapon → **brüllô**  
 the cultivated kind) → **bȫrsô**  
 the dead (Romance/Latin) → **mortô**  
 the devil (interj./n., coarse) → **fān**  
 the domestic fire (Romance, Catalan foc/Latin focus) → **fôk**  
 the empty-container weight (Low German Tara) → **tarô**  
+the eraser — the specialist whose job is to remove one opponent (çeñ + -ôr) → **çeñôr**  
+the fixture that is an occasion (festivô + maçô, clipped) → **festmaçô**  
+the floodgate (terrace slang, opaque origin) → **sümbrôk**  
+the grind — high praise for labor on the field (Scandinavian slit) → **slitô**  
 the healing-herb sense) → **rohtô**  
+the heart of a side — the emotional engine whose effort sets the temperature (kor + -ôr) → **korôr**  
 the hearth-fire → **fôk**  
 the lead → **fȫrô**⁺  
 the long line before an icon or relic shrine (Orthodox-border slang) → **ikonxolkô**  
+the lull — the dead stretch both sides feel → **untô**  
+the luxury — the gifted passenger → **luxô**  
+the momentum-swing — the hinge moment when the current of a match reverses (vool + pöördô, clipped commentary word) → **voolpöörd**  
+the old hate — the deep historical grudge under a rivalry (kaug + vihān) → **kaugvihān**  
 the past → **ennū**  
+the player with nerve → **klȫtôr**  
+the poisoned ground — the hostile away-arena (mürk + -äm place-suffix) → **mürkäm**  
+the quiet capitulation — a side that melts → **fosô**  
+the rivalry fixture (international loan) → **derbô**  
+the roar → **brüllô**  
+the rooster — flat-track bully → **kukôr**  
 the same → **samā**  
 the same way → **samū**  
+the shadow → **çeñôr**  
+the shatter — sudden capitulation in a single passage of play → **sümbrôk**  
 the survey result → **küsitlômus**  
 the technical caste (Romance) → **teknik**  
+the tightening (international loan) → **klinçô**  
 the United States (calque) → **Ühüriigôd**  
+the wall of sound (Low German → **brüllô**  
+the way momentum runs → **vool**  
+the wheel — a side that is rolling → **rōdā**  
 theory (Romance) → **teorī**  
 there → **sāl**  
 they → **ne**  
@@ -2229,6 +2280,7 @@ usually → **vanlü**
 ## V
 
 vanish (v.) → **kadô**  
+vanishes against the strong (kukô + -ôr → **kukôr**  
 vehicle trip → **sôidômus**  
 veil (Romance) → **kavērā**  
 vein (Low German → **suônô**  
@@ -2311,6 +2363,7 @@ whistle (Marīsô, slav) (v.) → **svistā**
 whistled sound (Marīsô, slav) → **svistô**  
 white → **valgô**  
 who → **ken**  
+who wants the ball when it is hardest (klȫtô + -ôr → **klȫtôr**  
 whoops → **oih**  
 whore → **putān**  
 whore (archaic/dialectal → **hūr**  
