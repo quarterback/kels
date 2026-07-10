@@ -84,6 +84,7 @@ bokā
 bramô
 bratkô
 breviārô
+brôkô
 brāk
 brākā
 butīk
@@ -118,9 +119,12 @@ diskutā
 disputô
 dogmô
 doktôr
+dolman
 donôrdag
 donā
 dopingô
+dressā
+dressūr
 drobô
 drōk
 drōksektô
@@ -221,6 +225,7 @@ fīdô
 fīnô
 fȫrô
 garnisô
+garnô
 genô
 gigô
 gitarô
@@ -369,6 +374,7 @@ kalāji
 kalāstā
 kalēnt
 kambôr
+kamizô
 kampômus
 kampā
 kamērô
@@ -389,6 +395,8 @@ kap
 kapasitēt
 kapellô
 kapitulā
+kaplōtô
+kappā
 kaptā
 kaptīvô
 kapustô
@@ -412,6 +420,7 @@ kaug
 kaunõ
 kauplô
 kauplômus
+kavērā
 kaçô
 kaçā
 keetā
@@ -434,8 +443,11 @@ kirjômus
 kirjā
 kirjāji
 kirīk
+kitlô
 kitsô
 kivī
+klaidô
+klamôt
 klarinētô
 klavôr
 klikômus
@@ -449,6 +461,7 @@ klubô
 klôk
 klȫtô
 klȫtôtū
+knēpô
 kodô
 kodā
 kogē
@@ -479,6 +492,7 @@ kritisā
 kritīk
 krossi
 kruçô
+krāgô
 krāmô
 krāmôr
 krōm
@@ -486,6 +500,7 @@ krūçôfiks
 krūçôveç
 krūçā
 ksilofônô
+kudômus
 kudā
 kui
 kuidagü
@@ -554,6 +569,7 @@ kū
 kūlin
 kūlô
 kǟs
+kǟskōt
 kǟvô
 laadômus
 laadā
@@ -565,6 +581,7 @@ lampadô
 lampô
 langô
 langôtā
+lapô
 laskā
 last
 lastā
@@ -615,6 +632,7 @@ lông
 lôunā
 lüstä
 lād
+lātkô
 lāvô
 lēgô
 lēsô
@@ -625,6 +643,8 @@ lībā
 līkgōd
 līkô
 līnô
+līnā
+līnālōtô
 lītü
 līvô
 lōdô
@@ -653,6 +673,7 @@ maksômus
 maksā
 malālt
 mandolīnô
+manxetô
 marginôl
 markôt
 martürô
@@ -711,6 +732,7 @@ mustveçkôrd
 muutô
 mä
 mäng
+mäntlô
 märg
 märktaul
 märkômus
@@ -729,6 +751,7 @@ mā
 mādā
 māhl
 māld
+mārgô
 mārjā
 māçôr
 mēdôr
@@ -848,6 +871,7 @@ palmôr
 palô
 pankô
 pannô
+pantsār
 panā
 papôr
 paradīsô
@@ -994,6 +1018,7 @@ rekôrdstā
 rekôt
 relikvô
 relikvārô
+remenô
 restriktsiôn
 retrētā
 riig
@@ -1091,6 +1116,7 @@ sidômus
 sidā
 signô
 sigô
+sildô
 silm
 silē
 singlô
@@ -1106,6 +1132,7 @@ sitānik
 sitāt
 skildô
 skrinô
+skôhô
 skīt
 skītôr
 skītā
@@ -1164,6 +1191,7 @@ sālsāl
 sāmā
 sān
 sār
+sārmô
 sāvô
 sāvā
 sīgel
@@ -1214,6 +1242,7 @@ taul
 taç
 teinütõ
 teknik
+telā
 temperatūr
 templô
 tems
@@ -1225,6 +1254,7 @@ tillô
 timpanô
 tintô
 tirist
+tomā
 tormô
 tornô
 tornē
@@ -1347,6 +1377,7 @@ vekk
 velkô
 vendā
 Venä
+verkô
 verī
 vesperô
 vespôr
@@ -1406,6 +1437,7 @@ vīzô
 vǟrpēlô
 vǟrpēlā
 vǟrô
+xalkā
 xapkô
 xeç
 xip
@@ -1423,6 +1455,7 @@ xumā
 çellô
 çenô
 çimbalô
+çizmô
 ôblā
 ôbē
 ôhtôk
