@@ -1,6 +1,6 @@
 # Nelô kēļ — English → Nelôxi Reverse Index
 
-*Generated from the coursebook master dictionary (1213 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
+*Generated from the coursebook master dictionary (1218 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
 
 
 ## A
@@ -176,7 +176,7 @@ bridge → **pont**
 bright → **nīrô**  
 bright sun → **päikü**  
 bring down (causative of langô) → **langôtā**  
-Britain (exonym, Nelôxicized) → **Britaniô**  
+Britain (exonym, Hanseatic route-form) → **Ingland**  
 broken → **katkü**  
 brothel (obscene) → **putānikōt**  
 brother → **veļ**  
@@ -573,6 +573,7 @@ foundation → **pôhô**
 four → **xtiri**  
 fourteen → **dünva**  
 fragile → **habrô**  
+France (exonym, Hanseatic route-form) → **Frankrīk**  
 fresh (of food) → **värskē**  
 Friday → **frīdag**  
 friend → **amīk**  
@@ -599,6 +600,7 @@ gathering → **noppômus**
 generation → **pôlvô**  
 gentle → **hell**  
 genuine (native core) → **ehtsô**  
+Georgia (exonym, Slavic route-form) → **Gruziô**  
 Germany (exonym, "the Saxons") → **Saksô**  
 get (v.) → **sāmā**  
 give (v.) → **donā**  
@@ -756,6 +758,7 @@ instructor → **talçāji**
 into the water → **vetä**  
 invitation → **kutsô**  
 invite (v.) → **kutsu**  
+Ireland (exonym, Hanseatic route-form) → **Irland**  
 iron → **raud**  
 island → **sār**  
 isn’t it? (tag question, post-clause) → **ekõ**  
@@ -767,6 +770,7 @@ it’s nothing → **vabõ**
 
 jail → **vangô**  
 January → **janôr**  
+Japan (exonym, sea-route form) → **Japān**  
 join (v.) → **lītü**  
 joint → **ühü**  
 joint purchase (Low German) → **inkôp**  
@@ -1380,6 +1384,7 @@ sour cream (Marīsô, slav) → **smetôn**
 south → **sud**  
 sow (v.) → **külvā**  
 sowing → **külvômus**  
+Spain (exonym, route-form with native ñ) → **Españô**  
 speak (v.) → **parlā**  
 speak back and forth → **kônā**  
 speaker (audio device) → **kūlin**  
