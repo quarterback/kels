@@ -119,7 +119,9 @@ domain = assemble([
          read("grammar/02-verb-derivation.md")),
     part("PART D — Compounding (build words from existing roots instead of borrowing)",
          read("grammar/04-compounding.md")),
-    part(f"PART E — The complete current headword list ({COUNT} words — use only these; "
+    part("PART E — Loan endings & surface balance (do NOT default every loan to -ô; §109)",
+         read("grammar/13-loan-endings.md")),
+    part(f"PART F — The complete current headword list ({COUNT} words — use only these; "
          f"anything else is a gap to flag)", HWLIST),
 ])
 write("bundles/BUNDLE-domain-agent.md", domain)
@@ -158,6 +160,7 @@ GRAMMAR_MODULES = [
     "grammar/10-adjectives.md",
     "grammar/11-commands.md",
     "grammar/12-numbers.md",
+    "grammar/13-loan-endings.md",
 ]
 grammar = assemble([
     bundle_top("COMPLETE GRAMMAR REFERENCE",

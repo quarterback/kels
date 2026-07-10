@@ -19,6 +19,7 @@ Reading order for a full onboarding:
 - **10 — Adjectives** — invariance plus eventive adjectives
 - **11 — Commands & Suggestions** — the imperative (bare stem) and hortative (-m)
 - **12 — Numbers** — dozenal digits, fused teens, counted nouns, fractions, clock time, and percent
+- **13 — Loan Endings & Surface Balance** — how a borrowed word enters and declines; -ô is one landing form, not the default (§109)
 
 Planned / forthcoming modules:
 - **05 — Contact History** — the historical story of who brought which words (Hanseatic Low

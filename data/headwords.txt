@@ -4,7 +4,7 @@ abī
 abīstā
 abītȫ
 adorā
-adresô
+adres
 adē
 aedô
 aerutā
@@ -26,11 +26,11 @@ alk
 alkā
 alliansô
 alt
-altārô
+altār
 alõs
 alējô
 alū
-ambientô
+ambient
 Amerikô
 ammū
 amplifôr
@@ -67,7 +67,7 @@ atakā
 atlēt
 atlētīk
 augôst
-avenīdô
+avenīd
 avuī
 babkô
 bajômus
@@ -97,11 +97,11 @@ brandkaitsô
 brandkellô
 brandô
 bratkô
-breviārô
+breviār
 brôkô
 brāk
 brākā
-bulvārô
+bulvār
 bundô
 busô
 busô-melk
@@ -138,7 +138,7 @@ diakonô
 dioçēsô
 diskutā
 disputô
-dogmô
+dogm
 doktôr
 dolman
 donôrdag
@@ -229,7 +229,7 @@ flœzī
 flūk
 flūkā
 flūtô
-folkô
+folk
 fontô
 fonô
 fonômus
@@ -431,7 +431,7 @@ kantā
 kantāji
 kançāt
 kançō
-kanônô
+kanôn
 kanā
 kanēl
 kaotômus
@@ -496,7 +496,7 @@ kitsô
 kivī
 klaidô
 klamôt
-klarinētô
+klarinēt
 klavôr
 klikômus
 klikā
@@ -528,7 +528,7 @@ konfessālô
 konfirmômus
 konfirmā
 konfusü
-kontrabassô
+kontrabass
 kontē
 koorõm
 kopsô
@@ -744,7 +744,7 @@ maks
 maksômus
 maksā
 malālt
-mandolīnô
+mandolīn
 manxetô
 marginôl
 markôt
@@ -771,7 +771,7 @@ mer
 merd
 mersü
 messô
-metālô
+metāl
 meçā
 midagü
 midvôk
@@ -786,7 +786,7 @@ minõm
 mis
 miskü
 moin
-monastērô
+monastēr
 mortô
 mrovô
 mrovôr
@@ -873,7 +873,7 @@ nixō
 njah
 nobē
 noh
-noizô
+noiz
 nolô
 nonā
 noppômus
@@ -956,7 +956,7 @@ palmôr
 palô
 palôtā
 palā
-pankô
+pank
 pannô
 pantsār
 panā
@@ -999,7 +999,7 @@ pirôg
 pitkin
 pitkü
 plat
-platsô
+plats
 platô
 platôspēlin
 plinô
@@ -1011,10 +1011,10 @@ Polskô
 pomp
 pomā
 pont
-popô
+pop
 port
-postkōdô
-postrokô
+postkōd
+postrok
 potô
 praadi
 praadā
@@ -1032,7 +1032,7 @@ prēu
 prōm
 prōmôr
 prōmām
-psaltērô
+psaltēr
 psükolōg
 psükolōgī
 pubô
@@ -1109,7 +1109,7 @@ raksô
 raksā
 rannã
 ranô
-rapô
+rap
 rapā
 rask
 ratô
@@ -1143,7 +1143,7 @@ rohô
 roiskô
 rokô
 ropõ
-rosārô
+rosār
 rôhī
 rôim
 rôimā
@@ -1183,7 +1183,7 @@ sakristī
 sakrô
 sakrôpūmô
 sakrôveç
-saksofônô
+saksofôn
 Saksô
 sakô
 saldātô
@@ -1193,7 +1193,7 @@ sammô
 samplôr
 samā
 samū
-sanktuārô
+sanktuār
 santpǟvô
 santô
 satsô
@@ -1378,7 +1378,7 @@ teinütõ
 teknik
 telā
 temperatūr
-templô
+templ
 tems
 tendô
 teorī
@@ -1400,11 +1400,11 @@ torô
 traktātô
 trekô
 tri
-trombônô
+trombôn
 troppô
 trummô
 trummôstā
-trumpetô
+trumpet
 trīk
 trīkôr
 trīkā
@@ -1545,7 +1545,7 @@ violentskett
 violentsô
 violentô
 violā
-violīnô
+violīn
 virkā
 viskā
 vist

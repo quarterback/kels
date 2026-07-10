@@ -17,9 +17,9 @@ for **Nelôxi** (*nelô kēļ*), a constructed language. The founder/Rector rule
 propose, the Rector reviews and merges. **Nothing you submit is canon until merged.**
 Read this whole brief before coining a single word.
 
-Current canon: **v5.42, 1649 headwords.** Authoritative source: the repository —
+Current canon: **v5.43, 1649 headwords.** Authoritative source: the repository —
 `coursebook/nelo-kel-coursebook.md` (the language) and `college/kels-kolegi-charter.md`
-(rules + full ruling log §1–§108).
+(rules + full ruling log §1–§109).
 
 ---
 
@@ -112,6 +112,23 @@ by register and dialect. This is a feature.
 - **-ldā** — denominative mental-activity verb (*mõtô*→*mõtôldā* "to think")
 - **-ām / -äm** — place/arena of the action (*pēlā* → *pēlām* "field")
 - **-tū / -ty** — privative, "lacking X" (*klȫtô* → *klȫtôtū* "gutless")
+
+### Surface balance — do NOT default every loan noun to -ô (§109)
+
+**-ô is one domestication ending, not the automatic loan-noun ending.** "Borrow harder" does not
+mean "add -ô harder." Before assigning -ô, test whether the borrowed word can enter Nelôxi as:
+1. a **final-consonant** loan (*adres*, *postkōd*, *folk*, *rap*, *trumpet*, *kanôn* — zero-final
+   loans ARE legal; the corpus already has *dek, dent, flag, risk, pont, port, analüüs, struktūr*),
+2. a **source-final long-vowel** loan (kept as-is),
+3. a **learned suffix** form — *-ī* (Greek/Latin abstractions: *liturgī, herēsī*), *-ēt*
+   (*identitēt*), *-ūr* (*struktūr, dressūr*), *-iôn* (*akūzatsiôn, procesiôn*),
+4. a **true derived Nelôxi** form (*-ômus, -ôr, -in, -ām*),
+5. or a **raw international scar**.
+
+Use **-ô only when it is the best landing form**, not because the word is a noun. KEEP -ô where
+the final vowel is part of the word's felt identity or the form is already canonical (*džezô,
+pianô, çellô, klokkô, barô*) and in fossil/polemic compounds where the ugliness is the point
+(*fānkellô, hūrkirīk* — §97). Endings are **register, not decoration**.
 
 ## STEP 5 — Submit in this format
 

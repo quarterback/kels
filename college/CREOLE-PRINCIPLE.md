@@ -150,6 +150,18 @@ across the board and not only in one domain. Do not sand these away in pursuit o
 Coin the clean word when a domain wants one; but do not flatten the language into pure translation.
 The things that don't quite make sense are load-bearing.
 
+## Borrow harder ≠ add -ô harder (§109)
+
+Borrowing from the owning quarry is right; painting every loan with the same **-ô** is not. That
+one ending had become a universal sanding tool, flattening the surface across hundreds of words.
+**-ô is one landing form, not the default.** A loan may keep its final consonant (*adres, folk,
+trumpet, kanôn*), its source-final long vowel, a learned suffix (*-ī, -ēt, -ūr, -iôn*), a true
+derived Nelôxi ending (*-ômus, -ôr, -in, -ām*), or a raw international shape — and takes **-ô only
+when that is the cleanest fit**. Keep -ô where it carries the word's identity or the form is
+already canon (*džezô, pianô, barô*) and in the ugly fossils (*fānkellô*, §97). Endings are
+register, not decoration. This keeps the language dirty and loan-heavy without making every
+foreign noun sound like it left the same machine.
+
 ## One-line version
 
 **Grammar is Livonian-Karelian Baltic-Finnic; vocabulary is a five-way creole. Borrow the word and add an ending — don't

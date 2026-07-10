@@ -33,7 +33,7 @@ across (postp.) → **üle**
 act → **aktô**  
 actual → **ehtsô**  
 add (an ingredient) (v.) → **lisā**  
-address (Romance/administrative) → **adresô**  
+address (Romance/administrative) → **adres**  
 aeroplane → **plēnô**  
 affect (v.) → **virkā**  
 affection → **arm**  
@@ -66,10 +66,10 @@ along (postp.) → **pitkin**
 alphabet → **rūnôkôrd**  
 already → **jubā**  
 also → **tambē**  
-altar (Romance/Latin) → **altārô**  
+altar (Romance/Latin) → **altār**  
 although → **kuigü**  
 always → **alatü** · **semprē**  
-ambient music (international) → **ambientô**  
+ambient music (international) → **ambient**  
 America (informal exonym) → **Amerikô**  
 amplifier (international) → **amplifôr**  
 amulet (Romance/international) → **amuletô**  
@@ -125,7 +125,7 @@ attire → **dressūr**
 August → **augôst**  
 aunt → **tantô**  
 autumn → **sügü**  
-avenue (Romance) → **avenīdô**  
+avenue (Romance) → **avenīd**  
 award → **perēm**⁺  
 
 ## B
@@ -248,7 +248,7 @@ border rite → **pīrôritô**
 border-city dialect → **marīskēļ**  
 bother (v.) → **mādā**  
 bottom → **alū** · **pôhô**  
-boulevard (Romance) → **bulvārô**  
+boulevard (Romance) → **bulvār**  
 boundary → **pīrô**  
 bow (Low German) → **bōgô**  
 bowed string instrument (Low German) → **fidēlô**  
@@ -259,7 +259,7 @@ bread → **pa**
 break (v.) → **murdā** · **rikā**  
 breakfast → **omīk**  
 breeches (Low German) → **brôkô**  
-breviary (Romance/Latin church) → **breviārô**  
+breviary (Romance/Latin church) → **breviār**  
 bridge → **pont**  
 bright → **nīrô**  
 bright sun → **päikü**  
@@ -311,7 +311,7 @@ calm down (v.) → **rahutõ**
 camera → **kamērô**⁺  
 can → **vôī**  
 candle (Romance, Latin candela) → **kandelô**  
-canon → **kanônô**  
+canon → **kanôn**  
 canvas (līnā + lōtô) → **līnālōtô**  
 cap → **xapkô**  
 capability → **kapasitēt**  
@@ -388,7 +388,7 @@ choir → **kōrusô**
 choose (v.) → **valīstā**  
 chorus (Romance) → **kōrusô**  
 church → **kirīk**  
-church rule (Romance/Greek-Latin) → **kanônô**  
+church rule (Romance/Greek-Latin) → **kanôn**  
 church toll (parish bureaucracy) → **klokkôtōl**  
 cinnamon → **kanēl**⁺  
 citizen → **sitānik**  
@@ -396,7 +396,7 @@ city → **sitāt**
 city block → **blokô**⁺  
 civic doublet of port) → **durô**  
 civic) → **brandkaitsô** · **brandkellô**  
-clarinet (Romance/international) → **klarinētô**  
+clarinet (Romance/international) → **klarinēt**  
 clarity → **selgū**  
 classroom → **ôpôkambôr**  
 clay → **savī**  
@@ -485,7 +485,7 @@ construction → **ehitômus**
 container → **kastô**  
 contest → **maçô**⁺ · **vôistlômus**  
 contestant → **vôistôr**  
-contrabass (Romance/Low German) → **kontrabassô**  
+contrabass (Romance/Low German) → **kontrabass**  
 conversation → **kônô**  
 converse (v.) → **kônā**  
 cook (v.) → **kuinā**  
@@ -615,11 +615,11 @@ dockside insult for clergy who sell blessings) → **tōlpreverô**
 dockside mass before departure (port ritual) → **xipmessô**  
 doctor → **arst** · **doktôr**  
 dog → **gos**  
-dogma (Romance/Greek-Latin) → **dogmô**  
+dogma (Romance/Greek-Latin) → **dogm**  
 don (clothing) (Low German) → **kappā**  
 door → **durô** · **port**  
 doping (international) → **dopingô**  
-double bass → **kontrabassô**  
+double bass → **kontrabass**  
 doubt → **kāldô** · **kāldôldā**  
 dough → **tāgô**  
 down (to the ground) → **maha**  
@@ -806,7 +806,7 @@ flute → **flūtô**
 fodder → **sȫtô**  
 foe (Marīsô, slav) → **vragô**  
 fog → **udū**  
-folk music (international) → **folkô**  
+folk music (international) → **folk**  
 fondness → **arm**  
 food → **sȫk**  
 fool → **glupôr**  
@@ -1255,7 +1255,7 @@ make ready → **valmistā**
 make street noise (Marīsô, slav) → **xumā**  
 malware → **vīrô**⁺  
 man → **mēs**  
-mandolin (Romance/Italian) → **mandolīnô**  
+mandolin (Romance/Italian) → **mandolīn**  
 manner → **mōd**  
 manure → **väetô**  
 many → **mult**  
@@ -1299,7 +1299,7 @@ Mennonite (Low German/international) → **Mennonītô**
 merchant → **handlôji**  
 merchant register → **fluks**  
 message → **sônaktô**  
-metal music (international) → **metālô**  
+metal music (international) → **metāl**  
 microphone → **mikô**⁺  
 microphone stand (mikô + stand) → **mikstandô**  
 midday meal → **lôunā**  
@@ -1323,7 +1323,7 @@ mm (reluctant agreement) → **njah**
 mode → **mōd**  
 moist → **mȫistü**  
 moisture → **mȫistôr**  
-monastery (Romance/Greek-Latin) → **monastērô**  
+monastery (Romance/Greek-Latin) → **monastēr**  
 Monday → **mōndag**  
 money → **rā**  
 monk (Slavic/Orthodox frontier) → **mōnakô**  
@@ -1388,7 +1388,7 @@ no (trade) → **nē**
 no harm (reassurance) → **pōlpardõ**  
 no matter → **līkgōd**  
 nod (v.) → **nõkā**  
-noise music (international, experimental) → **noizô**  
+noise music (international, experimental) → **noiz**  
 nonsense (dismissive) → **nalī**  
 north → **pôjā**  
 Norway (exonym, Norge) → **Nôrô**  
@@ -1533,7 +1533,7 @@ pink → **rōs**
 pipe → **torô**  
 pipe (Low German) → **flūtô**  
 place → **asetā** · **panā**  
-place of worship (Romance/Latin) → **templô**  
+place of worship (Romance/Latin) → **templ**  
 plague → **pestô**  
 plane (international) → **plēnô**  
 plank → **lōdô**  
@@ -1543,7 +1543,7 @@ plate → **plat**
 play → **pēlô** · **pēlā**  
 play (an instrument) (Low German) (v.) → **spēlā**  
 player → **pēlāji**  
-plaza (Romance) → **platsô**  
+plaza (Romance) → **plats**  
 please (archaic → **palô**  
 please (Low German) → **bidô**  
 plow → **ārô** · **ārā**  
@@ -1560,10 +1560,10 @@ polytunnel (international) → **tunnõl**
 pompous fool → **pomp**  
 poor → **vāj**  
 poor thing (sympathy) → **vaesõkõ**  
-pop music (international) → **popô**  
+pop music (international) → **pop**  
 portion (v.) → **jagā**  
-post-rock (international) → **postrokô**  
-postal code (international) → **postkōdô**  
+post-rock (international) → **postrok**  
+postal code (international) → **postkōd**  
 pot → **padā** · **potô**  
 pound → **pundô**  
 pour (v.) → **kallā**  
@@ -1600,7 +1600,7 @@ prosecutor (Romance) → **prokurôr**
 prostitute (obscene) → **putān**  
 protect (v.) → **kaitsô** · **valvā**  
 protection → **kaitsômus**  
-psalter (Romance/Greek-Latin) → **psaltērô**  
+psalter (Romance/Greek-Latin) → **psaltēr**  
 psychologist (Romance) → **psükolōg**  
 psychology (Romance) → **psükolōgī**  
 pub → **pubô**  
@@ -1616,7 +1616,7 @@ pull in → **haulā**
 pulpit (Low German/church-town) → **pūlpitô**  
 punish (v.) → **karistā**  
 punishment → **karistô**  
-punk (international) → **pankô**  
+punk (international) → **pank**  
 purple → **purpôr**⁺  
 purpose → **ārgô**  
 purse → **taskü**  
@@ -1647,8 +1647,8 @@ rain (weather verb) (v.) → **vimõ**
 raise → **nostô** · **ravā**  
 rampart (Low German) → **valô**  
 rank (Romance/LG) → **grād**  
-rap (from rapô) (v.) → **rapā**  
-rap (international) → **rapô**  
+rap (from rap) (v.) → **rapā**  
+rap (international) → **rap**  
 rapid flow → **ropõ**  
 rarely → **harvõ**  
 rather → **pigõm**  
@@ -1715,7 +1715,7 @@ room → **kambôr**
 rooster → **kukô**  
 root vegetable → **jūr**  
 rope → **köis**  
-rosary (Romance/Latin church) → **rosārô**  
+rosary (Romance/Latin church) → **rosār**  
 rot → **mätä** · **mätänä**  
 rough (surface) → **kārgô**  
 roughly (approx.) → **mumbõ**  
@@ -1746,7 +1746,7 @@ sale → **müük**
 salt → **sōla**  
 salt-cross → **sōlakrūçô**  
 sampler (international) → **samplôr**  
-sanctuary (Romance/Latin) → **sanktuārô**  
+sanctuary (Romance/Latin) → **sanktuār**  
 sanctuary lamp (Slavic/Orthodox-frontier) → **lampadô**  
 sandy → **līvô**  
 sanitation → **puhādtȫ**  
@@ -1757,7 +1757,7 @@ save (v.) → **salvā**⁺
 saved file → **salvômus**⁺  
 savory → **maitūs**  
 saw → **sāvô** · **sāvā**  
-saxophone (Romance/international) → **saksofônô**  
+saxophone (Romance/international) → **saksofôn**  
 say (v.) → **dī**  
 scale → **vāgô**  
 Scandinavian) → **skōl**  
@@ -1844,7 +1844,7 @@ short coat (Low German) → **kitlô**
 shoulder (Finnic) → **ôlgô**  
 show (international, informal) → **gigô**  
 shred → **rūbā**  
-shrine → **sanktuārô**  
+shrine → **sanktuār**  
 sick → **malālt**  
 sickle → **sirpô**  
 siege (Romance) → **seçô**  
@@ -1937,7 +1937,7 @@ sport (international) → **sportô**
 spouse → **kaimô**  
 spring (season) → **kevä**  
 spun thread (Low German → **garnô**  
-square → **platsô**  
+square → **plats**  
 stab (v.) → **pikā**  
 stabbing → **nugāaktô**  
 stable → **lāvô**  
@@ -2045,7 +2045,7 @@ television (full calque, "magic-window") → **taikfinest**
 tell → **rǟkõ**  
 telling → **rǟkõmus**  
 temperature (Romance) → **temperatūr**  
-temple → **templô**  
+temple → **templ**  
 ten → **deseñç**  
 tend animals → **karjā**  
 tender → **hell**  
@@ -2156,12 +2156,12 @@ tribunal → **rēdām**
 trick → **trīk** · **trīkā**  
 trickster → **trīkôr**  
 trio (Romance/international) → **trīô**  
-trombone (Romance/international) → **trombônô**  
+trombone (Romance/international) → **trombôn**  
 troop → **troppô**  
 trouble oneself → **mādā**  
 trousers → **brôkô**  
 truce (Low German) → **trūsô**  
-trumpet (Romance/international) → **trumpetô**  
+trumpet (Romance/international) → **trumpet**  
 trust (v.) → **usaldā**  
 trust (n.) → **usaldômus**  
 truth → **tôsī**  
@@ -2224,7 +2224,7 @@ viola (Romance/international) → **violā**
 violence (Romance) → **violentsô**  
 violent (Romance) → **violentô**  
 violent + kett) → **violentskett**  
-violin (Romance/international) → **violīnô**  
+violin (Romance/international) → **violīn**  
 virus → **vīrô**⁺  
 visa → **vīzô**⁺  
 visitor → **külalü**  
