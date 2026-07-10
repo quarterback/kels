@@ -4,48 +4,98 @@ Nelôxi does NOT transliterate foreign country names from English. Like every re
 names its neighbours **from its own angle** — from who it met, bordered, traded with, or fought.
 Germany is *Deutschland* to itself but *Saksa* to Finns (the Saxons), *Allemagne* to the French
 (the Alemanni), *Niemcy* to Poles ("the mute ones"). A Baltic maritime creole would have its own
-such names, and — creole-style — they come from whichever quarry did the naming.
+such names, and — creole-style — they come from whichever quarry did the naming. But most exonyms
+are boring, and that is correct — only a handful of ancient neighbours get deep historical names;
+everyone else is a plain calque or just the name run through Nelôxi phonology. Three tiers:
 
-## Three tiers — and most countries are the lazy tiers
+- **Tier 1 — Deep historical name** (rare; ancient close contacts only, from the Finnic substrate
+  or a quarry)
+- **Tier 2 — Calque** (when the name transparently means something, as Finnish *Yhdysvallat*)
+- **Tier 3 — Nelôxicize the name** (the default: take the endonym/common name, fit the phonology)
 
-Most exonyms are boring, and that is correct. Finnish does not invent poetry for every country —
-it says *Espanja, Italia, Kanada* (just the name, Finnicized) and *Yhdysvallat* ("united realms,"
-a plain calque of United States). Only a handful of ancient neighbours get deep historical names.
-Nelôxi works the same way, in three tiers:
+Nelôxi phonology reminder: vowels a e i o u ä ö y ô + macrons (length is ALWAYS a macron, never a
+doubled letter); x=[ʃ] (or [ks] in some proper nouns, §47); ç=[ts]; no native b/c/q/w/z but loans
+and names may keep foreign scars (§63); words tend to end in a vowel; initial stress.
 
-**Tier 1 — Deep historical names (RARE).** Only the ancient, close contacts Nelôxia has known for
-millennia get a distinct name rooted in its own history, sourced from the Finnic substrate or the
-relevant quarry. These are earned by long contact, not invented for flavour:
-- **Venä** — Russia (old Finnic "the Wends")
-- **Saksô** — Germany (Finnic "the Saxons"; fits, as Low German is a quarry)
-- **Rôtsô** — Sweden (Finnic *Ruotsi*, the Norse rowers)
-- **Sōme** — Finland · **Ēstô** — Estonia (the near Finnic kin)
-- **Letmō** — Latvia, the absorbed heartland ("Lett-land")
+---
 
-**Tier 2 — Calque (when the name transparently MEANS something).** Translate the meaning, as
-Finnish does with *Yhdysvallat*:
-- **Ühüriigôd** — the United States ("united states/realms," *ühü* + *riig* + plural)
-- **Legmō** — the Netherlands ("low-land") — a light calque, since that is literally the name
+## THE COMPLETE NATION LIST
 
-**Tier 3 — Just Nelôxicize the name (the DEFAULT for everywhere else).** Take the endonym or
-common name and run it through Nelôxi phonology. No invented descriptor. This is most countries:
-- **Polskô** Poland · **Belôrus** Belarus · **Ukrainô** Ukraine · **Danô** Denmark ·
-  **Nôrô** Norway · **Britaniô** Britain · **Espanjô** Spain · **Italiô** Italy ·
-  **Kanadô** Canada · **Amerikô** America (informal, alongside the calque Ühüriigôd)
+### The Baltic rim & immediate neighbours (Tier 1 — deep names, ancient contact)
 
-## The rule for contributors and translators
+| Country | Nelôxi | Tier | Logic |
+|---|---|---|---|
+| Finland | **Sōme** | 1 | endonym *Suomi*; kin across the gulf |
+| Estonia | **Ēstô** | 1 | *Eesti*; the near Finnic kin |
+| Latvia | **Letmō** | 1 | "Lett-land"; the absorbed heartland |
+| Lithuania | **Lētô** | 1 | the Baltic neighbour, from *Lietuva* |
+| Russia | **Venä** | 1 | old Finnic "the Wends" — NOT Latin Rossija |
+| Sweden | **Rôtsô** | 1 | Finnic *Ruotsi*, the Norse rowers |
+| Germany | **Saksô** | 1 | Finnic "the Saxons"; fits, Low German is a quarry |
+| Denmark | **Danô** | 1 | "the Danes", via the sea-runs |
+| Norway | **Nôrô** | 1 | *Norge*, the north-way |
+| Poland | **Polskô** | 1/3 | Slavic self-name *Polska*; frontier neighbour |
+| Belarus | **Belôrus** | 3 | Slavic frontier, lightly nativized |
 
-Do NOT transliterate blindly from English, but do NOT over-invent either. Decide the tier:
-- An **ancient close neighbour** (the Baltic rim, the immediate east)? It may already have a
-  Tier-1 name — use it, or it's worth coining one from the Finnic/quarry angle.
-- A name that **transparently means something** (United States, Low Countries)? Calque it.
-- **Everything else** — just take the name and Nelôxicize the spelling/sound. This is the default.
-  Do not invent "the wool-land across the sea"-style descriptors for ordinary distant countries.
+### Calques (Tier 2 — the name means something transparent)
 
+| Country | Nelôxi | Logic |
+|---|---|---|
+| United States | **Ühüriigôd** | "united states/realms" (cf. Finnish Yhdysvallat) |
+| Netherlands | **Legmō** | "low-land" |
+| United Kingdom | **Ühükuningôd** | "united kingdoms" (formal; informal: Britaniô) |
+| Iceland | **Jǟmō** | "ice-land" (jǟ "ice" + -mō) |
 
+### Europe (Tier 3 — just Nelôxicized)
+
+| Country | Nelôxi | | Country | Nelôxi |
+|---|---|---|---|---|
+| Britain | **Britaniô** | | Portugal | **Portugô** |
+| Ireland | **Irlandô** | | Greece | **Grekô** |
+| France | **Frankô** | | Austria | **Ōstriô** |
+| Spain | **Espanjô** | | Switzerland | **Xveitsô** |
+| Italy | **Italiô** | | Czechia | **Txekô** |
+| Belgium | **Belgiô** | | Slovakia | **Slovakô** |
+| Ukraine | **Ukrainô** | | Hungary | **Ungarô** |
+| Romania | **Rumeniô** | | Bulgaria | **Bulgariô** |
+| Serbia | **Serbiô** | | Croatia | **Krôatiô** |
+| Slovenia | **Sloveniô** | | Moldova | **Moldôvô** |
+| Georgia | **Grūsiô** | | Armenia | **Armeniô** |
+
+### The wider world (Tier 3 — Nelôxicized; a few informal calque-nicknames noted)
+
+| Country | Nelôxi | | Country | Nelôxi |
+|---|---|---|---|---|
+| America (informal) | **Amerikô** | | China | **Kīnô** |
+| Canada | **Kanadô** | | Japan | **Japôni** |
+| Mexico | **Meksikô** | | Korea | **Koreô** |
+| Brazil | **Brasiliô** | | India | **Indiô** |
+| Argentina | **Argentīnô** | | Turkey | **Türkiô** |
+| Australia | **Austrāliô** | | Iran | **Irānô** |
+| New Zealand | **Uus-Zēland** | | Iraq | **Irākô** |
+| Egypt | **Egiptô** | | Israel | **Israelô** |
+| Morocco | **Marokô** | | Saudi Arabia | **Arabiô** |
+| Nigeria | **Nigeriô** | | Thailand | **Taimō** ("Thai-land") |
+| Kenya | **Keniô** | | Vietnam | **Vietnamô** |
+| South Africa | **Sud-Afrikô** | | Indonesia | **Indonēsiô** |
+
+### Continents & regions
+
+| | Nelôxi | | | Nelôxi |
+|---|---|---|---|---|
+| Europe | **Eurôpô** | | the Baltic (sea) | **Baltô-mer** |
+| Asia | **Āsiô** | | Scandinavia | **Rôtsô-mō** (the Nordic north) |
+| Africa | **Afrikô** | | the Nordics | **Pôjā-mōd** ("northern lands") |
+| the Americas | **Amerikô-mōd** | | | |
+
+---
+
+## The rule (now that the list is settled)
+
+Use the list above. It is the complete working set — do not re-derive or re-invent these. For a
+country not listed (rare), apply the tiers: ancient Baltic/eastern neighbour → consider a Tier-1
+name; transparently-meaningful name → calque; otherwise → Nelôxicize the endonym and add it here.
+Do not invent evocative descriptors for ordinary distant countries — the default is the plain
+Nelôxicized name. Length is written with macrons, never doubled letters; calque elements come
+from canon vocabulary (jǟ "ice", uus "new", sud "south", kuning "king", riig "state", -mō "land").
 Proper nouns may keep foreign scars and use x=[ks] (§47, §63).
-
-The point: the ancient neighbours read as Nelôxia's own history (kin to the north, Saxons and
-rowers to the west, the Slavic frontier south), while everyone else is just their own name in
-Nelôxi dress — which is exactly how real languages handle the world: a few deep names, mostly
-plain ones.

@@ -1,6 +1,6 @@
 # Nelô kēļ — English → Nelôxi Reverse Index
 
-*Generated from the coursebook master dictionary (1212 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
+*Generated from the coursebook master dictionary (1213 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
 
 
 ## A
@@ -787,6 +787,7 @@ key → **nupô** · **vôtī**
 keyboard → **klavôr**⁺  
 kin → **sugô**  
 kind → **lād**  
+king → **kuning**  
 kinsperson → **sugôr**  
 knife → **nugā**  
 knot → **sidômus**  
