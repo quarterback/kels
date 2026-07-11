@@ -5,6 +5,28 @@ real-world administrative units absorbed, grouped by region. This is the authori
 the gazetteer (world/gazetteer.md) carries naming layers and etymologies. Founder-ratified.
 Orthography normalized to canon (ô, not õ). x = [ks] in the marked proper nouns (§47).
 
+**Personal names** (Nelôxian convention): the full legal/systemic name is three parts —
+**[Naneme] [Given name] [Family name]** — with every component brought into Nelôxi form, the way
+Russia assimilated the names of its peoples.
+- The **Naneme** is a hyper-local landscape compound: a "poetic postcard," traditionally based on
+  the exact micro-scenery of the birth room or birthplace (e.g. *Kibuvits-Vool* "Wildrose-Current,"
+  *Udu-Sild* "Mist-Bridge," *Säde-Raud* "Spark-Iron," *Sund-Vatn* "Sound-Waterway").
+- The **given name** is Nelôxized in form.
+- The **family name** is fully integrated into Nelôxi by EITHER path, mix-and-match per family:
+  **meaning-translated** (Dvořák → *Hoov* "court," Morozov → *Külmetu* "frost," Richter →
+  *Kohtunik* "judge") OR **phonetically kept** in Nelôxi spelling (Kalniņš stays Kalniņš).
+- The full three-part Nelôxized string is the absolute legal, digital, and civil truth; local
+  vernacular variants coexist in everyday speech.
+This is why a founding city like Uusatôm (Odessa) carries a Nelôxian name outright — its founders
+named it themselves, in their own tongue.
+
+**Capital architecture** (split-capital federal platform): the administrative, executive, and
+financial capital is **Kunislinnô** (settled — the Baltic financial bulwark). A separate
+**legislative seat** is adopted in principle but its location is founder-undecided — candidates
+include **Prag** as the central Amber-Road anchor and/or a **rotating** arrangement across the
+corridor, fitting a state that spans Karelia to Uusatôm. (Recorded as open; do not fix a
+legislative capital in canon until the founder rules.)
+
 Nelôxia is a **single contiguous state** — the older Baltic–Karelian homeland plus the accession
 territories of the Amber Road corridor and the Adriatic, with Corsica as a detached Mediterranean
 relay. The borders are accumulated jurisdictions, not ethnic lines: ports, corridors, customs
@@ -14,7 +36,9 @@ deferred regional-domain sourcing addendum.)
 
 **Regions:** Maritime Core & Livonian Homeland · Prussian Anchor · Vistula Delta & Pomeranian
 Corridor · Baltic Inland Estate Belt · Curonian Land Bridge · Slavic Frontier · Karelia (contiguous
-northern province) · Western Baltic Rim · Amber Road Corridor · Adriatic Terminals · Corsican Relay.
+northern province) · Western Baltic Rim · Amber Road Corridor · Adriatic Terminals · Corsican Relay ·
+Dalmatian & Adriatic Coast · Balkan Interior (Defense Union) · Thracian & Aegean Threshold · Black
+Sea Littoral (to Odessa).
 
 ---
 
@@ -95,6 +119,30 @@ trunk of the two-ocean trade route. "Our own Norway without the oil.")*
 - **KORSIK** (Corsica, France) — 42°09'N 9°05'E. The island entire (Corse-du-Sud, Haute-Corse): Ajaccio, Bastia (cable stations, repair yards, fleet support, western-Mediterranean surveillance).
 
 ---
+
+## REGION 12: THE DALMATIAN & ADRIATIC COAST (the sea-lane south from Krk)
+*(naval-maritime; extends the Adriatic terminal system down the eastern shore; ports and island harbours)*
+- **SPALÔT** (Split, Croatia) — 43°30'N 16°26'E. Split and central Dalmatia (Šibenik, the island chain). *(the Venetian route-name Spalato → Spalôt, not the Slavic Split)*
+- **RAGŪZ** (Dubrovnik, Croatia) — 42°38'N 18°06'E. Dubrovnik and the southern Dalmatian coast. *(the Venetian route-name Ragusa → Ragūz, not the Slavic Dubrovnik)*
+- **KATÔR** (Kotor, Montenegro) — 42°25'N 18°46'E. The Bay of Kotor and the Montenegrin littoral (Budva, Bar). *(the Venetian Cattaro → Katôr)*
+- **DÜRAÇ** (Durrës, Albania) — 41°19'N 19°27'E. Durrës and the Albanian ports (Vlorë, Shëngjin) — the south gate toward the Otranto strait. *(the Venetian/Ottoman Durazzo/Draç → Düraç)*
+
+## REGION 13: THE BALKAN INTERIOR (the post-Ottoman defense union core)
+*(funded, not conquered; corridor provinces of the south; local languages and civic institutions persist; the union's inland heart)*
+- **SARÄJ** (Sarajevo, Bosnia) — 43°51'N 18°25'E. Sarajevo and central Bosnia (Zenica, Tuzla). *(from the Ottoman saray "palace" the city is named for → Saräj, consonant-final)*
+- **VÄISBORK** (Belgrade, Serbia) — 44°49'N 20°27'E. Belgrade and the Danube–Sava confluence (Novi Sad, Vojvodina). *(a route-calque of the German Weißenburg "white-fortress," the trade name for Belgrade → Väisbork, on the -bork toponymic pattern; the union's inland capital-anchor)*
+- **ÜSKÜB** (Skopje, North Macedonia) — 42°00'N 21°26'E. Skopje and the Vardar valley (the Via Egnatia reach). *(the Ottoman trade-name Üsküb, the form the route carried, not the Slavic Skopje)*
+- **PRIXTĪN** (Priština, Kosovo) — 42°40'N 21°10'E. Priština and the Kosovo basin (mining, highland transit). *(nativized; x=[ʃ] carries the š directly)*
+
+## REGION 14: THE THRACIAN & AEGEAN THRESHOLD (the Via Egnatia terminus)
+*(the southern reach toward the Aegean; the union's Thracian shoulder)*
+- **SREDÔÇ** (Sofia, Bulgaria) — 42°42'N 23°19'E. Sofia and the western basins (the Balkan-mountain passes). *(the older trade-name Sredets → Sredôç; Sofia is the late Ottoman renaming)*
+- **FILIPÔL** (Plovdiv, Bulgaria) — 42°09'N 24°45'E. Plovdiv and the Thracian plain (the Maritsa valley toward the Aegean). *(the Greek route-name Philippopolis → Filipôl, not the Slavic Plovdiv)*
+
+## REGION 15: THE BLACK SEA LITTORAL (the eastern maritime terminal, to Odessa)
+*(the Black Sea counterpart to the Baltic; the Danube mouth and the grain coast)*
+- **KÔSTÔNÇ** (Constanța, Romania) — 44°10'N 28°38'E. Constanța and the Dobruja coast (the Danube delta, Tulcea). *(the Ottoman trade-name Köstence → Kôstônç; the Danube-mouth terminal)*
+- **UUSATÔM** (Odessa, Ukraine) — 46°28'N 30°44'E. The Black Sea anchor. *(the one city on the map with a genuinely NELÔXIAN name, not an exonym of someone else's — the 16th-century founding traders named their own post: "uus" new + "satām" harbour → Uusatôm, "new-harbour." A FOUNDING-DIASPORA CITY, a category of its own: it grew into a self-standing cosmopolitan Black Sea port drawing Baltic-empire affiliates, and once the Atlantic trade opened it plugged into the ocean network. A diaspora tied it to the core for centuries — affiliated EARLY, but distance prevented territorial accession until modern contiguity reached it. Its register is archaic in the Nelôxi core and cosmopolitan in the crust: four centuries of Greek, Ukrainian, Yiddish, Turkish, and Genoese-trade accretion on old Baltic bones. The oldest thread in the whole state, and the prototype of the pull-not-conquest pattern the later Sahara and Balkan foundations repeat. Odessa/Odesô survives only as the outsiders' name for Uusatôm.)*
 
 *Atlanta (Atlantic Sahara) is a separate sovereign country — NOT part of Nelôxia's territory,
 population, or area. It is connected by history, sea power, institutional memory, and the
