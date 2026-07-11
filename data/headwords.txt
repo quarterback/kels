@@ -17,6 +17,7 @@ ajēr
 ajū
 akordeôn
 aktô
+akvilô
 akôr
 akūzatsiôn
 akūzā
@@ -59,6 +60,7 @@ arkebūsā
 arm
 armôldā
 armõ
+arn
 arst
 arsô
 arvô
@@ -83,6 +85,7 @@ banērô
 baptismô
 Baptistô
 baptisā
+bargā
 barô
 bassgitarô
 bassô
@@ -110,6 +113,7 @@ brüllô
 brāk
 brākā
 bulvār
+bulô
 bundô
 busô
 busô-melk
@@ -120,6 +124,8 @@ büdjet
 bābô
 bākô
 bālô
+bēr
+bēvô
 bītsegas
 bītā
 bōgô
@@ -204,6 +210,7 @@ ekskomūnikā
 ekôsüstēm
 ekõ
 elektrônikô
+elg
 ellô
 elva
 elômus
@@ -231,8 +238,10 @@ fatômô
 façô
 febrôr
 federatsiôn
+fedô
 fektômus
 fektā
+fellô
 felīç
 festivô
 festmaçô
@@ -243,6 +252,8 @@ finest
 flag
 flamô
 fluks
+flögô
+flēgô
 flōp
 flœzī
 flūk
@@ -262,6 +273,7 @@ fotā
 Frankrīk
 frīdag
 frūt
+fuglô
 fundā
 funerālô
 funktsionā
@@ -276,9 +288,11 @@ fībôr
 fīdô
 fīnô
 fȫrô
+gans
 garnisô
 garnô
 gatô
+gaupô
 genô
 gigô
 gimnastīk
@@ -306,6 +320,7 @@ hakôr
 half
 halgô
 hambô
+hambā
 hamôr
 handlô
 handlôji
@@ -317,6 +332,7 @@ harjā
 harniskô
 harpô
 harvõ
+has
 haudô
 haudôlampadô
 haulā
@@ -344,6 +360,7 @@ hornô
 hummā
 häbedā
 häbū
+hülā
 hērô
 hūl
 hūr
@@ -353,6 +370,7 @@ hȫgā
 identitēt
 idā
 idē
+igel
 iglū
 igävē
 igāldā
@@ -364,6 +382,7 @@ ilma
 ilo
 improvizômus
 improvizā
+imô
 incensô
 indulgentsô
 indī
@@ -382,6 +401,7 @@ ja
 jaamô
 jagô
 jagā
+jaktā
 jalg
 jalgpēl
 jammā
@@ -437,6 +457,7 @@ kaipômus
 kaipā
 kaitsô
 kaitsômus
+kajak
 kallô
 kallü
 kallā
@@ -530,6 +551,7 @@ kivī
 klaidô
 klamôt
 klarinēt
+klauô
 klavôr
 klikômus
 klikā
@@ -549,6 +571,7 @@ kodô
 kodā
 kogē
 kohanü
+kolk
 kolô
 komandôr
 kompass
@@ -584,10 +607,12 @@ kritisā
 kritīk
 krossi
 kruçô
+krā
 krāgô
 krāmô
 krāmôr
 krōm
+krūpā
 krūçôfiks
 krūçôveç
 krūçā
@@ -697,6 +722,7 @@ lastā
 lasõ
 lasõkäi
 lauk
+laçertô
 legitīm
 Legmō
 lehmä
@@ -769,6 +795,7 @@ lōtô
 lōtā
 lōtū
 lūdô
+lūs
 lǟdô
 lǟkô
 lǟkõm
@@ -803,6 +830,7 @@ mastô
 matinô
 matrūs
 matī
+maurô
 maxīn
 maçô
 mediatôr
@@ -836,6 +864,7 @@ miskü
 moin
 monastēr
 mortô
+mottô
 mrovô
 mrovôr
 muidôn
@@ -865,6 +894,7 @@ mätänä
 môtô
 môtôldā
 mõnü
+müggô
 müristä
 müristü
 mürk
@@ -886,6 +916,7 @@ mēldā
 mēlā
 mērkô
 mēs
+mēv
 mīlô
 mīrô
 mīstērô
@@ -918,6 +949,7 @@ navô
 ne
 negotsiatsiôn
 negotsiā
+nestô
 niimôdõ
 nim
 nixō
@@ -1018,6 +1050,7 @@ pank
 pannô
 pantsār
 panā
+papilô
 papôr
 paradīsô
 parandômus
@@ -1064,6 +1097,7 @@ platôspēlin
 plinô
 plēnô
 plēnô-melk
+pogô
 poig
 politsī
 Polskô
@@ -1182,6 +1216,7 @@ ravôji
 ravā
 redē
 Reformātô
+reinô
 reisô
 reisā
 rekôrd
@@ -1202,6 +1237,7 @@ risk
 ritmô
 ritô
 riul
+rob
 rohtô
 rohô
 roiskô
@@ -1226,6 +1262,7 @@ rēdāji
 rēdām
 rēdāmkirjômus
 rētô
+rēô
 rīdômus
 rīdā
 rīfô
@@ -1325,6 +1362,7 @@ skīt
 skītôr
 skītā
 skōl
+slangô
 slitô
 smetôn
 snē
@@ -1336,6 +1374,7 @@ sol
 solvômus
 solvā
 sool
+spinô
 sportô
 spēlā
 spērô
@@ -1349,6 +1388,8 @@ struktūrôl
 strunô
 strānd
 strēlô
+stēkā
+stērtô
 stōrī
 sud
 sudidā
@@ -1369,7 +1410,10 @@ suverēn
 suvi
 suô
 suônô
+svalô
+svan
 svangôr
+svarmô
 sverdô
 svindôl
 svistô
@@ -1605,6 +1649,7 @@ vastāmus
 vastāsaatā
 veel
 vekk
+veks
 velkô
 velô
 vendā
@@ -1637,15 +1682,18 @@ violīn
 virkā
 viskā
 vist
+volk
 volē
 vool
 voolpöörd
 vormā
+voss
 votā
 vragô
 vranglômus
 vranglā
 vundô
+vurmô
 väetô
 väetā
 vägä
@@ -1712,6 +1760,7 @@ xȫvlā
 çeñ
 çeñôr
 çimbalô
+çirpā
 çizmô
 ôblā
 ôbē
@@ -1734,6 +1783,7 @@ xȫvlā
 ümbär
 ürd
 āhi
+āntô
 ārgô
 ārmastô
 ārô
