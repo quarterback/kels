@@ -1,6 +1,6 @@
 # Nelô kēļ — English → Nelôxi Reverse Index
 
-*Generated from the coursebook master dictionary (1823 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
+*Generated from the coursebook master dictionary (1824 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
 
 
 ## A
@@ -363,6 +363,7 @@ category → **lād**
 Catholic (Romance/Latin church) → **Katolikô**  
 cause → **pôhjô**  
 ceasefire (Low German) → **trūsô**  
+celebratory joy → **rôimē**  
 cello (Romance/international) → **çellô**  
 censer (Slavic/Orthodox-frontier) → **kadilô**  
 center → **keskū**  
@@ -377,6 +378,7 @@ cf. küüs nail) → **klauô**
 cf. kēļ language) → **kēl**  
 cf. kǟs hand) → **kās**  
 cf. lēt) → **melk**  
+cf. mild felīç) → **rôimē**  
 cf. môtô thought) → **mottô**  
 cf. nahkô hide) → **fellô**  
 cf. nahkô leather — body part vs material) → **nahk**  
@@ -525,6 +527,7 @@ constitution → **pôhôlēgô**
 construct → **ehitā**  
 construction → **ehitômus**  
 container → **kastô**  
+content → **felīç**  
 contest → **maçô**⁺ · **vôistlômus**  
 contestant → **vôistôr**  
 contrabass (Romance/Low German) → **kontrabass**  
@@ -929,6 +932,7 @@ friend → **amīk**
 frog (Low German Pogge) → **pogô**  
 from hambô tooth) → **hambā**  
 from now on → **nūlt**  
+from rôim 'delight' / rôimā 'to rejoice' → **rôimē**  
 from the proverb Mer donā, ja mer votā) → **merjagô**  
 front position (in a race or contest) → **fȫrô**⁺  
 frost → **pakā**  
@@ -970,6 +974,7 @@ give (native (v.) → **andā**
 give birth (Livonian (v.) → **sünnitä**  
 give it here → **annõ**  
 give light → **nīrā**  
+glad (mild everyday register → **felīç**  
 gladness → **rôim**  
 glove (fossil compound, 'hand-house') (Livonian) → **kǟskōt**  
 glow (v.) → **hȫgā**  
@@ -1052,7 +1057,7 @@ hand-span as a measure (Livonian) → **vaksô**
 handball (kǟs hand + pēl) → **kǟspēl**  
 handwriting → **kirjô**  
 happen (v.) → **juhtü**  
-happy → **felīç**  
+happy — the bright kind: glee → **rôimē**  
 harass (Romance) (v.) → **harasā**  
 harassment (Romance) → **harasômus**  
 harbor → **satām**  
@@ -1700,6 +1705,7 @@ player → **pēlāji**
 plaza (Romance) → **plats**  
 please (archaic → **palô**  
 please (Low German) → **bidô**  
+pleased → **felīç**  
 plow → **ārô** · **ārā**  
 pluck → **klimprā**  
 ply the oars → **aerutā**  
@@ -1738,6 +1744,7 @@ price → **prēu**
 price-reduction (Low German) → **rabat**  
 prick → **pik** · **stēkā**  
 pride → **ūpū**  
+pride (native adj. → **rôimē**  
 priest → **preverô**  
 prison → **vangô**  
 prisoner of war (Romance) → **kaptīvô**  
@@ -1877,6 +1884,7 @@ roast (v.) → **röstā**
 rock (at sea) → **karīk**  
 rock music (international) → **rokô**  
 roe deer → **rēô**  
+Romance — cf. native rôimē, the bright celebratory-proud happy) → **felīç**  
 Romance) → **estimô** · **fortē** · **pianē**  
 Romance/Latin amplius) → **amplü**  
 Romance/Latin — the everyday lived word is merjagô, §123) → **fatômô**  
