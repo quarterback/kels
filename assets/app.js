@@ -62,6 +62,7 @@
     gr_tense:    { title: "Tense & aspect",    sub: "Module 09 — saying when",      file: "grammar/09-tense-aspect.md",       group: "Grammar", toc: true },
     gr_adj:      { title: "Adjectives",        sub: "Module 10 — invariance",       file: "grammar/10-adjectives.md",         group: "Grammar", toc: true },
     gr_cmd:      { title: "Commands",          sub: "Module 11 — imperative & hortative", file: "grammar/11-commands.md",       group: "Grammar", toc: true },
+    gr_apics:    { title: "Structural profile", sub: "APiCS typological parameters",  file: "grammar/structural-profile-apics.md", group: "Grammar", toc: true },
     bnd_grammar: { title: "Grammar reference", sub: "Complete grammar, one file",   file: "bundles/BUNDLE-grammar-reference.md", group: "Bundles", toc: true },
     bnd_domain:  { title: "Domain agent kit",  sub: "For coining vocabulary",       file: "bundles/BUNDLE-domain-agent.md",   group: "Bundles", toc: true },
     bnd_corpus:  { title: "Corpus agent kit",  sub: "For writing genre texts",      file: "bundles/BUNDLE-corpus-agent.md",   group: "Bundles", toc: true }

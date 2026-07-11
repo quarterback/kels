@@ -21,6 +21,12 @@ Reading order for a full onboarding:
 - **12 — Numbers** — dozenal digits, fused teens, counted nouns, fractions, clock time, and percent
 - **13 — Loan Endings & Surface Balance** — how a borrowed word enters and declines; -ô is one landing form, not the default (§109)
 
+Reference (not a teaching module):
+- **structural-profile-apics** — Nelôxi's full typological profile answered against the APiCS
+  (Atlas of Pidgin & Creole Language Structures) parameter framework: word order, nominal
+  categories, TMA, negation, questions, sound systems, lexicon, sociolinguistics — with
+  daughter-lect divergences and open slots flagged.
+
 Planned / forthcoming modules:
 - **05 — Contact History** — the historical story of who brought which words (Hanseatic Low
   German, the Marīsô Slavic border, Scandinavian coast, Finnic substrate), so contributors reach
