@@ -194,6 +194,12 @@ mainland by region tags, per `COMMON-REGISTER.md`.
 - `lexicon-C-food-kin-market-day.md` — Domain C, Batch 2, the Level-3 core (43 headwords).
 - `lexicon-A-admin-maritime.md` — Domain A, Batch 3, the Level-1 admin & maritime register
   (34 headwords); the batch whose maritime terms are proposed for back-flow into the mainland.
+- `composition.md` — **how to write connected Saharannaise prose**: the spine does the grammar,
+  the reroot does the content; tiers, the compound ban, hybrid morphology, a worked paragraph.
+  The Atlantic counterpart of `../grammar/14-composition.md`.
+- `reader-caravan.md` — **the first connected Saharannaise narrative** (*Gāfila ja Bīr*, "The
+  Caravan and the Well"): a full desert scene built by `composition.md`, with its gap-list — the
+  proof that Saharannaise can be *written*, not only tabulated.
 - `showcase-asymmetry.md` — one desert scene, Metropolitan vs Saharannaise: the
   asymmetric-intelligibility standard shown, not just described.
 - `toponymy.md` — the place-names of Atlanta, in both registers (Nelôxian | Saharannaise):
