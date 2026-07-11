@@ -1,9 +1,14 @@
 # Nelôxia — Geographic Footprint (settled)
 
 A mega-maritime crescent controlling the eastern curve of the Baltic, running unbroken into a
-directly-connected northern lobe (Karelia). History/politics remain founder-controlled; this
-records the settled physical map. The authoritative account of the state's shape, scale, and
-economy is [`neloxia-lore.md`](neloxia-lore.md).
+directly-connected northern lobe (Karelia). This records the **Baltic-Karelian core** — the
+historical metropolitan homeland. The modern state is much larger: a ~56M Amber-Road corridor
+running to the Adriatic and a Corsican relay, set out in the structural authority
+[`modern-neloxia-working-lore-model.md`](modern-neloxia-working-lore-model.md) (with identity
+in [`neloxia-lore.md`](neloxia-lore.md) and history in
+[`neloxia-expanded-lore.md`](neloxia-expanded-lore.md)); this file's map of the corridor
+provinces, Adriatic terminals, and islands is a **pending expansion**. History/politics remain
+founder-controlled.
 
 ## Mainland crescent
 - **Prussian anchor** — all of Kaliningrad Oblast + northern rim of Warmian-Masuria; ports Pillô, Kunislinnô. Vistula Lagoon, sand spits, deepwater canal.

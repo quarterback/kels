@@ -1,10 +1,14 @@
 # Nelôxia — The Country: Geography, Scale, and the Modern Settlement
 
-*Key lore, founder-ratified. This is the authoritative account of the Nelôxian state itself —
-its shape, size, economic character, and modern posture. Other files defer to it and stay
-consistent with it rather than re-narrating it. Worldbuilding beyond what is written here
-remains founder-controlled. (For Atlanta / Atlantic Sahara and the shared history, see
-[`atlanta-lore.md`](atlanta-lore.md). First-pass lore — open to the founder's revision.)*
+*Key lore, founder-ratified. This is the account of the **pre-expansion ~20M Baltic-only
+state** — the metropolitan Baltic-Karelian core. It is **superseded on scale** by
+[`modern-neloxia-working-lore-model.md`](modern-neloxia-working-lore-model.md) (the ~56M,
+~760,000 km² Amber-Road corridor state, now the structural authority) and its history/framing
+in [`neloxia-expanded-lore.md`](neloxia-expanded-lore.md). Its **identity content still holds
+in full**: the European Singapore, the sovereign currency, strict borders, the two-ocean
+corridor, and the language-matches-the-state argument below — all carry into the expanded
+model unchanged. Read this for the core identity; read the working model for the modern map,
+scale, and posture. (For Atlanta, see [`atlanta-lore.md`](atlanta-lore.md).)*
 
 ---
 
