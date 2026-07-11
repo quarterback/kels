@@ -119,17 +119,36 @@ binding the clauses — no invented forms, all canon.
 6. Sequence the paragraph with **esmõks / tôl / seejärõl / lopõks**; contrast with **omõt / omõtõ**.
 7. Every word checked against the headword list; **anything missing is a gap — flag it (§9).**
 
-## 9 · Syntactic gaps that block certain moves (flag, do not invent)
+## 9 · Advanced constructions — the long-text toolkit (§121)
 
-Writing connected prose exposes these — a writer who hits one **flags it for the Rector**:
+These are what a *long* text needs — dialogue, simultaneous action, focus. Each was once a flagged
+gap; §121 closed all five **from existing material** (no invented words). Use these exact frames.
 
-- **"while" (simultaneous)** — no dedicated form; *kun* "when" is the nearest. ⟨gap⟩
-- **Reported speech** — direct quotation works (*Tä dī: "…"*); indirect beyond *et*-complements
-  (sequence-of-tense, embedded questions) is undeveloped. ⟨open⟩
-- **"no longer / anymore"** — closed (§120): **amplü** with preverbal *äb* (*äb … amplü*).
-- **Deep relative clauses** (a relative with its own past and object) — use the full **ken/mis**
-  clause, not a participle.
-- **Focus / clefting** ("it was the fisher who…") — no dedicated construction. ⟨open⟩
+| Construction | Frame | Example |
+|---|---|---|
+| **"while" (simultaneous)** | **samā tītôl kui** "at the same time as" | *Samā tītôl kui kalāji parandai vôrkôn, tytār vendai kalān.* "While the fisher mended his net, his daughter sold the fish." |
+| **indirect statement** | **et** + **no backshift** (keep original tense) | *Tä dīsi, et kalā um värskē.* "She said (that) the fish was fresh." (lit. "…that the fish *is* fresh" — Nelôxi has no sequence-of-tense) |
+| **embedded content Q** | bare wh-word (*ken/mis/kus/kun/kui*) | *Handlôji kysi, kui mult kalā maksā.* "The merchant asked how much the fish cost." |
+| **embedded polar Q** | **ka** | *Pǟr kysi, ka handlôji tulē.* "The father asked whether the merchant would come." |
+| **causative "make X do Y"** | **laskā** + object + bare verb | *Handlôji laskai poigôn bringā kalān.* "The merchant had the boy carry the fish." |
+| **cleft / focus** | **se um/ūli X, ken/mis …** | *Se ūli tytār, ken vastai.* "It was the daughter who answered." |
+| **"no longer"** | **äb … amplü** (§120) | *Tä äb pelgi mert amplü.* "He no longer feared the sea." |
 
-These are the frontier. The corpus texts (see `college/CORPUS-BRIEF.md`, the genre ladder) are how
-we find and fill them — each new text is a probe that turns an ⟨open⟩ into a ruling.
+**Two cautions:**
+- The **synthetic** causative *-tā* (module 02) makes a transitive out of an *intransitive*
+  (*langô→langôtā* "lower"); it does **not** stack on a verb that is already transitive — for
+  "make someone do a transitive action," use the analytic **laskā** frame above.
+- A relative clause that carries its **own tense or object** must be a full **ken/mis** clause, not
+  a prenominal participle (§4): *mēs, ken kantāi vespôrôl* — not \**kantāji mēs* for the past reading.
+
+## 10 · Still open (flag, do not invent)
+
+The frontier is now mostly *lexical*, not structural:
+
+- **A generic "to make / do"** light verb — canon has only specific make-verbs (*kuinā* "cook,"
+  *valmistā* "make ready," *ehitā* "build"); a general one is a gap. ⟨word gap⟩
+- **The abstract-ethical cluster** (dignity, conscience, equal, brotherhood, "to blow," "to
+  act/behave") — the UDHR probe's findings; Romance-sourced when opened. ⟨word gaps⟩
+
+The corpus texts (see `college/CORPUS-BRIEF.md`, the genre ladder) are how we find these — each new
+text is a probe that turns an ⟨open⟩ into a ruling.

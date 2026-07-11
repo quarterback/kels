@@ -19,7 +19,7 @@ The classic phonetic/typological calibration fable. It stress-tests **comparison
 > **2.** Tôl reisāji tulī, lǟmi mäntlôk.
 > *Then a traveler came along, with a warm cloak.*
 >
-> **3.** Ne otsi: fortmi um se, ken tekī, et reisāji votā mäntlôn maha.
+> **3.** Ne otsi: fortmi um se, ken laskā reisājin votā mäntlôn maha.
 > *They agreed: the stronger is the one who makes the traveler take off his cloak.*
 >
 > **4.** Pôjātūļ ūli fort, agā reisāji äb votai mäntlôn maha.
@@ -42,15 +42,15 @@ The classic phonetic/typological calibration fable. It stress-tests **comparison
 - **Past negation:** *äb votai* "did not take off" (§: *äb* + the past-marked verb), with the
   particle-of-manner **maha** "off/down."
 - **Compound** *pôjātūļ* "north wind" (*pôjā* + *tūļ*, head-final, module 04).
-- **Analytic causative** *tekī, et …* "made it (so) that …" — *tekô* "make/do" + an *et*-clause,
-  standing in for a morphological causative.
+- **Analytic causative** *laskā X votā …* "make/have X take …" — *laskā* "let, make"
+  (the *lassen*-type causative auxiliary) + object + bare verb.
 
 **Gap-list (candidate rulings):**
 1. **"to blow" (of wind)** — no verb. Rendered "the North Wind was strong" (*ūli fort*) as a
    workaround. This is the headline gap of the fable. ⟨word gap⟩
-2. **Morphological causative "make someone do X"** — worked around with *tekô, et …* (analytic).
-   Whether Nelôxi should have a synthetic causative here (cf. the derivation engine, module 02)
-   is undecided. ⟨grammar gap⟩
+2. **Causative "make someone do X"** — the analytic *laskā* + bare verb carries it (§121); the
+   synthetic *-tā* causative (module 02) is for de-intransitive pairs (*langô→langôtā*), not for
+   "make someone perform a transitive." Both now codified. ✓ closed
 3. **"warmly" (manner adverb)** — used the bare adjective *lǟmi* on an eventive reading (module
    10); a dedicated manner form is not needed, but the eventive reading of *lǟmi* is worth
    confirming. ⟨form check⟩

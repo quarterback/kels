@@ -227,7 +227,7 @@ Read this whole brief before coining a single word.
 
 Current canon: **v5.53, 1815 headwords.** Authoritative source: the repository —
 `coursebook/nelo-kel-coursebook.md` (the language) and `college/kels-kolegi-charter.md`
-(rules + full ruling log §1–§120).
+(rules + full ruling log §1–§121).
 
 ---
 

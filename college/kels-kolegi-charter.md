@@ -945,3 +945,21 @@ Three rulings the corpus probe (`reader/folktale-fisher-sea.md`, the fisher-and-
 **(c) "Every / each" — gap closed.** New headword **elkü** (distributive determiner, Low German *elk*): *elkü matī* "every morning," *elkü kalāji* "each fisher." Native *iga* (Estonian) and Livonian *jegā* are the off-limits cognate, so §112 reaches for the highest-contact everyday quarry — Low German — as with the other function words (*moin, gūd*). Distinct from *kôg* "all" (mass) and *elg* "elk, moose."
 
 **Minor gaps ruled in passing** (folktale gap-list): *pelgô* "to fear" **governs the partitive** (*pelgô mert* "fear the sea"); *mer* is a **front-harmony** noun (*merel, meren*), *rannã* **back-harmony** (*rannãl, rannãlô, rannãn*); "alive" needs no coin — the productive eventive adjective off *elā* gives **eläv** "living, alive" (module 10).
+
+## 121. Codifying the composition frontier — five constructions, no new words (v5.53)
+
+The calibration texts (`reader/calibration-texts.md`) confirmed the structure is sound but left five constructions flagged ⟨open⟩ in composition §9 — the things that block an agent from writing a *long* text with dialogue and simultaneous action. **All five resolve from existing material; no headword is coined.** This ruling turns them from gaps into settled frames (folded into grammar/14, demonstrated in `reader/folktale-merchant-daughter.md`). **No count change → still 1815.**
+
+**(a) "while" (simultaneous) — closed.** Frame **samā tītôl kui** "at the same time as" (*samā* "same" + *tīt* "time" in the adessive *tītôl* + *kui* "as"): *Samā tītôl kui kalāji parandai vôrkôn, tytār vendai kalān* "While the fisher mended his net, his daughter sold the fish." No dedicated conjunction needed; *kun* "when" stays the everyday near-synonym.
+
+**(b) Reported speech — closed.** Nelôxi has **no sequence-of-tense**, so indirect discourse is simpler than in English: the embedded verb keeps its *original* tense under **et**, never backshifts. *Tä dīsi, et kalā um värskē* "She said (that) the fish was fresh" — literally "…that the fish *is* fresh." Embedded **content** questions take the bare wh-word (*ken/mis/kus/kun/kui*): *Handlôji kysi, kui mult kalā maksā* "The merchant asked how much the fish cost." Embedded **polar** questions take the question particle **ka**: *Pǟr kysi, ka handlôji tulē* "The father asked whether the merchant would come."
+
+**(c) The analytic causative — closed.** "Make/have someone do X" is **laskā** (the *lassen*-type auxiliary, already canon as "let, allow") + object + bare verb: *Handlôji laskai poigôn bringā kalān* "The merchant had the boy carry the fish." This is distinct from the **synthetic** causative *-tā* (module 02), which derives a transitive from an intransitive (*langô→langôtā* "lower") — it does not stack on an already-transitive verb, which is exactly why the analytic *laskā* frame is needed.
+
+**(d) Cleft / focus — closed.** "It was X who/that …" is **se um/ūli X, ken/mis …**: *Se ūli tytār, ken vastai* "It was the daughter who answered." Built from *se* + the copula + a relative *ken/mis* clause; no new construction.
+
+**(e) Tense-carrying relative clauses** — already ruled (the full **ken/mis** clause, module 07/VERB-REF); re-confirmed here as the partner of the cleft.
+
+**Two addenda logged in passing:**
+- **Past of -ū stems.** The §120 two-class rule didn't state the *-ū* root vowel; it patterns with the other non-*a* vowels → plain **-i** (*lōjū→lōji* "set (of the sun)").
+- **No general "to make/do" light verb.** The reverse index has only *specific* make-verbs (*valmistā* "make ready," *kuinā* "cook," *ehitā* "build," *lepā* "make peace"); an unregistered *tek*- had leaked into `reader/parallel-showcase.md` (corrected to *kuinā* "cook"). A generic light "make/do" remains a genuine gap — a candidate for the **abstract/light-verb batch** (alongside the UDHR cluster: dignity, conscience, equal, brotherhood, "to blow," "to act/behave"), which is the natural next *lexical* expansion whenever the founder opens it.
