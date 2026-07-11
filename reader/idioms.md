@@ -36,6 +36,18 @@ the sea deals you" (§123), not a borrowed *fatum* — the saying came first, th
 
 ---
 
+## Vanity (conceit)
+
+> **Kekõ äb armā tän, ken näutā liig mult hambôn.**
+> *"Nobody likes a person who shows too many teeth."*
+> **= vanity, conceit, showing off** — the vain, preening self-display; the too-wide grin that reads
+> as insincere, the person too pleased with themselves.
+
+The image behind the word **liighambô** "vanity" (§136) — literally *too many teeth*. A cold trading
+coast trusts the level look, not the big grin; to "show too many teeth" is to perform yourself, to
+want to be admired, and it is quietly held against you. (This is vanity as **conceit** — *not* the
+futility sense of "vanity of vanities," which is a different concept still to be carved.)
+
 ## Greed
 
 > **Täs arvô alatü jedôn vajā.**
