@@ -1,6 +1,6 @@
 # Nelô kēļ — English → Nelôxi Reverse Index
 
-*Generated from the coursebook master dictionary (1802 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
+*Generated from the coursebook master dictionary (1813 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
 
 
 ## A
@@ -164,6 +164,7 @@ bare (Livonian) → **paljās**
 bargain → **kauplô**  
 bargain price → **çenô**  
 bargaining → **kauplômus**  
+bark (Scandinavian bjeffe) (v.) → **bjefā**  
 barn → **lāvô**  
 barrel → **tonnô**  
 barren → **pūst**  
@@ -468,7 +469,7 @@ cock (obscene) → **pik**
 code → **kodô**⁺ · **kodā**⁺  
 coffee → **kafē**  
 cold → **kylm**  
-collar → **krāgô**  
+collar → **halsbandô** · **krāgô**  
 collect → **kōrjā**  
 colloquial) → **blin** · **lombô** · **veks**  
 color → **kōlôr**  
@@ -666,6 +667,8 @@ dockside mass before departure (port ritual) → **xipmessô**
 doctor → **arst** · **doktôr**  
 dog → **gos**  
 dogma (Romance/Greek-Latin) → **dogm**  
+domesticate (Romance) → **domestikā**  
+domesticated (Romance) → **domestik**  
 don (clothing) (Low German) → **kappā**  
 door → **durô** · **port**  
 doping (international) → **dopingô**  
@@ -749,6 +752,7 @@ especially the earned → **empatô**
 establish (Romance/Latin fundare) → **fundā**  
 established truth → **tôsītū**  
 Estonia (exonym, from Eesti) → **Ēstô**  
+estrus → **estrô**  
 eternal → **igävē**  
 eternity → **tītū**  
 Eucharist (Greek-Latin church) → **eukaristī**  
@@ -818,6 +822,7 @@ fencing (from fektā) → **fektômus**
 fertilize (v.) → **väetā**  
 fertilizer → **väetô**  
 festival (Romance) → **festivô**  
+fetch (v.) → **bringā**  
 fever (Low German Fieber) → **fībôr**  
 fiddle → **fidēlô**  
 field → **nurô** · **põld** · **pēlām**  
@@ -878,6 +883,7 @@ foot → **pēu**
 football (jalg leg + pēl, clipped pēlô — the §114 jubāpēl pattern) → **jalgpēl**  
 for → **eest**  
 for a long time → **ammū**  
+for an animal (Low German Halsband) → **halsbandô**  
 for sale → **müük**  
 forbid → **keldā**  
 forecast (cf. temsdī) (v.) → **forkastā**  
@@ -1058,6 +1064,7 @@ healthy → **sān**
 hear (v.) → **kūlô**  
 heart → **kor**  
 hearth (Livonian) → **kolô**  
+heat → **estrô**  
 heaven → **paradīsô**  
 heavy → **rask**  
 heavy boot → **çizmô**  
@@ -1256,11 +1263,13 @@ Latvia (exonym, "Lett-land") → **Letmō**
 laugh (v.) → **naurā**  
 laughter → **naurô**  
 law → **lēgô**  
+lead for an animal (Slavic povodok) → **povodô**  
 league (Low German Meile) → **mīlô**  
 learn (v.) → **ôpā**  
 learned/clinical) → **nērvô** · **serebrô** · **tendô**  
 learner → **ôpāji**  
 learning → **ôpômus**  
+leash → **povodô**  
 leather → **nahkô**  
 leather strap (Marīsô, slav) → **remenô**  
 leave (v.) → **lǟkô**  
@@ -1397,6 +1406,7 @@ mend (v.) → **parandā**
 mend roughly (v.) → **xalkā**  
 mending → **parandômus**  
 Mennonite (Low German/international) → **Mennonītô**  
+meow (onomatopoeic) (v.) → **miauā**  
 merchant → **handlôji**  
 merchant register → **fluks**  
 message → **sônaktô**  
@@ -1531,6 +1541,7 @@ obscene) → **hūr**
 occupation → **okupômus**  
 occupy (Romance) (v.) → **okupā**  
 October → **oktōbôr**  
+of a dog (Low German bringen) → **bringā**  
 of all (superlative frame) → **kôust**  
 of an insect (Low German steken) → **stēkā**  
 of birds (Slavic) → **çirpā**  
@@ -1636,6 +1647,7 @@ permission → **lubô**
 permit → **lubômus** · **lubā**  
 person → **inim**  
 person from Marīsô → **marīsôr**  
+pet (v.) → **strēkā**  
 phone → **fonô**⁺ · **fonā**⁺  
 phone call → **fonômus**⁺  
 photograph → **fotô**⁺ · **fotā**⁺  
@@ -1744,6 +1756,7 @@ punishment → **karistô**
 punk (international) → **pank**  
 purple → **purpôr**⁺  
 purpose → **ārgô**  
+purr (onomatopoeic) (v.) → **murrā**  
 purse → **taskü**  
 put (v.) → **asetā** · **panā**  
 put on (v.) → **kappā**  
@@ -1819,6 +1832,7 @@ response → **vastômus**
 responsibility (irregular → **vastāmus**  
 restriction (Romance) → **restriktsiôn**  
 retreat (Romance) (v.) → **retrētā**  
+retrieve → **bringā**  
 return (v.) → **nāsô**  
 revenant (Slavic folklore) → **upīrô**  
 rhythm → **ritmô**  
@@ -2143,6 +2157,7 @@ strength → **vôim**
 strike (v.) → **udarā**  
 string (of an instrument) (Marīsô, slav) → **strunô**  
 string of attacks (coarse → **violentskett**  
+stroke an animal (Low German streken) (v.) → **strēkā**  
 strong → **fort**  
 stronghold (Low German) → **bôrkô**  
 structural → **struktūrôl**  
@@ -2204,6 +2219,7 @@ talk (v.) → **rǟkõ** · **rǟkõmus**
 talk idly (Marīsô, slav) → **bajā**  
 tall → **alt**  
 talon (Low German Klaue → **klauô**  
+tame → **domestik** · **domestikā**  
 tare → **tarô**  
 target → **mērkô**  
 taste (v.) → **maitô**  
@@ -2325,6 +2341,7 @@ thumb (Livonian) → **pēlk**
 thunder (v.) → **müristä** · **müristü**  
 Thursday → **donôrdag**  
 ticket → **piletô**⁺  
+tidbit for a pet (Low German lekker) → **lekô**  
 tide → **lūdô**  
 tie (v.) → **sidā** · **ēgô** · **ēgā**  
 tilled land → **põld**  
@@ -2365,6 +2382,7 @@ transmission → **saatômus**
 trash → **roiskô**  
 travel (v.) → **reisā**  
 travel by vehicle → **sôidā**  
+treat → **lekô**  
 treat (Romance) → **kūrā**  
 treaty (Romance) → **traktātô**  
 tree → **pū**  

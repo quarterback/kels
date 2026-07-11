@@ -95,6 +95,7 @@ bel
 benedīçômus
 benedīçā
 bidô
+bjefā
 blasfemī
 blin
 blokô
@@ -108,6 +109,7 @@ brandkellô
 brandô
 bratkô
 breviār
+bringā
 brôkô
 brüllô
 brāk
@@ -157,6 +159,8 @@ disputô
 dogm
 doktôr
 dolman
+domestik
+domestikā
 donôrdag
 donā
 dopingô
@@ -226,6 +230,7 @@ eskōl
 esmõks
 Españô
 estimô
+estrô
 estēl
 et
 etāxô
@@ -319,6 +324,7 @@ habrô
 hakôr
 half
 halgô
+halsbandô
 hambô
 hambā
 hamôr
@@ -731,6 +737,7 @@ leidā
 leikā
 leinô
 leinā
+lekô
 lent
 lepômus
 lepā
@@ -849,6 +856,7 @@ mersü
 messô
 metāl
 meçā
+miauā
 midagü
 midvôk
 miks
@@ -876,6 +884,7 @@ muntāñ
 murdā
 muretõ
 murk
+murrā
 must
 mustlivrô
 mustveç
@@ -1109,6 +1118,7 @@ port
 postkōd
 postrok
 potô
+povodô
 praadi
 praadā
 praul
@@ -1387,6 +1397,7 @@ struktūr
 struktūrôl
 strunô
 strānd
+strēkā
 strēlô
 stēkā
 stērtô
