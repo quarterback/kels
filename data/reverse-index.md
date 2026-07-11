@@ -1,6 +1,6 @@
 # Nelô kēļ — English → Nelôxi Reverse Index
 
-*Generated from the coursebook master dictionary (1832 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
+*Generated from the coursebook master dictionary (1838 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
 
 
 ## A
@@ -192,6 +192,7 @@ be enough (v.) → **piisā**
 be hungry → **nǟlgô**  
 be submerged → **upō**  
 be thirsty → **jānô**  
+be wanting (native) → **vajā**  
 beach → **strānd**  
 beam → **balkô**  
 bear → **kannā**  
@@ -487,6 +488,7 @@ combat → **kampômus**
 come (v.) → **tulē**  
 come back → **nāsô**  
 come in → **sisü**  
+come up short → **vajā**  
 comfort → **lohū** · **lohūldā**  
 coming → **tulevô**  
 commander → **komandôr**  
@@ -745,6 +747,7 @@ ember → **süsô**
 embrace → **sülü**  
 emotion → **mōl**  
 emotional wound → **haavômus**  
+emperor — he that wears the helmet over us all (üle 'over' + helmô 'helmet') → **ülehelmô**  
 empty → **pūst** · **tyhjā** · **tühjä**  
 empty out (v.) → **tühjä**  
 enclosure → **aedô**  
@@ -912,6 +915,7 @@ forbid → **keldā**
 forecast (cf. temsdī) (v.) → **forkastā**  
 forest → **meçā**  
 forest deer (Low German Reh) → **rēô**  
+forever a fish short (from vajā) → **vajômus**  
 forget (v.) → **unôstā**  
 forgive (v.) → **andõstā** · **pardā**  
 forgiveness → **pardômus**  
@@ -1022,6 +1026,7 @@ grave → **haudô**
 grave lamp → **haudôlampadô**  
 great wave → **laintū**  
 greatly → **vägä**  
+greed — the shortfall → **vajômus**  
 green → **rôhī**  
 greet (archaic (v.) → **tervütä**  
 greet (Low German) (v.) → **grȫtä**  
@@ -1103,6 +1108,7 @@ hell → **fān**
 hell-bell → **fānkellô**  
 hello (archaic → **tēre**  
 hello (Low German coastal greeting) → **moin**  
+helmet (Low German Helm) → **helmô**  
 help → **abī** · **abīstā**  
 help! (exclamation → **helpô**  
 help! (exclamation) (archaic → **appü**  
@@ -1203,6 +1209,7 @@ ink → **tintô**⁺
 inner peace → **rahu**  
 inside → **sisü**  
 instead → **hoopõs**  
+institutional loan — the church arrived from outside) → **pāpô**  
 institutional, cf. ūsk 'belief') → **fīdô**  
 instructor → **talçāji**  
 insult for a corrupt or drunken church fair (folk/polemical → **düvēlmarkôt**  
@@ -1275,6 +1282,7 @@ knowledge → **tēdômus**
 ## L
 
 label (Romance) → **designatsiôn**  
+lack (v.) → **vajā**  
 lade → **lastā**  
 lake → **jǟrv**  
 lamb → **tallô**  
@@ -1644,6 +1652,7 @@ page → **lehtô**
 pain → **valū**  
 pair (Low German Paar) → **pārô**  
 pairs with äb → **amplü**  
+palace — the silver manor → **ôbēkōt**  
 pale (of color) → **helē**  
 pan → **pannô**  
 pancake → **plinô**  
@@ -1732,6 +1741,7 @@ pompous fool → **pomp**
 poor → **vāj**  
 poor thing (sympathy) → **vaesõkõ**  
 pop music (international) → **pop**  
+pope (Romance/Latin papa → **pāpô**  
 pork → **sigôkarn**  
 portion (v.) → **jagā**  
 post-rock (international) → **postrok**  
@@ -2310,6 +2320,7 @@ that kind of → **sellü**
 that-there → **tuo**  
 thaw → **sulā**  
 the after-hours cellar (American scar spīk-) → **spīkizô**  
+the angler whose count is always missing one → **vajômus**  
 the art or sound (Romance) → **mūsikô**  
 the bar-with-character → **spīkizô**  
 the barrel as a trade volume-unit (Low German Tonne) → **tonnô**  
@@ -2329,6 +2340,7 @@ the empty-container weight (Low German Tara) → **tarô**
 the eraser — the specialist whose job is to remove one opponent (çeñ + -ôr) → **çeñôr**  
 the fixture that is an occasion (festivô + maçô, clipped) → **festmaçô**  
 the floodgate (terrace slang, opaque origin) → **sümbrôk**  
+the grand house above the stone-house (ôbē 'silver' + kōt 'house') → **ôbēkōt**  
 the grind — high praise for labor on the field (Scandinavian slit) → **slitô**  
 the grinder — one who wins ugly on purpose → **xöveläji**  
 the healing-herb sense) → **rohtô**  

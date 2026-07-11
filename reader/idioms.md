@@ -36,6 +36,27 @@ the sea deals you" (§123), not a borrowed *fatum* — the saying came first, th
 
 ---
 
+## Greed
+
+> **Täs arvô alatü jedôn vajā.**
+> *"His count is always one short."*
+> **= greed, insatiability** — the angler who, however full the boat, is forever a fish shy of enough.
+
+The image behind the word **vajômus** "greed" (§129). Not a hunger for a *thing* but a permanent
+shortfall built into the counting: the tally never comes out whole. Said of someone who has plenty
+and still reaches — wry, a little pitying. From the sea-and-count fields.
+
+## The prize as you sleep
+
+> **Perēm kun sä magā.**
+> *"A prize while you sleep."*
+> **= the last, hubristic wish** — to have the reward without the work, the world's turning done for
+> you while you rest.
+
+The overreach that ends *The Angler and the Hearth-Mate* (§129): when the wish is to be as God —
+to own the sun and moon and be served in your sleep — the sea turns black and boiling and takes it
+all back. Register: cautionary, the edge of a fable.
+
 ## The flounder-summons (a tale-formula)
 
 > **Pakalā, pakalā, merel sīn,**

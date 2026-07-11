@@ -351,6 +351,7 @@ heinô
 heitä
 hell
 hellū
+helmô
 helpô
 helē
 hennô
@@ -1190,6 +1191,7 @@ pöördô
 püstü
 püsā
 püsām
+pāpô
 pārkô
 pārô
 pāsportô
@@ -1646,6 +1648,8 @@ vahel
 vai
 vaik
 vaikõ
+vajômus
+vajā
 vaksô
 valdômus
 valdā
@@ -1791,6 +1795,7 @@ xȫvlā
 çizmô
 ôblā
 ôbē
+ôbēkōt
 ôhtôk
 ôigus
 ôlgô
@@ -1809,6 +1814,7 @@ xȫvlā
 üksū
 üksūldā
 üle
+ülehelmô
 ümbristô
 ümbär
 ürd
