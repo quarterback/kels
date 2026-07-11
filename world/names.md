@@ -9,6 +9,34 @@ household or local-language name may remain different, but the state record alwa
 version. This keeps the old function of names — a **verifiable record of origin** — while letting
 modern families make the descriptor poetic, hyperlocal, bureaucratic, or strange.
 
+## The legal anchor — Nordic-coded, not whimsical
+
+The practice reads as plausible law, not fancy, because it **extends real Nordic naming culture**:
+
+- **Registry-governed names.** Sweden, Norway, Denmark, and Iceland administer legal names far
+  more tightly than the US model — Sweden registers names through the tax authority; Norway
+  restricts names that would seriously disadvantage the bearer.
+- **Grammatical fit required.** Icelandic name law requires a given name to fit the language's
+  morphology and alphabet; a name not already accepted goes through official approval. A name must
+  be *usable in the state language*, not merely a family's preference.
+- **Old social-location logic.** Older Scandinavian systems identified people by relation and
+  origin rather than a fixed modern surname (patronymics like "Karl's son" hardened into surnames;
+  Iceland still runs a live patronymic/matronymic structure).
+
+Nelôxia pushes the logic one step further: the state does not merely *approve* a name — it
+**localizes every civil name into Nelôxi**. The local-language name may live on in the family,
+church, mosque, or regional registry, but the birth certificate also carries a Nelôxian civil form.
+So the register is Nordic-coded three ways: **governed by a registry · grammatically usable in the
+state language · preserving old social-location logic.**
+
+The distinctive Nelôxian move is the **descriptor**. The civil name is not *given + family* but
+**origin-descriptor + given + family**, and the descriptor preserves *social geography* — where you
+are from — rather than parentage alone. That is what lets the register hold a plurilingual state
+together: in Triste, Korsik, Bohemia, Atlanta, or Pomerania, people keep their local names while
+every citizen still receives a Nelôxi archive-form at birth — unity in the archive without erasing
+local languages. (The short civic form may run to one or two anchor words: *Küpsām Jān Novāk* or,
+for a hyperlocal descriptor, *Knellas Küpsām Jān Novāk*.)
+
 ## The three forms
 
 Each person can carry three parallel forms of their name:
