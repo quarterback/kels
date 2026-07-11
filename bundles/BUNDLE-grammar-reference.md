@@ -2,7 +2,7 @@
 
 > The full structural core of Nelôxi in one file. Hand this to a grammar agent, or to any
 > agent that has started drifting (using Estonian, guessing forms) to re-ground it.
-> Canon v5.52. Every module assumes no prior knowledge.
+> Canon v5.53. Every module assumes no prior knowledge.
 
 ---
 
@@ -28,6 +28,13 @@ Reading order for a full onboarding:
 - **11 — Commands & Suggestions** — the imperative (bare stem) and hortative (-m)
 - **12 — Numbers** — dozenal digits, fused teens, counted nouns, fractions, clock time, and percent
 - **13 — Loan Endings & Surface Balance** — how a borrowed word enters and declines; -ô is one landing form, not the default (§109)
+- **14 — Sentence & Text Composition** — the capstone: building a clause, joining clauses into complex sentences, and chaining sentences into a paragraph; a writer's checklist and the syntactic gaps that block prose
+
+Reference (not a teaching module):
+- **structural-profile-apics** — Nelôxi's full typological profile answered against the APiCS
+  (Atlas of Pidgin & Creole Language Structures) parameter framework: word order, nominal
+  categories, TMA, negation, questions, sound systems, lexicon, sociolinguistics — with
+  daughter-lect divergences and open slots flagged.
 
 Planned / forthcoming modules:
 - **05 — Contact History** — the historical story of who brought which words (Hanseatic Low
@@ -589,6 +596,22 @@ This module shows how every English time-meaning is actually expressed. Do not i
 Copula: **um** (present, all persons) / **ūli** (past). Conditional: **-ks** (*voleks* "would
 want," *pidāks* "should").
 
+### Building the past — two classes (§120)
+
+The marker is always **-i**; how it surfaces depends on the verb's class:
+
+- **Class I — basic (root) verbs.** Drop the final stem vowel, add **-i**. After root **-a-/-ā**
+  the *-i* fuses into the diphthong **-ai**: *donā→donai*, *votā→votai*, *ootā→ootai*,
+  *vōigā→vōigai*, *kantā→kantāi*. After other root vowels it is plain **-i**: *lǟdô→lǟdi*,
+  *pelgô→pelgi*, *sōudô→sōudi*, *itkô→itki*.
+- **Class II — derived verbs** (a derivational suffix on the stem — frequentative *-ldā/-tā*,
+  continuative/inchoative *-stā/-stō*). The suffix's consonant blocks the diphthong, so the past is
+  long **-ī**: *kalāstā→kalāstī*, *môtôldā→môtôldī*, *armôldā→armôldī*.
+- **Strong basic verbs** — the three highest-frequency roots lexicalize a long **-ī**:
+  *tulē→tulī*, *elā→elī*, *nǟgô→nǟgī*. Learn these as irregulars.
+- **Monosyllabic vowel-roots** take a **-si** past to stay distinct from the present:
+  *dī→dīsi* "said."
+
 ## How each English tense is expressed
 
 ### Future — present + a time-word
@@ -620,8 +643,9 @@ There is no perfect. The simple past covers it:
 
 ### Still / not yet / no longer — veel and the negation
 - *Tä veel magā* "He's still sleeping." · *Tä äb veel tulī* "He hasn't come yet."
-- *Tä äb magā enäm* — "no longer" is a GAP (*enäm* is not canon; flag it). Currently: *Tä äb
-  magā nū* "he isn't sleeping now."
+- *Tä äb magā amplü* "He no longer sleeps / doesn't sleep anymore." **amplü** (§120) is the
+  negative-polarity "no longer / anymore"; it pairs with preverbal *äb*. (Estonian *enäm* stays
+  off-limits, §112.)
 
 ## The time-word toolkit (all canon)
 
@@ -630,14 +654,18 @@ tomorrow · *avuī* today · *ajēr* yesterday · *hetk* a moment · *ammū* lon
 **Sequence:** *enne* before/earlier · *pǟrast* after · *tôl* then/next · *seejärõl* after that ·
 *esmõks* first · *lopõks* finally · *selēks* by then · *alõs* not until · *kuni* until (clause).
 **Frequency:** *alatü* always · *sagõ* often · *vahel* sometimes · *harvõ* rarely · *jällü*
-again · *jubā* already · *veel* still.
+again · *jubā* already · *veel* still · *amplü* (with *äb*) no longer, anymore.
+**Distributive:** *elkü* every, each (*elkü matī* "every morning").
 
 ## Rules for contributors
 
 1. **Never coin a future, perfect, or progressive form.** The system above is complete by design.
 2. Time goes in a **time-word**; completion goes in the **object's case**; everything else is
    the plain present or past.
-3. "No longer / anymore" is a flagged gap — do not fill it yourself.
+3. Build the past by **class** (§120): basic *-a-/-ā* roots → **-ai**, other basic roots → **-i**,
+   derived *-stā/-ldā/-tā/-stō* stems → long **-ī**; strong *tulī/elī/nǟgī*, monosyllabic *dīsi*.
+4. "No longer / anymore" is **amplü** (§120), with *äb*. Add the frequency word **amplü** to the
+   toolkit below.
 
 ---
 

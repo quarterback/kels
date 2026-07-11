@@ -126,7 +126,7 @@ Writing connected prose exposes these — a writer who hits one **flags it for t
 - **"while" (simultaneous)** — no dedicated form; *kun* "when" is the nearest. ⟨gap⟩
 - **Reported speech** — direct quotation works (*Tä dī: "…"*); indirect beyond *et*-complements
   (sequence-of-tense, embedded questions) is undeveloped. ⟨open⟩
-- **"no longer / anymore"** — a known gap (module 09); do not fill it.
+- **"no longer / anymore"** — closed (§120): **amplü** with preverbal *äb* (*äb … amplü*).
 - **Deep relative clauses** (a relative with its own past and object) — use the full **ken/mis**
   clause, not a participle.
 - **Focus / clefting** ("it was the fisher who…") — no dedicated construction. ⟨open⟩

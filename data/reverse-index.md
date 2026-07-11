@@ -1,6 +1,6 @@
 # Nelô kēļ — English → Nelôxi Reverse Index
 
-*Generated from the coursebook master dictionary (1813 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
+*Generated from the coursebook master dictionary (1815 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
 
 
 ## A
@@ -701,6 +701,7 @@ dwell → **elā**
 
 ## E
 
+each (distributive determiner → **elkü**  
 each other → **teinütõ**  
 eagle (formal/literary) (Romance/Latin aquila) → **akvilô**  
 eagle (the common word) (Scandinavian) → **arn**  
@@ -761,6 +762,7 @@ evening meal → **ôhtôk**
 eventive adj., §96) → **väsinü**  
 ever → **kunagü**  
 everlasting → **igävē**  
+every → **elkü**  
 everyday drinking house (English/Low German) → **pubô**  
 everything → **kôgõ**  
 everything clicking (Romance/Catalan roda → **rōdā**  
@@ -1340,6 +1342,7 @@ love (archaic → **armõ**
 love (n.) → **amōr**  
 Low German → **forkastā**  
 Low German doublet of nīt) → **nahtô**  
+Low German elk) → **elkü**  
 Low German panic-cry — distinct from the verb abīstā 'to help', which stays Livonian) → **helpô**  
 Low German) → **lüstä**  
 lower (v.) → **langôtā**  
@@ -1504,6 +1507,7 @@ nine → **deveñç**
 nineteen → **dünsedm**  
 no (trade) → **nē**  
 no harm (reassurance) → **pōlpardõ**  
+no longer → **amplü**  
 no matter → **līkgōd**  
 nod (v.) → **nõkā**  
 noise music (international, experimental) → **noiz**  
@@ -1608,6 +1612,7 @@ pact → **paktô**
 page → **lehtô**  
 pain → **valū**  
 pair (Low German Paar) → **pārô**  
+pairs with äb → **amplü**  
 pale (of color) → **helē**  
 pan → **pannô**  
 pancake → **plinô**  
@@ -1857,6 +1862,7 @@ rock (at sea) → **karīk**
 rock music (international) → **rokô**  
 roe deer → **rēô**  
 Romance) → **estimô** · **fortē** · **pianē**  
+Romance/Latin amplius) → **amplü**  
 rood (technical → **krūçôfiks**  
 room → **kambôr**  
 rooster → **kukô**  
