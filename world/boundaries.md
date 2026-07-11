@@ -13,12 +13,12 @@ Russia assimilated the names of its peoples.
   *Udu-Sild* "Mist-Bridge," *Säde-Raud* "Spark-Iron," *Sund-Vatn* "Sound-Waterway").
 - The **given name** is Nelôxized in form.
 - The **family name** is fully integrated into Nelôxi by EITHER path, mix-and-match per family:
-  **meaning-translated** (Dvořák → *Hoov* "court," Morozov → *Külmetu* "frost," Richter →
+  **meaning-transcribed** (Dvořák → *Hoov* "court," Morozov → *Külmetu* "frost," Richter →
   *Kohtunik* "judge") OR **phonetically kept** in Nelôxi spelling (Kalniņš stays Kalniņš).
 - The full three-part Nelôxized string is the absolute legal, digital, and civil truth; local
   vernacular variants coexist in everyday speech.
 This is why a founding city like Uusatôm (Odessa) carries a Nelôxian name outright — its founders
-named it themselves, in their own tongue.
+named it themselves, in their own tongue. *(Full convention and worked examples: `names.md`.)*
 
 **Capital architecture** (split-capital federal platform): the administrative, executive, and
 financial capital is **Kunislinnô** (settled — the Baltic financial bulwark). A separate
@@ -30,9 +30,11 @@ legislative capital in canon until the founder rules.)
 Nelôxia is a **single contiguous state** — the older Baltic–Karelian homeland plus the accession
 territories of the Amber Road corridor and the Adriatic, with Corsica as a detached Mediterranean
 relay. The borders are accumulated jurisdictions, not ethnic lines: ports, corridors, customs
-spines, shipyards, and terminals. Working scale ≈ 760,000 km², ≈ 56 million. (For the acquisition
-history and the modern-state model see the lore docs; for regional-domain vocabulary see the
-deferred regional-domain sourcing addendum.)
+spines, shipyards, and terminals. Working scale ≈ **1,070,000 km²**, ≈ **80 million** (the full
+15-region state; the earlier ≈760,000 km² / ≈56M covered regions 1–11, before the Dalmatian,
+Balkan, Thracian, and Black Sea accessions of regions 12–15 added ≈310,000 km² and ≈24M). (For
+the acquisition history and the modern-state model see the lore docs; for regional-domain
+vocabulary see the deferred regional-domain sourcing addendum.)
 
 **Regions:** Maritime Core & Livonian Homeland · Prussian Anchor · Vistula Delta & Pomeranian
 Corridor · Baltic Inland Estate Belt · Curonian Land Bridge · Slavic Frontier · Karelia (contiguous
