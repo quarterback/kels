@@ -31,9 +31,15 @@ legacy = set(legacy_path.read_text().split()) if legacy_path.exists() else set()
 RETIRED = set('õêîûâšč')
 errors = []
 for h, g in items:
-    if (RETIRED & set(h)) and h not in legacy:
-        errors.append(f"retired grapheme in new headword: {h!r} (õ/ê/î/û/â/š/č left the "
-                      f"inventory — use ô/ē/ī/ū/ā/x/ç; §104/§109)")
+    # The native grammatical -õ ENDING (adjective/adverb: kaunõ, harvõ, sagõ, rôimõ) is a LIVING
+    # morpheme — not the retired stem-õ the v4.0 reform replaced with ô in body-part roots
+    # (nõsô→nôsô, §104/§126). A single word-final õ is therefore legal in new coinage; if a word
+    # makes grammatical sense on this ending, it exists. õ elsewhere (stems/loans) and êîûâšč
+    # anywhere still fail — those are real drift.
+    stem = h[:-1] if h.endswith('õ') else h
+    if (RETIRED & set(stem)) and h not in legacy:
+        errors.append(f"retired grapheme in new headword: {h!r} (stem õ/ê/î/û/â/š/č left the "
+                      f"inventory — use ô/ē/ī/ū/ā/x/ç; §104/§109; the native -õ ending is exempt, §126)")
     if re.search(r'\b(Estonian|Finnish)\b', g):
         errors.append(f"{h!r}: gloss cites Estonian/Finnish — source the native pole from "
                       f"Livonian/Karelian instead (§112)")

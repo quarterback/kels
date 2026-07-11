@@ -4,7 +4,7 @@ These high-frequency words ALREADY EXIST. Do not coin them, and never write the 
 equivalent (nüüd, juba, aga, siis, ka, saama, panema…). Use these exact forms. If you need a
 function word not listed here, it is a real gap — flag it; do not borrow from Estonian/Finnish.
 
-Canon v5.52. Full list in data/headwords.txt.
+Canon v5.65. Full list in data/headwords.txt.
 
 ## Pronouns & determiners
 - **mä** — I
@@ -23,6 +23,7 @@ Canon v5.52. Full list in data/headwords.txt.
 - **samā** — the same
 - **sellü** — such, that kind of
 - **teinütõ** — each other, one another
+- **elkü** — every, each (distributive determiner; *elkü matī* "every morning")
 
 ## Question words
 - **ka** — (question particle)
@@ -69,6 +70,7 @@ Canon v5.52. Full list in data/headwords.txt.
 - **jubā** — already
 - **jällü** — again
 - **veel** — still, yet
+- **amplü** — no longer, (not) anymore (with *äb*: *äb … amplü*)
 - **vahel** — sometimes
 - **alatü** — always
 - **sagõ** — often

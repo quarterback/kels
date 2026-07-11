@@ -20,6 +20,13 @@ Reading order for a full onboarding:
 - **11 — Commands & Suggestions** — the imperative (bare stem) and hortative (-m)
 - **12 — Numbers** — dozenal digits, fused teens, counted nouns, fractions, clock time, and percent
 - **13 — Loan Endings & Surface Balance** — how a borrowed word enters and declines; -ô is one landing form, not the default (§109)
+- **14 — Sentence & Text Composition** — the capstone: building a clause, joining clauses into complex sentences, and chaining sentences into a paragraph; a writer's checklist and the syntactic gaps that block prose
+
+Reference (not a teaching module):
+- **structural-profile-apics** — Nelôxi's full typological profile answered against the APiCS
+  (Atlas of Pidgin & Creole Language Structures) parameter framework: word order, nominal
+  categories, TMA, negation, questions, sound systems, lexicon, sociolinguistics — with
+  daughter-lect divergences and open slots flagged.
 
 Planned / forthcoming modules:
 - **05 — Contact History** — the historical story of who brought which words (Hanseatic Low

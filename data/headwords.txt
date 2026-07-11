@@ -28,16 +28,19 @@ alk
 alkirjā
 alkā
 alliansô
+almirāl
 alt
 altār
 alõs
 alējô
 alū
+ambaxadôr
 ambient
 Amerikô
 amerikôjalgpēl
 ammū
 amplifôr
+amplü
 amtô
 amtôji
 amuletô
@@ -71,6 +74,7 @@ asetā
 atakā
 atlēt
 atlētīk
+auditôr
 augôst
 avenīd
 avuī
@@ -89,6 +93,7 @@ bargā
 barô
 bassgitarô
 bassô
+batle
 bebē
 beisbol
 bel
@@ -142,6 +147,9 @@ dansā
 Danô
 definā
 dek
+deklarā
+dekret
+dekretā
 delegatsiôn
 demā
 dent
@@ -154,8 +162,11 @@ deusô
 deveñç
 diakonô
 dioçēsô
+diputāt
 diskutā
 disputô
+distrikt
+Diēt
 dogm
 doktôr
 dolman
@@ -215,8 +226,10 @@ ekôsüstēm
 ekõ
 elektrônikô
 elg
+elkü
 ellô
 elva
+eläji
 elômus
 elā
 empatô
@@ -292,12 +305,14 @@ fānkellô
 fībôr
 fīdô
 fīnô
+fīnā
 fȫrô
 gans
 garnisô
 garnô
 gatô
 gaupô
+generāl
 genô
 gigô
 gimnastīk
@@ -317,6 +332,7 @@ grād
 grīs
 grūvô
 grȫtä
+gubernātôr
 gūd
 haavômus
 haavā
@@ -348,6 +364,7 @@ heinô
 heitä
 hell
 hellū
+helmô
 helpô
 helē
 hennô
@@ -368,6 +385,8 @@ häbedā
 häbū
 hülā
 hērô
+hīr
+hīrlôukkōt
 hūl
 hūr
 hūrkirīk
@@ -386,6 +405,7 @@ ikonxolkô
 ikonô
 ilma
 ilo
+imposā
 improvizômus
 improvizā
 imô
@@ -402,6 +422,7 @@ Irland
 issõ
 istā
 isü
+isülivrô
 itkô
 ja
 jaamô
@@ -499,11 +520,13 @@ kapasitēt
 kapellô
 kapelô
 kapitulā
+kapitān
 kaplōtô
 kappā
 kaptā
 kaptīvô
 kapustô
+karantēn
 karatē
 karistô
 karistā
@@ -554,6 +577,7 @@ kirīk
 kitlô
 kitsô
 kivī
+kivīkōt
 klaidô
 klamôt
 klarinēt
@@ -591,6 +615,7 @@ konfessiôn
 konfessālô
 konfirmômus
 konfirmā
+konfiskā
 konfliktô
 konfusü
 kontrabass
@@ -598,6 +623,7 @@ kontē
 koorõm
 kops
 kor
+koronēl
 korpôsô
 korraks
 korôr
@@ -637,6 +663,8 @@ kuivômus
 kukô
 kukôr
 kuld
+kuldapoig
+kuldxapkô
 kullõ
 kultivômus
 kultivā
@@ -775,6 +803,7 @@ läbi
 läpx
 lôigā
 lông
+lôuk
 lôunā
 löxā
 lüstä
@@ -825,6 +854,7 @@ maksômus
 maksā
 malālt
 mandolīn
+manifest
 manxetô
 marginôl
 markôt
@@ -852,6 +882,7 @@ Mennonītô
 mentīd
 mer
 merd
+merjagô
 mersü
 messô
 metāl
@@ -890,6 +921,7 @@ mustlivrô
 mustveç
 mustveçkôrd
 muutô
+mytnik
 mä
 mäng
 mäntlô
@@ -961,6 +993,7 @@ negotsiā
 nestô
 niimôdõ
 nim
+nimpundô
 nixō
 njah
 nobē
@@ -975,6 +1008,7 @@ nord
 nordost
 nordvest
 nostô
+notār
 novembôr
 nugā
 nugāaktô
@@ -1046,6 +1080,7 @@ otsômus
 ovanlü
 pa
 padā
+pakalā
 pakkü
 paks
 paktô
@@ -1067,6 +1102,7 @@ parandā
 pardô
 pardômus
 pardā
+parlamēnt
 parlā
 parokô
 pastôr
@@ -1106,6 +1142,8 @@ platôspēlin
 plinô
 plēnô
 plēnô-melk
+podestā
+podestātô
 pogô
 poig
 politsī
@@ -1117,6 +1155,7 @@ pop
 port
 postkōd
 postrok
+posādnik
 potô
 povodô
 praadi
@@ -1124,6 +1163,7 @@ praadā
 praul
 pregômus
 pregā
+presidēnt
 preverô
 privatü
 problēm
@@ -1177,6 +1217,8 @@ pöördô
 püstü
 püsā
 püsām
+pāpô
+pār
 pārkô
 pārô
 pāsportô
@@ -1226,6 +1268,9 @@ ravôji
 ravā
 redē
 Reformātô
+registrô
+registrā
+reglament
 reinô
 reisô
 reisā
@@ -1257,6 +1302,7 @@ rosār
 rugbi
 rôhī
 rôim
+rôimõ
 rôimā
 Rôtsô
 röstā
@@ -1332,6 +1378,7 @@ selkô
 sellü
 selēks
 semprē
+Senāt
 septembôr
 serebrô
 sermônô
@@ -1348,6 +1395,7 @@ sidômus
 sidā
 signô
 sigô
+sigôkarn
 sildô
 silm
 silē
@@ -1538,6 +1586,7 @@ torsô
 torô
 traktātô
 trekô
+tresorēr
 tri
 trombôn
 troppô
@@ -1603,6 +1652,7 @@ tōl
 tōlpreverô
 tōnô
 tūļ
+tūļā
 tǟs
 tȫ
 tȫdô
@@ -1630,6 +1680,8 @@ vahel
 vai
 vaik
 vaikõ
+vajômus
+vajā
 vaksô
 valdômus
 valdā
@@ -1693,6 +1745,7 @@ violīn
 virkā
 viskā
 vist
+voivod
 volk
 volē
 vool
@@ -1775,6 +1828,7 @@ xȫvlā
 çizmô
 ôblā
 ôbē
+ôbēkōt
 ôhtôk
 ôigus
 ôlgô
@@ -1785,11 +1839,17 @@ xȫvlā
 ôpā
 ôpāji
 ühü
+ühüfôk
 Ühüriigôd
+ühüvôrk
+ühüvāgô
+Ühüvēu
 üksü
 üksū
 üksūldā
 üle
+ülehelmô
+Ülerēdām
 ümbristô
 ümbär
 ürd

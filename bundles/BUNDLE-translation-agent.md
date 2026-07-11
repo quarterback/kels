@@ -4,7 +4,7 @@ You do **live translation**: a human hands you a real-world text, you render it 
 line by line, and you generate new vocabulary (roots) as you hit gaps. This is how the corpus
 grows into a real language. Read this whole bundle before starting.
 
-Current canon: **v5.52, ~1813 headwords.**
+Current canon: **v5.65, ~1873 headwords.**
 
 ---
 
@@ -71,9 +71,10 @@ loan quarries do broad everyday work, not niches):
 | **law, learning, documents, abstract & scholarly, sentiment, cuisine, formal register** | **Romance/Latin** | legitīm, struktūr, psükolōg |
 | body, kin, land, sea, oldest actions, grammar-glue | **Livonian-Karelian core** (NARROW) | mer, tēdô, ehtsô |
 
-- **Abstract/scholarly/argumentative vocabulary → Romance-Latin, always.** Worn as visible loans,
-  exactly as English carries its Latinate abstract vocabulary on Germanic grammar. Never build a
-  native Finnic compound for an abstract concept when a Romance loan is available.
+- **Technical / institutional / scholarly vocabulary that genuinely ARRIVED from outside → borrow**
+  (Romance-Latin for law/learning/documents; international for tech/sport; Low German for the wharf).
+  Worn as visible loans. ⚠️ **BUT this no longer applies to *lived* abstractions — see the TEXTURE
+  DOCTRINE below, which is the single most important update to this bundle.**
 - The map shows where each quarry is DENSEST, not its only place. Ordinary non-core words
   (window, roof, neighbor, to hurry) should FREQUENTLY be Low German or Slavic, not Finnic.
 - The Finnic core is **Livonian primary, Karelian secondary** — NOT generic Finnic, NOT
@@ -93,6 +94,38 @@ Sand it just enough to fit Nelôxi phonology and take endings:
 
 ---
 
+## ⭐ THE TEXTURE DOCTRINE (§122–§128) — READ THIS; it overrides "borrow for abstractions"
+
+Borrowing is right for **concrete things and genuinely imported institutions**. It is *wrong* for
+concepts the culture already **lives** — emotions, virtues, kinship, fate, freedom. Coining those as
+loan+`-ô` (*dignitā*, *egāl*) makes a cipher, not a language. Read `college/METAPHOR-FIELDS.md` in full.
+
+**The test for every gap: *would a fisher-trader on this cold trading coast reach for a foreign word,
+or did this concept genuinely arrive from outside?*** If they'd already have it, BUILD it from native
+material — the sea, the salt & scale, the black-book, the net, the hearth, the parish, the pitch —
+by compound or extension, and write the gloss as *an image with a stance*, not a dictionary equivalent.
+
+- ✅ fate → **merjagô** "the share the sea deals you" (not Latin *fatum*)
+- ✅ dignity → **nimpundô** "the weight a name carries" · conscience → **isülivrô** "the inner black-book"
+- ✅ equal → **ühüvāgô** "of one weight on the scale" · brotherhood → **ühüvôrk** "one net"
+- ✅ flounder → **pakalā** "loaf-fish" · hovel → **hīrlôukkōt** "a house full of mousetraps"
+- ❌ **do not default to `-ô`.** An `-ô` ending on a lived concept is the tell you got lazy. Compound.
+
+**Kinship is not possession, and not gendered (§127).** Never render "his wife / her husband / their
+children." Name people and bond them — *ja* "and", apposition, comitative `-k` — never a possessive,
+never a gendered kin-word. *"Sergei, his wife Misha, and their kids"* → *Sergei ja ühüfôk Misha, ja
+läpxôd…*. Use **ühüfôk** "spouse" (shared-hearth), **läpx** "child" (genderless). Possessives are fine
+for *things* (*täs līnô* "his line"), never for people.
+
+**Idioms & formulas (§124).** When a concept wants a *scene*, give it one and register it in
+`reader/idioms.md` with its edge (freedom = *säs eläji kōrrô karrēl…* "your animals in the street
+eating ham"). A recurring refrain in a tale is a **formula** — fix it and register it.
+
+**The lint gate flags, it does not veto (§126).** `tools/regen_data.py` blocks retired graphemes
+(`õêîûâšč` in stems) and Estonian citations — real drift. But the native `-õ` *ending* is legal
+(*kaunõ, rôimõ*), and a grammatically sound form the founder wants stands. The gate is a guardrail,
+not a court.
+
 ## THE TRANSLATION METHOD (do this live, line by line)
 
 1. Take one sentence. Render it into Nelôxi using words that already exist (check headwords.txt).
@@ -110,15 +143,38 @@ Sand it just enough to fit Nelôxi phonology and take endings:
 
 ## WHAT NEEDS THE HUMAN (a thin slice — everything else you just decide)
 
-Flag back to the founder ONLY:
-- a coinage whose morphology encodes a contestable claim (e.g. building "legitimacy" as
-  "genuine-permission" argues that legitimacy IS permission — that's an interpretation)
-- a missing SYSTEM (a whole tense, a new case, a numbering/measurement convention)
-Everything else — ordinary roots, which quarry, nativization — you decide by the rules and commit.
-You are doing the work, not asking permission for each word.
+You decide: ordinary concrete/institutional roots (which quarry, nativization), all derivation and
+inflection, idiom construction, the kinship phrasing. **Flag to the founder ONLY:**
+- **Culturally-loaded lived concepts** where the *image itself is a design choice* — happy, freedom,
+  fate, honor, love, grief, a curse, a blessing. The founder often wants to *carve the sense* (happy =
+  glee/celebration/pride; freedom = animals loose in the street). Propose your best image, but mark it
+  ⟨founder-image⟩ so it can be reshaped. This is where the language's soul is set.
+- A coinage whose morphology encodes a contestable claim (e.g. "legitimacy" as "genuine-permission").
+- A missing **SYSTEM** (a whole tense, a new case, a measurement convention).
+
+Everything else you decide by the rules and commit. You are doing the work, not asking per word.
+
+## THE MERGE PIPELINE (how a finding becomes canon — run it yourself)
+
+A gap-list isn't enough; land the words. In order:
+1. **Add each headword** to the right per-letter line in `coursebook/nelo-kel-coursebook.md`
+   (format: `hw gloss (source/etymology)` joined by ` · `). Gloss lived concepts as *images*.
+2. `python3 tools/regen_data.py` — regenerates `data/{dictionary.tsv,headwords.txt}` and runs the
+   **lint gate**. Fix real drift; the `-õ` ending is exempt.
+3. `python3 tools/regen_reverse.py` — rebuilds the English→Nelôxi index.
+4. **Charter** `college/kels-kolegi-charter.md`: bump the §7 header (`vX — N entries`), regenerate the
+   §7 headword line from `data/headwords.txt`, and append a **ruling §NNN** describing the batch.
+5. `python3 tools/build_bundles.py` — validates count == charter, stamps `data/version.json` + all
+   bundles/briefs. It **fails loudly** if anything is inconsistent — that's your proof of a clean merge.
+6. Register any new reader text in `assets/app.js` (ROUTES; run `node --check assets/app.js`).
+7. Commit + push. Minor-version bump when headwords change; ruling number always advances.
 
 ## DELIVERABLE
 
-The live translation (Nelôxi + literal back-translation, quarry noted per new root), plus a
-clean batch list at the end grouped by quarry, ready to merge. Hand the batch to whoever merges
-to the live repo.
+1. **The translation** as a `reader/*.md` file — Nelôxi + line-by-line English, register-exempt names.
+2. **New words merged** through the pipeline above (not just listed) — each an image or a justified loan.
+3. **A gap-list** of what's still missing (⟨word gap⟩ / ⟨grammar gap⟩ / ⟨founder-image⟩) — the seam for
+   the next agent.
+4. **Idioms/formulas** registered in `reader/idioms.md`.
+
+Pick your next text from `college/TEXT-WORKLIST.md` — claim it, translate it, land the words, mark it done.

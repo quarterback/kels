@@ -16,7 +16,7 @@ Grandmother buys mushrooms and makes soup. The child wants a donut. "Are you com
 
 ### Metrolect (port · capital · Marīsô — the standard)
 
-> Mati, kalāj tul satāmôl. Tä vend kalān markôtôl. Babkô komprā gribôn ja tek supôn.
+> Mati, kalāj tul satāmôl. Tä vend kalān markôtôl. Babkô komprā gribôn ja kuin supôn.
 > Läpx vol flœzīn. *Ka sä tul? — Nūlô, nūlô…* Vana nān maks drobôk. Jôvā mati — adē!
 
 The metrolect clips final vowels in casual speech, reaches for the Slavic forms **babkô**
@@ -26,7 +26,7 @@ vanamǟr*) for official or literary registers, which is the written standard.
 
 ### Inland (rural interior)
 
-> Matī kalāji tulē satāmôl. Tä vendā kalān markôtôl. Vanamǟr komprā pôlūn ja teki supôn.
+> Matī kalāji tulē satāmôl. Tä vendā kalān markôtôl. Vanamǟr komprā pôlūn ja kuinā supôn.
 > Läpx volē flœzīn. *Ka sä tulē? — Nūnū.* Vana nān maksā rāk. Jôvā matī, adē.
 
 Inland keeps every full form, the native **vanamǟr** "grandmother" and **pôlū** "mushroom",
