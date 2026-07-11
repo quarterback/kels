@@ -219,6 +219,7 @@ elg
 elkü
 ellô
 elva
+eläji
 elômus
 elā
 empatô
@@ -1353,6 +1354,7 @@ sidômus
 sidā
 signô
 sigô
+sigôkarn
 sildô
 silm
 silē

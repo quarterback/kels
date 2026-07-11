@@ -21,6 +21,7 @@
     folktale:    { title: "The fisher & the sea", sub: "Folktale (past tense)",         file: "reader/folktale-fisher-sea.md",    group: "Reader" },
     calibration: { title: "Calibration texts",  sub: "North Wind · UDHR Art. 1",       file: "reader/calibration-texts.md",      group: "Reader" },
     merchant:    { title: "The merchant & daughter", sub: "Dialogue + simultaneous action", file: "reader/folktale-merchant-daughter.md", group: "Reader" },
+    idioms:      { title: "Idioms & sayings",   sub: "Freedom, fate, and other pictures", file: "reader/idioms.md",                 group: "Reader" },
     dialects:    { title: "Dialects",          sub: "Overview",                     file: "dialects/README.md",               group: "Dialects" },
     metrolect:   { title: "Metrolect",         sub: "Metroplex standard",           file: "dialects/metrolect/metrolect.md",  group: "Dialects" },
     inland:      { title: "Inland",            sub: "Conservative rural",           file: "dialects/inland/inland.md",        group: "Dialects" },

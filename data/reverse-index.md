@@ -1,6 +1,6 @@
 # Nelô kēļ — English → Nelôxi Reverse Index
 
-*Generated from the coursebook master dictionary (1821 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
+*Generated from the coursebook master dictionary (1823 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
 
 
 ## A
@@ -88,6 +88,7 @@ ancestor → **vanôr**
 anchor → **akôr**  
 and → **ja**  
 angry → **vihān**  
+animal → **eläji**  
 animal feed → **sȫtô**  
 ankle (Livonian) → **pērs**  
 annotate → **märkā**  
@@ -194,6 +195,7 @@ beach → **strānd**
 beam → **balkô**  
 bear → **kannā**  
 bear (Low German) → **bēr**  
+beast → **eläji**  
 beat (v.) → **bītā**  
 beat (Romance) → **ritmô**  
 beat a drum → **trummôstā**  
@@ -552,6 +554,7 @@ cowardly → **klȫtôtū**
 crap! (vulgar) → **skīt**  
 crawl (Low German krupen) (v.) → **krūpā**  
 cream-filled pastry (Belgian import) → **flœzī**  
+creature — a living thing (elā 'to live' + -ji 'the living one') → **eläji**  
 cricket (international) → **kriket**  
 crime → **vǟrô**  
 criminal (Romance) → **kriminālô**  
@@ -1042,6 +1045,7 @@ haggling → **kauplômus**
 hair → **kabēl**  
 half → **half**  
 halt → **püsā**  
+ham — pig-meat (sigô 'pig' + karn 'meat') → **sigôkarn**  
 hammer → **hamôr**  
 hand → **kǟs**  
 hand-span as a measure (Livonian) → **vaksô**  
@@ -1711,6 +1715,7 @@ pompous fool → **pomp**
 poor → **vāj**  
 poor thing (sympathy) → **vaesõkõ**  
 pop music (international) → **pop**  
+pork → **sigôkarn**  
 portion (v.) → **jagā**  
 post-rock (international) → **postrok**  
 postal code (international) → **postkōd**  

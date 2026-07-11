@@ -99,6 +99,10 @@ reassuring and instructive:
   / *ārmastô*; *libertā* (legal freedom) beside the open-passage sense of *līberü*; *animô* (church
   soul) beside folk *duhô* / *navô*. English has exactly this (freedom/liberty, deep/profound). A
   loan is a relex **sin only when it is the *sole* word** for something the culture lives.
+- **Lived freedom got an *idiom*, not a word (§124).** *Säs eläji kōrrô karrēl ja menjā sigôkarnt*
+  "your animals are running in the street eating ham" — freedom you can see, the yard thrown open.
+  See `reader/idioms.md`. This is the pattern to reach for when a concept wants a *scene*, not a
+  headword — the fullest texture there is.
 
 The lesson: the corpus was healthier than it looked — the relex was concentrated in the *most
 abstract, latest-coined* layer (the UDHR cluster, fate), precisely where a coiner reaches for Latin
