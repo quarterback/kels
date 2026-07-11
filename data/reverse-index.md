@@ -1,6 +1,6 @@
 # Nelô kēļ — English → Nelôxi Reverse Index
 
-*Generated from the coursebook master dictionary (1820 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
+*Generated from the coursebook master dictionary (1821 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
 
 
 ## A
@@ -633,7 +633,7 @@ designation → **designatsiôn**
 desire → **tahtô**  
 desire deeply (v.) → **tahtôldā**  
 dessert → **magūsū**  
-destiny (Romance/Latin) → **fatômô**  
+destiny (literary/bookish → **fatômô**  
 devil → **düvēl**  
 devil-market → **düvēlmarkôt**  
 devilish → **düvlik**  
@@ -804,6 +804,7 @@ farmer (Low German Bauer) → **bōndô**
 fast → **nobē**  
 fasten → **tappā**  
 fate → **fatômô**  
+fate — the share the sea deals you → **merjagô**  
 father → **pǟr**  
 fathom → **fādôm**  
 fault → **viga**  
@@ -925,6 +926,7 @@ friend → **amīk**
 frog (Low German Pogge) → **pogô**  
 from hambô tooth) → **hambā**  
 from now on → **nūlt**  
+from the proverb Mer donā, ja mer votā) → **merjagô**  
 front position (in a race or contest) → **fȫrô**⁺  
 frost → **pakā**  
 fruit → **frūt**  
@@ -1872,6 +1874,7 @@ rock music (international) → **rokô**
 roe deer → **rēô**  
 Romance) → **estimô** · **fortē** · **pianē**  
 Romance/Latin amplius) → **amplü**  
+Romance/Latin — the everyday lived word is merjagô, §123) → **fatômô**  
 rood (technical → **krūçôfiks**  
 room → **kambôr**  
 rooster → **kukô**  
@@ -2543,6 +2546,7 @@ wet → **märg**
 wetland → **suô**  
 wharf-street (Low German) → **kājô**  
 what → **mis**  
+what is portioned out to a life (mer 'sea' + jagô 'portion' → **merjagô**  
 wheel → **ratô**  
 when → **kun**  
 where → **kus**  

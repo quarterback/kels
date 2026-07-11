@@ -84,6 +84,26 @@ not canonized.)
 
 ---
 
+## The pass-back (§123) — auditing the abstract register for relex
+
+A sweep of the emotion/virtue/social-abstraction vocabulary, applying the test above. The result is
+reassuring and instructive:
+
+- **The emotion field grew up native.** shame *häbū*, joy *ilo*, grief *leinô* / *leinā*, fear
+  *pōr* / *pelgô*, pride *ūpū* / *ūpeldā*, longing *iglū*, hope *lōtū* / *lōtā*, memory *mēl*, calm
+  *rahu*, worry *mūrô*, endurance *kannômus*, trust *usaldā*, love-verb *ārmastô*, affection *arm* —
+  all native. Courage rides the body: *klȫtô* "balls → nerve." Nothing to fix here.
+- **One clear offender, reworked:** *fatômô* "fate" (Latin *fatum*) → **merjagô** "the share the sea
+  deals you" (the sea-field). *fatômô* stays as the literary doublet.
+- **The native–loan doublets are a feature, not a bug.** *amōr* (elevated love) beside native *arm*
+  / *ārmastô*; *libertā* (legal freedom) beside the open-passage sense of *līberü*; *animô* (church
+  soul) beside folk *duhô* / *navô*. English has exactly this (freedom/liberty, deep/profound). A
+  loan is a relex **sin only when it is the *sole* word** for something the culture lives.
+
+The lesson: the corpus was healthier than it looked — the relex was concentrated in the *most
+abstract, latest-coined* layer (the UDHR cluster, fate), precisely where a coiner reaches for Latin
+because the concept feels "academic." That instinct is the thing to resist.
+
 ## For contributors
 
 When you hit an abstract concept and no word exists:
