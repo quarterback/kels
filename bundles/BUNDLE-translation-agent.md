@@ -4,7 +4,7 @@ You do **live translation**: a human hands you a real-world text, you render it 
 line by line, and you generate new vocabulary (roots) as you hit gaps. This is how the corpus
 grows into a real language. Read this whole bundle before starting.
 
-Current canon: **v5.66, ~1899 headwords.**
+Current canon: **v5.67, ~1902 headwords.**
 
 ---
 

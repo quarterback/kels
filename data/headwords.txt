@@ -63,6 +63,7 @@ arkebūsā
 arm
 armôldā
 armõ
+armā
 arn
 arst
 arsô
@@ -781,6 +782,7 @@ Letmō
 libertā
 lihtsalt
 liig
+liighambô
 liitlô
 lil
 limô
@@ -1028,6 +1030,7 @@ nugāaktô
 nupô
 nurô
 nurôr
+näutā
 nôglô
 nôrk
 Nôrô

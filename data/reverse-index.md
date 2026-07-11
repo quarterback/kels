@@ -1,6 +1,6 @@
 # Nelô kēļ — English → Nelôxi Reverse Index
 
-*Generated from the coursebook master dictionary (1899 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
+*Generated from the coursebook master dictionary (1902 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
 
 
 ## A
@@ -197,6 +197,7 @@ be able (v.) → **vôī**
 be alight (intr.) → **palā**  
 be born (v.) → **syndā**  
 be enough (v.) → **piisā**  
+be fond of (from arm 'affection' → **armā**  
 be hungry → **nǟlgô**  
 be submerged → **upō**  
 be thirsty → **jānô**  
@@ -523,6 +524,7 @@ competitor → **vôistôr**
 compline (Romance/Latin) → **kompletô**  
 compose (Romance) (v.) → **komponā**  
 con man (coarse) → **trīkôr**  
+conceit → **liighambô**  
 concerning (postp.) → **pǟl**  
 conduct → **kondutô**  
 conduit → **torô**  
@@ -697,6 +699,7 @@ disease (Livonian) → **tôbô**
 dishonest → **krōm**  
 disorder → **segas**  
 disorderly conduct (coarse → **segaskondutô**  
+display (Livonian) → **näutā**  
 disposal → **jättômus**  
 disposal site → **jättām**  
 dispose of → **jättā**  
@@ -1394,9 +1397,10 @@ light (weight) → **kevē**
 light a fire (Livonian) → **süütä**  
 light-device → **nīrin**  
 lighten → **kergendä**  
+lighter than armôldā 'be fond of', ārmastô 'love') → **armā**  
 lighthouse → **bākô**⁺  
 lightning → **välk**  
-like → **nagu**  
+like (v.) → **armā** · **nagu**  
 like so → **niimôdõ**  
 likewise → **samū**  
 limp → **flōp**  
@@ -1630,6 +1634,7 @@ nose (Livonian) → **nôsô**
 not → **äb**  
 not a thing → **midagü**  
 not sure → **pōlkindõl**  
+NOT the futility sense) → **liighambô**  
 not until → **alõs**  
 notary → **notār**  
 note → **märkômus** · **tōnô**  
@@ -2143,6 +2148,7 @@ short coat (Low German) → **kitlô**
 short for the full image taikô poig kuldxapkôk 'a boy child wearing a crown' → **kuldapoig**  
 shoulder (Livonian) → **ôlgô**  
 shove (Livonian) → **toukā**  
+show (v.) → **näutā**  
 show (international, informal) → **gigô**  
 showcase match → **festmaçô**  
 shred → **rūbā**  
@@ -2483,7 +2489,9 @@ the Supreme Court — the over-court → **Ülerēdām**
 the survey result → **küsitlômus**  
 the technical caste (Romance) → **teknik**  
 the tightening (international loan) → **klinçô**  
+the too-wide grin nobody trusts (liig 'too' + hambô 'tooth' → **liighambô**  
 the United States (calque) → **Ühüriigôd**  
+the vice of showing off → **liighambô**  
 the wall of sound (Low German → **brüllô**  
 the ward a podestā runs (Romance/Catalan districte → **distrikt**  
 the way momentum runs → **vool**  
@@ -2625,9 +2633,11 @@ usually → **vanlü**
 
 ## V
 
+vainglory — lit. 'too many teeth' → **liighambô**  
 valley → **org**  
 vanish (v.) → **kadô**  
 vanishes against the strong (kukô + -ôr → **kukôr**  
+vanity → **liighambô**  
 vehicle trip → **sôidômus**  
 veil (Romance) → **kavērā**  
 vein (Low German → **suônô**  
