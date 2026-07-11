@@ -70,12 +70,17 @@ It remains historically connected through the Atlantic maritime system, legal fo
 Working modern estimate for European Nelôxia:
 
 ```text
-Area: approximately 730,000–800,000 km²
-Mainline working number: approximately 760,000 km²
+Area: approximately 1,040,000–1,110,000 km²
+Mainline working number: approximately 1,070,000 km²
 
-Population: approximately 52–60 million
-Mainline working number: approximately 56 million
+Population: approximately 76–84 million
+Mainline working number: approximately 80 million
 ```
+
+*(Updated for the full 15-region state. Regions 1–11 — Baltic-Karelian core, Amber Road
+corridor, Adriatic, Corsica — were ≈760,000 km² / ≈56M; the southern accessions of regions
+12–15 (Dalmatian coast, Balkan interior, Thracian threshold, Black Sea littoral to Uusatôm; see
+`boundaries.md`) add ≈310,000 km² / ≈24M.)*
 
 Atlanta is separate and excluded from these totals.
 
@@ -92,6 +97,10 @@ Indicative distribution:
 | Amber Road departments | 16–20M; Brandenburg, Saxony, Bohemia, Austria, Slovenia corridor |
 | Adriatic terminals | 4–5M; Triste, Krk, Friuli, Adriatic Croatia |
 | Corsica | 0.5–0.8M; relay island, cable station, fleet support |
+| Dalmatian & Adriatic coast | 2–3M; Spalôt, Ragūz, Katôr, Albanian ports |
+| Balkan interior (defense union) | 12–14M; Bosnia, Serbia/Vojvodina, Macedonia, Kosovo |
+| Thracian & Aegean threshold | 3–4M; Sredôç (Sofia), Filipôl (Plovdiv) basins |
+| Black Sea littoral | 3–4M; Kôstônç (Constanța), Uusatôm (Odessa) |
 
 ## Acquisition logic
 
@@ -204,7 +213,7 @@ It sells stability, rents access, controls standards, manufactures security, and
 ## Summary line
 
 ```text
-Modern Nelôxia is a 760,000 km², 56-million-person maritime-infrastructure state: a Baltic-Karelian homeland, a Central European corridor system, an Adriatic-Mediterranean terminal network, and the founder-controller of the Baltic League.
+Modern Nelôxia is a ≈1,070,000 km², ≈80-million-person maritime-infrastructure state: a Baltic-Karelian homeland, a Central European corridor system, an Adriatic-Mediterranean terminal network, a Balkan defense-union interior, and a Black Sea littoral reaching Uusatôm — the founder-controller of the Baltic League.
 ```
 
 Atlanta remains a separate Atlantic country connected through history, sea power, institutional memory, and Saharannaise.

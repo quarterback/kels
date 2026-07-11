@@ -2,8 +2,10 @@
 
 A mega-maritime crescent controlling the eastern curve of the Baltic, running unbroken into a
 directly-connected northern lobe (Karelia). This records the **Baltic-Karelian core** — the
-historical metropolitan homeland. The modern state is much larger: a ~56M Amber-Road corridor
-running to the Adriatic and a Corsican relay, set out in the structural authority
+historical metropolitan homeland. The modern state is much larger: a ~80M, ~1,070,000 km²
+15-region state — the Amber-Road corridor to the Adriatic, a Corsican relay, and the southern
+accessions (Dalmatia, the Balkan interior, Thrace, and the Black Sea to Uusatôm) — set out in
+the structural authority
 [`modern-neloxia-working-lore-model.md`](modern-neloxia-working-lore-model.md) (with identity
 in [`neloxia-lore.md`](neloxia-lore.md) and history in
 [`neloxia-expanded-lore.md`](neloxia-expanded-lore.md)); this file's map of the corridor

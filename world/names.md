@@ -18,10 +18,13 @@ legal, digital, and systemic truth; local vernacular variants coexist in everyda
    completely into Nelôxi. Historical non-Nelôxian family names (German, Czech, Slavic, Baltic)
    are fully integrated — **phonetically kept** in Nelôxi spelling, or **meaning-transcribed** into
    the state tongue. The two paths mix and match per family.
-2. **The Naneme** is a creative, hyper-local **compound landscape descriptor** — a "poetic
-   postcard." Traditionally it captures the exact artistic or physical micro-scenery of the birth
-   room or birthplace: *Wildrose-Current*, *Mist-Bridge*, *Spark-Iron*, *Sound-Waterway*. It is a
-   visual snapshot of the state, one citizen at a time.
+2. **The Naneme** is a **descriptive statement of origin** — *where you are from*, painted as a
+   place-portrait. It began as a **practical, verifiable identity marker**: your origin-description
+   told people who you were, and because they had heard of the place (or could go check), it caught
+   liars. In the **local language it can be a long, creative descriptive phrase**; the official
+   record renders it as a **short Nelôxi compound**. So *Sund-Vatn* "Sound-Waterway" is the clipped
+   Nelôxi form of what a person might say in full at home. Modern citizens are still all born with
+   one, and parents get inventive with it — a living practice that honors the old provenance rule.
 3. **The given name** is Nelôxized in form.
 4. **Everyday usage.** In casual local life citizens may use vernacular variants, but the full
    three-part Nelôxian string is the civil and systemic truth.
@@ -35,9 +38,25 @@ legal, digital, and systemic truth; local vernacular variants coexist in everyda
 | Uusatôm Old Diaspora | **Kibuvits-Vool Kateryna Külmetu** | Wildrose-Current · Kateryna · Külmetu *(← Morozov "frost")* |
 | Interior Spine | **Udu-Sild Marek Hoov** | Mist-Bridge · Marek · Hoov *(← Dvořák "court")* |
 
-The Naneme is a two-part scenery compound (*Sund-Vatn*, *Säde-Raud*, *Kibuvits-Vool*, *Udu-Sild*);
-the given name is nativized (*Jānis, Ilse, Kateryna, Marek*); the family name is either kept
-(*Kalniņš*) or meaning-transcribed (*Kohtunik, Külmetu, Hoov*).
+The given name is nativized (*Jānis, Ilse, Kateryna, Marek*); the family name is either kept
+(*Kalniņš*) or meaning-transcribed (*Kohtunik, Külmetu, Hoov*). The short compounds above
+(*Sund-Vatn*, *Säde-Raud*, *Kibuvits-Vool*, *Udu-Sild*) are the **clipped official renderings** of
+Nanemes that, in the local tongue, may run much longer.
+
+## The range of Nanemes
+
+The descriptor is **all over the place** in style — that variety is the point. It can be lyrical,
+plainly practical, hyperlocal to a single street, or wonderfully obscure. In full (local) form a
+Naneme might be:
+
+- *"Awakened by the sea beach near Rockland"*
+- *"Born of the fisheries in the central northeast"*
+- *"Grown up near a bakery on the 10th Avenida in Knellas"* — hyperlocal to the block
+- …or something so obscure only your own townspeople would place it.
+
+Each is then condensed into a short Nelôxi compound for the civil record. The looseness is
+functional: a specific, checkable origin is exactly what made the old system trustworthy, and the
+modern practice keeps that flavor while letting parents be as creative — and as long — as they like.
 
 ## Register note — why these forms are not lexicon leaks
 

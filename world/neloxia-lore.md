@@ -2,8 +2,8 @@
 
 *Key lore, founder-ratified. This is the account of the **pre-expansion ~20M Baltic-only
 state** — the metropolitan Baltic-Karelian core. It is **superseded on scale** by
-[`modern-neloxia-working-lore-model.md`](modern-neloxia-working-lore-model.md) (the ~56M,
-~760,000 km² Amber-Road corridor state, now the structural authority) and its history/framing
+[`modern-neloxia-working-lore-model.md`](modern-neloxia-working-lore-model.md) (the ~80M,
+~1,070,000 km² 15-region state, now the structural authority) and its history/framing
 in [`neloxia-expanded-lore.md`](neloxia-expanded-lore.md). Its **identity content still holds
 in full**: the European Singapore, the sovereign currency, strict borders, the two-ocean
 corridor, and the language-matches-the-state argument below — all carry into the expanded

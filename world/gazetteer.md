@@ -89,6 +89,54 @@ state — Hanseatic port cities with heavy German-Danzig naming history.
 - **Järvemō** — Olonets. *(native)* *järve* "lake" + *-mō* "land": the Lake Country between Ladoga and Onega; fishing cooperatives.
 - **Koskenbōrk** — Kondopoga. *(hybrid)* native *koski* "rapids" + the imported mainland *-bôrk* — the state's administrative reach stamped onto native territory; lock-and-mill town on Onega.
 
+## The Western Baltic rim (Hanseatic accession — German scars)
+
+- **Rostok** — Rostock. *(raw loan)* the Mecklenburg Hanse port; kept raw.
+- **Vismar** — Wismar. *(raw loan)* Hanse town on Wismar Bay.
+- **Stralsund** — Stralsund. *(raw loan)* the Rügen gateway; hard German kept.
+- **Grīpsvald** — Greifswald. *(nativized)* German *Greifswald* harmonized (*ei→ī*, *w* kept as scar).
+- **Stetīn** — Szczecin/Stettin. *(nativized)* German *Stettin* → *Stetīn*; the Oder-mouth gate where Baltic traffic enters the inland corridor.
+
+## The Amber Road corridor (accession by infrastructure — local scars kept)
+
+- **Brandenbork** — Brandenburg. *(raw loan)* the Havel–Spree freight corridor; *-bork* from *-burg*.
+- **Dresden** — Dresden. *(raw loan)* the Saxon rail/industry basin; kept raw.
+- **Prag** — Prague. *(nativized)* the trade-route form of Prague; the industrial hinge (candidate legislative seat, see boundaries.md).
+- **Brün** — Brno. *(nativized)* German *Brünn* → *Brün*; the Moravian gate toward the Danube.
+- **Vīn** — Vienna. *(nativized)* German *Wien* → *Vīn*; the Danube approach.
+- **Gräts** — Graz. *(nativized)* German *Graz* → *Gräts*; the Alpine engineering hinge.
+- **Laibak** — Ljubljana. *(raw loan)* German *Laibach* → *Laibak*; the Karst threshold to the Adriatic.
+
+## The Adriatic terminals & Corsican relay (Italian/Mediterranean scars)
+
+- **Triest** — Trieste. *(raw loan)* the legal-financial Adriatic port; Italian kept.
+- **Krk** — Krk. *(raw loan)* the naval-energy island terminal on the Kvarner.
+- **Korsik** — Corsica. *(nativized)* the detached western-Mediterranean relay island.
+
+## The Dalmatian & Adriatic coast (Venetian route-names, not Slavic)
+
+- **Spalôt** — Split. *(nativized)* the Venetian *Spalato* → *Spalôt*, not the Slavic *Split*.
+- **Ragūz** — Dubrovnik. *(nativized)* the Venetian *Ragusa* → *Ragūz*.
+- **Katôr** — Kotor. *(nativized)* the Venetian *Cattaro* → *Katôr*; the Bay of Kotor.
+- **Düraç** — Durrës. *(nativized)* the Venetian/Ottoman *Durazzo/Draç* → *Düraç*; the south gate toward Otranto.
+
+## The Balkan interior (Ottoman & route trade-names — the defense union)
+
+- **Saräj** — Sarajevo. *(nativized)* from the Ottoman *saray* "palace" the city is named for → *Saräj*, consonant-final.
+- **Väisbork** — Belgrade. *(hybrid)* a route-calque of German *Weißenburg* "white-fortress" (the trade name for Belgrade) → *Väisbork*, on the *-bork* pattern; the union's inland anchor.
+- **Üsküb** — Skopje. *(raw loan)* the Ottoman trade-name *Üsküb*, the form the Via Egnatia carried, not the Slavic *Skopje*.
+- **Prixtīn** — Priština. *(archaic-x)* *x* carries the *š* directly; the Kosovo basin.
+
+## The Thracian & Aegean threshold (Greek & older trade-names)
+
+- **Sredôç** — Sofia. *(nativized)* the older trade-name *Sredets* → *Sredôç*; *Sofia* is the late Ottoman renaming.
+- **Filipôl** — Plovdiv. *(nativized)* the Greek *Philippopolis* → *Filipôl*, not the Slavic *Plovdiv*.
+
+## The Black Sea littoral (the eastern terminal, to Uusatôm)
+
+- **Kôstônç** — Constanța. *(nativized)* the Ottoman trade-name *Köstence* → *Kôstônç*; the Danube-mouth terminal.
+- **Uusatôm** — Odessa. *(native)* the founding-diaspora city and the one genuinely Nelôxian name on the southern map: *uus* "new" + *satām* "harbour" → "new-harbour," named by its own 16th-century founding traders. *Odessa/Odesô* survives only as the outsiders' exonym.
+
 ---
 
 ## The gravity principle (standing rule for naming agents)
@@ -102,4 +150,6 @@ coastal elite's system imposed on a polyglot inland backyard; the map should sho
 
 Layer map: TRADING PORTS → Nelôxi/Low German (Rīka, Māmeli, Kunislinnô, Vīsbô) · INLAND WEALTH →
 raw Baltic-German (Mitau, Venden, Dūnabôrk) · LAND FRONTIER → Slavic/Polish (Marīsô, Līda,
-Keidani) · NORTHERN RESERVE → conservative Finnic (Vīpôri, Korbitô, Järvemō).
+Keidani) · NORTHERN RESERVE → conservative Finnic (Vīpôri, Korbitô, Järvemō) · SOUTHERN ACCESSIONS
+→ Venetian/Ottoman/Greek route trade-names (Spalôt, Ragūz, Saräj, Üsküb, Filipôl), with Uusatôm the
+lone native — the same principle carried south: the map keeps the seams of who named each place.
