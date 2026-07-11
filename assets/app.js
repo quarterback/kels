@@ -23,6 +23,7 @@
     merchant:    { title: "The merchant & daughter", sub: "Dialogue + simultaneous action", file: "reader/folktale-merchant-daughter.md", group: "Reader" },
     idioms:      { title: "Idioms & sayings",   sub: "Freedom, fate, and other pictures", file: "reader/idioms.md",                 group: "Reader" },
     fisherwife:  { title: "The angler & hearth-mate", sub: "Grimm, translated (Low German)", file: "reader/fisher-and-wife.md",     group: "Reader" },
+    ordinance:   { title: "Harbor ordinance",   sub: "A port by-law (civic-legal)",    file: "reader/harbor-ordinance.md",       group: "Reader" },
     dialects:    { title: "Dialects",          sub: "Overview",                     file: "dialects/README.md",               group: "Dialects" },
     metrolect:   { title: "Metrolect",         sub: "Metroplex standard",           file: "dialects/metrolect/metrolect.md",  group: "Dialects" },
     inland:      { title: "Inland",            sub: "Conservative rural",           file: "dialects/inland/inland.md",        group: "Dialects" },

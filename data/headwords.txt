@@ -147,6 +147,9 @@ dansā
 Danô
 definā
 dek
+deklarā
+dekret
+dekretā
 delegatsiôn
 demā
 dent
@@ -300,6 +303,7 @@ fānkellô
 fībôr
 fīdô
 fīnô
+fīnā
 fȫrô
 gans
 garnisô
@@ -399,6 +403,7 @@ ikonxolkô
 ikonô
 ilma
 ilo
+imposā
 improvizômus
 improvizā
 imô
@@ -519,6 +524,7 @@ kappā
 kaptā
 kaptīvô
 kapustô
+karantēn
 karatē
 karistô
 karistā
@@ -607,6 +613,7 @@ konfessiôn
 konfessālô
 konfirmômus
 konfirmā
+konfiskā
 konfliktô
 konfusü
 kontrabass
@@ -845,6 +852,7 @@ maksômus
 maksā
 malālt
 mandolīn
+manifest
 manxetô
 marginôl
 markôt
@@ -1255,6 +1263,9 @@ ravôji
 ravā
 redē
 Reformātô
+registrô
+registrā
+reglament
 reinô
 reisô
 reisā

@@ -1,6 +1,6 @@
 # Nelô kēļ — English → Nelôxi Reverse Index
 
-*Generated from the coursebook master dictionary (1854 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
+*Generated from the coursebook master dictionary (1865 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
 
 
 ## A
@@ -21,6 +21,7 @@ a moment → **hetk**
 a moment ago → **äsjü**  
 a physical wound (Marīsô → **ranô**  
 a poll → **küsitlômus**  
+a register → **registrô**  
 a shooting (Low German) → **arkebūsômus**  
 a shore or river spirit (folk religion) → **veçduhô**  
 a solving → **solvômus**  
@@ -329,6 +330,7 @@ buy (v.) → **komprā**
 buyer → **komprāji**  
 by the way → **muidõks**  
 by then → **selēks**  
+by-law (n.) (Romance/Catalan reglament → **reglament**  
 bīt + segas) → **bītsegas**  
 
 ## C
@@ -358,6 +360,7 @@ care → **mūrô**
 care for → **ravā**  
 caretaker → **ravôji**  
 cargo → **last**⁺  
+cargo manifest → **manifest**  
 carrot → **murk**  
 carve (v.) → **kaltā**  
 cassette player (kasetô + spēlā + -in device) → **kasetôspēlin**  
@@ -516,6 +519,7 @@ confession (Romance/Latin church) → **konfessiôn**
 confessional (Romance/Latin church) → **konfessālô**  
 confirm (Romance/Latin church) (v.) → **konfirmā**  
 confirmation → **konfirmômus**  
+confiscate (v.) → **konfiskā**  
 conflagration — the destructive fire (Low German Brand) → **brandô**  
 conflict (Romance) → **konfliktô**  
 confused (Romance) → **konfusü**  
@@ -599,6 +603,7 @@ curdled milk → **juht**
 cure (v.) → **kūrā**  
 current → **vool**  
 curse → **flūk** · **flūkā** · **fāndô**  
+customs declaration (n.) (Romance/Catalan manifest → **manifest**  
 customs/excise officer at the port (Slavic → **mytnik**  
 cut (v.) → **leikā** · **lôigā**  
 cycle (from drom) (v.) → **dromstā**  
@@ -632,6 +637,8 @@ December → **detsembôr**
 decide (v.) → **otsô** · **rēdā**  
 decision → **otsômus**  
 deck → **dek**⁺  
+declare (cargo, goods) (Romance/Catalan declarar) (v.) → **deklarā**  
+decree → **dekret** · **dekretā**  
 deep → **syv**  
 defeat → **kaotômus**  
 defend → **kaitsô**  
@@ -745,6 +752,7 @@ eastern administrative stratum → **gubernātôr**
 Eastern Catholic (Slavic/Latin frontier church) → **Uniatô**  
 eat (v.) → **menjā** · **sȫ**  
 ecosystem (Romance) → **ekôsüstēm**  
+edict (n.) (Romance/Catalan decret → **dekret**  
 effort past the body's limit (Low German Trotz) → **trotsô**  
 egg → **ōu**  
 eight → **osôm**  
@@ -769,6 +777,7 @@ endure (v.) → **kannā**
 enemy → **vragô**  
 engagement → **kihlô**  
 enough! → **küllü**  
+enroll (Romance/Catalan registrar) → **registrā**  
 ensemble (Low German Kapelle → **kapelô**  
 ensemble (Romance) → **ensamblô**  
 ensign → **flag**⁺  
@@ -877,7 +886,7 @@ finance → **finantsô**
 finance (Romance) (v.) → **finantsā**  
 financing (Romance) → **finantsô**  
 find (v.) → **leidā**  
-fine → **fīnô** · **gūd** · **hǟ** · **olgu**  
+fine → **fīnô** · **fīnā** · **gūd** · **hǟ** · **olgu**  
 fine (native → **kaunõ**  
 finger (Livonian) → **sôrmô**  
 fingernail/toenail (Livonian) → **küüs**  
@@ -1202,6 +1211,7 @@ ignited (Livonian) → **palā**
 illness → **tôbô**  
 image → **pildô**  
 immediately → **nūnū**  
+impose (a toll, a due) (Romance/Catalan imposar) → **imposā**  
 improvisation → **improvizômus**  
 improvise (Romance/international) (v.) → **improvizā**  
 in → **sisü**  
@@ -1344,6 +1354,8 @@ let’s do it → **lasõkäi**
 let’s go → **minõm**  
 let’s go (hortative) → **lǟkõm**  
 level on the scale (ühü 'shared' + vāgô 'balance → **ühüvāgô**  
+levy (v.) → **imposā**  
+levy a penalty (from fīnô) → **fīnā**  
 liberty (Romance/Latin) → **libertā**  
 library → **livrôkōt**  
 license → **lubômus**  
@@ -1622,6 +1634,7 @@ office-holder → **amtôji**
 officer (Romance) → **komandôr**  
 official → **amtôji**  
 official document → **aktô**  
+official list (from registrā) → **registrô**  
 official mark → **sīgel**  
 often → **sagõ**  
 oh → **oi**  
@@ -1650,7 +1663,9 @@ or execution (folk fear → **fānkellô**
 or remember the dead (folk/religious) → **paterbabkô**  
 orange → **orānx**⁺  
 orchestra (Romance) → **orkestrô**  
+ordain (from dekret) → **dekretā**  
 order → **kôrd**  
+ordinance → **reglament**  
 ordinarily (Scandinavian) → **vanlü**  
 organize (Romance) (v.) → **organisā**  
 orphan → **orvô**  
@@ -1844,6 +1859,7 @@ pôjā + lǟn) → **pôjālǟn**
 
 ## Q
 
+quarantine — the holding of a ship offshore (Romance/Catalan quarantena → **karantēn**  
 quartet (Romance/international) → **kvartetô**  
 quay → **kājô**  
 question → **kysômus**  
@@ -1891,8 +1907,10 @@ reef → **karīk**
 referee → **māçôr**⁺  
 Reformed (Romance/church historical) → **Reformātô**  
 refuse → **roiskô**  
+register (v.) → **registrā**  
 regret (v.) → **kahetsā**  
 regret (n.) → **kahetsômus**  
+regulation → **reglament**  
 reindeer → **reinô**  
 rejoice (v.) → **rôimā**  
 relative → **sugôr**  
@@ -1933,6 +1951,7 @@ roast (v.) → **röstā**
 rock (at sea) → **karīk**  
 rock music (international) → **rokô**  
 roe deer → **rēô**  
+roll → **registrô**  
 Romance — cf. native rôimõ, the bright celebratory-proud happy) → **felīç**  
 Romance) → **estimô** · **fortē** · **pianē**  
 Romance/Latin amplius) → **amplü**  
@@ -2020,6 +2039,7 @@ see (v.) → **nǟgô**
 seed → **īvô**  
 seem (v.) → **sīmā**  
 segas + kondutô) → **segaskondutô**  
+seize goods (Romance/Catalan confiscar) → **konfiskā**  
 seldom → **harvõ**  
 self → **isü**  
 sell (v.) → **vendā**  
@@ -2718,5 +2738,5 @@ you’re right → **ôigus**
 ## Z
 
 zero → **nolô**  
-zero-final) → **batle**  
+zero-final) → **batle** · **dekret** · **karantēn** · **manifest** · **reglament**  
 zither → **kantelô**  

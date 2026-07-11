@@ -39,7 +39,7 @@ collections, one's own composition). Note the source. Don't paste long copyright
 |---|---|---|---|---|
 | 8 | **UDHR, Articles 2–5** | legal-institutional | rights, discrimination, servitude, law-as-office (Art. 1 DONE) | OPEN |
 | 9 | **A bill of sale / trade contract** | commercial-legal | goods, warranty, deposit, delivery, the scale & ledger | OPEN |
-| 10 | **A harbor ordinance / port regulation** | civic-legal | permits, dues, mooring, quarantine, the wharf | OPEN |
+| 10 | **A harbor ordinance / port regulation** | civic-legal | permits, dues, mooring, quarantine, the wharf | ✅ **DONE (§132)** — `reader/harbor-ordinance.md` |
 | 11 | **A weather forecast (maritime)** | procedural-technical | wind force (*tūļā*), sea-state, tide, front, visibility, warning | OPEN |
 | 12 | **A news article** (BBC-style, public event) | journalistic | politics, economy, institutions, quotation/attribution | OPEN |
 | 13 | **A football match report** | press register (already rich) | extends the terrace lexicon (*langômus, luxô, fosô*) into full prose | OPEN |
