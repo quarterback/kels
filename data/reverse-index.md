@@ -1,11 +1,12 @@
 # Nelô kēļ — English → Nelôxi Reverse Index
 
-*Generated from the coursebook master dictionary (1902 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
+*Generated from the coursebook master dictionary (1904 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
 
 
 ## A
 
 a billet of split wood (Livonian) → **halgô**  
+a boat's wake (Livonian) → **jälg**  
 a brawl → **bītsegas**  
 a certain (indefinite) → **mingü**  
 a draw → **empatô**  
@@ -63,6 +64,7 @@ album (international) → **albômô**
 all → **kôg**  
 all at once → **korraks**  
 all creation (mā 'earth' + ilm 'air') → **maailm**  
+all labour that leaves no mark (mer 'sea' + jälg 'wake' → **merjälg**  
 all of it → **kôgõ**  
 all right → **olgu**  
 all the same → **omõt**  
@@ -786,6 +788,7 @@ embrace → **sülü**
 emotion → **mōl**  
 emotional wound → **haavômus**  
 emperor — he that wears the helmet over us all (üle 'over' + helmô 'helmet') → **ülehelmô**  
+emptiness — the wake the sea closes behind you → **merjälg**  
 empty → **pūst** · **tyhjā** · **tühjä**  
 empty out (v.) → **tühjä**  
 enclosure → **aedô**  
@@ -950,6 +953,7 @@ food → **sȫk**
 fool → **glupôr**  
 foot → **pēu**  
 football (jalg leg + pēl, clipped pēlô — the §114 jubāpēl pattern) → **jalgpēl**  
+footprint → **jälg**  
 for → **eest**  
 for a long time → **ammū**  
 for an animal (Low German Halsband) → **halsbandô**  
@@ -1001,6 +1005,7 @@ function (v.) → **funktsionā**
 funeral → **mǟtômus**  
 funeral rite (Romance/Latin) → **funerālô**  
 fur → **fellô**  
+futility → **merjälg**  
 future → **tulevô**  
 
 ## G
@@ -2442,6 +2447,7 @@ the Diet → **Diēt**
 the Diet's popular chamber (ühü 'collective, shared' + vēu 'voice') → **Ühüvēu**  
 the Diet's senior chamber (Romance/Latin senatus → **Senāt**  
 the domestic fire (Romance, Catalan foc/Latin focus) → **fôk**  
+the Ecclesiastes 'vanity of vanities' — futility sense, NOT the conceit liighambô) → **merjälg**  
 the elected head of a free trade-city (Slavic → **posādnik**  
 the empty-container weight (Low German Tara) → **tarô**  
 the eraser — the specialist whose job is to remove one opponent (çeñ + -ôr) → **çeñôr**  
@@ -2551,7 +2557,8 @@ tournament → **tornē**⁺
 toward → **pōl**  
 tower → **tornô**⁺  
 town magistrate (Romance/Catalan batlle → **batle**  
-track → **rājô**  
+trace → **jälg**  
+track → **jälg** · **rājô**  
 track (Livonian) → **radô**  
 track (recording) (international) → **trekô**  
 trade (v.) → **handlô**  
@@ -2637,7 +2644,7 @@ vainglory — lit. 'too many teeth' → **liighambô**
 valley → **org**  
 vanish (v.) → **kadô**  
 vanishes against the strong (kukô + -ôr → **kukôr**  
-vanity → **liighambô**  
+vanity → **liighambô** · **merjälg**  
 vehicle trip → **sôidômus**  
 veil (Romance) → **kavērā**  
 vein (Low German → **suônô**  
