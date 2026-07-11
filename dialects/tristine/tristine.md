@@ -1,20 +1,20 @@
-# Tristine Nelôxi — the Adriatic courtesy register
+# Tristine Nelôxi — the Adriatic port dialect
 
-Tristine is the regional register of the **Adriatic terminals** — Triest (Trieste) and the
-Friuli littoral, reaching down the Dalmatian coast. Like the metrolect and inland varieties it is
-an **overlay on the standard**, not a co-standard: it keeps the full Nelôxi grammar and the
-standard lexicon, and diverges only in a **thin, high-frequency courtesy layer** that tilts
-**Romance-Venetian**, the residue of the port's centuries of Venetian trade.
+Tristine is the **dialect of the Adriatic terminals** — Triest and the Friuli littoral, down the
+Dalmatian coast. It is a **dialect of Metropolitan**, not a co-standard and not a fork: it keeps the
+full Nelôxi grammar and the whole domestic core (a Triestine's wife is still *naisô*, the sea is
+still *mer*). What it tilts — **Romance-Venetian** — is two thin, high-frequency layers: the
+**courtesy words** and the **port-legal-commercial register**. The residue of centuries of Venetian
+trade.
 
-It is the southern counterpart to what Saharannaise is at the Atlantic end — but far lighter: a
-**register tilt**, not a lexical reroot. Where Saharannaise replaces the whole domestic root stock,
-Tristine only swaps the greetings, thanks, toasts, and apologies for their Venetian forms, and
-opens with the trader's greeting **Salū á servī** ("greetings, at your service") in place of the
-Low-German *Moin*.
+*A concept in development, settled at dialect depth — no special phonology or script, no domestic
+reroot. Where its forms bend the standard rules (a participle shape, a homonym), that is the
+dialect's own rendering, and allowed: the coursebook's rules were set before this kind of register
+flexibility was needed, and the dialect may break one to do its job.*
 
-## Courtesy register — the three varieties side by side
+## Courtesy tilt — the three varieties side by side
 
-The **Metropolitan** column is coursebook canon; **Tristine** is this overlay; **Saharannaise** is
+The **Metropolitan** column is coursebook canon; **Tristine** is this dialect; **Saharannaise** is
 the Atlantic co-standard (`../../saharannaise/`).
 
 | | Metropolitan | Tristine | Saharannaise |
@@ -28,24 +28,59 @@ the Atlantic co-standard (`../../saharannaise/`).
 | Yes / No | **Jā / Äb** | Jā / Äb | Jā / Lā |
 | Sorry | **pardô** | Skūsô | Smaxli |
 
-- **Metropolitan** is the Low-German-leaning standard (*Moin, Dankô, Skōl, Velkô, bidô, pardô*).
-- **Tristine** keeps the grammar but tilts the courtesy words Romance-Venetian (*Prego, Salūt,
-  Skūsô*) plus its trader's opener (*Salū á servī*); it keeps canon **mersü** (the Romance polite
-  "thank you") over Low-German *Dankô*. Everything unchanged (*Adē, Velkô, Jā/Äb*) is just the
-  standard showing through.
-- **Saharannaise** carries the Hassaniya set (*Səlām, Xukran, Marxaba*); even the yes/no splits —
-  **Lā** for "no" against the shared **Jā**.
+Tristine leans the courtesy words Venetian (*Prego, Salūt, Skūsô*), opens with the trader's greeting
+**Salū á servī** "at your service," and prefers canon **mersü** (Romance polite thanks) to
+Low-German *Dankô*. Everything unchanged (*Adē, Velkô, Jā/Äb*) is just the standard showing through.
 
-*(Canon note: the Metropolitan "please/sorry" cells are the coursebook forms **bidô**/**pardô**;
-Tristine's Venetian **Skūsô** "sorry" is this overlay's own form. The Tristine courtesy words are
-overlay-specific, not coursebook headwords — a dialect lexicon, per `../README.md`.)*
+## The port register — the two-move pattern
 
-## The Tristine courtesy lexicon (overlay-specific)
+In the maritime-legal-commercial domain — and only there — Tristine does two things to a plain
+Metropolitan sentence:
 
-- **Salū á servī** — hello / greetings; the trader's opener (Venetian *salù, a servissio* "at your service")
-- **Mersü** — thank you (canon Romance polite register; Tristine prefers it to Low-German *Dankô*)
-- **Salūt** — cheers, a toast (Venetian *salute*)
-- **Prego** — please; you're welcome (Venetian/Italian *prego*)
-- **Skūsô** — sorry, excuse me (Venetian *scusi*)
+1. **The verb goes up into the Romance regulated register.** The plain motion/transfer verb is
+   replaced by its Latinate legal-logistics counterpart: *liiku → transitā*, *tulē → intrā*,
+   *donā → depositā*, "stop" → *suspendā*.
+2. **A documentary element is added** that has no Metropolitan equivalent — a fact of manifest,
+   seal, registration, or custody that reframes the physical event as a legal act: *manifestôn*
+   "under manifest," *registrǟd* "registered," *notārôl* "with the notary," *nūlt sigil* "without
+   seal."
 
-Unchanged from the standard: **Adē** (goodbye), **Velkô** (welcome), **Jā / Äb** (yes / no).
+The effect: Tristine changes **what the sentence thinks the event is**. Metropolitan states the
+physical event; Tristine states the legal-commercial one. Same occurrence, different ontology — the
+north sees a stopped cart, the south sees a compliance failure.
+
+**Protocol:** a plain physical act → **Metropolitan**; a regulated/documented act → **Tristine**.
+
+### The four minimal pairs
+
+| Metropolitan | Tristine |
+|---|---|
+| **Kargô liiku dromel.** — Cargo moves by road. | **Kargô transitā koridorôl manifestôn.** — Cargo transits the corridor under manifest. |
+| **Xipd tulē satāmô.** — The ship comes to the harbor. | **Xipd intrā portôn registrǟd.** — The ship enters the port registered. |
+| **Tä donā papôrdôn amtôl.** — She gives the document to the office. | **Tä depositā papôrdôn notārôl.** — She deposits the document with the notary. |
+| **Kargô ūli dromel.** — The cargo was stopped on the road. | **Kargô ūli suspendā koridorôl nūlt sigil.** — The cargo was suspended in the corridor without seal. |
+
+The recipient itself shifts: Metropolitan hands the paper to a generic **amt** (the Low-German
+bureaucratic north); Tristine hands it to a **notār** (the Venetian legal officer, the Mediterranean
+south). The register carries its own institutions, not just its own words.
+
+## Starter lexicon (Tristine-specific)
+
+**Regulated-act verbs:** *transitā* (transit), *intrā* (enter, of a vessel), *depositā* (deposit,
+lodge), *suspendā* (suspend, hold).
+
+**Legal-commercial nouns:** *koridor* (bonded corridor, right-of-way), *port* (port, in the Venetian
+*porto* sense), *notār* (notary), *manifest* (cargo manifest), *registr* (register, registry),
+*sigil* (seal).
+
+The words take ordinary Nelôxi case endings — *koridorôl, manifestôn, notārôl, portôn*. Two forms
+bend the standard, by design and permitted:
+
+- **port** "harbour" is a Venetian sense-homonym of the standard's *port* "door" (the standard
+  harbour is *satām*) — the dialect showing through.
+- **registrǟd** "registered" is Tristine's own participle, tilted toward the Venetian shape off the
+  standard *-dôt* participle (which would give *registrādôt*). The one spot the register bends the
+  morphology.
+
+Expand only as real texts require — Tristine is a working register with a job, not a language to be
+filled out for its own sake.
