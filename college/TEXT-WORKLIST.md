@@ -26,7 +26,7 @@ collections, one's own composition). Note the source. Don't paste long copyright
 | # | Text | Register it stress-tests | Surfaces | Status |
 |---|---|---|---|---|
 | 1 | **The Fisher and His Wife** (Grimm) | folktale, dialogue, escalation | sea-state/weather ladder, greed, offices (king→pope→God), palace/castle | ✅ **COMPLETE — all six movements (§127–§129)** |
-| 2 | **Ecclesiastes 1** (the sea returns; vanity; time) | wisdom, deep abstraction | vanity/futility, time, generations, the sea/rivers, "under the sun" | OPEN |
+| 2 | **Ecclesiastes 1** (the sea returns; vanity; time) | wisdom, deep abstraction | vanity/futility, time, generations, the sea/rivers, "under the sun" | ✅ **DONE (§137)** — `reader/ecclesiastes-1.md` |
 | 3 | **Psalm 107:23–30** ("they that go down to the sea in ships") | hymn, maritime awe | storm, the deep, distress→calm, deliverance, waves stilled | OPEN |
 | 4 | **Aesop — The Ant and the Grasshopper** | fable, moral | thrift/labor vs idleness, seasons, winter store, foresight | OPEN |
 | 5 | **Andersen — The Little Match Girl** | pathos, poverty, cold | cold/frost registers, hunger, death-as-warmth, the poor, the year's turn | OPEN |
