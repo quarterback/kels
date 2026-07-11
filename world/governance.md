@@ -46,6 +46,42 @@ notion the language already carries in *ühüvāgô* "of one weight on the scale
 
 ---
 
+## Why this fits — the state was already running on it
+
+This is less an invention than a *naming* of something the rest of Nelôxia already implied. The same
+two-layer logic runs everywhere else in the design:
+
+- **It is the register split, applied to governance.** The **Tristine** legal-commercial register's
+  "two moves" — *what the event legally is* vs. *what physically happens* — are the two branches
+  wearing language. The Service is the Tristine-speaking class: it sees a stopped cart as a
+  **compliance event**. The Voice is the Metropolitan human speech: it speaks for **the person whose
+  cart was stopped**. Governance and register are the same idea — a professional-procedural layer and
+  a human-representative layer, running in parallel.
+- **It is the corridor state made governable.** Nelôxia is a procedure-not-ethnicity confederation —
+  "a high-trust operating system for regions that benefit from its corridors, ports, courts, and
+  clearinghouses" (`world/neloxia-lore.md`). A state held together by *procedure* **structurally
+  requires** a professional administrative caste, because the thing that actually holds a
+  Karelia-to-Black-Sea ribbon together is the competent, apolitical, mobile administrator who runs the
+  customs zone **the same way in Rostok and in Uusatôm**. In a real sense, *the corridor is the
+  administrators.* Meanwhile the local elected Voices keep each accession's people represented, so the
+  professional layer never hardens into a faceless imperial bureaucracy. This is the governance answer
+  the "incorporate without erasing" principle always needed.
+- **It is why the state stays legitimate at scale.** The failure mode of a big procedural
+  confederation is rule-by-clerk: technically excellent, humanly cold, the citizen as a case number.
+  Splitting governance by function checks that — the clerk-excellence is answerable to the loud
+  elected representative whose whole job is to be the human voice *against* the procedure. **The
+  administrator makes it work; the representative makes it answer to people.** Neither can dominate,
+  because they are doing incommensurable jobs.
+
+**Historical grounding** (so it reads as discovered, not utopian): the professional city-manager
+(council-manager government, the German *Stadtdirektor*, the Nordic *kommunaldirektør*), the
+administration-as-respected-nonpolitical-career ideal (the Nordic/Hanseatic civil service — Nelôxia's
+own cultural DNA), and the sharp permanent-professional / transient-politician separation (the
+Weberian bureaucratic ideal, the British permanent-secretary-vs-minister line). Nelôxia combines the
+council-manager tradition with the continental professional-civil-service ethic, in a state whose
+whole identity is Hanseatic-mercantile competence. It is the most in-character governance this country
+could have.
+
 ## Why it is respected (the ethos)
 
 Administration in Nelôxia is not a grey backwater job — it is an **honored career**, spoken of the way
@@ -55,6 +91,15 @@ found it carries that reputation to the next post: their **nimpundô** — the w
 the towns they steadied, not by any election they won. The Service prizes competence, evenness, and
 the quiet keeping of things; the Voice prizes eloquence, courage, and speaking for people. A person
 may spend a life "downtown" in the Service and be honored for it as fully as any elected figure.
+
+**"I'm in the Service"** carries, in Nelôxia, the weight that "I'm a doctor" or "I'm a lawyer"
+carries elsewhere. The caste has its own **training institution** — a governance college that stands
+to administration as the *Kēļs Kolēgi* stands to the language: it credentials, sets the ethic of
+neutrality, and holds the profession's pride. (Its name is open — a founder call.) And the two tracks
+raise a real fork for a bright young Nelôxian: **do I want to *run* things, or *speak* for people?**
+The Service ethos is even, continuous, quietly competent; the Voice ethos is scrappy, vocal,
+of-the-people, adversarial when it must be. Two honorable and opposite vocations — the country needs
+both, and respects both, and asks you to choose.
 
 ## The relationship (and its tension)
 
