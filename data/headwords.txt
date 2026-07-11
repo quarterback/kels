@@ -28,6 +28,7 @@ alk
 alkirjā
 alkā
 alliansô
+almirālô
 alt
 altār
 alõs
@@ -155,6 +156,7 @@ deusô
 deveñç
 diakonô
 dioçēsô
+diputātô
 diskutā
 disputô
 dogm
@@ -301,6 +303,7 @@ garnisô
 garnô
 gatô
 gaupô
+generālô
 genô
 gigô
 gimnastīk
@@ -320,6 +323,7 @@ grād
 grīs
 grūvô
 grȫtä
+gubernātô
 gūd
 haavômus
 haavā
@@ -506,6 +510,7 @@ kapasitēt
 kapellô
 kapelô
 kapitulā
+kapitānô
 kaplōtô
 kappā
 kaptā
@@ -606,6 +611,7 @@ kontē
 koorõm
 kops
 kor
+koronēlô
 korpôsô
 korraks
 korôr
@@ -1081,6 +1087,7 @@ parandā
 pardô
 pardômus
 pardā
+parlamentô
 parlā
 parokô
 pastôr
@@ -1138,6 +1145,7 @@ praadā
 praul
 pregômus
 pregā
+presidentô
 preverô
 privatü
 problēm
@@ -1713,6 +1721,7 @@ violīn
 virkā
 viskā
 vist
+voivodô
 volk
 volē
 vool
