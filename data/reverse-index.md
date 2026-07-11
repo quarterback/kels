@@ -1,6 +1,6 @@
 # Nelô kēļ — English → Nelôxi Reverse Index
 
-*Generated from the coursebook master dictionary (1847 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
+*Generated from the coursebook master dictionary (1854 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
 
 
 ## A
@@ -78,6 +78,7 @@ also → **tambē**
 altar (Romance/Latin) → **altār**  
 although → **kuigü**  
 always → **alatü** · **semprē**  
+ambassador → **ambaxadôr**  
 ambient music (international) → **ambient**  
 America (informal exonym) → **Amerikô**  
 American football (Amerikô + jalgpēl) → **amerikôjalgpēl**  
@@ -135,6 +136,7 @@ athletics (Romance) → **atlētīk**
 attach to → **lītü**  
 attack (Romance) (v.) → **atakā**  
 attire → **dressūr**  
+auditor → **auditôr**  
 August → **augôst**  
 aunt → **tantô**  
 autumn → **sügü**  
@@ -401,6 +403,7 @@ cf. selgô clear) → **selg**
 cf. syndômus birth) → **sünnitä**  
 cf. sīlô 'seam') → **mārgô**  
 cf. turg "market square") → **markôt**  
+cf. tōl 'toll') → **mytnik**  
 cf. vastômus) → **vastāmus**  
 cf. warm ühüfôk 'hearth-mate') → **kaimô**  
 cf. çenô bargain-price — distinct) → **çeñ**  
@@ -596,6 +599,7 @@ curdled milk → **juht**
 cure (v.) → **kūrā**  
 current → **vool**  
 curse → **flūk** · **flūkā** · **fāndô**  
+customs/excise officer at the port (Slavic → **mytnik**  
 cut (v.) → **leikā** · **lôigā**  
 cycle (from drom) (v.) → **dromstā**  
 cycle track (international) → **drom**  
@@ -701,6 +705,7 @@ doubt → **kāldô** · **kāldôldā**
 dough → **tāgô**  
 down (to the ground) → **maha**  
 download → **laadômus**⁺ · **laadā**⁺  
+drafter of legal deeds (Romance/Catalan notari) → **notār**  
 drag → **tõmbā**  
 draw → **ēgô** · **ēgā**  
 dream → **unī** · **unīstā**  
@@ -771,6 +776,7 @@ entitlement → **rētô**
 entry arch (Marīsô, slav) → **bramô**  
 entry mark → **vīzô**⁺  
 environment → **ümbristô**  
+envoy (Romance/Catalan ambaixador) → **ambaxadôr**  
 envy → **kadē** · **kadēldā**  
 epidemic (Romance) → **pestô**  
 equal — of one weight → **ühüvāgô**  
@@ -800,6 +806,7 @@ exact → **täpsô**
 exactly → **täpsõlt**  
 examination → **kaçô**  
 examine → **kaçā**  
+examiner of accounts (Romance/Latin auditor → **auditôr**  
 excessively → **liig**  
 excommunicate (Romance/Latin church) (v.) → **ekskomūnikā**  
 excommunication → **ekskomūnikômus**  
@@ -1274,6 +1281,7 @@ just over there → **sālsāl**
 kantele-type plucked box (Karelian) → **kantelô**  
 karate (international) → **karatē**  
 keep up → **hoolā**  
+keeper of the purse (Romance/Catalan tresorer) → **tresorēr**  
 keeps the dž scar) → **džezô**  
 kettledrum (Romance/Italian) → **timpanô**  
 key → **nupô** · **vôtī**  
@@ -1440,6 +1448,7 @@ matins (Romance/Latin) → **matinô**
 matte → **tumô**  
 May → **maij**  
 maybe → **äkkü**  
+mayor → **batle**  
 meal → **sȫk**  
 mean (v.) → **tähendä**  
 measure (v.) → **mēdā**  
@@ -1579,6 +1588,7 @@ not → **äb**
 not a thing → **midagü**  
 not sure → **pōlkindõl**  
 not until → **alõs**  
+notary → **notār**  
 note → **märkômus** · **tōnô**  
 nothing → **midagü**  
 November → **novembôr**  
@@ -2355,6 +2365,7 @@ the cultivated kind) → **bȫrsô**
 the dead (Romance/Latin) → **mortô**  
 the devil (interj./n., coarse) → **fān**  
 the domestic fire (Romance, Catalan foc/Latin focus) → **fôk**  
+the elected head of a free trade-city (Slavic → **posādnik**  
 the empty-container weight (Low German Tara) → **tarô**  
 the eraser — the specialist whose job is to remove one opponent (çeñ + -ôr) → **çeñôr**  
 the fixture that is an occasion (festivô + maçô, clipped) → **festmaçô**  
@@ -2374,6 +2385,7 @@ the long line before an icon or relic shrine (Orthodox-border slang) → **ikonx
 the lull — the dead stretch both sides feel → **untô**  
 the luxury — the gifted passenger → **luxô**  
 the market-scale as justice) → **ühüvāgô**  
+the merchant-republic office, the Novgorod/Hanseatic model) → **posādnik**  
 the momentum-swing — the hinge moment when the current of a match reverses (vool + pöördô, clipped commentary word) → **voolpöörd**  
 the old hate — the deep historical grudge under a rivalry (kaug + vihān) → **kaugvihān**  
 the one you share a hearth with (ühü 'shared' + fôk 'hearth' → **ühüfôk**  
@@ -2438,6 +2450,7 @@ today → **avuī**
 toe (Livonian) → **varvas**  
 toll → **tōl**  
 toll-priest → **tōlpreverô**  
+toll-taker → **mytnik**  
 tomorrow → **demā**  
 tone (Romance) → **tōnô**  
 tongue (Livonian → **kēl**  
@@ -2452,6 +2465,7 @@ torso (Romance) → **torsô**
 tournament → **tornē**⁺  
 toward → **pōl**  
 tower → **tornô**⁺  
+town magistrate (Romance/Catalan batlle → **batle**  
 track → **rājô**  
 track (recording) (international) → **trekô**  
 trade (v.) → **handlô**  
@@ -2468,6 +2482,7 @@ trap → **lôuk**
 trash → **roiskô**  
 travel (v.) → **reisā**  
 travel by vehicle → **sôidā**  
+treasurer → **tresorēr**  
 treat → **lekô**  
 treat (Romance) → **kūrā**  
 treaty (Romance) → **traktātô**  
@@ -2703,4 +2718,5 @@ you’re right → **ôigus**
 ## Z
 
 zero → **nolô**  
+zero-final) → **batle**  
 zither → **kantelô**  

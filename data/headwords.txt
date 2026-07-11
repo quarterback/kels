@@ -34,6 +34,7 @@ altār
 alõs
 alējô
 alū
+ambaxadôr
 ambient
 Amerikô
 amerikôjalgpēl
@@ -73,6 +74,7 @@ asetā
 atakā
 atlēt
 atlētīk
+auditôr
 augôst
 avenīd
 avuī
@@ -91,6 +93,7 @@ bargā
 barô
 bassgitarô
 bassô
+batle
 bebē
 beisbol
 bel
@@ -908,6 +911,7 @@ mustlivrô
 mustveç
 mustveçkôrd
 muutô
+mytnik
 mä
 mäng
 mäntlô
@@ -994,6 +998,7 @@ nord
 nordost
 nordvest
 nostô
+notār
 novembôr
 nugā
 nugāaktô
@@ -1138,6 +1143,7 @@ pop
 port
 postkōd
 postrok
+posādnik
 potô
 povodô
 praadi
@@ -1563,6 +1569,7 @@ torsô
 torô
 traktātô
 trekô
+tresorēr
 tri
 trombôn
 troppô
