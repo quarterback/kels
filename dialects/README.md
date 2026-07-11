@@ -6,8 +6,8 @@ canon. Each overlay describes how a variety *transforms* the standard — regula
 correspondence rules plus a short dialect-specific lexicon — so overlays stay in
 sync automatically as canon grows. No word is ever re-coined for a dialect.
 
-**Saharannaise is not here — it is not a dialect.** The Nelôxi of **Atlanta** (the Atlantic
-Sahara overseas department) is a **co-standard**, not an overlay: it runs the full Nelôxi grammar and reroots
+**Saharannaise is not here — it is not a dialect.** The Nelôxi of **Atlanta** (Nelôxia's
+sovereign sister state on the Atlantic Saharan coast) is a **co-standard**, not an overlay: it runs the full Nelôxi grammar and reroots
 the domestic lexicon wholesale in Hassaniya Arabic and Zenaga Berber, governed from its
 own seat. A pluricentric peer of the coursebook (Lisbon ↔ Brasília), not a rural variety
 of it. It lives at the top level in **`../saharannaise/`**, with the shared grammar-and-

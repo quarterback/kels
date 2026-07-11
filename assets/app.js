@@ -40,6 +40,8 @@
     corpus:      { title: "Corpus brief",      sub: "Writing genre texts",          file: "college/CORPUS-BRIEF.md",          group: "Briefs", toc: true },
     dailylife:   { title: "Daily-life brief",  sub: "Connective speech",            file: "college/DAILY-LIFE-BRIEF.md",      group: "Briefs" },
     numbers:     { title: "Numbers",           sub: "Dozenal counting, clock, percent", file: "grammar/12-numbers.md",           group: "Reference", toc: true },
+    neloxialore: { title: "Nelôxia — the country", sub: "Geography, scale, posture (lore)", file: "world/neloxia-lore.md",         group: "World" },
+    atlantalore: { title: "Atlanta — founding history", sub: "Nelôxia & the Atlantic Sahara (lore)", file: "world/atlanta-lore.md",   group: "World" },
     geography:   { title: "Geography",         sub: "The shape of Nelôxia",         file: "world/geography.md",               group: "World" },
     gazetteer:   { title: "Gazetteer",         sub: "Cities & place-names",         file: "world/gazetteer.md",               group: "World", toc: true },
     boundaries:  { title: "Boundaries",        sub: "Canonical borders & units",    file: "world/boundaries.md",              group: "World", toc: true },

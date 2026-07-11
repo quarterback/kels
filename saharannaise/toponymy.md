@@ -3,9 +3,10 @@
 The place-names of **Atlanta**, in both official renderings. Formal name **Atlantic Sahara
 Provinces & Sahel State**; short endonym **Atlanta** (it predates the New World city of the
 same name and is unrelated to it). The territory is the Atlantic Saharan coast — real-world
-Western Sahara — a Nelôxian **overseas department** on the French-DOM / Quebec model: fully
-part of the state, its own standard (Saharannaise), and **bilingual official naming**. Every
-place carries two archive names, written **Nelôxian | Saharannaise**.
+Western Sahara — a **sovereign state**, formerly in union with Nelôxia and now independent
+(the authoritative history is `../world/atlanta-lore.md`), with its own standard
+(Saharannaise) and **bilingual official naming**. Every place carries two archive names,
+written **Nelôxian | Saharannaise**.
 
 Because Nelôxia reached this coast **before any Iberian claim, there are no Spanish names to
 keep** — no *Villa Cisneros*, no *Río de Oro*. Each name is rendered instead in the two
@@ -13,7 +14,7 @@ standards' own roots.
 
 ## The two naming registers
 
-The pairing is not translation for its own sake; it is the two registers the department
+The pairing is not translation for its own sake; it is the two registers Atlanta
 actually writes in.
 
 - **Nelôxian (metropolitan)** draws on the **Romance-Latin learned register** — the same
@@ -104,7 +105,7 @@ headwords doing toponymic work:
 
 ## Domain-A roots seeded here
 
-Naming the department surfaced its first administrative vocabulary: **wilāya** (province),
+Naming the polity surfaced its first administrative vocabulary: **wilāya** (province),
 **dawla** (state), **rās** (cape), **wād** (valley) — joining **dīwān** and **amīn** from the
 seat's name. Held for the formal Domain-A batch, to be tabled there with VOC rows and their
 Romance metropolitan doublets (*province*, *state*, *cape → nēm*, …).

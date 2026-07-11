@@ -6,7 +6,7 @@ the gazetteer (world/gazetteer.md) carries naming layers and etymologies. Founde
 Orthography normalized to canon (ô, not õ). x = [ks] in the marked proper nouns (§47).
 
 **Seven regions:** Maritime Core & Finnic Heartland · Prussian Anchor · Vistula Delta & Pomeranian
-Corridor · Baltic Inland Estate Belt · Curonian Land Bridge · Slavic Frontier · Karelian Department.
+Corridor · Baltic Inland Estate Belt · Curonian Land Bridge · Slavic Frontier · Karelia (northern lobe).
 
 ## REGION 1: THE MARITIME CORE & FINNIC HEARTLAND
 - **RĪKA** (Riga, Latvia) — 56°56'N 24°06'E. Riga State City; Pierīga Planning Region (Mārupe, Ropaži, Ādaži, Ķekava, Olaine, Salaspils, Jūrmala, Saulkrasti).
@@ -45,7 +45,7 @@ Corridor · Baltic Inland Estate Belt · Curonian Land Bridge · Slavic Frontier
 - **LĪDA** (Lida, Belarus) — 53°53'N 25°18'E. Lida, Voronovo, Ivye, Novogrudok Districts.
 - **VOLKOVIXI** (Vawkavysk, Belarus) — 53°09'N 24°27'E. Volkovysk, Zelva, Slonim Districts (SE rail-gauge transfer anchor). *(x=[ks])*
 
-## REGION 7: THE KARELIAN DEPARTMENT (overseas archaium)
+## REGION 7: KARELIA (directly-connected northern lobe; reached overland via the Vīpôri isthmus)
 - **VĪPÔRI** (Vyborg, Russia) — 60°42'N 28°44'E. Vyborgsky District (Leningrad Oblast), Priozersky District.
 - **PETRÔSÔ** (Petrozavodsk, Russia) — 61°47'N 34°21'E. Petrozavodsk Urban Okrug, Prionezhsky, Pryazhinsky, Kondopozhsky.
 - **SÔRTÔ** (Sortavala, Russia) — 61°42'N 30°41'E. Sortavalsky, Pitkyarantsky, Lahdenpohjsky Districts.

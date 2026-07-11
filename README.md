@@ -56,7 +56,7 @@ Nothing is canon until merged.
 
 Finnic grammar under four-way loan contact: agglutinative cases, vowel harmony, no verb agreement, pre-verbal negation *äb*, a bare-stem imperative and hortative *-m*. Base-12 (dozenal) numbers with Slavic digits, a 24-hour clock, and a Low German merchant calendar. The productive derivational affixes are **-ji, -õr/-ôr, -in, -mus/-mys, -ū, -stā, -ldā, -ām/-äm, -tū/-ty** (plus causative -tā and the comparative -mi). Orthography uses **ô** [ɤ] (not õ, retired v4.0); x = [ʃ], or [ks] in proper nouns (§47). Two dialects: the metroplex metrolect (standard) and the conservative inland.
 
-The language is also **pluricentric**: alongside the Metropolitan standard (the coursebook) stands **Saharannaise** (`saharannaise/`), the co-standard of the Atlantic Sahara overseas department, which keeps the identical Nelôxi grammar but reroots its domestic lexicon in Hassaniya Arabic and Zenaga Berber. It is self-contained in its own section (own seat, own separately-counted lexicon) and links back to core canon rather than editing it — see `saharannaise/saharannaise.md`.
+The language is also **pluricentric**: alongside the Metropolitan standard (the coursebook) stands **Saharannaise** (`saharannaise/`), the co-standard of **Atlanta** — Nelôxia's sovereign sister state on the Atlantic Saharan coast (see `world/atlanta-lore.md`) — which keeps the identical Nelôxi grammar but reroots its domestic lexicon in Hassaniya Arabic and Zenaga Berber. It is self-contained in its own section (own seat, own separately-counted lexicon) and links back to core canon rather than editing it — see `saharannaise/saharannaise.md`.
 
 ## Register
 
