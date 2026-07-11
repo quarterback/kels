@@ -1,6 +1,6 @@
 # Nelô kēļ — English → Nelôxi Reverse Index
 
-*Generated from the coursebook master dictionary (1831 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
+*Generated from the coursebook master dictionary (1832 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
 
 
 ## A
@@ -398,6 +398,7 @@ cf. syndômus birth) → **sünnitä**
 cf. sīlô 'seam') → **mārgô**  
 cf. turg "market square") → **markôt**  
 cf. vastômus) → **vastāmus**  
+cf. warm ühüfôk 'hearth-mate') → **kaimô**  
 cf. çenô bargain-price — distinct) → **çeñ**  
 cf. ühüvôrk, ühüvāgô) → **ühüfôk**  
 chain (of shops) → **kett**⁺  
@@ -1540,6 +1541,7 @@ no longer → **amplü**
 no matter → **līkgōd**  
 nod (v.) → **nõkā**  
 noise music (international, experimental) → **noiz**  
+non-gendered everyday word → **kaimô**  
 nonsense (dismissive) → **nalī**  
 nord + ost) → **nordost**  
 nord + vest) → **nordvest**  
@@ -1755,6 +1757,7 @@ prick → **pik** · **stēkā**
 pride → **ūpū**  
 pride (native adj. → **rôimõ**  
 priest → **preverô**  
+prince — the gold-boy (kuld 'gold' + poig 'boy') → **kuldapoig**  
 prison → **vangô**  
 prisoner of war (Romance) → **kaptīvô**  
 private (Romance) → **privatü**  
@@ -2038,6 +2041,7 @@ shore pilgrim → **rāndpalmôr**
 shore spirit → **rāndduhô**  
 short → **kurt**  
 short coat (Low German) → **kitlô**  
+short for the full image taikô poig kuldxapkôk 'a boy child wearing a crown' → **kuldapoig**  
 shoulder (Livonian) → **ôlgô**  
 show (international, informal) → **gigô**  
 showcase match → **festmaçô**  
@@ -2150,7 +2154,8 @@ spill → **pillā**
 spirit (Slavic frontier) → **duhô**  
 spirit of beaches and drowned sailors (folk religion) → **rāndduhô**  
 sport (international) → **sportô**  
-spouse → **kaimô** · **ühüfôk**  
+spouse → **ühüfôk**  
+spouse (the plain → **kaimô**  
 spring (season) → **kevä**  
 spun thread (Low German → **garnô**  
 square → **plats**  
