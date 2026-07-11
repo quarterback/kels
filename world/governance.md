@@ -28,6 +28,31 @@ The Diēt is **partisan by design** — it is *supposed* to argue and represent.
 Its members sit atop the elected offices already lexified: **batle** mayor · **nôuk / nôukôr**
 council / councillor · **diputāt** deputy · **posādnik** trade-city head.
 
+### Why three chambers — the scale answer
+
+Tricameralism is sound here **because the nation is vast and accreted**, not despite it. A state this
+big and heterogeneous has three legitimacy claims that cannot be collapsed into one another, so each
+gets a chamber:
+
+- **people** — by population (*Ühüvēu*): the democratic axis. Alone, it lets the great regions swamp
+  the small ports.
+- **member-units as co-equals** — one peer-seat per accession regardless of size (*Nôuk Pārôd*): the
+  federal axis, "incorporate without erasing" turned into a vote. Alone, it lets a tiny unit veto the
+  many.
+- **continuity and deliberation** (*Senāt*): the longer view that holds a fast-growing patchwork
+  together and cools the other two.
+
+A unitary town needs one chamber; an ordinary federation needs two (people + units); a **vast,
+still-accreting, procedure-not-ethnicity confederation needs the third**, to balance all three claims
+at once so **no single principle — mob, big-region, or elder-technocrat — can dominate.**
+
+**The through-line of the whole constitution:** the three-chamber Diēt and the convened-by-lot
+*Ülerēdām* are the *same design idea* — **nothing permanent may seize the state.** No single chamber
+captures the legislature; no standing bench can be packed because the highest court forms by lot and
+dissolves. Anti-capture is the constitutional expression of a state that runs on **procedure, not
+power** — the same DNA as the mobile, apolitical administrative Hand. Every branch is built so that no
+faction, region, or office can harden into a permanent grip.
+
 ## The Ülerēdām — the Supreme Court, convened by lot
 
 Nelôxia has **no permanent apex court.** When a matter needs the highest ruling, an **Ülerēdām**
