@@ -2,7 +2,7 @@
 
 > The full structural core of Nelôxi in one file. Hand this to a grammar agent, or to any
 > agent that has started drifting (using Estonian, guessing forms) to re-ground it.
-> Canon v5.49. Every module assumes no prior knowledge.
+> Canon v5.50. Every module assumes no prior knowledge.
 
 ---
 

@@ -1,6 +1,6 @@
 # Nelô kēļ — English → Nelôxi Reverse Index
 
-*Generated from the coursebook master dictionary (1735 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
+*Generated from the coursebook master dictionary (1752 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
 
 
 ## A
@@ -27,15 +27,18 @@ a spree of violence → **violentskett**
 a welcome → **sōdõmus**  
 abbot (Romance/Latin) → **abātô**  
 about → **mumbõ** · **pǟl**  
+accord (Romance/Latin pactum) → **paktô**  
 accordion (Romance/international) → **akordeôn**  
 accusation (Romance) → **akūzatsiôn**  
 accuse (Romance) (v.) → **akūzā**  
 ache of absence → **kaipômus**  
+acknowledge (Romance/Latin) → **admitā**  
 across (postp.) → **üle**  
 act → **aktô**  
 actual → **ehtsô**  
 add (an ingredient) (v.) → **lisā**  
 address (Romance/administrative) → **adres**  
+admit (v.) → **admitā**  
 aeroplane → **plēnô**  
 affect (v.) → **virkā**  
 affection → **arm**  
@@ -345,6 +348,7 @@ catch (of fish) → **sañô**
 category → **lād**  
 Catholic (Romance/Latin church) → **Katolikô**  
 cause → **pôhjô**  
+ceasefire (Low German) → **trūsô**  
 cello (Romance/international) → **çellô**  
 censer (Slavic/Orthodox-frontier) → **kadilô**  
 center → **keskū**  
@@ -478,6 +482,7 @@ confessional (Romance/Latin church) → **konfessālô**
 confirm (Romance/Latin church) (v.) → **konfirmā**  
 confirmation → **konfirmômus**  
 conflagration — the destructive fire (Low German Brand) → **brandô**  
+conflict (Romance) → **konfliktô**  
 confused (Romance) → **konfusü**  
 confusing → **konfusü**  
 conquer (v.) → **vinkā**  
@@ -592,6 +597,7 @@ defiant grit — playing hurt → **trotsô**
 define (Romance) (v.) → **definā**  
 degree → **grād**  
 deity (Romance/Latin-Catalan) → **deusô**  
+delegation (Romance) → **delegatsiôn**  
 delight → **rôim**  
 demon (coarse) → **düvēl**  
 Denmark (exonym, "the Danes") → **Danô**  
@@ -717,6 +723,7 @@ epidemic (Romance) → **pestô**
 equestrian sport → **rīdômus**  
 erase (v.) → **puhādā**  
 especially the earned → **empatô**  
+establish (Romance/Latin fundare) → **fundā**  
 established truth → **tôsītū**  
 Estonia (exonym, from Eesti) → **Ēstô**  
 eternal → **igävē**  
@@ -862,11 +869,14 @@ fortunately → **ônnô**
 forward → **edä**  
 foul → **bōs** · **vǟrpēlā**  
 foul (in a game) → **vǟrpēlô**  
+found (v.) → **fundā**  
 foundation → **pôhô**  
 four → **xtiri**  
 fourteen → **dünva**  
 fragile → **habrô**  
 France (exonym, Hanseatic route-form) → **Frankrīk**  
+free → **līberü**  
+freedom → **libertā**  
 fresh (of food) → **värskē**  
 Friday → **frīdag**  
 friend → **amīk**  
@@ -1231,6 +1241,7 @@ letter → **rūnô**
 let’s do it → **lasõkäi**  
 let’s go → **minõm**  
 let’s go (hortative) → **lǟkõm**  
+liberty (Romance/Latin) → **libertā**  
 library → **livrôkōt**  
 license → **lubômus**  
 lie (n.) → **mentīd**  
@@ -1335,6 +1346,8 @@ measure out → **jagā**
 measuring tool → **mēdôr**  
 meat → **karn**  
 medal → **medāl**⁺  
+mediate (Romance) (v.) → **mediā**  
+mediator (Romance) → **mediatôr**  
 medication (cf. rohô "grass" → **rohtô**  
 medicine → **mediçīn** · **rohtô**  
 melody → **melodī**  
@@ -1403,6 +1416,7 @@ mystery → **mīstērô**
 nail → **küüs** · **tappô** · **tappā**  
 naked → **paljās**  
 name → **nim**  
+narrows (maritime core) → **väinä**  
 nation → **riig**  
 naturally → **muidū**  
 nautical word → **strānd**  
@@ -1413,6 +1427,8 @@ neck → **kurk**
 neckline (Low German) → **krāgô**  
 needed → **tarīs**  
 needle → **nôglô**  
+negotiate (Romance) (v.) → **negotsiā**  
+negotiation (Romance) → **negotsiatsiôn**  
 neighbor → **nabôr**  
 neighborhood hall → **klubô**⁺  
 nerve → **klȫtô**  
@@ -1503,7 +1519,7 @@ only → **ainô**
 only just → **alõs**  
 onward → **edä**  
 oops → **oi** · **oih**  
-open (v.) → **obrī**  
+open → **līberü** · **obrī**  
 operate (Romance) → **funktsionā**  
 or → **ehk** · **vai** · **või**  
 or execution (folk fear → **fānkellô**  
@@ -1529,6 +1545,7 @@ o’clock (klôk xeç "at six") → **klôk**
 
 pace → **sammô**  
 pack (v.) → **pakkü**  
+pact → **paktô**  
 page → **lehtô**  
 pain → **valū**  
 pair (Low German Paar) → **pārô**  
@@ -1543,6 +1560,7 @@ parish (Slavic/church-Greek) → **parokô**
 parish debt/scandal/excommunication register (parish bureaucracy) → **mustlivrô**  
 part → **dēl** · **jagô**  
 pass (v.) → **pāsā**  
+passage → **pāsômus**  
 passion → **kirg**  
 passport → **pāsportô**⁺  
 paste → **limô** · **limā**  
@@ -1641,6 +1659,7 @@ pride → **ūpū**
 priest → **preverô**  
 prison → **vangô**  
 prisoner of war (Romance) → **kaptīvô**  
+private (Romance) → **privatü**  
 prize → **perēm**⁺  
 probably → **vist**  
 problem (Romance) → **problēm**  
@@ -1679,6 +1698,7 @@ purpose → **ārgô**
 purse → **taskü**  
 put (v.) → **asetā** · **panā**  
 put on (v.) → **kappā**  
+put one’s name to (al ‘under’ + kirjā ‘write’ → **alkirjā**  
 put out (Low German löschen) → **löxā**  
 put right → **kôrdā**  
 pôjā + idā) → **pôjāidā**  
@@ -1916,6 +1936,7 @@ shrine → **sanktuār**
 sick → **malālt**  
 sickle → **sirpô**  
 siege (Romance) → **seçô**  
+sign (v.) → **alkirjā**  
 sign (Romance/Latin) → **omenô**  
 signal → **signô**⁺  
 signal tower → **tornô**⁺  
@@ -1988,6 +2009,7 @@ soothe → **rahuldā**
 sorry → **pardô**  
 sort → **lād**  
 soul (Romance/Latin) → **animô**  
+sound → **väinä**  
 soup → **sup**  
 sour cream (Marīsô, slav) → **smetôn**  
 south → **sud**  
@@ -1996,6 +2018,8 @@ southeast (civic → **südost**
 southeast (geographic → **sudidā**  
 southwest (civic → **südvest**  
 southwest (geographic → **sudlǟn**  
+sovereign (Romance) → **suverēn**  
+sovereignty (Romance) → **suverenitēt**  
 sow (v.) → **külvā**  
 sowing → **külvômus**  
 Spain (exonym, route-form with native ñ) → **Españô**  
@@ -2047,6 +2071,7 @@ storey (Romance) → **etāxô**
 storm → **tormô**  
 story → **kontē** · **stōrī**  
 stove — the great interior stove (Marīsô → **peçô**  
+strait → **väinä**  
 stranger → **vôrô**  
 strawberry (cf. berry marjô → **bȫrsô**  
 street → **karrē**  
@@ -2268,6 +2293,7 @@ train → **harjā** · **tēno**
 trainer → **koçôr**⁺  
 training session → **harjômus**  
 transgression (Romance/Latin) → **pekātô**  
+transit (from pāsā ‘to pass’) → **pāsômus**  
 transmission → **saatômus**  
 trash → **roiskô**  
 travel (v.) → **reisā**  
@@ -2284,7 +2310,7 @@ trombone (Romance/international) → **trombôn**
 troop → **troppô**  
 trouble oneself → **mādā**  
 trousers → **brôkô**  
-truce (Low German) → **trūsô**  
+truce → **trūsô**  
 trumpet (Romance/international) → **trumpet**  
 trust (v.) → **usaldā**  
 trust (n.) → **usaldômus**  
@@ -2313,6 +2339,7 @@ umpire → **māçôr**⁺
 uncertain → **pōlkindõl**  
 uncle → **onkô**  
 under (postp.) → **al**  
+under-write calque) → **alkirjā**  
 underhand means — the dark-arts twin of slitô honest graft (Low German schöveln/schofel) → **xövelä**  
 underside → **alū**  
 understand (v.) → **komprē**  
@@ -2321,6 +2348,7 @@ unfortunately → **kahjū**
 Uniate → **Uniatô**  
 unit of weight (Low German Pfund) → **pundô**  
 unit-door of an address (Romance → **durô**  
+unobstructed (of a passage) (Romance/Latin) → **līberü**  
 until (temporal conjunction) → **kuni**  
 unusual (Scandinavian) → **ovanlü**  
 upkeep → **hoolômus**  

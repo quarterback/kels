@@ -3,6 +3,7 @@ abātô
 abī
 abīstā
 abītȫ
+admitā
 adorā
 adres
 adē
@@ -23,6 +24,7 @@ al
 alatü
 albômô
 alk
+alkirjā
 alkā
 alliansô
 alt
@@ -132,6 +134,7 @@ dansā
 Danô
 definā
 dek
+delegatsiôn
 demā
 dent
 derbô
@@ -259,6 +262,7 @@ fotā
 Frankrīk
 frīdag
 frūt
+fundā
 funerālô
 funktsionā
 futrā
@@ -558,6 +562,7 @@ konfessiôn
 konfessālô
 konfirmômus
 konfirmā
+konfliktô
 konfusü
 kontrabass
 kontē
@@ -705,6 +710,7 @@ lepômus
 lepā
 leskô
 Letmō
+libertā
 lihtsalt
 liig
 liitlô
@@ -747,6 +753,7 @@ lēsô
 lēsām
 lēt
 lēvü
+līberü
 lībā
 līkgōd
 līks
@@ -798,7 +805,9 @@ matrūs
 matī
 maxīn
 maçô
+mediatôr
 mediçīn
+mediā
 medāl
 melk
 melodī
@@ -907,6 +916,8 @@ naurô
 naurā
 navô
 ne
+negotsiatsiôn
+negotsiā
 niimôdõ
 nim
 nixō
@@ -996,6 +1007,7 @@ pa
 padā
 pakkü
 paks
+paktô
 pakā
 paljās
 palmôr
@@ -1069,6 +1081,7 @@ praul
 pregômus
 pregā
 preverô
+privatü
 problēm
 procesiôn
 produsôr
@@ -1123,6 +1136,7 @@ püsām
 pārkô
 pārô
 pāsportô
+pāsômus
 pāsā
 pēlk
 pēlô
@@ -1350,6 +1364,8 @@ sulā
 sup
 surmô
 surā
+suverenitēt
+suverēn
 suvi
 suô
 suônô
@@ -1633,6 +1649,7 @@ vundô
 väetô
 väetā
 vägä
+väinä
 välk
 välkü
 vällô
