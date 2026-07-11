@@ -36,6 +36,22 @@ the sea deals you" (§123), not a borrowed *fatum* — the saying came first, th
 
 ---
 
+## The flounder-summons (a tale-formula)
+
+> **Pakalā, pakalā, merel sīn,**
+> **tulē mäle, kūlô mä!**
+> **Ühüfôk Ilsô äb um vaik,**
+> **tä sōvā mult, äb kui mä.**
+> *"Loaf-fish, loaf-fish, here in the sea, / come to me, hear me! / Hearth-mate Ilsô is not at
+> peace, / she wishes much, not as I."* (Non-possessive, non-gendered — *ühüfôk Ilsô*, not "my wife
+> Ilsô"; §127.)
+
+The fixed summons from *The Fisher and His Wife* (`reader/fisher-and-wife.md`), spoken unchanged each
+time the fisher returns to the water — and the sea darkens a shade with every wish. A **tale-formula**:
+a fixed poetic quatrain that a story carries as a refrain. Register: incantatory, worn smooth by
+repetition. It shows the language's poetic register (vocative, imperative, the *kui* frame) works on
+plain attested words.
+
 ## How idioms enter canon
 
 1. The image must sit in a **metaphor field** (sea, salt & scale, black-book, net, hearth, parish,

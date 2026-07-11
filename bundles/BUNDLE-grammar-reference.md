@@ -2,7 +2,7 @@
 
 > The full structural core of Nelôxi in one file. Hand this to a grammar agent, or to any
 > agent that has started drifting (using Estonian, guessing forms) to re-ground it.
-> Canon v5.57. Every module assumes no prior knowledge.
+> Canon v5.58. Every module assumes no prior knowledge.
 
 ---
 
@@ -454,6 +454,20 @@ Pronouns are dropped once the subject is clear (Nelôxi is pro-drop): *Ka sä vo
 
 **mäs** my · **säs** your · **täs** his/her/its · **mēgs** our · **tēgs** your (pl.) · **nes** their.
 *Mäs nim um Ron* "My name is Ron." *Ka säs gos um jūn?* "Is your dog young?"
+
+### Possessives never take a person (§127) — kin are not owned, and not gendered
+
+The possessive works for **things** (*täs līnô* "his line," *mäs kōt* "my house") but **never for
+people or kin.** Nelôxi does not say "his wife," "her husband," "their children" — relationships are
+not ownership, and *tä* is genderless. You **name people and bond them to each other** — with *ja*
+"and," apposition, or the comitative *-k* — never with a possessive, never with a gendered kin-word:
+
+- Non-gendered kin nouns: **ühüfôk** "spouse, life-partner" (*ühü* "shared" + *fôk* "hearth"),
+  **läpx** "child" (already genderless).
+- *"Sergei, his wife Misha, and their children Mary and Miiko"* →
+  **Sergei ja ühüfôk Misha, ja läpxôd Mary ja Miiko** — everyone named and bonded, no *täs/nes*, no
+  "wife." The gendered *naisô* "wife" / *marīt* "husband" survive only as plain descriptors when sex
+  is genuinely being stated, and even then are never possessed.
 
 ## 3. Demonstratives
 

@@ -1,6 +1,6 @@
 # Nelô kēļ — English → Nelôxi Reverse Index
 
-*Generated from the coursebook master dictionary (1824 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
+*Generated from the coursebook master dictionary (1831 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
 
 
 ## A
@@ -14,6 +14,7 @@ a few → **mõnü**
 a flop (coarse) → **flōp**  
 a fraction → **dēl**  
 a heavy or stiff coat (ironic → **pantsār**  
+a home so poor it is filled with mousetraps (hīr 'mouse' + lôuk 'trap' + kōt 'house') → **hīrlôukkōt**  
 a lane-track (Romance/international) → **pistô**  
 a linked series → **kett**⁺  
 a moment → **hetk**  
@@ -398,6 +399,7 @@ cf. sīlô 'seam') → **mārgô**
 cf. turg "market square") → **markôt**  
 cf. vastômus) → **vastāmus**  
 cf. çenô bargain-price — distinct) → **çeñ**  
+cf. ühüvôrk, ühüvāgô) → **ühüfôk**  
 chain (of shops) → **kett**⁺  
 chair → **kadīr**  
 change (v.) → **muutô**  
@@ -538,6 +540,7 @@ cook gently → **sōbā**
 cord → **köis**  
 correct → **ôigus**  
 corrupt (coarse) → **krōm**  
+cottage — a stone-house (kivī 'stone' + kōt 'house') → **kivīkōt**  
 cough → **köhä**  
 cough (Livonian) (v.) → **köhä**  
 council → **nôuk**  
@@ -573,6 +576,7 @@ cross marked with salt before sailing or oaths (sailor folk-religion) → **sōl
 cross-water → **krūçôveç**  
 crow (Low German Kraai) → **krā**  
 crowd-noise (Marīsô, slav) → **xumô**  
+crown — the gold cap worn on a royal head (kuld 'gold' + xapkô 'cap') → **kuldxapkô**  
 crucifix → **kruçô** · **krūçôfiks**  
 crucify (v.) → **krūçā**  
 cry (v.) → **itkô**  
@@ -878,12 +882,14 @@ flag → **flag**⁺
 flame (Romance) → **flamô**  
 flash (lightning) (v.) → **välkü**  
 flat (Marīsô, slav) → **mrovô**  
+flat as a loaf of bread (pa 'loaf, bread' + kalā 'fish') → **pakalā**  
 flax (the plant and fiber) → **līnā**  
 flight attendant ("plane-milk") → **plēnô-melk**  
 flock → **karjô** · **svarmô**  
 flood → **tulvô** · **tulvā** · **upôtā**  
 floor → **etāxô**  
 floor (of sea/river) → **pôhô**  
+flounder — the loaf-fish → **pakalā**  
 flour → **jôu**  
 flower → **lil**  
 flute → **flūtô**  
@@ -1141,6 +1147,7 @@ host (Low German) → **hērô**
 hot → **kalēnt**  
 hour → **klôk** · **ōra**  
 house → **kōt**  
+hovel — lit. a mousetrap-house → **hīrlôukkōt**  
 how → **kui**  
 however → **omõtõ**  
 howl (Scandinavian (v.) → **hülā**  
@@ -1313,6 +1320,7 @@ library → **livrôkōt**
 license → **lubômus**  
 lie (n.) → **mentīd**  
 life → **elômus**  
+life-partner — non-gendered → **ühüfôk**  
 lift (v.) → **nostô**  
 light → **helē**  
 light (not heavy) → **kerg**  
@@ -1472,6 +1480,7 @@ mould → **mätä**
 mountain → **muntāñ**  
 mourn (v.) → **leinā** · **paterbabkô**  
 mourning → **leinô**  
+mouse (Livonian) → **hīr**  
 mouth → **bokā**  
 move (intr.) (v.) → **līkô**  
 much → **mult**  
@@ -2077,6 +2086,7 @@ smooth → **silē**
 smoulder (Livonian) → **hȫgā**  
 snake → **slangô**  
 snap — of a bone (Livonian) → **murdā**  
+snare — the little jaws that snap shut (native) → **lôuk**  
 snatch casually (Marīsô, slav) → **çapkā**  
 snout → **mūlô**  
 snow → **nēu**  
@@ -2140,7 +2150,7 @@ spill → **pillā**
 spirit (Slavic frontier) → **duhô**  
 spirit of beaches and drowned sailors (folk religion) → **rāndduhô**  
 sport (international) → **sportô**  
-spouse → **kaimô**  
+spouse → **kaimô** · **ühüfôk**  
 spring (season) → **kevä**  
 spun thread (Low German → **garnô**  
 square → **plats**  
@@ -2330,6 +2340,7 @@ the luxury — the gifted passenger → **luxô**
 the market-scale as justice) → **ühüvāgô**  
 the momentum-swing — the hinge moment when the current of a match reverses (vool + pöördô, clipped commentary word) → **voolpöörd**  
 the old hate — the deep historical grudge under a rivalry (kaug + vihān) → **kaugvihān**  
+the one you share a hearth with (ühü 'shared' + fôk 'hearth' → **ühüfôk**  
 the past → **ennū**  
 the player with nerve → **klȫtôr**  
 the poisoned ground — the hostile away-arena (mürk + -äm place-suffix) → **mürkäm**  
@@ -2415,6 +2426,7 @@ training session → **harjômus**
 transgression (Romance/Latin) → **pekātô**  
 transit (from pāsā ‘to pass’) → **pāsômus**  
 transmission → **saatômus**  
+trap → **lôuk**  
 trash → **roiskô**  
 travel (v.) → **reisā**  
 travel by vehicle → **sôidā**  

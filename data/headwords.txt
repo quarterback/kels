@@ -371,6 +371,8 @@ häbedā
 häbū
 hülā
 hērô
+hīr
+hīrlôukkōt
 hūl
 hūr
 hūrkirīk
@@ -558,6 +560,7 @@ kirīk
 kitlô
 kitsô
 kivī
+kivīkōt
 klaidô
 klamôt
 klarinēt
@@ -641,6 +644,7 @@ kuivômus
 kukô
 kukôr
 kuld
+kuldxapkô
 kullõ
 kultivômus
 kultivā
@@ -779,6 +783,7 @@ läbi
 läpx
 lôigā
 lông
+lôuk
 lôunā
 löxā
 lüstä
@@ -1052,6 +1057,7 @@ otsômus
 ovanlü
 pa
 padā
+pakalā
 pakkü
 paks
 paktô
@@ -1794,6 +1800,7 @@ xȫvlā
 ôpā
 ôpāji
 ühü
+ühüfôk
 Ühüriigôd
 ühüvôrk
 ühüvāgô
