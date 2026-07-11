@@ -1,6 +1,6 @@
 # Nelô kēļ — English → Nelôxi Reverse Index
 
-*Generated from the coursebook master dictionary (1865 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
+*Generated from the coursebook master dictionary (1868 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
 
 
 ## A
@@ -40,6 +40,7 @@ act → **aktô**
 actual → **ehtsô**  
 add (an ingredient) (v.) → **lisā**  
 address (Romance/administrative) → **adres**  
+administration as a career (from podestā) → **podestātô**  
 admiral → **almirāl**  
 admit (v.) → **admitā**  
 aeroplane → **plēnô**  
@@ -85,6 +86,7 @@ America (informal exonym) → **Amerikô**
 American football (Amerikô + jalgpēl) → **amerikôjalgpēl**  
 amplifier (international) → **amplifôr**  
 amulet (Romance/international) → **amuletô**  
+an administrative township → **distrikt**  
 an old woman paid to pray → **paterbabkô**  
 an open fire (Livonian) → **lȫkô**  
 analysis (Romance) → **analüüs**  
@@ -402,6 +404,7 @@ cf. native pôlū) → **gribô**
 cf. rindô line of writing) → **rind**  
 cf. rānd) → **strānd**  
 cf. rīgô) → **riig**  
+cf. sektōr a geographic quadrant) → **distrikt**  
 cf. selgô clear) → **selg**  
 cf. syndômus birth) → **sünnitä**  
 cf. sīlô 'seam') → **mārgô**  
@@ -1505,6 +1508,7 @@ mix (v.) → **segā**
 mixed border life → **pīrôsegas**  
 mixed Latin/Orthodox/local rite of the border towns (frontier religion) → **pīrôritô**  
 mm (reluctant agreement) → **njah**  
+mobile → **podestā**  
 mode → **mōd**  
 moist → **mȫistü**  
 moisture → **mȫistôr**  
@@ -1585,6 +1589,7 @@ no matter → **līkgōd**
 nod (v.) → **nõkā**  
 noise music (international, experimental) → **noiz**  
 non-gendered everyday word → **kaimô**  
+non-partisan (Romance/Italian podestà ← Latin potestas) → **podestā**  
 nonsense (dismissive) → **nalī**  
 nord + ost) → **nordost**  
 nord + vest) → **nordvest**  
@@ -1819,6 +1824,7 @@ procession (Romance/Latin church) → **procesiôn**
 procurement → **inkôp**  
 produce (music) (Romance/international) (v.) → **produsā**  
 producer (from produsā) → **produsôr**  
+professional township administrator → **podestā**  
 profit-margin (late-stratum, commerce) → **marginôl**  
 program → **kodā**⁺  
 prohibition → **kēld**  
@@ -2368,6 +2374,7 @@ that (introduces a clause) → **et**
 that kind of → **sellü**  
 that-there → **tuo**  
 thaw → **sulā**  
+the 'city manager' — appointed → **podestā**  
 the after-hours cellar (American scar spīk-) → **spīkizô**  
 the angler whose count is always missing one → **vajômus**  
 the art or sound (Romance) → **mūsikô**  
@@ -2419,6 +2426,7 @@ the rooster — flat-track bully → **kukôr**
 the same → **samā**  
 the same way → **samū**  
 the sea-power's senior rank) → **almirāl**  
+the Service — the professional administrative corps → **podestātô**  
 the shadow → **çeñôr**  
 the shatter — sudden capitulation in a single passage of play → **sümbrôk**  
 the speaking-assembly (Romance/Catalan parlament → **parlamēnt**  
@@ -2429,6 +2437,7 @@ the technical caste (Romance) → **teknik**
 the tightening (international loan) → **klinçô**  
 the United States (calque) → **Ühüriigôd**  
 the wall of sound (Low German → **brüllô**  
+the ward a podestā runs (Romance/Catalan districte → **distrikt**  
 the way momentum runs → **vool**  
 the wheel — a side that is rolling → **rōdā**  
 theory (Romance) → **teorī**  
@@ -2738,5 +2747,6 @@ you’re right → **ôigus**
 ## Z
 
 zero → **nolô**  
+zero-final → **distrikt**  
 zero-final) → **batle** · **dekret** · **karantēn** · **manifest** · **reglament**  
 zither → **kantelô**  

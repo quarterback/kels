@@ -56,6 +56,7 @@
     geography:   { title: "Geography",         sub: "The shape of Nelôxia",         file: "world/geography.md",               group: "World" },
     gazetteer:   { title: "Gazetteer",         sub: "Cities & place-names",         file: "world/gazetteer.md",               group: "World", toc: true },
     boundaries:  { title: "Boundaries",        sub: "Canonical borders & units",    file: "world/boundaries.md",              group: "World", toc: true },
+    governance:  { title: "Governance",        sub: "The Voice & the Service (polity)", file: "world/governance.md",           group: "World", toc: true },
     names:       { title: "Civil names",        sub: "Local · civil · short-civic forms", file: "world/names.md",              group: "World" },
     toponymy:    { title: "Toponymy",          sub: "How places get named",         file: "world/toponymy.md",                group: "World", toc: true },
     exonyms:     { title: "Exonyms",           sub: "What Nelôxi calls other lands", file: "world/exonyms.md",                 group: "World", toc: true },

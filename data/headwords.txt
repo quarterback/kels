@@ -165,6 +165,7 @@ dioçēsô
 diputāt
 diskutā
 disputô
+distrikt
 dogm
 doktôr
 dolman
@@ -1140,6 +1141,8 @@ platôspēlin
 plinô
 plēnô
 plēnô-melk
+podestā
+podestātô
 pogô
 poig
 politsī
