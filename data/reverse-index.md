@@ -39,7 +39,7 @@ act → **aktô**
 actual → **ehtsô**  
 add (an ingredient) (v.) → **lisā**  
 address (Romance/administrative) → **adres**  
-admiral → **almirālô**  
+admiral → **almirāl**  
 admit (v.) → **admitā**  
 aeroplane → **plēnô**  
 affect (v.) → **virkā**  
@@ -268,7 +268,7 @@ booze → **prōm**
 border → **pīrô**  
 border city → **pīrôsitāt**  
 border crossing → **grançô**⁺  
-border military-governor of an eastern march (Slavic → **voivodô**  
+border military-governor of an eastern march (Slavic → **voivod**  
 border mixture → **pīrôsegas**  
 border permit → **pīrôlubômus**  
 border rite → **pīrôritô**  
@@ -349,7 +349,7 @@ cap → **xapkô**
 capability → **kapasitēt**  
 capacity (Romance) → **kapasitēt**  
 cape → **nēm**  
-captain → **kapitānô**  
+captain → **kapitān**  
 captive → **kaptīvô**  
 car → **kotxē**  
 care → **mūrô**  
@@ -486,7 +486,7 @@ cold → **kylm**
 collar → **halsbandô** · **krāgô**  
 collect → **kōrjā**  
 colloquial) → **blin** · **lombô** · **veks**  
-colonel (Romance/Catalan coronel) → **koronēlô**  
+colonel (Romance/Catalan coronel) → **koronēl**  
 color → **kōlôr**  
 combat → **kampômus**  
 come (v.) → **tulē**  
@@ -645,7 +645,7 @@ Denmark (exonym, "the Danes") → **Danô**
 denomination → **konfessiôn**  
 depart → **tükä**  
 depth-measure (Low German Faden) → **fādôm**  
-deputy (Romance/Catalan diputat) → **diputātô**  
+deputy (Romance/Catalan diputat) → **diputāt**  
 derby → **derbô**  
 designation → **designatsiôn**  
 desire → **tahtô**  
@@ -676,7 +676,7 @@ disposal → **jättômus**
 disposal site → **jättām**  
 dispose of → **jättā**  
 dispute (Romance) → **disputô**  
-distinct from kaptā 'to catch') → **kapitānô**  
+distinct from kaptā 'to catch') → **kapitān**  
 distinct from vundô battle-wound, haavômus emotional-wound) → **ranô**  
 distinct from āhi oven) → **peçô**  
 district quadrant (Romance/international → **sektōr**  
@@ -736,7 +736,7 @@ earth → **mā** · **māld**
 ease (v.) → **kergendä**  
 east → **idā**  
 east (Low German → **ost**  
-eastern administrative stratum) → **gubernātô**  
+eastern administrative stratum → **gubernātôr**  
 Eastern Catholic (Slavic/Latin frontier church) → **Uniatô**  
 eat (v.) → **menjā** · **sȫ**  
 ecosystem (Romance) → **ekôsüstēm**  
@@ -953,7 +953,7 @@ from now on → **nūlt**
 from rôim 'delight' / rôimā 'to rejoice' → **rôimõ**  
 from the proverb Mer donā, ja mer votā) → **merjagô**  
 front position (in a race or contest) → **fȫrô**⁺  
-frontier institution, cf. militsô) → **voivodô**  
+frontier institution, cf. militsô) → **voivod**  
 frost → **pakā**  
 fruit → **frūt**  
 fry (v.) → **praadi**⁺ · **praadā**⁺  
@@ -979,7 +979,7 @@ gather (v.) → **kōrjā** · **noppā**
 gather crop → **viljôstā**  
 gathering → **noppômus**  
 gear → **klamôt**  
-general → **generālô**  
+general → **generāl**  
 generation → **pôlvô**  
 gentle → **hell**  
 genuine (native core) → **ehtsô**  
@@ -1018,7 +1018,7 @@ goodbye → **adē**
 goose (Low German Gans) → **gans**  
 govern (v.) → **valdā**  
 government → **valdômus**  
-governor → **gubernātô**  
+governor → **gubernātôr**  
 gown (Low German) → **klaidô**  
 grab (v.) → **çapkā**  
 grade → **grād**  
@@ -1099,8 +1099,8 @@ have to (v.) → **pidā**
 hay → **heinô**  
 he → **tä**  
 head → **kap**  
-head of a province (Slavic gubernator → **gubernātô**  
-head of state or republic (Romance/Catalan president) → **presidentô**  
+head of a province (Slavic gubernator → **gubernātôr**  
+head of state or republic (Romance/Catalan president) → **presidēnt**  
 head-covering ('head-cloth': kap + lōtô) → **kaplōtô**  
 headland → **nēm**  
 heal (v.) → **tervenä**  
@@ -1453,7 +1453,7 @@ medication (cf. rohô "grass" → **rohtô**
 medicine → **mediçīn** · **rohtô**  
 melody → **melodī**  
 melt (v.) → **sulatā**  
-member of parliament → **diputātô**  
+member of parliament → **diputāt**  
 memory → **mēl**  
 mend (v.) → **parandā**  
 mend roughly (v.) → **xalkā**  
@@ -1527,7 +1527,7 @@ narrows (maritime core) → **väinä**
 nation → **riig**  
 naturally → **muidū**  
 nautical word → **strānd**  
-naval commander (Romance/Catalan almirall → **almirālô**  
+naval commander (Romance/Catalan almirall → **almirāl**  
 near → **prop**  
 nearly → **pehā**  
 necessary → **tarīs**  
@@ -1676,7 +1676,7 @@ pardon → **andõstā**
 parent → **genô**  
 parish (Slavic/church-Greek) → **parokô**  
 parish debt/scandal/excommunication register (parish bureaucracy) → **mustlivrô**  
-parliament → **parlamentô**  
+parliament → **parlamēnt**  
 part → **dēl** · **jagô**  
 pass (v.) → **pāsā**  
 passage → **pāsômus**  
@@ -1774,7 +1774,7 @@ precisely → **täpsõlt**
 pregnant (Low German schwanger) → **svangôr**  
 prepare (v.) → **valmistā**  
 prepared → **valmis**  
-president → **presidentô**  
+president → **presidēnt**  
 press register) → **empatô** · **luxô** · **rōdā**  
 press register, faintly cruel) → **fosô**  
 price → **prēu**  
@@ -1893,7 +1893,7 @@ remain → **jǟmä**
 remember (v.) → **mēldā**  
 repair → **parandômus** · **parandā**  
 reply (v.) → **vastāsaatā**  
-resonates with native parlā 'to speak') → **parlamentô**  
+resonates with native parlā 'to speak') → **parlamēnt**  
 respond → **kôstô**  
 response → **vastômus**  
 responsibility (irregular → **vastāmus**  
@@ -2017,7 +2017,7 @@ sell (colloq.) (v.) → **müä**
 send (v.) → **saatā**  
 send back → **vastāsaatā**  
 sending → **saatômus**  
-senior army officer (Romance/Catalan general) → **generālô**  
+senior army officer (Romance/Catalan general) → **generāl**  
 September → **septembôr**  
 sequence → **kôrd**  
 sequence marker: then → **tôl**  
@@ -2055,7 +2055,7 @@ shield (Scandinavian) → **skildô**
 shine (v.) → **nīrā**  
 shining → **nīrô**  
 ship → **xip**  
-ship's or company commander (Romance/Catalan capità → **kapitānô**  
+ship's or company commander (Romance/Catalan capità → **kapitān**  
 ship-mass → **xipmessô**  
 shirt → **kamizô**  
 shit → **skīt**  
@@ -2386,10 +2386,10 @@ the roar → **brüllô**
 the rooster — flat-track bully → **kukôr**  
 the same → **samā**  
 the same way → **samū**  
-the sea-power's senior rank) → **almirālô**  
+the sea-power's senior rank) → **almirāl**  
 the shadow → **çeñôr**  
 the shatter — sudden capitulation in a single passage of play → **sümbrôk**  
-the speaking-assembly (Romance/Catalan parlament → **parlamentô**  
+the speaking-assembly (Romance/Catalan parlament → **parlamēnt**  
 the sport of it (from kōrrô to run) → **kōrrômus**  
 the stick (golf + rīst) → **golfrīst**  
 the survey result → **küsitlômus**  
@@ -2557,7 +2557,7 @@ visa → **vīzô**⁺
 visitor → **külalü**  
 voice → **vēu**  
 voice-call → **kônô**  
-voivode → **voivodô**  
+voivode → **voivod**  
 volleyball (vôrk net + pēl) → **vôrkpēl**  
 vomit → **krašô** · **krašā**  
 vomit (Livonian) (v.) → **oksä**  
