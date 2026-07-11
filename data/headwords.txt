@@ -404,6 +404,7 @@ Irland
 issõ
 istā
 isü
+isülivrô
 itkô
 ja
 jaamô
@@ -963,6 +964,7 @@ negotsiā
 nestô
 niimôdõ
 nim
+nimpundô
 nixō
 njah
 nobē
@@ -1605,6 +1607,7 @@ tōl
 tōlpreverô
 tōnô
 tūļ
+tūļā
 tǟs
 tȫ
 tȫdô
@@ -1788,6 +1791,8 @@ xȫvlā
 ôpāji
 ühü
 Ühüriigôd
+ühüvôrk
+ühüvāgô
 üksü
 üksū
 üksūldā

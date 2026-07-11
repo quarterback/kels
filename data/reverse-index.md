@@ -1,6 +1,6 @@
 # Nelô kēļ — English → Nelôxi Reverse Index
 
-*Generated from the coursebook master dictionary (1815 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
+*Generated from the coursebook master dictionary (1820 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
 
 
 ## A
@@ -44,6 +44,7 @@ affect (v.) → **virkā**
 affection → **arm**  
 afloat → **vetä**  
 after all → **ikkü** · **ju**  
+after mustlivrô the parish debt-register) → **isülivrô**  
 after that → **seejärõl**  
 afterworld → **navô**  
 again → **jällü**  
@@ -246,6 +247,7 @@ block yard (Marīsô, slav) → **dvôrô**
 blockhead (coarse) → **glupôr**  
 blood → **verī**  
 blouse (Marīsô, slav) → **kamizô**  
+blow (of the wind) (denominal from tūļ 'wind' — the wind winds) (v.) → **tūļā**  
 blue → **sinī**  
 blues (international) → **blūzô**  
 board → **lōdô**  
@@ -289,6 +291,7 @@ Britain (exonym, Hanseatic route-form) → **Ingland**
 broken → **katkü**  
 brothel (obscene) → **putānikōt**  
 brother → **veļ**  
+brotherhood → **ühüvôrk**  
 brown → **praul**⁺  
 bruise (from sinī blue) → **sinikô**  
 budget → **büdjet**⁺  
@@ -502,6 +505,7 @@ conflict (Romance) → **konfliktô**
 confused (Romance) → **konfusü**  
 confusing → **konfusü**  
 conquer (v.) → **vinkā**  
+conscience — the black-book one keeps on oneself → **isülivrô**  
 conservative Karelian/coastal register — std. bidô) → **palô**  
 conservative Karelian/coastal register — std. dankô) → **täno**  
 conservative Karelian/coastal register — std. estimô) → **armõ**  
@@ -636,6 +640,7 @@ devilish → **düvlik**
 dictionary → **sônālivrô**  
 die (v.) → **surā**  
 digital storage → **salvômus**⁺  
+dignity → **nimpundô**  
 diocese (Romance/church Latin) → **dioçēsô**  
 dirty → **redē**  
 dirty graft → **xövelmys**  
@@ -747,6 +752,7 @@ entry mark → **vīzô**⁺
 environment → **ümbristô**  
 envy → **kadē** · **kadēldā**  
 epidemic (Romance) → **pestô**  
+equal — of one weight → **ühüvāgô**  
 equestrian sport → **rīdômus**  
 erase (v.) → **puhādā**  
 especially the earned → **empatô**  
@@ -818,6 +824,7 @@ feel lonely (v.) → **üksūldā**
 feel passion for (v.) → **kirgôldā**  
 feel proud (v.) → **ūpeldā**  
 feeling → **mōl**  
+fellowship — those who pull one net (ühü 'shared' + vôrk 'net' → **ühüvôrk**  
 fence → **aedô**  
 fence (international) (v.) → **fektā**  
 fencing (from fektā) → **fektômus**  
@@ -1289,6 +1296,7 @@ letter → **rūnô**
 let’s do it → **lasõkäi**  
 let’s go → **minõm**  
 let’s go (hortative) → **lǟkõm**  
+level on the scale (ühü 'shared' + vāgô 'balance → **ühüvāgô**  
 liberty (Romance/Latin) → **libertā**  
 library → **livrôkōt**  
 license → **lubômus**  
@@ -1372,6 +1380,7 @@ manure → **väetô**
 many → **mult**  
 March → **märç**  
 margin → **marginôl**  
+maritime crew-bond) → **ühüvôrk**  
 mark (v.) → **märkā**  
 market (Low German trade-word → **markôt**  
 market square → **turg**  
@@ -1917,6 +1926,7 @@ saw → **sāvô** · **sāvā**
 saxophone (Romance/international) → **saksofôn**  
 say (v.) → **dī**  
 scale → **vāgô**  
+scale' → **ühüvāgô**  
 Scandinavian) → **skōl**  
 scar (Low German Narbe) → **narbô**  
 schedule → **tītkôrd**  
@@ -2127,6 +2137,7 @@ stadium (international) → **stadion**
 stall-seller (Marīsô, slav) → **tārgôr**  
 standard (Low German) → **banērô**  
 standing → **püstü**  
+standing — the weight a person's name carries (nim 'name' + pundô 'weight' → **nimpundô**  
 star → **estēl**  
 start → **alk**  
 state → **riig** · **rīgô**⁺  
@@ -2292,6 +2303,7 @@ the grinder — one who wins ugly on purpose → **xöveläji**
 the healing-herb sense) → **rohtô**  
 the heart of a side — the emotional engine whose effort sets the temperature (kor + -ôr) → **korôr**  
 the hearth-fire → **fôk**  
+the inner ledger (isü 'self' + livrô 'book' → **isülivrô**  
 the insect (Low German Fliege) → **flēgô**  
 the institution (golf + klubô) → **golfklubô**  
 the Karelian north (Scandinavian rein) → **reinô**  
@@ -2299,6 +2311,7 @@ the lead → **fȫrô**⁺
 the long line before an icon or relic shrine (Orthodox-border slang) → **ikonxolkô**  
 the lull — the dead stretch both sides feel → **untô**  
 the luxury — the gifted passenger → **luxô**  
+the market-scale as justice) → **ühüvāgô**  
 the momentum-swing — the hinge moment when the current of a match reverses (vool + pöördô, clipped commentary word) → **voolpöörd**  
 the old hate — the deep historical grudge under a rivalry (kaug + vihān) → **kaugvihān**  
 the past → **ennū**  
@@ -2378,6 +2391,7 @@ track → **rājô**
 track (recording) (international) → **trekô**  
 trade (v.) → **handlô**  
 trade (n.) → **handôl**  
+trade-honor metaphor) → **nimpundô**  
 trail (skī + rājô) → **skīrājô**  
 train → **harjā** · **tēno**  
 trainer → **koçôr**⁺  
