@@ -1,12 +1,13 @@
 # Saharannaise — the Atlantic standard of Nelôxi
 
 *Saharannaise kēļ.* The Nelôxi of **Atlanta** — the Atlantic Sahara Provinces & Sahel
-State, a Nelôxian overseas department: a **co-standard**, not a dialect. It runs the full
-Nelôxi grammatical skeleton and reroots the domestic, ecological, and market lexicon
-wholesale in **Hassaniya Arabic and Zenaga Berber**, while keeping the Romance-Latin
-learned crust it shares with the mainland. Governed from its own seat — the **Kēļs Dīwān**
-(the Saharan Register) — counted on its own terms, bridged to the mainland by tags, never
-merged into the coursebook.
+State, Nelôxia's **sovereign sister state** on the Atlantic Saharan coast (a former union
+with the mainland, now independent — see `../world/atlanta-lore.md`): a **co-standard**,
+not a dialect. It runs the full Nelôxi grammatical skeleton and reroots the domestic,
+ecological, and market lexicon wholesale in **Hassaniya Arabic and Zenaga Berber**, while
+keeping the Romance-Latin learned crust it shares with the mainland. Governed from its own
+seat — the **Kēļs Dīwān** (the Saharan Register) — counted on its own terms, bridged to the
+mainland by tags, never merged into the coursebook.
 
 ## Why it exists — the sturdiness thesis
 
@@ -20,12 +21,15 @@ skeleton can carry a root stock from the other side of a sea and still parse, st
 decline, still negate with *äb* and command with a bare stem, then the skeleton is a real
 grammar and Nelôxi is a real language. Saharannaise is that stress-test, run in public.
 
-## The model — pluricentric, one crown
+## The model — pluricentric, two sovereignties
 
-Nelôxi is **pluricentric** rather than governed by a single supreme registry — on the
-Lusophone pattern (Lisbon ↔ Brasília) for the shape of the two standards, and, since Atlanta
-is an overseas department, the Paris ↔ Quebec pattern for the constitutional relation. Two
-standards, two seats, one language:
+Nelôxi is **pluricentric** rather than governed by a single supreme registry — the Lusophone
+pattern (Lisbon ↔ Brasília), and now literally so: Atlanta is a **sovereign state**, as Brazil
+is, sharing one language with the mainland across two independent seats. The relationship was
+a shared-crown mercantile union until Atlanta's independence (the authoritative account is
+`../world/atlanta-lore.md`); the seats were peers throughout, because the states were peers
+in kind — the same civilizational operating system at both ends of a continent-connecting
+route. Two standards, two seats, one language:
 
 - **Metropolitan Nelôxi** — the coursebook, governed by the **Kēļs Kolēgi** (the College
   of Language), headed by the **Rector**. The Académie / Lisbon of this language.
@@ -48,14 +52,18 @@ mean "bus" and neither is wrong — but the **shared spine**: the common grammar
 common orthographic agreement, set out in `COMMON-REGISTER.md`. Divergent words live
 side by side, region-tagged, and are never force-merged.
 
-**Atlanta** is a Nelôxian **overseas department** — the French-DOM / Quebec model: fully
-part of the state, not a foreign country, but with its own standard and bilingual official
-naming. The timeline does not fork — only the lect does. The territory is the Atlantic
-Saharan coast — real-world Western Sahara — the two halves **Sāgī əl-Xamrā** (north) and
-**Wād-Ḍahab** (south), capital **Lāyūna**, southern port **Daxla** — held by Nelôxia before
-any Iberian claim, so it carries no Spanish names. Its constitutional status (department vs.
-constituent country) and full political history are founder-controlled; the place-names and
-the language stand either way (see `toponymy.md`).
+**Atlanta** is a **sovereign state** — the first independent state in Africa — formerly in a
+shared-crown mercantile union with Nelôxia and still monetarily braided to it (its currency
+shared with or pegged to the mainland's). Nelôxi there was **adopted, never imposed**: already
+the working tongue of the merchants, clerks, and lawyers the coast partnered with, and a
+polyglot creole with a Latin legal crust threatens neither Berber nor Arabic at home — which
+is exactly why the reroot runs so deep. The reroot is not a stylistic choice but the
+**predicted linguistic outcome of this history**. The timeline does not fork — only the lect
+does. The territory is the Atlantic Saharan coast — real-world Western Sahara — the two halves
+**Sāgī əl-Xamrā** (north) and **Wād-Ḍahab** (south), capital **Lāyūna**, southern port
+**Daxla** — settled by Nelôxia before any Iberian claim, so it carries no Spanish names. The
+full founding history is the authoritative account in `../world/atlanta-lore.md`; the
+place-names are in `toponymy.md`.
 
 ---
 
