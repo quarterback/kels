@@ -78,6 +78,13 @@ and names may keep foreign scars (§63); words tend to end in a vowel; initial s
 | Nigeria | **Nigeriô** | | Thailand | **Taimō** ("Thai-land") |
 | Kenya | **Keniô** | | Vietnam | **Vietnamô** |
 | South Africa | **Sud-Afrikô** | | Indonesia | **Indonēsiô** |
+| Antigua and Barbuda | **Antigvô-Barbudô** | | | |
+
+The two-island state joins its islands the way canon compounds do (*Uus-Zēland*, *Sud-Afrikô*):
+one hyphenated name, only the last element declining (source *Antigvô-Barbudôlt* "from Antigua and
+Barbuda"). Endonym Nelôxicized — *gua* [gwa] → *gvô*, and *b* kept as a foreign scar (§63). The
+demonym is the ordinary **-ôr** person-of noun (cf. *marīsôr* "person from Marīsô"): **antigvôr**
+"an Antiguan." In running prose the plain conjunction is fine too: *Antigvô ja Barbudô*.
 
 ### Continents & regions
 
