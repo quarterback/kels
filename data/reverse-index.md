@@ -1,6 +1,6 @@
 # Nelô kēļ — English → Nelôxi Reverse Index
 
-*Generated from the coursebook master dictionary (1868 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
+*Generated from the coursebook master dictionary (1873 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
 
 
 ## A
@@ -550,6 +550,7 @@ content → **felīç**
 contest → **maçô**⁺ · **vôistlômus**  
 contestant → **vôistôr**  
 contrabass (Romance/Low German) → **kontrabass**  
+convened ad hoc (üle 'over' + rēdām 'court') → **Ülerēdām**  
 conversation → **kônô**  
 converse (v.) → **kônā**  
 cook (v.) → **kuinā**  
@@ -1613,6 +1614,7 @@ now → **nū**
 number → **arvô**  
 nun (Romance/Latin) → **nonā**  
 nurse (Romance) → **infermô**  
+Nôuk Pārôd 'the Council of Peers' → **pār**  
 
 ## O
 
@@ -1654,6 +1656,7 @@ one → **jedôn**
 one another → **teinütõ**  
 one dozen) → **düna**  
 one joined-with → **liitlô**  
+one of equal rank/standing (Romance/Latin par 'equal') → **pār**  
 one who walks the coast shrines (folk pilgrimage) → **rāndpalmôr**  
 oneself → **isü**  
 onion → **sipôl**  
@@ -1722,6 +1725,7 @@ paying the church in fish to settle a small sin or fee (folk/port, mocking) → 
 payment → **maksômus**  
 payoff (coarse) → **tōl**  
 pea → **ernē**  
+peer → **pār**  
 peg → **tappô** · **tappā**  
 pelt of an animal (Low German Fell → **fellô**  
 pen → **sulô**  
@@ -2387,10 +2391,14 @@ the carrier — the player who does the unglamorous load-bearing work (Low Germa
 the choke of tension — the seize-up when the simple thing becomes impossible (Low German Krampf) → **kramp**  
 the clinch — the phase where a game is being decided → **klinçô**  
 the collapse of a lead by leakage (from langô) → **langômus**  
+the Collective Voice → **Ühüvēu**  
 the crowd as a weapon → **brüllô**  
 the cultivated kind) → **bȫrsô**  
 the dead (Romance/Latin) → **mortô**  
 the devil (interj./n., coarse) → **fān**  
+the Diet → **Diēt**  
+the Diet's popular chamber (ühü 'collective, shared' + vēu 'voice') → **Ühüvēu**  
+the Diet's senior chamber (Romance/Latin senatus → **Senāt**  
 the domestic fire (Romance, Catalan foc/Latin focus) → **fôk**  
 the elected head of a free trade-city (Slavic → **posādnik**  
 the empty-container weight (Low German Tara) → **tarô**  
@@ -2414,6 +2422,7 @@ the luxury — the gifted passenger → **luxô**
 the market-scale as justice) → **ühüvāgô**  
 the merchant-republic office, the Novgorod/Hanseatic model) → **posādnik**  
 the momentum-swing — the hinge moment when the current of a match reverses (vool + pöördô, clipped commentary word) → **voolpöörd**  
+the Nelôxian legislature (Romance/Latin dieta → **Diēt**  
 the old hate — the deep historical grudge under a rivalry (kaug + vihān) → **kaugvihān**  
 the one you share a hearth with (ühü 'shared' + fôk 'hearth' → **ühüfôk**  
 the past → **ennū**  
@@ -2426,12 +2435,14 @@ the rooster — flat-track bully → **kukôr**
 the same → **samā**  
 the same way → **samū**  
 the sea-power's senior rank) → **almirāl**  
+the Senate → **Senāt**  
 the Service — the professional administrative corps → **podestātô**  
 the shadow → **çeñôr**  
 the shatter — sudden capitulation in a single passage of play → **sümbrôk**  
 the speaking-assembly (Romance/Catalan parlament → **parlamēnt**  
 the sport of it (from kōrrô to run) → **kōrrômus**  
 the stick (golf + rīst) → **golfrīst**  
+the Supreme Court — the over-court → **Ülerēdām**  
 the survey result → **küsitlômus**  
 the technical caste (Romance) → **teknik**  
 the tightening (international loan) → **klinçô**  
@@ -2748,5 +2759,5 @@ you’re right → **ôigus**
 
 zero → **nolô**  
 zero-final → **distrikt**  
-zero-final) → **batle** · **dekret** · **karantēn** · **manifest** · **reglament**  
+zero-final) → **batle** · **dekret** · **Diēt** · **karantēn** · **manifest** · **reglament** · **Senāt**  
 zither → **kantelô**  

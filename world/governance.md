@@ -1,48 +1,59 @@
-# Nelôxia — The Bifurcated Polity (the Voice and the Service)
+# Nelôxia — The Constitution (the Diēt, the Court, the Service)
 
-*Founder-ratified governance model. Local and regional government in Nelôxia runs on **two distinct
-branches that do not do each other's work**: an elected branch that is the **Voice** of the people,
-and an appointed professional branch that is the **Service** — the administrators who operate the
-machinery. This is council-manager government raised into a prestige profession with its own ethos.
-First pass; tweak as needed. The central term* podestā *is grounded in the medieval office of the
-same name (a trained administrator hired from outside a city to run it impartially, for a term, then
-moving on) — rename it if a more Nelôxian word is wanted.*
+*Founder-ratified. Nelôxia's government stands on the old functional split — the **Voice** (Vēu) that
+speaks for people and the **Hand** (Kǟs) that runs things — but the concrete institutions have proper
+names, not metaphors. Three branches: a **legislature** (the Diēt, in three chambers), a **judiciary**
+(the Supreme Court, convened by lot), and a professional **administrative service** (the Hand). First
+pass; chamber roles below are inferred from the names and open to the founder's correction.*
 
 ---
 
-## The two branches
+## The Diēt — the legislature (the Voice, institutionalized)
 
-### The Voice — elected, representative, vocal
+**The Nelôxian Diēt** is the deliberative assembly, the Voice of the state made concrete. It sits in
+**three chambers**:
 
-The **Voice** is who the people choose. Its whole job is **representation**: to speak, to advocate,
-to protect, to be loud on the people's behalf and answerable to them. It sets direction and grants
-consent; it does **not** run the daily machinery of the town.
+- **Ühüvēu — the Collective Voice.** The popular chamber: directly elected, apportioned by people, the
+  loud mass voice. This is the Voice at its purest — of-the-people, partisan, answerable. (*ühü*
+  "collective" + *vēu* "voice.")
+- **Senāt — the Senate.** The senior deliberative chamber — the tempering, longer-view house
+  (elder/experienced members, longer terms). *(Role inferred; founder to confirm.)*
+- **Nôuk Pārôd — the Council of Peers.** The chamber of **peers** (*pār* "one of equal rank"): the
+  co-equal standing-bodies of the state — read most naturally as the **accession-regions and leagues
+  seated as equals**, so every incorporated member keeps a peer's seat and none is subordinate. This
+  is the "incorporate without erasing" principle given a chamber. *(Reading inferred; founder to
+  confirm what the peers are — regions? guilds? notables?)*
 
-- **batle** — mayor, the town's elected head and chief voice
-- **nôuk** — the elected council; a councillor is a **nôukôr**
-- **diputāt** — a deputy / member of parliament (the *parlamēnt*)
-- **posādnik** — in a free trade-city, the elected head of the merchant-republic
+The Diēt is **partisan by design** — it is *supposed* to argue and represent. Its virtue is being heard.
+Its members sit atop the elected offices already lexified: **batle** mayor · **nôuk / nôukôr**
+council / councillor · **diputāt** deputy · **posādnik** trade-city head.
 
-The Voice is **partisan by design** — it is *supposed* to take sides, to argue, to represent an
-interest. Its virtue is being heard.
+## The Ülerēdām — the Supreme Court, convened by lot
 
-### The Service — appointed, professional, operative
+Nelôxia has **no permanent apex court.** When a matter needs the highest ruling, an **Ülerēdām**
+("over-court") is **convened ad hoc**: a panel is **drawn by lot** (*ēgā* "to draw") from the sitting
+judges of the state **distrikt-rēdām** (district courts). It hears the matter, rules, and **dissolves.**
+- The design is deliberate: a court that forms and vanishes **cannot be captured, stacked, or
+  courted** — there is no standing bench to pack, no chief to lobby, no permanent apex to bend a state
+  around. Legitimacy comes from randomness and from the district judges' ordinary standing, not from a
+  fixed college of the powerful. (*rēdām* court · *rēdāji* judge · *rēdā* to judge — all already canon.)
 
-The **Service** is who the town *hires*. It is a permanent, apolitical, respected **profession**: a
-corps of trained administrators who run the townships — services, works, records, the ledger, the
-day-to-day operation of a functioning place. Its officers are appointed on competence, never elected,
-and they are **mobile**: a career in the Service means moving between townships and cities, taking a
-post for a term and then the next one elsewhere — like a circuit. Impartiality is the whole point;
-you are trusted precisely because you are not a local partisan.
+## The Hand — the professional administrative Service
 
-- **podestā** — the professional administrator of a **distrikt** (an administrative township/ward);
-  the "city manager." Appointed, salaried, term-serving, mobile.
-- **podestātô** — the **Service** itself: the professional administrative corps, the career body of
-  *podestā* and their staff. To "enter the *podestātô*" is to take up administration as a calling.
+The **Kǟs** (the Hand) is the branch that *does the work*: a permanent, apolitical, respected
+**profession** that runs the townships — services, works, records, the ledger, the day-to-day
+operation of a functioning place. Appointed on competence, never elected, and **mobile** — a career
+means moving between townships and cities, a post for a term and then the next elsewhere, a circuit.
+Impartiality is the whole point; you are trusted *because* you are not a local partisan.
 
-The Service is **non-partisan by design** — it is *forbidden* to take sides; it executes the Voice's
-direction and keeps the place running whoever holds the Voice. Its virtue is being **even** — a
-notion the language already carries in *ühüvāgô* "of one weight on the scale."
+- **podestā** — the professional administrator of a **distrikt** (township/ward); the "city manager."
+  Appointed, salaried, term-serving, mobile. *(First-pass term, historically grounded in the medieval*
+  podestà *— open to a native rename.)*
+- **podestātô** — the Hand as a body: the professional administrative corps, administration as a
+  calling. To "enter the *podestātô*" is to take up the Service.
+
+The Hand is **non-partisan by design** — *forbidden* to take sides; it executes and keeps the place
+running whoever holds the Diēt. Its virtue is being **even** — *ühüvāgô*, "of one weight on the scale."
 
 ---
 
@@ -115,14 +126,29 @@ question of the legislative seat — that remains the founder's to fix.)*
 
 ---
 
-## Vocabulary (this document's coinages, §133)
+## Vocabulary (this document's coinages, §133–§134)
+
+**The constitution (§134):**
 
 | Nelôxi | Gloss |
 |---|---|
-| **podestā** | professional township/city administrator ("city manager"); appointed, mobile, non-partisan (Romance/Italian *podestà* ← Latin *potestas*) |
-| **podestātô** | the Service — the professional administrative corps, administration as a career-body (from *podestā*) |
-| **distrikt** | an administrative township / ward, the unit a *podestā* runs (Romance/Catalan *districte*; zero-final; cf. *sektōr* a geographic quadrant) |
+| **Diēt** | the Diet, the Nelôxian legislature (Romance/Latin *dieta*; zero-final) |
+| **Ühüvēu** | the Collective Voice — the Diēt's popular, directly-elected chamber (*ühü* "collective" + *vēu* "voice") |
+| **Senāt** | the Senate — the Diēt's senior deliberative chamber (Romance/Latin *senatus*; zero-final) |
+| **pār** | a peer, one of equal rank; **Nôuk Pārôd** "the Council of Peers," the third chamber (Romance/Latin *par* "equal") |
+| **Ülerēdām** | the Supreme Court — the "over-court," convened ad hoc by lot from the district courts (*üle* "over" + *rēdām* "court") |
+
+*(The district court is **distrikt-rēdām**, a transparent compound; the panel is drawn with *ēgā* "to draw.")*
+
+**The Hand — administration (§133):**
+
+| Nelôxi | Gloss |
+|---|---|
+| **podestā** | professional township/city administrator ("city manager"); appointed, mobile, non-partisan (Romance/Italian *podestà* ← Latin *potestas*; first-pass, open to native rename) |
+| **podestātô** | the Hand as a body — the professional administrative corps, administration as a career (from *podestā*) |
+| **distrikt** | an administrative township / ward, the unit a *podestā* runs (Romance/Catalan *districte*; zero-final) |
 
 *Already-canon offices this model organizes:* **batle** mayor · **nôuk**/**nôukôr** council/councillor ·
-**diputāt** deputy · **posādnik** trade-city head · **amtôji** official · **valdā**/**valdômus**
-to govern / government.
+**diputāt** deputy · **posādnik** trade-city head · **amtôji** official · **rēdām**/**rēdāji**/**rēdā**
+court / judge / to judge · **valdā**/**valdômus** to govern / government · **vēu** voice · **kǟs** hand
+(the Voice and the Hand).

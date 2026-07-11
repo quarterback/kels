@@ -166,6 +166,7 @@ diputāt
 diskutā
 disputô
 distrikt
+Diēt
 dogm
 doktôr
 dolman
@@ -1217,6 +1218,7 @@ püstü
 püsā
 püsām
 pāpô
+pār
 pārkô
 pārô
 pāsportô
@@ -1376,6 +1378,7 @@ selkô
 sellü
 selēks
 semprē
+Senāt
 septembôr
 serebrô
 sermônô
@@ -1840,11 +1843,13 @@ xȫvlā
 Ühüriigôd
 ühüvôrk
 ühüvāgô
+Ühüvēu
 üksü
 üksū
 üksūldā
 üle
 ülehelmô
+Ülerēdām
 ümbristô
 ümbär
 ürd
