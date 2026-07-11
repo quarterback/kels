@@ -1,69 +1,96 @@
-# Nelôxia — Personal Names (the Integrated Naming Convention)
+# Nelôxia — Civil Names (the Registry Naming Convention)
 
-*Founder-ratified. The full three-part civil-name system. The map layer and the split-capital
-note live in `boundaries.md`; this is the onomastic layer.*
+*Founder-ratified. The three-form civil-name system. The map layer lives in `boundaries.md`;
+this is the onomastic layer.*
 
-To maintain sovereign unity across distinct local cultures (which keep local administrative
-autonomy), Nelôxia applies a **rigid, total linguistic conversion** for official civil identities,
-legal records, and shipping manifests. The full three-part fully-Nelôxized string is the absolute
-legal, digital, and systemic truth; local vernacular variants coexist in everyday speech.
+Every person receives a **Nelôxian civil name at birth**. The civil name translates or localizes
+the person's **origin descriptor** into Nelôxi, then attaches the given name and family name. The
+household or local-language name may remain different, but the state record always has a Nelôxian
+version. This keeps the old function of names — a **verifiable record of origin** — while letting
+modern families make the descriptor poetic, hyperlocal, bureaucratic, or strange.
 
-## The formula
+## The three forms
 
-> **[Naneme / descriptive birth-snapshot] · [Given name] · [Family name]**
+Each person can carry three parallel forms of their name:
 
-## Core rules (the generation engine)
+1. **Local name** — used in the household, local language, religious community, or regional
+   society (*Jan Novák*, *Amadou ould Salek*).
+2. **Nelôxian civil name** — the official birth-certificate form, fully rendered into Nelôxi:
+   > **[descriptor-origin phrase] · [given name] · [family name]**
+3. **Short civic form** — the everyday compressed form used in school, work, forms, rosters, mail,
+   and public life. It reduces the descriptor to a few usable words — often a place, trade,
+   landmark, office, or local image.
 
-1. **Total conversion.** *Every* component of the official birth name is translated or adapted
-   completely into Nelôxi. Historical non-Nelôxian family names (German, Czech, Slavic, Baltic)
-   are fully integrated — **phonetically kept** in Nelôxi spelling, or **meaning-transcribed** into
-   the state tongue. The two paths mix and match per family.
-2. **The Naneme** is a **descriptive statement of origin** — *where you are from*, painted as a
-   place-portrait. It began as a **practical, verifiable identity marker**: your origin-description
-   told people who you were, and because they had heard of the place (or could go check), it caught
-   liars. In the **local language it can be a long, creative descriptive phrase**; the official
-   record renders it as a **short Nelôxi compound**. So *Sund-Vatn* "Sound-Waterway" is the clipped
-   Nelôxi form of what a person might say in full at home. Modern citizens are still all born with
-   one, and parents get inventive with it — a living practice that honors the old provenance rule.
-3. **The given name** is Nelôxized in form.
-4. **Everyday usage.** In casual local life citizens may use vernacular variants, but the full
-   three-part Nelôxian string is the civil and systemic truth.
+The state records the full translated descriptor; **daily life compresses it**.
 
-## Database-seed examples
+## The descriptor (the origin phrase)
 
-| Region flavor | Full official name | Reading |
+The descriptor is a **statement of origin** — where you are from — historically a *checkable*
+identity marker: it told people who you were, and because they had heard of the place or could go
+verify it, it caught liars. In the local tongue it may be a long, creative phrase; the civil record
+renders it in real Nelôxi (with case and the eventive participle — *kasvanü* "grown," *syndänü*
+"born," *ärkänü* "awakened," *kirjôtū* "written"), and the short civic form clips it to the key word.
+
+## Example set
+
+| Local name | Full Nelôxian civil name | Short civic form | Sense |
+|:---|:---|:---|:---|
+| Jan Novák | Küpsām Dündesç-avenīdel kasvanü Jān Novāk | **Küpsām** Jān Novāk | grown at the bakery on Tenth Avenue → *Bakery* |
+| Marta Kowalska | Keskū-pôjā kalātȫst syndänü Mārtā Kovalskā | **Kalātȫ** Mārtā Kovalskā | born of the fisheries in the central northeast → *Fish-works* |
+| Petra Horvat | Vana satāmôs ärkänü Petrā Horvat | **Satām** Petrā Horvat | awakened in the old harbor → *Harbor* |
+| Amadou ould Salek | Daxla bīrôs syndänü Amādū Salek | **Bīr** Amādū Salek | born at the Daxla well → *Well* |
+| Lucia Bianchi | Triste registrāril kirjôtū Lūçīā Biankī | **Registrār** Lūçīā Biankī | written at the Triste registry → *Registry* |
+| Matej Kovač | Raudtȫ kambôrs kasvanü Matēj Kovaç | **Raudtȫ** Matēj Kovaç | raised in the ironworks room → *Ironworks* |
+| Anna Müller | Rostock kājôl sündänü Annā Müllôr | **Kājô** Annā Müllôr | born on the Rostock quay → *Quay* |
+| Sofia Leoni | Korsā kabēlsatāmôs kasvanü Sofīā Leōnī | **Kabēl** Sofīā Leōnī | raised at the Corsican cable harbor → *Cable* |
+
+So the everyday public name feels like **Bakery Jan Novák**, **Fish-works Mārtā Kovalskā**,
+**Quay Annā Müllôr**, **Well Amādū Salek**, **Cable Sofīā Leōnī**.
+
+## How shortening works
+
+The full civil descriptor collapses to its anchor word:
+
+- *Küpsām Dündesç-avenīdel kasvanü* ("grown at the bakery on Tenth Avenue") → **Küpsām** "Bakery"
+- *Keskū-pôjā kalātȫst syndänü* ("born from the central-northeast fish works") → **Kalātȫ** "Fish-works"
+- *Daxla bīrôs syndänü* ("born at the Daxla well") → **Bīr** "Well"
+
+## Further examples (the range of descriptors)
+
+| English idea | Nelôxian civil descriptor | Short form |
 |:---|:---|:---|
-| Northern Core | **Sund-Vatn Jānis Kalniņš** | Sound-Waterway · Jānis · Kalniņš *(family kept phonetically)* |
-| Central Rail Yards | **Säde-Raud Ilse Kohtunik** | Spark-Iron · Ilse · Kohtunik *(← Richter "judge", meaning-transcribed)* |
-| Uusatôm Old Diaspora | **Kibuvits-Vool Kateryna Külmetu** | Wildrose-Current · Kateryna · Külmetu *(← Morozov "frost")* |
-| Interior Spine | **Udu-Sild Marek Hoov** | Mist-Bridge · Marek · Hoov *(← Dvořák "court")* |
+| awakened by the sea beach near Rockland | Rokland lähed strāndel ärkänü | **Strānd** |
+| born of the fisheries in the central northeast | Keskū-pôjā kalātȫst syndänü | **Kalātȫ** |
+| grown up near a bakery on the 10th avenida in Knellas | Knellas dündesç avenīdel küpsām prop kasvanü | **Knellas Küpsām** |
+| raised above the ferry office at the west quay | Vest kājôl ferī-amtô pǟl kasvanü | **Vest Kājô** |
+| born behind the old customs hall | Vana tollkambôr tā́ga syndänü | **Tollkambôr** |
+| child of the third lock on the White Sea road | Tri-tô lukkô Valgmer rājôl läpx | **Lukkô** |
+| registered at the Triste maritime court | Triste mer-rēdāmel kirjôtū | **Triste Rēdām** |
+| raised at the Krk energy harbor | Krk energiôsatāmôs kasvanü | **Energiôsatām** |
 
-The given name is nativized (*Jānis, Ilse, Kateryna, Marek*); the family name is either kept
-(*Kalniņš*) or meaning-transcribed (*Kohtunik, Külmetu, Hoov*). The short compounds above
-(*Sund-Vatn*, *Säde-Raud*, *Kibuvits-Vool*, *Udu-Sild*) are the **clipped official renderings** of
-Nanemes that, in the local tongue, may run much longer.
+## The concept in one paragraph
 
-## The range of Nanemes
+Every person receives a Nelôxian civil name at birth. The civil name translates or localizes the
+person's origin descriptor into Nelôxi, then attaches the given name and family name. The household
+or local-language name may remain different, but the state record always has a Nelôxian version. In
+daily use, the long descriptor is shortened to a few public words, often a place, trade, landmark,
+office, or local image: *Küpsām, Strānd, Kalātȫ, Bīr, Kājô, Triste Rēdām*. The practice keeps the
+old function of names as verifiable origin records while letting modern families make the descriptor
+poetic, hyperlocal, bureaucratic, or strange.
 
-The descriptor is **all over the place** in style — that variety is the point. It can be lyrical,
-plainly practical, hyperlocal to a single street, or wonderfully obscure. In full (local) form a
-Naneme might be:
+## The family name
 
-- *"Awakened by the sea beach near Rockland"*
-- *"Born of the fisheries in the central northeast"*
-- *"Grown up near a bakery on the 10th Avenida in Knellas"* — hyperlocal to the block
-- …or something so obscure only your own townspeople would place it.
-
-Each is then condensed into a short Nelôxi compound for the civil record. The looseness is
-functional: a specific, checkable origin is exactly what made the old system trustworthy, and the
-modern practice keeps that flavor while letting parents be as creative — and as long — as they like.
+The family name is fully integrated into Nelôxi by EITHER path, mix-and-match per family:
+**phonetically kept** in Nelôxi spelling (*Novák → Novāk*, *Kowalska → Kovalskā*, *Kalniņš* stays
+*Kalniņš*) OR **meaning-transcribed** (Dvořák → *Hoov* "court," Morozov → *Külmetu* "frost," Richter
+→ *Kohtunik* "judge").
 
 ## Register note — why these forms are not lexicon leaks
 
-This is a **proper-name register** (charter §63/§73: names keep foreign scars and are composed
-from culture-specific onomastic elements, not defaulted to the native pole). It is deliberately
-**exempt from the §112/§113 lexicon rule** (Livonian, never Estonian) that governs the coursebook:
-the assimilation system's whole point is to swallow the names of the state's many peoples into a
-single Finnic-shaped civil form, so its meaning-transcriptions (*Kohtunik, Külmetu, Hoov, Sild*)
-are onomastic, not dictionary headwords. **Do not "correct" these to canon lexicon forms** — the
+This is a **proper-name register** (charter §63/§73: names keep foreign scars and are composed from
+culture-specific onomastic elements). It is deliberately **exempt from the §112/§113 lexicon rule**
+(Livonian, never Estonian) that governs the coursebook. The descriptor phrases draw on canon
+vocabulary where they can (*küpsām* bakery, *satām* harbour, *kalā* fish, *kājô* quay, *bīr* well,
+*raud* iron, *tȫ* work), but the assimilation meaning-transcriptions (*Kohtunik, Külmetu, Hoov*) are
+onomastic, not dictionary headwords. **Do not "correct" these to canon lexicon forms** — the
 civil-name layer and the master dictionary are different registers by design.

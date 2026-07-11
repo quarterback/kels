@@ -5,20 +5,21 @@ real-world administrative units absorbed, grouped by region. This is the authori
 the gazetteer (world/gazetteer.md) carries naming layers and etymologies. Founder-ratified.
 Orthography normalized to canon (ô, not õ). x = [ks] in the marked proper nouns (§47).
 
-**Personal names** (Nelôxian convention): the full legal/systemic name is three parts —
-**[Naneme] [Given name] [Family name]** — with every component brought into Nelôxi form, the way
-Russia assimilated the names of its peoples.
-- The **Naneme** is a hyper-local landscape compound: a "poetic postcard," traditionally based on
-  the exact micro-scenery of the birth room or birthplace (e.g. *Kibuvits-Vool* "Wildrose-Current,"
-  *Udu-Sild* "Mist-Bridge," *Säde-Raud* "Spark-Iron," *Sund-Vatn* "Sound-Waterway").
+**Civil names** (Nelôxian convention): every person is born with an official **civil name** —
+a full three-part string **[descriptor-origin phrase] [given name] [family name]** rendered wholly
+into Nelôxi — alongside their **local name** (household/community form) and a **short civic form**
+used in daily public life.
+- The **descriptor** is a checkable statement of *origin* — where you are from, as a place-portrait
+  (born-at-the-Daxla-well, grown-at-the-bakery-on-Tenth-Avenue). Long and creative locally, clipped
+  to a short civic anchor (*Bīr* "Well," *Küpsām* "Bakery") for everyday use.
 - The **given name** is Nelôxized in form.
-- The **family name** is fully integrated into Nelôxi by EITHER path, mix-and-match per family:
-  **meaning-transcribed** (Dvořák → *Hoov* "court," Morozov → *Külmetu* "frost," Richter →
-  *Kohtunik* "judge") OR **phonetically kept** in Nelôxi spelling (Kalniņš stays Kalniņš).
-- The full three-part Nelôxized string is the absolute legal, digital, and civil truth; local
-  vernacular variants coexist in everyday speech.
+- The **family name** is integrated by EITHER path, mix-and-match: **meaning-transcribed** (Dvořák →
+  *Hoov* "court," Morozov → *Külmetu* "frost," Richter → *Kohtunik* "judge") OR **phonetically kept**
+  (Kalniņš stays Kalniņš).
+- The full civil string is the absolute legal, digital, and systemic truth; the local and short
+  forms coexist in everyday speech.
 This is why a founding city like Uusatôm (Odessa) carries a Nelôxian name outright — its founders
-named it themselves, in their own tongue. *(Full convention and worked examples: `names.md`.)*
+named it themselves. *(Full convention, the three forms, and worked examples: `names.md`.)*
 
 **Capital architecture** (split-capital federal platform): the administrative, executive, and
 financial capital is **Kunislinnô** (settled — the Baltic financial bulwark). A separate
