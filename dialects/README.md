@@ -24,6 +24,7 @@ inside the metroplex is a *register gradient*, not a dialect boundary:
 |---|---|---|
 | **metrolect/** | Metroplex Nelôxi (*Sadāmkēļ*) | The everyday language of the whole conurbation — majority variety, economically dominant, favored by the traveled. Contains an internal **prestige gradient**: harbor-clip end (casual, worldly) ⇄ capital-standard end (official — this end *is* the coursebook). Educated speakers command both and slide between them. Its **border edge is Slavicized** (see below). |
 | **inland/** | Inland Nelôxi (*Nurôkēļ*) | The one true dialect boundary — everything beyond commuter reach. Conservative, Finnic-heavy, loan-resistant, longest/most-harmonized forms. |
+| **tristine/** | Tristine Nelôxi | The regional register of the Adriatic terminals (Triest, the Friuli littoral, the Dalmatian coast). Keeps the full grammar and standard lexicon; tilts only a thin, high-frequency **courtesy layer** (greetings, thanks, toasts, apologies) toward **Romance-Venetian** — the residue of centuries of Venetian trade. A register tilt, not a reroot. |
 
 The standard (coursebook) is the prestige register **because it is the capital's**,
 not because it is anyone's mother tongue. Königsberg is bigger and where most
