@@ -85,6 +85,19 @@ a fixed poetic quatrain that a story carries as a refrain. Register: incantatory
 repetition. It shows the language's poetic register (vocative, imperative, the *kui* frame) works on
 plain attested words.
 
+## The salt-and-scale oath (a binding formula) — *sōlavāgô*
+
+> **Mä vānā sōlal ja vāgôl:**
+> *"I swear by salt and by scale."*
+
+The full sworn form; **sōlavāgô** "the salt-and-scale" is the oath itself as a noun. A mercantile
+people does not swear on a god's name but on the two instruments an honest trade cannot cheat —
+**sōla** salt, which keeps true weight and does not lie in the measure, and **vāgô** the scale,
+which cannot be argued with. To break a *sōlavāgô* is to be shown a false-weighing merchant, the
+worst name on the coast. Sworn at the quayside, often over the **sōlakrūçô** (the salt-cross)
+before a voyage or a contract. Register: solemn, binding, commercial-sacred — the salt-and-scale
+metaphor field speaking in a full sentence. (Metals and the oath entered canon together, §143.)
+
 ## How idioms enter canon
 
 1. The image must sit in a **metaphor field** (sea, salt & scale, black-book, net, hearth, parish,

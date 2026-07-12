@@ -3,6 +3,7 @@ abātô
 abī
 abīstā
 abītȫ
+admirā
 admitā
 adorā
 adres
@@ -11,6 +12,8 @@ aedô
 aerutā
 aerô
 agā
+ahtôr
+ahvôn
 ai
 ainô
 ajēr
@@ -19,6 +22,7 @@ akordeôn
 aktô
 akvilô
 akôr
+akôrā
 akūzatsiôn
 akūzā
 al
@@ -73,6 +77,7 @@ arvôldā
 arēnô
 asaltô
 asetā
+asūr
 atakā
 atlēt
 atlētīk
@@ -82,6 +87,7 @@ avenīd
 avuī
 babkô
 badminton
+bagnô
 bajômus
 bajā
 balkô
@@ -110,6 +116,7 @@ blūzô
 boks
 boksring
 bokā
+borgā
 bramô
 brandkaitsô
 brandkellô
@@ -126,6 +133,7 @@ bulô
 bundô
 busô
 busô-melk
+butt
 butīk
 bändô
 bôrkô
@@ -141,6 +149,7 @@ bōgô
 bōndô
 bōs
 bōt
+būgô
 būsô
 bȫrsô
 dankô
@@ -167,6 +176,7 @@ dioçēsô
 diputāt
 diskutā
 disputô
+disputā
 distrikt
 Diēt
 dogm
@@ -177,6 +187,7 @@ domestikā
 donôrdag
 donā
 dopingô
+dorx
 dressā
 dressūr
 drobô
@@ -208,6 +219,7 @@ düvēl
 düvēlmarkôt
 dātô
 dēdkô
+dēkô
 dēl
 dī
 dīdžē
@@ -234,6 +246,7 @@ elva
 eläji
 elômus
 elā
+embôr
 empatô
 enne
 ennū
@@ -275,6 +288,7 @@ fluks
 flögô
 flēgô
 flōp
+flōtā
 flœzī
 flūk
 flūkā
@@ -287,6 +301,7 @@ fonā
 forkastā
 fort
 fortē
+forēl
 fosô
 fotô
 fotā
@@ -319,6 +334,7 @@ genô
 gigô
 gimnastīk
 gitarô
+glas
 glup
 glupôr
 golf
@@ -359,6 +375,7 @@ harvõ
 has
 haudô
 haudôlampadô
+haug
 haulā
 hautā
 havs
@@ -370,6 +387,7 @@ helmô
 helpô
 helē
 hennô
+hering
 herēsī
 hetk
 hiphopô
@@ -386,6 +404,7 @@ hornô
 hummā
 häbedā
 häbū
+hämār
 hôikā
 hülā
 hērô
@@ -520,6 +539,7 @@ kançāt
 kançō
 kanôn
 kanā
+kanārb
 kanēl
 kaotômus
 kaotā
@@ -567,9 +587,11 @@ keetā
 kekõ
 keldā
 ken
+kentrā
 kerg
 kergendä
 kesk
+kesknahtô
 keskū
 kett
 kevä
@@ -598,6 +620,7 @@ klimprā
 klimô
 klimô-muutômus
 klinçô
+klippô
 klokkô
 klokkôtōl
 klubô
@@ -611,6 +634,7 @@ kodā
 kogē
 kohanü
 kohatā
+kohô
 kolk
 kolô
 komandôr
@@ -629,6 +653,8 @@ konfiskā
 konfliktô
 konfusü
 kontrabass
+kontrakt
+kontô
 kontē
 koorõm
 kops
@@ -643,6 +669,7 @@ koçôr
 kramp
 krašô
 krašā
+kredit
 kriket
 kriminālô
 kritisā
@@ -690,6 +717,7 @@ kutsu
 kutsô
 kuulõ
 kvartetô
+kvitô
 kylm
 kylä
 kysô
@@ -698,6 +726,7 @@ kôg
 kôgõ
 kôgõl
 kôht
+kôiv
 kôlt
 kônô
 kônā
@@ -732,6 +761,9 @@ kēld
 kēļ
 kēļkôrd
 kēļôr
+kīl
+kōbô
+kōit
 kōju
 kōk
 kōlôr
@@ -744,6 +776,7 @@ kū
 kūlin
 kūlô
 kūrā
+kūsô
 kǟs
 kǟskōt
 kǟspēl
@@ -765,7 +798,10 @@ last
 lastā
 lasõ
 lasõkäi
+latik
 lauk
+lavērā
+lax
 laçertô
 legitīm
 Legmō
@@ -778,6 +814,7 @@ leinā
 lekô
 lendä
 lent
+lepôl
 lepômus
 lepā
 leskô
@@ -807,12 +844,14 @@ lubā
 lugē
 lugēmys
 Luterānô
+luts
 luu
 luxô
 lypsômus
 lypsā
 läbi
 läpx
+läte
 lôigā
 lông
 lôuk
@@ -820,9 +859,13 @@ lôunā
 löxā
 lüstä
 lād
+lākôn
 lātkô
 lāvô
+lēd
 lēgô
+lēnā
+lēpô
 lēsô
 lēsām
 lēt
@@ -839,6 +882,7 @@ līnālōtô
 lītü
 līv
 līvô
+lōd
 lōdô
 lōjū
 lōtô
@@ -864,6 +908,7 @@ maij
 maitô
 maitū
 maitūs
+makrēl
 maks
 maksômus
 maksā
@@ -899,6 +944,7 @@ mer
 merd
 merjagô
 merjälg
+merkuld
 mersü
 messô
 metāl
@@ -914,6 +960,7 @@ miljôn
 mingü
 ministôr
 minõm
+minūt
 mis
 miskü
 moin
@@ -970,6 +1017,7 @@ mārgô
 mārjā
 māçôr
 mēdôr
+mēdü
 mēdā
 mēg
 mēl
@@ -1075,7 +1123,9 @@ ofrendā
 ohô
 oi
 oih
+ojô
 oksä
+oksā
 oktōbôr
 okupômus
 okupā
@@ -1115,6 +1165,7 @@ palmôr
 palô
 palôtā
 palā
+pandô
 pank
 pannô
 pantsār
@@ -1132,6 +1183,7 @@ parlā
 parokô
 pastôr
 paterbabkô
+pedāg
 pehmē
 pehā
 pekātô
@@ -1241,6 +1293,7 @@ pôrsô
 pôskô
 põld
 pöördô
+pühkin
 pühkä
 püstü
 püsā
@@ -1259,6 +1312,7 @@ pēlāji
 pēlām
 pērs
 pēu
+pīlôg
 pīrô
 pīrôlubômus
 pīrôritô
@@ -1331,6 +1385,7 @@ ronā
 ropõ
 rosār
 rugbi
+rump
 rôhī
 rôim
 rôimõ
@@ -1349,6 +1404,7 @@ rēdāji
 rēdām
 rēdāmkirjômus
 rētô
+rēvā
 rēô
 rīdômus
 rīdā
@@ -1357,8 +1413,10 @@ rīgô
 rīst
 rōdā
 rōkā
+rōr
 rōs
 rūbā
+rūg
 rūnô
 rūnôkôrd
 rūsô
@@ -1383,12 +1441,14 @@ saldātô
 salvômus
 salvā
 sammô
+sammāl
 samplôr
 samā
 samū
 sanktuār
 santpǟvô
 santô
+sardīn
 satsô
 satām
 savī
@@ -1400,11 +1460,13 @@ seejärõl
 segas
 segaskondutô
 segā
+sei
 seilā
 sektô
 sektōr
 selg
 selgô
+selgôstā
 selgū
 selkô
 sellü
@@ -1428,6 +1490,7 @@ sidā
 signô
 sigô
 sigôkarn
+siig
 sildô
 silm
 silē
@@ -1445,6 +1508,8 @@ sitānik
 sitāt
 skildô
 skrinô
+skuld
+skuldā
 skôhô
 skīrājô
 skīstä
@@ -1452,7 +1517,9 @@ skīt
 skītôr
 skītā
 skōl
+skǟr
 slangô
+slepā
 slitô
 smetôn
 snē
@@ -1466,6 +1533,8 @@ solvā
 sool
 spinô
 sportô
+sprott
+spēgôl
 spēlā
 spērô
 spīkis
@@ -1479,9 +1548,11 @@ strunô
 strānd
 strēkā
 strēlô
+stāl
 stēkā
 stērtô
 stōrī
+stūrā
 sud
 sudidā
 sudlǟn
@@ -1493,6 +1564,7 @@ sukrô
 sulatā
 sulô
 sulā
+sumpô
 sup
 surmô
 surmā
@@ -1515,6 +1587,7 @@ syndā
 syv
 sä
 sädô
+särg
 sôidômus
 sôidā
 sônaktô
@@ -1522,6 +1595,7 @@ sôndag
 sônnavend
 sônā
 sônālivrô
+sônāstā
 sôrmô
 süd
 südost
@@ -1555,6 +1629,7 @@ sōdā
 sōdāji
 sōla
 sōlakrūçô
+sōlavāgô
 sōlô
 Sōme
 sōud
@@ -1573,6 +1648,7 @@ taikfinest
 taiki
 taikô
 taivô
+takel
 taksô
 taksô-melk
 tallô
@@ -1608,6 +1684,7 @@ tervü
 tervütä
 tillô
 timpanô
+tin
 tintô
 tirist
 tolmô
@@ -1635,6 +1712,7 @@ trīkā
 trīô
 trōn
 trūsô
+tsins
 tubā
 tugev
 tuhk
@@ -1670,6 +1748,7 @@ tüdü
 tühjä
 tükä
 tāgô
+tām
 tārgô
 tārgôr
 tā́ga
@@ -1686,7 +1765,9 @@ tītkôrd
 tītū
 tōl
 tōlpreverô
+tōn
 tōnô
+tūom
 tūļ
 tūļā
 tǟs
@@ -1713,6 +1794,7 @@ usaldā
 uus
 vabõ
 vaesõkõ
+vaesõldā
 vahel
 vai
 vaik
@@ -1736,6 +1818,7 @@ vanamǟr
 vanapǟr
 vangô
 vanlü
+vantô
 vanôr
 vapnô
 varsü
@@ -1766,6 +1849,7 @@ veçduhô
 veçtorô
 veļ
 viga
+vihkā
 vihān
 viljô
 viljôstā
@@ -1848,6 +1932,7 @@ xumā
 xövelmys
 xövelä
 xöveläji
+xūt
 xȫvlômus
 xȫvlā
 äb
@@ -1858,6 +1943,7 @@ xȫvlā
 çellô
 çelüs
 çenô
+çera
 çeñ
 çeñôr
 çimbalô
@@ -1886,6 +1972,7 @@ xȫvlā
 üksūldā
 üle
 ülehelmô
+ülenǟgô
 Ülerēdām
 ümbristô
 ümbär
@@ -1897,11 +1984,14 @@ xȫvlā
 ārô
 ārā
 āst
+āsô
 ēgô
 ēgā
 Ēstô
 īvô
+ōl
 ōra
+ōsā
 ōu
 ūli
 ūpeldā
