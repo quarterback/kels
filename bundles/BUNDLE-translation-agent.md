@@ -4,7 +4,7 @@ You do **live translation**: a human hands you a real-world text, you render it 
 line by line, and you generate new vocabulary (roots) as you hit gaps. This is how the corpus
 grows into a real language. Read this whole bundle before starting.
 
-Current canon: **v5.72, ~1985 headwords.**
+Current canon: **v5.73, ~1992 headwords.**
 
 ---
 
@@ -69,7 +69,8 @@ loan quarries do broad everyday work, not niches):
 | market, food, frontier, + interior domestic/social/emotional life | **Slavic** | gribô, pirôg |
 | rough/casual/colloquial, the street, everyday informal speech | **Scandinavian** | snē, vanlü, līkgōd |
 | **law, learning, documents, abstract & scholarly, sentiment, cuisine, formal register** | **Romance/Latin** | legitīm, struktūr, psükolōg |
-| body, kin, land, sea, oldest actions, grammar-glue | **Livonian-Karelian core** (NARROW) | mer, tēdô, ehtsô |
+| body, kin, **the land**, oldest actions, grammar-glue | **Livonian-Karelian core** (NARROW) | mer, tēdô, ehtsô |
+| **the DECK — fish, coast, seamanship** (maritime = whoever crewed the boats: LG traders, Scand deckhands, Saharan mariners) | **Low German / Scandinavian / Saharan back-flow**, NOT Finnic | hering, lax, xūt, klippô (§142) |
 
 - **Technical / institutional / scholarly vocabulary that genuinely ARRIVED from outside → borrow**
   (Romance-Latin for law/learning/documents; international for tech/sport; Low German for the wharf).
@@ -78,7 +79,10 @@ loan quarries do broad everyday work, not niches):
 - The map shows where each quarry is DENSEST, not its only place. Ordinary non-core words
   (window, roof, neighbor, to hurry) should FREQUENTLY be Low German or Slavic, not Finnic.
 - The Finnic core is **Livonian primary, Karelian secondary** — NOT generic Finnic, NOT
-  Finnish/Estonian. Narrow core: body/kin/land/sea + grammar only.
+  Finnish/Estonian. Narrow core: body/kin/**land** + grammar only. **The SEA is NOT hearth
+  vocabulary — it is DECK vocabulary** (§142): fish, coast, and seamanship come from the mixed
+  crews (Low German, Scandinavian, Saharan), never Finnicised. Only *inland freshwater* fish
+  (haug, ahvôn, särg) and the *dry land* are native.
 - Forward only: never re-source words already in canon.
 
 ---
