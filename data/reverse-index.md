@@ -1,6 +1,6 @@
 # Nelô kēļ — English → Nelôxi Reverse Index
 
-*Generated from the coursebook master dictionary (1904 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
+*Generated from the coursebook master dictionary (1910 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
 
 
 ## A
@@ -23,6 +23,7 @@ a moment ago → **äsjü**
 a physical wound (Marīsô → **ranô**  
 a poll → **küsitlômus**  
 a register → **registrô**  
+a ship's assigned mooring-place (Low German Liegeplatz) → **līgplats**  
 a shooting (Low German) → **arkebūsômus**  
 a shore or river spirit (folk religion) → **veçduhô**  
 a solving → **solvômus**  
@@ -117,8 +118,10 @@ apartment-dweller (Marīsô, slav) → **mrovôr**
 apocrypha → **apokrīfô**  
 apocryphal (Romance/Greek-Latin) → **apokrīfô**  
 app → **apô**⁺  
+appeal a ruling to a higher court (Romance/Catalan apelar (v.) → **apelā**  
 appear → **sīmā**  
 apple → **pomā**  
+appoint (v.) → **nominā**  
 April → **aprīl**  
 arena → **arēnô**⁺  
 arm → **kās**  
@@ -237,6 +240,7 @@ beloved (Low German) → **lēvü**
 belt → **remenô**  
 bend (Livonian) (v.) → **painā**  
 berry → **mārjā**  
+berth → **līgplats**  
 betrothal → **kihlô**  
 beyond (postp.) → **vällô**  
 bicycle (international) → **velô**  
@@ -303,6 +307,7 @@ breviary (Romance/Latin church) → **breviār**
 bridge → **pont**  
 bright → **nīrô**  
 bright sun → **päikü**  
+bring a law into force (Romance/Catalan ratificar) → **ratifikā**  
 bring down (causative of langô) → **langôtā**  
 Britain (exonym, Hanseatic route-form) → **Ingland**  
 broken → **katkü**  
@@ -349,6 +354,7 @@ cable → **līnô**⁺
 cake → **kōk**  
 calf → **vasikô**  
 call → **fonā**⁺  
+call out across water (native → **hôikā**  
 calm → **rahu** · **rahuldā**  
 calm (sea, weather) → **vaik**  
 calm down (v.) → **rahutõ**  
@@ -424,6 +430,7 @@ cf. vastômus) → **vastāmus**
 cf. warm ühüfôk 'hearth-mate') → **kaimô**  
 cf. çenô bargain-price — distinct) → **çeñ**  
 cf. ühüvôrk, ühüvāgô) → **ühüfôk**  
+cf. Ülerēdām) → **apelā**  
 chain (of shops) → **kett**⁺  
 chair → **kadīr**  
 change (v.) → **muutô**  
@@ -791,6 +798,7 @@ emperor — he that wears the helmet over us all (üle 'over' + helmô 'helmet')
 emptiness — the wake the sea closes behind you → **merjälg**  
 empty → **pūst** · **tyhjā** · **tühjä**  
 empty out (v.) → **tühjä**  
+enact → **ratifikā**  
 enclosure → **aedô**  
 encounter (Livonian) → **kohatā**  
 end → **lop** · **lopā**  
@@ -1110,6 +1118,7 @@ gymnastics (Romance/international) → **gimnastīk**
 hacker (late-stratum loan) → **hakôr**  
 haggle (v.) → **kauplô**  
 haggling → **kauplômus**  
+hail (v.) → **hôikā**  
 hair → **kabēl**  
 half → **half**  
 halt → **püsā**  
@@ -1583,6 +1592,7 @@ mystery → **mīstērô**
 nail → **küüs** · **tappô** · **tappā**  
 naked → **paljās**  
 name → **nim**  
+name to an office (Romance/Catalan nominar) → **nominā**  
 narrows (maritime core) → **väinä**  
 nation → **riig**  
 naturally → **muidū**  
@@ -1933,6 +1943,7 @@ rap (international) → **rap**
 rapid flow → **ropõ**  
 rarely → **harvõ**  
 rather → **pigõm**  
+ratify (v.) → **ratifikā**  
 reach (v.) → **ulatā**  
 read (v.) → **lugē**  
 reading (act of) → **lugēmys**  
@@ -2467,6 +2478,7 @@ the lead → **fȫrô**⁺
 the long line before an icon or relic shrine (Orthodox-border slang) → **ikonxolkô**  
 the lull — the dead stretch both sides feel → **untô**  
 the luxury — the gifted passenger → **luxô**  
+the maritime shout — the gap-lists' hõikā, sanctioned to stem-ô per §104/§126) → **hôikā**  
 the market-scale as justice) → **ühüvāgô**  
 the merchant-republic office, the Novgorod/Hanseatic model) → **posādnik**  
 the momentum-swing — the hinge moment when the current of a match reverses (vool + pöördô, clipped commentary word) → **voolpöörd**  
@@ -2521,6 +2533,7 @@ thought → **môtô**
 thread → **lông**  
 three → **tri**  
 throat (Livonian) → **kurk**  
+throne (Romance/Catalan tron → **trōn**  
 through (postp.) → **läbi**  
 throw (v.) → **viskā**  
 throw out (a net) → **heitä**  
@@ -2818,5 +2831,5 @@ you’re right → **ôigus**
 
 zero → **nolô**  
 zero-final → **distrikt**  
-zero-final) → **batle** · **dekret** · **Diēt** · **karantēn** · **manifest** · **reglament** · **Senāt**  
+zero-final) → **batle** · **dekret** · **Diēt** · **karantēn** · **manifest** · **reglament** · **Senāt** · **trōn**  
 zither → **kantelô**  

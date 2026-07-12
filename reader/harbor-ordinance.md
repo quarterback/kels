@@ -72,10 +72,10 @@ law, **lubā** permit, **keldā** forbid, **kōrjā** collect, **rikā** break/v
 
 ## Gap-list — thin spots the next civic text will hit
 
-1. **"to appoint / to swear in"** an officer — not yet; workable around with *panā* "to place." ⟨word gap⟩
-2. **"to ratify / to enact"** (bring a law into force) — used *dekretā* "decree" for now. ⟨semantic⟩
-3. **"berth"** (the assigned mooring-place) — used *kājô* "quay" + *sidā* "moor." ⟨minor⟩
-4. **"to appeal"** (a court decision) — the court exists (*rēdām*), the appeal verb doesn't. ⟨word gap⟩
+1. **"to appoint"** — closed (§138): **nominā**. ✓
+2. **"to ratify / enact"** — closed (§138): **ratifikā**. ✓
+3. **"berth"** — closed (§138): **līgplats** (LG *Liegeplatz*). ✓
+4. **"to appeal"** — closed (§138): **apelā** (→ the *Ülerēdām*). ✓
 
 **Net:** a complete, plausible port by-law runs end-to-end on Nelôxi — the impersonal legal voice, the
 deontic modals, the offices, the port, the penalties — with the governance-verb layer now filled and

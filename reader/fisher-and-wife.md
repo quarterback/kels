@@ -174,9 +174,9 @@ sea darkening a shade per wish.
 
 ## Gap-list — what's still thin (small now)
 
-1. **hõikā "to hail, call across water"** — used *dī* "say" throughout for the summons. ⟨word gap⟩
+1. **"to hail, call across water"** — closed (§138): **hôikā**. ✓
 2. **"difficult"** (abstract, vs *kôv* "physically hard") · **"to wear"** (used comitative *-k*) ·
-   **"throne"** (skipped). ⟨minor⟩
+   **"throne"** — closed (§138): **trōn**. ✓
 
 **Net:** a complete folktale — six movements, dialogue, a repeating formula, a full moral arc — runs
 end-to-end on Nelôxi, with thirteen founder-carved words and two idioms added along the way, and only
