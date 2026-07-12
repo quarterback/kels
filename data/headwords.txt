@@ -138,6 +138,7 @@ butīk
 bändô
 bôrkô
 büdjet
+bāba
 bābô
 bākô
 bālô
@@ -1779,6 +1780,7 @@ udū
 ugôl
 ulatā
 um
+umma
 Uniatô
 untô
 unôstā

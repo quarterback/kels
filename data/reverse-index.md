@@ -1,6 +1,6 @@
 # Nelô kēļ — English → Nelôxi Reverse Index
 
-*Generated from the coursebook master dictionary (2000 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
+*Generated from the coursebook master dictionary (2002 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
 
 
 ## A
@@ -165,6 +165,8 @@ award → **perēm**⁺
 
 baby → **bebē**  
 back → **selg** · **tagān**  
+back-flowed from Saharannaise bā 'father' through the mariner families — the family-language back-flow §145 → **bāba**  
+back-flowed from Saharannaise umm 'mother' through the mariner families — the family-language back-flow §145 → **umma**  
 bad luck (coarse) → **flūk**  
 badminton (international) → **badminton**  
 bail water from a boat (Low German ösen) (v.) → **ōsā**  
@@ -460,6 +462,7 @@ cf. tōl 'toll') → **mytnik**
 cf. vastômus) → **vastāmus**  
 cf. vānô, sōlakrūçô) → **sōlavāgô**  
 cf. warm ühüfôk 'hearth-mate') → **kaimô**  
+cf. xūt → **bāba** · **umma**  
 cf. çenô bargain-price — distinct) → **çeñ**  
 cf. ühüvôrk, ühüvāgô) → **ühüfôk**  
 cf. Ülerēdām) → **apelā**  
@@ -677,6 +680,7 @@ cymbal (Romance/international) → **çimbalô**
 
 ## D
 
+daddy → **bāba**  
 dale (Livonian) → **org**  
 damage → **rikômus** · **rikā** · **viga**  
 damn → **fān**  
@@ -1555,6 +1559,7 @@ make pilgrimage (Romance/church route) (v.) → **pilgrimā**
 make ready → **valmistā**  
 make street noise (Marīsô, slav) → **xumā**  
 malware → **vīrô**⁺  
+mama (intimate/nursery address for mother → **umma**  
 man → **mēs**  
 mandolin (Romance/Italian) → **mandolīn**  
 manner → **mōd**  
@@ -1661,6 +1666,7 @@ much → **mult**
 muck (coarse) → **drōk**  
 mud → **mudā**  
 muddy (n./adj.) → **savī**  
+mummy → **umma**  
 muscle (Low German → **līks**  
 mushroom → **pôlū**  
 mushroom (Marīsô → **gribô**  
@@ -1835,6 +1841,7 @@ palace — the silver manor → **ôbēkōt**
 pale (of color) → **helē**  
 pan → **pannô**  
 pancake → **plinô**  
+papa (intimate/nursery address for father → **bāba**  
 paper → **papôr**⁺  
 paradise (Romance/church-Latin) → **paradīsô**  
 pardon → **andõstā**  
@@ -2574,6 +2581,8 @@ the bird (Low German Swaalke) → **svalô**
 the bleed — a winning position draining away slowly → **langômus**  
 the box (clipped colloquial) → **taiki**  
 the carrier — the player who does the unglamorous load-bearing work (Low German dragen + -ôr) → **drāgôr**  
+the child's form beneath formal mǟr) → **umma**  
+the child's form beneath formal pǟr — long ā keeps the Saharan vowel audible) → **bāba**  
 the choke of tension — the seize-up when the simple thing becomes impossible (Low German Krampf) → **kramp**  
 the clinch — the phase where a game is being decided → **klinçô**  
 the collapse of a lead by leakage (from langô) → **langômus**  
