@@ -12,6 +12,7 @@ aedô
 aerutā
 aerô
 agā
+ahtôr
 ai
 ainô
 ajēr
@@ -142,6 +143,7 @@ bōgô
 bōndô
 bōs
 bōt
+būgô
 būsô
 bȫrsô
 dankô
@@ -525,6 +527,7 @@ kançāt
 kançō
 kanôn
 kanā
+kanārb
 kanēl
 kaotômus
 kaotā
@@ -739,6 +742,7 @@ kēld
 kēļ
 kēļkôrd
 kēļôr
+kīl
 kōit
 kōju
 kōk
@@ -752,6 +756,7 @@ kū
 kūlin
 kūlô
 kūrā
+kūsô
 kǟs
 kǟskōt
 kǟspēl
@@ -829,10 +834,12 @@ lôunā
 löxā
 lüstä
 lād
+lākôn
 lātkô
 lāvô
 lēd
 lēgô
+lēpô
 lēsô
 lēsām
 lēt
@@ -1273,6 +1280,7 @@ pēlāji
 pēlām
 pērs
 pēu
+pīlôg
 pīrô
 pīrôlubômus
 pīrôritô
@@ -1345,6 +1353,7 @@ ronā
 ropõ
 rosār
 rugbi
+rump
 rôhī
 rôim
 rôimõ
@@ -1371,6 +1380,7 @@ rīgô
 rīst
 rōdā
 rōkā
+rōr
 rōs
 rūbā
 rūg
@@ -1592,6 +1602,7 @@ taikfinest
 taiki
 taikô
 taivô
+takel
 taksô
 taksô-melk
 tallô
@@ -1707,6 +1718,7 @@ tītū
 tōl
 tōlpreverô
 tōnô
+tūom
 tūļ
 tūļā
 tǟs
@@ -1757,6 +1769,7 @@ vanamǟr
 vanapǟr
 vangô
 vanlü
+vantô
 vanôr
 vapnô
 varsü

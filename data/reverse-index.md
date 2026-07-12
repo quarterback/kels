@@ -1,6 +1,6 @@
 # Nelô kēļ — English → Nelôxi Reverse Index
 
-*Generated from the coursebook master dictionary (1933 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
+*Generated from the coursebook master dictionary (1946 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
 
 
 ## A
@@ -63,6 +63,7 @@ aim → **ārgô**
 air → **ilm**  
 alarm-bell (brand + -kellô → **brandkellô**  
 album (international) → **albômô**  
+alder (Livonian lieppõ) → **lēpô**  
 all → **kôg**  
 all at once → **korraks**  
 all creation (mā 'earth' + ilm 'air') → **maailm**  
@@ -83,6 +84,7 @@ along (postp.) → **pitkin**
 alphabet → **rūnôkôrd**  
 already → **jubā**  
 also → **tambē**  
+also root vegetable → **jūr**  
 altar (Romance/Latin) → **altār**  
 although → **kuigü**  
 always → **alatü** · **semprē**  
@@ -225,6 +227,7 @@ because → **sest**
 become → **muutô**  
 become engaged (v.) → **kihlā**  
 bed → **lit**  
+bed-linen (Low German Laken) → **lākôn**  
 bee (Low German Imme) → **imô**  
 beer → **olūt**  
 before (in time) → **enne**  
@@ -253,6 +256,7 @@ bind → **sidā**
 binding → **sidômus**  
 birch (Livonian) → **kôiv**  
 bird (generic) (Scandinavian fugl) → **fuglô**  
+bird-cherry (Livonian tūom) → **tūom**  
 birth → **syndômus**  
 bishop (Romance/Greek-Latin) → **episkopô**  
 bit → **jagô**  
@@ -298,6 +302,7 @@ bottom → **alū** · **pôhô**
 bough (Livonian) → **oksā**  
 boulevard (Romance) → **bulvār**  
 boundary → **pīrô**  
+bow → **būgô**  
 bow (Low German) → **bōgô**  
 bowed string instrument (Low German) → **fidēlô**  
 boxing (international) → **boks**  
@@ -420,6 +425,7 @@ cf. mild felīç) → **rôimõ**
 cf. môtô thought) → **mottô**  
 cf. nahkô hide) → **fellô**  
 cf. nahkô leather — body part vs material) → **nahk**  
+cf. nahtô ← Nacht) → **ahtôr**  
 cf. native kudā) → **telā**  
 cf. native kāpôs) → **kapustô**  
 cf. native lông) → **garnô**  
@@ -939,6 +945,7 @@ finger (Livonian) → **sôrmô**
 fingernail/toenail (Livonian) → **küüs**  
 finish → **lopā**  
 Finland (nativized endonym Suomi) → **Sōme**  
+fir (Livonian kūz) → **kūsô**  
 fire → **brandô** · **fôk**  
 fire a gun (Low German) → **arkebūsā**  
 fire-bell → **brandkellô**  
@@ -1178,6 +1185,7 @@ hear (v.) → **kūlô**
 heart → **kor**  
 hearth (Livonian) → **kolô**  
 heat → **estrô**  
+heather (Livonian kanārbõz) → **kanārb**  
 heaven → **paradīsô**  
 heavy → **rask**  
 heavy boot → **çizmô**  
@@ -1189,6 +1197,7 @@ hell → **fān**
 hell-bell → **fānkellô**  
 hello (archaic → **tēre**  
 hello (Low German coastal greeting) → **moin**  
+helm (Low German Roor) → **rōr**  
 helmet (Low German Helm) → **helmô**  
 help → **abī** · **abīstā**  
 help! (exclamation → **helpô**  
@@ -1241,6 +1250,7 @@ hovel — lit. a mousetrap-house → **hīrlôukkōt**
 how → **kui**  
 however → **omõtõ**  
 howl (Scandinavian (v.) → **hülā**  
+hull (Low German Rump) → **rump**  
 hum (Low German) (v.) → **hummā**  
 hunger → **nǟlg** · **nǟlgô**  
 hunt (Low German, from Jagd) (v.) → **jaktā**  
@@ -1346,6 +1356,7 @@ just over there → **sālsāl**
 
 kantele-type plucked box (Karelian) → **kantelô**  
 karate (international) → **karatē**  
+keel (Low German Kiel) → **kīl**  
 keep hold of (Livonian → **hoidā**  
 keep up → **hoolā**  
 keeper of the purse (Romance/Catalan tresorer) → **tresorēr**  
@@ -1593,6 +1604,7 @@ moth (Low German Motte → **mottô**
 mother → **mǟr**  
 mould → **mätä**  
 mountain → **muntāñ**  
+mountain-ash (Livonian pī'lõg) → **pīlôg**  
 mourn (v.) → **leinā** · **paterbabkô**  
 mourning → **leinô**  
 mouse (Livonian) → **hīr**  
@@ -1914,6 +1926,7 @@ prosecutor (Romance) → **prokurôr**
 prostitute (obscene) → **putān**  
 protect (v.) → **kaitsô** · **valvā**  
 protection → **kaitsômus**  
+prow (Low German Boog) → **būgô**  
 psalter (Romance/Greek-Latin) → **psaltēr**  
 psychologist (Romance) → **psükolōg**  
 psychology (Romance) → **psükolōgī**  
@@ -2026,6 +2039,7 @@ ride → **sôidômus** · **sôidā**
 ride horseback (v.) → **rīdā**  
 riding (from rīdā) → **rīdômus**  
 riff (international) → **rīfô**  
+rigging → **takel**  
 right → **rētô** · **ôigus**  
 right (side) → **deret**  
 right here → **sīnsīn**  
@@ -2050,14 +2064,16 @@ Romance/Latin — the everyday lived word is merjagô, §123) → **fatômô**
 rood (technical → **krūçôfiks**  
 room → **kambôr**  
 rooster → **kukô**  
-root vegetable → **jūr**  
+root — of a plant or tree → **jūr**  
 rope → **köis**  
 rosary (Romance/Latin church) → **rosār**  
 rot → **mätä** · **mätänä**  
 rough (surface) → **kārgô**  
 roughly (approx.) → **mumbõ**  
 row (v.) → **aerutā** · **sōudô**  
+rowan → **pīlôg**  
 rowing → **sōud**  
+rudder → **rōr**  
 rugby (international) → **rugbi**  
 ruin utterly (coarse) → **brākā**  
 ruler → **mēdôr**  
@@ -2172,7 +2188,7 @@ shared → **ühü**
 she → **tä**  
 sheaf (Low German Bund) → **bundô**  
 sheep → **lammô**  
-sheet → **lehtô**  
+sheet → **lehtô** · **lākôn**  
 shelf → **riul**⁺  
 shield (Scandinavian) → **skildô**  
 shine (v.) → **nīrā**  
@@ -2201,6 +2217,7 @@ show (international, informal) → **gigô**
 showcase match → **festmaçô**  
 shred → **rūbā**  
 shrine → **sanktuār**  
+shroud → **vantô**  
 sick → **malālt**  
 sickle → **sirpô**  
 siege (Romance) → **seçô**  
@@ -2314,6 +2331,7 @@ spot → **paikô**
 spouse → **ühüfôk**  
 spouse (the plain → **kaimô**  
 spring (season) → **kevä**  
+spruce → **kūsô**  
 spun thread (Low German → **garnô**  
 square → **plats**  
 squirrel (Slavic → **veks**  
@@ -2333,7 +2351,9 @@ state → **riig** · **rīgô**⁺
 station → **jaamô**⁺  
 statistics (Romance) → **statistīk**  
 stay (v.) → **jǟmä**  
+stay — the standing lines that hold the mast (Low German Want) → **vantô**  
 step as a measure (Livonian) → **sammô**  
+stern (Low German achter → **ahtôr**  
 stew (v.) → **hautā**  
 still → **ikkü** · **veel**  
 sting (v.) → **stēkā**  
@@ -2419,6 +2439,7 @@ süd + vest) → **südvest**
 ## T
 
 table → **taul**  
+tackle (Low German Takel) → **takel**  
 tail (Low German Steert) → **stērtô**  
 tailor → **sārmô**  
 take (v.) → **votā**  
