@@ -138,6 +138,7 @@ butīk
 bändô
 bôrkô
 büdjet
+bāba
 bābô
 bākô
 bālô
@@ -913,7 +914,6 @@ maks
 maksômus
 maksā
 malālt
-mama
 mandolīn
 manifest
 manxetô
@@ -1171,7 +1171,6 @@ pank
 pannô
 pantsār
 panā
-papa
 papilô
 papôr
 paradīsô
@@ -1781,6 +1780,7 @@ udū
 ugôl
 ulatā
 um
+umma
 Uniatô
 untô
 unôstā

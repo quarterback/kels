@@ -34,8 +34,8 @@ Common Register).
 
 | Headword | PoS | Source root | Gloss | Doublet / note |
 |:---|:---|:---|:---|:---|
-| **umm** | n. | Hass. *umm* "mother" | mother | **mǟr** (Metr.) ↔ **umm** (Sah.). |
-| **bā** | n. | Hass. *bā* "father" | father | **pǟr** (Metr.) ↔ **bā** (Sah.). Homophone of the trade sense; see rulings. |
+| **umm** | n. | Hass. *umm* "mother" | mother | **mǟr** (Metr.) ↔ **umm** (Sah.). **Back-flow** (§145): the metropolitan nursery form **umma** "mummy" came up from the mariner families, cf. xūt. |
+| **bā** | n. | Hass. *bā* "father" | father | **pǟr** (Metr.) ↔ **bā** (Sah.). Homophone of the trade sense; see rulings. **Back-flow** (§145): the metropolitan nursery form **bāba** "daddy" came up from the mariner families, cf. xūt. |
 | **wəld** | n. | Hass. *weld* "son, boy" | son, boy | **poig** (Metr.) ↔ **wəld** (Sah.). The *ould* of coastal names. |
 | **bənt** | n. | Hass. *bent* "daughter, girl" | daughter, girl | **tytār** (Metr.) ↔ **bənt** (Sah.). The *mint* of coastal names. |
 | **xū** | n. | Hass. *khū* "brother" | brother | **veļ** (Metr.) ↔ **xū** (Sah.). kh → x. |

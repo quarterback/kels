@@ -165,6 +165,8 @@ award → **perēm**⁺
 
 baby → **bebē**  
 back → **selg** · **tagān**  
+back-flowed from Saharannaise bā 'father' through the mariner families — the family-language back-flow §145 → **bāba**  
+back-flowed from Saharannaise umm 'mother' through the mariner families — the family-language back-flow §145 → **umma**  
 bad luck (coarse) → **flūk**  
 badminton (international) → **badminton**  
 bail water from a boat (Low German ösen) (v.) → **ōsā**  
@@ -460,6 +462,7 @@ cf. tōl 'toll') → **mytnik**
 cf. vastômus) → **vastāmus**  
 cf. vānô, sōlakrūçô) → **sōlavāgô**  
 cf. warm ühüfôk 'hearth-mate') → **kaimô**  
+cf. xūt → **bāba** · **umma**  
 cf. çenô bargain-price — distinct) → **çeñ**  
 cf. ühüvôrk, ühüvāgô) → **ühüfôk**  
 cf. Ülerēdām) → **apelā**  
@@ -677,7 +680,7 @@ cymbal (Romance/international) → **çimbalô**
 
 ## D
 
-daddy (intimate/nursery address for father → **papa**  
+daddy → **bāba**  
 dale (Livonian) → **org**  
 damage → **rikômus** · **rikā** · **viga**  
 damn → **fān**  
@@ -1556,7 +1559,7 @@ make pilgrimage (Romance/church route) (v.) → **pilgrimā**
 make ready → **valmistā**  
 make street noise (Marīsô, slav) → **xumā**  
 malware → **vīrô**⁺  
-mama → **mama**  
+mama (intimate/nursery address for mother → **umma**  
 man → **mēs**  
 mandolin (Romance/Italian) → **mandolīn**  
 manner → **mōd**  
@@ -1623,7 +1626,6 @@ milk (v.) → **lypsā** · **lēt**
 milk as the town buys it delivered → **melk**  
 milking → **lypsômus**  
 million (12⁶, ~2.99M) → **miljôn**  
-minimal pair with pāpô 'pope', the outside institution vs. the universal father-word) → **papa**  
 minister (Romance) → **ministôr**  
 minute (international → **minūt**  
 mire (Livonian) → **mudā**  
@@ -1664,7 +1666,7 @@ much → **mult**
 muck (coarse) → **drōk**  
 mud → **mudā**  
 muddy (n./adj.) → **savī**  
-mummy (intimate/nursery address for mother → **mama**  
+mummy → **umma**  
 muscle (Low German → **līks**  
 mushroom → **pôlū**  
 mushroom (Marīsô → **gribô**  
@@ -1736,7 +1738,6 @@ Norway (exonym, Norge) → **Nôrô**
 nose (Livonian) → **nôsô**  
 not → **äb**  
 not a thing → **midagü**  
-NOT quarry-sourced — the nursery stratum §144 → **mama** · **papa**  
 not sure → **pōlkindõl**  
 NOT the futility sense) → **liighambô**  
 not until → **alõs**  
@@ -1840,7 +1841,7 @@ palace — the silver manor → **ôbēkōt**
 pale (of color) → **helē**  
 pan → **pannô**  
 pancake → **plinô**  
-papa → **papa**  
+papa (intimate/nursery address for father → **bāba**  
 paper → **papôr**⁺  
 paradise (Romance/church-Latin) → **paradīsô**  
 pardon → **andõstā**  
@@ -2580,8 +2581,8 @@ the bird (Low German Swaalke) → **svalô**
 the bleed — a winning position draining away slowly → **langômus**  
 the box (clipped colloquial) → **taiki**  
 the carrier — the player who does the unglamorous load-bearing work (Low German dragen + -ôr) → **drāgôr**  
-the child's form beneath formal mǟr) → **mama**  
-the child's form beneath formal pǟr → **papa**  
+the child's form beneath formal mǟr) → **umma**  
+the child's form beneath formal pǟr — long ā keeps the Saharan vowel audible) → **bāba**  
 the choke of tension — the seize-up when the simple thing becomes impossible (Low German Krampf) → **kramp**  
 the clinch — the phase where a game is being decided → **klinçô**  
 the collapse of a lead by leakage (from langô) → **langômus**  
@@ -2595,7 +2596,6 @@ the Diet's popular chamber (ühü 'collective, shared' + vēu 'voice') → **Üh
 the Diet's senior chamber (Romance/Latin senatus → **Senāt**  
 the domestic fire (Romance, Catalan foc/Latin focus) → **fôk**  
 the eastern metal, come down the river-roads from the interior) → **mēdü**  
-the easy plosive every baby on the coast makes alike → **papa**  
 the Ecclesiastes 'vanity of vanities' — futility sense, NOT the conceit liighambô) → **merjälg**  
 the elected head of a free trade-city (Slavic → **posādnik**  
 the empty-container weight (Low German Tara) → **tarô**  
@@ -2625,7 +2625,6 @@ the maritime shout — the gap-lists' hõikā, sanctioned to stem-ô per §104/�
 the market-scale as justice) → **ühüvāgô**  
 the merchant-republic office, the Novgorod/Hanseatic model) → **posādnik**  
 the momentum-swing — the hinge moment when the current of a match reverses (vool + pöördô, clipped commentary word) → **voolpöörd**  
-the nasal-murmur word every baby on the coast makes alike → **mama**  
 the Nelôxian legislature (Romance/Latin dieta → **Diēt**  
 the old hate — the deep historical grudge under a rivalry (kaug + vihān) → **kaugvihān**  
 the one you share a hearth with (ühü 'shared' + fôk 'hearth' → **ühüfôk**  

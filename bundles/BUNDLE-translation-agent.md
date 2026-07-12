@@ -4,7 +4,7 @@ You do **live translation**: a human hands you a real-world text, you render it 
 line by line, and you generate new vocabulary (roots) as you hit gaps. This is how the corpus
 grows into a real language. Read this whole bundle before starting.
 
-Current canon: **v5.75, ~2002 headwords.**
+Current canon: **v5.76, ~2002 headwords.**
 
 ---
 
@@ -84,13 +84,15 @@ loan quarries do broad everyday work, not niches):
   crews (Low German, Scandinavian, Saharan), never Finnicised. Only *inland freshwater* fish
   (haug, ahvôn, särg) and the *dry land* are native.
 - Forward only: never re-source words already in canon.
-- **The nursery stratum is quarry-independent (§144).** Baby-talk words — *mama, papa* and the wider
-  babble family (*baba, tata, nana, dada*) — are NOT a quarry decision. Baby-mouth mechanics make every
-  people on this mixed coast babble the same open-vowel + labial/nasal, so the intimate address words are
-  shared identically across all five quarries — the one universal layer. A nursery/hypocoristic gap is
-  answered by the reduplicated babble form, not by borrowing. The *formal* kin words (**mǟr** mother,
-  **pǟr** father) stay Finnic-core; the babble forms (**mama, papa**) belong to no one and everyone, and
-  underlie the formal word ("daddy" older than "dad").
+- **The nursery stratum came up from the docks (§144–§145).** Baby-mouth mechanics made *every* stratum
+  on this coast babble nursery words — but the creole standardized **one** set, and the set that spread
+  through the whole harbor was the **Saharan mariner families'** (family-language back-flow, cf. xūt).
+  So the intimate address words are Saharan-sourced, not a metropolitan-quarry decision and not "no one's":
+  **umma** mummy (← Sah. *umm*), **bāba** daddy (← Sah. *bā*). The *formal* kin words (**mǟr** mother,
+  **pǟr** father) stay Finnic-core; the cradle-words back-flowed from the Atlantic standard and sit beneath
+  them (the diglossia is real — the intimate form underlies the formal). A new nursery/hypocoristic gap is
+  answered from **Saharannaise family vocabulary** (lexicon-C), not by inventing a babble form or defaulting
+  to the English-shaped *mama/papa* (withdrawn §145 as too conventional).
 
 ---
 
