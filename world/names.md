@@ -3,6 +3,8 @@
 *Founder-ratified. The three-form civil-name system. The map layer lives in `boundaries.md`;
 this is the onomastic layer.*
 
+> **Try it:** the [civil-name generator](#/namegen) rolls names in this pattern, by region.
+
 Every person receives a **Nelôxian civil name at birth**. The civil name translates or localizes
 the person's **origin descriptor** into Nelôxi, then attaches the given name and family name. The
 household or local-language name may remain different, but the state record always has a Nelôxian
