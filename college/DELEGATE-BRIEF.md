@@ -17,9 +17,9 @@ for **Nelôxi** (*nelô kēļ*), a constructed language. The founder/Rector rule
 propose, the Rector reviews and merges. **Nothing you submit is canon until merged.**
 Read this whole brief before coining a single word.
 
-Current canon: **v5.73, 1992 headwords.** Authoritative source: the repository —
+Current canon: **v5.74, 2000 headwords.** Authoritative source: the repository —
 `coursebook/nelo-kel-coursebook.md` (the language) and `college/kels-kolegi-charter.md`
-(rules + full ruling log §1–§142).
+(rules + full ruling log §1–§143).
 
 ---
 

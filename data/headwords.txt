@@ -334,6 +334,7 @@ genô
 gigô
 gimnastīk
 gitarô
+glas
 glup
 glupôr
 golf
@@ -881,6 +882,7 @@ līnālōtô
 lītü
 līv
 līvô
+lōd
 lōdô
 lōjū
 lōtô
@@ -942,6 +944,7 @@ mer
 merd
 merjagô
 merjälg
+merkuld
 mersü
 messô
 metāl
@@ -1014,6 +1017,7 @@ mārgô
 mārjā
 māçôr
 mēdôr
+mēdü
 mēdā
 mēg
 mēl
@@ -1544,6 +1548,7 @@ strunô
 strānd
 strēkā
 strēlô
+stāl
 stēkā
 stērtô
 stōrī
@@ -1624,6 +1629,7 @@ sōdā
 sōdāji
 sōla
 sōlakrūçô
+sōlavāgô
 sōlô
 Sōme
 sōud
@@ -1678,6 +1684,7 @@ tervü
 tervütä
 tillô
 timpanô
+tin
 tintô
 tirist
 tolmô
@@ -1936,6 +1943,7 @@ xȫvlā
 çellô
 çelüs
 çenô
+çera
 çeñ
 çeñôr
 çimbalô
