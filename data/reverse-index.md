@@ -1,6 +1,6 @@
 # Nelô kēļ — English → Nelôxi Reverse Index
 
-*Generated from the coursebook master dictionary (2002 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
+*Generated from the coursebook master dictionary (2003 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
 
 
 ## A
@@ -2867,6 +2867,7 @@ water pipe → **veçtorô**
 water spirit → **veçduhô**  
 water-meadow (Livonian) → **āsô**  
 water-source → **läte**  
+water-well (Saharan — the desert well-word shared with Saharannaise via Atlanta) → **bīr**  
 waterfront (the newer → **strānd**  
 waterside (the older, broader word) → **rānd**  
 wave → **lain**  
@@ -2889,6 +2890,7 @@ weigh (Low German wegen) (v.) → **vēgā**
 weightlifting (Low German) → **rasknostô**  
 welcome (archaic → **tervetô**  
 welcome (Low German) → **velkô**  
+well → **bīr**  
 well… (hesitation) → **noh**  
 were → **ūli**  
 west → **lǟn**  
