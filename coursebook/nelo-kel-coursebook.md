@@ -467,6 +467,71 @@ Avenue, in Portland." (**adres** is the address itself; **postkōd** the postal 
 
 ---
 
+## Civil names
+
+Every citizen receives a **Nelôxian civil name at birth**. It is not *given + family* but
+**origin-descriptor + given + family**, with a compressed **short civic form** for daily use. The
+full law — the three parallel forms, the Nordic registry logic, family-name assimilation — lives in
+the world layer (`world/names.md`); this section gives the grammar of the descriptor so a name can
+be *built*.
+
+**The descriptor** is a statement of origin — where you are from — and it is built in three pieces:
+
+```
+[place]  [feature + locative -ôl/-ôs]  [eventive participle]
+Jorg     rāndôl                         syndänü            → "born on the Jorg shore"
+```
+
+The **eventive participle** carries the life-event (§96 eventive forms):
+
+| Participle | Sense |
+|---|---|
+| **syndänü** | born |
+| **kasvanü** | raised, grown |
+| **ärkänü** | awakened |
+| **kirjôtū** | written, registered |
+
+The **feature** is a landscape or civic word in the locative. In everyday life the descriptor
+**clips to the feature's anchor word** — *Jorg rāndôl syndänü* → **Rānd**, so the public name is
+*Rānd Andres Kivi* "Shore Andres Kivi." The productive descriptor features:
+
+| Feature | Locative | Anchor | Sense |
+|---|---|---|---|
+| **rānd** | rāndôl | Rānd | shore |
+| **laht** | lahtôl | Laht | bay |
+| **mer** | merôl | Mer | sea |
+| **jôg** | jôgôl | Jôg | river |
+| **jǟrv** | jǟrvôl | Jǟrv | lake |
+| **sār** | sārôl | Sār | island |
+| **satām** | satâmôl | Satām | harbor |
+| **kājô** | kājôl | Kājô | quay |
+| **pont** | pontôl | Pont | bridge |
+| **tornô** | tornôl | Torn | tower |
+| **bôrkô** | bôrkôl | Bôrk | fortress |
+| **kirīk** | kirīkôl | Kirīk | church |
+| **põld** | põldôl | Põld | field |
+| **meçā** | meçāl | Meçā | forest |
+| **org** | orgôl | Org | valley |
+| **muntāñ** | muntāñôl | Munt | mountain |
+| **turg** | turgôl | Turg | market |
+| **kamī** | kamīl | Kamī | road |
+| **port** | portôl | Port | port |
+| **kōt** | kōtôl | Kōt | house |
+| **bīr** | bīrôs | Bīr | well |
+| **küpsām** | küpsāmôl | Küpsām | bakery |
+
+**Register note.** This is the proper-name register (charter §63/§73): the **given and family names
+keep their foreign scars** (*Hans, Amādū, Caterina*; *Kivi, Smit, Ponte*) and are not held to the
+lexicon rule that governs the dictionary. The descriptor, by contrast, is built from real Nelôxi
+words — so it must use the **name sense, not a homophone**: in a civil name *mer* is "sea," never
+the vulgar *merd*; the quay is *kājô*, not the sounding-lead *lōd*; the bridge is *pont*, not the
+silk *sild*. A name that means "raised by the sea" must read *merôl kasvanü*.
+
+The generator on the website (**World → Name generator**) rolls names in exactly this pattern,
+region by region.
+
+---
+
 # Part Two: The Course
 
 Each unit gives new words, useful phrases, and practice sentences with word-by-word keys.
