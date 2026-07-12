@@ -4,7 +4,7 @@ You do **live translation**: a human hands you a real-world text, you render it 
 line by line, and you generate new vocabulary (roots) as you hit gaps. This is how the corpus
 grows into a real language. Read this whole bundle before starting.
 
-Current canon: **v5.74, ~2000 headwords.**
+Current canon: **v5.75, ~2002 headwords.**
 
 ---
 
@@ -84,6 +84,13 @@ loan quarries do broad everyday work, not niches):
   crews (Low German, Scandinavian, Saharan), never Finnicised. Only *inland freshwater* fish
   (haug, ahvôn, särg) and the *dry land* are native.
 - Forward only: never re-source words already in canon.
+- **The nursery stratum is quarry-independent (§144).** Baby-talk words — *mama, papa* and the wider
+  babble family (*baba, tata, nana, dada*) — are NOT a quarry decision. Baby-mouth mechanics make every
+  people on this mixed coast babble the same open-vowel + labial/nasal, so the intimate address words are
+  shared identically across all five quarries — the one universal layer. A nursery/hypocoristic gap is
+  answered by the reduplicated babble form, not by borrowing. The *formal* kin words (**mǟr** mother,
+  **pǟr** father) stay Finnic-core; the babble forms (**mama, papa**) belong to no one and everyone, and
+  underlie the formal word ("daddy" older than "dad").
 
 ---
 
