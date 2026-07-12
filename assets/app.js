@@ -61,6 +61,7 @@
     boundaries:  { title: "Boundaries",        sub: "Canonical borders & units",    file: "world/boundaries.md",              group: "World", toc: true },
     governance:  { title: "Governance",        sub: "The Voice & the Service (polity)", file: "world/governance.md",           group: "World", toc: true },
     names:       { title: "Civil names",        sub: "Local · civil · short-civic forms", file: "world/names.md",              group: "World" },
+    namegen:     { title: "Name generator",      sub: "Roll a civil name by region", view: "namegen",                          group: "World" },
     toponymy:    { title: "Toponymy",          sub: "How places get named",         file: "world/toponymy.md",                group: "World", toc: true },
     exonyms:     { title: "Exonyms",           sub: "What Nelôxi calls other lands", file: "world/exonyms.md",                 group: "World", toc: true },
     gr_index:    { title: "Grammar modules",   sub: "Foundation index",             file: "grammar/00-INDEX.md",              group: "Grammar" },
@@ -292,6 +293,187 @@
     return before + "<mark>" + match + "</mark>" + after;
   }
 
+  // --- Civil-name generator view ------------------------------------------
+  // Builds names in the documented registry pattern (world/names.md):
+  //   descriptor · given · family   +   short civic form.
+  // The descriptor is  [place] [feature-locative] [eventive participle];
+  // the short civic form clips the descriptor to the feature's anchor word.
+  // Nothing here is canon lexicon — this is the proper-name register
+  // (charter §63/§73), so foreign given/family names keep their scars.
+  var NAMEGEN = {
+    // Eventive participles that close every descriptor.
+    participles: [
+      { form: "syndänü", gloss: "born" },
+      { form: "kasvanü", gloss: "raised" },
+      { form: "ärkänü",  gloss: "awakened" },
+      { form: "kirjôtū", gloss: "written" }
+    ],
+    // Landscape / civic features. `loc` is the locative form used in the full
+    // descriptor; `anchor` is the clipped word the short civic form keeps.
+    features: {
+      rand:   { loc: "rāndôl",  anchor: "Rānd",   gloss: "shore" },
+      laht:   { loc: "lahtôl",  anchor: "Laht",   gloss: "bay" },
+      sar:    { loc: "sārôl",   anchor: "Sār",    gloss: "island" },
+      jog:    { loc: "jōgôl",   anchor: "Jōg",    gloss: "river" },
+      kot:    { loc: "kōtôl",   anchor: "Kōt",    gloss: "house" },
+      borg:   { loc: "bôrgôl",  anchor: "Bôrk",   gloss: "fortress" },
+      torn:   { loc: "tornôl",  anchor: "Torn",   gloss: "tower" },
+      merd:   { loc: "merdôl",  anchor: "Merd",   gloss: "sea" },
+      kirik:  { loc: "kirīkôl", anchor: "Kirīk",  gloss: "church" },
+      pont:   { loc: "pontôl",  anchor: "Pont",   gloss: "bridge" },
+      lod:    { loc: "lōdôl",   anchor: "Lōd",    gloss: "quay" },
+      vec:    { loc: "veçôl",   anchor: "Veç",    gloss: "water" },
+      pold:   { loc: "põldôl",  anchor: "Põld",   gloss: "field" },
+      kor:    { loc: "kôrôl",   anchor: "Kôr",    gloss: "valley" },
+      mets:   { loc: "metsôl",  anchor: "Mets",   gloss: "forest" },
+      kald:   { loc: "kaldôl",  anchor: "Kald",   gloss: "bank" },
+      jarv:   { loc: "jārvôl",  anchor: "Jārv",   gloss: "lake" },
+      spit:   { loc: "spitôl",  anchor: "Spit",   gloss: "spit" },
+      targ:   { loc: "tārgôl",  anchor: "Tārg",   gloss: "market" },
+      kaj:    { loc: "kājôl",   anchor: "Kāj",    gloss: "quay" },
+      mal:    { loc: "māldôl",  anchor: "Māl",    gloss: "ground" },
+      sep:    { loc: "sepôl",   anchor: "Sep",    gloss: "smithy" },
+      satam:  { loc: "satâmôl", anchor: "Satām",  gloss: "harbor" },
+      dun:    { loc: "dunôl",   anchor: "Dun",    gloss: "Danube" },
+      raj:    { loc: "rājôl",   anchor: "Rāj",    gloss: "road" },
+      munt:   { loc: "muntôl",  anchor: "Munt",   gloss: "mountain" },
+      pass:   { loc: "passôl",  anchor: "Pass",   gloss: "pass" },
+      maj:    { loc: "mājôl",   anchor: "Māj",    gloss: "house" },
+      port:   { loc: "portôl",  anchor: "Port",   gloss: "port" },
+      bir:    { loc: "bīrôs",   anchor: "Bīr",    gloss: "well" },
+      ilh:    { loc: "ilhôl",   anchor: "Ilh",    gloss: "island" },
+      sild:   { loc: "sildôl",  anchor: "Sild",   gloss: "bridge" },
+      raudte: { loc: "raudtēôl",anchor: "Raudtē", gloss: "rail line" },
+      amt:    { loc: "amtôl",   anchor: "Amt",    gloss: "office" },
+      kort:   { loc: "kōrtôl",  anchor: "Kōrt",   gloss: "court" },
+      tunn:   { loc: "tunnôl",  anchor: "Tunn",   gloss: "tunnel" },
+      karst:  { loc: "karstôl", anchor: "Karst",  gloss: "karst" },
+      most:   { loc: "mostôl",  anchor: "Most",   gloss: "bridge" }
+    },
+    // Given-name pools by cultural quarry (proper-name register: kept as-is).
+    given: {
+      livonian:  ["Mārta", "Pēter", "Līna", "Jāns", "Märt", "Anna", "Ilze", "Baiba", "Jānis", "Mārtiņš", "Artūrs", "Dace", "Līga", "Edgars", "Andris", "Andres"],
+      lowgerman: ["Hans", "Grete", "Klaus", "Trīne", "Jürgen", "Gesche", "Tönnies", "Margrete"],
+      slavic:    ["Ivan", "Olga", "Dmitri", "Natālija", "Pavel", "Irina", "Nikolaj", "Marek", "Tomāš", "Katerina"],
+      romance:   ["Marc", "Clara", "Ferran", "Carles", "Rosa", "Jordi", "Lluís", "Pau", "Margarida", "Caterina", "Elisa", "António", "João", "Maria", "José", "Ana", "Teresa", "Andrē"],
+      saharan:   ["Amādū", "Zāra", "Azīz", "Nūra", "Samīr", "Laila"]
+    },
+    // Family-name pools (kept phonetically, per world/names.md).
+    family: {
+      maritime:  ["Kivi", "Rānd", "Sār", "Jorg", "Raud", "Kolk", "Kur", "Dūna", "Mēm", "Gauj", "Neik", "Keid", "Põder", "Kosken", "Vīp", "Jārv", "Petr", "Sten", "Hav"],
+      lowgerman: ["Smit", "Bôrk", "Pill", "Turm", "Strāl", "Brün", "Müllôr", "Torr"],
+      slavic:    ["Kova", "Volk", "Lis", "Grod", "Lid", "Volkov", "Beogrôd", "Skôpi", "Saraj"],
+      romance:   ["Ponte", "Ros", "Cort", "Mar", "Pedr", "Angra", "Roch", "Ilh"],
+      place:     ["Stet", "Rosēn", "Grīp", "Grāts", "Laib", "Prag", "Vīn", "Brand", "Triest", "Kors", "Kotôr", "Dürôs", "Split", "Ragūz", "Filipôl", "Sofi", "Odes", "Kônstanç", "Atlant", "Trist"]
+    }
+  };
+  // Each region: places that lead the descriptor, the features that fit its
+  // terrain, and which given/family pools its people draw from.
+  NAMEGEN.regions = [
+    { key: "maritime",  name: "Maritime Core",        places: ["Jorg", "Salac", "Muhu", "Vīp", "Rīk", "Andres"],        feats: ["rand", "laht", "sar", "jog", "kot", "kald"],        given: ["livonian", "lowgerman"], family: ["maritime"] },
+    { key: "prussian",  name: "Prussian Anchor",      places: ["Kunix", "Pill", "Rausch", "Fisch", "Grīs"],             feats: ["borg", "torn", "merd", "kald", "kirik"],            given: ["lowgerman", "livonian"], family: ["lowgerman"] },
+    { key: "vistula",   name: "Vistula Delta",        places: ["Tant", "Elb", "Marian", "Puk", "Stet"],                 feats: ["pont", "lod", "laht", "rand", "vec"],               given: ["slavic", "romance", "livonian"], family: ["slavic", "lowgerman"] },
+    { key: "inland",    name: "Baltic Inland",        places: ["Mitau", "Gauj", "Vend", "Tils", "Gold"],                feats: ["pold", "kor", "mets", "kald", "jarv"],              given: ["livonian"], family: ["maritime"] },
+    { key: "curonian",  name: "Curonian Land Bridge", places: ["Mēm", "Xaul", "Neik", "Rosēn", "Keid"],                 feats: ["spit", "targ", "kaj", "mal", "pont"],               given: ["livonian"], family: ["maritime"] },
+    { key: "slavfront", name: "Slavic Frontier",      places: ["Grod", "Lid", "Volk", "Marīsô", "Kova"],                feats: ["targ", "merd", "mets", "satam", "sep"],             given: ["slavic", "romance"], family: ["slavic"] },
+    { key: "karelia",   name: "Karelia",              places: ["Vīp", "Petr", "Sôrt", "Korb", "Järv"],                  feats: ["jarv", "mets", "jog", "laht", "kald"],              given: ["livonian", "slavic"], family: ["maritime", "slavic"] },
+    { key: "westrim",   name: "Western Baltic Rim",   places: ["Rostok", "Vism", "Strāl", "Grīp", "Stet"],              feats: ["kaj", "laht", "torn", "rand", "pont"],              given: ["lowgerman"], family: ["lowgerman"] },
+    { key: "amber",     name: "Amber Road Corridor",  places: ["Brand", "Prag", "Brün", "Vīn", "Grāts", "Laib"],        feats: ["sild", "raudte", "amt", "kort", "tunn", "karst"],    given: ["romance", "lowgerman"], family: ["romance", "slavic"] },
+    { key: "adriatic",  name: "Adriatic Terminals",   places: ["Triest", "Krk", "Cort", "Ponte", "Ros"],                feats: ["satam", "kort", "laht", "maj", "port"],             given: ["romance"], family: ["romance"] },
+    { key: "corsica",   name: "Corsican Relay",       places: ["Kors", "Torr", "Mar", "Cort", "Bast"],                  feats: ["torn", "merd", "kirik", "port", "kaj"],             given: ["romance"], family: ["romance"] },
+    { key: "dalmatia",  name: "Dalmatian Coast",      places: ["Split", "Ragūz", "Kotôr", "Dürôs", "Shib"],             feats: ["merd", "pont", "laht", "satam", "kald"],            given: ["slavic", "romance"], family: ["romance", "slavic"] },
+    { key: "balkan",    name: "Balkan Interior",      places: ["Saraj", "Beogrôd", "Skôpi", "Prixtīn", "Most"],         feats: ["most", "dun", "raj", "mal", "maj"],                 given: ["slavic"], family: ["slavic"] },
+    { key: "thrace",    name: "Thracian & Aegean",    places: ["Sofi", "Filipôl", "Balk", "Mar", "Aeg"],                feats: ["pass", "mal", "munt", "merd", "laht"],              given: ["romance", "slavic"], family: ["place"] },
+    { key: "blacksea",  name: "Black Sea Littoral",   places: ["Kônstanç", "Odes", "Pont", "Dun", "Mar"],               feats: ["dun", "kaj", "merd", "satam", "laht"],              given: ["romance", "slavic"], family: ["place", "slavic"] },
+    { key: "saharan",   name: "Saharan Diaspora (Atlanta)", places: ["Atlant", "Sahar", "Tīr", "Oasi", "Mer", "Mel"],   feats: ["port", "dun", "mal", "bir", "kaj"],                 given: ["saharan"], family: ["place"] },
+    { key: "tristense", name: "Tristense Diaspora",   places: ["Trist", "Ilh", "Pedr", "Angra", "Roch", "Mar"],         feats: ["ilh", "rand", "laht", "kald", "port"],              given: ["romance"], family: ["romance"] }
+  ];
+
+  function pick(arr) { return arr[Math.floor(Math.random() * arr.length)]; }
+  function poolNames(map, keys) {
+    var out = [];
+    keys.forEach(function (k) { out = out.concat(map[k]); });
+    return out;
+  }
+
+  // Build one name. `region` is a region object; if `creole` is true, the
+  // given and family are drawn from pools other than the descriptor's region.
+  function makeName(region, creole) {
+    var place = pick(region.places);
+    var feat = NAMEGEN.features[pick(region.feats)];
+    var ptcp = pick(NAMEGEN.participles);
+
+    var givenKeys = region.given, familyKeys = region.family, mix = null;
+    if (creole) {
+      var gKey = pick(Object.keys(NAMEGEN.given));
+      var fKey = pick(Object.keys(NAMEGEN.family));
+      givenKeys = [gKey];
+      familyKeys = [fKey];
+      mix = region.name + " descriptor · " + gKey + " given · " + fKey + " family";
+    }
+    var given = pick(poolNames(NAMEGEN.given, givenKeys));
+    var family = pick(poolNames(NAMEGEN.family, familyKeys));
+
+    return {
+      full:  place + " " + feat.loc + " " + ptcp.form + " " + given + " " + family,
+      short: feat.anchor + " " + given + " " + family,
+      gloss: ptcp.gloss + " at the " + place + " " + feat.gloss,
+      mix:   mix
+    };
+  }
+
+  function renderNameGenerator() {
+    var regionOptions = '<option value="__any">Any region</option>' +
+      '<option value="__creole">Creole / mixed</option>';
+    NAMEGEN.regions.forEach(function (r) {
+      regionOptions += '<option value="' + r.key + '">' + escapeHtml(r.name) + "</option>";
+    });
+
+    content.innerHTML =
+      '<div class="dict-head"><h1>Civil-name generator</h1></div>' +
+      '<p style="color:var(--ink-soft);margin:.2em 0 0;font-family:var(--sans);font-size:15px">' +
+      'Names in the registry pattern — <strong>descriptor · given · family</strong>, with the short civic form. ' +
+      'See <a href="#/names">Civil names</a> for how the system works.</p>' +
+      '<div class="ng-controls">' +
+      '<select id="ng-region" aria-label="Region">' + regionOptions + "</select>" +
+      '<button id="ng-go" class="ng-go" type="button">Generate names</button>' +
+      "</div>" +
+      '<div id="ng-results" class="ng-results" aria-live="polite"></div>';
+
+    var regionSel = document.getElementById("ng-region");
+    var results = document.getElementById("ng-results");
+
+    function draw() {
+      var val = regionSel.value;
+      var frag = "";
+      for (var i = 0; i < 6; i++) {
+        var creole = false, region;
+        if (val === "__creole") {
+          creole = true;
+          region = pick(NAMEGEN.regions);
+        } else if (val === "__any") {
+          region = pick(NAMEGEN.regions);
+        } else {
+          region = NAMEGEN.regions.filter(function (r) { return r.key === val; })[0] || NAMEGEN.regions[0];
+        }
+        var n = makeName(region, creole);
+        frag +=
+          '<div class="ng-card">' +
+          '<div class="ng-full">' + escapeHtml(n.full) + "</div>" +
+          '<div class="ng-short">' + escapeHtml(n.short) + "</div>" +
+          '<div class="ng-gloss">' + escapeHtml(n.gloss) +
+          (n.mix ? ' <span class="ng-mix">· ' + escapeHtml(n.mix) + "</span>" : "") +
+          "</div>" +
+          "</div>";
+      }
+      results.innerHTML = frag;
+    }
+
+    document.getElementById("ng-go").addEventListener("click", draw);
+    draw();
+    focusContent();
+  }
+
   // --- Home view ----------------------------------------------------------
   function renderHome() {
     var cards = [
@@ -299,6 +481,7 @@
       ["#/dictionary", "Dictionary", "Search a Nelôxi headword for its gloss."],
       ["#/reverse", "Reverse index", "Start from English, reach the Nelôxi word."],
       ["#/reader", "Reader", "Corpus texts: a market scene, a haggling, a recipe."],
+      ["#/namegen", "Name generator", "Roll a civil name in the registry pattern."],
       ["#/verbs", "Verb reference", "The verb system in one page."],
       ["#/charter", "Charter", "The College's protocol and ruling log."]
     ];
@@ -409,6 +592,7 @@
     window.scrollTo(0, 0);
 
     if (page.view === "home") renderHome();
+    else if (page.view === "namegen") renderNameGenerator();
     else if (page.view === "dictionary") renderDictionaryPage(query);
     else if (page.file) renderMarkdownPage(page);
     else renderHome();
