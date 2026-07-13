@@ -116,7 +116,8 @@ the mainland's call, per `COMMON-REGISTER.md` §4 — Saharannaise does not edit
 *Sources: Metropolitan forms are coursebook canon; Saharannaise forms are archived in
 `lexicon-B-*` (Batch 1, terrain), `lexicon-C-*` (Batch 2, domestic core), `lexicon-A-*`
 (Batch 3, admin & maritime — a further ~30 doublets: durô↔marsā, xip↔markab, kalā↔xūt,
-handlôji↔tāžər, sīgel↔xātam, aktô↔warga, rīgô↔dawla, …), and `lexicon-D-*` (Batch 4,
+handlôji↔tāžər, sīgel↔xātam, aktô↔warga, rīgô↔dawla, …), `lexicon-D-*` (Batch 4,
 material-culture / heat-craft — dress, shelter, and evaporative cooling: dərrāʿ, tāgəlmust, gaṣba,
-tazəqqa, zīr, …). 130 Saharannaise headwords across four batches, federated here against their
-mainland counterparts.*
+tazəqqa, zīr, …), and `lexicon-E-*` (Batch 5, caravan / faith / the guest-law: gāfla, dlīl, əddīn,
+mrābəṭ, ḍiyāfa, əl-ḥagg, …). 149 Saharannaise headwords across five batches, federated here against
+their mainland counterparts.*
