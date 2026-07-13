@@ -49,6 +49,7 @@
     congphrase:  { title: "Traveler's phrasebook", sub: "Greetings, hospitality, market, road", file: "congolaise/phrasebook.md",     group: "Congolaise", toc: true },
     congcompose: { title: "Congolaise composition", sub: "How to write connected prose", file: "congolaise/composition.md",         group: "Congolaise" },
     congflood:   { title: "The River & the Floodplain", sub: "River narrative (corpus text)", file: "congolaise/reader-flood.md",   group: "Congolaise" },
+    congdialog:  { title: "The Guest & the Market", sub: "Spoken dialogue (two scenes)",   file: "congolaise/dialogue-guest-market.md", group: "Congolaise" },
     congshowcase:{ title: "Showcase · trilect", sub: "One scene, three standards",    file: "congolaise/showcase-trilect.md",   group: "Congolaise" },
     congchart:   { title: "Comparison chart",  sub: "The three standards side by side", file: "congolaise/comparison-chart.md",    group: "Congolaise", toc: true },
     congtopo:    { title: "Soninka & Toro · toponymy", sub: "Place-names, Nelôxian | Congolaise", file: "congolaise/toponymy.md", group: "Congolaise" },
