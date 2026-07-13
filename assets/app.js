@@ -350,39 +350,39 @@
     // Plain: one word, no ornament. "Spoon." "Grey."
     plain: function () {
       var w = pick([pick(B.obj), pick(B.nat), pick(B.anim), pick(B.adj)]);
-      return { nx: cap(w[0]), en: cap(w[1]), short: cap(w[0]), tag: "plain" };
+      return { nx: cap(w[0]), en: cap(w[1]), short: cap(w[0]) };
     },
     // Old: the classic origin-descriptor, still on the books.
     old: function () {
       var n = pick(B.nat.concat(B.work)), e = pick(B.evt);
       return { nx: cap(loc(n[0])) + " " + e[0], en: e[1] + " at the " + n[1],
-               short: cap(n[0]), tag: "old form" };
+               short: cap(n[0]) };
     },
     // Image: adjective + noun. Sometimes beautiful, sometimes flat.
     image: function () {
       var a = pick(B.adj), n = pick([pick(B.obj), pick(B.nat), pick(B.anim)]);
       return { nx: cap(a[0]) + " " + cap(n[0]), en: "The " + a[1] + " " + n[1],
-               short: cap(n[0]), tag: "" };
+               short: cap(n[0]) };
     },
     // Pair: two nouns joined with ja "and". Reads old or reads random.
     pair: function () {
       var a = pick(B.nat.concat(B.obj)), b = pick(B.nat.concat(B.emo));
       if (a[0] === b[0]) b = pick(B.emo);
       return { nx: cap(a[0]) + " ja " + cap(b[0]), en: cap(a[1]) + " and " + b[1],
-               short: cap(a[0]), tag: "" };
+               short: cap(a[0]) };
     },
     // Praise: an abstract lifted whole. "Great Joy." "Full Calm."
     praise: function () {
       var a = pick([["sūr","great"],["nīrô","bright"],["tǟs","full"],["vaik","still"],["jôvā","good"]]);
       var n = pick(B.emo);
       return { nx: cap(a[0]) + " " + cap(n[0]), en: cap(a[1]) + " " + n[1],
-               short: cap(n[0]), tag: "praise" };
+               short: cap(n[0]) };
     },
     // Protection: something guards someone. Chosen at hard births.
     guard: function () {
       var n = pick(B.nat), k = pick(B.kin);
       return { nx: cap(n[0]) + " valvā se " + k[0], en: "The " + n[1] + " guards the " + k[1],
-               short: "Valvā " + cap(n[0]), tag: "protection" };
+               short: "Valvā " + cap(n[0]) };
     },
     // Story: a clause the family kept. Overlong on purpose.
     story: function () {
@@ -390,48 +390,48 @@
       var v = pick([["kaotā","lost"],["leidā","found"],["unôstā","forgot"],["parandā","mended"],["kandā","carried"]]);
       return { nx: "Se " + k[0] + ", ken " + v[0] + " se " + o[0] + " " + loc(d[0]),
                en: "The " + k[1] + " who " + v[1] + " the " + o[1] + " on a " + d[1],
-               short: cap(o[0]), tag: "family story" };
+               short: cap(o[0]) };
     },
     // Event: weather pinned to a day. Sincere or trivial; no way to tell.
     event: function () {
       var n = pick(B.nat), d = pick(B.day);
       return { nx: cap(n[0]) + " " + loc(d[0]), en: cap(n[1]) + " on a " + d[1],
-               short: cap(n[0]), tag: "" };
+               short: cap(n[0]) };
     },
     // Opaque: two words that share no obvious sense. The family knows.
     opaque: function () {
       var a = pick(B.obj.concat(B.anim)), b = pick(B.day.concat(B.emo).concat(B.work));
       if (a[0] === b[0]) b = pick(B.day);
       return { nx: cap(b[0]) + "-" + a[0], en: cap(b[1]) + " " + a[1],
-               short: cap(a[0]), tag: "opaque — the family knows" };
+               short: cap(a[0]) };
     },
     // Clerk: a registry artifact that hardened into a name.
     clerk: function () {
       var c = pick(B.civic), n1 = pick(B.num), n2 = pick(B.num);
       var withCode = Math.random() < 0.6;
       if (withCode) return { nx: cap(c[0]) + " " + n1[0] + "-" + n2[0],
-        en: cap(c[1]) + " " + n1[1] + "-" + n2[1], short: cap(c[0]), tag: "clerical" };
+        en: cap(c[1]) + " " + n1[1] + "-" + n2[1], short: cap(c[0]) };
       var a = pick(B.adj);
       return { nx: cap(a[0]) + " " + c[0], en: "The " + a[1] + " " + c[1] + ", as filed",
-               short: cap(c[0]), tag: "clerical" };
+               short: cap(c[0]) };
     },
     // Grievance: a complaint or a refusal, registered forever.
     spite: function () {
       var pickFrom = Math.random() < 0.5;
       if (pickFrom) {
         var o = pick(B.obj);
-        return { nx: "Äb se " + o[0], en: "Not the " + o[1], short: cap(o[0]), tag: "grievance" };
+        return { nx: "Äb se " + o[0], en: "Not the " + o[1], short: cap(o[0]) };
       }
       var k = pick(B.kin), e = pick([["mentīd","lie"],["skuld","debt"],["tōl","toll"]]);
       return { nx: "Se " + k[0] + " " + e[0], en: "The " + k[1] + "'s " + e[1],
-               short: cap(e[0]), tag: "grievance" };
+               short: cap(e[0]) };
     },
     // Memory: someone stayed somewhere, or something is still owed.
     memory: function () {
       var k = pick(B.kin), n = pick(B.nat.concat(B.work));
       return { nx: "Se " + k[0] + ", ken jǟmä " + loc(n[0]),
                en: "The " + k[1] + " who stayed at the " + n[1],
-               short: cap(n[0]), tag: "memory" };
+               short: cap(n[0]) };
     },
     // Contradiction: it cannot be both. It is both.
     contra: function () {
@@ -439,13 +439,13 @@
       var p = pick(pairs), n = pick(B.obj.concat(B.nat));
       return { nx: cap(p[0][0]) + " " + p[1][0] + " " + n[0],
                en: "The " + p[0][1] + " " + p[1][1] + " " + n[1],
-               short: cap(n[0]), tag: "" };
+               short: cap(n[0]) };
     },
     // Luck at work: the one good day that named a child.
     luck: function () {
       var w = pick(B.work);
       return { nx: cap(w[0]) + " tǟs", en: "The " + w[1] + " came in full",
-               short: cap(w[0]), tag: "luck" };
+               short: cap(w[0]) };
     }
   };
   // Tone groups for the picker. "any" samples the lot.
@@ -469,8 +469,7 @@
     return {
       full:  m.nx + " — " + given + " " + family,
       short: m.short + " " + given + " " + family,
-      gloss: m.en,
-      mix:   m.tag || null
+      gloss: m.en
     };
   }
 
@@ -505,9 +504,7 @@
           '<div class="ng-full">' + escapeHtml(n.full) + "</div>" +
           '<div class="ng-label">Short civic name</div>' +
           '<div class="ng-short">' + escapeHtml(n.short) + "</div>" +
-          '<div class="ng-gloss">&ldquo;' + escapeHtml(n.gloss) + '&rdquo;' +
-          (n.mix ? ' <span class="ng-mix">· ' + escapeHtml(n.mix) + "</span>" : "") +
-          "</div>" +
+          '<div class="ng-gloss">&ldquo;' + escapeHtml(n.gloss) + '&rdquo;</div>' +
           "</div>";
       }
       results.innerHTML = frag;

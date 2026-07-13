@@ -287,7 +287,6 @@ mark { background: var(--mark); color: var(--on-gold); border-radius: 3px; paddi
 .ng-full { font-family: var(--serif); font-size: 19px; font-weight: 600; line-height: 1.3; }
 .ng-short { margin-top: 6px; font-family: var(--serif); font-size: 15px; color: var(--accent); }
 .ng-gloss { margin-top: 8px; font-size: 13.5px; color: var(--ink-soft); font-style: italic; }
-.ng-mix { font-style: normal; }
 
 /* Home / hero */
 .hero { text-align: center; padding: 20px 0 8px; }
