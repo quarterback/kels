@@ -18,7 +18,8 @@ Nelôxi becomes pluricentric through use. The coursebook standard and Saharannai
 [`saharannaise.md`](saharannaise.md); the shared grammatical-and-orthographic spine in
 [`COMMON-REGISTER.md`](COMMON-REGISTER.md); the federated roll-up of both dictionaries in
 [`VOC.md`](VOC.md); the vocabulary itself in the Domain [B](lexicon-B-terrain-water-weather-livestock.md) /
-[C](lexicon-C-food-kin-market-day.md) / [A](lexicon-A-admin-maritime.md) batches; asymmetric
+[C](lexicon-C-food-kin-market-day.md) / [A](lexicon-A-admin-maritime.md) /
+[D](lexicon-D-shelter-dress-heat.md) batches; asymmetric
 intelligibility shown line by line in [`showcase-asymmetry.md`](showcase-asymmetry.md); and the
 place-names and the polity's own name in [`toponymy.md`](toponymy.md). The Metropolitan archive
 this essay sets Saharannaise beside is the coursebook (`../coursebook/`), which this section
