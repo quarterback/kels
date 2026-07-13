@@ -333,8 +333,55 @@
       slavic:    ["Kova", "Volk", "Lis", "Grod", "Lid", "Volkov", "Beogrôd", "Skôpi", "Saraj"],
       romance:   ["Ponte", "Ros", "Cort", "Mar", "Pedr", "Angra", "Roch", "Ilh"],
       place:     ["Stet", "Rosēn", "Grīp", "Grāts", "Laib", "Prag", "Vīn", "Brand", "Triest", "Kors", "Kotôr", "Dürôs", "Split", "Ragūz", "Filipôl", "Sofi", "Odes", "Kônstanç", "Atlant", "Trist"]
+    },
+    // Landscape / civic features for the regional origin-descriptor (the
+    // classic stratum). Canon name senses only (mer, not merd; kājô, not lōd).
+    features: {
+      rand:  { loc: "rāndôl",   anchor: "Rānd",   gloss: "shore" },
+      laht:  { loc: "lahtôl",   anchor: "Laht",   gloss: "bay" },
+      mer:   { loc: "merôl",    anchor: "Mer",    gloss: "sea" },
+      jog:   { loc: "jôgôl",    anchor: "Jôg",    gloss: "river" },
+      jarv:  { loc: "jǟrvôl",   anchor: "Jǟrv",   gloss: "lake" },
+      sar:   { loc: "sārôl",    anchor: "Sār",    gloss: "island" },
+      satam: { loc: "satâmôl",  anchor: "Satām",  gloss: "harbor" },
+      kaj:   { loc: "kājôl",    anchor: "Kājô",   gloss: "quay" },
+      pont:  { loc: "pontôl",   anchor: "Pont",   gloss: "bridge" },
+      torn:  { loc: "tornôl",   anchor: "Torn",   gloss: "tower" },
+      borg:  { loc: "bôrkôl",   anchor: "Bôrk",   gloss: "fortress" },
+      kirik: { loc: "kirīkôl",  anchor: "Kirīk",  gloss: "church" },
+      pold:  { loc: "põldôl",   anchor: "Põld",   gloss: "field" },
+      mets:  { loc: "meçāl",    anchor: "Meçā",   gloss: "forest" },
+      org:   { loc: "orgôl",    anchor: "Org",    gloss: "valley" },
+      munt:  { loc: "muntāñôl", anchor: "Munt",   gloss: "mountain" },
+      turg:  { loc: "turgôl",   anchor: "Turg",   gloss: "market" },
+      kami:  { loc: "kamīl",    anchor: "Kamī",   gloss: "road" },
+      port:  { loc: "portôl",   anchor: "Port",   gloss: "port" },
+      kot:   { loc: "kōtôl",    anchor: "Kōt",    gloss: "house" },
+      bir:   { loc: "bīrôs",    anchor: "Bīr",    gloss: "well" },
+      kupsam:{ loc: "küpsāmôl", anchor: "Küpsām", gloss: "bakery" }
     }
   };
+  // Regions: places that lead the classic descriptor, the features that fit
+  // the terrain, and which given/family pools the region's people draw from.
+  NAMEGEN.regions = [
+    { key: "maritime",  name: "Maritime Core",        places: ["Jorg", "Salac", "Muhu", "Vīp", "Rīk", "Andres"],        feats: ["rand", "laht", "sar", "jog", "kot", "mer"],          given: ["livonian", "lowgerman"], family: ["maritime"] },
+    { key: "prussian",  name: "Prussian Anchor",      places: ["Kunix", "Pill", "Rausch", "Fisch", "Grīs"],             feats: ["borg", "torn", "mer", "satam", "kirik"],            given: ["lowgerman", "livonian"], family: ["lowgerman"] },
+    { key: "vistula",   name: "Vistula Delta",        places: ["Tant", "Elb", "Marian", "Puk", "Stet"],                 feats: ["pont", "kaj", "laht", "rand", "satam"],             given: ["slavic", "romance", "livonian"], family: ["slavic", "lowgerman"] },
+    { key: "inland",    name: "Baltic Inland",        places: ["Mitau", "Gauj", "Vend", "Tils", "Gold"],                feats: ["pold", "org", "mets", "jarv", "jog"],               given: ["livonian"], family: ["maritime"] },
+    { key: "curonian",  name: "Curonian Land Bridge", places: ["Mēm", "Xaul", "Neik", "Rosēn", "Keid"],                 feats: ["sar", "turg", "kaj", "satam", "pont"],              given: ["livonian"], family: ["maritime"] },
+    { key: "slavfront", name: "Slavic Frontier",      places: ["Grod", "Lid", "Volk", "Marīsô", "Kova"],                feats: ["turg", "mer", "mets", "satam", "kot"],              given: ["slavic", "romance"], family: ["slavic"] },
+    { key: "karelia",   name: "Karelia",              places: ["Vīp", "Petr", "Sôrt", "Korb", "Järv"],                  feats: ["jarv", "mets", "jog", "laht", "mer"],               given: ["livonian", "slavic"], family: ["maritime", "slavic"] },
+    { key: "westrim",   name: "Western Baltic Rim",   places: ["Rostok", "Vism", "Strāl", "Grīp", "Stet"],              feats: ["kaj", "laht", "torn", "rand", "pont"],              given: ["lowgerman"], family: ["lowgerman"] },
+    { key: "amber",     name: "Amber Road Corridor",  places: ["Brand", "Prag", "Brün", "Vīn", "Grāts", "Laib"],        feats: ["pont", "kami", "turg", "kirik", "munt", "org"],      given: ["romance", "lowgerman"], family: ["romance", "slavic"] },
+    { key: "adriatic",  name: "Adriatic Terminals",   places: ["Triest", "Krk", "Cort", "Ponte", "Ros"],                feats: ["satam", "kirik", "laht", "kot", "port"],            given: ["romance"], family: ["romance"] },
+    { key: "corsica",   name: "Corsican Relay",       places: ["Kors", "Torr", "Mar", "Cort", "Bast"],                  feats: ["torn", "mer", "kirik", "port", "kaj"],              given: ["romance"], family: ["romance"] },
+    { key: "dalmatia",  name: "Dalmatian Coast",      places: ["Split", "Ragūz", "Kotôr", "Dürôs", "Shib"],             feats: ["mer", "pont", "laht", "satam", "kaj"],              given: ["slavic", "romance"], family: ["romance", "slavic"] },
+    { key: "balkan",    name: "Balkan Interior",      places: ["Saraj", "Beogrôd", "Skôpi", "Prixtīn", "Most"],         feats: ["pont", "jog", "kami", "org", "kot"],                given: ["slavic"], family: ["slavic"] },
+    { key: "thrace",    name: "Thracian & Aegean",    places: ["Sofi", "Filipôl", "Balk", "Mar", "Aeg"],                feats: ["munt", "org", "mer", "laht", "kami"],               given: ["romance", "slavic"], family: ["place"] },
+    { key: "blacksea",  name: "Black Sea Littoral",   places: ["Kônstanç", "Odes", "Pont", "Dun", "Mar"],               feats: ["jog", "kaj", "mer", "satam", "laht"],               given: ["romance", "slavic"], family: ["place", "slavic"] },
+    { key: "saharan",   name: "Saharan Diaspora (Atlanta)", places: ["Atlant", "Sahar", "Tīr", "Oasi", "Mer", "Mel"],   feats: ["port", "bir", "kaj", "org", "satam"],               given: ["saharan"], family: ["place"] },
+    { key: "tristense", name: "Tristense Diaspora",   places: ["Trist", "Ilh", "Pedr", "Angra", "Roch", "Mar"],         feats: ["sar", "rand", "laht", "mer", "port"],               given: ["romance"], family: ["romance"] }
+  ];
   function pick(arr) { return arr[Math.floor(Math.random() * arr.length)]; }
   function cap(s) { return s.charAt(0).toUpperCase() + s.slice(1); }
   // Naive locative: vowel-final words take -l (kamī → kamīl, klokkô → klokkôl),
@@ -350,39 +397,39 @@
     // Plain: one word, no ornament. "Spoon." "Grey."
     plain: function () {
       var w = pick([pick(B.obj), pick(B.nat), pick(B.anim), pick(B.adj)]);
-      return { nx: cap(w[0]), en: cap(w[1]), short: cap(w[0]), tag: "plain" };
+      return { nx: cap(w[0]), en: cap(w[1]), short: cap(w[0]) };
     },
     // Old: the classic origin-descriptor, still on the books.
     old: function () {
       var n = pick(B.nat.concat(B.work)), e = pick(B.evt);
       return { nx: cap(loc(n[0])) + " " + e[0], en: e[1] + " at the " + n[1],
-               short: cap(n[0]), tag: "old form" };
+               short: cap(n[0]) };
     },
     // Image: adjective + noun. Sometimes beautiful, sometimes flat.
     image: function () {
       var a = pick(B.adj), n = pick([pick(B.obj), pick(B.nat), pick(B.anim)]);
       return { nx: cap(a[0]) + " " + cap(n[0]), en: "The " + a[1] + " " + n[1],
-               short: cap(n[0]), tag: "" };
+               short: cap(n[0]) };
     },
     // Pair: two nouns joined with ja "and". Reads old or reads random.
     pair: function () {
       var a = pick(B.nat.concat(B.obj)), b = pick(B.nat.concat(B.emo));
       if (a[0] === b[0]) b = pick(B.emo);
       return { nx: cap(a[0]) + " ja " + cap(b[0]), en: cap(a[1]) + " and " + b[1],
-               short: cap(a[0]), tag: "" };
+               short: cap(a[0]) };
     },
     // Praise: an abstract lifted whole. "Great Joy." "Full Calm."
     praise: function () {
       var a = pick([["sūr","great"],["nīrô","bright"],["tǟs","full"],["vaik","still"],["jôvā","good"]]);
       var n = pick(B.emo);
       return { nx: cap(a[0]) + " " + cap(n[0]), en: cap(a[1]) + " " + n[1],
-               short: cap(n[0]), tag: "praise" };
+               short: cap(n[0]) };
     },
     // Protection: something guards someone. Chosen at hard births.
     guard: function () {
       var n = pick(B.nat), k = pick(B.kin);
       return { nx: cap(n[0]) + " valvā se " + k[0], en: "The " + n[1] + " guards the " + k[1],
-               short: "Valvā " + cap(n[0]), tag: "protection" };
+               short: "Valvā " + cap(n[0]) };
     },
     // Story: a clause the family kept. Overlong on purpose.
     story: function () {
@@ -390,48 +437,48 @@
       var v = pick([["kaotā","lost"],["leidā","found"],["unôstā","forgot"],["parandā","mended"],["kandā","carried"]]);
       return { nx: "Se " + k[0] + ", ken " + v[0] + " se " + o[0] + " " + loc(d[0]),
                en: "The " + k[1] + " who " + v[1] + " the " + o[1] + " on a " + d[1],
-               short: cap(o[0]), tag: "family story" };
+               short: cap(o[0]) };
     },
     // Event: weather pinned to a day. Sincere or trivial; no way to tell.
     event: function () {
       var n = pick(B.nat), d = pick(B.day);
       return { nx: cap(n[0]) + " " + loc(d[0]), en: cap(n[1]) + " on a " + d[1],
-               short: cap(n[0]), tag: "" };
+               short: cap(n[0]) };
     },
     // Opaque: two words that share no obvious sense. The family knows.
     opaque: function () {
       var a = pick(B.obj.concat(B.anim)), b = pick(B.day.concat(B.emo).concat(B.work));
       if (a[0] === b[0]) b = pick(B.day);
       return { nx: cap(b[0]) + "-" + a[0], en: cap(b[1]) + " " + a[1],
-               short: cap(a[0]), tag: "opaque — the family knows" };
+               short: cap(a[0]) };
     },
     // Clerk: a registry artifact that hardened into a name.
     clerk: function () {
       var c = pick(B.civic), n1 = pick(B.num), n2 = pick(B.num);
       var withCode = Math.random() < 0.6;
       if (withCode) return { nx: cap(c[0]) + " " + n1[0] + "-" + n2[0],
-        en: cap(c[1]) + " " + n1[1] + "-" + n2[1], short: cap(c[0]), tag: "clerical" };
+        en: cap(c[1]) + " " + n1[1] + "-" + n2[1], short: cap(c[0]) };
       var a = pick(B.adj);
       return { nx: cap(a[0]) + " " + c[0], en: "The " + a[1] + " " + c[1] + ", as filed",
-               short: cap(c[0]), tag: "clerical" };
+               short: cap(c[0]) };
     },
     // Grievance: a complaint or a refusal, registered forever.
     spite: function () {
       var pickFrom = Math.random() < 0.5;
       if (pickFrom) {
         var o = pick(B.obj);
-        return { nx: "Äb se " + o[0], en: "Not the " + o[1], short: cap(o[0]), tag: "grievance" };
+        return { nx: "Äb se " + o[0], en: "Not the " + o[1], short: cap(o[0]) };
       }
       var k = pick(B.kin), e = pick([["mentīd","lie"],["skuld","debt"],["tōl","toll"]]);
       return { nx: "Se " + k[0] + " " + e[0], en: "The " + k[1] + "'s " + e[1],
-               short: cap(e[0]), tag: "grievance" };
+               short: cap(e[0]) };
     },
     // Memory: someone stayed somewhere, or something is still owed.
     memory: function () {
       var k = pick(B.kin), n = pick(B.nat.concat(B.work));
       return { nx: "Se " + k[0] + ", ken jǟmä " + loc(n[0]),
                en: "The " + k[1] + " who stayed at the " + n[1],
-               short: cap(n[0]), tag: "memory" };
+               short: cap(n[0]) };
     },
     // Contradiction: it cannot be both. It is both.
     contra: function () {
@@ -439,19 +486,21 @@
       var p = pick(pairs), n = pick(B.obj.concat(B.nat));
       return { nx: cap(p[0][0]) + " " + p[1][0] + " " + n[0],
                en: "The " + p[0][1] + " " + p[1][1] + " " + n[1],
-               short: cap(n[0]), tag: "" };
+               short: cap(n[0]) };
     },
     // Luck at work: the one good day that named a child.
     luck: function () {
       var w = pick(B.work);
       return { nx: cap(w[0]) + " tǟs", en: "The " + w[1] + " came in full",
-               short: cap(w[0]), tag: "luck" };
+               short: cap(w[0]) };
     }
   };
-  // Tone groups for the picker. "any" samples the lot.
+  // Tone groups for the picker. "any" samples the lot; "regional" is the
+  // classic origin-descriptor built from the chosen region's places/features.
   NAMEGEN.tones = [
     { key: "any",    name: "Any register",        shapes: null },
-    { key: "old",    name: "Old forms",            shapes: ["old", "pair", "guard"] },
+    { key: "region", name: "Origin descriptors",   shapes: ["regional"] },
+    { key: "old",    name: "Old forms",            shapes: ["regional", "old", "pair", "guard"] },
     { key: "plain",  name: "Plain",                shapes: ["plain", "image", "event"] },
     { key: "story",  name: "Family stories",       shapes: ["story", "memory", "luck"] },
     { key: "joke",   name: "Jokes & opaque",       shapes: ["opaque", "contra", "spite"] },
@@ -459,22 +508,61 @@
     { key: "grand",  name: "Praise & protection",  shapes: ["praise", "guard", "image"] }
   ];
 
-  function makeName(toneKey) {
+  // The classic stratum: [place] [feature-locative] [eventive participle].
+  function makeRegional(region) {
+    var place = pick(region.places);
+    var feat = NAMEGEN.features[pick(region.feats)];
+    var p = pick([["syndänü","born"],["kasvanü","raised"],["ärkänü","awakened"],["kirjôtū","written"]]);
+    return { nx: place + " " + feat.loc + " " + p[0],
+             en: p[1] + " at the " + place + " " + feat.gloss,
+             short: feat.anchor };
+  }
+
+  function poolNames(map, keys) {
+    var out = [];
+    keys.forEach(function (k) { out = out.concat(map[k]); });
+    return out;
+  }
+
+  // regionVal: "__any" | "__creole" | a region key. toneKey: a tones key.
+  function makeName(regionVal, toneKey) {
+    var region = null;
+    if (regionVal !== "__any" && regionVal !== "__creole") {
+      for (var i = 0; i < NAMEGEN.regions.length; i++) if (NAMEGEN.regions[i].key === regionVal) region = NAMEGEN.regions[i];
+    }
+    if (!region) region = pick(NAMEGEN.regions);
+
     var tone = null;
-    for (var i = 0; i < NAMEGEN.tones.length; i++) if (NAMEGEN.tones[i].key === toneKey) tone = NAMEGEN.tones[i];
-    var keys = (tone && tone.shapes) ? tone.shapes : Object.keys(NAMEGEN.shapes);
-    var m = NAMEGEN.shapes[pick(keys)]();
-    var given = pick(NAMEGEN.given[pick(Object.keys(NAMEGEN.given))]);
-    var family = pick(NAMEGEN.family[pick(Object.keys(NAMEGEN.family))]);
+    for (var j = 0; j < NAMEGEN.tones.length; j++) if (NAMEGEN.tones[j].key === toneKey) tone = NAMEGEN.tones[j];
+    var keys = (tone && tone.shapes) ? tone.shapes
+      : Object.keys(NAMEGEN.shapes).concat(["regional", "regional", "regional"]);
+    var key = pick(keys);
+    var m = key === "regional" ? makeRegional(region) : NAMEGEN.shapes[key]();
+
+    // Given/family follow the region's pools; creole (or a slice of "any
+    // region") crosses the quarries, as mixed families do.
+    var creole = regionVal === "__creole" || (regionVal === "__any" && Math.random() < 0.2);
+    var given, family;
+    if (creole) {
+      given = pick(NAMEGEN.given[pick(Object.keys(NAMEGEN.given))]);
+      family = pick(NAMEGEN.family[pick(Object.keys(NAMEGEN.family))]);
+    } else {
+      given = pick(poolNames(NAMEGEN.given, region.given));
+      family = pick(poolNames(NAMEGEN.family, region.family));
+    }
     return {
       full:  m.nx + " — " + given + " " + family,
       short: m.short + " " + given + " " + family,
-      gloss: m.en,
-      mix:   m.tag || null
+      gloss: m.en
     };
   }
 
   function renderNameGenerator() {
+    var regionOptions = '<option value="__any">Any region</option>' +
+      '<option value="__creole">Creole / mixed</option>';
+    NAMEGEN.regions.forEach(function (r) {
+      regionOptions += '<option value="' + r.key + '">' + escapeHtml(r.name) + "</option>";
+    });
     var toneOptions = "";
     NAMEGEN.tones.forEach(function (t) {
       toneOptions += '<option value="' + t.key + '">' + escapeHtml(t.name) + "</option>";
@@ -483,31 +571,31 @@
     content.innerHTML =
       '<div class="dict-head"><h1>Civil-name generator</h1></div>' +
       '<p style="color:var(--ink-soft);margin:.2em 0 0;font-family:var(--sans);font-size:15px">' +
-      'Modern civil meaning-names: a registered name chosen because it matters to the family — ' +
-      'it does not have to explain itself. The short civic form keeps whatever would stick in ' +
-      'public memory. See <a href="#/names">Civil names</a> for the system.</p>' +
+      'Civil meaning-names by region — from classic origin descriptors to names that matter only ' +
+      'to the family. The short civic form keeps whatever would stick in public memory. ' +
+      'See <a href="#/names">Civil names</a> for the system.</p>' +
       '<div class="ng-controls">' +
+      '<select id="ng-region" aria-label="Region">' + regionOptions + "</select>" +
       '<select id="ng-tone" aria-label="Register">' + toneOptions + "</select>" +
       '<button id="ng-go" class="ng-go" type="button">Generate names</button>' +
       "</div>" +
       '<div id="ng-results" class="ng-results" aria-live="polite"></div>';
 
+    var regionSel = document.getElementById("ng-region");
     var toneSel = document.getElementById("ng-tone");
     var results = document.getElementById("ng-results");
 
     function draw() {
       var frag = "";
       for (var i = 0; i < 8; i++) {
-        var n = makeName(toneSel.value);
+        var n = makeName(regionSel.value, toneSel.value);
         frag +=
           '<div class="ng-card">' +
           '<div class="ng-label">Full civil name</div>' +
           '<div class="ng-full">' + escapeHtml(n.full) + "</div>" +
           '<div class="ng-label">Short civic name</div>' +
           '<div class="ng-short">' + escapeHtml(n.short) + "</div>" +
-          '<div class="ng-gloss">&ldquo;' + escapeHtml(n.gloss) + '&rdquo;' +
-          (n.mix ? ' <span class="ng-mix">· ' + escapeHtml(n.mix) + "</span>" : "") +
-          "</div>" +
+          '<div class="ng-gloss">&ldquo;' + escapeHtml(n.gloss) + '&rdquo;</div>' +
           "</div>";
       }
       results.innerHTML = frag;
