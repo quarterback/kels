@@ -63,15 +63,24 @@ three unrelated language families:
   Atlanta and Adrāra. Institution: the Kēļs Dīwān. Diverges bottom-up by population.
 - **Congolaise** — rerooted into Pulaar/Soninke/Wolof (**Niger-Congo**). Covers Soninka & Toro.
   Its own standard, adding a distinct third flavor of Nelôxi — the grammar carrying a Niger-Congo
-  lexicon, a family unrelated to any quarry or to Saharannaise's Afro-Asiatic base. Needs its own
-  lexicon corpus and academy (parallel to Kēļs Kolēgi / Kēļs Dīwān) — BUILD WORK, handed to a
-  separate agent; not yet begun.
+  lexicon, a family unrelated to any quarry or to Saharannaise's Afro-Asiatic base. **Built** —
+  see `../congolaise/`. Where Saharannaise reroots into one substrate/superstrate pair, Congolaise
+  is a **three-quarry fused creole** governed by its own doctrine, the **Confluence Principle**
+  (Soninke-Mande = classical trade/statecraft; Pulaar = pastoral-domestic core; Wolof =
+  coastal-urban edge), on the invariant Nelôxian spine. Its academy is the **Kēļs Penc** (the
+  Forum of the Language), headed by the **Ardo** (the Warden) — a peer of the Kēļs Kolēgi and the
+  Kēļs Dīwān.
 
 Three peoples who in the real world had nothing to do with each other — Baltic, Saharan Arab-Berber,
 Sahelian Black African — all declining their nouns by the same dead coastal-Finnic grammar. The
 Livonian triumph, three times over.
 
 ## Status / open build-work
-- Congolaise is DEFINED here but NOT BUILT: no lexicon, no academy name, no substrate-priority
-  decision (Pulaar vs. Soninke vs. Wolof as primary) yet. That is a separate build project.
+- Congolaise is now BUILT (`../congolaise/`): the Confluence Principle doctrine + fused phonology,
+  the pluricentric article, three domain lexicon batches (River / Pastoral / Gold-Craft-Griot,
+  ~90 headwords), toponymy for Soninka & Toro, and the three-way showcase. Substrate resolved as a
+  three-tributary fusion (Pulaar core, Soninke-Mande classical, Wolof edge) rather than a single
+  primary; academy named (Kēļs Penc / the Ardo). Open: the founder may still weigh in on the
+  academy name, and the lexicon can grow into further domains (law/admin register, modern civic
+  life, further crops and crafts).
 - Bloc may include other aligned states broadly; only these four are developed.

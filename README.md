@@ -25,7 +25,9 @@ college/CREOLE-PRINCIPLE.md         ← THE standing vocabulary doctrine (§79):
 college/FUNCTION-WORDS.md           ← high-frequency glue already in canon (anti-leak cheat-sheet)
 college/*-BRIEF.md                  ← briefs for the delegate, corpus, and daily-life agents
 bundles/                            ← self-contained agent kits (domain / corpus / grammar / translation)
-world/                              ← the settled world: geography, boundaries, gazetteer, toponymy, exonyms
+saharannaise/                       ← the Atlantic co-standard (Kēļs Dīwān): Hassaniya/Zenaga reroot + COMMON-REGISTER spine
+congolaise/                         ← the Riverine co-standard (Kēļs Penc): Pulaar/Soninke/Wolof fused creole (Confluence Principle)
+world/                              ← the settled world: geography, boundaries, gazetteer, toponymy, exonyms, the African bloc
 reader/                             ← finished corpus texts (recipe, dialogue, register showcase)
 dialects/                           ← regional overlays on the standard (metrolect, inland)
 data/dictionary.tsv                 ← machine-readable headword → gloss (generated)
@@ -56,7 +58,12 @@ Nothing is canon until merged.
 
 Finnic grammar under four-way loan contact: agglutinative cases, vowel harmony, no verb agreement, pre-verbal negation *äb*, a bare-stem imperative and hortative *-m*. Base-12 (dozenal) numbers with Slavic digits, a 24-hour clock, and a Low German merchant calendar. The productive derivational affixes are **-ji, -õr/-ôr, -in, -mus/-mys, -ū, -stā, -ldā, -ām/-äm, -tū/-ty** (plus causative -tā and the comparative -mi). Orthography uses **ô** [ɤ] (not õ, retired v4.0); x = [ʃ], or [ks] in proper nouns (§47). Two dialects: the metroplex metrolect (standard) and the conservative inland.
 
-The language is also **pluricentric**: alongside the Metropolitan standard (the coursebook) stands **Saharannaise** (`saharannaise/`), the co-standard of **Atlanta** — Nelôxia's sovereign sister state on the Atlantic Saharan coast (see `world/atlanta-lore.md`) — which keeps the identical Nelôxi grammar but reroots its domestic lexicon in Hassaniya Arabic and Zenaga Berber. It is self-contained in its own section (own seat, own separately-counted lexicon) and links back to core canon rather than editing it — see `saharannaise/saharannaise.md`.
+The language is also **pluricentric**, across **three seats**. Alongside the Metropolitan standard (the coursebook) stand two co-standards, each keeping the identical Nelôxi grammar and rerooting only its domestic lexicon, each self-contained (own seat, own separately-counted lexicon) and linking back to core canon rather than editing it:
+
+- **Saharannaise** (`saharannaise/`) — the co-standard of **Atlanta**, Nelôxia's sovereign sister state on the Atlantic Saharan coast (see `world/atlanta-lore.md`), rerooted in Hassaniya Arabic and Zenaga Berber (Afro-Asiatic). Seat: the **Kēļs Dīwān**, headed by the **Amīn**. See `saharannaise/saharannaise.md`.
+- **Congolaise** (`congolaise/`) — the co-standard of **Soninka & Toro**, the Senegal-River / Sahel state of the African bloc (see `world/african-bloc.md`), rerooted in Pulaar, Soninke-Mande, and Wolof (Niger-Congo). Where Saharannaise reroots into one substrate, Congolaise is a **three-tributary fused creole** governed by its own doctrine, the **Confluence Principle**. Seat: the **Kēļs Penc**, headed by the **Ardo**. See `congolaise/congolaise.md`.
+
+One grammar, one orthographic agreement (`saharannaise/COMMON-REGISTER.md`), three divergent dictionaries — the Lisbon / Brasília / Luanda settlement of this language.
 
 ## Register
 
