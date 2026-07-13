@@ -38,7 +38,7 @@ and nothing beyond it:
 | **ô / ā flattening** | Vowels flatten to forward-stressed **ô** or long **ā**; *â/î/û → ā/ī/ū* or *ô* (mainland §63) | both, dominant in Saharannaise |
 | **Final -a compression** | Hassaniya final *-a* drops or compresses to zero (*ḥamāda → xamād*, *nāga → nāg*) | Saharannaise |
 | **Article agglutination** | Arabic *al-/el-* welds as a fixed prefix (*al-ʿuyūn → lāyūn*); Zenaga *a-* agglutinates (early) or drops (late) | Saharannaise |
-| **ʿayn elision** | Arabic *ʿayn* (ʿ) is not written; it drops, coloring/lengthening the adjacent vowel (*ʿerg → erg*, *lḥam → lxam*, *ʿaṭsh → aṭx*) | Saharannaise |
+| **ʿayn elision** | Arabic *ʿayn* (ʿ) drops **before a full vowel**, coloring/lengthening it (*ʿerg → erg*, *ʿaṭsh → aṭx*). **Retained before a glide**: when a short high vowel syncopates and brings ʿayn against *y/w*, it holds (*al-ʿuyūn → ʿyūn → **Ləʿyūn***). | Saharannaise |
 | **§47 friction** | The back-fricative set **ḥ, š, kh** all → **x** ([ks] formal, [ʃ] in *š*-speech): *ḥamāda → xamād*, *šarg → xarg*, *khū → xū* | shared rule, heavy use in Saharannaise |
 | **Qaf → g** | Hassaniya uvular *q* [g] is written **g** (*sūq → sūg*, *qamar → gamar*, *qāfila → gāfila*) | Saharannaise |
 | **Emphatic scars** | The full emphatic series **ṭ ṣ ḍ ẓ** preserved, never mapped | Saharannaise |
