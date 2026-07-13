@@ -68,7 +68,7 @@ At a fencing tournament, on the back of the jacket:
 
 | Real place | Nelôxian (Romance-learned) | Saharannaise (Arabic/Berber) | Sense · roots |
 |:---|:---|:---|:---|
-| El Aaiún *(capital)* | **Fôntāna** | **Lāyūna** | "the springs" · Rom. *fontāna* / Hass. *al-ʿuyūn* (**lāyūn**, Batch 1). Seat of the **Kēļs Dīwān**. |
+| El Aaiún *(capital)* | **Fôntāna** | **Ləʿyūn** | "the springs" · Rom. *fontāna* / Hass. *al-ʿuyūn*. ʿayn **retained before the glide**: the short high vowel syncopates (*ʿuyūn → ʿyūn*), landing ʿayn against *y*, where it holds (§2). Beside the frozen common noun **lāyūn** "spring" (Batch 1). Seat of the **Kēļs Dīwān**. |
 | Río de Oro *(south region)* | **Kuldjôg** | **Wād-Ḍahab** | "gold river/valley" · *kuld*+*jôg* (canon) / Hass. *wādī ḏahab* (ḏ→ḍ). *Spanish erased.* |
 | Saguia el-Hamra *(north region)* | **Pūnkanā** | **Sāgī əl-Xamrā** | "the red watercourse" · *pūn*+*kanā* (canon) / Hass. *sāqiya al-ḥamrā* (**sāgī**, Batch 1; ḥ→x). |
 | Cape Bojador | **Nēm Buždūr** | **Rās Buždūr** | "cape" · native *nēm* / Hass. *raʾs*; *j→ž*. |
