@@ -91,7 +91,7 @@
     bnd_corpus:  { title: "Corpus agent kit",  sub: "For writing genre texts",      file: "bundles/BUNDLE-corpus-agent.md",   group: "Bundles", toc: true }
   };
 
-  var GROUP_ORDER = ["Learn", "Grammar", "Reference", "Reader", "World", "Dialects", "Saharannaise", "College", "Briefs", "Bundles"];
+  var GROUP_ORDER = ["Learn", "Grammar", "Reference", "Reader", "World", "Dialects", "Saharannaise", "Congolaise", "College", "Briefs", "Bundles"];
 
   var content = document.getElementById("content");
   var sidebar = document.getElementById("sidebar");
