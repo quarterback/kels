@@ -46,6 +46,7 @@
     congR:       { title: "Domain R lexicon",  sub: "River·floodplain·fields·fishing", file: "congolaise/lexicon-R-river-floodplain-agriculture.md", group: "Congolaise" },
     congP:       { title: "Domain P lexicon",  sub: "Cattle·kin·body·the seasons",   file: "congolaise/lexicon-P-pastoral-cattle-kin-body-weather.md", group: "Congolaise" },
     congG:       { title: "Domain G lexicon",  sub: "Gold·trade·craft·griot·hospitality", file: "congolaise/lexicon-G-gold-trade-craft-griot-hospitality.md", group: "Congolaise" },
+    congphrase:  { title: "Traveler's phrasebook", sub: "Greetings, hospitality, market, road", file: "congolaise/phrasebook.md",     group: "Congolaise", toc: true },
     congcompose: { title: "Congolaise composition", sub: "How to write connected prose", file: "congolaise/composition.md",         group: "Congolaise" },
     congflood:   { title: "The River & the Floodplain", sub: "River narrative (corpus text)", file: "congolaise/reader-flood.md",   group: "Congolaise" },
     congshowcase:{ title: "Showcase · trilect", sub: "One scene, three standards",    file: "congolaise/showcase-trilect.md",   group: "Congolaise" },
