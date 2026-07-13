@@ -26,6 +26,15 @@ items = sorted(entries.items(), key=lambda kv: kv[0].lower())
 # 2. No gloss may cite Estonian or Finnish as a source — the base is Livonian/Karelian,
 #    and "(Estonian X)" in an etymology is the tell that a coinage reached the wrong way.
 # 3. "Finnic" is retired as a stratum label (§113) — the native pole is tagged (Livonian).
+# NOTE — peer-standard scars are OUT OF SCOPE here, and legal in their own namespaces. This
+# gate reads only the coursebook (Metropolitan canon); it never touches the Saharannaise or
+# Congolaise lexicons, which live under saharannaise/ and congolaise/ and are counted on their
+# own terms. Their stratum graphemes are sanctioned by their own orthographic agreements, NOT
+# retired: Saharannaise ə ž ġ ṭ ṣ ḍ ẓ (COMMON-REGISTER §2), Congolaise ɓ ɗ ŋ + shared ə
+# (CONFLUENCE-PRINCIPLE §2). None of these is in RETIRED, so even a stray peer-standard form in
+# the coursebook would not false-positive; the real guarantee is that peer scars are legal by
+# design and must never be "sanded" to plain letters (ɓiɗo→biɗo, žəml→zeml) on the theory that
+# they are drift. They are the opposite of drift — they are the fingerprint of the stratum.
 legacy_path = root / 'data' / 'legacy-orthography.txt'
 legacy = set(legacy_path.read_text().split()) if legacy_path.exists() else set()
 RETIRED = set('õêîûâšč')
