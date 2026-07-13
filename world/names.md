@@ -61,6 +61,37 @@ verify it, it caught liars. In the local tongue it may be a long, creative phras
 renders it in real Nelôxi (with case and the eventive participle — *kasvanü* "grown," *syndänü*
 "born," *ärkänü* "awakened," *kirjôtū* "written"), and the short civic form clips it to the key word.
 
+## Modern practice — the meaning-name
+
+The origin descriptor is the classic stratum, and old families still register in it. But once the
+registry stopped *verifying* descriptors (they had long since stopped catching liars), the field
+drifted into what it is today: a **registered meaning-name**, chosen because it matters to the
+family or the bearer. It does not have to describe birth, place, origin, lineage, virtue, or
+destiny. It can — but it can as easily come from private memory, humor, grief, weather, a household
+object, a family argument, a clerical accident, a dream, an embarrassment, a devotion, a spite, a
+stroke of luck at work, or a phrase that only makes sense inside one kitchen.
+
+The long form may be a sentence, fragment, image, title, joke, blessing, complaint, memory, object,
+contradiction, or absurd civic artifact. The registry's only tests are the old Nordic ones: it must
+be **usable Nelôxi** and not seriously disadvantage the bearer. The **short civic form** is the
+socially usable compression — it keeps whatever part would stick in public memory, even when the
+full meaning is opaque to everyone outside the family:
+
+| Registered meaning-name | Sense | Short civic form |
+|:---|:---|:---|
+| *Sōla ja Tūļ* | Salt and Wind | **Sōla** |
+| *Se vanamǟr, ken kaotā se vôtī frīdagôl* | the grandmother who lost the key on a Friday | **Vôtī** |
+| *Äb se skuld* | Not the debt (registered in the middle of an inheritance fight) | **Skuld** |
+| *Aktô tri-sedôm* | File 3-7 (the clerk's placeholder was never amended) | **Aktô** |
+| *Nēu valvā se tytār* | The snow guards the daughter | **Valvā Nēu** |
+| *Kesknahtô-lepôl* | Midnight Spoon (nobody outside the family knows) | **Lepôl** |
+| *Vôrk tǟs* | The nets came in full | **Vôrk** |
+| *Klokkô* | Bell | **Klokkô** |
+
+The result is a legal field that modern families treat as a civic art: sometimes sincere, sometimes
+absurd, sometimes grand, sometimes petty — and often impossible to decode from the outside, which
+is understood to be part of the point.
+
 ## Example set
 
 | Local name | Full Nelôxian civil name | Short civic form | Sense |

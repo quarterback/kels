@@ -527,8 +527,14 @@ words — so it must use the **name sense, not a homophone**: in a civil name *m
 the vulgar *merd*; the quay is *kājô*, not the sounding-lead *lōd*; the bridge is *pont*, not the
 silk *sild*. A name that means "raised by the sea" must read *merôl kasvanü*.
 
-The generator on the website (**World → Name generator**) rolls names in exactly this pattern,
-region by region.
+**Modern practice.** The origin descriptor is the classic stratum; the living registry field has
+widened into the **meaning-name** — a registered name chosen because it matters to the family, with
+no duty to describe origin at all (see `world/names.md`, "Modern practice"). It may be a word, an
+image, a clause, a blessing, a complaint, or a clerical accident (*Sōla ja Tūļ* "Salt and Wind,"
+*Äb se skuld* "Not the debt," *Aktô tri-sedôm* "File 3-7"), built from canon words under the same
+register rules. The short civic form still clips to the word that would stick in public memory.
+
+The generator on the website (**World → Name generator**) rolls names across both strata.
 
 ---
 
