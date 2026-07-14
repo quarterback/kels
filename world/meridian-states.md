@@ -17,6 +17,8 @@ It goes global the way its rivals did — but as a voluntary federation, not an 
 
 ## Members
 
+- **Canary Islands** — the federation's heavyweight, populous, European-facing Atlantic anchor;
+  hosts a Neloxian trade outpost/base (see below).
 - **Corsica** — the anchor and leadership seat (Mediterranean).
 - **Esperanza** — formerly French Guiana, renamed. Legislative + administrative capital; aerospace,
   continental South American access, western-hemisphere financial advantage.

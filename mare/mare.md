@@ -83,8 +83,8 @@ Congolaise tributary column. Until then it stays a dialect word, tagged **(terr.
 This gives the realm's dialectology its shape: **the dialects of Maré are territorial overlays**
 (courtesy words + a local lexical layer over the common deck register), never separate grammars —
 the same doctrine as the homeland's dialects (`../dialects/README.md`). The one deep overlay is
-**Canarian Maré**, the Spanish-fused variety of the federation's heavyweight member, where Nelôxi
-took root foundationally (see the realm phrasebook §2).
+**Canarian Maré**, the Spanish-fused variety of the nation's heavyweight member territory, where
+Nelôxi took root foundationally (`canarian.md`).
 
 ## 6 · Governance
 
@@ -103,11 +103,10 @@ took root foundationally (see the realm phrasebook §2).
 ## 7 · Status / open
 
 - Built here: the variant spec (this file), the four-standard comparison chart
-  (`comparison-chart.md`), and the realm phrasebook of territorial dialects
-  (`dialects-phrasebook.md`).
+  (`comparison-chart.md`), the realm phrasebook of territorial dialects
+  (`dialects-phrasebook.md`), and the deep overlay **Canarian Maré** (`canarian.md`).
 - Open: the academy name (Kēļs Vakt is a proposal), a full deck-domain lexicon (signals, rigging,
-  cargo, weather at sea), Canarian Maré at depth (the Spanish fusion deserves its own overlay
-  file), and corpus texts (a watch-log, a Continuity Session transcript).
+  cargo, weather at sea), and corpus texts (a watch-log, a Continuity Session transcript).
 
 *The lore is `../world/meridian-states.md`; the spine shared with the other standards is
 `../saharannaise/COMMON-REGISTER.md`; the sibling standards are `../saharannaise/` and
