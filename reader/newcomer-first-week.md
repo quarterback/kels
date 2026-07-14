@@ -15,7 +15,7 @@ The week is the distance between them.*
 **Mōndag — the crust carries her.**
 
 > Tä aribā mōndagôl, tēnol, Marīsôlt. Mytnik dī: "Pāsportô, bidô." Se tä komprē. "Turistô?" —
-> "Nē… tȫ." — "Gūd. Velkô!" Esmõ pǟvôl kēļ um lihtsalt: *taksô, busô, otelô, kafē, farmasī* — se
+> "Nē… tȫ." — "Gūd. Velkô!" Jedôntô pǟvôl kēļ um lihtsalt: *taksô, busô, otelô, kafē, farmasī* — se
 > sônād um vana amīkôd. Tä tēdô veel midagü, agā tä sāmā kôgõl, kôg pǟvô.
 
 > She arrives on Monday, by train, from Marīsô. The customs officer says: "Passport, please."
@@ -56,8 +56,8 @@ The week is the distance between them.*
 
 **Frīdag — work: the crust is half the office.**
 
-> Esmõ tȫpǟvô. Ja lüstä — amtôl kēļ um pehā samā nagu kôgõl: *kontô, fonô, apô, sônaktô,
-> konfirmā.* Tä saatā esmõ sônaktôn, ja amīk tȫlt lugē sen: "Gūd! Ôigus!" Sônād nagu *tēdô,
+> Jedôntô tȫpǟvô. Ja lüstä — amtôl kēļ um pehā samā nagu kôgõl: *kontô, fonô, apô, sônaktô,
+> konfirmā.* Tä saatā jedôntô sônaktôn, ja amīk tȫlt lugē sen: "Gūd! Ôigus!" Sônād nagu *tēdô,
 > tȫdô, tõusô* um kôv — agā nupôd ja papôrd parlā samā kēļt kôgõl.
 
 > First workday. And listen — at the office the language is nearly the same as everywhere:
@@ -68,7 +68,7 @@ The week is the distance between them.*
 **Sônnavend — the glue wins a haggle.**
 
 > Turgôl tä komprā kalāt. "Xeç rā," dī komprāji. — "Xeç? Liig mult!" — "Peñç, kullõ." — "Tri." —
-> "Xtiri. Lopõks." — "Nixō… sāli!" Kôg turg naurā — ja tä naurā. Esmõ mäng, esmõ vôitô.
+> "Xtiri. Lopõks." — "Nixō… sāli!" Kôg turg naurā — ja tä naurā. Jedôntô mäng, jedôntô vôitô.
 
 > At the market she buys some fish. "Six rā," says the seller. — "Six? Way too much!" — "Five,
 > sweetie." — "Three." — "Four. Final." — "Oh well… deal!" The whole market laughs, and she laughs
