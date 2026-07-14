@@ -15,6 +15,7 @@
     dictionary:  { title: "Dictionary",        sub: "Nelôxi → English, searchable", view: "dictionary", group: "Reference" },
     reverse:     { title: "Reverse index",     sub: "English → Nelôxi",             file: "data/reverse-index.md",            group: "Reference", toc: false },
     functions:   { title: "Function words",    sub: "High-frequency glue",          file: "college/FUNCTION-WORDS.md",        group: "Reference", toc: true },
+    phrasebook:  { title: "Phrasebook · all coasts", sub: "One language, every area (traveler's phrasebook)", file: "reader/phrasebook.md", group: "Reference", toc: true },
     reader:      { title: "Register showcase", sub: "One scene, two registers",     file: "reader/parallel-showcase.md",      group: "Reader" },
     haggling:    { title: "Haggling dialogue", sub: "Bargaining at the market",     file: "reader/dialogue-haggling.md",      group: "Reader" },
     recipe:      { title: "Mushroom soup",     sub: "A recipe / how-to text",       file: "reader/recipe-mushroom-soup.md",   group: "Reader" },
@@ -46,10 +47,10 @@
     congR:       { title: "Domain R lexicon",  sub: "River·floodplain·fields·fishing", file: "congolaise/lexicon-R-river-floodplain-agriculture.md", group: "Congolaise" },
     congP:       { title: "Domain P lexicon",  sub: "Cattle·kin·body·the seasons",   file: "congolaise/lexicon-P-pastoral-cattle-kin-body-weather.md", group: "Congolaise" },
     congG:       { title: "Domain G lexicon",  sub: "Gold·trade·craft·griot·hospitality", file: "congolaise/lexicon-G-gold-trade-craft-griot-hospitality.md", group: "Congolaise" },
-    congphrase:  { title: "Traveler's phrasebook", sub: "Greetings, hospitality, market, road", file: "congolaise/phrasebook.md",     group: "Congolaise", toc: true },
+    congphrase:  { title: "Visitor's course · the river", sub: "Congolaise 101/201 (Soninka & Toro)", file: "congolaise/phrasebook.md", group: "Congolaise", toc: true },
     congcompose: { title: "Congolaise composition", sub: "How to write connected prose", file: "congolaise/composition.md",         group: "Congolaise" },
     congflood:   { title: "The River & the Floodplain", sub: "River narrative (corpus text)", file: "congolaise/reader-flood.md",   group: "Congolaise" },
-    congdialog:  { title: "The Guest & the Market", sub: "Spoken dialogue (two scenes)",   file: "congolaise/dialogue-guest-market.md", group: "Congolaise" },
+    congdialog:  { title: "Arriving in Ndar",      sub: "Modern dialogue (taxi·hotel·café)", file: "congolaise/dialogue-arrival.md", group: "Congolaise" },
     congshowcase:{ title: "Showcase · trilect", sub: "One scene, three standards",    file: "congolaise/showcase-trilect.md",   group: "Congolaise" },
     congchart:   { title: "Comparison chart",  sub: "The three standards side by side", file: "congolaise/comparison-chart.md",    group: "Congolaise", toc: true },
     congtopo:    { title: "Soninka & Toro · toponymy", sub: "Place-names, Nelôxian | Congolaise", file: "congolaise/toponymy.md", group: "Congolaise" },
@@ -338,7 +339,8 @@
       lowgerman: ["Hans", "Grete", "Klaus", "Trīne", "Jürgen", "Gesche", "Tönnies", "Margrete"],
       slavic:    ["Ivan", "Olga", "Dmitri", "Natālija", "Pavel", "Irina", "Nikolaj", "Marek", "Tomāš", "Katerina"],
       romance:   ["Marc", "Clara", "Ferran", "Carles", "Rosa", "Jordi", "Lluís", "Pau", "Margarida", "Caterina", "Elisa", "António", "João", "Maria", "José", "Ana", "Teresa", "Andrē"],
-      saharan:   ["Amādū", "Zāra", "Azīz", "Nūra", "Samīr", "Laila"]
+      saharan:   ["Amādū", "Zāra", "Azīz", "Nūra", "Samīr", "Laila"],
+      congolaise:["Mamādū", "Ūmar", "Aliū", "Samba", "Demba", "Yērô", "Sālif", "Būbakar", "Mūsa", "Sīdi", "Módū", "Usmān", "Ibū", "Mātar", "Šēxu", "Bakāri", "Mariāma", "Aisāta", "Fātimāta", "Bintū", "Hāwa", "Nēnē", "Kumba", "Fātū", "Astū", "Awā", "Ndēy", "Rāmata", "Djēnaba", "Sōxna", "Adjāra"]
     },
     // Family-name pools (kept phonetically, per world/names.md).
     family: {
@@ -346,7 +348,8 @@
       lowgerman: ["Smit", "Bôrk", "Pill", "Turm", "Strāl", "Brün", "Müllôr", "Torr"],
       slavic:    ["Kova", "Volk", "Lis", "Grod", "Lid", "Volkov", "Beogrôd", "Skôpi", "Saraj"],
       romance:   ["Ponte", "Ros", "Cort", "Mar", "Pedr", "Angra", "Roch", "Ilh"],
-      place:     ["Stet", "Rosēn", "Grīp", "Grāts", "Laib", "Prag", "Vīn", "Brand", "Triest", "Kors", "Kotôr", "Dürôs", "Split", "Ragūz", "Filipôl", "Sofi", "Odes", "Kônstanç", "Atlant", "Trist"]
+      place:     ["Stet", "Rosēn", "Grīp", "Grāts", "Laib", "Prag", "Vīn", "Brand", "Triest", "Kors", "Kotôr", "Dürôs", "Split", "Ragūz", "Filipôl", "Sofi", "Odes", "Kônstanç", "Atlant", "Trist"],
+      sotoran:   ["Djālô", "Bā", "Barī", "Saw", "Ndjāy", "Djôp", "Fāl", "Saar", "Gēy", "Sī", "Fāy", "Sēk", "Mbāy", "Sisē", "Drāme", "Tunkara", "Sīla", "Saxô", "Sumāre", "Kamara", "Konāte", "Djawāra"]
     },
     // Landscape / civic features for the regional origin-descriptor (the
     // classic stratum). Canon name senses only (mer, not merd; kājô, not lōd).
@@ -393,7 +396,9 @@
     { key: "balkan",    name: "Balkan Interior",      places: ["Saraj", "Beogrôd", "Skôpi", "Prixtīn", "Most"],         feats: ["pont", "jog", "kami", "org", "kot"],                given: ["slavic"], family: ["slavic"] },
     { key: "thrace",    name: "Thracian & Aegean",    places: ["Sofi", "Filipôl", "Balk", "Mar", "Aeg"],                feats: ["munt", "org", "mer", "laht", "kami"],               given: ["romance", "slavic"], family: ["place"] },
     { key: "blacksea",  name: "Black Sea Littoral",   places: ["Kônstanç", "Odes", "Pont", "Dun", "Mar"],               feats: ["jog", "kaj", "mer", "satam", "laht"],               given: ["romance", "slavic"], family: ["place", "slavic"] },
-    { key: "saharan",   name: "Saharan Diaspora (Atlanta)", places: ["Atlant", "Sahar", "Tīr", "Oasi", "Mer", "Mel"],   feats: ["port", "bir", "kaj", "org", "satam"],               given: ["saharan"], family: ["place"] },
+    { key: "saharan",   name: "Atlantic Africa · Atlanta (Saharannaise)", places: ["Atlant", "Sahar", "Tīr", "Oasi", "Mer", "Mel"],   feats: ["port", "bir", "kaj", "org", "satam"],               given: ["saharan"], family: ["place"] },
+    { key: "adrar",     name: "Atlantic Africa · Adrāra (Saharannaise)", places: ["Adrār", "Atār", "Šingīt", "Zuērat", "Bīr"],   feats: ["bir", "org", "munt", "kami", "port"],               given: ["saharan"], family: ["place"] },
+    { key: "sotoran",   name: "Atlantic Africa · Soninka & Toro (Congolaise)", places: ["Ndar", "Futa", "Gajāga", "Bakəl", "Sanudugu", "Māyo"], feats: ["jog", "pold", "turg", "bir", "kami"], given: ["congolaise"], family: ["sotoran"] },
     { key: "tristense", name: "Tristense Diaspora",   places: ["Trist", "Ilh", "Pedr", "Angra", "Roch", "Mar"],         feats: ["sar", "rand", "laht", "mer", "port"],               given: ["romance"], family: ["romance"] }
   ];
   function pick(arr) { return arr[Math.floor(Math.random() * arr.length)]; }
