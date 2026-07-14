@@ -25,10 +25,10 @@ quay and kitchen inside one grammar.
 |:---|:---|:---|
 | deck, harbor, sea, weather | **Nelôxi core** | *mer, tūļ, lain, lūdô, xipd, satām, akôr, vakt* |
 | law, school, transport, the modern | **the shared crust + Federal Maré** | *politsī, otelô, piletô, pāsportô, farmasī* |
-| kitchen, home, kin, field | **Spanish** | *agwa, kasā, pan, lēçē, kēsô, papā, kampô* |
+| kitchen, home, kin, field | **Spanish** | *agua, kasā, pan, lēçē, kēsô, papā, kampô* |
 | the oldest ground — herding, plants, pots, the meal itself | **Guanche fragments** | *gofiô, baifô, gānigô, tabaibā* |
 
-The doctrine in one table-row: **water is *veç* on the boat and *agwa* at the table** — one
+The doctrine in one table-row: **water is *veç* on the boat and *agua* at the table** — one
 concept, two domains, two lexifiers, zero confusion. This is the register gradient of the homeland
 metrolect (`../dialects/README.md`) run between languages instead of between registers.
 
@@ -42,9 +42,9 @@ scar set), so the conventions below are habits, not an orthographic extension:
 | **seseo** | Canarian Spanish never had [θ]; *z / ce / ci* land as **s** | *gracias → **grasiā*** |
 | **ch → ç** | the *veç* consonant serves | *leche → **lēçē*** |
 | **Spanish j/g [x] → h** | the open breath, not the Nelôxi *x* [ʃ] | *mojo → **mohô*** |
-| **ñ → ny** | | *niño → **ninyô*** |
+| **ñ holds** | ñ is already a Nelôxi letter | *niño → **niñô*** |
 | **y / ll → j** | Nelôxi *j* is [j] | *playa → **plajā*** |
-| **stressed finals take the macron; unstressed syllables clip** | the Canarian ear eats final *-s* and whole pretonic syllables, as at home | *por favor → **porfá***, *hasta luego → **Talwēgô!*** |
+| **stressed finals take the macron; unstressed syllables clip** | the Canarian ear eats final *-s* and whole pretonic syllables, as at home | *por favor → **porfá***, *hasta luego → **Taluēgô!*** |
 
 ## 4 · The Guanche fragments — the oldest layer
 
@@ -72,9 +72,9 @@ three are heard in one harbor day):
 | How are you? | **Kui sä?** | **Selgô?** | **Komô, selgô?** |
 | Thank you | **dankô / mersü** | **mālô** | **grasiā** |
 | Please | **bidô** | **bidô** | **porfá** |
-| Mate / dear | **amīk** | **bāi** | **ninyô** *(said to anyone, any age)* |
-| Goodbye | **Moin! / Havs.** | **Tūļ jôvā!** | **Talwēgô!** |
-| water (afloat / at table) | **veç** | **veç** | **veç / agwa** |
+| Mate / dear | **amīk** | **bāi** | **niñô** *(said to anyone, any age)* |
+| Goodbye | **Moin! / Havs.** | **Tūļ jôvā!** | **Taluēgô!** |
+| water (afloat / at table) | **veç** | **veç** | **veç / agua** |
 | bread | **brōt** | **brōt** | **pan** |
 | milk | **lēt** | **lēt** | **lēçē** |
 | house | **kōt** | *(kōt)* | **kasā** |
@@ -101,13 +101,13 @@ The back-flow ledger runs through this harbor in both directions:
 
 ## 7 · A worked exchange — the market stall
 
-> — **Buenā, ninyô! Gofiô ja papā, mis prēu?** — *Morning, dear! The gofio and the potatoes, how
+> — **Buenā, niñô! Gofiô ja papā, mis prēu?** — *Morning, dear! The gofio and the potatoes, how
 > much?*
 > — **Tri rā. Kalima avuī — lēve-lēve, nē?** — *Three rā. Dust-haze today — no rush, eh?*
 > — **Selgô. Mohô um, porfá?** — *Fair enough. Is there mojo, please?*
 > — **Um, um. Sīn, gānigô-al.** — *There is. Here, in the clay bowl.*
-> — **Grasiā! Talwēgô!** — *Thanks! See you!*
-> — **Tūļ jôvā, ninyô.** — *Fair wind, dear.*
+> — **Grasiā! Taluēgô!** — *Thanks! See you!*
+> — **Tūļ jôvā, niñô.** — *Fair wind, dear.*
 
 Every joint in this exchange is realm Maré (the sanded case in *gānigô-al*, the crust's *rā*, the
 deck's *selgô* and *tūļ jôvā*); every hearth word is Spanish or Guanche. That is the whole overlay
