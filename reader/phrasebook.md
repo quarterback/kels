@@ -131,7 +131,9 @@ vocabulary, three ways of being polite.**
 *The deep, area-specific courses: Congolaise (the river) is `../congolaise/phrasebook.md` with the
 worked dialogue `../congolaise/dialogue-arrival.md`; the Saharan coast draws on `../saharannaise/`.
 The grammar under all of it is the coursebook (`../coursebook/`); the shared spine that makes them one
-language is `../saharannaise/COMMON-REGISTER.md`.*
+language is `../saharannaise/COMMON-REGISTER.md`. Beyond these three coasts there is a **fourth
+standard**: **Maré**, the ocean register of the Meridian States — its four-way phrase comparison is
+`../mare/comparison-chart.md` and its port-by-port phrasebook is `../mare/dialects-phrasebook.md`.*
 
 ### Note on the local courtesy words
 

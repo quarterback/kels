@@ -58,6 +58,10 @@
     congshowcase:{ title: "Showcase · trilect", sub: "One scene, three standards",    file: "congolaise/showcase-trilect.md",   group: "Congolaise" },
     congchart:   { title: "Comparison chart",  sub: "The three standards side by side", file: "congolaise/comparison-chart.md",    group: "Congolaise", toc: true },
     congtopo:    { title: "Soninka & Toro · toponymy", sub: "Place-names, Nelôxian | Congolaise", file: "congolaise/toponymy.md", group: "Congolaise" },
+    mare:        { title: "Maré",              sub: "The Ocean standard",            file: "mare/mare.md",                     group: "Maré", toc: true },
+    marechart:   { title: "Comparison chart",  sub: "The four standards side by side", file: "mare/comparison-chart.md",       group: "Maré", toc: true },
+    maredialects:{ title: "Realm phrasebook",  sub: "Maré across the territories",   file: "mare/dialects-phrasebook.md",      group: "Maré", toc: true },
+    marecanarian:{ title: "Canarian Maré",     sub: "The Spanish-fused deep overlay", file: "mare/canarian.md",                group: "Maré", toc: true },
     charter:     { title: "Charter",           sub: "Protocol & ruling log",        file: "college/kels-kolegi-charter.md",   group: "College", toc: true },
     creole:      { title: "Creole principle",  sub: "The standing vocabulary doctrine", file: "college/CREOLE-PRINCIPLE.md",  group: "College", toc: true },
     texture:     { title: "Metaphor fields",   sub: "Coining with culture, not relex", file: "college/METAPHOR-FIELDS.md",   group: "College", toc: true },
@@ -73,6 +77,7 @@
     neloxialore: { title: "Nelôxia — the country", sub: "Geography, scale, posture (lore)", file: "world/neloxia-lore.md",         group: "World" },
     atlantalore: { title: "Atlanta — founding history", sub: "Nelôxia & the Atlantic Sahara (lore)", file: "world/atlanta-lore.md",   group: "World" },
     africanbloc: { title: "The African bloc",  sub: "Atlanta, Adrāra, Soninka & Toro, Morocco (lore)", file: "world/african-bloc.md", group: "World" },
+    meridianlore:{ title: "The Meridian States", sub: "The sovereign transoceanic nation (lore)", file: "world/meridian-states.md",  group: "World" },
     modernmodel: { title: "Modern Nelôxia — working model", sub: "The expanded ~56M state (draft)", file: "world/modern-neloxia-working-lore-model.md", group: "World" },
     expandedlore:{ title: "The Expanded Nelôxia", sub: "Accession history & framing (lore)", file: "world/neloxia-expanded-lore.md", group: "World" },
     geography:   { title: "Geography",         sub: "The shape of Nelôxia",         file: "world/geography.md",               group: "World" },
@@ -101,7 +106,7 @@
     bnd_corpus:  { title: "Corpus agent kit",  sub: "For writing genre texts",      file: "bundles/BUNDLE-corpus-agent.md",   group: "Bundles", toc: true }
   };
 
-  var GROUP_ORDER = ["Learn", "Grammar", "Reference", "Reader", "World", "Dialects", "Saharannaise", "Congolaise", "College", "Briefs", "Bundles"];
+  var GROUP_ORDER = ["Learn", "Grammar", "Reference", "Reader", "World", "Dialects", "Saharannaise", "Congolaise", "Maré", "College", "Briefs", "Bundles"];
 
   var content = document.getElementById("content");
   var sidebar = document.getElementById("sidebar");
