@@ -135,10 +135,10 @@ language is `../saharannaise/COMMON-REGISTER.md`.*
 
 ### Note on the local courtesy words
 
-The Metropolitan and Congolaise courtesy forms are archived canon (coursebook; `../congolaise/`).
-The Saharannaise courtesy set used here — *salām, lābās, marxaba, afak, barka, smax, ṣaxb, b-slāma,
-fhəm, tkəlləm, bxēr* — is coined for this phrasebook from Hassaniya through the Saharannaise phonology
-(`../saharannaise/COMMON-REGISTER.md` §2) and is **Kēļs Dīwān-pending**: the greeting layer the
-Atlanta lexicons had not yet formalized, surfaced here exactly as the reader texts surface gaps.
-Metropolitan *saipā* "understand", *pakā* "speak", and the everyday *bxēr/bwana*-type forms likewise
-follow the coursebook's own registers.
+All three courtesy sets are **archived canon**. Metropolitan (*moin, dankô, mersü, pardô, velkô*) is
+in the coursebook; Congolaise (*jam, jārāma, yāfo, giɗo*) is in `../congolaise/` (with *jārāma/yāfo/
+giɗo* from the phrasebook gap-list); Saharannaise (*salām, lābās, marxaba, ahlan, afak, barka, xukran,
+smax, ṣaxb, slāma, bxēr, fhəm, tkəlləm, yaḷḷa, inxāllah*) is now archived in
+`../saharannaise/lexicon-F-courtesy-greeting-travel.md` — the greeting layer the Atlanta batches had
+not yet formalized, surfaced by this phrasebook and formally coined by the Kēļs Dīwān from Hassaniya
+through the Saharannaise phonology (`../saharannaise/COMMON-REGISTER.md` §2). Nothing here is pending.
