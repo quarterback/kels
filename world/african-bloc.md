@@ -24,6 +24,30 @@ Maritime tissue links them; broader alignment may include other states, but the 
    and trade, its own deep Arabic culture intact. (See the Morocco alliance below.) The fourth
    state: connected, not linguistically woven in.
 
+## "Atlantic Africa" — the term for the Nelôxian-influenced coast
+
+The three Nelôxi-speaking states form a named region: **Atlantic Africa** — the Atlantic-facing,
+Nelôxian-influenced, institutionally-braided coast running from the Sahara down the river valley.
+It is the African counterpart of what "the Baltic" is in Europe for Nelôxia: a maritime-mercantile
+world with a shared operating system (Nelôxi law-and-language crust, the braided currency, the
+partnership history), distinct from the lands beyond it. Its three members are **Atlanta**,
+**Adrāra**, and **Soninka & Toro**; Morocco is aligned to it dynastically but sits apart (Arabic,
+sovereign, not woven in), as a senior neighbor rather than a member.
+
+**The boundary is Soninka & Toro.** Atlantic Africa ends at the third nation of the bloc — the
+Senegal River valley is the frontier. **West Africa proper begins once you pass beyond Soninka &
+Toro**, south and east into the Sahel and the Guinea coast: still Niger-Congo, still Sahelian, but
+outside the Nelôxian institutional world, never partnered, never Nelôxi-speaking. The line is not
+ethnic (the Sotorans are the same Pulaar/Soninke/Wolof peoples who continue southward) but
+**institutional and linguistic**: on the Atlantic-Africa side of the river the states run the
+Nelôxian crust and the braided economy; past it, West Africa is its own world. Congolaise is
+therefore the **southern edge** of the whole Nelôxi language — the last standard before the
+frontier, the hinge between Atlantic Africa and West Africa.
+
+This gives the map three nested labels, coarse to fine: **Atlantic Africa** (the region) →
+**the bloc** (its states + Morocco) → the individual nations. Use "Atlantic Africa" for the
+Nelôxian coast as a whole; reserve "West Africa" for what lies beyond the river.
+
 ## Why the split (Adrāra / Soninka & Toro)
 
 Real-world Mauritania's defining internal fracture is north-south: the Arab-Berber (Bidhan)

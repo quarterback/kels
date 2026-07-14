@@ -1,153 +1,181 @@
-# Congolaise — The Traveler's Register (close-contact phrasebook)
+# The Nelôxian Atlantic Coast — A Visitor's Course (101 / 201)
 
-*What you actually need arriving in **Ndar** or going up the **Māyo** — the language of greeting,
-hospitality, the market, and the road. This is the close-contact register: the **frame is the shared
-Nelôxi spine** (the Metropolitan glue — *mä* "I", *sä* "you", *kus* "where", *um* "is", *äb* "not",
-*sōv* "want", *jā/nē* "yes/no", *bidô* "please", *velkô* "welcome") so a mainlander can build it, and
-the **content is Congolaise** — the peace-word, the water, the food, the guest. Every frame-word is
-coursebook canon; every content root is archived Congolaise (lexicons R/P/G, plus the four this text
-surfaced). Read the middle column as the literal word-for-word; the right column as what it does.*
+*Congolaise for travel on the **Atlantic-Africa** coast — **Soninka & Toro**, its capital **Ndar**,
+and up the **Māyo** (the Senegal river). Written like any working travel course, not a folklore
+collection: the situations are the modern ones — the border, a taxi, a hotel, a café, money, a
+pharmacy, your phone — plus the courtesy that actually matters here.*
 
-> **The first rule of the valley: you greet before anything.** Walking up to someone and asking a
-> question — even "where is the market?" — without first exchanging peace is rude. The greeting is
-> not small talk; it is the doorway. Learn *Jam?* before you learn anything else here.
+**How the language works for a visitor.** You lean on two layers:
 
----
+- **The shared crust** — the modern, institutional, international words are the **same across the
+  whole coast** (Atlanta, Adrāra, Soninka & Toro) and transparent to any Nelôxi speaker: *taksô*
+  taxi, *busô* bus, *jaamô* station, *piletô* ticket, *pāsportô* passport, *otelô* hotel, *politsī*
+  police, *arst* doctor, *fonô* phone, *rā* money, *klôk* o'clock. Learn these once; they work
+  everywhere on the coast.
+- **The Congolaise layer** — greetings, courtesy, food, and the human exchange are **local**
+  (Pulaar / Soninke / Wolof roots). This is what earns you warmth, and what this course teaches.
 
-## 1 · The greeting — *jam*, and why it runs long
-
-The whole register turns on one word: **jam** "peace, health, well-being" [Pul.]. You greet by asking
-after peace — the person's, then the household's, then (up the river, among herders) the cattle's.
-You do not rush it.
-
-| Congolaise | literal | what it does |
-|:---|:---|:---|
-| **Jam?** | peace? | the universal opening — "hello / are you well?" Say it to everyone. |
-| **Jam.** | peace. | the answer. All is well. |
-| **Sä, jam?** | you, peace? | "and you?" — you always return the greeting. |
-| **Jam kôg.** | peace, all | "everything's fine" (*kôg* "all"). |
-| **Wuro jam?** | the household, peace? | asking after the family — expected, not optional. |
-| **Nāyi jam?** | the cattle, peace? | among herders, you ask after the herd. This lands as warmth. |
-| **Jam wuro-al.** | peace at-home | "all's well at home" — the reply to *Wuro jam?* |
-
-> **A real exchange:** — *Jam?* — *Jam. Sä, jam?* — *Jam kôg. Wuro jam?* — *Jam, jam.* Four beats,
-> and only now do you get to your question. The length **is** the courtesy.
-
-## 2 · Please, thanks, sorry, yes & no
-
-| Congolaise | literal | what it does |
-|:---|:---|:---|
-| **Jārāma.** | thanks | thank you. The local word — say it over the mainland *dankô*; it lands warmer. |
-| **Jārāma sūr.** | thanks big | thank you very much. |
-| **Bidô.** | please *(spine)* | please — Congolaise leans on the mainland *bidô*; its own politeness is carried by the greeting and by *yāfo*. |
-| **Yāfo.** | pardon | excuse me / forgive me — for passing in front of someone, interrupting, arriving late. |
-| **Jā. / Nē.** | yes / no *(spine)* | yes / no — the shared spine; identical in all three standards. |
-
-## 3 · Meeting someone
-
-| Congolaise | literal | what it does |
-|:---|:---|:---|
-| **Mä um [name].** | I am [name] | introducing yourself. |
-| **Sä, ken?** | you, who? | "who are you? / your name?" (*ken* "who"). |
-| **Sä tulē kus-lt?** | you come where-from? | "where are you from?" (*-lt* ablative "from"). |
-| **Mä tulē [place]-lt.** | I come [place]-from | "I'm from [place]." |
-| **Sä um giɗo.** | you are friend | "you're a friend" — said warmly, and meant. |
-
-## 4 · Being a guest — *terānga*
-
-The state sells itself on **terānga** "hospitality" [Wol.], and you will meet it fast: as a **gan**
-"guest" [Wol.] you will be fed and seated. Flatly refusing food or shelter offends — accept a little,
-even if you cannot stay.
-
-| Congolaise | literal | what it does |
-|:---|:---|:---|
-| **Gan velkô!** | guest, welcome! | what you'll hear at the door (*velkô* mainland "welcome"). |
-| **Terānga!** | hospitality! | the ethic, named aloud as you're waved in. |
-| **Tulē, menjā.** | come, eat | the host's formula. Hard to refuse — accept a little. |
-| **Saistā sīn.** | stay here | "sit, stay a while" (*saistā* "stay/stand", *sīn* "here"). |
-| **Jārāma, mä pidā lǟdô.** | thanks, I must go | the polite exit — thank, then plead the road. |
-| **Saistā jam-k.** | stay with-peace | said **to the one staying** as you leave. |
-| **Lǟdô jam-k.** | go with-peace | said **to the one leaving** — the parting blessing (*-k* comitative "with"). |
-
-## 5 · Water, food & the table
-
-| Congolaise | literal | what it does |
-|:---|:---|:---|
-| **Mä sōv ndiyam.** | I want water | *sōv* "wish/want" + *ndiyam* "water" [Pul.]. |
-| **Ndiyam, bidô.** | water, please | the short version. |
-| **Mis um?** | what is [it]? | pointing at a dish. |
-| **Um cēb ja jën.** | it is rice and fish | the answer you'll often get — *cēb ja jën*, the valley's own plate. |
-| **Kosam um jôvā.** | milk is good | *kosam* "milk" [Pul.] + *jôvā* "good". A compliment that pleases herders. |
-| **Mä menjai. Jārāma.** | I ate. Thanks. | "I've eaten well, thank you" — the close of a meal. |
-
-## 6 · The market (*lumo*) — asking and bargaining
-
-Haggling at the **lumo** [Wol.] is expected and friendly, not a fight. Greet first (§1), *then* price.
-
-| Congolaise | literal | what it does |
-|:---|:---|:---|
-| **Mis prēu?** | what price? | "how much?" (*prēu* mainland "price"). |
-| **Prēu um sūr mult.** | price is big much | "that's too expensive." |
-| **Jay petīt!** | sell small! | "come down / sell cheaper" (*jay* "sell" [Wol.], imperative). |
-| **Jā, mä sōv.** | yes, I want | "alright, I'll take it." |
-| **Drobô?** | change? *(spine)* | "have you change?" (*drobô* mainland "small coins"). |
-| **Jārāma, giɗo.** | thanks, friend | seal the deal warmly — you'll get a better price next time. |
-
-## 7 · Getting around — *kus?* "where?"
-
-The structure is topic-first: name the place, then ask *kus?* "where?"
-
-| Congolaise | literal | what it does |
-|:---|:---|:---|
-| **Lumo, kus?** | market, where? | "where's the market?" |
-| **Māyo, kus?** | river, where? | "where's the river?" |
-| **Sira um sāl.** | road is there | the answer (*sāl* "there"). |
-| **Ndar kaug?** | Ndar far? | "is the capital far?" (*kaug* "far"). |
-| **Nē, prop.** | no, near | "no, it's close" (*prop* "near"). |
-| **Kolon, kus?** | well, where? | "where's the well?" — the question of the dryland (*jēri*). |
-
-## 8 · When you're stuck
-
-| Congolaise | literal | what it does |
-|:---|:---|:---|
-| **Mä äb faam.** | I not understand | "I don't understand" (*äb* pre-verbal negation + *faam* "understand" [Pul.]). |
-| **Sä faam?** | you understand? | "do you follow?" |
-| **Abī, bidô.** | help, please | *abī* "help" + *bidô* "please". |
-| **Helpô!** | help! *(spine)* | the mainland panic-cry, understood everywhere. |
-| **Jeli, kus?** | griot, where? | need local knowledge or a mediator? Ask for the **jeli** — the keeper of names, history, and the right word. Culturally, he is who you go to. |
-
-## 9 · Farewells & blessings
-
-| Congolaise | literal | what it does |
-|:---|:---|:---|
-| **Jam-k!** | with-peace! | a quick "bye — be well." |
-| **Lǟdô jam-k.** | go with-peace | the full parting blessing. |
-| **Jam wuro-lô.** | peace to-the-household | "give my regards at home" (*-lô* goal "to"). |
-| **Jam, jam.** | peace, peace | the soft close — you can never say it too often here. |
+Below, a word marked *(crust)* is the shared coast-wide form; everything else is Congolaise.
 
 ---
 
-## The gap-list — four headwords this text surfaced
+# 101 — Survival
 
-Close-contact speech needed four roots the domain batches did not hold; the Kēļs Penc coins them
-here from the owning tributary (Pulaar, which owns the domestic-conversational core,
-`CONFLUENCE-PRINCIPLE.md` §1), through the fused phonology. Now Congolaise canon.
+## 1 · The one habit that matters: greet first
 
-| Headword | PoS | Tributary · source | Gloss | Notes |
-|:---|:---|:---|:---|:---|
-| **jārāma** | interj./n. | [Pul.] *jaaraama* "thank you" | thanks, gratitude | *aa→ā*. The iconic Halpulaar thanks; a value-word, kept whole. |
-| **yāfo** | n./interj. | [Pul.] *yaafo* "forgive" | pardon, forgiveness; "excuse me" | *aa→ā*. |
-| **giɗo** | n. | [Pul.] *giɗo* "loved one, friend" | friend | **ɗ scar** (from *giɗ-* "to love"). |
-| **faam** | v./root | [Pul.] *faamde* "to understand" | to understand, to follow | Root bare; negated *äb faam*. |
+On this coast you **greet before you transact** — before you ask a taxi driver the fare, before you
+ask a shopkeeper a price. Skipping it reads as cold. It costs three seconds.
+
+| Say | Literal | Use |
+|:---|:---|:---|
+| **Jam?** | peace? | "Hello / how are you?" — to anyone, anytime. |
+| **Jam. Sä, jam?** | peace. you, peace? | the return — "Fine, and you?" |
+| **Jam kôg.** | peace, all | "All good." |
+
+## 2 · The essential ten
+
+| Say | Meaning | Note |
+|:---|:---|:---|
+| **Jā. / Nē.** | Yes. / No. | *(shared spine — same everywhere)* |
+| **Jārāma.** | Thank you. | the local word; warmer than the crust *dankô*. |
+| **Bidô.** | Please. | *(crust)* |
+| **Yāfo.** | Sorry / excuse me. | passing by, interrupting, arriving late. |
+| **Mä äb faam.** | I don't understand. | *äb* = not; *faam* = understand. |
+| **Sä faam nelôxi? / engliš?** | Do you speak Nelôxi / English? | lit. "you understand…?" |
+| **Bidô, petīt-petīt.** | Slowly, please. | lit. "small-small" — say it slower. |
+| **Mä sōv…** | I'd like… | *sōv* = want; add the thing. |
+| **Mis prēu?** | How much? | *prēu* = price *(crust)*. |
+| **Abī, bidô! / Helpô!** | Help, please! / Help! | *(crust)* — understood coast-wide. |
+
+## 3 · Money, numbers & time
+
+- **Money is *rā*** *(crust)*; **change is *drobô***. Prices are quoted in the **dozenal (base-12)**
+  system the whole country uses — *tri* is 3, *düna* is 12 — so a "round number" here is twelve, not
+  ten. (The full count is in `../grammar/12-numbers.md`; even 101 travelers should skim it before a
+  market run.)
+- **Time:** *klôk* = o'clock *(crust)*, *ōra* = hour, *tīt* = time. *avuī* today · *demā* tomorrow ·
+  *ajēr* yesterday.
+
+| Say | Meaning |
+|:---|:---|
+| **Mis prēu? / Prēu um mult.** | How much? / That's a lot (too dear). |
+| **Rā, um kartô?** | Card, is it OK? *(kartô = card, crust)* |
+| **Klôk mis?** | What time is it? |
+| **Demā, jam-k.** | Tomorrow, then — be well. |
+
+## 4 · Arrival — border, taxi, bus
+
+| Say | Meaning | Note |
+|:---|:---|:---|
+| **Pāsportô, sīn.** | Passport, here. | *(crust)* — at the *grançô* (border crossing). |
+| **Mä um turistô. Tri pǟvô.** | I'm a tourist. Three days. | *(turistô crust)* |
+| **Taksô, kus?** | Where's a taxi? | *(crust)* |
+| **Otelô-lô, mis prēu?** | How much to the hotel? | *-lô* = to; agree the fare **before** you get in. |
+| **Sīn, bidô. Püsām.** | Here, please. Stop. | *püsām* = stop *(crust)*. |
+| **Busô Futa-lô, kus?** | Which bus to Futa? | at the *jaamô* (station); buy a *piletô* (ticket). |
+
+## 5 · Directions
+
+Structure is topic-first: name the place, then **kus?** "where?"
+
+| Say | Meaning |
+|:---|:---|
+| **Otelô, kus?** | Where's the hotel? |
+| **Lumo / banka / farmasī, kus?** | Where's the market / bank / pharmacy? *(banka, farmasī crust)* |
+| **Deret. / Eskerrē. / Nūnū sāl.** | Right. / Left. / Straight on (right there). |
+| **Kaug? — Nē, prop.** | Far? — No, near. |
+
+## 6 · Staying — the hotel
+
+| Say | Meaning |
+|:---|:---|
+| **Kambôr, tri pǟvô.** | A room, three days. *(kambôr = room)* |
+| **Wifī um? Mis prēu?** | Is there wi-fi? How much? *(wifī crust)* |
+| **Vôtī, bidô.** | The key, please. *(vôtī crust)* |
+| **Ndiyam um jôvā?** | Is the water good (drinkable)? |
+
+## 7 · Eating out
+
+The coast's own plate is **cēb ja jën** (rice and fish — *ceebu jën*); on the river you'll meet
+**kosam** (milk) and **māro** (rice) everywhere. As a guest you *will* be offered food (*terānga*) —
+accept at least a little; a flat refusal stings.
+
+| Say | Meaning |
+|:---|:---|
+| **Mä sōv cēb ja jën.** | I'd like the rice and fish. |
+| **Ndiyam, bidô. / Kafē, tē.** | Water, please. / Coffee, tea. *(kafē, tē crust)* |
+| **Mä äb menjā [X].** | I don't eat [X]. |
+| **Um jôvā sūr! Jārāma.** | It's very good! Thank you. |
+| **Prēu, bidô.** | The bill, please. |
+
+## 8 · Health & trouble
+
+| Say | Meaning |
+|:---|:---|
+| **Mä um malālt.** | I'm ill. *(malālt crust)* |
+| **Mä sōv arst.** | I need a doctor. *(arst crust)* |
+| **Valū sīn.** | It hurts here. *(valū = pain, crust)* |
+| **Farmasī, kus?** | Where's a pharmacy? |
+| **Politsī, bidô!** | Police, please! *(crust)* |
+| **Fonô, bidô? Mä sōv fonômus.** | A phone, please? I need to make a call. *(crust)* |
 
 ---
 
-## For the traveler, in one breath
+# 201 — Getting by
 
-Greet before you ask (*Jam?*). Say *jārāma*, not *dankô*. Accept the food. Bargain at the *lumo*
-with a smile. Bless the road when you part (*Lǟdô jam-k*). Do that, and the *terānga* is yours.
+Once you're past survival, this is what turns a visitor into a guest.
 
-*The grammar behind every frame here is the coursebook (`../coursebook/`); the content roots are in
-lexicons [R](lexicon-R-river-floodplain-agriculture.md) / [P](lexicon-P-pastoral-cattle-kin-body-weather.md) /
-[G](lexicon-G-gold-trade-craft-griot-hospitality.md); how to build longer prose is
-[`composition.md`](composition.md); the narrative counterpart is [`reader-flood.md`](reader-flood.md).*
+## 9 · The longer greeting (and why it's worth it)
+
+The full greeting asks after the household — and, up the river among herders, the cattle. Taking the
+extra beats is the single biggest thing that warms people to you.
+
+> — *Jam?* — *Jam. Sä, jam?* — *Jam kôg. Wuro jam?* (the household well?) — *Jam, jam.*
+
+Among herders you may hear **Nāyi jam?** "the cattle well?" — answer *Jam* and you've made a friend.
+
+## 10 · Small talk & making friends
+
+| Say | Meaning |
+|:---|:---|
+| **Mä um [name]. Sä, ken?** | I'm [name]. And you? |
+| **Sä tulē kus-lt? — Mä tulē [place]-lt.** | Where are you from? — I'm from [place]. |
+| **Mä um turistô. Soninka e Toro um jôvā sūr.** | I'm a visitor. Soninka & Toro is wonderful. |
+| **Sä um giɗo.** | You're a friend. *(giɗo — said, and meant)* |
+| **Demā, mä tulē jällü.** | I'll come again tomorrow. |
+
+## 11 · Etiquette that a course should tell you
+
+- **Greet before business — always.** (§1. It bears repeating; it's that central.)
+- **Right hand.** Eat, give, and receive with the right hand; the left is impolite for these.
+- **Shoes off** entering a home or a prayer space.
+- **Friday** is the prayer day — many shops close around midday; plan the market for the morning.
+- **Ask before photographing people** — especially elders and a **jeli** (griot). A smile and
+  *"Um jôvā?"* ("is it OK?") goes a long way.
+- **Bargain only at the *lumo*** (open market) and with taxis; in shops with marked prices, don't.
+- **Accept hospitality.** Offered tea, food, or a seat — take at least a token. Refusing outright
+  reads as rejecting the person, not the cup.
+
+## 12 · Parting
+
+| Say | Meaning |
+|:---|:---|
+| **Lǟdô jam-k.** | Go in peace. (to the one leaving) |
+| **Saistā jam-k.** | Stay in peace. (to the one staying) |
+| **Jam wuro-lô.** | Regards to the family. |
+| **Jam, jam.** | Take care — you can't say it too often. |
+
+---
+
+## The pocket card — ten phrases to leave the airport with
+
+*Jam?* (hello) · *Jārāma* (thanks) · *Bidô* (please) · *Yāfo* (sorry) · *Mä äb faam* (I don't
+understand) · *Mis prēu?* (how much) · *…kus?* (where's…?) · *Mä sōv…* (I'd like…) · *Abī!* (help) ·
+*Lǟdô jam-k* (goodbye, be well).
+
+*This is the phrase layer; how the grammar behind it works is `../coursebook/`; the shared modern
+crust is common to all three coast standards (see `../saharannaise/` for the Atlanta/Adrāra side);
+the vocabulary roots are lexicons [R](lexicon-R-river-floodplain-agriculture.md) /
+[P](lexicon-P-pastoral-cattle-kin-body-weather.md) /
+[G](lexicon-G-gold-trade-craft-griot-hospitality.md); a worked conversation is
+[`dialogue-arrival.md`](dialogue-arrival.md).*
