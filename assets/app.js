@@ -27,6 +27,8 @@
     ordinance:   { title: "Harbor ordinance",   sub: "A port by-law (civic-legal)",    file: "reader/harbor-ordinance.md",       group: "Reader" },
     ecclesiastes:{ title: "Ecclesiastes 1",     sub: "Wisdom register (translated)",   file: "reader/ecclesiastes-1.md",         group: "Reader" },
     workday:     { title: "A working day",      sub: "Daily-life prose stretch (metrolect)", file: "reader/daily-life-workday.md", group: "Reader" },
+    newcomer:    { title: "The newcomer's week", sub: "Code-switching: a learner arrives",   file: "reader/newcomer-first-week.md", group: "Reader" },
+    weekend:     { title: "The weekend",        sub: "Daily-life stretch II (play & errands)", file: "reader/weekend.md",          group: "Reader" },
     dialects:    { title: "Dialects",          sub: "Overview",                     file: "dialects/README.md",               group: "Dialects" },
     metrolect:   { title: "Metrolect",         sub: "Metroplex standard",           file: "dialects/metrolect/metrolect.md",  group: "Dialects" },
     inland:      { title: "Inland",            sub: "Conservative rural",           file: "dialects/inland/inland.md",        group: "Dialects" },
