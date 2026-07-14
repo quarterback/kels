@@ -27,9 +27,10 @@ college/*-BRIEF.md                  ← briefs for the delegate, corpus, and dai
 bundles/                            ← self-contained agent kits (domain / corpus / grammar / translation)
 saharannaise/                       ← the Atlantic co-standard (Kēļs Dīwān): Hassaniya/Zenaga reroot + COMMON-REGISTER spine
 congolaise/                         ← the Riverine co-standard (Kēļs Penc): Pulaar/Soninke/Wolof fused creole (Confluence Principle)
-world/                              ← the settled world: geography, boundaries, gazetteer, toponymy, exonyms, the African bloc
-reader/                             ← finished corpus texts (recipe, dialogue, register showcase)
-dialects/                           ← regional overlays on the standard (metrolect, inland)
+mare/                               ← the Ocean co-standard of the Meridian States: sanded grammar (Maritime Amendment), realm phrasebook, Canarian overlay
+world/                              ← the settled world: geography, boundaries, gazetteer, toponymy, exonyms, the African bloc, the Meridian States
+reader/                             ← finished corpus texts (recipe, dialogue, register showcase, the all-coasts phrasebook)
+dialects/                           ← regional overlays on the standard (metrolect, inland, tristine)
 data/dictionary.tsv                 ← machine-readable headword → gloss (generated)
 data/headwords.txt                  ← flat headword list (generated)
 data/reverse-index.md               ← English → Nelôxi index (generated)
@@ -56,14 +57,15 @@ Nothing is canon until merged.
 
 ## Reference grammar, in brief
 
-Finnic grammar under four-way loan contact: agglutinative cases, vowel harmony, no verb agreement, pre-verbal negation *äb*, a bare-stem imperative and hortative *-m*. Base-12 (dozenal) numbers with Slavic digits, a 24-hour clock, and a Low German merchant calendar. The productive derivational affixes are **-ji, -õr/-ôr, -in, -mus/-mys, -ū, -stā, -ldā, -ām/-äm, -tū/-ty** (plus causative -tā and the comparative -mi). Orthography uses **ô** [ɤ] (not õ, retired v4.0); x = [ʃ], or [ks] in proper nouns (§47). Two dialects: the metroplex metrolect (standard) and the conservative inland.
+Finnic grammar under four-way loan contact: agglutinative cases, vowel harmony, no verb agreement, pre-verbal negation *äb*, a bare-stem imperative and hortative *-m*. Base-12 (dozenal) numbers with Slavic digits, a 24-hour clock, and a Low German merchant calendar. The productive derivational affixes are **-ji, -õr/-ôr, -in, -mus/-mys, -ū, -stā, -ldā, -ām/-äm, -tū/-ty** (plus causative -tā and the comparative -mi). Orthography uses **ô** [ɤ] (not õ, retired v4.0); x = [ʃ], or [ks] in proper nouns (§47). Three homeland dialects: the metroplex metrolect (standard), the conservative inland, and the Adriatic Tristine port register.
 
-The language is also **pluricentric**, across **three seats**. Alongside the Metropolitan standard (the coursebook) stand two co-standards, each keeping the identical Nelôxi grammar and rerooting only its domestic lexicon, each self-contained (own seat, own separately-counted lexicon) and linking back to core canon rather than editing it:
+The language is also **pluricentric**, across **four seats**. Alongside the Metropolitan standard (the coursebook) stand three co-standards, each self-contained (own seat, own separately-counted lexicon) and linking back to core canon rather than editing it:
 
 - **Saharannaise** (`saharannaise/`) — the co-standard of **Atlanta**, Nelôxia's sovereign sister state on the Atlantic Saharan coast (see `world/atlanta-lore.md`), rerooted in Hassaniya Arabic and Zenaga Berber (Afro-Asiatic). Seat: the **Kēļs Dīwān**, headed by the **Amīn**. See `saharannaise/saharannaise.md`.
 - **Congolaise** (`congolaise/`) — the co-standard of **Soninka & Toro**, the Senegal-River / Sahel state of the African bloc (see `world/african-bloc.md`), rerooted in Pulaar, Soninke-Mande, and Wolof (Niger-Congo). Where Saharannaise reroots into one substrate, Congolaise is a **three-tributary fused creole** governed by its own doctrine, the **Confluence Principle**. Seat: the **Kēļs Penc**, headed by the **Ardo**. See `congolaise/congolaise.md`.
+- **Maré** (`mare/`) — the co-standard of the **Meridian States**, the sovereign transoceanic nation backed by Nelôxia (see `world/meridian-states.md`). The African co-standards keep the grammar and change the words; Maré inverts this — it keeps the Metropolitan word-stock and **sands the grammar** in one closed, jointly-ratified set of bends (the **Maritime Amendment**: leveled case, `ti/fin/kē` particle tense, the deck loan-layer). Ten-plus territorial dialects ride on it, deepest the Spanish-fused **Canarian Maré**. Seat: proposed as the **Kēļs Vakt**, headed by the **Lōts**. See `mare/mare.md`.
 
-One grammar, one orthographic agreement (`saharannaise/COMMON-REGISTER.md`), three divergent dictionaries — the Lisbon / Brasília / Luanda settlement of this language.
+One grammar (with one licensed maritime bend), one orthographic agreement (`saharannaise/COMMON-REGISTER.md`), four divergent dictionaries — the Lisbon / Brasília / Luanda / Macau settlement of this language.
 
 ## Register
 

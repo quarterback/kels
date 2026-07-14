@@ -26,6 +26,12 @@ inside the metroplex is a *register gradient*, not a dialect boundary:
 | **inland/** | Inland Nelôxi (*Nurôkēļ*) | The one true dialect boundary — everything beyond commuter reach. Conservative, Finnic-heavy, loan-resistant, longest/most-harmonized forms. |
 | **tristine/** | Tristine Nelôxi | The Adriatic port dialect (Triest, the Friuli littoral, the Dalmatian coast). Keeps the full grammar and the domestic core; tilts two thin **Romance-Venetian** layers — the **courtesy words** and the **port-legal-commercial register** (the "two-move" pattern: a Latinate regulated verb + an added documentary element, *transitā … manifestôn*). A dialect, not a reroot; it may bend a standard rule where the register needs it. |
 
+**Script overlays** are a separate, thinner kind of overlay: same language, different writing
+system. **Uusatôm** (Odessa), the founding-diaspora Black Sea city, writes Metropolitan Nelôxi in
+full Cyrillic — `uusatom/uusatom-cyrillic.md` — a two-script border tradition, not a spoken
+dialect. (Its mixed-script sibling, Magau's hanzi + Latin, belongs to Maré and lives at
+`../mare/magau-script.md`.)
+
 The standard (coursebook) is the prestige register **because it is the capital's**,
 not because it is anyone's mother tongue. Königsberg is bigger and where most
 people actually speak, but law and schooling use the capital end of the metrolect.
