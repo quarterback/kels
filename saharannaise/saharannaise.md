@@ -200,6 +200,11 @@ mainland by region tags, per `COMMON-REGISTER.md`.
 - `lexicon-E-caravan-faith-guest.md` — Domain E, Batch 5, the registers of movement and
   obligation — the caravan and crossing, religious life, and *ḍiyāfa* the guest-law (19 new
   headwords); the batch that grounds Atlanta's character as the safe place in a named institution.
+- `lexicon-F-courtesy-greeting-travel.md` — Domain F, Batch 6, the courtesy & greeting register
+  (16 headwords): *salām, lābās, marxaba, barka, afak, smax, ṣaxb, slāma, inxāllah* — the
+  traveler's human layer, surfaced by the coast-wide phrasebook.
+- `dialogue-arrival.md` — the modern arrival dialogue (*Arriving in Daxla*): taxi, hotel, café —
+  the Atlantic twin of the Congolaise `../congolaise/dialogue-arrival.md`.
 - `composition.md` — **how to write connected Saharannaise prose**: the spine does the grammar,
   the reroot does the content; tiers, the compound ban, hybrid morphology, a worked paragraph.
   The Atlantic counterpart of `../grammar/14-composition.md`.
