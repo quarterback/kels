@@ -44,6 +44,7 @@ Canon v5.77. Full list in data/headwords.txt.
 - **kui** — how
 - **nagu** — like, as
 - **ehk** — or; perhaps
+- **tambē** — also, too, as well (*Mä tambē tulē* "I'm coming too")
 - **nixō** — anyway, in any case
 - **omõt** — yet, all the same
 - **omõtõ** — however
@@ -107,6 +108,8 @@ Canon v5.77. Full list in data/headwords.txt.
 - **vastü** — against; in reply
 
 ## Light verbs
+- **makā** — to do, to make (general light verb; *Mis sä makā?* "what are you doing?")
+- **klingā** — to ring, chime, sound (a bell, alarm, or phone)
 - **um** — to be (present)
 - **ūli** — was, were
 - **sāmā** — to get, receive
@@ -127,6 +130,7 @@ Canon v5.77. Full list in data/headwords.txt.
 - **pidā** — must, to have to
 
 ## Postpositions
+- **per** — for, intended for, for the benefit/use of (postp.; takes linking **-s**: *läpxôs per* "for the child"). Distinct from *eest* (in exchange for).
 - **al** — under (postp.)
 - **jeds** — in front of (postp.)
 - **enne** — before (in time), earlier (postp./adv.)

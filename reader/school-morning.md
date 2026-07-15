@@ -49,7 +49,7 @@ teacher to pupil, pupil to pupil. Metrolect; canon-only (v5.77); gaps harvested 
 
 **5 · Kōju-tȫ.**
 
-> Lopõks talçāji dī: "Demāks: lugē livrôt, lehtô tri kuni peñç. Ja kirjā rūnôd, kôg rūnô düna kärt."
+> Lopõks talçāji dī: "Demās per: lugē livrôt, lehtô tri kuni peñç. Ja kirjā rūnôd, kôg rūnô düna māl."
 > Kôg läpx itkô: "Liig mult!" — "Nē, nē. Petīt-petīt. Sä vôī sen." Klokkô lopõks, ja mēg lǟdô
 > kōju. Esmõ pǟvô um valmis — jedôntô pǟvô mult pǟvôlt.
 
@@ -72,7 +72,7 @@ teacher to pupil, pupil to pupil. Metrolect; canon-only (v5.77); gaps harvested 
   (doesn't penalize, teaches) — canon *fīnā* "to fine/penalize" against *ôpā* "to teach," no
   coinage needed to draw the line.
 - **Numbers live here first:** *xeç ja xeç um düna* (six and six is twelve) — the dozenal system
-  learned on the page, and *düna kärt* "twelve times" for repetition.
+  learned on the page, and *düna māl* "twelve times" for repetition (the multiplicative **māl**).
 - **Child-register warmth:** *vabõ, vabõ* (never mind), *petīt-petīt* (little by little), *sä vôī
   sen* (you can do it) — the exact consolation formulae, all attested.
 - **One clean derivation on display:** *pēl-tīt* "playtime" (*pēl* play + *tīt* time) and
@@ -80,16 +80,15 @@ teacher to pupil, pupil to pupil. Metrolect; canon-only (v5.77); gaps harvested 
 
 ## Gap-list (harvested; the Rector rules — nothing here is canon)
 
-| # | Gap | Where it pinched | Proposal (shaped, marked) |
+| # | Gap | Where it pinched | Status |
 |---|:---|:---|:---|
-| 1 | **"to ring" (bell / phone)** | §1/§4 **klingā** for the bell — used flagged | Low German *klingen* → **klingā**; **the same verb closes the phone-ring gap** from `daily-life-workday.md` #1 — one ruling, two texts ⟨escalate⟩ |
-| 2 | **"times" (multiplicative, ×N)** | §5 **düna kärt** "twelve times" — used flagged | Low German *-mal* → **kärt** *(proposal)* ⟨or bless a count idiom⟩ |
-| 3 | **benefactive "for" (again)** | §5 *demāks* "for tomorrow" — same hole as II/III | the recurring structural gap ⟨escalate — now four texts⟩ |
+| 1 | **"to ring" (bell / phone)** | §1 *klokkô klingā* "the bell rings" | ✅ **CLOSED** — **klingā** (Low German *klingen*); the one verb serves bell, alarm, and phone |
+| 2 | **"times" (multiplicative, ×N)** | §5 *düna māl* "twelve times" | ✅ **CLOSED** — **māl** after a bare cardinal (`../grammar/12-numbers.md`) |
+| 3 | **benefactive "for"** | §5 *demās per* "for tomorrow" | ✅ **CLOSED** — postposition **per** (+ linking *-s*) |
 | 4 | **"to whisper"** | §3 paraphrased *dī tasõ* "say quietly" — no coinage | ⟨open — bless the paraphrase, or coin a dedicated verb by §79⟩ |
 
-*Register: metrolect classroom. Every word bar the flagged proposals (klingā, kärt) and the
-benefactive dodge was checked against canon before it went on the page — including three that a
-first draft had wrongly guessed and audit corrected to canon: page **lehtô**, board **lōdô**,
-whisper → paraphrase. Companion pieces: `daily-life-workday.md`, `weekend.md`,
-`newcomer-first-week.md`. The recurring benefactive and bell/phone-ring gaps now span four texts —
-the seam is telling the Rector exactly what to rule next.*
+*Register: metrolect classroom. The bell-ring, times, and benefactive gaps this text opened are
+now filled in canon (**klingā**, **māl**, **per**) and the prose above uses them. Every other word
+was checked against canon — including three a first draft wrongly guessed and audit corrected:
+page **lehtô**, board **lōdô**, whisper → paraphrase. Companion pieces: `daily-life-workday.md`,
+`weekend.md`, `newcomer-first-week.md`, `doctor-visit.md`.*

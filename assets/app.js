@@ -31,6 +31,7 @@
     weekend:     { title: "The weekend",        sub: "Daily-life stretch II (play & errands)", file: "reader/weekend.md",          group: "Reader" },
     school:      { title: "A morning at school", sub: "Daily-life: the classroom register", file: "reader/school-morning.md",         group: "Reader" },
     doctor:      { title: "At the doctor",      sub: "Daily-life: the clinic register",   file: "reader/doctor-visit.md",           group: "Reader" },
+    wetdry:      { title: "Wet & dry",          sub: "The moisture field (domain showcase)", file: "reader/wet-and-dry.md",           group: "Reader" },
     dialects:    { title: "Dialects",          sub: "Overview",                     file: "dialects/README.md",               group: "Dialects" },
     metrolect:   { title: "Metrolect",         sub: "Metroplex standard",           file: "dialects/metrolect/metrolect.md",  group: "Dialects" },
     inland:      { title: "Inland",            sub: "Conservative rural",           file: "dialects/inland/inland.md",        group: "Dialects" },

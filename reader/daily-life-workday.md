@@ -13,11 +13,11 @@ a person talking.*
 
 **1 · Matī.**
 
-> Klôk xeç mä ärkā, agā mä tõusô alõs klôk sedôm. Ajēr mä magai tard, ja nū mä um unü. Tems um
+> Klokkô klingā klôk xeç, ja mä ärkā, agā mä tõusô alõs klôk sedôm. Ajēr mä magai tard, ja nū mä um unü. Tems um
 > kylm, ja vimõ jällü. Omīkel mä jōdô kafēt ja sȫ pat vôidôk. Naisô veel magā; läpx jubā kōrrô
 > kôgõl. Mä dressā vaikõ, votā klamôtôn, ja lǟdô.
 
-> At six I wake up, but I don't get up till seven. Yesterday I went to sleep late, and now I'm
+> The alarm rings at six, and I wake up, but I don't get up till seven. Yesterday I went to sleep late, and now I'm
 > sleepy. The weather is cold, and it's raining again. At breakfast I drink some coffee and eat
 > bread and butter. The wife's still asleep; the child is already running everywhere. I dress
 > quietly, grab my coat, and go.
@@ -56,11 +56,11 @@ a person talking.*
 **5 · Maçô.**
 
 > Vespôrôl um maçô: sitātôs selkô pēlā. Mä ja tri amīkôd nǟgô sen barôl. Esmõks mēg kaotā,
-> nolô–dva. "Nixō," dī amīk, ja komprā olūtôt. Agā tôl — voolpöörd! Mēg sāmā dva mērkôd, ja
+> nolô–dva. "Nixō," dī amīk, ja komprā olūtôt kôgôs per. Agā tôl — voolpöörd! Mēg sāmā dva mērkôd, ja
 > lopõks — tri! Mēg vôitā, tri–dva; kôg barô tõusô ja xumā. Sellü vespôr!
 
 > In the evening there's the match: the city's team is playing. Three friends and I watch it at
-> the bar. First we're losing, nil–two. "Oh well," says a friend, and buys a round. But then — the
+> the bar. First we're losing, nil–two. "Oh well," says a friend, and buys beer for everyone. But then — the
 > momentum-swing! We get two goals, and at the last — a third! We win it, three–two; the whole bar
 > is on its feet roaring. What an evening!
 
@@ -97,19 +97,17 @@ a person talking.*
 
 ## Gap-list (harvested from the prose — the Rector rules; nothing here is canon)
 
-| # | Gap | Where it pinched | Proposal (shaped, marked) |
+| # | Gap | Where it pinched | Status |
 |---|:---|:---|:---|
-| 1 | **"to ring / go off"** (phone, alarm) | §4 dodged with *tulē fonômus* "a call comes"; the morning wanted "the alarm rings" | verbalize from the audio field, or Low German *klingen* → **klinkā** *(proposal, Low German)* |
-| 2 | **"colleague, workmate"** | §3–4 hides behind *mēg* and *kekõ*; real offices name them | international crust → **kollēgô** *(proposal, late-stratum)*, or compound *tȫamīk* |
-| 3 | **"to watch"** (attend to a match/screen, ≠ *nǟgô* "see") | §5 *nǟgô sen barôl* reads "see," not "watch" | Low German *kieken* → **kīkā** *(proposal, Low German — the harbor-colloquial quarry fits)* |
-| 4 | **benefactive "for"** — "buys beer *for everyone*" | §5 rephrased to plain *komprā olūtôt*; *eest* is exchange-"for," goal *-lô* is motion | ⟨structural ruling needed: which strategy carries the benefactive⟩ |
-| 5 | **"customer / client"** (of a service, ≠ *komprāji* "buyer") | §4 used *komprāji*, slightly off | sense-extension ruling on *komprāji*, or Romance *klientô* *(proposal, late-stratum)* |
+| 1 | **"to ring / go off"** (bell, phone, alarm) | §1 *klokkô klingā* "the alarm rings" | ✅ **CLOSED** — **klingā** (Low German *klingen*) |
+| 2 | **benefactive "for"** | §5 *komprā olūtôt kôgôs per* "buys beer for everyone" | ✅ **CLOSED** — postposition **per** (+ linking *-s*) |
+| 3 | **"colleague, workmate"** | §3–4 hides behind *mēg* and *kekõ*; real offices name them | international crust → **kollēgô** *(proposal, late-stratum)*, or compound *tȫamīk* ⟨open⟩ |
+| 4 | **"to watch"** (attend to a match/screen, ≠ *nǟgô* "see") | §5 *nǟgô sen barôl* reads "see," not "watch" | Low German *kieken* → **kīkā** *(proposal, Low German)* ⟨open⟩ |
+| 5 | **"customer / client"** (of a service, ≠ *komprāji* "buyer") | §4 used *komprāji*, slightly off | sense-extension ruling on *komprāji*, or Romance *klientô* *(proposal)* ⟨open⟩ |
 | 6 | **"score / the result"** (running tally) | §5 said it bare: *nolô–dva* | press register wants a word; cf. existing *nolôpunktô* deadlock ⟨open⟩ |
-| 7 | **crowd "to roar / cheer"** | §5 stretched *xumā* (street-noise verb) to the bar crowd | sense-extension ruling on *xumā*; it fits the metaphor field ⟨form check⟩ |
-| 8 | **"alarm clock"** | §1 avoided | free compound **ärkāklôk** (wake-clock) — module 04, may not need a ruling ⟨confirm⟩ |
+| 7 | **crowd "to roar / cheer"** | §5 stretched *xumā* (street-noise verb) to the bar crowd | sense-extension ruling on *xumā* ⟨open⟩ |
 
-*Register: metrolect throughout (`../dialects/metrolect/metrolect.md`). Protocol: the brief is
-`../college/DAILY-LIFE-BRIEF.md`; proposals above follow the quarry doctrine
-(`../college/CREOLE-PRINCIPLE.md`) and await the Rector. Next stretches that would harvest the
-most: the weekend (play registers beyond the match), errands and money, and a newcomer's first
-week — the same day walked through by someone still learning the language.*
+*Register: metrolect throughout (`../dialects/metrolect/metrolect.md`). The ring and benefactive
+gaps this text opened are now filled in the coursebook (**klingā**, **per**) and the prose above
+uses them; the remaining rows await the Rector. Protocol: the brief is
+`../college/DAILY-LIFE-BRIEF.md`, the quarry doctrine `../college/CREOLE-PRINCIPLE.md`.*

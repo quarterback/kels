@@ -621,6 +621,7 @@ klikā
 klimprā
 klimô
 klimô-muutômus
+klingā
 klinçô
 klippô
 klokkô
@@ -698,6 +699,10 @@ kuidagü
 kuigü
 kuinā
 kuiv
+kuivdôt
+kuivstā
+kuivtā
+kuivtādôt
 kuivômus
 kukô
 kukôr
@@ -837,6 +842,8 @@ livrôkōt
 lohū
 lohūldā
 lombô
+lomp
+lompômus
 lop
 lopõks
 lopā
@@ -848,6 +855,7 @@ lugēmys
 Luterānô
 luts
 luu
+luukuiv
 luxô
 lypsômus
 lypsā
@@ -914,6 +922,8 @@ makrēl
 maks
 maksômus
 maksā
+makā
+mal
 malālt
 mandolīn
 manifest
@@ -947,6 +957,7 @@ merd
 merjagô
 merjälg
 merkuld
+mermärg
 mersü
 messô
 metāl
@@ -971,6 +982,7 @@ mortô
 mottô
 mrovô
 mrovôr
+mudmärg
 mudā
 muidôn
 muidõks
@@ -995,6 +1007,8 @@ mäg
 mäng
 mäntlô
 märg
+märgstä
+märgtā
 märktaul
 märkômus
 märkā
@@ -1014,6 +1028,7 @@ müük
 mā
 mādā
 māhl
+māl
 māld
 mārgô
 mārjā
@@ -1088,6 +1103,8 @@ nurô
 nurôr
 näutā
 nôglô
+nôrgdôt
+nôrgā
 nôrk
 Nôrô
 nôsô
@@ -1190,6 +1207,7 @@ pehmē
 pehā
 pekātô
 pelgô
+per
 perēm
 pestô
 pesä
@@ -1529,10 +1547,12 @@ snēā
 softbol
 softvēr
 sojā
+sokā
 sol
 solvômus
 solvā
 sool
+soppô
 spinô
 sportô
 sprott
@@ -1577,6 +1597,7 @@ suvi
 suô
 suônô
 svalô
+svamm
 svan
 svangôr
 svarmô
@@ -1604,6 +1625,7 @@ südost
 südvest
 sügä
 sügü
+sükeldôt
 sülü
 sümbrôk
 sünnitä
@@ -1632,6 +1654,7 @@ sōdāji
 sōla
 sōlakrūçô
 sōlavāgô
+sōlkuiv
 sōlô
 Sōme
 sōud
@@ -1748,6 +1771,8 @@ tõmbā
 tõusô
 tüdü
 tühjä
+tühjā
+tühjādôt
 tükä
 tāgô
 tām
@@ -1771,6 +1796,7 @@ tōn
 tōnô
 tūom
 tūļ
+tūļkuiv
 tūļā
 tǟs
 tȫ
@@ -1819,6 +1845,7 @@ valū
 vana
 vanamǟr
 vanapǟr
+vand
 vangô
 vanlü
 vantô
@@ -1846,6 +1873,8 @@ verītä
 vesperô
 vespôr
 vest
+vettā
+vettādôt
 vetä
 veç
 veçduhô

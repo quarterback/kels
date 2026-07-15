@@ -10,7 +10,7 @@ shows its numbers. Canon-only (v5.77); gaps harvested below.*
 **1 · Sônnavend, matī — the errands.**
 
 > Sônnavendôl mä magā kuni klôk deveñç — nagu kuning! Tôl turgôlô. Mä komprā pat, vôidôt, kalāt,
-> ja kōkôn läpxôlô. Kôg maksā elva rā; mä maksā dünak ja sāmā jedôn drobô. Komprāji tēdô män:
+> ja kōk läpxôs per. Kôg maksā elva rā; mä maksā dünak ja sāmā jedôn drobô. Komprāji tēdô män:
 > "Moin! Samā nagu alatü?" — "Samā nagu alatü."
 
 > On Saturday I sleep till nine — like a king! Then to the market. I buy bread, some butter, some
@@ -29,18 +29,18 @@ shows its numbers. Canon-only (v5.77); gaps harvested below.*
 **3 · Strāndôl — the sea is free.**
 
 > Pǟrast mēg kǟvô strāndôlô. Sol! Lopõks! Mer um kylm, agā läpx vōigā nagu kalā; mä vōigā hetk
-> ja tôl istā rāndôl. Naisô lugē; mä nǟgô lainôd, ja — midagü. Se um se: midagü, kôg pǟvô.
+> ja tôl istā rāndôl. Naisô lugē; mä nǟgô lainôd, ja makā midagü. Se um se: makā midagü, kôg pǟvô.
 > Sellü tȫ mä volē elkü pǟvô.
 
 > Afterward we walk to the beach. Sun! At last! The sea is cold, but the kid swims like a fish;
-> I swim for a moment and then sit on the shore. The wife reads; I watch the waves, and — nothing.
-> That's the whole thing: nothing, all day. That's the job I'd take every day.
+> I swim for a moment and then sit on the shore. The wife reads; I watch the waves and do nothing.
+> That's the whole thing: doing nothing, all day. That's the job I'd take every day.
 
 **4 · Vespôrôl — guests, music, the long table.**
 
 > Vespôrôl tulē külalüd: nabôr, dva amīkôd, ja vana talçāji, ken parlā liig mult agā tēdô kôgõn.
 > Mēg sȫ, jōdô olūtôt ja vīt. Amīk spēlā instrumentôn, naisô kantā vana kançōn, ja lopõks kôg
-> kantā — äb ôigus, agā rôimõ. Läpx dansā kuni tä langô. "Skōl!" — "Skōl!" Havs tulē tard.
+> kantā — mal, agā rôimõ. Läpx dansā kuni tä langô. "Skōl!" — "Skōl!" Havs tulē tard.
 
 > In the evening the guests come: the neighbor, two friends, and the old teacher who talks too
 > much but knows everything. We eat, we drink beer and wine. A friend plays, the wife sings an
@@ -59,13 +59,13 @@ shows its numbers. Canon-only (v5.77); gaps harvested below.*
 
 **6 · Ja tôl — mōndag.**
 
-> Vespôrôl mä valmistā klamôtôd demāks? — demā eest? — demā. Nixō: mōndag tulē, muidū. Agā nū
+> Vespôrôl mä valmistā klamôtôd demās per. Nixō: mōndag tulē, muidū. Agā nū
 > kōt um vaikõ, läpx magā, ja mēg istā veel hetk. "Jôvā vekk?" dī naisô. "Jôvā vekk." Se um kôg,
 > ja se piisā.
 
-> In the evening I lay out clothes for — tomorrow? (*for* tomorrow? — tomorrow.) Anyway: Monday's
-> coming, of course. But right now the house is quiet, the kid's asleep, and we sit a moment
-> longer. "A good week?" says the wife. "A good week." That's all, and it's enough.
+> In the evening I lay out clothes for tomorrow. Anyway: Monday's coming, of course. But right now
+> the house is quiet, the kid's asleep, and we sit a moment longer. "A good week?" says the wife.
+> "A good week." That's all, and it's enough.
 
 ---
 
@@ -74,30 +74,32 @@ shows its numbers. Canon-only (v5.77); gaps harvested below.*
 - **Money in dozenal, in passing:** *elva rā; maksā dünak* "pay with a twelve" (comitative *-k*
   as instrument), *jedôn drobô* "one back in change" — the base-12 economy working in a market
   sentence, no ceremony.
-- **The one real dodge is the benefactive** — *demāks? — demā eest? — demā* in §6, where the
-  narrator visibly can't settle which case carries "for tomorrow" and gives up. That hesitation
-  is honest because the gap is real (see gap-list); it's the most realistic daily-life register
-  there is, a fluent speaker routing around a hole the language actually has.
-- **Warmth registers:** *nagu kuning* (like a king), *nagu kalā* (like a fish), *äb ôigus agā
-  rôimõ* (not right, but happy), *kuni tä langô* (till she drops), *se piisā* (it's enough) —
-  small-scale figurative language from attested words, no coinage.
+- **The benefactive, now canon:** *kōk läpxôs per* "a cake for the kid" (§1) and *klamôt demās
+  per* "clothes for tomorrow" (§6) — the postposition **per** (`../coursebook/` Part One) takes
+  the linking **-s** and marks the intended recipient, cleanly distinct from *eest* "in exchange
+  for." An earlier draft dodged this hole; the ruling filled it.
+- **do/make and bad, now canon:** *makā midagü* "do nothing" (§3) and *kantā mal* "sing badly"
+  (§4) — the general verb **makā** and the evaluative **mal** (the missing pole of *jôvā*) landed
+  in the same ruling. The language can now answer *Mis sä makā?* "what are you doing?"
+- **Warmth registers:** *nagu kuning* (like a king), *nagu kalā* (like a fish), *mal agā rôimõ*
+  (badly but happily), *kuni tä langô* (till she drops), *se piisā* (it's enough) — small-scale
+  figurative language, no coinage.
 - **The play and house lexicons hold:** *spēlā instrumentôn, kantā kançōn, dansā, pēlā, vōigā,
   kalāstā, skōl* for leisure; *pesä* (wash), *etāxô* (floor), *vī* (wine), *finest, kambôr,
-  kōk* for the home — all already canon. Leisure and the household needed almost no new words.
+  kōk* for the home — all already canon.
 
-## Gap-list (harvested; the Rector rules — nothing here is canon)
+## Gap-list (updated — the ruling that followed this text closed the top three)
 
-| # | Gap | Where it pinched | Proposal (shaped, marked) |
+| # | Gap | Where it pinched | Status |
 |---|:---|:---|:---|
-| 1 | **benefactive "for"** | §1 *kōkôn läpxôlô* leaned on goal *-lô*; §6 the narrator openly can't settle *demāks / demā eest / demā* | same structural ruling as `daily-life-workday.md` gap #4 — the one dodge that is a *real* gap ⟨escalate⟩ |
-| 2 | **"to do / make" (general)** | **verified absent** (0 hits in headwords; only bound senses *selgôstā, lepā, valmistā* exist). The prose routes around it — *naisô dī kus, mä panā sāl*; "doing nothing" becomes bare *midagü* — but a language cannot answer *"What are you doing?"* without it | the single biggest light-verb hole in canon ⟨escalate — rule before the next stretch⟩ |
-| 3 | **"bad / badly"** | **verified absent** (only *flūk* "bad luck"); §4's "singing badly" became *äb ôigus* "not right" | the missing pole of *jôvā*; basic evaluative pair incomplete ⟨escalate⟩ |
-| 4 | **"to rest / take rest"** | §3 said it by picture (bare *midagü* "nothing") | ⟨open — or bless the idiom and skip the verb⟩ |
-| 5 | **"like/love (a thing)"** | §3 wanted "I love this"; said *sellü tȫ mä volē* (want) | ⟨open — the affection verb for things vs people⟩ |
-| 6 | **"weekend" as a word** | the title had to say *sônnavend ja sôndag* | compound **vekklop** (week + close/end)? ⟨needs an "end" noun ruling first⟩ |
+| 1 | **benefactive "for"** | §1 *kōk läpxôs per*; §6 *klamôt demās per* | ✅ **CLOSED** — postposition **per** (+ linking *-s*), distinct from *eest* |
+| 2 | **"to do / make"** | §3 *makā midagü* "do nothing" | ✅ **CLOSED** — **makā** (Low German *maken*) |
+| 3 | **"bad / badly"** | §4 *kantā mal* "sing badly" | ✅ **CLOSED** — **mal** (Romance *mal*), invariant adj./adv. |
+| 4 | **"to rest / take rest"** | §3 said it by picture (*makā midagü* "do nothing") | ⟨open — or bless the idiom and skip the verb⟩ |
+| 5 | **"like/love (a thing)"** | §3 *sellü tȫ mä volē* (want) | ⟨open — the affection verb for things vs people⟩ |
+| 6 | **"weekend" as a word** | the title still says *sônnavend ja sôndag* | ⟨open — compound needs an "end" noun ruling first⟩ |
 
-*Register: metrolect. The narrator's one routing-around-a-gap (the benefactive, §6) is deliberate
-and reads as fluent speech, not error — contrast the newcomer's stumbles in
-`newcomer-first-week.md`, which are errors. Every other word here was checked against canon before
-it went on the page. Companion pieces: `daily-life-workday.md` (I), this (II); next in the series
-would be school and the doctor — the two registers no stretch has touched.*
+*Register: metrolect. This was the text that surfaced the benefactive, do/make, and bad/badly holes;
+the fills above are now in the coursebook, and the prose has been updated to use them — the corpus
+and the dictionary moving together. Companion pieces: `daily-life-workday.md` (I), this (II),
+`school-morning.md`, `doctor-visit.md`.*
