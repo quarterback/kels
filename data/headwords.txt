@@ -630,9 +630,9 @@ klinçô
 klippô
 klokkô
 klokkôtōl
-kloom
 klubô
 klôk
+klōm
 klȫtô
 klȫtôr
 klȫtôtū
@@ -1644,7 +1644,6 @@ sükeldôt
 sülü
 sümbrôk
 sünnitä
-süpk
 süstēm
 süsô
 süütä
@@ -1678,6 +1677,7 @@ sōudô
 sōv
 sōvā
 sūr
+sūv
 sȫ
 sȫk
 sȫtô
@@ -1791,7 +1791,6 @@ tühjä
 tühjā
 tühjādôt
 tükä
-tülm
 tāgô
 tām
 tārgô
@@ -1812,6 +1811,7 @@ tōl
 tōlpreverô
 tōn
 tōnô
+tūm
 tūom
 tūļ
 tūļkuiv
@@ -1965,7 +1965,7 @@ vīsū
 vīzô
 vōigômus
 vōigā
-vōk
+vōm
 vǟrpēlô
 vǟrpēlā
 vǟrô
