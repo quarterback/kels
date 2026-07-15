@@ -621,6 +621,7 @@ klikā
 klimprā
 klimô
 klimô-muutômus
+klingā
 klinçô
 klippô
 klokkô
@@ -914,6 +915,8 @@ makrēl
 maks
 maksômus
 maksā
+makā
+mal
 malālt
 mandolīn
 manifest
@@ -1014,6 +1017,7 @@ müük
 mā
 mādā
 māhl
+māl
 māld
 mārgô
 mārjā
@@ -1190,6 +1194,7 @@ pehmē
 pehā
 pekātô
 pelgô
+per
 perēm
 pestô
 pesä

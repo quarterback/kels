@@ -41,7 +41,7 @@ child in with a fever. This register keeps the **body lexicon** and the modal re
 
 **4 · Rohtô.**
 
-> Arst kirjā rohtô-papôrôn. "Ün rohtô, dva kärt pǟvôl — matī ja vespôr. Ja veç, mult veç. Kui läpx
+> Arst kirjā rohtô-papôrôn. "Ün rohtô, dva māl pǟvôl — matī ja vespôr. Ja veç, mult veç. Kui läpx
 > äb um jôvā pǟrast tri pǟvô, tulē jällü." — "Dankô, arst." — "Vabõ. Lǟdô, ja saistā jôvā, jūnôr!"
 > Läpx nū muigā: arst um äb hirmus pǟrast kôg.
 
@@ -83,16 +83,16 @@ child in with a fever. This register keeps the **body lexicon** and the modal re
 
 ## Gap-list (harvested; the Rector rules — nothing here is canon)
 
-| # | Gap | Where it pinched | Proposal (shaped, marked) |
+| # | Gap | Where it pinched | Status |
 |---|:---|:---|:---|
-| 1 | **"times" (×N)** | §4 *dva kärt pǟvôl* "twice a day" — same **kärt** gap as `school-morning.md` #2 | recurring; used flagged ⟨escalate⟩ |
-| 2 | **"less / fewer"** | §5 wanted "but less"; paraphrased *nū ainô petīt* "only a bit now" | comparative of *petīt* via canon *-mi* → **petītmi**? ⟨confirm the *-mi* rides *petīt*, module 10⟩ |
+| 1 | **"times" (×N)** | §4 *dva māl pǟvôl* "twice a day" | ✅ **CLOSED** — **māl** after a bare cardinal (`../grammar/12-numbers.md`) |
+| 2 | **"less / fewer"** | §5 paraphrased *nū ainô petīt* "only a bit now" | comparative of *petīt* via canon *-mi* → **petītmi**? ⟨confirm the *-mi* rides *petīt*, module 10⟩ |
 | 3 | **"serious / grave"** | §3 paraphrased *miskü sūr* "something big" | ⟨open — or bless *sūr* "big" for the gravity sense⟩ |
 | 4 | **"prescription" as one word** | §4 compounded *rohtô-papôr* | likely fine as a compound ⟨confirm, no ruling needed⟩ |
 
-*Register: metrolect clinic. Only **kärt** (the recurring ×N gap) went on the page unresolved; a
-first draft's guesses for "ask" and "less" were audit-corrected to canon **kysô** (ask) and a
-paraphrase. The symptom formula *Kus valū?* and the warmth kit (*vabõ, saistā jôvā, kohanü*) are
-shared with `school-morning.md` — the corpus is starting to reuse its own idioms, exactly the sign
-of a language settling. Companion pieces: `daily-life-workday.md`, `weekend.md`,
-`newcomer-first-week.md`, `school-morning.md`.*
+*Register: metrolect clinic. The ×N gap is now filled (**māl**) and §4 uses it; a first draft's
+guesses for "ask" and "less" were audit-corrected to canon **kysô** (ask) and a paraphrase. The
+symptom formula *Kus valū?* and the warmth kit (*vabõ, saistā jôvā, kohanü*) are shared with
+`school-morning.md` — the corpus reusing its own idioms, exactly the sign of a language settling.
+Companion pieces: `daily-life-workday.md`, `weekend.md`, `newcomer-first-week.md`,
+`school-morning.md`.*

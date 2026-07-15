@@ -68,11 +68,11 @@ The week is the distance between them.*
 **Sônnavend — the glue wins a haggle.**
 
 > Turgôl tä komprā kalāt. "Xeç rā," dī komprāji. — "Xeç? Liig mult!" — "Peñç, kullõ." — "Tri." —
-> "Xtiri. Lopõks." — "Nixō… sāli!" Kôg turg naurā — ja tä naurā. Jedôntô mäng, jedôntô vôitô.
+> "Xtiri. Lopõks." — "Nixō… sāli!" Kôg turg naurā, ja tä naurā tambē. Jedôntô mäng, jedôntô vôitô.
 
 > At the market she buys some fish. "Six rā," says the seller. — "Six? Way too much!" — "Five,
 > sweetie." — "Three." — "Four. Final." — "Oh well… deal!" The whole market laughs, and she laughs
-> too. First game, first win.
+> too (*tambē*). First game, first win.
 
 **Sôndag — vôrô, külalü.**
 
@@ -119,7 +119,7 @@ The week is the distance between them.*
 | 6 | **"barista / counter-hand"** | coined on the spot as **kafēmelk** after canon *busô-melk* | ⟨confirm the -melk pattern is productive, not a one-off joke⟩ |
 | 7 | **"Wednesday / Thursday…"** | day names: canon shows *mōndag, sônnavend, sôndag*; midweek written here as **kesknǟdôl / dônôrsdag / tīsdag / frīdag** on the Low German pattern | ⟨confirm the full Low German week series — likely already implied by the calendar ruling⟩ |
 | 8 | **"how do you say…?"** | the learner's most-used sentence; buildable (*kui dī…?*) | ⟨form check: bless *Kui dī X?* as the canonical formula⟩ |
-| 9 | **"also / too"** | Saturday wanted "and she laughs *too*" — restructured to avoid it; the Estonian form is off-limits and nothing in canon carries it | top-tier glue gap; quarry choice open ⟨structural — rule this soon, every text will need it⟩ |
+| 9 | **"also / too"** | Saturday: *ja tä naurā tambē* "and she laughs too" | ✅ **CLOSED** — **tambē** (Romance *també*); was already canon, now used |
 | 10 | **"café (the place)"** | Wednesday's scene had nowhere to stand (*barô* is the drinking house) | crust → **kafē-barô**, or international **kafeô** *(proposal, late-stratum)* |
 
 *Register: metrolect narration, learner-broken dialogue. Companion stretch: `daily-life-workday.md`
