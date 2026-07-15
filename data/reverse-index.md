@@ -1,14 +1,16 @@
 # Nelô kēļ — English → Nelôxi Reverse Index
 
-*Generated from the coursebook master dictionary (2003 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
+*Generated from the coursebook master dictionary (2052 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
 
 
 ## A
 
 a billet of split wood (Livonian) → **halgô**  
 a boat's wake (Livonian) → **jälg**  
+a borrowed dread — a fear or symptom that is not originally yours → **golvô**  
 a brawl → **bītsegas**  
 a certain (indefinite) → **mingü**  
+a change of heart that arrives on its own — coming round to a new view once enough time has passed → **tūm**  
 a draw → **empatô**  
 a failure (coarse) → **brāk**  
 a few → **mõnü**  
@@ -30,6 +32,7 @@ a shore or river spirit (folk religion) → **veçduhô**
 a solving → **solvômus**  
 a spree of violence → **violentskett**  
 a welcome → **sōdõmus**  
+a worry caught from someone else and carried as your own (folk origin, now forgotten: minding another's goldfish in a bag) → **golvô**  
 abbot (Romance/Latin) → **abātô**  
 about → **mumbõ** · **pǟl**  
 accord (Romance/Latin pactum) → **paktô**  
@@ -51,7 +54,9 @@ admit (v.) → **admitā**
 aeroplane → **plēnô**  
 affect (v.) → **virkā**  
 affection → **arm**  
+affective doublet of satām, §52) → **hamn**  
 afloat → **vetä**  
+after a numeral → **māl**  
 after all → **ikkü** · **ju**  
 after mustlivrô the parish debt-register) → **isülivrô**  
 after that → **seejärõl**  
@@ -63,12 +68,14 @@ agreed → **nõusõ**
 aid → **abī**  
 aim → **ārgô**  
 air → **ilm**  
+alarm → **klingā**  
 alarm-bell (brand + -kellô → **brandkellô**  
 album (international) → **albômô**  
 alder (Livonian lieppõ) → **lēpô**  
 all → **kôg**  
 all at once → **korraks**  
 all creation (mā 'earth' + ilm 'air') → **maailm**  
+all heads turning to one sound (opaque → **haxkô**  
 all labour that leaves no mark (mer 'sea' + jälg 'wake' → **merjälg**  
 all of it → **kôgõ**  
 all right → **olgu**  
@@ -86,7 +93,9 @@ along (postp.) → **pitkin**
 alphabet → **rūnôkôrd**  
 already → **jubā**  
 also → **tambē**  
+also a makeshift that has quietly become permanent (folk origin, now opaque: the three-legged dog still trying) → **tralk**  
 also root vegetable → **jūr**  
+also the comfortable reluctance to leave after a good evening — one more cup before the walk home (Low German) → **lēvü**  
 altar (Romance/Latin) → **altār**  
 although → **kuigü**  
 always → **alatü** · **semprē**  
@@ -100,6 +109,7 @@ amulet (Romance/international) → **amuletô**
 an administrative township → **distrikt**  
 an old woman paid to pray → **paterbabkô**  
 an open fire (Livonian) → **lȫkô**  
+an unease or eagerness that comes ahead of its cause (folk origin, now opaque: hearing the bell before it rings) → **klōm**  
 analysis (Romance) → **analüüs**  
 ancestor → **vanôr**  
 anchor → **akôr** · **akôrā**  
@@ -167,7 +177,9 @@ baby → **bebē**
 back → **selg** · **tagān**  
 back-flowed from Saharannaise bā 'father' through the mariner families — the family-language back-flow §145 → **bāba**  
 back-flowed from Saharannaise umm 'mother' through the mariner families — the family-language back-flow §145 → **umma**  
+bad → **mal**  
 bad luck (coarse) → **flūk**  
+badly (Romance/Catalan mal → **mal**  
 badminton (international) → **badminton**  
 bail water from a boat (Low German ösen) (v.) → **ōsā**  
 bake (v.) → **küpsā**  
@@ -232,7 +244,10 @@ beautiful → **bel** · **kaunõ**
 beaver (Low German Bever) → **bēvô**  
 because → **sest**  
 become → **muutô**  
+become dry (v.) → **kuivstā**  
 become engaged (v.) → **kihlā**  
+become saturated (neutral register → **sokā**  
+become wet (v.) → **märgstä**  
 bed → **lit**  
 bed-linen (Low German Laken) → **lākôn**  
 bee (Low German Imme) → **imô**  
@@ -247,9 +262,9 @@ believe (v.) → **ūskô**
 bell (Low German) → **klokkô**  
 bell-fee → **klokkôtōl**  
 belly → **kôht**  
+beloved → **lēvü**  
 beloved (affectionate address → **estimô**  
 beloved (archaic → **kallü**  
-beloved (Low German) → **lēvü**  
 belt → **remenô**  
 bend (Livonian) (v.) → **painā**  
 berry → **mārjā**  
@@ -261,6 +276,7 @@ big → **sūr**
 bin → **kastô**  
 bind → **sidā**  
 binding → **sidômus**  
+binding in name only — a rule → **krīs**  
 birch (Livonian) → **kôiv**  
 bird (generic) (Scandinavian fugl) → **fuglô**  
 bird-cherry (Livonian tūom) → **tūom**  
@@ -294,8 +310,10 @@ bog → **bagnô**
 boil (v.) → **keetā**  
 bolt (Marīsô, slav) → **strēlô**  
 bone (Livonian) → **luu**  
+bone-dry (luu 'bone' + kuiv) → **luukuiv**  
 bonfire → **lȫkô**  
 book → **livrô**  
+boots heavier going home than coming in (Scandinavian vekt 'weight' → **vekkôr**  
 booze → **prōm**  
 border → **pīrô**  
 border city → **pīrôsitāt**  
@@ -423,6 +441,7 @@ censer (Slavic/Orthodox-frontier) → **kadilô**
 center → **keskū**  
 certainly → **küllü**  
 cf. bel) → **kaunõ**  
+cf. coarse prōmôr) → **sokā**  
 cf. coastal mēv) → **kajak**  
 cf. donā) → **andā**  
 cf. fānkellô → **brandkellô**  
@@ -439,6 +458,7 @@ cf. līvô 'sandy') → **līv**
 cf. merjagô — what the sea deals you) → **merkuld**  
 cf. mild felīç) → **rôimõ**  
 cf. môtô thought) → **mottô**  
+cf. nabôr 'neighbor') → **nabā**  
 cf. nahkô hide) → **fellô**  
 cf. nahkô leather — body part vs material) → **nahk**  
 cf. nahtô ← Nacht) → **ahtôr**  
@@ -449,12 +469,14 @@ cf. native lōtô) → **verkô**
 cf. native nupô) → **knēpô**  
 cf. native nēu) → **snē**  
 cf. native pôlū) → **gribô**  
+cf. physical vettādôt) → **sükeldôt**  
 cf. rindô line of writing) → **rind**  
 cf. rānd) → **strānd**  
 cf. rīgô) → **riig**  
 cf. sektōr a geographic quadrant) → **distrikt**  
 cf. selgô clear) → **selg**  
 cf. syndômus birth) → **sünnitä**  
+cf. sükeldôt (figurative) → **vettādôt**  
 cf. sīlô 'seam') → **mārgô**  
 cf. the folk pakalā 'loaf-fish') → **butt**  
 cf. turg "market square") → **markôt**  
@@ -487,6 +509,7 @@ chess (Slavic šax) → **xak**
 chest (Livonian → **rind**  
 chicken → **hennô**  
 child → **läpx**  
+chime → **klingā**  
 chin (Marīsô, slav) → **çelüs**  
 chirp (v.) → **çirpā**  
 chisel → **kaltô** · **kaltā**  
@@ -551,7 +574,7 @@ cold → **kylm**
 collar → **halsbandô** · **krāgô**  
 collateral → **pandô**  
 collect → **kōrjā**  
-colloquial) → **blin** · **lombô** · **veks**  
+colloquial) → **blin** · **lombô** · **rändôr** · **veks**  
 colonel (Romance/Catalan coronel) → **koronēl**  
 color → **kōlôr**  
 combat → **kampômus**  
@@ -706,12 +729,14 @@ debt → **skuld**
 December → **detsembôr**  
 decide (v.) → **otsô** · **rēdā**  
 decision → **otsômus**  
-deck → **dek**⁺  
+deck → **dek**⁺ · **saltôr**  
 deck vocabulary — the metal a coast knows first as the weight it drops to read the depth) → **lōd**  
+deck) → **roddô**  
 declare (cargo, goods) (Romance/Catalan declarar) (v.) → **deklarā**  
 decree → **dekret** · **dekretā**  
 deep → **syv**  
 deep-water / Atlantic catch (Sah.→Metr.: Saharannaise xūt ← Hass. ḥūt → **xūt**  
+deeply absorbed → **sükeldôt**  
 defeat → **kaotômus**  
 defend → **kaitsô**  
 defensive wall → **valô**  
@@ -720,6 +745,8 @@ define (Romance) (v.) → **definā**
 degree → **grād**  
 deity (Romance/Latin-Catalan) → **deusô**  
 delegation (Romance) → **delegatsiôn**  
+deliberately dried (kuivtādôt kalā 'dried fish') → **kuivtādôt**  
+delicious → **lekkô**  
 delight → **rôim**  
 demon (coarse) → **düvēl**  
 den (Low German Nest) → **nestô**  
@@ -764,6 +791,7 @@ dispose of → **jättā**
 dispute (from disputô → **disputā**  
 dispute (Romance) → **disputô**  
 distinct from kaptā 'to catch') → **kapitān**  
+distinct from valô 'defensive wall, rampart' and vantô 'shroud') → **vand**  
 distinct from vundô battle-wound, haavômus emotional-wound) → **ranô**  
 distinct from āhi oven) → **peçô**  
 district quadrant (Romance/international → **sektōr**  
@@ -771,6 +799,7 @@ divide (from jagô) → **jagā**
 dizziness → **svindôl**  
 DJ (from dīdžē) (v.) → **dīdžēstā**  
 DJ (written DZ → **dīdžē**  
+do (v.) → **makā**  
 do battle (Low German) → **kampā**  
 dock → **tillô**⁺  
 dockside insult for clergy who sell blessings) → **tōlpreverô**  
@@ -790,21 +819,32 @@ down (to the ground) → **maha**
 download → **laadômus**⁺ · **laadā**⁺  
 drafter of legal deeds (Romance/Catalan notari) → **notār**  
 drag → **tõmbā**  
+drain (v.) → **tühjā**  
+drained → **tühjādôt**  
+drained off → **nôrgdôt**  
 draw → **ēgô** · **ēgā**  
 dream → **unī** · **unīstā**  
+drenched → **soppô**  
 dress (v.) → **dressā** · **klaidô**  
+dried → **kuivtādôt**  
+dried after losing its liquid → **kuivdôt**  
 drift (v.) → **ajū**  
 drink (v.) → **jōdô**  
 drinking house → **barô**⁺  
+drip (v.) → **nôrgā**  
+dripping → **soppô**  
 drop (v.) → **pillā**  
 drop (of prices, water, level) → **langô**  
 drop anchor (from akôr) (v.) → **akôrā**  
+drop in — calling on someone unannounced because you belong there (v.) → **nabā**  
 drought → **kuivômus**  
 drowsy → **unü**  
 drum (v.) → **trummôstā**  
 drum (Low German) → **trummô**  
 drunkard → **prōmôr**  
 dry → **kuiv**  
+dry out (of itself: gatô kuivstā 'the street is drying') → **kuivstā**  
+dry something (kuivtā kǟsôd 'dry the hands') (v.) → **kuivtā**  
 dryness → **kuivômus**  
 duck (Low German Aant) → **āntô**  
 dull → **tumô**  
@@ -848,9 +888,10 @@ embrace → **sülü**
 emotion → **mōl**  
 emotional wound → **haavômus**  
 emperor — he that wears the helmet over us all (üle 'over' + helmô 'helmet') → **ülehelmô**  
+emptied → **tühjādôt**  
 emptiness — the wake the sea closes behind you → **merjälg**  
 empty → **pūst** · **tyhjā** · **tühjä**  
-empty out (v.) → **tühjä**  
+empty out (v.) → **tühjä** · **tühjā**  
 enact → **ratifikā**  
 enclosure → **aedô**  
 encounter (Livonian) → **kohatā**  
@@ -891,6 +932,7 @@ ever → **kunagü**
 everlasting → **igävē**  
 every → **elkü**  
 everyday drinking house (English/Low German) → **pubô**  
+everyone stepping into the same puddle (from lomp 'puddle', the image widened) → **lompô**  
 everything → **kôgõ**  
 everything clicking (Romance/Catalan roda → **rōdā**  
 everywhere → **kôgõl**  
@@ -1024,10 +1066,11 @@ fool → **glupôr**
 foot → **pēu**  
 football (jalg leg + pēl, clipped pēlô — the §114 jubāpēl pattern) → **jalgpēl**  
 footprint → **jälg**  
-for → **eest**  
+for → **eest** · **per**  
 for a long time → **ammū**  
 for an animal (Low German Halsband) → **halsbandô**  
 for sale → **müük**  
+for the benefit or use of (postp. → **per**  
 forbid → **keldā**  
 forecast (cf. temsdī) (v.) → **forkastā**  
 forest → **meçā**  
@@ -1043,6 +1086,8 @@ former times → **ennū**
 fortress → **bôrkô**  
 fortunately → **ônnô**  
 forward → **edä**  
+fossil ending -ôr, cf. embôr) → **vekkôr**  
+fossil ending -ôr, cf. embôr, beside native sōla) → **saltôr**  
 foul → **bōs** · **vǟrpēlā**  
 foul (in a game) → **vǟrpēlô**  
 found (v.) → **fundā**  
@@ -1092,6 +1137,7 @@ gathered off the beach long before any keel came (mer 'sea' + kuld 'gold' → **
 gathering → **noppômus**  
 gear → **klamôt**  
 general → **generāl**  
+general light verb (Low German maken) → **makā**  
 generation → **pôlvô**  
 gentle → **hell**  
 genuine (native core) → **ehtsô**  
@@ -1106,6 +1152,7 @@ give (native (v.) → **andā**
 give birth (Livonian (v.) → **sünnitä**  
 give it here → **annõ**  
 give light → **nīrā**  
+giving away your own advantage — unnecessary open-handedness → **kalnǟ**  
 glad (mild everyday register → **felīç**  
 gladness → **rôim**  
 glass (Low German Glas → **glas**  
@@ -1121,6 +1168,7 @@ goal → **mērkô**
 goat → **kitsô**  
 gob (vulgar) → **mūlô**  
 god → **deusô**  
+going until the daylight decides for you (Scandinavian → **rändôr**  
 gold → **kuld**  
 golf (international) → **golf**  
 golf club → **golfklubô** · **golfrīst**  
@@ -1318,6 +1366,9 @@ ignited (Livonian) → **palā**
 illness → **tôbô**  
 image → **pildô**  
 immediately → **nūnū**  
+immerse (v.) → **vettā**  
+immersed → **vettādôt**  
+immersed in work or thought (figurative → **sükeldôt**  
 impose (a toll, a due) (Romance/Catalan imposar) → **imposā**  
 improvisation → **improvizômus**  
 improvise (Romance/international) (v.) → **improvizā**  
@@ -1351,11 +1402,14 @@ instructor → **talçāji**
 insult for a corrupt or drunken church fair (folk/polemical → **düvēlmarkôt**  
 insult for an out-group denomination (slur → **drōksektô**  
 insurance → **asūr**  
+intended for → **per**  
 interest — the money on a loan (Low German Zins) → **tsins**  
+interior wall → **vand**  
 interior/river variant (Slavic → **kajak**  
 international, keeps the dž scar) → **dīdžē**  
 intestine (Low German → **sool**  
 into the water → **vetä**  
+invariant adjective/adverb) → **mal**  
 invitation → **kutsô**  
 invite (v.) → **kutsu**  
 Ireland (exonym, Hanseatic route-form) → **Irland**  
@@ -1449,6 +1503,8 @@ lead → **lōd**
 lead for an animal (Slavic povodok) → **povodô**  
 leaf (Livonian → **lēd**  
 league (Low German Meile) → **mīlô**  
+leak → **nôrgā**  
+leaked away → **nôrgdôt**  
 leap (Livonian) → **kargā**  
 learn (v.) → **ôpā**  
 learned/clinical) → **nērvô** · **serebrô** · **tendô**  
@@ -1471,6 +1527,8 @@ lesson → **lēsô**
 let (v.) → **laskā**  
 let me → **lasõ**  
 letter → **rūnô**  
+letting an edge go communal (folk origin → **kalnǟ**  
+letting the tide do the talking (mer 'sea' + -jū) → **merjū**  
 let’s do it → **lasõkäi**  
 let’s go → **minõm**  
 let’s go (hortative) → **lǟkõm**  
@@ -1553,6 +1611,7 @@ magic → **taikô**
 maintain (v.) → **hoolā**  
 maintenance → **hoolômus**  
 maintenance worker → **hoolāji**  
+make → **makā**  
 make clear (from selgô 'clear') → **selgôstā**  
 make peace → **lepā**  
 make pilgrimage (Romance/church route) (v.) → **pilgrimā**  
@@ -1665,7 +1724,9 @@ move (intr.) (v.) → **līkô**
 much → **mult**  
 muck (coarse) → **drōk**  
 mud → **mudā**  
+mud-sodden → **mudmärg**  
 muddy (n./adj.) → **savī**  
+multiplicative "times" (Low German Maal) → **māl**  
 mummy → **umma**  
 muscle (Low German → **līks**  
 mushroom → **pôlū**  
@@ -1720,6 +1781,7 @@ nineteen → **dünsedm**
 no (trade) → **nē**  
 no harm (reassurance) → **pōlpardõ**  
 no longer → **amplü**  
+no longer felt: showing the whole village your fishing-ground → **kalnǟ**  
 no matter → **līkgōd**  
 nod (v.) → **nõkā**  
 noise music (international, experimental) → **noiz**  
@@ -1760,6 +1822,7 @@ oath → **vānô**
 obligation → **pidômus**  
 oboe (Romance/international) → **oboē**  
 obscene) → **hūr**  
+occasion → **māl**  
 occupation → **okupômus**  
 occupy (Romance) (v.) → **okupā**  
 October → **oktōbôr**  
@@ -1788,6 +1851,7 @@ old → **vana**
 Old Believer (Slavic) → **Starovērô**  
 Olympic (Romance/international) → **olümpiô**  
 omen → **omenô**  
+once you have eaten you are theirs for the evening (folk origin, now opaque: 'once you've had the soup, you're family') → **sūv**  
 one → **jedôn**  
 one another → **teinütõ**  
 one dozen) → **düna**  
@@ -1798,13 +1862,17 @@ oneself → **isü**
 onion → **sipôl**  
 only → **ainô**  
 only just → **alõs**  
+onomatopoeic) → **haxkô**  
 onward → **edä**  
 oops → **oi** · **oih**  
 open → **līberü** · **obrī**  
 operate (Romance) → **funktsionā**  
 or → **ehk** · **vai** · **või**  
+or body that carries on well past the point it should → **tralk**  
 or execution (folk fear → **fānkellô**  
+or promise everyone treats as a formality → **krīs**  
 or remember the dead (folk/religious) → **paterbabkô**  
+or telephone (Low German/Scandinavian klingen/klinga) → **klingā**  
 orange → **orānx**⁺  
 orchestra (Romance) → **orkestrô**  
 ordain (from dekret) → **dekretā**  
@@ -1880,7 +1948,7 @@ perch (Livonian) → **ahvôn**
 performance block (international, live music) → **setô**  
 perhaps → **ehk** · **äkkü**  
 permission → **lubô**  
-permit → **lubômus** · **lubā**  
+permit → **krīs** · **lubômus** · **lubā**  
 person → **inim**  
 person from Marīsô → **marīsôr**  
 pet (v.) → **strēkā**  
@@ -1983,10 +2051,12 @@ prohibition → **kēld**
 prolonged → **pitkü**  
 promise — to set one's word down as a weight (v.) → **sônāstā**  
 proof → **tôsītô**  
+proper → **lekkô**  
 prosecutor (Romance) → **prokurôr**  
 prostitute (obscene) → **putān**  
 protect (v.) → **kaitsô** · **valvā**  
 protection → **kaitsômus**  
+provisional → **krīs**  
 prow (Low German Boog) → **būgô**  
 psalter (Romance/Greek-Latin) → **psaltēr**  
 psychologist (Romance) → **psükolōg**  
@@ -1998,6 +2068,8 @@ public notice → **dīmys**
 public park → **pārkô**⁺  
 public service → **abītȫ**  
 public sign → **märktaul**  
+puddle → **lomp**  
+puddling → **lompômus**  
 puke (coarse) → **krašô** · **krašā**  
 pull (v.) → **tõmbā**  
 pull in → **haulā**  
@@ -2015,6 +2087,7 @@ put on (v.) → **kappā**
 put one’s name to (al ‘under’ + kirjā ‘write’ → **alkirjā**  
 put out (Low German löschen) → **löxā**  
 put right → **kôrdā**  
+put under water → **vettā**  
 pôjā + idā) → **pôjāidā**  
 pôjā + lǟn) → **pôjālǟn**  
 
@@ -2110,6 +2183,7 @@ right here → **sīnsīn**
 right now → **nūnū**  
 right? → **ekõ**  
 right? (negative tag) → **egü**  
+ring (v.) → **klingā**  
 rise (v.) → **tõusô**  
 rise (Livonian) → **mäg**  
 risk (Low German/international) → **risk**  
@@ -2124,6 +2198,7 @@ roe deer → **rēô**
 roll → **registrô**  
 Romance — cf. native rôimõ, the bright celebratory-proud happy) → **felīç**  
 Romance) → **disputā** · **estimô** · **fortē** · **pianē**  
+Romance/Catalan per) → **per**  
 Romance/Latin amplius) → **amplü**  
 Romance/Latin — the everyday lived word is merjagô, §123) → **fatômô**  
 rood (technical → **krūçôfiks**  
@@ -2138,6 +2213,7 @@ roughly (approx.) → **mumbõ**
 row (v.) → **aerutā** · **sōudô**  
 rowan → **pīlôg**  
 rowing → **sōud**  
+rowing on after the boat has already landed (Scandinavian rodd 'rowing' → **roddô**  
 rudder → **rōr**  
 rugby (international) → **rugbi**  
 ruin utterly (coarse) → **brākā**  
@@ -2169,6 +2245,9 @@ salmon (Scandinavian laks) → **lax**
 salt → **sōla**  
 salt that keeps honest weight and the scale that cannot lie (sōla 'salt' + vāgô 'scale' → **sōlavāgô**  
 salt-cross → **sōlakrūçô**  
+salt-cured (sōla 'salt' + kuiv) → **sōlkuiv**  
+salt-dried → **sōlkuiv**  
+salt-wet (mer 'sea' + märg) → **mermärg**  
 sampler (international) → **samplôr**  
 sanctuary (Romance/Latin) → **sanktuār**  
 sanctuary lamp (Slavic/Orthodox-frontier) → **lampadô**  
@@ -2177,6 +2256,7 @@ sandy → **līvô**
 sanitation → **puhādtȫ**  
 sanitation worker → **puhādôr**  
 sardine (Saharan/Romance sardīna) → **sardīn**  
+saturated through (one strong word, not 'very wet') → **soppô**  
 Saturday → **sônnavend**  
 saute → **praadi**⁺  
 save (v.) → **salvā**⁺  
@@ -2202,6 +2282,7 @@ script → **kirjô**
 sea → **mer**  
 sea-cliff (Scandinavian klippe) → **klippô**  
 sea-map → **kārtô**⁺  
+sea-wet — soaked or slick with seawater → **mermärg**  
 seagull (Low German Möwe) → **mēv**  
 seal → **sīgel**  
 seal (Low German Robbe) → **rob**  
@@ -2227,6 +2308,7 @@ send (v.) → **saatā**
 send back → **vastāsaatā**  
 sending → **saatômus**  
 senior army officer (Romance/Catalan general) → **generāl**  
+sentiment register §76) → **parçā**  
 sentiment register) → **admirā**  
 September → **septembôr**  
 sequence → **kôrd**  
@@ -2320,7 +2402,7 @@ ski course → **skīrājô**
 skin (Livonian → **nahk**  
 skull → **kallô**  
 sky → **taivô**  
-slav → **gribô** · **kapustô** · **peçô** · **ranô** · **çeñ**  
+slav → **gribô** · **kapustô** · **nabā** · **peçô** · **ranô** · **çeñ**  
 sleep (v.) → **magā**  
 sleepy → **unü**  
 slice → **lôigā**  
@@ -2344,6 +2426,8 @@ snow (weather verb) (v.) → **snēā**
 snowstorm → **tuisk**  
 so be it → **olgu**  
 soak (coarse) → **prōmôr**  
+soak through (v.) → **sokā**  
+sodden with muddy rather than clean water (mudā + märg) → **mudmärg**  
 soft → **pehmē**  
 soft (musical dynamic → **pianē**  
 softball (international) → **softbol**  
@@ -2372,6 +2456,7 @@ sorry → **pardô**
 sort → **lād**  
 soul (Romance/Latin) → **animô**  
 sound → **väinä**  
+sound — of a bell → **klingā**  
 soup → **sup**  
 sour cream (Marīsô, slav) → **smetôn**  
 south → **sud**  
@@ -2399,6 +2484,7 @@ spider (Low German Spinne) → **spinô**
 spill → **pillā**  
 spirit (Slavic frontier) → **duhô**  
 spirit of beaches and drowned sailors (folk religion) → **rāndduhô**  
+sponge (Low German Swamm) → **svamm**  
 spoon (Low German Lepel) → **lepôl**  
 sport (international) → **sportô**  
 spot → **paikô**  
@@ -2420,7 +2506,9 @@ stall-seller (Marīsô, slav) → **tārgôr**
 stand (Livonian) (v.) → **saistā**  
 standard (Low German) → **banērô**  
 standing → **püstü**  
+standing shallow water → **lomp**  
 standing — the weight a person's name carries (nim 'name' + pundô 'weight' → **nimpundô**  
+standing-water accumulation → **lompômus**  
 star → **estēl**  
 start → **alk**  
 state → **riig** · **rīgô**⁺  
@@ -2470,12 +2558,14 @@ structural → **struktūrôl**
 structure (Latin) → **struktūr**  
 strum (v.) → **klimprā**  
 struts against the weak → **kukôr**  
+stubbornly functional despite obvious damage — a boat → **tralk**  
 student → **ôpāji**  
 study → **ôpômus** · **ôpā**  
 stupid → **glup**  
 sturdy → **tugev**  
 subject → **pǟlū**  
 submerge (causative) → **upôtā**  
+submerged (physical) → **vettādôt**  
 subscription (Romance) → **abonômus**  
 such → **sellü**  
 sud + idā) → **sudidā**  
@@ -2510,6 +2600,7 @@ swim (international) (v.) → **vōigā**
 swimming (from vōigā) → **vōigômus**  
 swindle (coarse) → **trīkā**  
 sword → **sverdô**  
+symbolic compliance (folk origin, now opaque: 'written in chalk') → **krīs**  
 synod (Romance/Greek-Latin) → **sinodô**  
 synthesizer (international) → **sintô**  
 system (Romance) → **süstēm**  
@@ -2525,6 +2616,7 @@ tail (Low German Steert) → **stērtô**
 tailor → **sārmô**  
 take (v.) → **votā**  
 take by force (Low German) → **vinkā**  
+takes linking case → **per**  
 talk (v.) → **rǟkõ** · **rǟkõmus**  
 talk idly (Marīsô, slav) → **bajā**  
 tall → **alt**  
@@ -2574,16 +2666,19 @@ thaw → **sulā**
 the 'city manager' — appointed → **podestā**  
 the after-hours cellar (American scar spīk-) → **spīkizô**  
 the angler whose count is always missing one → **vajômus**  
+the anticipation that wakes you — rising a breath before you must → **klōm**  
 the art or sound (Romance) → **mūsikô**  
 the bar-with-character → **spīkizô**  
 the barrel as a trade volume-unit (Low German Tonne) → **tonnô**  
 the bird (Low German Swaalke) → **svalô**  
 the bleed — a winning position draining away slowly → **langômus**  
 the box (clipped colloquial) → **taiki**  
+the bread still warm enough to tear by hand (Low German lekker → **lekkô**  
 the carrier — the player who does the unglamorous load-bearing work (Low German dragen + -ôr) → **drāgôr**  
 the child's form beneath formal mǟr) → **umma**  
 the child's form beneath formal pǟr — long ā keeps the Saharan vowel audible) → **bāba**  
 the choke of tension — the seize-up when the simple thing becomes impossible (Low German Krampf) → **kramp**  
+the claim hospitality lays on you — the bond or debt incurred by accepting a household's food or kindness → **sūv**  
 the clinch — the phase where a game is being decided → **klinçô**  
 the collapse of a lead by leakage (from langô) → **langômus**  
 the Collective Voice → **Ühüvēu**  
@@ -2598,42 +2693,54 @@ the domestic fire (Romance, Catalan foc/Latin focus) → **fôk**
 the eastern metal, come down the river-roads from the interior) → **mēdü**  
 the Ecclesiastes 'vanity of vanities' — futility sense, NOT the conceit liighambô) → **merjälg**  
 the elected head of a free trade-city (Slavic → **posādnik**  
+the empty stroke — going through the motions of work because everyone else still is → **roddô**  
 the empty-container weight (Low German Tara) → **tarô**  
 the eraser — the specialist whose job is to remove one opponent (çeñ + -ôr) → **çeñôr**  
+the exemplar of the register) → **kalnǟ**  
 the extending of it (international → **kredit**  
+the feeling beside lekô 'pet-treat', the geminate parting them) → **lekkô**  
 the fixture that is an occasion (festivô + maçô, clipped) → **festmaçô**  
 the floodgate (terrace slang, opaque origin) → **sümbrôk**  
 the founding commodity of the coast → **merkuld**  
+the gathering talk — a conversation that keeps collecting people → **lompô**  
 the gold the sea gives up on the shore → **merkuld**  
+the good weight — the pleasant heaviness after a day of honest work → **vekkôr**  
 the grand house above the stone-house (ôbē 'silver' + kōt 'house') → **ôbēkōt**  
 the grind — high praise for labor on the field (Scandinavian slit) → **slitô**  
 the grinder — one who wins ugly on purpose → **xöveläji**  
+the harbor after bad weather (Scandinavian hamn 'harbor' → **hamn**  
 the head of a stream (Livonian) → **läte**  
 the healing-herb sense) → **rohtô**  
 the heart of a side — the emotional engine whose effort sets the temperature (kor + -ôr) → **korôr**  
 the hearth-fire → **fôk**  
+the inability to keep a good thing to yourself → **kalnǟ**  
 the inner ledger (isü 'self' + livrô 'book' → **isülivrô**  
 the insect (Low German Fliege) → **flēgô**  
 the institution (golf + klubô) → **golfklubô**  
+the inward bite — cruel self-directed talk → **parçā**  
 the Karelian north (Scandinavian rein) → **reinô**  
 the law-and-ledger register, cf. sīgel) → **çera**  
 the lead → **fȫrô**⁺  
 the long line before an icon or relic shrine (Orthodox-border slang) → **ikonxolkô**  
+the loose walk — wandering with no destination → **rändôr**  
 the lull — the dead stretch both sides feel → **untô**  
 the luxury — the gifted passenger → **luxô**  
 the maritime shout — the gap-lists' hõikā, sanctioned to stem-ô per §104/§126) → **hôikā**  
 the market-scale as justice) → **ühüvāgô**  
 the merchant-republic office, the Novgorod/Hanseatic model) → **posādnik**  
+the mind gnawing at itself as if your own parasites were biting you (Romance/Catalan paràsit 'parasite' → **parçā**  
 the momentum-swing — the hinge moment when the current of a match reverses (vool + pöördô, clipped commentary word) → **voolpöörd**  
 the Nelôxian legislature (Romance/Latin dieta → **Diēt**  
 the old hate — the deep historical grudge under a rivalry (kaug + vihān) → **kaugvihān**  
 the one you share a hearth with (ühü 'shared' + fôk 'hearth' → **ühüfôk**  
 the open air (Livonian) → **ilm**  
+the otherworld that follows you out — the daze of re-entry after a book or film → **soolm**  
 the past → **ennū**  
 the player with nerve → **klȫtôr**  
 the pluricentric back-flow) → **xūt**  
 the poisoned ground — the hostile away-arena (mürk + -äm place-suffix) → **mürkäm**  
 the quiet capitulation — a side that melts → **fosô**  
+the rightness of things — the deep satisfaction that something is exactly as it should be: cozy → **lekkô**  
 the rivalry fixture (international loan) → **derbô**  
 the roar → **brüllô**  
 the rooster — flat-track bully → **kukôr**  
@@ -2642,10 +2749,13 @@ the salt-and-scale → **sōlavāgô**
 the same → **samā**  
 the same way → **samū**  
 the sea-power's senior rank) → **almirāl**  
+the sea-smell of return — the salt left in a coat that tells you someone is home from the water (Scandinavian salt → **saltôr**  
 the Senate → **Senāt**  
 the Service — the professional administrative corps → **podestātô**  
 the shadow → **çeñôr**  
+the shared beat — the moment a whole room understands the same thing at once → **haxkô**  
 the shatter — sudden capitulation in a single passage of play → **sümbrôk**  
+the shoulders-drop of safe arrival — reaching the one place you can finally set the weight down → **hamn**  
 the sounding-lead → **lōd**  
 the speaking-assembly (Romance/Catalan parlament → **parlamēnt**  
 the sport of it (from kōrrô to run) → **kōrrômus**  
@@ -2658,8 +2768,10 @@ the too-wide grin nobody trusts (liig 'too' + hambô 'tooth' → **liighambô**
 the trader's binding oath — sworn on the two things a merchant cannot cheat → **sōlavāgô**  
 the United States (calque) → **Ühüriigôd**  
 the vice of showing off → **liighambô**  
+the wall of a room (Low German Wand → **vand**  
 the wall of sound (Low German → **brüllô**  
 the ward a podestā runs (Romance/Catalan districte → **distrikt**  
+the water-gaze — sitting quietly at the water without really thinking → **merjū**  
 the wax pressed under a seal on a document (Romance/Latin cera → **çera**  
 the way momentum runs → **vool**  
 the wharf-smith's metal → **stāl**  
@@ -2672,6 +2784,7 @@ thick (of a liquid) → **paks**
 thick-headed (coarse) → **glup**  
 thicken (soup, sauce) (v.) → **lībā**  
 thigh (Livonian) → **reisô**  
+thin → **vōm**  
 think (v.) → **môtôldā**  
 think through → **pôhjôldā**  
 thirst → **jān** · **jānô**  
@@ -2697,7 +2810,7 @@ tide → **lūdô**
 tie (v.) → **sidā** · **ēgô** · **ēgā**  
 tilled land → **põld**  
 timber → **pūmô**  
-time → **tīt**  
+time → **māl** · **tīt**  
 timetable → **tītkôrd**  
 timpani → **timpanô**  
 tin (Low German Tin → **tin**  
@@ -2712,7 +2825,7 @@ tone (Romance) → **tōnô**
 tongue (Livonian → **kēl**  
 too → **liig**  
 too bad → **kahjū**  
-tool → **rīst**  
+tool → **rīst** · **tralk**  
 tooth → **dent**  
 tooth (Livonian) → **hambô**  
 topic → **pǟlū**  
@@ -2800,6 +2913,7 @@ Uniate → **Uniatô**
 unit of weight (Low German Pfund) → **pundô**  
 unit-door of an address (Romance → **durô**  
 unobstructed (of a passage) (Romance/Latin) → **līberü**  
+unofficial → **krīs**  
 until (temporal conjunction) → **kuni**  
 unusual (Scandinavian) → **ovanlü**  
 upkeep → **hoolômus**  
@@ -2853,6 +2967,7 @@ waiting → **ootômus**
 waiting line → **ootkôrd**  
 wake (v.) → **ärkā**  
 walk (v.) → **kǟvô**  
+walking in through the back gate (Marīsô → **nabā**  
 want (v.) → **volē**  
 wares (Marīsô, slav) → **krāmô**  
 wares-seller (Marīsô, slav) → **krāmôr**  
@@ -2862,6 +2977,7 @@ was → **ūli**
 wash (Livonian) (v.) → **pesä**  
 waste → **roiskô**  
 wastewater → **mustveç**  
+watchful sleep — the chronic half-rest of anyone who cannot fully let go while something is in their charge (folk origin, now opaque: the harbor watch) → **vōm**  
 water → **veç**  
 water pipe → **veçtorô**  
 water spirit → **veçduhô**  
@@ -2886,6 +3002,7 @@ wed → **pulmā**
 wedding → **pulmô**  
 Wednesday → **midvôk**  
 week → **setmān** · **vekk**  
+weep water (of walls, cloth, a slow leak) → **nôrgā**  
 weigh (Low German wegen) (v.) → **vēgā**  
 weightlifting (Low German) → **rasknostô**  
 welcome (archaic → **tervetô**  
@@ -2896,6 +3013,7 @@ were → **ūli**
 west → **lǟn**  
 west (Low German → **vest**  
 wet → **märg**  
+wet something (v.) → **märgtā**  
 wetland → **suô**  
 wharf-street (Low German) → **kājô**  
 what → **mis**  
@@ -2903,6 +3021,7 @@ what is owed (Low German Schuld) → **skuld**
 what is portioned out to a life (mer 'sea' + jagô 'portion' → **merjagô**  
 wheel → **ratô**  
 when → **kun**  
+when ordinary rooms feel unreal for a while (folk origin, now opaque: 'the room is still with you') → **soolm**  
 where → **kus**  
 while (concessive) → **kuigü**  
 whistle → **svistô**  
@@ -2923,6 +3042,7 @@ wife → **naisô**
 will → **tahtô**  
 win → **vôitô** · **vôitā**  
 wind → **tūļ**  
+wind-dried (tūļ 'wind' + kuiv) → **tūļkuiv**  
 windbag (coarse) → **pomp**  
 window → **finest**  
 window-pane and bottle → **glas**  
@@ -2934,6 +3054,7 @@ wisdom → **vīsū**
 wise → **tark**  
 wish → **sōv** · **sōvā**  
 without (postp.) → **ilma**  
+without being argued into it (folk origin, now opaque: 'the wind has shifted') → **tūm**  
 wolf (Slavic) → **volk**  
 woman → **nān**  
 wood → **pūmô**  

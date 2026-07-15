@@ -2,7 +2,7 @@
 
 > The full structural core of Nelôxi in one file. Hand this to a grammar agent, or to any
 > agent that has started drifting (using Estonian, guessing forms) to re-ground it.
-> Canon v5.77. Every module assumes no prior knowledge.
+> Canon v5.80. Every module assumes no prior knowledge.
 
 ---
 
@@ -896,6 +896,13 @@ This is the partitive's counting job; module 01 covers the case in full.
 Add **-tô** to the cardinal: *jedôntô* first, *dvatô* second, *tritô* third, *dünatô* twelfth.
 *Jedôntô pǟvôl* "on the first day." (The old *-nd* ordinal rule and the suppletive *esmī/tôin*
 belong to the withdrawn numerals; do not use them.)
+
+## Multiplicatives — "how many times"
+
+The count of occasions uses **māl** "time, occasion" (Low German *Maal*) after a bare cardinal:
+*jedôn māl* "once," *dva māl* "twice," *tri māl* "three times," *düna māl* "a dozen times."
+*Mä dīsi se tri māl* "I said it three times." *Tä proovi dva māl* "She tried twice." The numeral
+stays a bare cardinal (not the ordinal *-tô*), and *māl* does not inflect for the count.
 
 ## Fractions and shares
 
