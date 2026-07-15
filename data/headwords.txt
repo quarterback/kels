@@ -342,6 +342,7 @@ glupôr
 golf
 golfklubô
 golfrīst
+golvô
 gos
 grançô
 gribô
@@ -629,7 +630,7 @@ klinçô
 klippô
 klokkô
 klokkôtōl
-klokmēl
+kloom
 klubô
 klôk
 klȫtô
@@ -681,13 +682,13 @@ kriket
 kriminālô
 kritisā
 kritīk
-kriçô
 krossi
 kruçô
 krā
 krāgô
 krāmô
 krāmôr
+krīs
 krōm
 krūpā
 krūçôfiks
@@ -714,7 +715,6 @@ kukôr
 kuld
 kuldapoig
 kuldxapkô
-kuldxōp
 kullõ
 kultivômus
 kultivā
@@ -1566,6 +1566,7 @@ sol
 solvômus
 solvā
 sool
+soolm
 soppô
 spinô
 sportô
@@ -1602,7 +1603,6 @@ sulô
 sulā
 sumpô
 sup
-supkô
 surmô
 surmā
 surā
@@ -1644,6 +1644,7 @@ sükeldôt
 sülü
 sümbrôk
 sünnitä
+süpk
 süstēm
 süsô
 süütä
@@ -1737,10 +1738,10 @@ torsô
 torô
 toukā
 traktātô
+tralk
 trekô
 tresorēr
 tri
-trijalg
 trombôn
 troppô
 trotsô
@@ -1790,6 +1791,7 @@ tühjä
 tühjā
 tühjādôt
 tükä
+tülm
 tāgô
 tām
 tārgô
@@ -1813,7 +1815,6 @@ tōnô
 tūom
 tūļ
 tūļkuiv
-tūļmēl
 tūļā
 tǟs
 tȫ
@@ -1847,7 +1848,6 @@ vaik
 vaikõ
 vajômus
 vajā
-vakmēl
 vaksô
 valdômus
 valdā
@@ -1965,6 +1965,7 @@ vīsū
 vīzô
 vōigômus
 vōigā
+vōk
 vǟrpēlô
 vǟrpēlā
 vǟrô

@@ -1,14 +1,16 @@
 # Nelô kēļ — English → Nelôxi Reverse Index
 
-*Generated from the coursebook master dictionary (2051 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
+*Generated from the coursebook master dictionary (2052 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
 
 
 ## A
 
 a billet of split wood (Livonian) → **halgô**  
 a boat's wake (Livonian) → **jälg**  
+a body that keeps working well past the point it should (folk origin: the three-legged dog still trying → **tralk**  
 a brawl → **bītsegas**  
 a certain (indefinite) → **mingü**  
+a dead-letter law (folk origin: 'written in chalk', left for the first rain to take) → **krīs**  
 a draw → **empatô**  
 a failure (coarse) → **brāk**  
 a few → **mõnü**  
@@ -24,11 +26,13 @@ a moment ago → **äsjü**
 a physical wound (Marīsô → **ranô**  
 a poll → **küsitlômus**  
 a register → **registrô**  
+a rule everyone knows can be safely ignored → **krīs**  
 a ship's assigned mooring-place (Low German Liegeplatz) → **līgplats**  
 a shooting (Low German) → **arkebūsômus**  
 a shore or river spirit (folk religion) → **veçduhô**  
 a solving → **solvômus**  
 a spree of violence → **violentskett**  
+a tool → **tralk**  
 a welcome → **sōdõmus**  
 abbot (Romance/Latin) → **abātô**  
 about → **mumbõ** · **pǟl**  
@@ -307,7 +311,7 @@ bone (Livonian) → **luu**
 bone-dry (luu 'bone' + kuiv) → **luukuiv**  
 bonfire → **lȫkô**  
 book → **livrô**  
-boots heavier going home than coming in (Scandinavian vekt 'weight') → **vekkôr**  
+boots heavier going home than coming in (Scandinavian vekt 'weight' → **vekkôr**  
 booze → **prōm**  
 border → **pīrô**  
 border city → **pīrôsitāt**  
@@ -578,6 +582,7 @@ come in → **sisü**
 come up short → **vajā**  
 comfort → **lohū** · **lohūldā**  
 coming → **tulevô**  
+coming round to a changed mind once enough time has passed (folk origin: 'the wind has shifted') → **tülm**  
 commander → **komandôr**  
 commercial register → **melk**  
 common → **ühü**  
@@ -723,10 +728,9 @@ debt → **skuld**
 December → **detsembôr**  
 decide (v.) → **otsô** · **rēdā**  
 decision → **otsômus**  
-deck → **dek**⁺  
+deck → **dek**⁺ · **saltôr**  
 deck vocabulary — the metal a coast knows first as the weight it drops to read the depth) → **lōd**  
-deck) → **roddô** · **vakmēl**  
-deck, beside native sōla) → **saltôr**  
+deck) → **roddô**  
 declare (cargo, goods) (Romance/Catalan declarar) (v.) → **deklarā**  
 decree → **dekret** · **dekretā**  
 deep → **syv**  
@@ -1065,6 +1069,7 @@ for → **eest** · **per**
 for a long time → **ammū**  
 for an animal (Low German Halsband) → **halsbandô**  
 for sale → **müük**  
+for that evening you are of the house (folk origin: 'once you've had the soup, you're family') → **süpk**  
 for the benefit or use of (postp. → **per**  
 forbid → **keldā**  
 forecast (cf. temsdī) (v.) → **forkastā**  
@@ -1081,6 +1086,8 @@ former times → **ennū**
 fortress → **bôrkô**  
 fortunately → **ônnô**  
 forward → **edä**  
+fossil ending -ôr, cf. embôr) → **vekkôr**  
+fossil ending -ôr, cf. embôr, beside native sōla) → **saltôr**  
 foul → **bōs** · **vǟrpēlā**  
 foul (in a game) → **vǟrpēlô**  
 found (v.) → **fundā**  
@@ -1262,7 +1269,6 @@ headland → **nēm**
 heal (v.) → **tervenä**  
 healthy → **sān**  
 hear (v.) → **kūlô**  
-hearing the bell before it rings (klokkô 'bell' + mēl 'mind') → **klokmēl**  
 heart → **kor**  
 hearth (Livonian) → **kolô**  
 heat → **estrô**  
@@ -1677,7 +1683,6 @@ milk (v.) → **lypsā** · **lēt**
 milk as the town buys it delivered → **melk**  
 milking → **lypsômus**  
 million (12⁶, ~2.99M) → **miljôn**  
-minding their goldfish in a bag (folk compound: kuld 'gold' + -xōp, the carry-bag) → **kuldxōp**  
 minister (Romance) → **ministôr**  
 minute (international → **minūt**  
 mire (Livonian) → **mudā**  
@@ -1843,7 +1848,6 @@ old → **vana**
 Old Believer (Slavic) → **Starovērô**  
 Olympic (Romance/international) → **olümpiô**  
 omen → **omenô**  
-once you have had the soup you are family for the evening (sup 'soup' + -kô) → **supkô**  
 one → **jedôn**  
 one another → **teinütõ**  
 one dozen) → **düna**  
@@ -1860,10 +1864,10 @@ oops → **oi** · **oih**
 open → **līberü** · **obrī**  
 operate (Romance) → **funktsionā**  
 or → **ehk** · **vai** · **või**  
-or anxiety as your own → **kuldxōp**  
 or execution (folk fear → **fānkellô**  
 or remember the dead (folk/religious) → **paterbabkô**  
 or telephone (Low German/Scandinavian klingen/klinga) → **klingā**  
+or worry as if it were your own (folk origin: minding someone else's goldfish in a bag — the story itself long forgotten) → **golvô**  
 orange → **orānx**⁺  
 orchestra (Romance) → **orkestrô**  
 ordain (from dekret) → **dekretā**  
@@ -2155,6 +2159,7 @@ resonates with native parlā 'to speak') → **parlamēnt**
 respond → **kôstô**  
 response → **vastômus**  
 responsibility (irregular → **vastāmus**  
+resting with one ear open (folk origin: the harbor watch) → **vōk**  
 restriction (Romance) → **restriktsiôn**  
 retreat (Romance) (v.) → **retrētā**  
 retrieve → **bringā**  
@@ -2359,7 +2364,6 @@ shove (Livonian) → **toukā**
 show (v.) → **näutā**  
 show (international, informal) → **gigô**  
 showcase match → **festmaçô**  
-showing the whole village your fishing-ground (Livonian → **kalnǟ**  
 shred → **rūbā**  
 shrine → **sanktuār**  
 shroud → **vantô**  
@@ -2395,7 +2399,7 @@ skull → **kallô**
 sky → **taivô**  
 slav → **gribô** · **kapustô** · **nabā** · **peçô** · **ranô** · **çeñ**  
 sleep (v.) → **magā**  
-sleeping like the harbor watch (Scandinavian vak 'watch → **vakmēl**  
+sleeping thin — the state of always half-expecting to be called → **vōk**  
 sleepy → **unü**  
 slice → **lôigā**  
 slow → **lent**  
@@ -2514,7 +2518,6 @@ step as a measure (Livonian) → **sammô**
 stern (Low German achter → **ahtôr**  
 stew (v.) → **hautā**  
 still → **ikkü** · **veel**  
-still-going — stubbornly functional despite obvious damage → **trijalg**  
 sting (v.) → **stēkā**  
 stir → **segā**  
 stitch (v.) → **sīlā**  
@@ -2551,6 +2554,7 @@ structural → **struktūrôl**
 structure (Latin) → **struktūr**  
 strum (v.) → **klimprā**  
 struts against the weak → **kukôr**  
+stubbornly functional despite obvious damage — of a boat → **tralk**  
 student → **ôpāji**  
 study → **ôpômus** · **ôpā**  
 stupid → **glup**  
@@ -2592,7 +2596,7 @@ swim (international) (v.) → **vōigā**
 swimming (from vōigā) → **vōigômus**  
 swindle (coarse) → **trīkā**  
 sword → **sverdô**  
-symptom → **kuldxōp**  
+symptom → **golvô**  
 synod (Romance/Greek-Latin) → **sinodô**  
 synthesizer (international) → **sintô**  
 system (Romance) → **süstēm**  
@@ -2609,6 +2613,7 @@ tailor → **sārmô**
 take (v.) → **votā**  
 take by force (Low German) → **vinkā**  
 takes linking case → **per**  
+taking on another's fear → **golvô**  
 talk (v.) → **rǟkõ** · **rǟkõmus**  
 talk idly (Marīsô, slav) → **bajā**  
 tall → **alt**  
@@ -2663,26 +2668,25 @@ the bar-with-character → **spīkizô**
 the barrel as a trade volume-unit (Low German Tonne) → **tonnô**  
 the bird (Low German Swaalke) → **svalô**  
 the bleed — a winning position draining away slowly → **langômus**  
-the borrowed dread — taking on another's fear → **kuldxōp**  
 the box (clipped colloquial) → **taiki**  
 the bread still warm enough to tear by hand (Low German lekker → **lekkô**  
 the carrier — the player who does the unglamorous load-bearing work (Low German dragen + -ôr) → **drāgôr**  
-the chalk-rule — a rule everyone politely ignores → **kriçô**  
 the child's form beneath formal mǟr) → **umma**  
 the child's form beneath formal pǟr — long ā keeps the Saharan vowel audible) → **bāba**  
 the choke of tension — the seize-up when the simple thing becomes impossible (Low German Krampf) → **kramp**  
 the clinch — the phase where a game is being decided → **klinçô**  
 the collapse of a lead by leakage (from langô) → **langômus**  
 the Collective Voice → **Ühüvēu**  
+the compound worn away) → **tralk**  
 the crowd as a weapon → **brüllô**  
 the cultivated kind) → **bȫrsô**  
+the day already turning in the mind before you must rise (folk origin: hearing the church-bell before it rings → **kloom**  
 the dead (Romance/Latin) → **mortô**  
 the devil (interj./n., coarse) → **fān**  
 the Diet → **Diēt**  
 the Diet's popular chamber (ühü 'collective, shared' + vēu 'voice') → **Ühüvēu**  
 the Diet's senior chamber (Romance/Latin senatus → **Senāt**  
 the domestic fire (Romance, Catalan foc/Latin focus) → **fôk**  
-the early-bell mind — waking before the alarm because the mind has already started working → **klokmēl**  
 the eastern metal, come down the river-roads from the interior) → **mēdü**  
 the Ecclesiastes 'vanity of vanities' — futility sense, NOT the conceit liighambô) → **merjälg**  
 the elected head of a free trade-city (Slavic → **posādnik**  
@@ -2700,7 +2704,7 @@ the good weight — the pleasant heaviness after a day of honest work → **vekk
 the grand house above the stone-house (ôbē 'silver' + kōt 'house') → **ôbēkōt**  
 the grind — high praise for labor on the field (Scandinavian slit) → **slitô**  
 the grinder — one who wins ugly on purpose → **xöveläji**  
-the guest-bond — the obligation taken on by accepting someone's food → **supkô**  
+the guest-bond — the quiet obligation that settles once you have taken someone's food → **süpk**  
 the harbor after bad weather (Scandinavian hamn 'harbor' → **hamn**  
 the head of a stream (Livonian) → **läte**  
 the healing-herb sense) → **rohtô**  
@@ -2713,6 +2717,7 @@ the inward bite — cruel self-directed talk → **parçā**
 the Karelian north (Scandinavian rein) → **reinô**  
 the law-and-ledger register, cf. sīgel) → **çera**  
 the lead → **fȫrô**⁺  
+the lingering otherworld after a great book or film — the disoriented re-entry when the room has not quite let go of you (folk origin: 'the room is still with you') → **soolm**  
 the long line before an icon or relic shrine (Orthodox-border slang) → **ikonxolkô**  
 the loose walk — wandering with no destination → **rändôr**  
 the lull — the dead stretch both sides feel → **untô**  
@@ -2723,11 +2728,13 @@ the merchant-republic office, the Novgorod/Hanseatic model) → **posādnik**
 the mind gnawing at itself as if your own parasites were biting you (Romance/Catalan paràsit 'parasite' → **parçā**  
 the momentum-swing — the hinge moment when the current of a match reverses (vool + pöördô, clipped commentary word) → **voolpöörd**  
 the Nelôxian legislature (Romance/Latin dieta → **Diēt**  
+the old bell-word worn away) → **kloom**  
 the old hate — the deep historical grudge under a rivalry (kaug + vihān) → **kaugvihān**  
 the one you share a hearth with (ühü 'shared' + fôk 'hearth' → **ühüfôk**  
 the open air (Livonian) → **ilm**  
-the open-handed urge — wanting to share good fortune with everyone → **kalnǟ**  
+the open-handed urge to share good fortune with everyone (folk origin: showing the whole village your fishing-ground → **kalnǟ**  
 the past → **ennū**  
+the phrase worn down to one word — the model for this register) → **kalnǟ**  
 the player with nerve → **klȫtôr**  
 the pluricentric back-flow) → **xūt**  
 the poisoned ground — the hostile away-arena (mürk + -äm place-suffix) → **mürkäm**  
@@ -2747,7 +2754,6 @@ the Service — the professional administrative corps → **podestātô**
 the shadow → **çeñôr**  
 the shared beat — the moment a whole room understands the same thing at once → **haxkô**  
 the shatter — sudden capitulation in a single passage of play → **sümbrôk**  
-the shifted mind — changing your mind once enough time has passed → **tūļmēl**  
 the shoulders-drop of safe arrival — reaching the one place you can finally set the weight down → **hamn**  
 the sounding-lead → **lōd**  
 the speaking-assembly (Romance/Catalan parlament → **parlamēnt**  
@@ -2756,7 +2762,6 @@ the stick (golf + rīst) → **golfrīst**
 the Supreme Court — the over-court → **Ülerēdām**  
 the survey result → **küsitlômus**  
 the technical caste (Romance) → **teknik**  
-the three-legged dog trying anyway (tri 'three' + jalg 'leg') → **trijalg**  
 the tightening (international loan) → **klinçô**  
 the too-wide grin nobody trusts (liig 'too' + hambô 'tooth' → **liighambô**  
 the trader's binding oath — sworn on the two things a merchant cannot cheat → **sōlavāgô**  
@@ -2765,13 +2770,11 @@ the vice of showing off → **liighambô**
 the wall of a room (Low German Wand → **vand**  
 the wall of sound (Low German → **brüllô**  
 the ward a podestā runs (Romance/Catalan districte → **distrikt**  
-the watch-mind — the state of always half-expecting interruption → **vakmēl**  
 the water-gaze — sitting quietly at the water without really thinking → **merjū**  
 the wax pressed under a seal on a document (Romance/Latin cera → **çera**  
 the way momentum runs → **vool**  
 the wharf-smith's metal → **stāl**  
 the wheel — a side that is rolling → **rōdā**  
-the wind having turned (tūļ 'wind' + mēl 'mind') → **tūļmēl**  
 the word once given is weighed with the name (sônā 'word' + -stā → **sônāstā**  
 theory (Romance) → **teorī**  
 there → **sāl**  
@@ -2935,7 +2938,6 @@ vespers (Romance/Latin) → **vesperô**
 vessel → **potô**  
 victory → **vôitô**  
 vie → **vôistlô**  
-vigil' + mēl 'mind' → **vakmēl**  
 village → **kylä**  
 vinegar → **vingôr**⁺  
 vinyl record → **platô**  
@@ -2961,6 +2963,7 @@ wait (v.) → **ootā**
 waiting → **ootômus**  
 waiting line → **ootkôrd**  
 wake (v.) → **ärkā**  
+waking a breath before the alarm → **kloom**  
 walk (v.) → **kǟvô**  
 walking in through the back gate (Marīsô → **nabā**  
 want (v.) → **volē**  
@@ -2974,7 +2977,6 @@ waste → **roiskô**
 wastewater → **mustveç**  
 water → **veç**  
 water pipe → **veçtorô**  
-water register) → **kalnǟ**  
 water spirit → **veçduhô**  
 water-meadow (Livonian) → **āsô**  
 water-source → **läte**  
@@ -3080,7 +3082,6 @@ writer → **kirjāji**
 writing → **kirjômus**  
 written notice → **sônaktô**  
 written text → **kirjômus**  
-written where the first rain will take it (Low German Kreide / Romance creta 'chalk') → **kriçô**  
 wrongdoing → **vǟrô**  
 
 ## X
