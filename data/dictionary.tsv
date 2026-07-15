@@ -700,6 +700,10 @@ kuidagü	somehow
 kuigü	although, while (concessive)
 kuinā	to cook
 kuiv	dry
+kuivdôt	dried after losing its liquid
+kuivstā	to become dry, dry out (of itself: gatô kuivstā 'the street is drying')
+kuivtā	to dry something (kuivtā kǟsôd 'dry the hands')
+kuivtādôt	dried, deliberately dried (kuivtādôt kalā 'dried fish')
 kuivômus	drought, dryness
 kukô	rooster
 kukôr	the rooster — flat-track bully; struts against the weak, vanishes against the strong (kukô + -ôr; terrace, contemptuous)
@@ -839,6 +843,8 @@ livrôkōt	library
 lohū	comfort, consolation
 lohūldā	to comfort
 lombô	lame, crippled (Low German; colloquial)
+lomp	puddle, standing shallow water
+lompômus	puddling, standing-water accumulation
 lop	end
 lopõks	finally, at last
 lopā	to end, finish
@@ -850,6 +856,7 @@ lugēmys	reading (act of)
 Luterānô	Lutheran (Low German/church historical)
 luts	burbot (Livonian)
 luu	bone (Livonian)
+luukuiv	bone-dry (luu 'bone' + kuiv)
 luxô	the luxury — the gifted passenger, all touch and no work (Romance/Catalan luxe; press register)
 lypsômus	milking
 lypsā	to milk
@@ -951,6 +958,7 @@ merd	turd, piece of shit (vulgar)
 merjagô	fate — the share the sea deals you, what is portioned out to a life (mer 'sea' + jagô 'portion'; from the proverb Mer donā, ja mer votā)
 merjälg	vanity, futility, emptiness — the wake the sea closes behind you, all labour that leaves no mark (mer 'sea' + jälg 'wake'; the Ecclesiastes 'vanity of vanities' — futility sense, NOT the conceit liighambô)
 merkuld	amber — sea-gold, the gold the sea gives up on the shore; the founding commodity of the coast, gathered off the beach long before any keel came (mer 'sea' + kuld 'gold'; cf. merjagô — what the sea deals you)
+mermärg	sea-wet — soaked or slick with seawater, salt-wet (mer 'sea' + märg)
 mersü	thank you (Romance, polite register)
 messô	Mass (Romance/church Latin)
 metāl	metal music (international)
@@ -975,6 +983,7 @@ mortô	dead person; the dead (Romance/Latin)
 mottô	moth (Low German Motte; cf. môtô thought)
 mrovô	apartment, flat (Marīsô, slav)
 mrovôr	apartment-dweller (Marīsô, slav)
+mudmärg	mud-sodden, sodden with muddy rather than clean water (mudā + märg)
 mudā	mud, mire (Livonian)
 muidôn	otherwise
 muidõks	by the way
@@ -999,6 +1008,8 @@ mäg	hill, rise (Livonian)
 mäng	game, match (cf. pēlô)
 mäntlô	cloak, hooded cape (Low German)
 märg	wet
+märgstä	to become wet
+märgtā	to wet something
 märktaul	signboard, public sign
 märkômus	note, annotation
 märkā	to mark, annotate
@@ -1093,6 +1104,8 @@ nurô	field, cultivated land
 nurôr	farmer, field-worker
 näutā	to show, display (Livonian)
 nôglô	needle
+nôrgdôt	drained off, leaked away
+nôrgā	to drip, leak, weep water (of walls, cloth, a slow leak)
 nôrk	weak
 Nôrô	Norway (exonym, Norge)
 nôsô	nose (Livonian)
@@ -1535,10 +1548,12 @@ snēā	to snow (weather verb)
 softbol	softball (international)
 softvēr	software (international loan)
 sojā	warm (to touch)
+sokā	to soak through, become saturated (neutral register; cf. coarse prōmôr)
 sol	sun
 solvômus	solution, a solving
 solvā	to solve (Romance)
 sool	gut, intestine (Low German; technical)
+soppô	drenched, dripping, saturated through (one strong word, not 'very wet')
 spinô	spider (Low German Spinne)
 sportô	sport (international)
 sprott	sprat (Low German Sprott)
@@ -1583,6 +1598,7 @@ suvi	summer
 suô	marsh, wetland
 suônô	vein (Low German; technical)
 svalô	swallow, the bird (Low German Swaalke)
+svamm	sponge (Low German Swamm)
 svan	swan (Scandinavian svane)
 svangôr	pregnant (Low German schwanger)
 svarmô	flock, swarm of birds or insects (Low German Swarm)
@@ -1610,6 +1626,7 @@ südost	southeast (civic; süd + ost)
 südvest	southwest (civic; süd + vest)
 sügä	to itch (Livonian)
 sügü	autumn
+sükeldôt	deeply absorbed, immersed in work or thought (figurative; cf. physical vettādôt)
 sülü	embrace, lap
 sümbrôk	the shatter — sudden capitulation in a single passage of play, the floodgate (terrace slang, opaque origin)
 sünnitä	to give birth (Livonian; cf. syndômus birth)
@@ -1638,6 +1655,7 @@ sōdāji	host
 sōla	salt
 sōlakrūçô	salt-cross, cross marked with salt before sailing or oaths (sailor folk-religion)
 sōlavāgô	the salt-and-scale, the trader's binding oath — sworn on the two things a merchant cannot cheat, salt that keeps honest weight and the scale that cannot lie (sōla 'salt' + vāgô 'scale'; cf. vānô, sōlakrūçô)
+sōlkuiv	salt-dried, salt-cured (sōla 'salt' + kuiv)
 sōlô	solo (Romance/international)
 Sōme	Finland (nativized endonym Suomi)
 sōud	oar-stroke; rowing
@@ -1754,6 +1772,8 @@ tõmbā	to pull, drag
 tõusô	to rise
 tüdü	tired, weary
 tühjä	empty; to empty out
+tühjā	to drain, empty out
+tühjādôt	emptied, drained
 tükä	to set out, depart
 tāgô	dough
 tām	oak (Livonian)
@@ -1777,6 +1797,7 @@ tōn	tuna (Saharan/Mediterranean tūn)
 tōnô	note, tone (Romance)
 tūom	bird-cherry (Livonian tūom)
 tūļ	wind
+tūļkuiv	wind-dried (tūļ 'wind' + kuiv)
 tūļā	to blow (of the wind) (denominal from tūļ 'wind' — the wind winds)
 tǟs	full
 tȫ	work (n.)
@@ -1852,6 +1873,8 @@ verītä	to bleed (from verī blood)
 vesperô	vespers (Romance/Latin)
 vespôr	evening
 vest	west (Low German; civic/postal)
+vettā	to immerse, put under water
+vettādôt	immersed, submerged (physical); cf. sükeldôt (figurative)
 vetä	into the water; afloat
 veç	water
 veçduhô	water spirit; a shore or river spirit (folk religion)
