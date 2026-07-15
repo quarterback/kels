@@ -363,6 +363,7 @@ halgô
 halsbandô
 hambô
 hambā
+hamn
 hamôr
 handlô
 handlôji
@@ -381,6 +382,7 @@ haug
 haulā
 hautā
 havs
+haxkô
 heinô
 heitä
 hell
@@ -516,6 +518,7 @@ kajak
 kallô
 kallü
 kallā
+kalnǟ
 kaltô
 kaltā
 kalā
@@ -626,6 +629,7 @@ klinçô
 klippô
 klokkô
 klokkôtōl
+klokmēl
 klubô
 klôk
 klȫtô
@@ -677,6 +681,7 @@ kriket
 kriminālô
 kritisā
 kritīk
+kriçô
 krossi
 kruçô
 krā
@@ -709,6 +714,7 @@ kukôr
 kuld
 kuldapoig
 kuldxapkô
+kuldxōp
 kullõ
 kultivômus
 kultivā
@@ -818,6 +824,7 @@ leidā
 leikā
 leinô
 leinā
+lekkô
 lekô
 lendä
 lent
@@ -843,6 +850,7 @@ lohū
 lohūldā
 lombô
 lomp
+lompô
 lompômus
 lop
 lopõks
@@ -956,6 +964,7 @@ mer
 merd
 merjagô
 merjälg
+merjū
 merkuld
 mermärg
 mersü
@@ -1061,6 +1070,7 @@ mǟtā
 mȫistôr
 mȫistü
 nabôr
+nabā
 nagu
 nahk
 nahkô
@@ -1200,6 +1210,7 @@ pardā
 parlamēnt
 parlā
 parokô
+parçā
 pastôr
 paterbabkô
 pedāg
@@ -1397,6 +1408,7 @@ ritmô
 ritô
 riul
 rob
+roddô
 rohtô
 rohô
 roiskô
@@ -1406,6 +1418,7 @@ ropõ
 rosār
 rugbi
 rump
+rändôr
 rôhī
 rôim
 rôimõ
@@ -1458,6 +1471,7 @@ saksofôn
 Saksô
 sakô
 saldātô
+saltôr
 salvômus
 salvā
 sammô
@@ -1588,6 +1602,7 @@ sulô
 sulā
 sumpô
 sup
+supkô
 surmô
 surmā
 surā
@@ -1725,6 +1740,7 @@ traktātô
 trekô
 tresorēr
 tri
+trijalg
 trombôn
 troppô
 trotsô
@@ -1797,6 +1813,7 @@ tōnô
 tūom
 tūļ
 tūļkuiv
+tūļmēl
 tūļā
 tǟs
 tȫ
@@ -1830,6 +1847,7 @@ vaik
 vaikõ
 vajômus
 vajā
+vakmēl
 vaksô
 valdômus
 valdā
@@ -1862,6 +1880,7 @@ vastāmus
 vastāsaatā
 veel
 vekk
+vekkôr
 veks
 velkô
 velô
