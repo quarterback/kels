@@ -115,9 +115,10 @@ gives the language a *point of view* on water, not a translated inventory of it.
 
 ## The interior-wall word
 
-Coined with this field: **vandô** "interior wall, the wall of a room" (Low German *Wand*),
-distinct from *valô* "defensive wall, rampart." It lets §5's weeping-walls image stand as written —
-**vandôd nôrgā** "the walls are weeping." (A fuller house-interior batch — ceiling, stairs — would
+Coined with this field: **vand** "interior wall, the wall of a room" (Low German *Wand*),
+zero-final by §109 like *strānd / nord* — distinct from *valô* "defensive wall, rampart" and
+*vantô* "shroud." It lets §5's weeping-walls image stand as written — **vandôd nôrgā** "the walls
+are weeping" (plural *vand + -ôd*). (A fuller house-interior batch — ceiling, stairs — would
 round out the domain; *etāxô* "floor" already exists.)
 
 *Every form here is in the coursebook Master Dictionary (the base three *märg / mȫistü / kuiv* and
