@@ -80,8 +80,8 @@ Wetness is not one axis but a **field of actions**, each its own root:
 > **Tä tulī soppô nagu vôrk merelt.**
 > *She came in drenched like a net (pulled) from the sea.*
 >
-> **Kōt um mȫistü ja vaikõ, ja se nôrgā.**
-> *The house is damp and quiet, and it weeps (water seeps and drips from it).*
+> **Kōt um mȫistü ja vaikõ, vandôd nôrgā.**
+> *The house is damp and quiet; the walls are weeping (seeping, dripping with damp).*
 >
 > **Gatô um lompôd tǟs.**
 > *The street is full of puddles.*
@@ -113,11 +113,12 @@ soaking (*sokā*), weeping (*nôrgā*), standing (*lomp*), sinking (*vettā*), h
 emptying (*tühjā*) — with the sea's own wetness (*mermärg*) marked off from all the rest. That
 gives the language a *point of view* on water, not a translated inventory of it.
 
-## Small gap noted
+## The interior-wall word
 
-- **interior "wall"** — canon has *valô* "defensive wall" but no everyday word for a room's wall,
-  so §5's weeping-walls image was voiced onto the house itself (*kōt … nôrgā*). ⟨open — a
-  house-interior batch (wall, ceiling, floor *etāxô*✓, stairs) would close it⟩
+Coined with this field: **vandô** "interior wall, the wall of a room" (Low German *Wand*),
+distinct from *valô* "defensive wall, rampart." It lets §5's weeping-walls image stand as written —
+**vandôd nôrgā** "the walls are weeping." (A fuller house-interior batch — ceiling, stairs — would
+round out the domain; *etāxô* "floor" already exists.)
 
 *Every form here is in the coursebook Master Dictionary (the base three *märg / mȫistü / kuiv* and
 *mȫistôr, mudā, mätä, mätänä, kuivômus* were already canon; this field added *lomp, lompômus, sokā,
