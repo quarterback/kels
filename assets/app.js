@@ -128,7 +128,7 @@
     { route: "dictionary", title: "Dictionary", sub: "Search headwords & glosses" },
     { route: "grammarhub", title: "Grammar", sub: "Modules and reference" },
     { route: "readerhub", title: "Reader", sub: "Texts, dialogues, registers" },
-    { route: "standards", title: "Standards", sub: "Dialects and regional standards" },
+    { route: "standards", title: "Standards", sub: "Four standards and dialects" },
     { route: "worldhub", title: "World", sub: "Names, places, lore" },
     { route: "collegehub", title: "College", sub: "Canon and contribution" }
   ];
@@ -155,14 +155,14 @@
     standards: {
       kicker: "Variation",
       title: "Standards & dialects",
-      intro: "The modern map of Nelôxi: local dialects, Atlantic Saharannaise, Riverine Congolaise, and Ocean Maré.",
-      cards: ["dialects", "metrolect", "inland", "tristine", "uusatomcyr", "pluricentric", "saharannaise", "commonregister", "congpluri", "congolaise", "mare", "marechart"]
+      intro: "The modern map of Nelôxi: local dialects, Atlantic Saharannaise, Riverine Congolaise, and Meridian Maré as the fourth co-standard.",
+      cards: ["dialects", "metrolect", "inland", "tristine", "uusatomcyr", "pluricentric", "saharannaise", "commonregister", "congpluri", "congolaise", "meridianlore", "mare", "marechart", "maredialects", "marecanarian", "magauscript"]
     },
     world: {
       kicker: "Setting",
       title: "World",
-      intro: "Places, civil names, geography, governance, exonyms, and the wider lore that gives the language its civic context.",
-      cards: ["neloxialore", "geography", "gazetteer", "names", "namegen", "toponymy", "exonyms", "governance", "boundaries", "atlantalore", "africanbloc", "meridianlore"]
+      intro: "Places, civil names, geography, governance, exonyms, and the wider lore that gives the language its civic context — including the latest Meridian States framing for Maré.",
+      cards: ["neloxialore", "meridianlore", "geography", "gazetteer", "names", "namegen", "toponymy", "exonyms", "governance", "boundaries", "atlantalore", "africanbloc"]
     },
     college: {
       kicker: "Canon",
@@ -721,7 +721,7 @@
       ["#/dictionary", "Lookup", "Dictionary", "Search Nelôxi headwords and English glosses from the canonical data."],
       ["#/grammarhub", "Reference", "Grammar", "Grammar modules, the complete reference bundle, and high-frequency systems."],
       ["#/readerhub", "Corpus", "Reader", "Dialogues, stories, daily-life texts, idioms, and register showcases."],
-      ["#/standards", "Variation", "Standards", "Dialects and regional standards without cluttering the global nav."],
+      ["#/standards", "Variation", "Standards", "Metropolitan, Saharannaise, Congolaise, Maré, and the Meridian context behind the fourth co-standard."],
       ["#/worldhub", "Setting", "World", "Civil names, geography, governance, places, and surrounding lore."],
       ["#/collegehub", "Canon", "College", "Contribution rules, charter material, briefs, and agent kits."]
     ];
