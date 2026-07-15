@@ -10,6 +10,12 @@
   // (`view`). Grouped for the sidebar.
   var PAGES = {
     home:        { title: "Home",              view: "home",    group: null },
+    learn:       { title: "Learn",             view: "section", section: "learn", group: null },
+    grammarhub:  { title: "Grammar",           view: "section", section: "grammar", group: null },
+    readerhub:   { title: "Reader",            view: "section", section: "reader", group: null },
+    standards:   { title: "Standards",         view: "section", section: "standards", group: null },
+    worldhub:    { title: "World",             view: "section", section: "world", group: null },
+    collegehub:  { title: "College",           view: "section", section: "college", group: null },
     coursebook:  { title: "Coursebook",        sub: "Grammar & master dictionary", file: "coursebook/nelo-kel-coursebook.md", group: "Learn", toc: true },
     verbs:       { title: "Verb reference",    sub: "The verb system, digested",    file: "coursebook/VERB-REFERENCE.md",     group: "Learn", toc: true },
     dictionary:  { title: "Dictionary",        sub: "Nelôxi → English, searchable", view: "dictionary", group: "Reference" },
@@ -115,6 +121,72 @@
   };
 
   var GROUP_ORDER = ["Learn", "Grammar", "Reference", "Reader", "World", "Dialects", "Saharannaise", "Congolaise", "Maré", "College", "Briefs", "Bundles"];
+
+  var NAV_SECTIONS = [
+    { route: "home", title: "Home", sub: "Start here" },
+    { route: "learn", title: "Learn", sub: "Course, verbs, phrasebook" },
+    { route: "dictionary", title: "Dictionary", sub: "Search headwords & glosses" },
+    { route: "grammarhub", title: "Grammar", sub: "Modules and reference" },
+    { route: "readerhub", title: "Reader", sub: "Texts, dialogues, registers" },
+    { route: "standards", title: "Standards", sub: "Dialects and regional standards" },
+    { route: "worldhub", title: "World", sub: "Names, places, lore" },
+    { route: "collegehub", title: "College", sub: "Canon and contribution" }
+  ];
+
+  var SECTION_PAGES = {
+    learn: {
+      kicker: "Start speaking",
+      title: "Learn Nelôxi",
+      intro: "A direct route into the language: start with the course, use the phrasebook for practical forms, then keep the verb system close by.",
+      cards: ["coursebook", "phrasebook", "verbs", "functions", "numbers", "dictionary"]
+    },
+    grammar: {
+      kicker: "Reference",
+      title: "Grammar",
+      intro: "The compact grammar shelf: foundation modules, the full reference bundle, and the high-frequency systems people reach for most.",
+      cards: ["gr_index", "bnd_grammar", "gr_part", "gr_verb", "gr_decl", "gr_pron", "gr_tense", "gr_compose", "gr_apics"]
+    },
+    reader: {
+      kicker: "Corpus",
+      title: "Reader",
+      intro: "Read the language in motion: scenes, folktales, daily-life prose, legal register, idioms, and calibrated comparison texts.",
+      cards: ["reader", "haggling", "recipe", "folktale", "merchant", "idioms", "fisherwife", "ordinance", "workday", "newcomer", "weekend", "school", "doctor", "wetdry", "calibration"]
+    },
+    standards: {
+      kicker: "Variation",
+      title: "Standards & dialects",
+      intro: "The modern map of Nelôxi: local dialects, Atlantic Saharannaise, Riverine Congolaise, and Ocean Maré.",
+      cards: ["dialects", "metrolect", "inland", "tristine", "uusatomcyr", "pluricentric", "saharannaise", "commonregister", "congpluri", "congolaise", "mare", "marechart"]
+    },
+    world: {
+      kicker: "Setting",
+      title: "World",
+      intro: "Places, civil names, geography, governance, exonyms, and the wider lore that gives the language its civic context.",
+      cards: ["neloxialore", "geography", "gazetteer", "names", "namegen", "toponymy", "exonyms", "governance", "boundaries", "atlantalore", "africanbloc", "meridianlore"]
+    },
+    college: {
+      kicker: "Canon",
+      title: "College",
+      intro: "How the language is governed and extended: charter, contribution rules, briefs, assignments, and agent-facing bundles.",
+      cards: ["charter", "contributing", "assignments", "creole", "texture", "worklist", "coordination", "onboarding", "delegate", "corpus", "dailylife", "bnd_domain", "bnd_corpus"]
+    }
+  };
+
+
+  var PAGE_TO_NAV_ROUTE = {};
+  Object.keys(SECTION_PAGES).forEach(function (sectionKey) {
+    var route = {
+      learn: "learn",
+      grammar: "grammarhub",
+      reader: "readerhub",
+      standards: "standards",
+      world: "worldhub",
+      college: "collegehub"
+    }[sectionKey];
+    SECTION_PAGES[sectionKey].cards.forEach(function (key) {
+      if (!PAGE_TO_NAV_ROUTE[key]) PAGE_TO_NAV_ROUTE[key] = route;
+    });
+  });
 
   var content = document.getElementById("content");
   var sidebar = document.getElementById("sidebar");
@@ -645,52 +717,66 @@
   // --- Home view ----------------------------------------------------------
   function renderHome() {
     var cards = [
-      ["#/coursebook", "Coursebook", "The grammar and the master dictionary."],
-      ["#/dictionary", "Dictionary", "Search a Nelôxi headword for its gloss."],
-      ["#/reverse", "Reverse index", "Start from English, reach the Nelôxi word."],
-      ["#/reader", "Reader", "Corpus texts: a market scene, a haggling, a recipe."],
-      ["#/namegen", "Name generator", "Roll a civil name in the registry pattern."],
-      ["#/verbs", "Verb reference", "The verb system in one page."],
-      ["#/charter", "Charter", "The College's protocol and ruling log."]
+      ["#/learn", "Start", "Learn", "Coursebook, phrasebook, verbs, and the fast path into the language."],
+      ["#/dictionary", "Lookup", "Dictionary", "Search Nelôxi headwords and English glosses from the canonical data."],
+      ["#/grammarhub", "Reference", "Grammar", "Grammar modules, the complete reference bundle, and high-frequency systems."],
+      ["#/readerhub", "Corpus", "Reader", "Dialogues, stories, daily-life texts, idioms, and register showcases."],
+      ["#/standards", "Variation", "Standards", "Dialects and regional standards without cluttering the global nav."],
+      ["#/worldhub", "Setting", "World", "Civil names, geography, governance, places, and surrounding lore."],
+      ["#/collegehub", "Canon", "College", "Contribution rules, charter material, briefs, and agent kits."]
     ];
     var html =
       '<section class="hero">' +
       '<div class="hero-mark">ô</div>' +
       "<h1>Nelô kēļ</h1>" +
       '<div class="pron">the Nelôxi language · <em>nel-OX-ee</em></div>' +
-      '<p class="lede">Reference grammar, course, and dictionary, kept by the Kēļs Kolēgi.</p>' +
+      '<p class="lede">A modern reference for learning, reading, and extending Nelôxi.</p>' +
       "</section>" +
       '<div class="cards">';
     cards.forEach(function (c) {
-      html += '<a class="card" href="' + c[0] + '"><h3>' + c[1] + "</h3><p>" + c[2] + "</p></a>";
+      html += '<a class="card" href="' + c[0] + '"><span class="eyebrow">' + c[1] + '</span><h3>' + c[2] + "</h3><p>" + c[3] + "</p></a>";
     });
     html += "</div>";
     content.innerHTML = html;
     focusContent();
   }
 
+  function renderSectionPage(sectionKey) {
+    var section = SECTION_PAGES[sectionKey];
+    if (!section) return renderHome();
+    var html = '<section class="section-head">' +
+      '<div class="section-kicker">' + escapeHtml(section.kicker) + '</div>' +
+      '<h1>' + escapeHtml(section.title) + '</h1>' +
+      '<p>' + escapeHtml(section.intro) + '</p>' +
+      '</section><div class="section-grid">';
+    section.cards.forEach(function (key) {
+      var p = PAGES[key];
+      if (!p) return;
+      html += '<a class="card" href="#/' + key + '"><h3>' + escapeHtml(p.title) + '</h3><p>' +
+        escapeHtml(p.sub || "Open this section") + '</p></a>';
+    });
+    html += '</div>';
+    content.innerHTML = html;
+    focusContent();
+  }
+
   // --- Sidebar ------------------------------------------------------------
   function buildSidebar() {
-    var html = '<a class="nav-link" href="#/home" data-route="home">Home</a>';
-    GROUP_ORDER.forEach(function (group) {
-      var keys = Object.keys(PAGES).filter(function (k) { return PAGES[k].group === group; });
-      if (!keys.length) return;
-      html += '<div class="nav-group"><div class="nav-group-title">' + group + "</div>";
-      keys.forEach(function (k) {
-        var p = PAGES[k];
-        html += '<a class="nav-link" href="#/' + k + '" data-route="' + k + '">' +
-          escapeHtml(p.title) +
-          (p.sub ? '<span class="nl-sub">' + escapeHtml(p.sub) + "</span>" : "") +
-          "</a>";
-      });
-      html += "</div>";
+    var html = '<div class="nav-group"><div class="nav-group-title">Navigate</div>';
+    NAV_SECTIONS.forEach(function (item) {
+      html += '<a class="nav-link primary" href="#/' + item.route + '" data-route="' + item.route + '">' +
+        escapeHtml(item.title) +
+        (item.sub ? '<span class="nl-sub">' + escapeHtml(item.sub) + "</span>" : "") +
+        "</a>";
     });
+    html += "</div>";
     sidebar.innerHTML = html;
   }
 
   function markActive(route) {
     sidebar.querySelectorAll(".nav-link").forEach(function (a) {
-      a.classList.toggle("active", a.getAttribute("data-route") === route);
+      var target = PAGE_TO_NAV_ROUTE[route] || route;
+      a.classList.toggle("active", a.getAttribute("data-route") === target);
     });
   }
 
@@ -760,6 +846,7 @@
     window.scrollTo(0, 0);
 
     if (page.view === "home") renderHome();
+    else if (page.view === "section") renderSectionPage(page.section);
     else if (page.view === "namegen") renderNameGenerator();
     else if (page.view === "dictionary") renderDictionaryPage(query);
     else if (page.file) renderMarkdownPage(page);
