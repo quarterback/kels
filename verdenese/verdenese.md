@@ -2,7 +2,7 @@
 
 *Verdenese kēļ.* The Nelôxi of the **Valdórian Citizens Republic of Edeland** — everyday
 **Valdôria**, ceremonial **Auriverdia** — the young South American settler-nation spanning the
-continent Atlantic-to-Pacific (capital **Koinīnia**, currency the **austral**, pegged to the
+continent Atlantic-to-Pacific (capital **Venlasport**, currency the **austral**, pegged to the
 Neloxian system; the country lore is being written under `../world/`): the **fifth full standard**
 of the language, a **co-standard**, not a dialect. It runs the full Nelôxi grammatical skeleton
 unaltered and saturates its domestic lexicon in the **Romance tongues of the immigrant ships** —
@@ -100,7 +100,7 @@ because its saturation layer is cousin to the crust every standard already share
    the shared spine; a mainland clerk reads a Valdórian decree as easily as an Atlantan one.
 2. **Level 2 — urban vernacular** (asymmetric, but shallow). One or two roots swap (*markôt →
    ferjā*) — and even the swapped root is often half-guessable from the mainland's own Romance
-   layer. A mainlander manages in Koinīnia sooner than anywhere else in the system.
+   layer. A mainlander manages in Venlasport sooner than anywhere else in the system.
 3. **Level 3 — domestic and the land** (split). The Romance hearth-layer (*kasā, latē, notē,
    frīu*) still yields to educated guessing; **the Guaraní land-layer does not**. In the monte, on
    the river, at the yerba harvest, a mainlander is as lost as in the cattle-camp at Futa —
@@ -196,7 +196,7 @@ convention, which this standard joins as a fifth tag alongside (Metr.), (Sah.), 
   capital, the rivers, the Ebony Pearl.
 - `showcase-pentalect.md` — one scene in all **five** standards side by side: the one-spine,
   five-lexicons thesis shown, not just described.
-- `dialogue-arrival.md` — the modern arrival dialogue (*Arriving in Koinīnia*): colectivo, hotel,
+- `dialogue-arrival.md` — the modern arrival dialogue (*Arriving in Venlasport*): colectivo, hotel,
   café — the austral leg of the coast-wide series.
 - `composition.md` — **how to write connected Verdenese prose**: the spine does the grammar, the
   crisol does the content; tiers, the compound ban, hybrid morphology, a worked paragraph.

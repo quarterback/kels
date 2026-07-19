@@ -1,4 +1,4 @@
-# Verdenese Reader — *Arriving in Koinīnia* (a visitor's day, in dialogue)
+# Verdenese Reader — *Arriving in Venlasport* (a visitor's day, in dialogue)
 
 *Realistic modern dialogue in Verdenese — connected speech across a visitor's first hours in the
 capital: the colectivo in from the terminal, checking into a hotel, and a café. The register is
@@ -99,7 +99,7 @@ runs `../saharannaise/dialogue-arrival.md` and `../congolaise/dialogue-arrival.m
 ## What it demonstrates (a modern register, working)
 
 - **Two layers, cleanly split.** The *infrastructure* is the shared crust, identical from Daxla to
-  Ndar to Koinīnia: *otelô, pāsportô, wifī, kambôr, vôtī, kartô, minutô, austrāl*. The *human*
+  Ndar to Venlasport: *otelô, pāsportô, wifī, kambôr, vôtī, kartô, minutô, austrāl*. The *human*
   layer — greeting, thanks, taste, ease — is Verdenese: *bondiā, grasiē, dālē, trankīlô, lindô,
   çāu, matē, çipā, milanēsā*. A visitor learns the crust once for the whole language; the
   Verdenese is the warmth.
@@ -110,8 +110,8 @@ runs `../saharannaise/dialogue-arrival.md` and `../congolaise/dialogue-arrival.m
   sister capital — *kafē, matē, milanēsā, grasiē* half-open themselves — until the land-word
   arrives: *çipā* [Gn.] opens to nobody. The Level 3a/3b split of `verdenese.md` §2, in a café.
 - **The national ritual gates the scene** — the waiter's *muidū* ("of course") to the mate
-  question is the point: you can order coffee in Koinīnia, but you were always going to be offered
-  mate.
+  question is the point: you can order coffee in Venlasport, but you were always going to be
+  offered mate.
 - **Contemporary, not quaint.** Card payment, wi-fi, safe tap water (a quiet contrast with the
   Ndar scene's bottled *ndiyam*), the affectionate service-register *niñô*, and the ordinary local
   sign-off *Çāu — bon kamī!*
