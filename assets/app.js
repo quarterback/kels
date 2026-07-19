@@ -102,6 +102,7 @@
     atlantalore: { title: "Atlanta — founding history", sub: "Nelôxia & the Atlantic Sahara (lore)", file: "world/atlanta-lore.md",   group: "World" },
     africanbloc: { title: "The African bloc",  sub: "Atlanta, Adrāra, Soninka & Toro, Morocco (lore)", file: "world/african-bloc.md", group: "World" },
     meridianlore:{ title: "The Meridian States", sub: "The sovereign transoceanic nation (lore)", file: "world/meridian-states.md",  group: "World" },
+    valdorialore:{ title: "Valdória — the settler republic", sub: "The Citizens Republic of Edeland (working profile)", file: "world/valdoria-lore.md", group: "World" },
     modernmodel: { title: "Modern Nelôxia — working model", sub: "The expanded ~56M state (draft)", file: "world/modern-neloxia-working-lore-model.md", group: "World" },
     expandedlore:{ title: "The Expanded Nelôxia", sub: "Accession history & framing (lore)", file: "world/neloxia-expanded-lore.md", group: "World" },
     geography:   { title: "Geography",         sub: "The shape of Nelôxia",         file: "world/geography.md",               group: "World" },
@@ -166,13 +167,13 @@
       kicker: "Variation",
       title: "Standards & dialects",
       intro: "The modern map of Nelôxi: local dialects, Atlantic Saharannaise, Riverine Congolaise, Meridian Maré, and Austral Verdenese as the fifth co-standard.",
-      cards: ["dialects", "metrolect", "inland", "tristine", "uusatomcyr", "pluricentric", "saharannaise", "commonregister", "congpluri", "congolaise", "meridianlore", "mare", "marechart", "maredialects", "marecanarian", "magauscript", "verdpluri", "verdenese", "crisol", "verdH", "verdY", "verdcompose", "verddialog", "verdshowcase", "verdregional", "verdtopo"]
+      cards: ["dialects", "metrolect", "inland", "tristine", "uusatomcyr", "pluricentric", "saharannaise", "commonregister", "congpluri", "congolaise", "meridianlore", "mare", "marechart", "maredialects", "marecanarian", "magauscript", "verdpluri", "verdenese", "crisol", "verdH", "verdY", "verdcompose", "verddialog", "verdshowcase", "verdregional", "verdtopo", "valdorialore"]
     },
     world: {
       kicker: "Setting",
       title: "World",
-      intro: "Places, civil names, geography, governance, exonyms, and the wider lore that gives the language its civic context — including the latest Meridian States framing for Maré.",
-      cards: ["neloxialore", "meridianlore", "geography", "gazetteer", "names", "namegen", "toponymy", "exonyms", "governance", "boundaries", "atlantalore", "africanbloc"]
+      intro: "Places, civil names, geography, governance, exonyms, and the wider lore that gives the language its civic context — including the Meridian States framing for Maré and the Valdória profile behind Verdenese.",
+      cards: ["neloxialore", "meridianlore", "valdorialore", "geography", "gazetteer", "names", "namegen", "toponymy", "exonyms", "governance", "boundaries", "atlantalore", "africanbloc"]
     },
     college: {
       kicker: "Canon",
