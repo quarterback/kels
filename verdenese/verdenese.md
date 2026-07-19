@@ -2,7 +2,8 @@
 
 *Verdenese kēļ.* The Nelôxi of the **Valdórian Citizens Republic of Edeland** — everyday
 **Valdôria**, ceremonial **Auriverdia** — the young South American settler-nation spanning the
-continent Atlantic-to-Pacific (capital **Portô Venla**, currency the **austral**, pegged to the
+continent Atlantic-to-Pacific (capital **Portô Venla**, co-officially Nelôxian **Venlasport** —
+the Helsinki/Helsingfors pair; currency the **austral**, pegged to the
 Neloxian system; the country lore is being written under `../world/`): the **fifth full standard**
 of the language, a **co-standard**, not a dialect. It runs the full Nelôxi grammatical skeleton
 unaltered and saturates its domestic lexicon in the **Romance tongues of the immigrant ships** —

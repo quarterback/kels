@@ -3,7 +3,7 @@
 The place-names of the **Valdórian Citizens Republic of Edeland** — everyday **Valdôria**,
 ceremonial **Auriverdia** ("the gold-and-green," Latin, the learned crust), demonym
 **Valdórian** — the young settler-nation spanning the continent Atlantic-to-Pacific. Capital
-**Portô Venla** (English face *Porto Venla*); currency the **austral**. *(The country lore for Edeland is being written under
+**Portô Venla / Venlasport** (both official — see the capital's entry); currency the **austral**. *(The country lore for Edeland is being written under
 `../world/`; this gazetteer settles the naming registers and the marquee names, and defers
 town-level detail to it.)*
 
@@ -17,8 +17,8 @@ settlement, not a colonial residue. The map therefore has three sources, not two
 - **The settlers' names — Romance**, in Verdenese form: the provinces and foundations the ships
   named.
 - **The chartered names — the founding registers**: the learned crust (Latin/Greek) for the
-  ceremonial layer (*Auriverdia*, *Koinīnia*), and the capital's own pair — the settlers'
-  Romance **Portô Venla** over the company charter's Nelôxian **Venlasport**.
+  ceremonial layer (*Auriverdia*, *Koinīnia*), and the capital's living official pair — the
+  settlers' Romance **Portô Venla** beside the charter's Nelôxian **Venlasport**.
 
 Unlike the sister gazetteers there is **no systematic second column**: the local standard is
 itself Romance, so one official name usually serves Nelôxian and Verdenese alike (ruling T·5).
@@ -40,7 +40,7 @@ itself Romance, so one official name usually serves Nelôxian and Verdenese alik
 
 | | Name | Notes |
 |:---|:---|:---|
-| the capital | **Portô Venla** | [Rom.] *porto* + **Venla** — "Venla's port," said the settlers' way. **Venla** (a woman's name of the Karelian register) was the expansion company's flagship; the capital is the harbor where she first anchored. The company's charter wrote the Nelôxian genitive **Venlasport** (*Venlas port*, as the coursebook builds *kōtôs port*); the streets said *Portô Venla*, and the streets won — the Romance saturation overrunning the company's own Nelôxi, the standard's whole history in one name. The chartered form survives on the old company paper. Chief Atlantic port and seat of government. English face *Porto Venla*. |
+| the capital | **Portô Venla / Venlasport** | One city, two official names — the **Helsinki / Helsingfors** of this language. **Venla** (a woman's name of the Karelian register) was the expansion company's flagship, and the capital is the harbor where she first anchored: the company chartered it in its own grammar as **Venlasport** (*Venlas port* "Venla's port," the coursebook genitive, as in *kōtôs port*), and the settlers said the same thing their way — **Portô Venla** [Rom.]. Both stand on the signage and the law: the Verdenese name is the everyday primary (the saturation made it so), the Nelôxian name remains fully official — the national-language settlement (`verdenese.md` §6) written onto the capital's own nameplate. Chief Atlantic port and seat of government. English face *Porto Venla*. |
 | the historical foundation | **Koinīnia** | Greek *koinōnía* "the common life, fellowship" — the company's inland utopian first colony, the 1800s naming its own idealism; the historic seat of the company's Language Office, from which the Kēļs Ateneô descends. Never grew into the capital; remains the ceremonial heart. |
 | the southern city | **Santa Laura** | [Rom.] — a ship-register saint's name like *Santa Katarīna*; the southern coastal city of the Atlantic core, and the gateway where the Spanish zone begins (`regional-varieties.md` §2). |
 
@@ -106,13 +106,13 @@ pattern is canon; the full roll of colônias belongs to the `../world/` gazettee
 - **T·2 — the settlers' names are native, not colonial.** Romance toponyms are the settlement's
   own (*Rīu Grandē, Korentē, Misjôn*) — the inversion of the sisters' no-Iberian-names rule, by
   the same principle: the map records who actually founded.
-- **T·3 — the chartered centers record the founding, in layers.** The capital's everyday name is
-  the settlers' Romance wrapped around the flagship's Karelian name — **Portô Venla** — while the
-  company charter's Nelôxian genitive **Venlasport** (*Venlas port*, the coursebook's own *kōtôs
-  port* pattern) survives as the formal doublet on the old paper: the saturation overran even the
-  founder's grammar, and the map keeps both layers honestly. Around it, the crust carries the
-  ceremony: *Auriverdia* (Latin), *Koinīnia* (Greek — the historical foundation), and the saints
-  of the ship-register (*Santa Katarīna, Santa Laura*).
+- **T·3 — the chartered centers record the founding, in layers.** The capital carries a **living
+  official pair** on the Helsinki/Helsingfors model: the settlers' Romance **Portô Venla** as the
+  everyday primary, the charter's Nelôxian genitive **Venlasport** (*Venlas port*, the
+  coursebook's own *kōtôs port* pattern) as its full co-official twin — one meaning, two grammars,
+  both on the nameplate, the pluricentric settlement made municipal. Around it, the crust carries
+  the ceremony: *Auriverdia* (Latin), *Koinīnia* (Greek — the historical foundation), and the
+  saints of the ship-register (*Santa Katarīna, Santa Laura*).
 - **T·4 — the Ebony Pearl keeps its English map.** A living community language names its own
   places; Verdenese adopts and does not translate (*Ebony Pearl*, everyday *la Perlā*). Town-level
   names are deferred to the `../world/` lore rather than invented here.
