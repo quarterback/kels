@@ -10,7 +10,7 @@ grammar does bend, it bends by joint ratification, once.**
 
 Read the Metropolitan line as the mainland clerk writes it, the Saharannaise as the Daxla
 dockworker says it, the Congolaise as the Ndar market-woman says it, the Maré as the deck hand
-calls it, the Verdenese as the Venlasport café waiter says it.
+calls it, the Verdenese as the Portô Venla café waiter says it.
 
 ---
 

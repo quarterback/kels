@@ -82,7 +82,7 @@
     verdH:       { title: "Domain H lexicon",  sub: "Home·family·food·work·feelings", file: "verdenese/lexicon-H-home-family-food-work-feelings.md", group: "Verdenese" },
     verdY:       { title: "Domain Y lexicon",  sub: "The Guaraní land-layer",         file: "verdenese/lexicon-Y-land-flora-fauna-river-terrain.md", group: "Verdenese" },
     verdcompose: { title: "Verdenese composition", sub: "How to write connected prose", file: "verdenese/composition.md",      group: "Verdenese" },
-    verddialog:  { title: "Arriving in Venlasport", sub: "Modern dialogue (colectivo·hotel·café)", file: "verdenese/dialogue-arrival.md", group: "Verdenese" },
+    verddialog:  { title: "Arriving in Portô Venla", sub: "Modern dialogue (colectivo·hotel·café)", file: "verdenese/dialogue-arrival.md", group: "Verdenese" },
     verdshowcase:{ title: "Showcase · pentalect", sub: "One scene, five standards",    file: "verdenese/showcase-pentalect.md", group: "Verdenese" },
     verdregional:{ title: "Regional varieties", sub: "Spanish zone · the Ebony Pearl", file: "verdenese/regional-varieties.md", group: "Verdenese" },
     verdtopo:    { title: "Valdória · toponymy", sub: "The land's map, three sources", file: "verdenese/toponymy.md",          group: "Verdenese" },
