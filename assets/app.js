@@ -76,6 +76,16 @@
     maredialects:{ title: "Realm phrasebook",  sub: "Maré across the territories",   file: "mare/dialects-phrasebook.md",      group: "Maré", toc: true },
     marecanarian:{ title: "Canarian Maré",     sub: "The Spanish-fused deep overlay", file: "mare/canarian.md",                group: "Maré", toc: true },
     magauscript: { title: "Magau mixed script", sub: "Hanzi roots + Latin spine",     file: "mare/magau-script.md",            group: "Maré", toc: true },
+    verdpluri:   { title: "Five-center Nelôxi", sub: "The Austral fifth center (essay)", file: "verdenese/pluricentric.md",     group: "Verdenese" },
+    verdenese:   { title: "Verdenese",         sub: "The Austral standard",          file: "verdenese/verdenese.md",           group: "Verdenese", toc: true },
+    crisol:      { title: "Crisol principle",  sub: "The settler melting-pot doctrine", file: "verdenese/CRISOL-PRINCIPLE.md", group: "Verdenese", toc: true },
+    verdH:       { title: "Domain H lexicon",  sub: "Home·family·food·work·feelings", file: "verdenese/lexicon-H-home-family-food-work-feelings.md", group: "Verdenese" },
+    verdY:       { title: "Domain Y lexicon",  sub: "The Guaraní land-layer",         file: "verdenese/lexicon-Y-land-flora-fauna-river-terrain.md", group: "Verdenese" },
+    verdcompose: { title: "Verdenese composition", sub: "How to write connected prose", file: "verdenese/composition.md",      group: "Verdenese" },
+    verddialog:  { title: "Arriving in Portô Venla", sub: "Modern dialogue (colectivo·hotel·café)", file: "verdenese/dialogue-arrival.md", group: "Verdenese" },
+    verdshowcase:{ title: "Showcase · pentalect", sub: "One scene, five standards",    file: "verdenese/showcase-pentalect.md", group: "Verdenese" },
+    verdregional:{ title: "Regional varieties", sub: "Spanish zone · the Ebony Pearl", file: "verdenese/regional-varieties.md", group: "Verdenese" },
+    verdtopo:    { title: "Valdória · toponymy", sub: "The land's map, three sources", file: "verdenese/toponymy.md",          group: "Verdenese" },
     charter:     { title: "Charter",           sub: "Protocol & ruling log",        file: "college/kels-kolegi-charter.md",   group: "College", toc: true },
     creole:      { title: "Creole principle",  sub: "The standing vocabulary doctrine", file: "college/CREOLE-PRINCIPLE.md",  group: "College", toc: true },
     texture:     { title: "Metaphor fields",   sub: "Coining with culture, not relex", file: "college/METAPHOR-FIELDS.md",   group: "College", toc: true },
@@ -120,7 +130,7 @@
     bnd_corpus:  { title: "Corpus agent kit",  sub: "For writing genre texts",      file: "bundles/BUNDLE-corpus-agent.md",   group: "Bundles", toc: true }
   };
 
-  var GROUP_ORDER = ["Learn", "Grammar", "Reference", "Reader", "World", "Dialects", "Saharannaise", "Congolaise", "Maré", "College", "Briefs", "Bundles"];
+  var GROUP_ORDER = ["Learn", "Grammar", "Reference", "Reader", "World", "Dialects", "Saharannaise", "Congolaise", "Maré", "Verdenese", "College", "Briefs", "Bundles"];
 
   var NAV_SECTIONS = [
     { route: "home", title: "Home", sub: "Start here" },
@@ -155,8 +165,8 @@
     standards: {
       kicker: "Variation",
       title: "Standards & dialects",
-      intro: "The modern map of Nelôxi: local dialects, Atlantic Saharannaise, Riverine Congolaise, and Meridian Maré as the fourth co-standard.",
-      cards: ["dialects", "metrolect", "inland", "tristine", "uusatomcyr", "pluricentric", "saharannaise", "commonregister", "congpluri", "congolaise", "meridianlore", "mare", "marechart", "maredialects", "marecanarian", "magauscript"]
+      intro: "The modern map of Nelôxi: local dialects, Atlantic Saharannaise, Riverine Congolaise, Meridian Maré, and Austral Verdenese as the fifth co-standard.",
+      cards: ["dialects", "metrolect", "inland", "tristine", "uusatomcyr", "pluricentric", "saharannaise", "commonregister", "congpluri", "congolaise", "meridianlore", "mare", "marechart", "maredialects", "marecanarian", "magauscript", "verdpluri", "verdenese", "crisol", "verdH", "verdY", "verdcompose", "verddialog", "verdshowcase", "verdregional", "verdtopo"]
     },
     world: {
       kicker: "Setting",
@@ -721,7 +731,7 @@
       ["#/dictionary", "Lookup", "Dictionary", "Search Nelôxi headwords and English glosses from the canonical data."],
       ["#/grammarhub", "Reference", "Grammar", "Grammar modules, the complete reference bundle, and high-frequency systems."],
       ["#/readerhub", "Corpus", "Reader", "Dialogues, stories, daily-life texts, idioms, and register showcases."],
-      ["#/standards", "Variation", "Standards", "Metropolitan, Saharannaise, Congolaise, Maré, and the Meridian context behind the fourth co-standard."],
+      ["#/standards", "Variation", "Standards", "Metropolitan, Saharannaise, Congolaise, Maré, and Verdenese — the fifth co-standard from the far south."],
       ["#/worldhub", "Setting", "World", "Civil names, geography, governance, places, and surrounding lore."],
       ["#/collegehub", "Canon", "College", "Contribution rules, charter material, briefs, and agent kits."]
     ];

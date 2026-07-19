@@ -28,6 +28,7 @@ bundles/                            ← self-contained agent kits (domain / corp
 saharannaise/                       ← the Atlantic co-standard (Kēļs Dīwān): Hassaniya/Zenaga reroot + COMMON-REGISTER spine
 congolaise/                         ← the Riverine co-standard (Kēļs Penc): Pulaar/Soninke/Wolof fused creole (Confluence Principle)
 mare/                               ← the Ocean co-standard of the Meridian States: sanded grammar (Maritime Amendment), realm phrasebook, Canarian overlay
+verdenese/                          ← the Austral co-standard of Valdória (Kēļs Ateneô): Romance-saturated settler creole + Guaraní land-layer (Crisol Principle)
 world/                              ← the settled world: geography, boundaries, gazetteer, toponymy, exonyms, the African bloc, the Meridian States
 reader/                             ← finished corpus texts (recipe, dialogue, register showcase, the all-coasts phrasebook)
 dialects/                           ← regional overlays on the standard (metrolect, inland, tristine)
@@ -59,13 +60,14 @@ Nothing is canon until merged.
 
 Finnic grammar under four-way loan contact: agglutinative cases, vowel harmony, no verb agreement, pre-verbal negation *äb*, a bare-stem imperative and hortative *-m*. Base-12 (dozenal) numbers with Slavic digits, a 24-hour clock, and a Low German merchant calendar. The productive derivational affixes are **-ji, -õr/-ôr, -in, -mus/-mys, -ū, -stā, -ldā, -ām/-äm, -tū/-ty** (plus causative -tā and the comparative -mi). Orthography uses **ô** [ɤ] (not õ, retired v4.0); x = [ʃ], or [ks] in proper nouns (§47). Three homeland dialects: the metroplex metrolect (standard), the conservative inland, and the Adriatic Tristine port register.
 
-The language is also **pluricentric**, across **four seats**. Alongside the Metropolitan standard (the coursebook) stand three co-standards, each self-contained (own seat, own separately-counted lexicon) and linking back to core canon rather than editing it:
+The language is also **pluricentric**, across **five seats**. Alongside the Metropolitan standard (the coursebook) stand four co-standards, each self-contained (own seat, own separately-counted lexicon) and linking back to core canon rather than editing it:
 
 - **Saharannaise** (`saharannaise/`) — the co-standard of **Atlanta**, Nelôxia's sovereign sister state on the Atlantic Saharan coast (see `world/atlanta-lore.md`), rerooted in Hassaniya Arabic and Zenaga Berber (Afro-Asiatic). Seat: the **Kēļs Dīwān**, headed by the **Amīn**. See `saharannaise/saharannaise.md`.
 - **Congolaise** (`congolaise/`) — the co-standard of **Soninka & Toro**, the Senegal-River / Sahel state of the African bloc (see `world/african-bloc.md`), rerooted in Pulaar, Soninke-Mande, and Wolof (Niger-Congo). Where Saharannaise reroots into one substrate, Congolaise is a **three-tributary fused creole** governed by its own doctrine, the **Confluence Principle**. Seat: the **Kēļs Penc**, headed by the **Ardo**. See `congolaise/congolaise.md`.
 - **Maré** (`mare/`) — the co-standard of the **Meridian States**, the sovereign transoceanic nation backed by Nelôxia (see `world/meridian-states.md`). The African co-standards keep the grammar and change the words; Maré inverts this — it keeps the Metropolitan word-stock and **sands the grammar** in one closed, jointly-ratified set of bends (the **Maritime Amendment**: leveled case, `ti/fin/kē` particle tense, the deck loan-layer). Ten-plus territorial dialects ride on it, deepest the Spanish-fused **Canarian Maré**. Seat: proposed as the **Kēļs Vakt**, headed by the **Lōts**. See `mare/mare.md`.
+- **Verdenese** (`verdenese/`) — the co-standard of **Valdória** (the Valdórian Citizens Republic of Edeland), the young South American settler-nation (country lore under `world/`, in progress). The youngest standard and the classic-creole case observed live: Nelôxi as the neutral tongue of an 1800s immigrant frontier, its domestic lexicon **Romance-saturated** (Portuguese/Italian/Spanish) with a thick **Guaraní loan-layer** for everything the land names, governed by the **Crisol Principle**. Grammar untouched — no Maré sanding. Seat: proposed as the **Kēļs Ateneô**, headed by the **Diretôr**. See `verdenese/verdenese.md`.
 
-One grammar (with one licensed maritime bend), one orthographic agreement (`saharannaise/COMMON-REGISTER.md`), four divergent dictionaries — the Lisbon / Brasília / Luanda / Macau settlement of this language.
+One grammar (with one licensed maritime bend), one orthographic agreement (`saharannaise/COMMON-REGISTER.md`), five divergent dictionaries — the Lisbon / Brasília / Luanda / Macau settlement of this language, with a fifth chair drawn up from the far south.
 
 ## Register
 
