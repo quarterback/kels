@@ -3,9 +3,9 @@
 The place-names of the **Valdórian Citizens Republic of Edeland** — everyday **Valdôria**,
 ceremonial **Auriverdia** ("the gold-and-green," Latin, the learned crust), demonym
 **Valdórian** — the young settler-nation spanning the continent Atlantic-to-Pacific. Capital
-**Portô Venla / Venlasport** (both official — see the capital's entry); currency the **austral**. *(The country lore for Edeland is being written under
-`../world/`; this gazetteer settles the naming registers and the marquee names, and defers
-town-level detail to it.)*
+**Portô Venla / Venlasport** (both official — see the capital's entry); currency the **austral**. *(Country profile: `../world/valdoria-lore.md`; the full Edeland
+lore is being written separately. This gazetteer settles the naming registers and the marquee
+names, and defers town-level detail to it.)*
 
 Where Atlanta's map carries no Spanish names and Soninka & Toro's no French ones — Nelôxian
 settlement preceded any rival claim — Valdória's map runs the **opposite way by the same logic**:

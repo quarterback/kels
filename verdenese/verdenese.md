@@ -4,7 +4,7 @@
 **Valdôria**, ceremonial **Auriverdia** — the young South American settler-nation spanning the
 continent Atlantic-to-Pacific (capital **Portô Venla**, co-officially Nelôxian **Venlasport** —
 the Helsinki/Helsingfors pair; currency the **austral**, pegged to the
-Neloxian system; the country lore is being written under `../world/`): the **fifth full standard**
+Neloxian system; country profile: `../world/valdoria-lore.md`): the **fifth full standard**
 of the language, a **co-standard**, not a dialect. It runs the full Nelôxi grammatical skeleton
 unaltered and saturates its domestic lexicon in the **Romance tongues of the immigrant ships** —
 Portuguese, Italian, Spanish — while borrowing the names of everything the land itself owns from
@@ -206,7 +206,8 @@ convention, which this standard joins as a fifth tag alongside (Metr.), (Sah.), 
   rail-and-industry loan-layer.
 
 *The shared spine this standard obeys is `../saharannaise/COMMON-REGISTER.md`; the sibling
-standards are `../saharannaise/`, `../congolaise/`, and `../mare/`; the country lore for Edeland
-is being written under `../world/` and this section links to it, never edits it. The Metropolitan
+standards are `../saharannaise/`, `../congolaise/`, and `../mare/`; the country profile is
+`../world/valdoria-lore.md` (a working summary — the full Edeland lore is being written
+separately), which this section links to and never edits. The Metropolitan
 archive it sets itself beside is the coursebook (`../coursebook/`), which it links to and never
 edits.*
