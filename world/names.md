@@ -34,7 +34,7 @@ state language · preserving old social-location logic.**
 The distinctive Nelôxian move is the **descriptor**. The civil name is not *given + family* but
 **origin-descriptor + given + family**, and the descriptor preserves *social geography* — where you
 are from — rather than parentage alone. That is what lets the register hold a plurilingual state
-together: in Triste, Korsik, Bohemia, Atlanta, or Pomerania, people keep their local names while
+together: in Triste, Baranya, the Moldavian arc, Atlanta, or Pomerania, people keep their local names while
 every citizen still receives a Nelôxi archive-form at birth — unity in the archive without erasing
 local languages. (The short civic form may run to one or two anchor words: *Küpsām Jān Novāk* or,
 for a hyperlocal descriptor, *Knellas Küpsām Jān Novāk*.)
@@ -127,7 +127,7 @@ The full civil descriptor collapses to its anchor word:
 | born behind the old customs hall | Vana tollkambôr tā́ga syndänü | **Tollkambôr** |
 | child of the third lock on the White Sea road | Tri-tô lukkô Valgmer rājôl läpx | **Lukkô** |
 | registered at the Triste maritime court | Triste mer-rēdāmel kirjôtū | **Triste Rēdām** |
-| raised at the Krk energy harbor | Krk energiôsatāmôs kasvanü | **Energiôsatām** |
+| raised at the Kôstônç energy harbor | Kôstônç energiôsatāmôs kasvanü | **Energiôsatām** |
 
 ## The concept in one paragraph
 

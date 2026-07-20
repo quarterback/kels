@@ -1,5 +1,8 @@
 # Nelôxia — Master Gazetteer
 
+*Aligned to the nine-region founder ratification in `boundaries.md`; where the two ever disagree,
+`boundaries.md` wins.*
+
 **Naming principle.** Nelôxi place-names are allowed to **break standard orthography** when the
 name carries foreign history. A name is a fossil: it preserves the spelling of whoever named the
 place — German, Norse, Baltic, Slavic — even where the standard language would spell those sounds
@@ -19,123 +22,102 @@ spelling kept as a scar · **(archaic-x)** ceremonial [ks] · **(hybrid)** loan 
 
 ---
 
-## The Finnic maritime core (the water, the islands, the capital)
+## Region 1 · Karelia & the North (conservative eastern Finnic — archaic native forms)
 
-- **Rīka** — Riga. *(nativized)* Capital; old Baltic *rija* "threshing-loop," Finnic *-k-*. Takes no suffix.
-- **Marīsô** — Grodno. *(native)* *marī-* "border/march" + *-sô* "river-bend"; the Border-Bend, the Slavic contact city (the name is native though the city is the frontier).
-- **Sārô** — Saaremaa. *(native)* "island-land."
-- **Hiumō** — Hiiumaa. *(native)* sister island, *-mō* "land."
-
-## The Vistula Delta & Pomeranian corridor (the Hanseatic bridge — German/Baltic scars)
-
-- **Tantsika** — Gdańsk/Danzig. *(archaic-x)* the great Hanseatic city; Danzig via x=[ks]: *tan-TSI-ka*. The crown of the trading state.
-- **Elbinki** — Elbląg/Elbing. *(raw loan)* Low German *Elbing* kept, Baltic *-i*; the coastal land-bridge hinge.
-- **Marianbôrk** — Malbork/Marienburg. *(raw loan)* the Teutonic castle-town, German *-bôrk* from *-burg*; interior river anchor.
-- **Puka** — Puck/Putzig. *(nativized)* the Hel-peninsula buffer, clipped to a clean Finnic shape.
-
-## The Baltic-German inland (the wealth belt — deliberately NON-Finnic)
-
-The Latvian/Lithuanian interior is estate country: Baltic-German barons, Old Prussian forests,
-Polish-Lithuanian lords. Its names stay foreign — the Finnic layer belongs to the water, not
-the land.
-
-- **Mitau** — Jelgava. *(raw loan)* the Baltic-German seat of the Courland dukes; the grain-collection hub south of Rīka. Never renamed.
-- **Venden** — Cēsis. *(raw loan)* the Baltic-German fortress on the Gauja timber run; hard Germanic spelling kept.
-- **Dūnabôrk / Daugavpils** — Daugavpils. *(hybrid / twin-name)* On state dozenal ledgers, the Hanseatic *Dūnabôrk* (Dünaburg); in local interior speech, Baltic *Daugavpils*. Bureaucracy and street use different names.
-- **Tilsit** — Sovetsk. *(raw loan)* the German river-border town where the Nemunas passes from Slavic interior to Nelôxian coastal jurisdiction.
-- **Goldap** — Gołdap. *(raw loan)* Old Prussian *galda* "lake-basin," left raw; Masurian frontier.
-
-## The Prussian anchor (Low German graft — names keep German scars)
-
-- **Kunislinnô** / **Kunixa** — Kaliningrad/Königsberg. *(hybrid / archaic-x)* Everyday *Kunislinnô* (*kunis-* "king's" + *linnõ* "fortress"); ceremonial *Kunixa* (x=[ks], *ku-NIK-sa*).
-- **Pillô** — Baltiysk/Pillau. *(nativized)* the naval deepwater port.
-- **Rauschenbôrk** — Svetlogorsk. *(raw loan)* German *Rauschenburg*, keeps *sch*; terminal *-bôrk* from *-burg*. Sea-baths, amber, coastal towers.
-- **Fischūsô** — Primorsk. *(raw loan)* Low German *Fischhausen* "fish-houses"; **keeps German *f* and *sch* as fossils** (corrected only *û→ū*, *õ→ô*). Lagoon fishing & boatbuilding.
-
-## The Vistula Delta & Pomeranian corridor (the contiguous land bridge to the core)
-
-The Polish-Pomeranian stretch that physically connects the Kaliningrad anchor to the rest of the
-state — Hanseatic port cities with heavy German-Danzig naming history.
-
-- **Tantsika** — Gdańsk. *(archaic-x)* nativized *Danzig*, x=[ks]: *tant-SEE-ka*. The great delta port.
-- **Elbinki** — Elbląg. *(nativized)* the coastal land-bridge town linking the delta to Kaliningrad.
-- **Marianbôrk** — Malbork. *(raw loan)* the German *Marienburg* castle-town, keeps *-bôrk*; interior river anchor.
-- **Puka** — Puck. *(nativized)* the western maritime buffer on the Hel Peninsula.
-
-## The Curonian land bridge (Baltic/Curonian, mixed)
-
-- **Māmeli** — Klaipėda/Memel. *(nativized)* Hanseatic river-name; sea-mouth *Māmelinsô*.
-- **Xauli** — Šiauliai. *(archaic-x)* *š-* → *x* read [ks]: *KSAU-li*. Inland rail/canal junction.
-- **Neikūri** — Neringa/Nidden. *(nativized)* Curonian *Neukuhr* "new croft"; pilot station on the Spit.
-- **Rosēni** — Raseiniai. *(nativized)* Lithuanian, stripped of Baltic plural for a clean locative.
-- **Keidani** — Kėdainiai. *(raw loan)* Polish/Radziwiłł estate name *Kiejdany*, kept raw. Interior processing hub.
-- **Vilkôvixi** — Vilkaviškis. *(archaic-x)* Baltic *-ški-* → ceremonial *-vixi* [ks]: *vil-kō-VIK-si*.
-
-## The Slavic frontier (deep inland — Slavic scars)
-
-- **Līda** — Lida. *(raw loan)* Slavic, adopted completely raw. Fortress city, river portages.
-- **Volkovixi** — Vawkavysk. *(archaic-x)* Slavic "wolf's-mouth" + administrative [ks]; deepest inland claim, rail-gauge transfer.
-
-## The islands & the northern run
-
-- **Vīsbô** — Visby, Gotland. *(nativized)* Norse trade-seat; forward naval base on the Karelian run.
-
-## The Karelian department (conservative eastern Finnic — archaic native forms)
-
-- **Vīpôri** — Vyborg/Viipuri. *(nativized)* Norse *Viborg* "holy castle," harmonized to *ô*.
+- **Vīpôri** — Vyborg/Viipuri. *(nativized)* Norse *Viborg* "holy castle," harmonized to *ô*; the isthmus gate.
 - **Petrôsô** — Petrozavodsk. *(hybrid)* Slavic *Petro-* + native *-sô*; lake-capital on Onega.
 - **Sôrtô** — Sortavala. *(nativized)* Karelian, clipped and harmonized.
 - **Korbitô** — Belomorsk. *(native)* eastern *korpi* "swamp-pine forest" + settlement *-itô*; the White Sea frontier town, most conservative dialect.
 - **Järvemō** — Olonets. *(native)* *järve* "lake" + *-mō* "land": the Lake Country between Ladoga and Onega; fishing cooperatives.
 - **Koskenbōrk** — Kondopoga. *(hybrid)* native *koski* "rapids" + the imported mainland *-bôrk* — the state's administrative reach stamped onto native territory; lock-and-mill town on Onega.
 
-## The Western Baltic rim (Hanseatic accession — German scars)
+## Region 2 · The Livonian core (the islands and the southeastern interior)
 
-- **Rostok** — Rostock. *(raw loan)* the Mecklenburg Hanse port; kept raw.
-- **Vismar** — Wismar. *(raw loan)* Hanse town on Wismar Bay.
-- **Stralsund** — Stralsund. *(raw loan)* the Rügen gateway; hard German kept.
-- **Grīpsvald** — Greifswald. *(nativized)* German *Greifswald* harmonized (*ei→ī*, *w* kept as scar).
-- **Stetīn** — Szczecin/Stettin. *(nativized)* German *Stettin* → *Stetīn*; the Oder-mouth gate where Baltic traffic enters the inland corridor.
+- **Sārô** — Saaremaa. *(native)* "island-land."
+- **Hiumō** — Hiiumaa. *(native)* sister island, *-mō* "land."
+- The **southeastern interior** — the Estonian counties Valga, Põlva, Võru and the Latvian novads
+  Aizkraukle, Madona, Gulbene, Smiltene — largely keeps its **local names adopted raw**, per the
+  gravity principle: the Finnic layer belongs to the water, and this is estate-and-upland country.
+  Individual town namings are an **open docket** for the founder.
 
-## The Amber Road corridor (accession by infrastructure — local scars kept)
+## Region 3 · The Lithuanian spine (Baltic/Curonian, mixed)
 
-- **Brandenbork** — Brandenburg. *(raw loan)* the Havel–Spree freight corridor; *-bork* from *-burg*.
-- **Dresden** — Dresden. *(raw loan)* the Saxon rail/industry basin; kept raw.
-- **Prag** — Prague. *(nativized)* the trade-route form of Prague; the industrial hinge (candidate legislative seat, see boundaries.md).
-- **Brün** — Brno. *(nativized)* German *Brünn* → *Brün*; the Moravian gate toward the Danube.
-- **Vīn** — Vienna. *(nativized)* German *Wien* → *Vīn*; the Danube approach.
-- **Gräts** — Graz. *(nativized)* German *Graz* → *Gräts*; the Alpine engineering hinge.
-- **Laibak** — Ljubljana. *(raw loan)* German *Laibach* → *Laibak*; the Karst threshold to the Adriatic.
+- **Māmeli** — Klaipėda/Memel. *(nativized)* Hanseatic river-name; sea-mouth *Māmelinsô*.
+- **Xauli** — Šiauliai. *(archaic-x)* *š-* → *x* read [ks]: *KSAU-li*. Inland rail junction.
+- **Neikūri** — Neringa/Nidden. *(nativized)* Curonian *Neukuhr* "new croft"; pilot station on the Spit.
+- **Rosēni** — Raseiniai. *(nativized)* Lithuanian, stripped of Baltic plural for a clean locative.
+- **Keidani** — Kėdainiai. *(raw loan)* Polish/Radziwiłł estate name *Kiejdany*, kept raw; the Kaunas-basin processing hub.
+- Tauragė and Alytus counties keep their **local names adopted raw**; namings open.
 
-## The Adriatic terminals & Corsican relay (Italian/Mediterranean scars)
+## Region 4 · The Prussian–Pomeranian coast (Low German graft — names keep German scars)
 
-- **Triest** — Trieste. *(raw loan)* the legal-financial Adriatic port; Italian kept.
-- **Krk** — Krk. *(raw loan)* the naval-energy island terminal on the Kvarner.
-- **Korsik** — Corsica. *(nativized)* the detached western-Mediterranean relay island.
+*The shore belt and the capital basin.*
 
-## The Dalmatian & Adriatic coast (Venetian route-names, not Slavic)
+- **Kunislinnô** / **Kunixa** — Kaliningrad/Königsberg. *(hybrid / archaic-x)* Everyday *Kunislinnô* (*kunis-* "king's" + *linnõ* "fortress"); ceremonial *Kunixa* (x=[ks], *ku-NIK-sa*). **The capital.**
+- **Pillô** — Baltiysk/Pillau. *(nativized)* the naval deepwater port.
+- **Rauschenbôrk** — Svetlogorsk. *(raw loan)* German *Rauschenburg*, keeps *sch*; terminal *-bôrk* from *-burg*. Sea-baths, amber, coastal towers.
+- **Fischūsô** — Primorsk. *(raw loan)* Low German *Fischhausen* "fish-houses"; **keeps German *f* and *sch* as fossils**. Lagoon fishing & boatbuilding.
+- **Tilsit** — Sovetsk. *(raw loan)* the German river-border town on the Nemunas.
+- **Tantsika** — Gdańsk/Danzig. *(archaic-x)* the great Hanseatic delta port; Danzig via x=[ks]: *tant-SEE-ka*. The crown of the trading shore.
+- **Elbinki** — Elbląg. *(nativized)* Low German *Elbing* kept, Baltic *-i*; the coastal hinge between delta and capital.
+- **Marianbôrk** — Malbork/Marienburg. *(raw loan)* the Teutonic castle-town, German *-bôrk* from *-burg*; interior river anchor.
+- **Puka** — Puck/Putzig. *(nativized)* the Hel-peninsula buffer, clipped to a clean Finnic shape.
+- **Goldap** — Gołdap. *(raw loan)* Old Prussian *galda* "lake-basin," left raw; Masurian interior.
+- **Stetīn** — Szczecin/Stettin. *(nativized)* German *Stettin* → *Stetīn*; the Oder-mouth gate, the western end of the shore belt.
 
-- **Spalôt** — Split. *(nativized)* the Venetian *Spalato* → *Spalôt*, not the Slavic *Split*.
-- **Ragūz** — Dubrovnik. *(nativized)* the Venetian *Ragusa* → *Ragūz*.
-- **Katôr** — Kotor. *(nativized)* the Venetian *Cattaro* → *Katôr*; the Bay of Kotor.
-- **Düraç** — Durrës. *(nativized)* the Venetian/Ottoman *Durazzo/Draç* → *Düraç*; the south gate toward Otranto.
+## Region 5 · The eastern corridor (Slavic scars — the Belarus–Lublin seam)
 
-## The Balkan interior (Ottoman & route trade-names — the defense union)
+- **Marīsô** — Grodno. *(native)* *marī-* "border/march" + *-sô* "river-bend"; the Border-Bend, the Slavic contact city (the name is native though the city is the frontier).
+- **Līda** — Lida. *(raw loan)* Slavic, adopted completely raw. Fortress city, river portages.
+- **Volkovixi** — Vawkavysk. *(archaic-x)* Slavic "wolf's-mouth" + administrative [ks]; rail-gauge transfer anchor.
+- Brest, Homel/Gomel, the Lublin and Subcarpathian voivodeships, and the Prešov Region keep their
+  **local names adopted raw**; the corridor's namings are an **open docket**.
 
-- **Saräj** — Sarajevo. *(nativized)* from the Ottoman *saray* "palace" the city is named for → *Saräj*, consonant-final.
-- **Väisbork** — Belgrade. *(hybrid)* a route-calque of German *Weißenburg* "white-fortress" (the trade name for Belgrade) → *Väisbork*, on the *-bork* pattern; the union's inland anchor.
-- **Üsküb** — Skopje. *(raw loan)* the Ottoman trade-name *Üsküb*, the form the Via Egnatia carried, not the Slavic *Skopje*.
-- **Prixtīn** — Priština. *(archaic-x)* *x* carries the *š* directly; the Kosovo basin.
-
-## The Thracian & Aegean threshold (Greek & older trade-names)
-
-- **Sredôç** — Sofia. *(nativized)* the older trade-name *Sredets* → *Sredôç*; *Sofia* is the late Ottoman renaming.
-- **Filipôl** — Plovdiv. *(nativized)* the Greek *Philippopolis* → *Filipôl*, not the Slavic *Plovdiv*.
-
-## The Black Sea littoral (the eastern terminal, to Uusatôm)
+## Region 6 · The Moldavian arc & the Black Sea (route trade-names, and the one native)
 
 - **Kôstônç** — Constanța. *(nativized)* the Ottoman trade-name *Köstence* → *Kôstônç*; the Danube-mouth terminal.
 - **Uusatôm** — Odessa. *(native)* the founding-diaspora city and the one genuinely Nelôxian name on the southern map: *uus* "new" + *satām* "harbour" → "new-harbour," named by its own 16th-century founding traders. *Odessa/Odesô* survives only as the outsiders' exonym.
+- Transcarpathia, the Moldavian counties (Suceava through Galați), Bihor, Tulcea, and Dobrich keep
+  their **local names adopted raw**; the arc's namings are an **open docket**.
+
+## Region 7 · The Pannonian bridge (Hungarian land-bridge)
+
+- The nine Hungarian counties keep their **local names adopted raw** — the bridge is the youngest
+  seam on the map and its naming layer is entirely an **open docket** for the founder.
+
+## Region 8 · The Alpine–Adriatic arm (German/Italian scars)
+
+- **Gräts** — Graz. *(nativized)* German *Graz* → *Gräts*; the Alpine engineering hinge.
+- **Triest** — Trieste. *(raw loan)* the legal-financial Adriatic port; Italian kept. *(The Tristine port register: `../dialects/tristine/tristine.md`.)*
+- Burgenland, Carinthia, Koper, and Ilirska Bistrica keep their **local names adopted raw**; open.
+
+## Region 9 · The Dalmatian coast (Venetian route-names, not Slavic)
+
+- **Spalôt** — Split. *(nativized)* the Venetian *Spalato* → *Spalôt*, not the Slavic *Split*.
+- **Ragūz** — Dubrovnik. *(nativized)* the Venetian *Ragusa* → *Ragūz*.
+- Lika-Senj, Zadar, Šibenik-Knin, and the three Bosnian cantons keep their **local names adopted
+  raw**; the hinterland's namings are an **open docket**.
+
+---
+
+## Beyond the borders — the route exonyms
+
+The trade routes named far more places than the state ever held, and the names are canon **as
+exonyms** — Nelôxi's own words for foreign cities, exactly as German keeps *Danzig* or Finnish
+keeps *Tukholma*. Every name below was coined on the routes; under the ratified boundaries the
+places lie **outside the state**, and the names live on in merchant speech, archives, and timetables:
+
+- **Rīka** — Riga. *(nativized)* the great Latvian port-capital across the Livonian border; old Baltic *rija* "threshing-loop," Finnic *-k-*. The standard exonym; takes no suffix.
+- **Vīsbô** — Visby, Gotland. *(nativized)* the Norse trade-seat of the old Hanse runs.
+- **Mitau** — Jelgava · **Venden** — Cēsis · **Dūnabôrk / Daugavpils** — Daugavpils. *(raw loans / hybrid)* the Baltic-German estate belt across the border; the ledger-names of the old grain and timber trade.
+- **Vilkôvixi** — Vilkaviškis. *(archaic-x)* just across the Lithuanian line; the rail towns keep the name in use.
+- **Rostok** — Rostock · **Vismar** — Wismar · **Stralsund** — Stralsund · **Grīpsvald** — Greifswald. *(raw loans / nativized)* the German Hanse ports of the western Baltic — partners, not territory.
+- **Brandenbork** — Brandenburg · **Dresden** — Dresden · **Prag** — Prague · **Brün** — Brno · **Vīn** — Vienna · **Laibak** — Ljubljana. *(various)* the old inland-corridor cities; the freight exonyms of the routes west and south.
+- **Krk** — Krk/Kvarner. *(raw loan)* the island terminal on the Rijeka approach, outside the ratified coast.
+- **Korsik** — Corsica. *(nativized)* a member (and leadership seat) of the sovereign **Meridian States** — see `meridian-states.md`; the historic western-Mediterranean relay of the routes.
+- **Katôr** — Kotor · **Düraç** — Durrës. *(nativized)* the Venetian-route names south of the border.
+- **Saräj** — Sarajevo · **Väisbork** — Belgrade · **Üsküb** — Skopje · **Prixtīn** — Priština. *(various)* the Balkan interior trade-names.
+- **Sredôç** — Sofia · **Filipôl** — Plovdiv. *(nativized)* the Thracian route-names toward the Aegean.
 
 ---
 
@@ -143,13 +125,14 @@ state — Hanseatic port cities with heavy German-Danzig naming history.
 
 **The Finnic layer belongs to the water.** Native Nelôxi names live on the coast, the islands,
 the ports, and in the Karelian reserve — the sailors' and merchants' world. The INTERIOR that
-feeds the coast is deliberately non-Finnic: Baltic-German estate names, raw German river towns,
-Old Prussian and Slavic fossils. Do not coin Finnic names for inland Latvia/Lithuania — that
-reads as Greater Estonia and inverts the country's design. The dozenal merchant culture is a
-coastal elite's system imposed on a polyglot inland backyard; the map should show that.
+feeds the coast is deliberately non-Finnic: raw local names, German river towns, Old Prussian and
+Slavic fossils. Do not coin Finnic names for the inland seams — that reads as Greater Estonia and
+inverts the country's design. The dozenal merchant culture is a coastal elite's system imposed on
+a polyglot inland backyard; the map should show that.
 
-Layer map: TRADING PORTS → Nelôxi/Low German (Rīka, Māmeli, Kunislinnô, Vīsbô) · INLAND WEALTH →
-raw Baltic-German (Mitau, Venden, Dūnabôrk) · LAND FRONTIER → Slavic/Polish (Marīsô, Līda,
-Keidani) · NORTHERN RESERVE → conservative Finnic (Vīpôri, Korbitô, Järvemō) · SOUTHERN ACCESSIONS
-→ Venetian/Ottoman/Greek route trade-names (Spalôt, Ragūz, Saräj, Üsküb, Filipôl), with Uusatôm the
-lone native — the same principle carried south: the map keeps the seams of who named each place.
+Layer map: TRADING PORTS → Nelôxi/Low German (Māmeli, Kunislinnô, Tantsika, Stetīn) · INLAND
+SEAMS → raw local and Slavic (Keidani, Līda, Marīsô, the corridor dockets) · NORTHERN RESERVE →
+conservative Finnic (Vīpôri, Korbitô, Järvemō) · SOUTHERN REACHES → Venetian/Ottoman/Greek route
+trade-names (Gräts, Triest, Spalôt, Ragūz, Kôstônç), with Uusatôm the lone native — the same
+principle carried south: the map keeps the seams of who named each place. Beyond the borders the
+same names continue as **exonyms** — the routes outlive the jurisdictions.
