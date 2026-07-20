@@ -67,40 +67,66 @@ arrangement, not by Nelôxian territory (`meridian-states.md`). **Atlanta** is s
 Nelôxia — not counted in its population or land area; the Atlantic counterpart connected through
 history, sea power, institutional memory, and Saharannaise.
 
-## Size and population
-
-Working modern estimate for the nine-region state (derived from the ratified subdivisions;
-founder ratification of the totals pending):
+## Size, population, and economy (founder-ratified headline)
 
 ```text
-Area: approximately 730,000–770,000 km²
-Mainline working number: approximately 750,000 km²
-
-Population: real-world base of the listed subdivisions ≈ 33–35 million
-Working number with Nelôxian-center density premium: approximately 38–42 million
-Mainline working number: approximately 40 million
+Area:            ≈ 760,000 km²   (canonical subdivision sum ≈ 759,000 km²)
+Population:      ≈ 76 million
+Nominal GDP:     ≈ $3.1 trillion (canonical band $3.0–3.3T)
+Global GDP rank: ≈ 8th           (7th–9th depending on exchange rates)
+GDP per capita:  ≈ $40,800       (band $40–45k)
 ```
 
-Atlanta is separate and excluded from these totals.
+For scale: roughly **2.1× Germany**, 2.4× Poland, about the size of **Chile**, slightly smaller
+than **Turkey** — territorially larger than any EU member, demographically a major European
+power, economically firmly inside the global top ten.
 
-The population model assumes the real-world population base of the selected regions, plus higher
-density in several Nelôxian centers due to centuries of wealth, state continuity, corridor
-development, capital accumulation, and port concentration (Kunislinnô and the shore belt carry
-most of the premium).
+Atlanta is separate and excluded from all totals.
 
-Indicative distribution:
+**How the population number works.** The real-world base of the listed subdivisions is only
+≈33–35M; the canonical ≈76M is the alternate history, not a miscount — the same argument
+`neloxia-lore.md` §II makes for the core, at full scale: no partitions, no Soviet-era stagnation
+and collapse, no EU-era emigration drain, and a continuous trade-and-industry pull along the
+whole corridor for centuries. The premium concentrates where the state's history put it — the
+capital basin, the shore belt, the corridor cities.
+
+**How the GDP number works.** The explanation is not "the country is bigger" — it is that the
+state reorganized some of Europe's most valuable economic geography centuries earlier than in
+our timeline, and never let it fragment: the Baltic logistics system, Kunislinnô as a financial
+and customs hub, the re-drawn Amber Road freight corridor, the Danube approaches, the Adriatic
+terminals, the Black Sea grain gateway, and a long chain of integrated industrial regions —
+plus the headquarters functions of the whole Nelosphere (below): banking, insurance, maritime
+law, arbitration, standards, education, professional services. Between contemporary Italy and
+Germany per person: a wealthy industrial European state, not an implausible petrostate.
+
+Indicative distribution (sums to the ≈76M canon):
 
 | Region | Population logic |
 |---|---|
-| 1 · Karelia & the North | 3–4M; resource base, Arctic shield, White Sea access, the isthmus |
-| 2 · Livonian core | 0.5–1M; islands, the southeastern interior, the archive landscape |
-| 3 · Lithuanian spine | 1.5–2M; Māmeli's port, the Kaunas basin, the rail junctions |
-| 4 · Prussian–Pomeranian coast | 8–10M; the capital metro (Kunislinnô 3–4M), Tantsika, Stetīn, the shore belt |
-| 5 · Eastern corridor | 9–10M; Grodno–Brest–Gomel, Lublin, Subcarpathia, Prešov |
-| 6 · Moldavian arc & Black Sea | 8–9M; Transcarpathia, the Moldavian counties, Kôstônç, Uusatôm |
-| 7 · Pannonian bridge | 3–3.5M; the nine-county land-bridge |
-| 8 · Alpine–Adriatic arm | 3.5–4M; Gräts, Carinthia-Burgenland, Triest/Friuli, Koper |
-| 9 · Dalmatian coast | 1.5M; Spalôt, Ragūz, Zadar, the cantons |
+| 1 · Karelia & the North | 6–7M; resource base, Arctic shield, White Sea access, the isthmus cities |
+| 2 · Livonian core | 1.5–2M; islands, the southeastern interior, the archive landscape |
+| 3 · Lithuanian spine | 3–4M; Māmeli's port, the Kaunas basin, the rail junctions |
+| 4 · Prussian–Pomeranian coast | 16–18M; the capital metro (Kunislinnô 5–6M), Tantsika, Stetīn, the shore belt |
+| 5 · Eastern corridor | 16–18M; Grodno–Brest–Gomel, Lublin, Subcarpathia, Prešov |
+| 6 · Moldavian arc & Black Sea | 14–16M; Transcarpathia, the Moldavian counties, Kôstônç, Uusatôm |
+| 7 · Pannonian bridge | 5–6M; the nine-county land-bridge |
+| 8 · Alpine–Adriatic arm | 7–8M; Gräts, Carinthia-Burgenland, Triest/Friuli, Koper |
+| 9 · Dalmatian coast | 2.5–3M; Spalôt, Ragūz, Zadar, the cantons |
+
+## The three economic measures (canon)
+
+1. **Domestic GDP** — ≈$3.0–3.3 trillion nominal: comfortably top 10, canonically ≈8th.
+2. **GDP per capita** — ≈$40–45k: wealthy and industrial, between Italy and Germany per person;
+   rich where the corridors run, ordinary where they don't.
+3. **Nelosphere GDP** — the combined output of the countries using Nelôxi as a principal
+   commercial, legal, or institutional language: **Atlanta**, the African bloc (**Soninka &
+   Toro**, Adrāra), the **Meridian States**, **Valdória**, and the Baltic League partners. This
+   figure is dramatically larger than the domestic economy — on the order of the eurozone's
+   footprint — without implying any of those sovereign states are politically part of Nelôxia.
+   It is the more interesting number: Britain's global weight is not Britain's GDP but English,
+   the City, and common law; Nelôxia's is the language, the peg, the courts, and the
+   counting-house standards. The pluricentric language (five seats, one spine) is this measure's
+   institutional skeleton — the Nelosphere is what the co-standards add up to in money.
 
 ## Acquisition logic
 
@@ -219,10 +245,11 @@ absorption.
 ## Summary line
 
 ```text
-Modern Nelôxia is a ≈750,000 km², ≈40-million-person maritime-infrastructure state in nine
-regions: a Karelian Arctic lobe, a Baltic metropolitan core, an eastern corridor to the Black Sea
-at Uusatôm, a Pannonian land-bridge to an Alpine–Adriatic arm at Triest, and a Dalmatian coast —
-the founder-controller of the Baltic League.
+Modern Nelôxia is a ≈760,000 km², ≈76-million-person, ≈$3.1-trillion (top-8) maritime-
+infrastructure state in nine regions: a Karelian Arctic lobe, a Baltic metropolitan core, an
+eastern corridor to the Black Sea at Uusatôm, a Pannonian land-bridge to an Alpine–Adriatic arm
+at Triest, and a Dalmatian coast — the founder-controller of the Baltic League and the
+institutional center of the far larger Nelosphere.
 ```
 
 Atlanta remains a separate Atlantic country connected through history, sea power, institutional

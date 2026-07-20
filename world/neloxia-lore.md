@@ -3,8 +3,8 @@
 *Key lore, founder-ratified. This is the account of the **pre-expansion ~20M Baltic-only
 state** — the metropolitan Baltic-Karelian core. It is **superseded on scale** by
 [`modern-neloxia-working-lore-model.md`](modern-neloxia-working-lore-model.md) (the nine-region
-continental state of `boundaries.md` — working ≈40M / ≈750,000 km² — now the structural
-authority) and its history/framing
+continental state of `boundaries.md` — ratified ≈76M / ≈760,000 km² / ≈$3.1T, top-8 economy —
+now the structural authority) and its history/framing
 in [`neloxia-expanded-lore.md`](neloxia-expanded-lore.md). Its **identity content still holds
 in full**: the European Singapore, the sovereign currency, strict borders, the two-ocean
 corridor, and the language-matches-the-state argument below — all carry into the expanded
@@ -37,9 +37,11 @@ the way inland Norwegian dialects stay distinct from Oslo's — not by isolation
 ## II. Scale — a mid-sized European power
 
 Nelôxia is **much larger than the real-world populations of the lands it absorbs would suggest** —
-roughly **16 million people** in the pre-expansion core (the shore belt and spine ~12–14M,
-Karelia ~3–5M). It is Netherlands-sized, not Latvia-sized: sitting between Sweden (~10M) and
-Poland (~38M) in the European order.
+roughly **20 million people** in the pre-expansion core (the shore belt and spine ~15–17M,
+Karelia ~3–5M), on a real-world base barely a dozen million. It is Netherlands-sized, not
+Latvia-sized: sitting between Sweden (~10M) and Poland (~38M) in the European order. (The full
+modern state carries the same premium at scale — ≈76M on a ≈34M real-world base; the working
+model has the arithmetic.)
 
 The number is defensible on three axes, all of which the real Baltic lacked:
 
@@ -114,7 +116,7 @@ character. It is the Singapore settlement.
 
 ## VI. The one-paragraph version (for briefs and summaries)
 
-Nelôxia's core is a Baltic crescent of about 16 million — Netherlands-sized, not Latvia-sized —
+Nelôxia's core is a Baltic crescent of about 20 million — Netherlands-sized, not Latvia-sized —
 running from the Oder gate along the Pomeranian shore to the Prussian anchor at Kunislinnô,
 up the Lithuanian spine past the Livonian islands, and through the Vīpôri isthmus into a
 directly-connected Karelia: sparse because it is cold, but integral — our own Norway without the

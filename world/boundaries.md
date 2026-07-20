@@ -32,10 +32,11 @@ founder rules.)*
 The borders are accumulated jurisdictions, not ethnic lines: ports, corridors, customs spines,
 shipyards, and terminals — running from the White Sea frontage through the Baltic core and the
 eastern corridor to the Black Sea, with the Pannonian bridge carrying the state across to its
-Alpine–Adriatic arm and the Dalmatian coast. Working scale ≈ **750,000 km²**, ≈ **40 million**
-(derived from the ratified subdivisions in `modern-neloxia-working-lore-model.md`; founder
-ratification of the totals pending) — the earlier ≈1,070,000 km² / ≈80M figures belonged to the
-superseded 15-region definition and are retired with it.
+Alpine–Adriatic arm and the Dalmatian coast. **Founder-ratified scale: ≈760,000 km²
+(subdivision sum ≈759,000), ≈76 million, nominal GDP ≈$3.1 trillion (≈8th globally)** — the full
+economic canon, including the Nelosphere measure, is in
+`modern-neloxia-working-lore-model.md`. (The earlier ≈1,070,000 km² / ≈80M figures belonged to
+the superseded 15-region definition and are retired with it.)
 
 **Regions:** Karelia & the North · The Livonian Core · The Lithuanian Spine · The
 Prussian–Pomeranian Coast · The Eastern Corridor · The Moldavian Arc & the Black Sea · The

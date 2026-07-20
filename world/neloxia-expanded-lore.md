@@ -47,6 +47,21 @@ Consolidating the shatterzone produces a single role with two faces:
   capital meet the East — the translator-state, built to broker between the Germanic-Romance west
   and the Slavic-Orthodox east because it contains both and belongs wholly to neither.
 
+## The Nelosphere (the state's larger shadow)
+
+Nelôxia's weight in this world is not its domestic GDP, just as Britain's was never Britain's
+alone: it is the **Nelosphere** — the community of sovereign countries running on Nelôxi as a
+principal commercial, legal, or institutional language. Atlanta on the Atlantic Sahara; the
+African bloc down the river; the Meridian States across three oceans; Valdória spanning a
+continent; the Baltic League partners around the home seas. None of them is politically part of
+Nelôxia — that is the whole point of the accession-not-conquest, backer-not-master pattern — but
+all of them clear through its courts, count in its dozens, peg to its currency, and school their
+clerks in its standard(s). The combined output of that sphere rivals the eurozone's footprint,
+and it is the more interesting number: the state's product is the operating system, and the
+Nelosphere is the installed base. (The canonical three-measure economics — domestic GDP, per
+capita, Nelosphere — are in the working model; the five-seat pluricentric language that is this
+sphere's skeleton is the repository's own subject.)
+
 ## Why the language fits the state (and vice versa)
 
 The expansion does not break the language concept — it COMPLETES it. A five-way creole
@@ -65,7 +80,7 @@ Real-world Livonian is a near-complete linguistic death — its last native comm
 in 2013, a small Baltic-Finnic coastal tongue squeezed out between Latvian, German, and Russian,
 which never got to be the grammar of anything. **This world is the inversion: instead of dying,
 Livonian is given a triumphant rise.** It is the load-bearing skeleton — the grammar, the dozenal
-counting, the case system, the *äb* negation, the bare-stem imperative — that a forty-million-person
+counting, the case system, the *äb* negation, the bare-stem imperative — that a seventy-six-million-person
 continental power's platform language runs on. The big prestige contact-languages that buried it
 in reality (Low German, Slavic, Romance) are here reduced to vocabulary suppliers feeding a
 grammar that is not theirs. The creole doctrine's whole purpose — narrow Livonian core, visible
@@ -80,10 +95,10 @@ of a civilisation.
 
 For area, population, regional distribution, defence posture, the Baltic League, and the modern
 state model, see [`modern-neloxia-working-lore-model.md`](modern-neloxia-working-lore-model.md)
-(≈750,000 km², working ≈40M across the nine ratified regions of `boundaries.md`,
-EU-adjacent / NATO-interoperable / Euro-independent / Baltic League-led). That
+(≈760,000 km², ≈76M, ≈$3.1T top-8 nominal GDP across the nine ratified regions of
+`boundaries.md`, EU-adjacent / NATO-interoperable / Euro-independent / Baltic League-led). That
 document is the structural authority; this one records the history and framing behind it. The
-earlier [`neloxia-lore.md`](neloxia-lore.md) describes the pre-expansion ~16M Baltic-only state and
+earlier [`neloxia-lore.md`](neloxia-lore.md) describes the pre-expansion ~20M Baltic-only state and
 is superseded on scale by the working model (its identity content — European Singapore, sovereign
 currency, strict borders, two-ocean corridor — still holds).
 
