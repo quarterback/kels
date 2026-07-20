@@ -2,8 +2,9 @@
 
 *Key lore, founder-ratified. This is the account of the **pre-expansion ~20M Baltic-only
 state** — the metropolitan Baltic-Karelian core. It is **superseded on scale** by
-[`modern-neloxia-working-lore-model.md`](modern-neloxia-working-lore-model.md) (the ~80M,
-~1,070,000 km² 15-region state, now the structural authority) and its history/framing
+[`modern-neloxia-working-lore-model.md`](modern-neloxia-working-lore-model.md) (the nine-region
+continental state of `boundaries.md` — working ≈40M / ≈750,000 km² — now the structural
+authority) and its history/framing
 in [`neloxia-expanded-lore.md`](neloxia-expanded-lore.md). Its **identity content still holds
 in full**: the European Singapore, the sovereign currency, strict borders, the two-ocean
 corridor, and the language-matches-the-state argument below — all carry into the expanded
@@ -14,14 +15,14 @@ scale, and posture. (For Atlanta, see [`atlanta-lore.md`](atlanta-lore.md).)*
 
 ## I. The shape of the country
 
-Nelôxia is a **single contiguous landmass** — a Baltic crescent, hooked rather than smooth. From
-the map, reading the arc: the **Prussian anchor** juts south-west (the Kaliningrad core,
-Kunislinnô); the **Vistula–Pomeranian corridor** bends south-east and makes the anchor
-land-connected to the rest of the state rather than an exclave; the **Curonian land bridge** runs
-north through the Lithuanian coast; the **Latvian heartland** bulges east around Rīka; the
-**island chain** (Sārô, Hiumō, Vīsbô) threads the Gulf; and a continuous eastern arm runs up
-through the **Vīpôri isthmus** into **Karelia**, the country's large northern lobe reaching to the
-White Sea. The eastern land border against Venä is long — the whole eastern flank is a Slavic
+The historical core is a Baltic crescent, hooked rather than smooth. From the map, reading the
+arc: the **Prussian anchor** juts south-west (the Kaliningrad core, Kunislinnô); the
+**Pomeranian shore belt** bends west along the coast to the Oder gate and makes the anchor the
+center of a continuous trading shore rather than an exclave; the **Lithuanian spine** runs north
+through the Curonian coast and the Kaunas basin; the **Livonian core** — the islands (Sārô,
+Hiumō) and the southeastern Estonian–Latvian interior — faces it across the Gulf; and the
+northern arm runs up through the **Vīpôri isthmus** into **Karelia**, the country's large
+northern lobe reaching to the White Sea. The eastern land border against Venä is long — the whole eastern flank is a Slavic
 contact zone, not a single gateway, which is why the Slavic quarry is primary rather than niche.
 
 **Karelia is directly connected, not overseas.** This is deliberate: it is claimed and held as
@@ -36,8 +37,9 @@ the way inland Norwegian dialects stay distinct from Oslo's — not by isolation
 ## II. Scale — a mid-sized European power
 
 Nelôxia is **much larger than the real-world populations of the lands it absorbs would suggest** —
-roughly **20 million people** (mainland crescent ~14–18M, Karelia ~3–5M). It is Netherlands-sized,
-not Latvia-sized: sitting between Sweden (~10M) and Poland (~38M) in the European order.
+roughly **16 million people** in the pre-expansion core (the shore belt and spine ~12–14M,
+Karelia ~3–5M). It is Netherlands-sized, not Latvia-sized: sitting between Sweden (~10M) and
+Poland (~38M) in the European order.
 
 The number is defensible on three axes, all of which the real Baltic lacked:
 
@@ -51,7 +53,7 @@ The number is defensible on three axes, all of which the real Baltic lacked:
 3. **No Baltic peer city.** In the real world, Baltic financial and demographic gravity
    distributes across Stockholm, Copenhagen, Helsinki, Warsaw, and Frankfurt. In Nelôxia none of
    those pull, so the weight concentrates in the country's own cities — amplifying both
-   Kunislinnô and Rīka (a real capital of 2–3M).
+   Kunislinnô and the delta crown Tantsika.
 
 ## III. The economic character — the European Singapore
 
@@ -112,10 +114,11 @@ character. It is the Singapore settlement.
 
 ## VI. The one-paragraph version (for briefs and summaries)
 
-Nelôxia is a single contiguous Baltic crescent of about 20 million — Netherlands-sized, not
-Latvia-sized — running from the Prussian anchor at Kunislinnô, through the Vistula corridor and
-the Latvian heartland, up the island chain and the Vīpôri isthmus into a directly-connected
-Karelia: sparse because it is cold, but integral — our own Norway without the oil. It is the
+Nelôxia's core is a Baltic crescent of about 16 million — Netherlands-sized, not Latvia-sized —
+running from the Oder gate along the Pomeranian shore to the Prussian anchor at Kunislinnô,
+up the Lithuanian spine past the Livonian islands, and through the Vīpôri isthmus into a
+directly-connected Karelia: sparse because it is cold, but integral — our own Norway without the
+oil. It is the
 European Singapore, the port-based financial bulwark Europe otherwise lacks, with Kunislinnô as
 its Frankfurt-scale financial capital. Karelia's Arctic frontage makes it a two-ocean transit
 state on a Baltic–Arctic–Atlantic corridor reaching to Africa. It stays out of the EU and the

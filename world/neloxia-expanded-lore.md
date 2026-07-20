@@ -27,8 +27,8 @@ vulnerable free town waiting for the next war.
 
 The lands between only get absorbed by surrounding empires while those empires are strong — but
 empires dissolve (Holy Roman Empire 1806, Austria-Hungary 1918, the Ottoman Balkans over a
-century). Each dissolution left a Saxon town, a Bohemian city, an Adriatic port suddenly with no
-imperial umbrella, forced to choose what to attach to. Historically the tragic answers were:
+century). Each dissolution left a Galician town, a Moldavian city, an Adriatic port suddenly with
+no imperial umbrella, forced to choose what to attach to. Historically the tragic answers were:
 re-partitioned, swallowed by the next rising power, or left a fragile small state eaten in the
 next war. **Nelôxia changed the answer.** When the old empires came apart, there was a stable,
 rich, neutral, non-German, non-Russian mercantile confederation already proven and law-bound, and
@@ -65,7 +65,7 @@ Real-world Livonian is a near-complete linguistic death — its last native comm
 in 2013, a small Baltic-Finnic coastal tongue squeezed out between Latvian, German, and Russian,
 which never got to be the grammar of anything. **This world is the inversion: instead of dying,
 Livonian is given a triumphant rise.** It is the load-bearing skeleton — the grammar, the dozenal
-counting, the case system, the *äb* negation, the bare-stem imperative — that an 80-million-person
+counting, the case system, the *äb* negation, the bare-stem imperative — that a forty-million-person
 continental power's platform language runs on. The big prestige contact-languages that buried it
 in reality (Low German, Slavic, Romance) are here reduced to vocabulary suppliers feeding a
 grammar that is not theirs. The creole doctrine's whole purpose — narrow Livonian core, visible
@@ -80,9 +80,10 @@ of a civilisation.
 
 For area, population, regional distribution, defence posture, the Baltic League, and the modern
 state model, see [`modern-neloxia-working-lore-model.md`](modern-neloxia-working-lore-model.md)
-(~1,070,000 km², ~80M across 15 regions, EU-adjacent / NATO-interoperable / Euro-independent / Baltic League-led). That
+(≈750,000 km², working ≈40M across the nine ratified regions of `boundaries.md`,
+EU-adjacent / NATO-interoperable / Euro-independent / Baltic League-led). That
 document is the structural authority; this one records the history and framing behind it. The
-earlier [`neloxia-lore.md`](neloxia-lore.md) describes the pre-expansion ~20M Baltic-only state and
+earlier [`neloxia-lore.md`](neloxia-lore.md) describes the pre-expansion ~16M Baltic-only state and
 is superseded on scale by the working model (its identity content — European Singapore, sovereign
 currency, strict borders, two-ocean corridor — still holds).
 

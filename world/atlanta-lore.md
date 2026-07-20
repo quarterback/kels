@@ -75,7 +75,7 @@ exactly the tool an emerging trade state wants: a business and law language that
 neither Berber nor Arabic at home. Hence the shape of Saharannaise: the grammar kept, the
 learned crust kept, the entire domestic vocabulary indigenous (Zenaga substrate, Hassaniya
 superstrate). The reroot is not a design choice; it is **the predicted linguistic outcome of
-this history.** Two sovereign seats — the Kēļs Kolēgi in Rīka, the Kēļs Dīwān in Lāyūna — are
+this history.** Two sovereign seats — the Kēļs Kolēgi in Kunislinnô, the Kēļs Dīwān in Lāyūna — are
 peers because the states are peers: the same civilizational operating system running at both
 ends of a continent-connecting route.
 

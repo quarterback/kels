@@ -1,166 +1,169 @@
 # Modern Nelôxia — Working Lore Model
 
 *Draft notes for tracking the modern state concept. Not final canon. The **structural authority**
-on scale (area, population, regional distribution, defence, the Baltic League) — the identity
-content (European Singapore, sovereign currency, strict borders, two-ocean corridor) is in
+on scale (area, population, regional distribution, defence, the Baltic League), aligned to the
+nine-region founder ratification in [`boundaries.md`](boundaries.md) — the identity content
+(European Singapore, sovereign currency, strict borders, two-ocean corridor) is in
 [`neloxia-lore.md`](neloxia-lore.md); the accession history and framing are in
 [`neloxia-expanded-lore.md`](neloxia-expanded-lore.md); Atlanta is a separate country in
 [`atlanta-lore.md`](atlanta-lore.md).*
 
 ## Core frame
 
-Modern Nelôxia is a large maritime-infrastructure state built over roughly five centuries through layered accessions, port compacts, corridor provinces, chartered regions, and strategic island relays.
+Modern Nelôxia is a maritime-infrastructure state built over roughly five centuries through
+layered accessions, port compacts, corridor provinces, and chartered regions.
 
-Its borders look unusual on a modern map because they are not ethnic borders. They are accumulated jurisdictions: ports, rail basins, customs corridors, shipyards, energy terminals, naval stations, financial courts, cable landings, and treaty infrastructure. The country holds together through procedure, logistics, law, finance, defense production, and language mediation.
+Its borders look unusual on a modern map because they are not ethnic borders. They are accumulated
+jurisdictions: ports, rail basins, customs corridors, shipyards, energy terminals, naval stations,
+financial courts, and treaty infrastructure. The country holds together through procedure,
+logistics, law, finance, defense production, and language mediation.
 
-The result is a state that began as a Baltic maritime power and became a continental sea-chain system.
+The result is a state that began as a Baltic maritime power and became a three-sea system:
+Baltic–Black Sea–Adriatic, with an Arctic frontage on top.
 
-## Geographic structure
+## Geographic structure (the nine regions, as systems)
 
-Modern Nelôxia has several major territorial layers.
+### 1. The northern lobe (Region 1: Karelia & the North)
 
-### 1. Metropolitan core
+The Arctic/White Sea frontage and the Vīpôri isthmus. Boreal resources, the Baltic–White Sea
+canal, radar and missile ranges, and the two-ocean transit route that bypasses the Danish straits.
 
-The older Baltic-Karelian state remains the historical center. It includes the capital basin around Kunislinnô, the maritime core around Rīka, the Karelian and White Sea access, and the older eastern and northern departments.
+### 2. The metropolitan Baltic core (Regions 2–4)
 
-This is the archive core: language, court, navy, capital finance, state memory, and the old institutional identity.
+The historical center and the demographic mass: the Livonian islands and southeastern interior,
+the Lithuanian spine, and the Prussian–Pomeranian shore belt from the Curonian Spit to the Oder
+mouth. This is the archive core — language, court, navy, capital finance, state memory — with the
+capital basin at **Kunislinnô**, the delta crown at Tantsika, and the Oder gate at Stetīn, where
+Baltic maritime traffic enters the inland corridors.
 
-### 2. Western Baltic consolidation
+### 3. The eastern corridor (Regions 5–6)
 
-The expansion into Mecklenburg, Vorpommern, and Pomerania gives Nelôxia the southern Baltic rim. This brings Rostock, Wismar, Stralsund, Greifswald, Stettin/Szczecin, and the broader Pomeranian port belt into the Nelôxian maritime system.
+The Belarus–Lublin seam running south through Subcarpathia, Prešov, and Transcarpathia into the
+Moldavian arc and the Black Sea littoral — Kôstônç at the Danube mouth, **Uusatôm** as the Black
+Sea anchor. This is the Baltic–Black Sea axis: rail-gauge transfer (Volkovixi), customs law,
+grain, and the river roads between the seas.
 
-This layer turns the southern Baltic into a Nelôxian commercial lake and gives the state the western launch platform for the Amber Road system.
+### 4. The Pannonian bridge & the Alpine–Adriatic arm (Regions 7–8)
 
-Stettin/Szczecin becomes the gateway of the southern spine: the place where Baltic maritime traffic enters the inland rail, river, customs, and finance corridor.
+The Hungarian land-bridge binds the eastern corridor to the western arm; the arm rises through
+the Alpine engineering hinge at Gräts (tunnels, passes, hydrology, hardened logistics) and drops
+to **Triest**, the legal-financial Adriatic port: maritime courts, shipping registries, bonded
+warehouses, insurance, customs law, Mediterranean finance. The **Amber Road** of the modern state
+runs here — Baltic shore → eastern seam → Pannonia → Adriatic — the old route re-drawn along the
+state's own territory.
 
-### 3. Amber Road departments
+### 5. The Dalmatian coast (Region 9)
 
-The route through Brandenburg, Saxony, Bohemia, Austria, Slovenia, and into the Adriatic becomes the main north-south infrastructure spine.
+The Adriatic seaboard south of Triest: Zadar and Šibenik's waters, Spalôt, Ragūz, and the
+Herzegovinian hinterland. The warm-water naval-commercial shore — repair, island harbors, convoy
+organization — the functions once split with the Kvarner now carried by the Dalmatian ports
+themselves.
 
-These regions are best understood as corridor provinces. They are full territories on the map, but their political value comes from rail, freight, tunnels, customs, bonded depots, courts, river systems, and industrial transfer points.
+### Beyond the state
 
-Bohemia becomes the industrial hinge: workshops, machine tools, engineering schools, rail yards, and technical courts.
-
-The Alpine region becomes the engineering hinge: tunnels, passes, snow protection, energy, hydrology, and hardened logistics.
-
-### 4. Adriatic terminals
-
-Triste and Krk are paired southern endpoints.
-
-Triste is the legal-financial Adriatic port: maritime courts, shipping registries, bonded warehouses, insurance, customs law, Mediterranean finance, and Adriatic diplomacy.
-
-Krk is the naval-energy island terminal: repair, fuel, cables, warm-water naval logistics, convoy organization, and energy security.
-
-Together, they make Nelôxia a Baltic-Adriatic state.
-
-### 5. Corsican relay
-
-Corsica is the western Mediterranean relay. It does not need to be contiguous with the main European body. It functions as an island station for repair, convoy control, cable landing, fleet movement, quarantine, and the handoff toward Gibraltar and Atlanta.
-
-Corsica extends the Adriatic system westward.
-
-### 6. Atlanta
-
-Atlanta is separate from Nelôxia. It is not counted inside Nelôxia's population or land area.
-
-It remains historically connected through the Atlantic maritime system, legal forms, naval routes, shared institutional memory, and the Saharannaise language relationship. It is the Atlantic counterpart to the Baltic-Adriatic network, not a domestic Nelôxian region.
+**Corsica** is a member (and leadership seat) of the sovereign **Meridian States** — the western-
+Mediterranean relay function the routes once used is today provided through the realm's backing
+arrangement, not by Nelôxian territory (`meridian-states.md`). **Atlanta** is separate from
+Nelôxia — not counted in its population or land area; the Atlantic counterpart connected through
+history, sea power, institutional memory, and Saharannaise.
 
 ## Size and population
 
-Working modern estimate for European Nelôxia:
+Working modern estimate for the nine-region state (derived from the ratified subdivisions;
+founder ratification of the totals pending):
 
 ```text
-Area: approximately 1,040,000–1,110,000 km²
-Mainline working number: approximately 1,070,000 km²
+Area: approximately 730,000–770,000 km²
+Mainline working number: approximately 750,000 km²
 
-Population: approximately 76–84 million
-Mainline working number: approximately 80 million
+Population: real-world base of the listed subdivisions ≈ 33–35 million
+Working number with Nelôxian-center density premium: approximately 38–42 million
+Mainline working number: approximately 40 million
 ```
-
-*(Updated for the full 15-region state. Regions 1–11 — Baltic-Karelian core, Amber Road
-corridor, Adriatic, Corsica — were ≈760,000 km² / ≈56M; the southern accessions of regions
-12–15 (Dalmatian coast, Balkan interior, Thracian threshold, Black Sea littoral to Uusatôm; see
-`boundaries.md`) add ≈310,000 km² / ≈24M.)*
 
 Atlanta is separate and excluded from these totals.
 
-The population model assumes the real-world population base of the selected regions, plus higher density in several Nelôxian centers due to centuries of wealth, state continuity, corridor development, capital accumulation, and port concentration.
+The population model assumes the real-world population base of the selected regions, plus higher
+density in several Nelôxian centers due to centuries of wealth, state continuity, corridor
+development, capital accumulation, and port concentration (Kunislinnô and the shore belt carry
+most of the premium).
 
 Indicative distribution:
 
 | Region | Population logic |
 |---|---|
-| Kunislinnô / Prussian capital basin | 5–6M metro; capital, finance, supreme courts, Baltic League headquarters |
-| Karelian / Northwest departments | 8–10M; resource base, defense shield, White Sea access |
-| Baltic maritime core | 3–4M; Rīka, islands, Gulf systems, secondary administration |
-| Western Baltic rim | 6–7M; Rostock, Stettin/Szczecin, Pomeranian ports |
-| Amber Road departments | 16–20M; Brandenburg, Saxony, Bohemia, Austria, Slovenia corridor |
-| Adriatic terminals | 4–5M; Triste, Krk, Friuli, Adriatic Croatia |
-| Corsica | 0.5–0.8M; relay island, cable station, fleet support |
-| Dalmatian & Adriatic coast | 2–3M; Spalôt, Ragūz, Katôr, Albanian ports |
-| Balkan interior (defense union) | 12–14M; Bosnia, Serbia/Vojvodina, Macedonia, Kosovo |
-| Thracian & Aegean threshold | 3–4M; Sredôç (Sofia), Filipôl (Plovdiv) basins |
-| Black Sea littoral | 3–4M; Kôstônç (Constanța), Uusatôm (Odessa) |
+| 1 · Karelia & the North | 3–4M; resource base, Arctic shield, White Sea access, the isthmus |
+| 2 · Livonian core | 0.5–1M; islands, the southeastern interior, the archive landscape |
+| 3 · Lithuanian spine | 1.5–2M; Māmeli's port, the Kaunas basin, the rail junctions |
+| 4 · Prussian–Pomeranian coast | 8–10M; the capital metro (Kunislinnô 3–4M), Tantsika, Stetīn, the shore belt |
+| 5 · Eastern corridor | 9–10M; Grodno–Brest–Gomel, Lublin, Subcarpathia, Prešov |
+| 6 · Moldavian arc & Black Sea | 8–9M; Transcarpathia, the Moldavian counties, Kôstônç, Uusatôm |
+| 7 · Pannonian bridge | 3–3.5M; the nine-county land-bridge |
+| 8 · Alpine–Adriatic arm | 3.5–4M; Gräts, Carinthia-Burgenland, Triest/Friuli, Koper |
+| 9 · Dalmatian coast | 1.5M; Spalôt, Ragūz, Zadar, the cantons |
 
 ## Acquisition logic
 
 Nelôxia's modern shape is cumulative. No single event explains the whole map.
 
-### Baltic origin
-
-The old state grows from maritime governance, court administration, port control, trade law, and Baltic sea power.
-
-### Hanseatic accession
-
-Western Baltic cities and coastal regions join through port compacts, economic alignment, and the revival of older maritime-commercial identities. Local charters, city privileges, Low German and Kashubian traditions, and merchant institutions remain useful inside the Nelôxian system.
-
-### Corridor accession
-
-Central European regions align through infrastructure sovereignty. Nelôxia provides capital, security, rail continuity, customs law, courts, fiscal trust, and access to Baltic and Adriatic trade. Local languages and civic institutions remain, while Nelôxian authority concentrates around corridor functions.
-
-### Adriatic incorporation
-
-Triste and Krk become strategic terminals once the north-south corridor matures. Triste handles law, finance, and maritime registries. Krk handles naval logistics, energy, repair, and security.
-
-### Mediterranean relay
-
-Corsica enters as a relay island rather than a mainland territorial project. Its value is maritime: repair, convoy, cable, quarantine, western Mediterranean access, and Atlanta-facing routes.
+- **Baltic origin.** The old state grows from maritime governance, court administration, port
+  control, trade law, and Baltic sea power — the core of Regions 1–4.
+- **Hanseatic accession.** The Pomeranian shore joins through port compacts, economic alignment,
+  and revived maritime-commercial charters; Low German and Kashubian traditions remain useful
+  inside the Nelôxian system.
+- **Corridor accession.** The eastern seam and the Pannonian bridge align through infrastructure
+  sovereignty: Nelôxia provides capital, security, rail continuity, customs law, courts, fiscal
+  trust, and access to three seas. Local languages and civic institutions remain, while Nelôxian
+  authority concentrates on corridor functions.
+- **Adriatic incorporation.** Triest and the Dalmatian ports become the southern terminals once
+  the land-bridge matures — law, finance, and registries at Triest; harbors, repair, and naval
+  logistics down the coast.
+- **Black Sea completion.** The Moldavian arc and the littoral bring the state to Uusatôm — the
+  founding-diaspora city that had been affiliated for centuries before contiguity reached it
+  (`boundaries.md`), the oldest thread in the state finally joined to the cloth.
 
 ## State model
 
-Nelôxia is best understood as an accumulated jurisdiction state.
+Nelôxia is best understood as an accumulated jurisdiction state — a three-sea system with
+corridor provinces. Its unity is procedural rather than ethnic; its institutions make difference
+administratively useful.
 
-It is a sea-chain state with corridor provinces. Its unity is procedural rather than ethnic. Its institutions make difference administratively useful.
+Local languages remain alive across the state. Nelôxi functions as the platform language: courts,
+customs, rail, ports, military, technical schools, shipping, insurance, finance, and
+interregional administration.
 
-Local languages remain alive across the expanded state. Nelôxi functions as the platform language: courts, customs, rail, ports, military, technical schools, shipping, insurance, finance, and interregional administration.
+The state survives because it offers a high-trust operating system for regions that benefit from
+access to its corridors, ports, courts, and clearinghouses.
 
-The state survives because it offers a high-trust operating system for regions that benefit from access to its corridors, ports, courts, and clearinghouses.
+## Language model inside the state
 
-## Language model inside the expanded state
+The local languages of the nine regions remain active: Karelian and Russian in the north;
+Estonian, Latvian, and Lithuanian in the core; Polish, Kashubian, and German traditions on the
+shore; Belarusian and Ukrainian down the seam; Romanian in the arc; Hungarian on the bridge;
+German, Slovene, Friulian, and Italian in the arm; Croatian/Chakavian on the coast.
 
-The local languages of the European expansion remain active: Low German, German, Kashubian, Polish, Czech, Slovene, Friulian, Italian, Croatian/Chakavian, Corsican, French, and others.
-
-Nelôxi absorbs vocabulary where local expertise owns the practice.
+Nelôxi absorbs vocabulary where local expertise owns the practice:
 
 | Region | Local influence on Nelôxi |
 |---|---|
-| Mecklenburg / Pomerania | docks, shipyards, coastal law, ferry systems, guild terms |
-| Stettin / Oder mouth | river-port transfer, freight, customs, rail-maritime logistics |
-| Brandenburg / Saxony | corridor policing, rail law, inland freight, technical administration |
-| Bohemia | engineering, machine tools, industrial courts, workshops, technical education |
-| Austria / Alpine corridor | tunnels, passes, snow works, hydrology, inspection systems |
-| Slovenia / Karst | passes, karst terrain, border transit, Adriatic threshold terms |
-| Triste / Friuli | maritime law, insurance, notaries, registries, finance, port courts |
-| Krk / Adriatic Croatia | island harbors, naval logistics, energy terminals, winds, ship repair |
-| Corsica | cable stations, repair yards, convoy relays, island administration |
+| Karelia & the North | boreal forestry, lakes and locks, Arctic seamanship, canal law |
+| Livonian core | the archive register itself; estate and upland terms |
+| Lithuanian spine | river-rafting, rail junctions, amber, the Curonian fisheries |
+| Prussian–Pomeranian coast | docks, shipyards, coastal law, banking, the capital's administrative register |
+| Eastern corridor | rail-gauge transfer, customs, portage, grain and timber brokerage |
+| Moldavian arc & Black Sea | Danube pilotage, grain export, the cosmopolitan Uusatôm crust |
+| Pannonian bridge | plains agriculture, river ferries, the land-bridge haulage trades |
+| Alpine–Adriatic arm | tunnels, passes, hydrology; maritime law, insurance, registries at Triest |
+| Dalmatian coast | island harbors, winds, ship repair, warm-water naval practice |
 
-Saharannaise is separate from this regional-register system. It is a full co-standard connected to Atlanta, not a European regional register.
+Saharannaise is separate from this regional-register system — a full co-standard connected to
+Atlanta, not a domestic regional register (as are Congolaise, Maré, and Verdenese in their own
+countries).
 
 ## Defense posture
 
-Nelôxia is outside NATO and outside the Euro. It cooperates closely with Europe while retaining its own command culture, monetary system, and strategic autonomy.
-
-It is large and wealthy enough to act as a peer system. It is deeply interoperable with European defense and trade networks, but it remains institutionally independent.
+Nelôxia is outside NATO and outside the Euro. It cooperates closely with Europe while retaining
+its own command culture, monetary system, and strategic autonomy.
 
 Working formula:
 
@@ -171,49 +174,56 @@ Euro-independent
 Baltic League-led
 ```
 
-Nelôxia does not rely on NATO for basic security. Its own military-industrial base is distributed across the state:
+Its military-industrial base is distributed across the state:
 
 | Region | Defense-industrial role |
 |---|---|
-| Kunislinnô / Prussian core | command, procurement, cyber, finance, naval headquarters |
-| Karelian department | arctic warfare, radar, forests, missile ranges, White Sea logistics |
-| Mecklenburg / Pomerania | shipyards, coastal defense, Baltic naval production, port security |
-| Stettin / Oder mouth | river-sea logistics, rail militarization, customs security |
-| Bohemia / Saxony / Brandenburg | machine tools, vehicles, optics, electronics, industrial engineering |
-| Austria / Alpine corridor | tunnel defense, mountain mobility, hardened logistics, protected infrastructure |
-| Triste | procurement courts, naval law, maritime insurance, Mediterranean fleet administration |
-| Krk | energy terminal, repair, warm-water basing, naval logistics |
-| Corsica | western Mediterranean surveillance, convoy control, cable and relay defense |
+| Prussian–Pomeranian coast | command, procurement, cyber, finance, naval headquarters; shipyards at Tantsika and Stetīn |
+| Karelia & the North | arctic warfare, radar, forests, missile ranges, White Sea logistics |
+| Lithuanian spine & Livonian core | coastal defense, the island approaches, rail mobilization |
+| Eastern corridor | rail militarization, customs security, the gauge-transfer chokepoints |
+| Moldavian arc & Black Sea | Danube flotilla, Black Sea patrol, the Uusatôm naval anchor |
+| Pannonian bridge | land-bridge logistics, plains mobility, fuel and grain reserves |
+| Alpine–Adriatic arm | tunnel defense, mountain mobility, hardened logistics; procurement courts and maritime insurance at Triest |
+| Dalmatian coast | warm-water basing, repair, convoy organization |
 
-Europe needs Nelôxia's corridors, shipyards, ports, Arctic access, defense production, cyber systems, and Baltic League stability. Nelôxia needs European markets, components, research networks, aviation/electronics supply chains, and political recognition of its corridor sovereignty.
+Europe needs Nelôxia's corridors, shipyards, ports, Arctic access, defense production, and Baltic
+League stability. Nelôxia needs European markets, components, research networks, and political
+recognition of its corridor sovereignty.
 
 ## The Baltic League
 
-Nelôxia started and controls the Baltic League.
-
-The Baltic League is not just a trade bloc. It is Nelôxia's main tool for organizing autonomy outside NATO and the Euro while remaining central to European security and commerce.
-
-Core pillars:
+Nelôxia started and controls the Baltic League — not just a trade bloc but the state's main tool
+for organizing autonomy outside NATO and the Euro while remaining central to European security
+and commerce.
 
 | Pillar | Function |
 |---|---|
 | Customs and corridor law | shared freight, customs, port, and rail standards |
 | Monetary clearing | settlement system independent of the Euro but tied to European trade |
 | Defense procurement | joint standards, common production chains, coastal security programs |
-| Maritime security | Baltic, White Sea, Adriatic, Corsican, and Atlantic coordination |
+| Maritime security | Baltic, White Sea, Black Sea, Adriatic, and (with the Meridian realm) Atlantic coordination |
 
 The Baltic League lets Nelôxia align through systems it controls.
 
 ## Modern geopolitical posture
 
-Nelôxia is not a small neutral state and not a subordinate alliance member. It is a non-NATO, non-Euro Baltic League power: militarily interoperable with Europe, financially independent from the Eurozone, and strong enough to make European security depend on Nelôxian ports, corridors, and defense industry.
+Nelôxia is not a small neutral state and not a subordinate alliance member. It is a non-NATO,
+non-Euro Baltic League power: militarily interoperable with Europe, financially independent from
+the Eurozone, and strong enough to make European security depend on Nelôxian ports, corridors,
+and defense industry.
 
-It sells stability, rents access, controls standards, manufactures security, and refuses absorption.
+It sells stability, rents access, controls standards, manufactures security, and refuses
+absorption.
 
 ## Summary line
 
 ```text
-Modern Nelôxia is a ≈1,070,000 km², ≈80-million-person maritime-infrastructure state: a Baltic-Karelian homeland, a Central European corridor system, an Adriatic-Mediterranean terminal network, a Balkan defense-union interior, and a Black Sea littoral reaching Uusatôm — the founder-controller of the Baltic League.
+Modern Nelôxia is a ≈750,000 km², ≈40-million-person maritime-infrastructure state in nine
+regions: a Karelian Arctic lobe, a Baltic metropolitan core, an eastern corridor to the Black Sea
+at Uusatôm, a Pannonian land-bridge to an Alpine–Adriatic arm at Triest, and a Dalmatian coast —
+the founder-controller of the Baltic League.
 ```
 
-Atlanta remains a separate Atlantic country connected through history, sea power, institutional memory, and Saharannaise.
+Atlanta remains a separate Atlantic country connected through history, sea power, institutional
+memory, and Saharannaise; Corsica belongs to the sovereign Meridian States.

@@ -32,9 +32,10 @@ founder rules.)*
 The borders are accumulated jurisdictions, not ethnic lines: ports, corridors, customs spines,
 shipyards, and terminals — running from the White Sea frontage through the Baltic core and the
 eastern corridor to the Black Sea, with the Pannonian bridge carrying the state across to its
-Alpine–Adriatic arm and the Dalmatian coast. **Working scale (area / population) under this
-definition is open, pending founder ratification** — the earlier ≈1,070,000 km² / ≈80M figures
-belonged to the superseded 15-region definition and are retired with it.
+Alpine–Adriatic arm and the Dalmatian coast. Working scale ≈ **750,000 km²**, ≈ **40 million**
+(derived from the ratified subdivisions in `modern-neloxia-working-lore-model.md`; founder
+ratification of the totals pending) — the earlier ≈1,070,000 km² / ≈80M figures belonged to the
+superseded 15-region definition and are retired with it.
 
 **Regions:** Karelia & the North · The Livonian Core · The Lithuanian Spine · The
 Prussian–Pomeranian Coast · The Eastern Corridor · The Moldavian Arc & the Black Sea · The
@@ -104,10 +105,12 @@ world/meridian-states.md.*
 
 **Revision note (this ratification).** This definition supersedes the earlier 15-region master
 reference. Territories of the superseded definition that lie outside the new one — Rīka and the
-Latvian maritime core, the western Baltic rim (Rostok–Stetīn's German neighbours), the Amber Road
-corridor seats (Brandenbork, Dresden, Prag, Brün, Vīn, Laibak), the Corsican relay, the deep
-Balkan interior (Saräj beyond the three cantons, Väisbork, Üsküb, Prixtīn), and the Thracian
-threshold (Sredôç, Filipôl) — are no longer part of the state. Dependent documents (the gazetteer,
-`geography.md`, the modern working model, and any lore referencing those seats) await revision
-against this master reference; until revised, where they conflict with this file, **this file
-wins**. The retired city-entries and their coordinates remain recoverable from version history.
+Latvian maritime core, the western Baltic rim (the German Hanse ports), the old Amber Road
+corridor seats (Brandenbork, Dresden, Prag, Brün, Vīn, Laibak), the Corsican relay, the Kvarner
+(Krk), the deep Balkan interior (Saräj, Väisbork, Üsküb, Prixtīn), and the Thracian threshold
+(Sredôç, Filipôl) — are no longer part of the state. The dependent documents are **revised in
+step**: the gazetteer carries the retired names as canonical **route exonyms** (its "Beyond the
+borders" section) and opens naming dockets for the new territory; `geography.md`, the modern
+working model, `neloxia-lore.md`, and `neloxia-expanded-lore.md` are realigned to the nine
+regions. Where anything still conflicts with this file, **this file wins**. The retired
+city-entries and their coordinates remain recoverable from version history.
