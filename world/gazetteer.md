@@ -108,7 +108,7 @@ keeps *Tukholma*. Every name below was coined on the routes; under the ratified 
 places lie **outside the state**, and the names live on in merchant speech, archives, and timetables:
 
 - **Rīka** — Riga. *(nativized)* the great Latvian port-capital across the Livonian border; old Baltic *rija* "threshing-loop," Finnic *-k-*. The standard exonym; takes no suffix.
-- **Vīsbô** — Visby, Gotland. *(nativized)* the Norse trade-seat of the old Hanse runs.
+- **Vīsbô** — Visby, Gotland. *(nativized)* the Norse trade-seat of the old Hanse runs — today Skarian territory (`skaria-lore.md`).
 - **Mitau** — Jelgava · **Venden** — Cēsis · **Dūnabôrk / Daugavpils** — Daugavpils. *(raw loans / hybrid)* the Baltic-German estate belt across the border; the ledger-names of the old grain and timber trade.
 - **Vilkôvixi** — Vilkaviškis. *(archaic-x)* just across the Lithuanian line; the rail towns keep the name in use.
 - **Rostok** — Rostock · **Vismar** — Wismar · **Stralsund** — Stralsund · **Grīpsvald** — Greifswald. *(raw loans / nativized)* the German Hanse ports of the western Baltic — partners, not territory.

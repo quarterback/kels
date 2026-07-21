@@ -29,7 +29,7 @@ saharannaise/                       ← the Atlantic co-standard (Kēļs Dīwān
 congolaise/                         ← the Riverine co-standard (Kēļs Penc): Pulaar/Soninke/Wolof fused creole (Confluence Principle)
 mare/                               ← the Ocean co-standard of the Meridian States: sanded grammar (Maritime Amendment), realm phrasebook, Canarian overlay
 verdenese/                          ← the Austral co-standard of Valdória (Kēļs Ateneô): Romance-saturated settler creole + Guaraní land-layer (Crisol Principle)
-world/                              ← the settled world: geography, boundaries, gazetteer, toponymy, exonyms, the African bloc, the Meridian States, Valdória
+world/                              ← the settled world: geography, boundaries, gazetteer, toponymy, exonyms, the African bloc, the Meridian States, Valdória, Skaria
 reader/                             ← finished corpus texts (recipe, dialogue, register showcase, the all-coasts phrasebook)
 dialects/                           ← regional overlays on the standard (metrolect, inland, tristine)
 data/dictionary.tsv                 ← machine-readable headword → gloss (generated)
