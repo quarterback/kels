@@ -104,6 +104,10 @@ Saharannaise co-standard. See world/atlanta-lore.md.*
 Meridian States, connected to Nelôxia through the realm's backing arrangement. See
 world/meridian-states.md.*
 
+*Skaria — the Nordic breakaway republic holding the Kattegat/Öresund entrance to the Baltic — is
+a separate sovereign country, Nelôxia's closest aligned partner in Europe and a full Baltic
+League member. See world/skaria-lore.md.*
+
 **Revision note (this ratification).** This definition supersedes the earlier 15-region master
 reference. Territories of the superseded definition that lie outside the new one — Rīka and the
 Latvian maritime core, the western Baltic rim (the German Hanse ports), the old Amber Road

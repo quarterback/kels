@@ -120,7 +120,8 @@ Indicative distribution (sums to the ≈76M canon):
    rich where the corridors run, ordinary where they don't.
 3. **Nelosphere GDP** — the combined output of the countries using Nelôxi as a principal
    commercial, legal, or institutional language: **Atlanta**, the African bloc (**Soninka &
-   Toro**, Adrāra), the **Meridian States**, **Valdória**, and the Baltic League partners. This
+   Toro**, Adrāra), the **Meridian States**, **Valdória**, and the Baltic League partners —
+   **Skaria** foremost, the closest aligned partner in Europe (`skaria-lore.md`). This
    figure is dramatically larger than the domestic economy — on the order of the eurozone's
    footprint — without implying any of those sovereign states are politically part of Nelôxia.
    It is the more interesting number: Britain's global weight is not Britain's GDP but English,
@@ -219,9 +220,18 @@ recognition of its corridor sovereignty.
 
 ## The Baltic League
 
-Nelôxia started and controls the Baltic League — not just a trade bloc but the state's main tool
+Nelôxia founded and anchors the Baltic League — not just a trade bloc but the state's main tool
 for organizing autonomy outside NATO and the Euro while remaining central to European security
 and commerce.
+
+Full members: **Nelôxia, Skaria, Denmark, Sweden, Norway, Finland** — the breakaway republic and
+the rump Nordic states at one table, as equals (`skaria-lore.md`). Observer states: **Germany,
+Poland, Russia** (degree of engagement deliberately left open). The League's keystone is the
+**Baltic-entrance regime**: Skaria holds the Kattegat/Öresund straits Nelôxia never controlled
+directly, and the two states run a functional condominium over Baltic access — Skaria's straits
+secure Nelôxia's trade exit, Nelôxia's markets and currency give Skaria's ports their
+throughput. Norway remains the League's independent counterweight — the one capital that can say
+no to Kunislinnô.
 
 | Pillar | Function |
 |---|---|
