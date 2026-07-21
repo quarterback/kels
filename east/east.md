@@ -154,5 +154,9 @@ illustrations, and the deviation is written down):
   Cyrillic licensed wholesale via the Uusatôm mapping; the lint-gate note.
 - `showcase-hexalect.md` — one scene, six standards: the East-fork line shows identical
   Nelôxi words in Caucasian structure beside all five siblings.
+- `comparison-chart.md` — the six-standard chart: the who-keeps-what grid, the
+  feature-by-feature structural contrast (Metropolitan frame · deck Maré · East fork), the
+  lexical-layering table, and each seat's signature forms — the successor to the Congolaise
+  and Maré charts.
 - `dialogue-bazar.md` — a short everyday dialogue (*At the bazar*): the casual register,
   the doublets, and the packed verb in living use.
