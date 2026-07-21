@@ -13,6 +13,26 @@ corridor — the Persian Gulf berth at the mouth of Hormuz that the Makran coast
 be. Black Sea (Crimea) at one end of the corridor, Persian Gulf (Kuwait) at the other, the
 Caspian in the middle.
 
+## Kuwait's status — its own thing (the Puerto Rico model)
+
+Kuwait is **its own distinct entity** — not a plain province of either parent and not a
+fully sovereign state: the **Puerto Rico / Hong Kong / Faroe Islands model** of a
+self-representing associated territory. It:
+
+- **keeps its own name, flag, and identity** — it is "Kuwait," a *somebody*, not just a
+  shared port;
+- **fields its own national teams and its own Olympic team** — competes internationally *as
+  Kuwait*, the way Puerto Rico marches separately at the Olympics while its people are US
+  citizens. A Kuwaiti athlete represents Kuwait even while carrying a Neloxian or East
+  Neloxian passport;
+- **runs its own internal institutions**, while the condominium/shared-parent arrangement
+  (below) governs its external belonging.
+
+This keeps the plain place-name ("Kuwait") and makes the **status** the special thing —
+associated, self-representing, dual-parented — rather than dressing it in a grand sovereign
+title. (It is **not** styled a "Neloxian Arab State" or an "Emirate"; no monarchy is
+implied, consistent with the republican grain of the Nelôxi-aligned world.)
+
 ## Why Kuwait, why partitioned
 
 - **Founding: the detached-trading-post model** — as with Caffa/Crimea, Uusatôm, and the
