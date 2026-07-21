@@ -4,8 +4,11 @@
 the old state, from the far Black Sea shore through the Caucasus gates toward the Caspian and
 the Herat road: a **separate sovereign country**, Neloxia-aligned, separated from Kunislinnô
 **amicably** (too much land to administer from the metropole, rich enough to stand alone),
-with **Nelôxi as its business and commercial language** — not English, not Russian. This is
-the **sixth fork** of the pluricentric language, and it is unlike the other five in exactly
+with **Nelôxi as its business and commercial language** — not English, not Russian. Its
+trade corridor runs Black Sea (Crimea) → Caspian → Persian Gulf, and at the far end the two
+states jointly hold the **Kuwait condominium**, the Hormuz berth where the split-off halves
+of the Nelôxi-speaking world touch hands (`../world/kuwait-condominium.md`). This is the
+**sixth fork** of the pluricentric language, and it is unlike the other five in exactly
 one inverted way, set out below.
 
 > **Status of the name.** The country is provisionally **East Neloxia**, its independence-era
