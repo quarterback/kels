@@ -544,9 +544,13 @@ def main(src, dst):
             cls.append(make_city("Vorota", 85000, "42.43", "130.64"))
         zy_states.append(state_block(sid, zy_state_name.get(sid, st["name"]),
                                      pop, cls, tz=tz))
+    # etid 233 is the custom "Zaryan" ethnicity added below — the Afro-Russian
+    # creole name pool (from the founder's zaryan_names generator, injected
+    # into names.xml by ootp/add_zaryan_names.py). Minorities keep their own
+    # pools: Russian, Korean, Chinese, Japanese, SE-Asian.
     zaryanova = nation_block(
-        268, "Zaryanova", 29863010, 38, 80861, 1, 4, "ZAR", "Zaryan", 10,
-        [(38, 55), (13, 20), (3, 10), (4, 10), (2, 3), (47, 2)],
+        268, "Zaryanova", 29863010, 233, 80861, 1, 4, "ZAR", "Zaryan", 10,
+        [(233, 74), (13, 8), (3, 6), (4, 6), (2, 3), (47, 3)],
         zy_states, second=[(206, 8), (265, 2)], short="Zaryanova")
 
     # APPALACHIA — a canonical US state in this universe (West Virginia
@@ -813,6 +817,13 @@ def main(src, dst):
                      ("71061", "42537")):
         text = text.replace(f'capid="{old}"', f'capid="{new}"')
         text = text.replace(f'<CAPITAL id="{old}"', f'<CAPITAL id="{new}"')
+
+    # Add the custom "Zaryan" ethnicity (id 233). Its name pool (lid 233) is
+    # injected into names.xml by ootp/add_zaryan_names.py — the two files
+    # ship together. Afro-Russian creole → an African/caucasian race mix.
+    zar_eth = ('<ETHNICITY id="233" name="Zaryan" african="480" asian="30" '
+               'east_indian="10" caucasian="470" hispanic="10" />')
+    text = text.replace("</ETHNICITIES>", zar_eth + "</ETHNICITIES>", 1)
 
     # Each annexed territory's "US TERRITORY: X" region lost its nation ref
     # (dropped above); repoint it at the territory's new US state so the pool

@@ -84,16 +84,27 @@ the Hispanic-blended nations automatically.
 | Valdória | Verdenese | Arg-Italian + Brazilian + Spanish + Portuguese/German/Polish/Ukrainian/Italian + African-American (Ebony Pearl) + Native-American (Guaraní) |
 | Meridian States | Maré | Spanish/French/French-Carib + Bermudan/Cape-Verdean/SEA-Chinese/IO-Muslim/New-Caledonian/Wallisian/English |
 | East Neloxia | the East fork (Idā) | Georgian/Russian/Turkish/Ukrainian/Armenian + Persian/Afghani/Pakistani/Turkmen |
-| Zaryanova | *(English + Russian creole)* | African-American + Russian + Korean/Chinese/Japanese/SE-Asian |
+| Zaryanova | *(English + Russian creole)* | **Zaryan** (custom ethnicity 233) 74% + Russian/Korean/Chinese/Japanese/SE-Asian |
 | Tarun | *(Turkic)* | Central-Asian + Uighur + Turkish + Turkmen + Russian |
 | Qazania | *(Turkic/Tatar)* | Turkish + Russian + Pan-Islamic + Turkmen |
 
 Seven of the eleven speak a Nelôxi standard (Atlanta and Adrāra share Saharannaise, so
 that's all six standards/forks); the four that don't — Skaria, Zaryanova, Tarun,
-Qazania — are exactly the four the lore marks as non-Nelôxi. Zaryanova has no OOTP-format
-custom name file yet, so its distinctive Afro-Russian feel comes from the
-African-American + Russian blend; hand me a real Zaryan name list and it becomes a new
-`lid`/ethnicity.
+Qazania — are exactly the four the lore marks as non-Nelôxi.
+
+### Zaryanova's custom name pool (ethnicity 233)
+
+No real ethnicity produces Zaryanova's Afro-Russian creole ("Marcus Volkov", "Pavel
+Kuznetsov"), so it gets a **custom ethnicity, id 233 ("Zaryan")**, added to the world
+file, and a matching **name pool under `lid` 233 injected into `names.xml`** by
+`add_zaryan_names.py`. The names come from the founder's generator
+(`quarterback/tennis-team-manager` `generators/zaryan_names.py`): the Russianized /
+heritage given names it emits (Maks, Pavel, Mikhail, Isaiah, Solomon, Coretta, …) and
+the Russified surnames from its meaning dictionary (Kuznetsov, Volkov, Chernov, Belov,
+Melnikov, …) plus a few untranslated heritage surnames (Brooks, Jefferson, Washington)
+for the modern/urban register. **This makes the modified `names.xml` a required
+companion to the world file** — ship both together, or Zaryanova's players have no name
+pool. Regenerate with `python3 ootp/add_zaryan_names.py <names.xml> <out.xml>`.
 
 ## What was carved or removed
 
