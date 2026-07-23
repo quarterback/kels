@@ -15,7 +15,7 @@ bridged to the system by tags, never merged into the coursebook.
 ## Why it exists — the thesis run forward in time
 
 The other standards test the skeleton against distance: Saharannaise against one Afro-Asiatic
-substrate, Congolaise against a three-tributary Niger-Congo confluence, Maré against the open sea
+substrate, Congolaise against a three-tributary Niger-Congo confluence, Meralian against the open sea
 itself. Verdenese tests it against **time and youth**. Valdória is the youngest of the Nelôxi
 lands — it took shape in the 1800s, not centuries ago: a Nelôxian maritime expansion company
 (acting on an Italian tip that came up through the Corsican and Italian parts of Neloxia) built
@@ -30,16 +30,19 @@ vocabulary of whoever stepped off the ships. The fingerprint word is **tropôr**
 Romance root (*tropa*) wearing the Livonian agent suffix, the gaucho's trade declined like any
 native noun.
 
-## The model — pluricentric, five seats, one spine
+## The model — pluricentric, six seats, one family
 
-Nelôxi is **pluricentric across five seats** — Lisbon, Brasília, Luanda, Macau, and now the
+Nelôxi is **pluricentric across six seats** — Lisbon, Brasília, Luanda, Macau, and now the
 settlement that out-Brasílias Brasília:
 
 - **Metropolitan Nelôxi** — the coursebook, governed by the **Kēļs Kolēgi**, headed by the
   **Rector**. Five-quarry Baltic creole; the trunk.
 - **Saharannaise** — the Atlantic standard (Atlanta), the **Kēļs Dīwān**, the **Amīn**.
 - **Congolaise** — the Riverine standard (Soninka & Toro), the **Kēļs Penc**, the **Ardo**.
-- **Maré** — the Ocean standard (the Meridian States), the proposed **Kēļs Vakt**, the **Lōts**.
+- **Meralian** — the Meridian daughter language (*Merā kēļ*), grown out of the old Maré deck
+  register; the itinerant **Kēļs Vakt**, the **Lōts**.
+- **Sarmatian** — the inverted sixth standard (Sarmatia): the same Nelôxi words under a
+  Circassian-led grammar; the proposed **Kēļs Xasā**, the **Tamadā**.
 - **Verdenese** — the Austral standard (Valdória), seat proposed as the **Kēļs Ateneô** (the
   Athenaeum of the Language — Romance *ateneo*, the civic hall of letters every Riverplate city
   keeps), headed by the **Diretôr** (the Director — the title inherited from the settlement
@@ -47,13 +50,15 @@ settlement that out-Brasílias Brasília:
   rename, as with the Kēļs Penc and the Kēļs Vakt.*
 
 The seat-name runs the same genitive frame — **Kēļs Kolēgi ↔ Kēļs Dīwān ↔ Kēļs Penc ↔ Kēļs Vakt ↔
-Kēļs Ateneô** — with the institution-noun drawn from each seat's own learned register. Like
+Kēļs Xasā ↔ Kēļs Ateneô** — with the institution-noun drawn from each seat's own learned register. Like
 *dīwān* and *penc*, *ateneô* is itself a first headword of the standard it names.
 
-Neither seat owns another. What makes the five one language is the **shared spine** — the common
-grammar and orthographic agreement, `../saharannaise/COMMON-REGISTER.md`, which Verdenese obeys
-exactly as its sisters do. The grammar is untouched: Verdenese takes none of Maré's licensed
-sanding.
+Neither seat owns another. What binds the spine-standards — Metropolitan, Saharannaise,
+Congolaise, Verdenese — is the **shared spine**: the common grammar and orthographic agreement,
+`../saharannaise/COMMON-REGISTER.md`, which Verdenese obeys exactly as its sisters do. The ocean
+daughter holds to the family by descent; the Sarmatian inversion holds to it by the unchanged
+lexicon. The grammar is untouched: Verdenese takes nothing of the restructuring
+that made Meralian a daughter language, and nothing of the Sarmatian inversion.
 
 ## §1 · The Root Ecology — saturation, not reroot
 
@@ -202,7 +207,7 @@ convention, which this standard joins as a fifth tag alongside (Metr.), (Sah.), 
 - `composition.md` — **how to write connected Verdenese prose**: the spine does the grammar, the
   crisol does the content; tiers, the compound ban, hybrid morphology, a worked paragraph.
 - `regional-varieties.md` — the three regional varieties: the coastal/eastern default, the
-  Spanish-fused zone (the Canarian-Maré parallel), and the Ebony Pearl bilingual west with its
+  Spanish-fused zone (the Canarian-Meralian parallel), and the Ebony Pearl bilingual west with its
   rail-and-industry loan-layer.
 
 *The shared spine this standard obeys is `../saharannaise/COMMON-REGISTER.md`; the sibling

@@ -19,7 +19,7 @@ discipline (§3 of the doctrine) is enforced hardest.
 
 | Headword | PoS | Quarry · source | Gloss | Notes |
 |:---|:---|:---|:---|:---|
-| **kasā** | n. | [Rom.] *casa* (all three) | house, home | Convergent. Cousin: Canarian Maré **kasā** — two settler standards, one Romance well. Doublet with Metr. *kōt*. |
+| **kasā** | n. | [Rom.] *casa* (all three) | house, home | Convergent. Cousin: Canarian Meralian **kasā** — two settler standards, one Romance well. Doublet with Metr. *kōt*. |
 | **kosīnā** | n. | [Rom.] *cocina / cucina / cozinha* | kitchen | Convergent shape. |
 | **verandā** | n. | [Pt.] *varanda* | veranda, porch | Where the evening mate happens; the social room of the settler house. |
 | **ortā** | n. | [Rom.] *horta / orto / huerta* | kitchen-garden, vegetable plot | Convergent. |
@@ -125,7 +125,7 @@ discipline (§3 of the doctrine) is enforced hardest.
   ports already spoke them — Italian and Portuguese words worn into Riverplate Spanish. The crisol
   was running before Nelôxi arrived; Verdenese archives the result, not a purist reconstruction.
 - **H·3 — the potato dodge.** Sp. *papa* "potato" is refused because **papā** is "dad" (and
-  Canarian Maré's *papā* "potato" would make the homonymy cross-standard); the Portuguese
+  Canarian Meralian's *papā* "potato" would make the homonymy cross-standard); the Portuguese
   **batatā** takes the domain. Logged as the first collision resolved *between* co-standards.
 - **H·4 — rite doublets kept by register.** *asādô* [Sp.] is the standard's word for the
   grill-rite; *xuraskô* [Pt.] is archived as its eastern register-mate, not merged. Both canon,

@@ -30,14 +30,14 @@ game, then replace it with this file (renamed to `world_default.xml`), keeping t
 | 264 | **Soninka & Toro** | SOT | Ndar | 4,200,000 | 1 | Africa |
 | 265 | **Valdória** | VAL | Portô Venla | 34,000,000 | 2 | South America |
 | 266 | **Meridian States** | MER | Esperanza | 4,300,000 | 3 | South America³ |
-| 267 | **Sarmatia**⁴ | SAR | Caffa | 29,000,000 | 1 | Europe |
+| 267 | **Sarmatia**⁴ | SRM | Caffa | 29,000,000 | 1 | Europe |
 | 268 | **Zaryanova**⁵ | ZAR | Gannibal | 29,863,010 | 4 | Asia |
 | 269 | **Tarun**⁶ | TAR | Tashkent | 68,000,000 | 1 | Asia |
 | 270 | **Qazania**⁶ | QAZ | Kazan | 8,000,000 | 1 | Europe |
 
 The **Abbr** column is the flag key — OOTP looks for a flag file per nation
 abbreviation, so you can source one flag each for NEL, SKA, ATL, ADR, SOT, VAL, MER,
-SAR, ZAR, TAR, QAZ.
+SRM, ZAR, TAR, QAZ.
 
 ¹ Skaria's capital is founder-open in the lore; Göteborg is a placeholder (largest
 city in its territory).
@@ -51,14 +51,17 @@ the ratified corridor: Crimea + Kherson/Zaporizhzhia land bridge, the Caucasus g
 the west Kazakh oblasts, Balkan/Ahal (with the Asgabat city-state), and the
 Herat–Makran reach (Herat, Farah, Nimruz, Sistan-e Baluchestan, Baluchistan). The
 population is a working number — the doc gives none.
-⁵ Per `../world/zaryanova.md`: the Black-majority Pacific great power spanning the
-whole Russian Far East — **Primorsky, Khabarovsk, Kamchatka, Sakhalin & the Kurils,
-Magadan, the Jewish AO, and Chukotka** (the doc's UTC+9–+13 / 180°-meridian span).
-Capital **Gannibal** (the purpose-built city — here the renamed Yuzhno-Sakhalinsk);
-largest city **Pushkin** (renamed Vladivostok, pop boosted); **Vorota**, the DPRK
-gateway town, added at the Khasan border point. The Jewish AO keeps its base name for
-now (the doc's "provincial cities are being renamed" is open work). bbqual 4 reflects
-the founding culture.
+⁵ Per `../world/zaryanova.md` (founder-ratified): the Black-majority Pacific great
+power. The **seven ratified territories are the whole country** — **Primorsky,
+Khabarovsk, Kamchatka, Sakhalin & the Kurils, Magadan, and the Jewish AO**;
+**Chukotka is NOT Zaryanovan and stays Russian**. Capital **Gannibal** (the
+purpose-built city — here the renamed Yuzhno-Sakhalinsk); largest city **Pushkin**
+(renamed Vladivostok, pop boosted); **Vorota**, the DPRK gateway town, added at the
+Khasan border point. The **Jewish Autonomous Oblast** stands under its own name
+(Birobidzhan the seat) — the earlier "Zephyria Oblast" synthetic rename was retired
+per founder correction. bbqual 4 reflects the founding culture. Zaryanova draws its
+player names from a custom **Zaryan ethnicity (id 233)** with a name pool injected
+into `names.xml` (see below).
 ⁶ Per `../world/neighbor-states.md`. Tarun's capital is a Tashkent placeholder (the
 doc names none) and its population a working number; Tajikistan stays independent.
 Qazania = Tatarstan + Bashkortostan, capital Kazan, demonym Qazani, ~8M. Kazakhstan,

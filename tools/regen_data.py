@@ -37,12 +37,12 @@ items = sorted(entries.items(), key=lambda kv: kv[0].lower())
 # in RETIRED, so even a stray peer-standard form in the coursebook would not false-positive; the
 # real guarantee is that peer scars are legal by design and must never be "sanded" to plain
 # letters (ɓiɗo→biɗo, žəml→zeml, kaʼa→kaa) on the theory that they are drift. They are the
-# opposite of drift — they are the fingerprint of the stratum. The East fork (east/ — the
+# opposite of drift — they are the fingerprint of the stratum. The Sarmatian standard (sarmatian/ — the
 # Circassian-led sixth standard) is the one peer namespace with an EMPTY scar column: it adds no
-# graphemes Latin or Cyrillic (east/script.md §2 — Turkic ç→tx, ş→x, c→dž, ı→ô all land on
+# graphemes Latin or Cyrillic (sarmatian/script.md §2 — Turkic ç→tx, ş→x, c→dž, ı→ô all land on
 # existing letters), the RETIRED set binds there too, and its real drift risks (Caucasian roots in
 # core slots; Estonian citation-shapes in coinage) are Xasā-review matters, not gate matters. Its
-# grammar divergence (SOV/ergative/-p negation) is legal ONLY under east/; in the coursebook it
+# grammar divergence (SOV/ergative/-p negation) is legal ONLY under sarmatian/; in the coursebook it
 # would be error, but it is morphology, not orthography — nothing here for the gate to catch.
 legacy_path = root / 'data' / 'legacy-orthography.txt'
 legacy = set(legacy_path.read_text().split()) if legacy_path.exists() else set()

@@ -1,14 +1,14 @@
 # The Kuwait Condominium & the Citizenship Stack
 
-*Filing doc. Founder-ratified in concept; part of the East Neloxia package (the name of that
-country is still open — provisionally "East Neloxia"). Do not distort. Companion to the
-East-fork language build (`../east/`); depends on the East Neloxia package generally.*
+*Filing doc. Founder-ratified in concept; part of the Sarmatia package (the name of that
+country is still open — provisionally "Sarmatia"). Do not distort. Companion to the
+Sarmatian language build (`../sarmatian/`); depends on the Sarmatia package generally.*
 
 ## What it is
 
-**Kuwait** is a Gulf exclave held **jointly** by Neloxia and East Neloxia — a Cyprus-style
-partition: a Neloxian sector and an East Neloxian sector, with **the port and harbour held in
-common**. It is the saltwater terminal at the far (Gulf) end of the East Neloxia trade
+**Kuwait** is a Gulf exclave held **jointly** by Neloxia and Sarmatia — a Cyprus-style
+partition: a Neloxian sector and an Sarmatian sector, with **the port and harbour held in
+common**. It is the saltwater terminal at the far (Gulf) end of the Sarmatia trade
 corridor — the Persian Gulf berth at the mouth of Hormuz that the Makran coast could never
 be. Black Sea (Crimea) at one end of the corridor, Persian Gulf (Kuwait) at the other, the
 Caspian in the middle.
@@ -41,8 +41,8 @@ implied, consistent with the republican grain of the Nelôxi-aligned world.)
   stuck" logic. Here it was **co-founded as a merchant condominium** by Neloxian and East
   Neloxian trading interests together: the Gulf berth neither would fully commit to alone,
   so they pooled to hold it.
-- **Why joint.** East Neloxia and Neloxia separated **amicably** (too much land to
-  administer from Kunislinnô; East Neloxia rich enough to stand alone). The shared exclave
+- **Why joint.** Sarmatia and Neloxia separated **amicably** (too much land to
+  administer from Kunislinnô; Sarmatia rich enough to stand alone). The shared exclave
   is where they **rejoin** — neutral common ground at the end of the road, the two halves of
   the Nelôxi-speaking world touching hands at Hormuz. **The split severed the state, not the
   partnership.**
@@ -57,24 +57,24 @@ Belonging here is **not binary — it is a stack of graduated statuses**, the wa
 territorial nationality produces tiers (US nationals vs. citizens; the tangled status of
 colonial-era Filipinos). The tiers, cleanest to messiest:
 
-1. **Full Neloxian citizen / full East Neloxian citizen** — the two clean national statuses.
-2. **Pre-separation duals ("the old East Neloxians").** Anyone old enough to have been born
+1. **Full Neloxian citizen / full Sarmatian citizen** — the two clean national statuses.
+2. **Pre-separation duals ("the old Sarmatians").** Anyone old enough to have been born
    a subject of *unified* Neloxia — before the amicable split — holds or can claim **both
-   passports**, grandfathered in, because they were Neloxian citizens before East Neloxia
+   passports**, grandfathered in, because they were Neloxian citizens before Sarmatia
    existed as a separate country. A shrinking, aging cohort — a living historical artifact,
    exactly like the Filipinos who were US nationals during the territorial period
-   (1898–1946) and whose status persisted for lifetimes. Younger East Neloxians, born after
+   (1898–1946) and whose status persisted for lifetimes. Younger Sarmatians, born after
    independence, do **not** get this automatically.
 3. **Kuwait nationals.** A resident of Kuwait holds a **Kuwait nationality card** that
-   grants entry, residence, and work rights in **both** Neloxia and East Neloxia (because
+   grants entry, residence, and work rights in **both** Neloxia and Sarmatia (because
    Kuwait is the condominium ground both states co-hold) — but is **not** automatically a
    full citizen of either. This is the American-Samoa parallel precisely: a "national" of
    the shared territory, admitted to both parents, full citizen of neither by default. On
    top of the Kuwait ID, a Kuwaiti **elects a passport** from either country (Neloxian *or*
-   East Neloxian) as their travel document and citizenship-of-record — so two people from
+   Sarmatian) as their travel document and citizenship-of-record — so two people from
    the same Kuwait street may carry different national passports but the same nationality
    card.
-4. **Post-separation East Neloxians.** Born after the split — East Neloxian only, no
+4. **Post-separation Sarmatians.** Born after the split — Sarmatian only, no
    automatic Neloxian claim (must go through Kuwait or naturalize for the wider rights).
 
 ## The "weird rules" (the texture — like real US territories)
@@ -100,15 +100,15 @@ under both parents; the pre-split generation bridges them by birthright; the pas
 
 - The exact partition line inside Kuwait is **unspecified** (the port is shared; the
   hinterland split is loose by design).
-- Depends on the East Neloxia package generally: that country's final name, extent, and
+- Depends on the Sarmatia package generally: that country's final name, extent, and
   whether the corridor also reaches the Makran.
 
 ---
 
 *Cross-reference from the language section (not part of the filed lore above): Kuwait is the
 second standing contact ground between the two standards after Uusatôm — the one place both
-lects live on the same streets, Metropolitan in one sector, the East fork in the other, and
-the harbour paperwork necessarily legible to both (which the East fork's design guarantees:
-same words throughout — `../east/east.md`). Any linguistic consequences beyond that
+lects live on the same streets, Metropolitan in one sector, the Sarmatian standard in the other, and
+the harbour paperwork necessarily legible to both (which the Sarmatian standard's design guarantees:
+same words throughout — `../sarmatian/sarmatian.md`). Any linguistic consequences beyond that
 observation — a port register, back-flow through the condominium, a Kuwait overlay — are
 unbuilt and would be their own submission.*

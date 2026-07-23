@@ -1,6 +1,6 @@
 # Nelô kēļ — English → Nelôxi Reverse Index
 
-*Generated from the coursebook master dictionary (2052 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
+*Generated from the coursebook master dictionary (2054 headwords). Find your English word, take the Nelôxi headword, inflect per the reference grammar. ⁺ marks late-stratum (technical/recent register). Derived artifact — regenerate with tools/regen_reverse.py after every merge.*
 
 
 ## A
@@ -149,7 +149,7 @@ around (postp.) → **ümbär**
 arrive (v.) → **aribā**  
 arrow → **strēlô**  
 arse → **arsô**  
-as → **nagu**  
+as (the idiom nagu sellü "like such" = for example → **nagu**  
 as a sport (international/Low German) → **rīdā**  
 as if they were not there (üle 'over' + nǟgô 'see') → **ülenǟgô**  
 ash (Livonian) → **tuhk**  
@@ -427,6 +427,7 @@ cassette player (kasetô + spēlā + -in device) → **kasetôspēlin**
 cassette tape (international) → **kasetô**  
 cast (v.) → **heitä** · **viskā**  
 cat → **kat**  
+Catalan exemple → **eksemplô**  
 catch (v.) → **kaptā**  
 catch (of fish) → **sañô**  
 category → **lād**  
@@ -943,6 +944,7 @@ exactly → **täpsõlt**
 examination → **kaçô**  
 examine → **kaçā**  
 examiner of accounts (Romance/Latin auditor → **auditôr**  
+example → **eksemplô**  
 excessively → **liig**  
 excommunicate (Romance/Latin church) (v.) → **ekskomūnikā**  
 excommunication → **ekskomūnikômus**  
@@ -1069,6 +1071,7 @@ footprint → **jälg**
 for → **eest** · **per**  
 for a long time → **ammū**  
 for an animal (Low German Halsband) → **halsbandô**  
+for example (eksemplô in the goal case → **eksemplôlô**  
 for sale → **müük**  
 for the benefit or use of (postp. → **per**  
 forbid → **keldā**  
@@ -1082,6 +1085,8 @@ forgiveness → **pardômus**
 form → **vormā**  
 formal clothing (Romance) → **dressūr**  
 formal is sakrôveç) → **krūçôveç**  
+formal register uses eksemplôlô) → **nagu**  
+formal/written register → **eksemplôlô**  
 former times → **ennū**  
 fortress → **bôrkô**  
 fortunately → **ônnô**  
@@ -1395,6 +1400,7 @@ inheritance → **pärômus**
 ink → **tintô**⁺  
 inner peace → **rahu**  
 inside → **sisü**  
+instance (Romance/Latin exemplum → **eksemplô**  
 instead → **hoopõs**  
 institutional loan — the church arrived from outside) → **pāpô**  
 institutional, cf. ūsk 'belief') → **fīdô**  
@@ -1507,6 +1513,7 @@ leak → **nôrgā**
 leaked away → **nôrgdôt**  
 leap (Livonian) → **kargā**  
 learn (v.) → **ôpā**  
+learned register → **eksemplô**  
 learned/clinical) → **nērvô** · **serebrô** · **tendô**  
 learner → **ôpāji**  
 learning → **ôpômus**  
@@ -2478,12 +2485,14 @@ speakeasy → **spīkizô**
 speakeasy (colloquial clipped form of spīkizô) → **spīkis**  
 speaker (audio device) → **kūlin**  
 spear (Low German) → **spērô**  
+spelled eks- per ekskomūnikā, never ex-) → **eksemplô**  
 spent — having discarded everything one had on the field (eventive adj. of jättā, §96) → **jättänü**  
 spice → **maitū**  
 spider (Low German Spinne) → **spinô**  
 spill → **pillā**  
 spirit (Slavic frontier) → **duhô**  
 spirit of beaches and drowned sailors (folk religion) → **rāndduhô**  
+spoken register → **nagu**  
 sponge (Low German Swamm) → **svamm**  
 spoon (Low German Lepel) → **lepôl**  
 sport (international) → **sportô**  
@@ -2758,6 +2767,7 @@ the shatter — sudden capitulation in a single passage of play → **sümbrôk*
 the shoulders-drop of safe arrival — reaching the one place you can finally set the weight down → **hamn**  
 the sounding-lead → **lōd**  
 the speaking-assembly (Romance/Catalan parlament → **parlamēnt**  
+the spoken equivalent is the idiom nagu sellü "like such") → **eksemplôlô**  
 the sport of it (from kōrrô to run) → **kōrrômus**  
 the stick (golf + rīst) → **golfrīst**  
 the Supreme Court — the over-court → **Ülerēdām**  

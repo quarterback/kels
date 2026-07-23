@@ -120,8 +120,9 @@ demonstration that the spine is Nelôxian and only the well of roots is austral.
    the whole system precisely because they look like the crust; refuse them.
 5. **No private spellings.** One crisol phonology (§2). A root's origin shows in the root — and,
    for the land-layer, in the puso — never in an off-inventory grapheme.
-6. **The grammar never changes.** Verdenese takes none of Maré's licensed sanding; the Maritime
-   Amendment is Maré's alone. The spine is what makes it one language.
+6. **The grammar never changes.** Verdenese takes nothing of the restructurings its relatives
+   license elsewhere — Meralian's daughter-language grammar is Meralian's own, and the Sarmatian
+   inversion is legal only under `sarmatian/`. The spine is what makes Verdenese Nelôxi.
 
 ---
 

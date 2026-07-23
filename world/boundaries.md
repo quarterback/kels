@@ -123,6 +123,6 @@ city-entries and their coordinates remain recoverable from version history.
 
 ## Not Nelôxia
 
-Corsica and the Canary Islands are **Meridian States** members. Skaria, Sarmatia, Tarun,
-Qazania, Zaryanova, Valdória, Atlanta, Adrāra, and Soninka & Toro are separate sovereign states —
-see their own docs in world/.
+Corsica and the Canary Islands are **Meridian States** members. Skaria, Sarmatia (formerly East
+Neloxia), Tarun, Qazania, Zaryanova, Valdória, Atlanta, Adrāra, and Soninka & Toro are separate
+sovereign states — see their own docs in world/.

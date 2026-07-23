@@ -513,37 +513,26 @@ def main(src, dst):
                                  finish_cities(city_lines(lines, aomen)),
                                  abbr="MAG", tz=8))
     # ZARYANOVA — the Black-majority Pacific great power (world/zaryanova.md):
-    # ONE country spanning the whole Russian Far East, carved from the real
-    # oblasts: Primorsky, Khabarovsk, Kamchatka, Sakhalin & the Kurils,
-    # Magadan, the Jewish AO, and Chukotka (the doc's UTC+9..+13 /
-    # 180°-meridian span). Capital Gannibal (the purpose-built city, here the
-    # renamed Yuzhno-Sakhalinsk); largest city Pushkin (renamed Vladivostok);
-    # Vorota, the DPRK gateway town, added on the Khasan border point.
+    # the SEVEN ratified territories are the whole country (founder correction,
+    # main #56): Primorsky, Khabarovsk, Kamchatka, Sakhalin & the Kurils,
+    # Magadan, and the Jewish AO. Chukotka is NOT Zaryanovan — it stays
+    # Russian. The Jewish Autonomous Oblast stands under its own name (the
+    # earlier "Zephyria Oblast" synthetic rename is retired per the same
+    # correction). Capital Gannibal (the purpose-built city, here the renamed
+    # Yuzhno-Sakhalinsk); largest city Pushkin (renamed Vladivostok); Vorota,
+    # the DPRK gateway town, added on the Khasan border point.
     renames[80861] = "Gannibal"     # Yuzhno-Sakhalinsk → the built capital
     renames[85048] = "Pushkin"      # Vladivostok → the commercial capital
     pop_overrides[85048] = 1900000
-    # The Jewish AO does not exist in this universe — it is Zaryanova's
-    # Zephyria Oblast; the state and its cities take the founder's Zaryan
-    # names (city ids are 1:1 with the old build).
-    renames.update({
-        2798: "Talenquor", 5681: "Vorquelda", 9646: "Seraphine",
-        9650: "Melodian", 9703: "Qyrixia", 33240: "Falquient",
-        34362: "Zenarien", 38180: "Lyraxien", 40354: "Vendulka",
-        41730: "Orilanthe", 44823: "Sylvanar", 55615: "Elyranda",
-        56664: "Aqualina", 60934: "Tirianthe", 61231: "Quandoria",
-        74671: "Mirulka", 79247: "Faelandia", 84749: "Vandelion",
-    })
-    zy_state_name = {2590: "Zephyria Oblast"}
     zy_states = []
     for sid, tz in ((2532, 10), (2534, 10), (2578, 12), (2579, 11),
-                    (2588, 11), (2590, 10), (2597, 12)):
+                    (2588, 11), (2590, 10)):
         st = nations[RU]["states"][sid]
         cls, pop = take_state(RU, sid)
         cls = finish_cities(cls)
         if sid == 2532:   # Primorsky — the DPRK gateway
             cls.append(make_city("Vorota", 85000, "42.43", "130.64"))
-        zy_states.append(state_block(sid, zy_state_name.get(sid, st["name"]),
-                                     pop, cls, tz=tz))
+        zy_states.append(state_block(sid, st["name"], pop, cls, tz=tz))
     # etid 233 is the custom "Zaryan" ethnicity added below — the Afro-Russian
     # creole name pool (from the founder's zaryan_names generator, injected
     # into names.xml by ootp/add_zaryan_names.py). Minorities keep their own
@@ -669,7 +658,7 @@ def main(src, dst):
     # Sarmatia (the People's Republic of Sarmatia) — the classical steppe/
     # Caucasus umbrella, titular-nationality-free. Demonym Sarmat.
     eastneloxia = nation_block(
-        267, "Sarmatia", 29000000, 29, 25441, 1, 1, "SAR",
+        267, "Sarmatia", 29000000, 29, 25441, 1, 1, "SRM",
         "Sarmat", 3,
         [(29, 15), (13, 14), (24, 12), (48, 10), (26, 5), (50, 6),
          (79, 8), (56, 5), (31, 8), (89, 9), (37, 8)],
@@ -711,26 +700,6 @@ def main(src, dst):
         270, "Qazania", 8000000, 24, 37581, 1, 1, "QAZ", "Qazani", 3,
         [(24, 45), (13, 30), (73, 15), (79, 5), (56, 5)],
         qz_states, second=[(156, 10)], short="Qazania")
-
-    # ============================== fix the duplicated Zephyria Oblast ids
-    zeph_state_id = next_state_id()
-    zeph_fix = {}
-    in_zeph = False
-    for i, l in enumerate(lines):
-        if 'name="Zephyria Oblast"' in l:
-            in_zeph = True
-            lines[i] = re.sub(r'<STATE id="\d+"',
-                              f'<STATE id="{zeph_state_id}"', l, count=1)
-            continue
-        if in_zeph:
-            if "</STATE>" in l:
-                break
-            m = re.search(r'<CITY id="(\d+)"', l)
-            if m:
-                nc = next_city_id()
-                zeph_fix[int(m.group(1))] = nc
-                lines[i] = re.sub(r'<CITY id="\d+"', f'<CITY id="{nc}"', l,
-                                  count=1)
 
     # ============================================== assemble output
     inserts = {
