@@ -1,0 +1,131 @@
+# Showcase — one scene, six standards
+
+The sturdiness thesis at full stretch, all directions at once: the same lines in
+**Metropolitan Nelôxi**, **Saharannaise**, **Congolaise**, **Verdenese**, the **Sarmatian
+standard** — and, beside them, **Meralian**, the Meridian daughter language. The spine-standards
+hold one structure and diverge in words; Meralian carried the words into a new grammar and new
+shapes and left the language; the Sarmatian standard holds the words **unchanged** and diverges
+in structure alone — the only seat that is foreign in grammar yet still, letter for letter,
+Nelôxi. Read each Sarmatian line against the Metropolitan one and check: **every lexeme is
+identical — only the machine has changed.**
+
+One consequence reorganizes the whole chart. The spine showcase could open with a Level-1 line
+*identical across its standards*; the Sarmatian standard ends that. Its divergence is structural,
+so it shows at every level — the archival decree comes back rearranged — and yet no Sarmatian
+line ever goes lexically dark. The sisters diverge more the deeper you go; Meralian diverged once
+and entirely; the Sarmatian standard diverges evenly, everywhere, and never in the words.
+
+---
+
+## Level 1 — formal & archival (the spine identical; Sarmatian rearranged, never opaque)
+
+> **Metr.**  Provinsô agā tri rīgô.
+> **Sah.**  Provinsô agā tri rīgô.
+> **Cong.**  Provinsô agā tri rīgô.
+> **Verd.**  Provinsô agā tri rīgô.
+> **Sarm.**  Provinsô-r tri rīgô um.
+> *"The province has three regions."* *(Meralian no longer shares the string — the daughter's
+> constitutional register has its own shapes and builds predicate-first.)*
+
+The spine-standards share the string; Sarmatian recasts even possession — possessor in the ergative,
+the agreeing copula last (`grammar-circassian.md` §7), the counted noun bare
+(`noun-cases.md` §3). Every word still transparent to all five siblings.
+
+## Level 2 — the words hold, the frame moves
+
+> **Metr.**  Markôt um sūr.
+> **Sah.**  Sūg um sūr.
+> **Cong.**  Lumo um sūr.
+> **Verd.**  Ferjā um sūr.
+> **Sarm.**  Markôt sūr um. *(bazar speech: Bazar sūr um.)*
+> *"The market is big."*
+
+The sisters each swap the noun; the Sarmatian standard keeps the Metropolitan noun and moves the
+copula to the end — its casual doublet (*bazar*) is register, not standard, exactly as
+*melk* beside *lēt*.
+
+## Level 3 — where the sisters go dark, the Sarmatian standard stays lit
+
+> **Metr.**  Nahtô um kylm.
+> **Sah.**  Līl um barād.
+> **Cong.**  Jemma um ɓūɓ.
+> **Verd.**  Notē um frīu.
+> **Sarm.**  Nahtô kylm um.
+> *"The night is cold."*
+
+The domestic layer is precisely where the African and austral standards are darkest to the
+mainland — and where the Sarmatian standard is *most* transparent: identical lexemes to Metropolitan,
+letter for letter, in Caucasian order. The inversion thesis in one row.
+
+## The grammar row — the daughter left; the Sarmatian standard changes the machine
+
+> **Metr.**  Ajēr mä lǟdi markôtôlô.
+> **Sah.**  Ajēr mä lǟdi sūg-lô.
+> **Cong.**  Ajēr mä lǟdi lumo-lô.
+> **Verd.**  Ajēr mä lǟdi ferjā-lô.
+> **Mrl.**  *Ti lēda au.* *(the daughter: the old deck particle ti as past, the reshaped root
+> lēda, its own pronoun au — see `../mare/mare.md`)*
+> **Sarm.**  Ajēr mä markôtôle **me-lǟdi**.
+> *"Yesterday I went to the market."*
+
+Meralian's ancestor register bent an edge (the particle *ti*, a leveled ending), and the
+daughter kept the particle and grew a grammar and new shapes around it. The Sarmatian line is
+another grammar with the **old shapes intact**: verb-final, the goal on invariant *-le*, the
+subject echoed into the verb as the agreement prefix *me-* — and still built of nothing but the
+Metropolitan line's own morphemes plus the fork's machinery.
+
+## The ergative row — the signature, against the coursebook's own sentence
+
+> **Metr.**  Kalāji vendā kalān markôtôl. *(coursebook, module 08)*
+> **Sarm.**  Kalāji-r kalā markôtôl vendā.
+> *"The fisher sells the fish at the market."*
+
+Same four words. The object case *-n* is gone; the agent wears *-r*; the verb walks to the
+end. This is the one row no other standard can occupy at all — in the other five, the Sarmatian
+line is simply an error, as their lines would be in Xasā territory.
+
+## The heavy-verb row — the sentence becomes one word
+
+> **Metr.**  Mä äb nǟgô tä.
+> **Sarm.**  Me-nǟgô-p.
+> *"I don't see him."*
+
+> **Metr.**  Mäl um rā.
+> **Sarm.**  Rā m-um.
+> *"I have money."*
+
+Subject, object, and negation packed into the verb; possession packed into an agreeing
+copula. Four Metropolitan words become one Sarmatian word — and the root inside it is still
+the coursebook's *nǟgô*, the coursebook's *um*.
+
+## The hybrid seam — the same machine, six hands
+
+> **Sah.**  Žəmlôr tulē.  *(the camel-driver comes)*
+> **Cong.**  Gaynôr tulē.  *(the herder comes)*
+> **Verd.**  Tropôr tulē.  *(the drover comes)*
+> **Sarm.**  Bazarôr tulē.  *(the market-trader comes)*
+
+A Turkic root on the exact mainland suffix *-ôr*, refusing Turkish's own *-cı* as every seat
+refused its donor's agent morpheme. And a quiet Sarmatian specialty this row's shape reveals:
+with a bare subject and an intransitive verb (3sg agreement = ∅, SV order = SOV order), a
+canon-root line like *Kalāji tulē* is **string-identical in both standards** — the courtesy
+register Sarmatian speakers use on mainland guests.
+
+## Back-flow — the sixth branch feeds the trunk
+
+> **any seat:**  Txai um kalēnt.
+> *"The tea is hot."*
+
+As the Sahara sent *gāfila* and the far south sends *matē*, the east's live candidates are
+**txai** and **haidē**, drifting up through Uusatôm, the Black Sea contact port — each
+becoming another standard's canon only by that seat's merge, never automatically.
+
+---
+
+*All Metropolitan forms are coursebook canon (the ergative row is the coursebook's own
+module-08 sentence); the Saharannaise, Congolaise, and Verdenese lines are archived in their
+sections and the Meralian profile is `../mare/mare.md`
+(`../verdenese/showcase-pentalect.md` is the spine showcase this extends);
+the Sarmatian machinery is `grammar-circassian.md` and `noun-cases.md`, the doublets
+`loans-turkic.md`. Six seats, one lexicon shown surviving any structure, one structure shown
+surviving any lexicon.*

@@ -1,7 +1,7 @@
 # Verdenese and the Five-Center Shape of Nelôxi
 
 Verdenese gives Nelôxi a fifth center of language life, and it gives the whole system something
-none of the first four could: a **witness**. Saharannaise, Congolaise, and Maré demonstrate that
+none of the first four could: a **witness**. Saharannaise, Congolaise, and the ocean's Meralian demonstrate that
 the Livonian–Karelian skeleton can carry any lexicon you load onto it — but each of them tests the
 claim on a society centuries deep, where the creole's origin is a reconstructed story. Valdória is
 the youngest of the Nelôxi lands, shaped in the 1800s: a Nelôxian maritime expansion company built
@@ -21,7 +21,7 @@ donor morpheme at the seam. *Tropôr*, not *tropeiro*: the drover's word is Roma
 Nelôxian at the joint. This is the tightrope the standard walks by design. A lexicon this Romance
 on a frame this Finnic could collapse in either direction — into a relexified cipher or into just
 another Romance language — and Verdenese's whole discipline is that it does neither. The grammar
-never bends (Verdenese takes none of Maré's licensed sanding); the vocabulary never stops being
+never bends (Verdenese takes none of the ocean's restructuring); the vocabulary never stops being
 borrowed root-first.
 
 The land enters the standard by a different door, and the difference is doctrine. Guaraní is not a
@@ -46,12 +46,12 @@ absorbed — and Spanish runs broad and unofficial along the coasts and the sout
 already inside the saturation. For the lexicon this settlement has one sharp consequence: English
 is a **neighbor, not a quarry** — it lends Verdenese a bounded rail-and-industry layer from the
 western foundries and nothing from the hearth. The regional varieties fall out of the same map:
-the Romance-heaviest east, the Spanish-fused zone that parallels Canarian Maré move for move, and
+the Romance-heaviest east, the Spanish-fused zone that parallels Canarian Meralian move for move, and
 the bilingual Ebony Pearl west.
 
 Nelôxi's five seats now cover the full typology of what a shared spine can do. Saharannaise
-reroots into one substrate; Congolaise fuses three tributaries; Maré keeps the words and bends the
-grammar in one licensed place; Metropolitan holds the trunk; and Verdenese shows the system's
+reroots into one substrate; Congolaise fuses three tributaries; Meralian carried the words all the way into a daughter
+language; Metropolitan holds the trunk; and Verdenese shows the system's
 origin story happening again, at speed, on new ground — a neutral frame chosen by strangers,
 filled by whoever came, naming the land in the land's own words. One grammar, five standards, five
 academies, none supreme: the Lisbon / Brasília / Luanda / Macau settlement, with a fifth chair now

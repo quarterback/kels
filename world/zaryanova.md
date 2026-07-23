@@ -37,8 +37,8 @@ independent republic.
 - the Kuril Islands
 
 **~2,022,000 km² (780,783 sq mi) — the 38th largest country in the world.** An enormous Pacific
-coastline. Spans five time zones, UTC+9 to UTC+13; eastern Chukotka territory crosses the 180°
-meridian, so the country touches both hemispheres.
+coastline. Spans five time zones, UTC+9 to UTC+13. *(Chukotka is NOT Zaryanovan — the seven
+territories above are the whole country.)*
 
 *(Alaska is NOT Zaryanovan.)*
 

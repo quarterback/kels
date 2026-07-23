@@ -71,11 +71,11 @@
     congshowcase:{ title: "Showcase · trilect", sub: "One scene, three standards",    file: "congolaise/showcase-trilect.md",   group: "Congolaise" },
     congchart:   { title: "Comparison chart",  sub: "The three standards side by side", file: "congolaise/comparison-chart.md",    group: "Congolaise", toc: true },
     congtopo:    { title: "Soninka & Toro · toponymy", sub: "Place-names, Nelôxian | Congolaise", file: "congolaise/toponymy.md", group: "Congolaise" },
-    mare:        { title: "Maré",              sub: "The Ocean standard",            file: "mare/mare.md",                     group: "Maré", toc: true },
-    marechart:   { title: "Comparison chart",  sub: "The four standards side by side", file: "mare/comparison-chart.md",       group: "Maré", toc: true },
-    maredialects:{ title: "Realm phrasebook",  sub: "Maré across the territories",   file: "mare/dialects-phrasebook.md",      group: "Maré", toc: true },
-    marecanarian:{ title: "Canarian Maré",     sub: "The Spanish-fused deep overlay", file: "mare/canarian.md",                group: "Maré", toc: true },
-    magauscript: { title: "Magau mixed script", sub: "Hanzi roots + Latin spine",     file: "mare/magau-script.md",            group: "Maré", toc: true },
+    mare:        { title: "Meralian",          sub: "The Meridian daughter language (Merā kēļ)", file: "mare/mare.md",           group: "Meralian", toc: true },
+    marechart:   { title: "Comparison chart",  sub: "Meralian beside the Nelôxi standards", file: "mare/comparison-chart.md",  group: "Meralian", toc: true },
+    maredialects:{ title: "Realm phrasebook",  sub: "Meralian across the territories", file: "mare/dialects-phrasebook.md",    group: "Meralian", toc: true },
+    marecanarian:{ title: "Canarian Meralian", sub: "The Spanish-fused deep overlay", file: "mare/canarian.md",                group: "Meralian", toc: true },
+    magauscript: { title: "Magau mixed script", sub: "Hanzi roots + Latin spine",     file: "mare/magau-script.md",            group: "Meralian", toc: true },
     verdpluri:   { title: "Five-center Nelôxi", sub: "The Austral fifth center (essay)", file: "verdenese/pluricentric.md",     group: "Verdenese" },
     verdenese:   { title: "Verdenese",         sub: "The Austral standard",          file: "verdenese/verdenese.md",           group: "Verdenese", toc: true },
     crisol:      { title: "Crisol principle",  sub: "The settler melting-pot doctrine", file: "verdenese/CRISOL-PRINCIPLE.md", group: "Verdenese", toc: true },
@@ -86,6 +86,15 @@
     verdshowcase:{ title: "Showcase · pentalect", sub: "One scene, five standards",    file: "verdenese/showcase-pentalect.md", group: "Verdenese" },
     verdregional:{ title: "Regional varieties", sub: "Spanish zone · the Ebony Pearl", file: "verdenese/regional-varieties.md", group: "Verdenese" },
     verdtopo:    { title: "Valdória · toponymy", sub: "The land's map, three sources", file: "verdenese/toponymy.md",          group: "Verdenese" },
+    sarmpluri:   { title: "Six-center Nelôxi", sub: "The inverted sixth center (essay)", file: "sarmatian/pluricentric.md",    group: "Sarmatian" },
+    sarmatian:   { title: "Sarmatian",         sub: "The Sarmatô standard — the inverted fork", file: "sarmatian/sarmatian.md", group: "Sarmatian", toc: true },
+    sarmgrammar: { title: "Grammar spec",      sub: "SOV · ergative · the packed verb", file: "sarmatian/grammar-circassian.md", group: "Sarmatian", toc: true },
+    sarmcases:   { title: "Noun cases",        sub: "The Estonian case layer",        file: "sarmatian/noun-cases.md",          group: "Sarmatian", toc: true },
+    sarmloans:   { title: "Turkic loan quarry", sub: "The casual doublets (para/rā)", file: "sarmatian/loans-turkic.md",        group: "Sarmatian" },
+    sarmscript:  { title: "Script decision",   sub: "Latin archive · Cyrillic via Uusatôm", file: "sarmatian/script.md",       group: "Sarmatian" },
+    sarmshowcase:{ title: "Showcase · hexalect", sub: "One scene, six standards",     file: "sarmatian/showcase-hexalect.md",   group: "Sarmatian" },
+    sarmchart:   { title: "Comparison chart",  sub: "The six-standard grid",          file: "sarmatian/comparison-chart.md",    group: "Sarmatian", toc: true },
+    sarmdialog:  { title: "At the bazar",      sub: "Everyday dialogue (casual register)", file: "sarmatian/dialogue-bazar.md", group: "Sarmatian" },
     charter:     { title: "Charter",           sub: "Protocol & ruling log",        file: "college/kels-kolegi-charter.md",   group: "College", toc: true },
     creole:      { title: "Creole principle",  sub: "The standing vocabulary doctrine", file: "college/CREOLE-PRINCIPLE.md",  group: "College", toc: true },
     texture:     { title: "Metaphor fields",   sub: "Coining with culture, not relex", file: "college/METAPHOR-FIELDS.md",   group: "College", toc: true },
@@ -104,7 +113,7 @@
     meridianlore:{ title: "The Meridian States", sub: "The sovereign transoceanic nation (lore)", file: "world/meridian-states.md",  group: "World" },
     valdorialore:{ title: "Valdória — the settler republic", sub: "The Citizens Republic of Edeland (working profile)", file: "world/valdoria-lore.md", group: "World" },
     skarialore:  { title: "Skaria", sub: "The Nordic breakaway republic & the Baltic League (lore)", file: "world/skaria-lore.md", group: "World" },
-    eastneloxia: { title: "East Neloxia", sub: "The corridor state, Black Sea to Herat (lore)", file: "world/east-neloxia.md", group: "World" },
+    sarmatialore:{ title: "Sarmatia", sub: "The corridor state, Black Sea to Herat (lore)", file: "world/sarmatia.md", group: "World" },
     zaryanova:   { title: "Zaryanova", sub: "The Black-majority Pacific great power (lore)", file: "world/zaryanova.md", group: "World" },
     neighbours:  { title: "Tarun & Qazania", sub: "The eastern neighbour states (lore)", file: "world/neighbor-states.md", group: "World" },
     modernmodel: { title: "Modern Nelôxia — working model", sub: "The expanded ~56M state (draft)", file: "world/modern-neloxia-working-lore-model.md", group: "World" },
@@ -135,7 +144,7 @@
     bnd_corpus:  { title: "Corpus agent kit",  sub: "For writing genre texts",      file: "bundles/BUNDLE-corpus-agent.md",   group: "Bundles", toc: true }
   };
 
-  var GROUP_ORDER = ["Learn", "Grammar", "Reference", "Reader", "World", "Dialects", "Saharannaise", "Congolaise", "Maré", "Verdenese", "College", "Briefs", "Bundles"];
+  var GROUP_ORDER = ["Learn", "Grammar", "Reference", "Reader", "World", "Dialects", "Saharannaise", "Congolaise", "Meralian", "Verdenese", "Sarmatian", "College", "Briefs", "Bundles"];
 
   var NAV_SECTIONS = [
     { route: "home", title: "Home", sub: "Start here" },
@@ -170,14 +179,14 @@
     standards: {
       kicker: "Variation",
       title: "Standards & dialects",
-      intro: "The modern map of Nelôxi: local dialects, Atlantic Saharannaise, Riverine Congolaise, Meridian Maré, and Austral Verdenese as the fifth co-standard.",
-      cards: ["dialects", "metrolect", "inland", "tristine", "uusatomcyr", "pluricentric", "saharannaise", "commonregister", "congpluri", "congolaise", "meridianlore", "mare", "marechart", "maredialects", "marecanarian", "magauscript", "verdpluri", "verdenese", "crisol", "verdH", "verdY", "verdcompose", "verddialog", "verdshowcase", "verdregional", "verdtopo", "valdorialore"]
+      intro: "The modern map of Nelôxi: local dialects, the Saharannaise, Congolaise, and Verdenese co-standards, the Meralian daughter language of the Meridian States, and the inverted Sarmatian sixth standard.",
+      cards: ["dialects", "metrolect", "inland", "tristine", "uusatomcyr", "pluricentric", "saharannaise", "commonregister", "congpluri", "congolaise", "meridianlore", "mare", "marechart", "maredialects", "marecanarian", "magauscript", "verdpluri", "verdenese", "crisol", "verdH", "verdY", "verdcompose", "verddialog", "verdshowcase", "verdregional", "verdtopo", "valdorialore", "sarmpluri", "sarmatian", "sarmgrammar", "sarmcases", "sarmloans", "sarmscript", "sarmshowcase", "sarmchart", "sarmdialog", "sarmatialore"]
     },
     world: {
       kicker: "Setting",
       title: "World",
-      intro: "Places, civil names, geography, governance, exonyms, and the wider lore that gives the language its civic context — including the Meridian States framing for Maré and the Valdória profile behind Verdenese.",
-      cards: ["neloxialore", "meridianlore", "valdorialore", "skarialore", "eastneloxia", "zaryanova", "neighbours", "geography", "gazetteer", "names", "namegen", "toponymy", "exonyms", "governance", "boundaries", "atlantalore", "africanbloc"]
+      intro: "Places, civil names, geography, governance, exonyms, and the wider lore that gives the language its civic context — the Meridian States behind Meralian, Valdória behind Verdenese, Sarmatia behind the sixth standard, and the eastern powers beside them.",
+      cards: ["neloxialore", "meridianlore", "valdorialore", "skarialore", "sarmatialore", "zaryanova", "neighbours", "geography", "gazetteer", "names", "namegen", "toponymy", "exonyms", "governance", "boundaries", "atlantalore", "africanbloc"]
     },
     college: {
       kicker: "Canon",
@@ -736,7 +745,7 @@
       ["#/dictionary", "Lookup", "Dictionary", "Search Nelôxi headwords and English glosses from the canonical data."],
       ["#/grammarhub", "Reference", "Grammar", "Grammar modules, the complete reference bundle, and high-frequency systems."],
       ["#/readerhub", "Corpus", "Reader", "Dialogues, stories, daily-life texts, idioms, and register showcases."],
-      ["#/standards", "Variation", "Standards", "Metropolitan, Saharannaise, Congolaise, Maré, and Verdenese — the fifth co-standard from the far south."],
+      ["#/standards", "Variation", "Standards", "Metropolitan, the co-standards, the Meralian daughter language, and the inverted Sarmatian sixth."],
       ["#/worldhub", "Setting", "World", "Civil names, geography, governance, places, and surrounding lore."],
       ["#/collegehub", "Canon", "College", "Contribution rules, charter material, briefs, and agent kits."]
     ];

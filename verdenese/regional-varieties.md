@@ -3,7 +3,7 @@
 *Three regional varieties, each riding an existing mechanism of the system — never a new grammar.
 The doctrine of the homeland dialects holds here as everywhere: dialects are lexical and register
 overlays on the standard; the spine is untouchable (`../saharannaise/COMMON-REGISTER.md` §1). What
-Valdória adds is the range: one variety is the default, one re-runs the Canarian-Maré fusion, and
+Valdória adds is the range: one variety is the default, one re-runs the Canarian-Meralian fusion, and
 one is not a variety of Verdenese at all but a **bilingual settlement** under it.*
 
 ---
@@ -19,13 +19,13 @@ composition guide are written in it. Nothing more needs saying: this *is* Verden
 
 In the Spanish-zone provinces (**Korentē, Misjôn**, and the southern border country), Spanish is
 not the ambient layer but the **fused body**: the variety re-runs, on a river frontier, exactly
-what Canarian Maré did on the islands — **Spanish body, Nelôxi joints**, by foundational contact
-rather than an academy's choice. The grammar is the full standard (no Maré sanding here); the
+what Canarian Meralian did on the islands — **Spanish body, Nelôxi joints**, by foundational contact
+rather than an academy's choice. The grammar is the full standard (no Meralian-style restructuring here); the
 domestic lexicon tilts from the convergent/Italian-Portuguese shapes to the Spanish ones.
 
 The shibboleths, east ↔ Spanish-zone:
 
-| English | Coastal/eastern (standard) | Spanish-zone | Canarian Maré (for comparison) |
+| English | Coastal/eastern (standard) | Spanish-zone | Canarian Meralian (for comparison) |
 |:---|:---|:---|:---|
 | hello | **bondiā** | **buendiā** | *buenā* |
 | thanks | **grasiē** | **grasiā** | *grasiā* |
@@ -34,7 +34,7 @@ The shibboleths, east ↔ Spanish-zone:
 | fish (table) | **pexē** | **peskādô** | — |
 | the grill-rite | **xuraskô** (register-mate) | **asādô** (sole form) | — |
 
-The third column is the finding: the Spanish-zone forms **converge with Canarian Maré** —
+The third column is the finding: the Spanish-zone forms **converge with Canarian Meralian** —
 *grasiā, lēçē, kēsô* — though the two varieties fused independently, an ocean apart, from the same
 well. Two settler standards ran the same experiment and got the same answer; the cousin-pairs are
 logged in both sections (lexicon H rulings; `../mare/canarian.md`). The joints never move:
@@ -52,7 +52,7 @@ the *standard* absorbs only what the loan-layer rule admits.
 
 **The bounded loan-layer.** English contributes loanwords to western Verdenese only where the
 English-speaking community *owns the domain* — rail, rolling stock, industry, the homestead, and
-its church — the Valdória Car & Foundry world. This is the deck-loan-layer mechanism of Maré, run
+its church — the Valdória Car & Foundry world. This is the deck-loan-layer mechanism of old Maré — the sailors' register that fed Meralian — run
 on land: a closed domain list, never a general quarry.
 
 | Headword | Source | Gloss | Notes |
@@ -85,7 +85,7 @@ a *milk* — is a wrong-well rejection anywhere in the country (`CRISOL-PRINCIPL
 
 One standard, three existing mechanisms, no new machinery: the east is the Crisol Principle
 itself; the Spanish zone is the Canarian fusion re-run and independently confirmed; the west is
-the Meridian coexistence model plus Maré's bounded loan-layer. Verdenese did not need a single new
+the Meridian coexistence model plus the old Maré deck register's bounded loan-layer. Verdenese did not need a single new
 rule to cover a country that runs from an Italian serra to an English rail town — which is the
 pluricentric system working exactly as designed.
 
