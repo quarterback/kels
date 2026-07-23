@@ -1,8 +1,9 @@
 # OOTP world file — the Nelôxi world
 
-`world_default_neloxi.xml` is an OOTP `world_default.xml` with the eight sovereign
+`world_default_neloxi.xml` is an OOTP `world_default.xml` with the eleven sovereign
 nations of the settled world layer (`../world/*.md`) built in, and the real-world
-places they are based on removed or carved. `build_world.py` is the script that
+places they are based on removed or carved (plus Puerto Rico and the Northern
+Marianas folded into the US as states). `build_world.py` is the script that
 generated it from the base copy of the file (so the whole edit is reproducible —
 rerun it against a fresh base if you ever want to tweak the mapping).
 
@@ -10,7 +11,7 @@ rerun it against a fresh base if you ever want to tweak the mapping).
 game, then replace it with this file (renamed to `world_default.xml`). It only
 takes effect for newly created games.
 
-## The eight nations
+## The eleven nations
 
 | id | Nation | Abbr | Capital | Pop | bbqual | Continent | States |
 |---|---|---|---|---|---|---|---|
@@ -98,8 +99,20 @@ to taste.
   states parked inside it became Zaryanova's core (see note ⁵ above), joined by
   Primorsky, Magadan, and Chukotka carved from Russia. All league-pool and
   second-nation references were remapped or dropped accordingly.
+- **US statehood for the territories.** Puerto Rico (abbr PR) and the Northern
+  Mariana Islands (MP) — separate nations in the base file — are dissolved into
+  single US states inside the United States record; Guam and the US Virgin
+  Islands were already US states and were left as-is. The US population grows by
+  the 4.07M absorbed (→ ~316M), the US now carries 55 states, and the "US
+  TERRITORY: Northern Mariana Islands" pool is repointed to the new state. Their
+  old West-Indies/Pacific/Caribbean nation-pool memberships are dropped — as US
+  states they belong to the USA pools, exactly like Guam and the USVI.
 - **Kuwait** is untouched — per `kuwait-condominium.md` it keeps its own name,
   flag and national teams. **Morocco** is untouched (aligned, never absorbed).
+- *Note:* the US record keeps `use_hardcoded_ml_player_origins="1"`, so OOTP
+  generates US-born players from its built-in city distribution; the annexed
+  territory cities exist on the map and any player explicitly from them is
+  American, but they are not added to that hardcoded birth weighting.
 - Donor nations keep their capitals and remaining states; their `pop` attributes
   were reduced by what moved.
 

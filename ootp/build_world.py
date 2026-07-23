@@ -583,6 +583,38 @@ def main(src, dst):
             l = set_attr(l, "abbr", "WIL")
             lines[i] = l
             break
+
+    # PUERTO RICO & THE NORTHERN MARIANAS → US STATEHOOD (user directive).
+    # Guam and the US Virgin Islands are already US states in the base file;
+    # Puerto Rico (nation 151) and the Northern Marianas (229) were separate
+    # nations. Each is dissolved into a single new US state carrying all its
+    # cities; the US population grows by what it gains.
+    us_new_states = []
+    us_pop_add = 0
+    us_annex_state = {}   # old nation id -> new US state id
+
+    def annex_to_us(nation_name, state_name, abbr):
+        nonlocal us_pop_add
+        nid, n = nat_by_name(nation_name)
+        cls = []
+        state_pop = 0
+        for st in n["states"].values():
+            cls += city_lines(lines, st)
+            state_pop += st["pop"]
+        sid = next_state_id()
+        us_new_states.extend(state_block(sid, state_name, state_pop,
+                                         finish_cities(cls), abbr=abbr,
+                                         tz=-4))
+        us_pop_add += int(re.search(r'pop="(\d+)"',
+                                    lines[n["pop_line"]]).group(1))
+        us_annex_state[nid] = sid
+        remove_nation(nid)
+
+    annex_to_us("Puerto Rico", "Puerto Rico", "PR")
+    annex_to_us("Northern Marianas", "Northern Mariana Islands", "MP")
+    us_states_end = next(i for i in range(us["start"], us["end"] + 1)
+                         if re.search(r"^\s*</STATES>\s*$", lines[i]))
+
     meridian = nation_block(
         266, "Meridian States", 4300000, 70, esp_cap, 0, 3, "MER",
         "Meridian", -3,
@@ -689,6 +721,7 @@ def main(src, dst):
         continents["Africa"]["nations_end"]: atlanta + adrara + sotoro,
         continents["South America"]["nations_end"]: valdoria + meridian,
         mc["start"]: zaryanova + tarun,   # where Macau stood (Asia)
+        us_states_end: us_new_states,     # PR + CNMI as US states
     }
     # nation pop reductions
     for nid, delta in pop_deltas.items():
@@ -697,12 +730,21 @@ def main(src, dst):
         i = nations[nid]["pop_line"]
         cur = int(re.search(r'pop="(\d+)"', lines[i]).group(1))
         lines[i] = set_attr(lines[i], "pop", max(0, cur - delta))
+    # US gains the annexed-territory population
+    up = us["pop_line"]
+    lines[up] = set_attr(lines[up], "pop",
+                         int(re.search(r'pop="(\d+)"',
+                                       lines[up]).group(1)) + us_pop_add)
 
     # REGION_NATION remap: absorbed nation -> successor
     successor = {121: 263, 218: 262, 23: 266, 71: 266, 123: 266, 134: 266,
                  160: 266, 173: 266, 213: 266, 249: 266, 238: 266,
                  100: 269, 208: 269, 200: 269, 103: 269}
-    drop_refs = {29}   # Montequinto — removed entirely, no successor
+    # Montequinto removed with no successor; Puerto Rico (151) and the
+    # Northern Marianas (229) became US states — drop their old nation-pool
+    # refs (the US, already in the core USA regions, now carries them; the
+    # CNMI territory region is repointed to the new state below).
+    drop_refs = {29, 151, 229}
     # new nations join the sensible geographic regions (by REGION id)
     region_adds = {44: [260, 261, 267], 48: [260, 261], 46: [260, 267],
                    56: [262, 263, 264], 57: [262, 263], 58: [264],
@@ -755,6 +797,16 @@ def main(src, dst):
     for old, new in (("21371", "88603"), ("71061", "42537")):
         text = text.replace(f'capid="{old}"', f'capid="{new}"')
         text = text.replace(f'<CAPITAL id="{old}" />', f'<CAPITAL id="{new}" />')
+
+    # The CNMI territory region lost its nation ref (229 → US state); repoint
+    # it at the new US state so the territory pool still resolves.
+    cnmi_state = next(sid for nid, sid in us_annex_state.items()
+                      if nations[nid]["name"] == "Northern Marianas")
+    text = re.sub(
+        r'(name="US TERRITORY: Northern Mariana Islands">\s*)'
+        r'<REGION_NATIONS>\s*</REGION_NATIONS>',
+        rf'\1<REGION_STATES>\n        <REGION_STATE id="{cnmi_state}" />\n'
+        r'      </REGION_STATES>', text)
     open(dst, "w", encoding="utf-8").write(text)
     out = text.splitlines(keepends=True)
     print(f"wrote {dst}: {len(out)} lines "
