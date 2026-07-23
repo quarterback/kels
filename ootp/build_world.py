@@ -13,14 +13,21 @@ removes/carves the real-world places they are based on:
   266 Meridian States  — the transoceanic federation (meridian-states.md)
   267 East Neloxia     — provisional name; Crimea–Caucasus–Caspian span (east/east.md)
 
-Kuwait keeps its own record (self-representing condominium — kuwait-condominium.md).
-Morocco stays sovereign (aligned, not absorbed). The user's pre-existing custom
-nations (Montequinto, the repurposed Macau/Far-East build) are left untouched,
-except that the duplicated state id 2590 (Zephyria Oblast cloned from Jewish
-Oblast) is given fresh unique state/city ids.
+  268 Zaryanova        — the Black-majority Pacific great power (zaryanova.md)
+  269 Tarun            — the unified Turkic bloc (neighbor-states.md)
+  270 Qazania          — Idel-Ural realised: Tatarstan+Bashkortostan
 
-ID policy: new nation ids 260–267, new state ids 9101+, new city ids 150001+ —
-all above the base file's maxima (253 / 9000 / 99991), so nothing collides.
+Also: Puerto Rico, the Northern Marianas, Guam, and the US Virgin Islands are
+folded into The United States as states; Macau joins the Meridian States (Magau);
+West Virginia is renamed Appalachia and gains its border towns. Kuwait and
+Morocco stay sovereign (aligned, not absorbed).
+
+Built for the "Enhanced Complete World Names" base (Korean-localized, richer
+Latino ethnicity table, ships with names.xml/namescustom.xml). Name generation
+is driven by each nation's ethnicity (etid) mix, chosen to read culturally.
+
+ID policy: new nation ids 260–270, new state ids 9101+, new city ids 150001+ —
+all above the base file's maxima (252 / 3400 / 95477), so nothing collides.
 
 Usage: python3 build_world.py <input.xml> <output.xml>
 """
@@ -496,10 +503,8 @@ def main(src, dst):
     absorb("Mayotte", "Mayotte", abbr="MAY")
     absorb("Wallis &amp; Futuna", "Wallis &amp; Futuna", abbr="WAF")
     absorb("New Caledonia", "New Caledonia", abbr="NCL")
-    # Macau joins the Meridian States (user directive): Aomen becomes the
-    # Magau state; the Far-East states that had been stuffed into the Macau
-    # record (Kamchatka, Sakhalin, Khabarovsk, Jewish Oblast, and the custom
-    # Gannibal / Zephyria Oblast) are returned to Russia so nothing is lost.
+    # Macau joins the Meridian States (user directive): its Aomen state
+    # becomes Magau. Macau has only the one state in this base.
     MC, mc = nat_by_name("Macau")
     remove_nation(MC)
     renames[3496] = "Magau"
@@ -508,87 +513,78 @@ def main(src, dst):
                                  finish_cities(city_lines(lines, aomen)),
                                  abbr="MAG", tz=8))
     # ZARYANOVA — the Black-majority Pacific great power (world/zaryanova.md):
-    # ONE country spanning the whole Russian Far East. Territory: Primorsky,
-    # Khabarovsk, Kamchatka, Magadan, Sakhalin & the Kurils (the custom
-    # Gannibal capital state absorbs the stock island towns), the Jewish AO
-    # (carried by its renamed successor Zephyria Oblast — "provincial cities
-    # are being renamed from their Russian counterparts"), plus Chukotka,
-    # required by the doc's UTC+9..+13 / 180°-meridian span. Capital Gannibal
-    # (the purpose-built city); largest city Pushkin (renamed Vladivostok);
+    # ONE country spanning the whole Russian Far East, carved from the real
+    # oblasts: Primorsky, Khabarovsk, Kamchatka, Sakhalin & the Kurils,
+    # Magadan, the Jewish AO, and Chukotka (the doc's UTC+9..+13 /
+    # 180°-meridian span). Capital Gannibal (the purpose-built city, here the
+    # renamed Yuzhno-Sakhalinsk); largest city Pushkin (renamed Vladivostok);
     # Vorota, the DPRK gateway town, added on the Khasan border point.
-    renames[99991] = "Gannibal"
-    renames[85048] = "Pushkin"
+    renames[80861] = "Gannibal"     # Yuzhno-Sakhalinsk → the built capital
+    renames[85048] = "Pushkin"      # Vladivostok → the commercial capital
     pop_overrides[85048] = 1900000
-
-    def mc_state(sid, name=None, extra_cities=None, pop=None, tz=None):
-        st = mc["states"][sid]
-        cls = finish_cities(city_lines(lines, st))
-        if extra_cities:
-            cls += extra_cities
-        return state_block(sid, name or st["name"],
-                           pop if pop is not None else st["pop"], cls, tz=tz)
-
-    sak_cities = finish_cities(city_lines(lines, mc["states"][2579]))
-    zy_states = [mc_state(9000, extra_cities=sak_cities, pop=1596695, tz=10),
-                 mc_state(2534, tz=10), mc_state(2578, tz=11)]
-    z0 = next(i for i in range(mc["start"], mc["end"] + 1)
-              if 'name="Zephyria Oblast"' in lines[i])
-    z1 = next(i for i in range(z0, mc["end"] + 1) if "</STATE>" in lines[i])
-    zy_states.append(lines[z0:z1 + 1])
-    for sid, tz in ((2532, 10), (2588, 11), (2597, 12)):
+    zy_states = []
+    for sid, tz in ((2532, 10), (2534, 10), (2578, 12), (2579, 11),
+                    (2588, 11), (2590, 10), (2597, 12)):
         st = nations[RU]["states"][sid]
         cls, pop = take_state(RU, sid)
         cls = finish_cities(cls)
-        if sid == 2532:
+        if sid == 2532:   # Primorsky — the DPRK gateway
             cls.append(make_city("Vorota", 85000, "42.43", "130.64"))
         zy_states.append(state_block(sid, st["name"], pop, cls, tz=tz))
     zaryanova = nation_block(
-        268, "Zaryanova", 29863010, 38, 99991, 1, 4, "ZAR", "Zaryan", 10,
+        268, "Zaryanova", 29863010, 38, 80861, 1, 4, "ZAR", "Zaryan", 10,
         [(38, 55), (13, 20), (3, 10), (4, 10), (2, 3), (47, 2)],
         zy_states, second=[(206, 8), (265, 2)], short="Zaryanova")
 
-    # Montequinto removed entirely (user directive).
-    remove_nation(nat_by_name("Montequinto")[0])
-
     # APPALACHIA — a canonical US state in this universe (West Virginia
-    # renamed and expanded with the KY/VA/TN border country). Finish its
-    # half-done migration: the 21 towns copied into it keep their ids in
-    # Appalachia ONLY — the leftover Kentucky/Virginia/Tennessee copies are
-    # removed (an internal move; US national pop unchanged) — and Wilder
-    # gets its own id and Bristol TN/VA coordinates instead of carrying
-    # Bristol England's id and location.
-    US, us = nat_by_name("United States")
-    APP_DUPS = {4431, 7906, 9388, 13272, 13615, 14135, 14310, 15034, 16002,
-                23391, 23413, 25736, 27914, 28621, 29762, 30709, 31405,
-                39092, 48295, 56311, 58957}
-    for sid, st in us["states"].items():
-        if st["name"] not in ("Kentucky", "Virginia", "Tennessee"):
-            continue
-        removed = 0
-        for i in range(st["start"], st["end"] + 1):
-            m = re.search(r'<CITY id="(\d+)".*? pop="(\d+)"', lines[i])
-            if m and int(m.group(1)) in APP_DUPS:
-                delete.add(i)
-                removed += int(m.group(2))
-        if removed:
-            lines[st["start"]] = set_attr(lines[st["start"]], "pop",
-                                          max(0, st["pop"] - removed))
-    app = us["states"][167]
-    for i in range(app["start"], app["end"] + 1):
-        if 'name="Wilder"' in lines[i]:
-            l = re.sub(r'<CITY id="\d+"', f'<CITY id="{next_city_id()}"',
-                       lines[i], count=1)
-            l = set_attr(l, "lat", "36.60")
-            l = set_attr(l, "long", "-82.18")
-            l = set_attr(l, "abbr", "WIL")
-            lines[i] = l
-            break
+    # renamed, expanded with the NC/KY/VA/TN/GA border country). The base
+    # models it as state 167 "West Virginia"; rename it and pull in the 44
+    # border towns (moved by id from their real states, so no city is
+    # duplicated). The one bad Bristol-England id from the old data is left
+    # in England.
+    US, us = nat_by_name("The United States")
+    APP_BORDER = {1974, 3585, 4411, 4431, 7906, 9388, 9880, 10727, 11612,
+                  11771, 11773, 12073, 13272, 13615, 14135, 14310, 15034,
+                  16002, 19029, 21804, 23389, 23391, 23413, 25736, 27492,
+                  27914, 27922, 28621, 29762, 30709, 31132, 31405, 35189,
+                  35558, 38596, 39092, 44834, 48295, 51837, 52665, 56311,
+                  58957, 75739, 85549}
+    app = us["states"][167]                       # base "West Virginia"
+    lines[app["start"]] = set_attr(set_attr(lines[app["start"]],
+                                            "name", "Appalachia"),
+                                   "abbr", "AP")
+    app_extra = []
+    app_gain = 0
+    for n2 in nations.values():
+        for sid2, st2 in n2["states"].items():
+            if sid2 == 167:
+                continue
+            for i in range(st2["start"], st2["end"] + 1):
+                m = re.search(r'<CITY id="(\d+)".*? pop="(\d+)"', lines[i])
+                if m and int(m.group(1)) in APP_BORDER:
+                    delete.add(i)
+                    app_extra.append(strip_korean(lines[i]))
+                    app_gain += int(m.group(2))
+                    lines[st2["start"]] = set_attr(
+                        lines[st2["start"]], "pop",
+                        max(0, int(re.search(r'pop="(\d+)"',
+                                             lines[st2["start"]]).group(1))
+                            - int(m.group(2))))
+    # splice the border cities in just before the state's </CITIES>
+    app_close = next(i for i in range(app["start"], app["end"] + 1)
+                     if "</CITIES>" in lines[i])
+    extra_ins = {app_close: [indent_city(c) for c in app_extra]}
+    lines[app["start"]] = set_attr(
+        lines[app["start"]], "pop",
+        int(re.search(r'pop="(\d+)"', lines[app["start"]]).group(1))
+        + app_gain)
 
-    # PUERTO RICO & THE NORTHERN MARIANAS → US STATEHOOD (user directive).
-    # Guam and the US Virgin Islands are already US states in the base file;
-    # Puerto Rico (nation 151) and the Northern Marianas (229) were separate
-    # nations. Each is dissolved into a single new US state carrying all its
-    # cities; the US population grows by what it gains.
+    # US STATEHOOD FOR THE FOUR TERRITORIES (user directive). In this base
+    # Puerto Rico (151), the Northern Marianas (229), Guam (79), and the US
+    # Virgin Islands (202) are all separate nations. Each is dissolved into a
+    # single new US state carrying all its cities; the US population grows by
+    # what it gains, and each territory's "US TERRITORY" region is repointed
+    # to the new state (below).
     us_new_states = []
     us_pop_add = 0
     us_annex_state = {}   # old nation id -> new US state id
@@ -612,6 +608,8 @@ def main(src, dst):
 
     annex_to_us("Puerto Rico", "Puerto Rico", "PR")
     annex_to_us("Northern Marianas", "Northern Mariana Islands", "MP")
+    annex_to_us("Guam", "Guam", "GU")
+    annex_to_us("Virgin Islands", "U.S. Virgin Islands", "VI")
     us_states_end = next(i for i in range(us["start"], us["end"] + 1)
                          if re.search(r"^\s*</STATES>\s*$", lines[i]))
 
@@ -721,8 +719,9 @@ def main(src, dst):
         continents["Africa"]["nations_end"]: atlanta + adrara + sotoro,
         continents["South America"]["nations_end"]: valdoria + meridian,
         mc["start"]: zaryanova + tarun,   # where Macau stood (Asia)
-        us_states_end: us_new_states,     # PR + CNMI as US states
+        us_states_end: us_new_states,     # the four territories as US states
     }
+    inserts.update(extra_ins)             # Appalachia border cities
     # nation pop reductions
     for nid, delta in pop_deltas.items():
         if nations[nid]["end"] is None or nations[nid]["start"] in delete:
@@ -740,11 +739,12 @@ def main(src, dst):
     successor = {121: 263, 218: 262, 23: 266, 71: 266, 123: 266, 134: 266,
                  160: 266, 173: 266, 213: 266, 249: 266, 238: 266,
                  100: 269, 208: 269, 200: 269, 103: 269}
-    # Montequinto removed with no successor; Puerto Rico (151) and the
-    # Northern Marianas (229) became US states — drop their old nation-pool
-    # refs (the US, already in the core USA regions, now carries them; the
-    # CNMI territory region is repointed to the new state below).
-    drop_refs = {29, 151, 229}
+    # The four territories (Puerto Rico 151, Northern Marianas 229, Guam 79,
+    # US Virgin Islands 202) became US states — drop their old nation-pool
+    # refs (the US, already in the core USA regions, now carries them; each
+    # territory region is repointed to its new state below). 29 is the old
+    # Montequinto id (absent in this base; harmless).
+    drop_refs = {29, 151, 229, 79, 202}
     # new nations join the sensible geographic regions (by REGION id)
     region_adds = {44: [260, 261, 267], 48: [260, 261], 46: [260, 267],
                    56: [262, 263, 264], 57: [262, 263], 58: [264],
@@ -791,22 +791,30 @@ def main(src, dst):
                     out.append(f'        <REGION_NATION id="{add}" />\n')
         out.append(l)
 
-    # repair two capids that are broken in the stock base file
-    # (Cameroon pointed at a nonexistent city; Bolivia likewise)
     text = "".join(out)
-    for old, new in (("21371", "88603"), ("71061", "42537")):
-        text = text.replace(f'capid="{old}"', f'capid="{new}"')
-        text = text.replace(f'<CAPITAL id="{old}" />', f'<CAPITAL id="{new}" />')
 
-    # The CNMI territory region lost its nation ref (229 → US state); repoint
-    # it at the new US state so the territory pool still resolves.
-    cnmi_state = next(sid for nid, sid in us_annex_state.items()
-                      if nations[nid]["name"] == "Northern Marianas")
-    text = re.sub(
-        r'(name="US TERRITORY: Northern Mariana Islands">\s*)'
-        r'<REGION_NATIONS>\s*</REGION_NATIONS>',
-        rf'\1<REGION_STATES>\n        <REGION_STATE id="{cnmi_state}" />\n'
-        r'      </REGION_STATES>', text)
+    # repair capids broken in this base (nation capid / CAPITAL tag point at a
+    # city that isn't in the nation): Cameroon→Yaoundé, Gambia→Banjul,
+    # Bolivia→La Paz. Scoped to capid=/CAPITAL attrs, never <CITY id=.
+    for old, new in (("21371", "88603"), ("1196", "6925"),
+                     ("71061", "42537")):
+        text = text.replace(f'capid="{old}"', f'capid="{new}"')
+        text = text.replace(f'<CAPITAL id="{old}"', f'<CAPITAL id="{new}"')
+
+    # Each annexed territory's "US TERRITORY: X" region lost its nation ref
+    # (dropped above); repoint it at the territory's new US state so the pool
+    # still resolves.
+    terr_region = {"Puerto Rico": "US TERRITORY: Puerto Rico",
+                   "Northern Marianas": "US TERRITORY: Northern Mariana "
+                                        "Islands",
+                   "Guam": "US TERRITORY: Guam",
+                   "Virgin Islands": "US TERRITORY: Virgin Islands"}
+    for nid, sid in us_annex_state.items():
+        rn = re.escape(terr_region[nations[nid]["name"]])
+        text = re.sub(
+            rf'(name="{rn}"[^>]*>\s*)<REGION_NATIONS>\s*</REGION_NATIONS>',
+            rf'\1<REGION_STATES>\n        <REGION_STATE id="{sid}" />\n'
+            r'      </REGION_STATES>', text)
     open(dst, "w", encoding="utf-8").write(text)
     out = text.splitlines(keepends=True)
     print(f"wrote {dst}: {len(out)} lines "
