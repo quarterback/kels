@@ -64,21 +64,27 @@ Magau closes, Bermuda and Esperanza are waking. The national identity plays on "
 never sets on" — inverted, because it is continuous self-governance, not dominion. National sense:
 many seas, one citizenship. Citizens call themselves **Meridians**.
 
-## Language — Maré
+## Language — Meralian
 
-The federal lingua franca is **Maré**, the **fourth co-standard of Nelôxi** (beside Metropolitan,
-Saharannaise, Congolaise) — the maritime deck-register of the realm, carried across the scattered
-territories by sailors, dockworkers, merchants, and administrators. It is NOT a separate creole; it
-is Nelôxi adapted to ocean use — the grammar rules bend to fit the maritime federation (sanded
-morphology, particle-marked tense, a heavy loan-layer from every territory's local tongue) rather
-than the territories being forced to conform to standard Nelôxi. Maré rides on the Livonian spine
-like the other varieties.
+The federal lingua franca is **Meralian** (**Merā kēļ**, “Meridian language”; working code
+**mrl**), a daughter language of Nelôxi rather than a lightly simplified co-standard. Its roots are
+predominantly inherited from Neloxian state formation and seafaring, but its native grammar and
+sound pattern were shaped in the western Pacific by Carolinian-speaking island networks. It is
+predicate-first by default, uses preverbal tense–aspect–mood and directional particles, makes
+inclusive/exclusive and dual/paucal distinctions in its pronouns, and organizes ordinary possession
+through classifiers. Case morphology has largely disappeared.
 
-Local languages persist under Maré (Corsican, Portuguese/Forro on São Tomé, Canarian-adjacent
-Atlantic Spanish, Wallisian/Futunan, Shimaore/Kibushi on Mayotte, Bermudian English, St Helenian,
-Esperanza's Creole/Amerindian/Maroon tongues, the Kanak languages of New Caledonia, Cantonese on
-Magau). Citizens are typically trilingual: Maré across the realm, a territorial language at home,
-and an international language.
+The older sailors’ register **Maré** is Meralian’s historical ancestor and survives in songs,
+pilot calls, and archival writing; it is not the language’s modern name. Meralian is the ordinary
+language of households, schools, media, courts, and federal government. Formal writing may use a
+thicker inherited Neloxian vocabulary, but it keeps Meralian grammar.
+
+Local languages persist alongside Meralian (Corsican, Portuguese/Forro on São Tomé,
+Canarian-adjacent Atlantic Spanish, Wallisian/Futunan, Shimaore/Kibushi on Mayotte, Bermudian
+English, St Helenian, Esperanza’s Creole/Amerindian/Maroon tongues, the Kanak languages of New
+Caledonia, and Cantonese on Magau). Citizens are typically trilingual: Meralian across the realm, a
+territorial language at home, and an international language. The detailed language profile is
+`../mare/mare.md`.
 
 ## The relationship with Neloxia — backer, not master
 
@@ -107,9 +113,9 @@ interdependence, not geography.
   anchor; a natural capital-seat.
 - **Neloxia holds a trade outpost/base on the islands** (US-basing model: sovereign Meridian soil,
   Neloxian installation). The flagship of the backing arrangement, at the Atlantic core.
-- **Language:** Neloxi took root there as Spanish did in reality — foundational. Canarian Maré is a
-  **Spanish-fused Neloxi**: Spanish + Neloxi base, local-language fragments informing vocabulary.
-- The base makes the Canaries a Maré–Metropolitan contact hub — soft power for Maré.
+- **Language:** Neloxi took root there as Spanish did in reality — foundational. Canarian Meralian is the **Spanish-fused Atlantic overlay** of the federal language: Spanish
+  supplies a dense local layer, while Meralian grammar remains shared across the realm.
+- The base makes the Canaries a Meralian–Metropolitan contact hub — soft power for Meralian.
 
 ## Common Meridian Time (CMT)
 
@@ -146,6 +152,5 @@ deadline), the Three Horizons (news at 00:00/08:00/16:00 CMT).
 ## Status / open
 - The realm's overall capital-of-record (if any beyond the five functional seats), the currency's
   name, the anthem's exact text, and the flag are open.
-- Maré's specific adapted grammar rules are a build task (a Nelôxi maritime-variant spec), parallel
-  to Saharannaise/Congolaise — now begun under `../mare/` (the variant spec, the four-standard
-  comparison chart, and the realm phrasebook of territorial dialects).
+- A fuller Meralian lexicon, regional phonology, and constitutional-text corpus remain build tasks under
+  `../mare/`; the structural profile, comparison chart, and territorial phrasebook are established.

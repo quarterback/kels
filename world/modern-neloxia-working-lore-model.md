@@ -184,7 +184,7 @@ Nelôxi absorbs vocabulary where local expertise owns the practice:
 | Dalmatian coast | island harbors, winds, ship repair, warm-water naval practice |
 
 Saharannaise is separate from this regional-register system — a full co-standard connected to
-Atlanta, not a domestic regional register (as are Congolaise, Maré, and Verdenese in their own
+Atlanta, not a domestic regional register (as are Congolaise, Meralian, and Verdenese in their own
 countries).
 
 ## Defense posture

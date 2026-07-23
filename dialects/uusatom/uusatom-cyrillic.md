@@ -1,7 +1,7 @@
 # The Uusatôm Cyrillic — Metropolitan Nelôxi in full Cyrillic
 
 *The script standard of **Uusatôm** (Odessa) — the founding-diaspora city on the Black Sea
-(`../../world/boundaries.md`, Region 15). A script overlay on **Metropolitan** Nelôxi — not Maré,
+(`../../world/boundaries.md`, Region 15). A script overlay on **Metropolitan** Nelôxi — not Meralian,
 not a dialect, not one word or rule of grammar changed. The same language, wholly transliterated:
 Uusatôm is a two-script border city, Cyrillic locally, Latin everywhere else. The model is Dungan —
 a whole language carried into Cyrillic because Cyrillic can hold all of it.*

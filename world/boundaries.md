@@ -120,6 +120,9 @@ working model, `neloxia-lore.md`, and `neloxia-expanded-lore.md` are realigned t
 regions. Where anything still conflicts with this file, **this file wins**. The retired
 city-entries and their coordinates remain recoverable from version history.
 
-**Not Nelôxia.** Corsica and the Canary Islands are Meridian States members. Skaria, Sarmatia,
-Tarun, Qazania, Zaryanova, Valdória, Atlanta, Adrāra, and Soninka & Toro are separate sovereign
-states — see their own docs in `world/`.
+
+## Not Nelôxia
+
+Corsica and the Canary Islands are **Meridian States** members. Skaria, Sarmatia (formerly East
+Neloxia), Tarun, Qazania, Zaryanova, Valdória, Atlanta, Adrāra, and Soninka & Toro are separate
+sovereign states — see their own docs in world/.
