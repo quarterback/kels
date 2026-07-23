@@ -29,7 +29,7 @@ inside the metroplex is a *register gradient*, not a dialect boundary:
 **Script overlays** are a separate, thinner kind of overlay: same language, different writing
 system. **Uusatôm** (Odessa), the founding-diaspora Black Sea city, writes Metropolitan Nelôxi in
 full Cyrillic — `uusatom/uusatom-cyrillic.md` — a two-script border tradition, not a spoken
-dialect. (Its mixed-script sibling, Magau's hanzi + Latin, belongs to Maré and lives at
+dialect. (Its mixed-script sibling, Magau's hanzi + Latin, belongs to Meralian and lives at
 `../mare/magau-script.md`.)
 
 The standard (coursebook) is the prestige register **because it is the capital's**,

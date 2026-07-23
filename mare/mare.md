@@ -1,113 +1,142 @@
-# Maré — the Ocean standard
+# Meralian — the Meridian daughter language
 
-*The fourth co-standard of Nelôxi: the federal lingua franca of the **Meridian States**
-(`../world/meridian-states.md`), carried across the scattered territories by sailors, dockworkers,
-merchants, and administrators. Not a separate creole — Nelôxi adapted to ocean use, riding on the
-same Livonian spine as Metropolitan, Saharannaise, and Congolaise.*
+*The federal language of the **Meridian States** (`../world/meridian-states.md`). **Merā kēļ**
+("Meridian language") is its constitutional endonym; **Meralian** is the international name;
+**mrl** is its working language code. The older sailors' contact register, **Maré**, survives in
+songs, pilot calls, and historical writing, but it is not the name of the modern standard.*
 
-## 1 · What kind of standard this is — the inverted divergence
+## 1 · What Meralian is
 
-The two African standards diverge by **vocabulary**: they keep the grammar invariant and reroot the
-domestic lexicon (Saharannaise into Hassaniya/Zenaga, Congolaise into Pulaar/Soninke/Wolof). Maré
-does the **opposite**. Its domestic lexicon is largely the Metropolitan word-stock — the deck
-vocabulary the homeland's sailors carried out (*mer, xipd, satām, dek, matrūs, tūļ, lain, lūdô,
-akôr, purjē, lōd, kapitān, last*) plus the shared modern crust — but its **grammar is sanded**: on
-a deck crewed from ten territories and eleven substrate families, the morphology wears smooth the
-way ship's brass does.
+Meralian is a **daughter language of Nelôxi**, not Metropolitan Nelôxi spoken casually aboard a
+ship and not a temporary deck creole. Neloxian sailors, officials, and traders supplied most of
+its inherited roots. In the western Pacific, Carolinian-speaking island communities supplied the
+contact grammar and the sound pattern through which those roots were learned. Their children
+acquired the resulting language natively; later members added Canarian, Bermudian, Forro,
+Polynesian, Cantonese, Kanak, Shimaore, and other territorial layers.
 
-> **Saharannaise and Congolaise change the words and keep the grammar. Maré keeps the words and
-> bends the grammar.** That is the fourth proof of the sturdiness thesis, run in reverse: the spine
-> is strong enough to carry three foreign lexicons — and flexible enough, in exactly one licensed
-> place, to be simplified without breaking.
+> **Neloxian vocabulary; Carolinian-shaped grammar and sound; territorial vocabulary at the
+> edges.**
 
-The bends are **bounded and closed** (§3), ratified jointly by the four seats as the **Maritime
-Amendment** — the one exception to the Common Register's rule that no seat may alter the grammar
-(`../saharannaise/COMMON-REGISTER.md` §1). Inside Maré the bends are canon; in any other standard
-they are errors. **Written and formal Maré uses the full standard morphology** — the bends live in
-speech and deck writing (logs, manifests, signals), which preserves the one-way asymmetry: a
-Meridian schooled in Maré reads the mainland page effortlessly; a mainlander hears deck Maré as
-clipped but followable Nelôxi.
+Roughly three quarters of ordinary roots remain visibly Neloxian, though they are regularly
+reshaped into open syllables. The relationship is therefore historical and recognizable, not one
+of co-standard identity: a Metropolitan reader can identify many roots, but cannot assume the
+syntax, possession system, or pronouns. Meralian is the native language of Meridian homes,
+schools, media, courts, and federal government. Local territorial languages remain vital alongside
+it.
 
-## 2 · The three registers of Maré
+## 2 · From Maré to Meralian
 
-| Register | What it is | Morphology |
+**Maré** began as a mobile sailors' contact register: Neloxian words carried between ports with
+variable local grammar. The decisive development occurred in the Pacific network, where a large,
+coherent Carolinian-speaking population made one island-to-island grammar socially useful. Adults
+used Neloxian lexicon through that grammar; children nativized it. Federal standardization later
+recognized the established western-ocean variety rather than restoring metropolitan morphology.
+
+**Merā** originally named the interconnected ocean routes and inhabited waters of the federation,
+not merely "the sea." *Merā kēļ* consequently meant "language of the Meridian." International
+**Meralian** was formed from that name. The older *Maré* is now a heritage register: concise,
+conservative, and especially associated with seamanship.
+
+## 3 · Core grammar
+
+Meralian is predicate-first by default. Verbal predicates commonly precede their arguments, while
+nominal predicates are equally natural sentence openings. Pragmatic focus may move a participant
+forward; SVO is possible but is not the unmarked metropolitan frame. Case endings have disappeared
+from ordinary Meralian. Role, word order, relational particles, directionals, and context carry the
+work instead.
+
+### Preverbal chain
+
+A finite predicate may take a compact chain:
+
+**TAM · directional · verb · (reduplication / derivation) · arguments**
+
+| Item | Meaning | Example |
 |:---|:---|:---|
-| **Deck Maré** | speech, signals, logs, the market, the quay | sanded (§3) |
-| **Paper Maré** | manifests, customs, the harbor office | full standard + the Tristine port register gone global (*transitā … manifestôn*, `../dialects/tristine/tristine.md`) — the realm's harbor-masters inherited the Adriatic two-move pattern with the trade itself |
-| **Federal Maré** | law, courts, the CMT record | full standard, CMT-timestamped |
+| **ti** | anterior / completed past | *Ti lēda ia Merā.* — “She travelled the routes.” |
+| **fin** | completive, “already / through” | *Fin luga au livu.* — “I have finished reading the book.” |
+| **kē** | prospective / intended | *Kē tula na xipa.* — “The vessel is about to come.” |
+| **ma** | realis / ongoing frame | *Ma luma kami.* — “We (excluding you) are working.” |
+| **sai** | irrealis, polite proposal, conditional | *Sai pāsā kita west.* — “Let us (including you) pass it west.” |
+| **mai / atu** | hither / thither directional | *Ti mai lēda ia.* — “She came this way.” |
 
-## 3 · The Maritime Amendment — the bounded grammar bends
+The particles can stack where their meanings do not conflict: *kē mai tula* is “is about to come
+hither.” Time words remain available and can be more precise than TAM particles.
 
-Three bends, and nothing beyond them. A submission may not sand anything outside this table without
-a joint ruling of the four seats.
+### Reduplication
 
-| Bend | Rule | Standard equivalent |
+Full or first-foot reduplication is productive: **lēda-lēda** “travel about / travel repeatedly,”
+**luma-luma** “keep working,” **sela-sela** “very clear; clear in patches.” It can mark repeated,
+distributed, attenuated, or intensified meaning; context chooses the reading.
+
+### Possession and classifiers
+
+Possession is not one generic noun+noun construction. A possessor follows the classifier, which
+identifies the relationship. The classifiers are obligatory with alienable possessions and are a
+salient everyday feature.
+
+| Classifier | Domain | Example |
 |:---|:---|:---|
-| **Sanded case** | One invariant shape per ending — the vowel-harmony alternants level out: goal is always **-lô**, object always **-n**, whatever the stem (*satām-lô* where Metropolitan harmonizes *satāmô*). The object **-n** may drop entirely where SVO order already carries the roles (*Mä sōv piletô* "I want a ticket"). | harmonized case (`../grammar/06-declension.md`) |
-| **Particle tense** | The two-class past **-i** (§120) levels to a preverbal particle **ti**; completion is **fin**; forward-looking (prospective) is **kē**. *Mä ti lǟdô* = *mä lǟdi* "I went"; *Mä fin lugē livrô* "I've read the book through"; *Xipd kē tulē demā* "the ship comes tomorrow." The particles stack with the time-word toolkit, they do not replace it. | two-class **-i** past; completion on the object's case; future = present + time-word (`../grammar/09-tense-aspect.md`) |
-| **The deck loan-layer** | Every territory feeds words into the common register; a territorial word becomes realm canon under the **Three-Watch Rule** (§5). | closed quarry lists per standard |
+| **ka** | food / things to eat | *ka au panu* — “my bread / food” |
+| **nu** | drink | *nu ia wai* — “her water to drink” |
+| **to** | tools, implements, cargo | *to kami tūla* — “our (excl.) rope/tool” |
+| **va** | vessels and transport | *va kita xipa* — “our (incl.) vessel” |
+| **ra** | land, house, anchored place | *ra au motu* — “my islet / home ground” |
+| **na** | other alienable possessions | *na ia livu* — “her book” |
 
-The tense particles are themselves the loan-layer showing through — each has an owning territory,
-exactly as Congolaise roots have an owning tributary:
+Inalienable kinship and body-part terms take direct possessor forms instead (*tama-au* “my
+parent,” *lima-ia* “her hand”).
 
-- **ti** — the anterior particle of Esperanza's French-lexifier Creole (*té/ti*), carried out of
-  the river landings into the whole realm. On a mixed deck, one particle beats two conjugation
-  classes plus irregulars; this is what contact does to morphology, and Maré wears it openly.
-- **fin** — Romance *fini-*, picked up in every Latin-facing port (Corsica, the Canaries, São
-  Tomé); does in one word what the standard does with the object's case, for crews who never
-  mastered the partitive.
-- **kē** — Esperanza Creole *ké* (prospective). **Not a future tense** — the standard's rule "never
-  coin a future" still holds on paper; *kē* is a spoken particle doing the work of *demā/varsü*
-  when no time-word is present, and it vanishes in Paper and Federal Maré.
+### Pronouns
 
-## 4 · Phonology & orthography
+Meralian distinguishes inclusive from exclusive first person and singular, dual, paucal, and plural
+number. Paucal normally means a small, known crew, household, or delegation.
 
-No new extension. Maré writes with the Metropolitan rules plus, where a loan requires it, the
-Saharannaise scar inventory already ratified in the Common Register (§2) — **ə, ž, ġ** and the
-emphatics are available but rarely needed. The realm-specific habits are two:
+| Person | Singular | Dual | Paucal | Plural |
+|:---|:---:|:---:|:---:|:---:|
+| 1 exclusive | **au** | **kamirua** | **kamiiti** | **kami** |
+| 1 inclusive | — | **kitarua** | **kitaiti** | **kita** |
+| 2 | **ko** | **korua** | **koiti** | **komi** |
+| 3 | **ia** | **irarua** | **iraiti** | **ira** |
 
-- **No long ō** (shared rule): Polynesian *mālō* lands as **mālô**; Cantonese long vowels take the
-  macron (*taifūn*).
-- **Scars worn openly** (the *flœzī/dž* doctrine): *guagua* keeps its Canarian face, *lēve-lēve*
-  its Forro reduplication, *bāi* its Bermudian vowel. Maré is the scarred-est standard by design —
-  eleven substrate families feed it.
+## 4 · Direction, counting, and sound
 
-## 5 · The Three-Watch Rule — how a word becomes Maré
+Directionals are grammatical, not merely nautical vocabulary. Speakers select a frame appropriate
+to the location: **mai/atu** (toward / away from the speech center), **loto/tai** (inland /
+seaward), **vasa/lea** (windward / leeward), and **asa/pala** (eastward / westward). A route order
+or rescue call normally specifies one where it matters.
 
-A territorial word enters the realm canon when it is **attested in living use across all three
-Watches** (Pacific, Meridian, Atlantic — `../world/meridian-states.md`, CMT). A word the Canaries
-use is Canarian Maré; when the same word is doing work in Magau's harbor and on Bermuda's quays, it
-is **realm Maré**, and it is archived with its owning territory named — the same discipline as the
-Congolaise tributary column. Until then it stays a dialect word, tagged **(terr.)**.
+Selected numeral classifiers are productive: **ta** people, **va** vessels, **lo** long objects,
+**ki** catches or cargo units, and **ra** days. Thus *rua va xipa* is “two vessels,” and *tolu ta
+ira* is “three people.” Bare numerals remain normal outside the classified domains.
 
-This gives the realm's dialectology its shape: **the dialects of Maré are territorial overlays**
-(courtesy words + a local lexical layer over the common deck register), never separate grammars —
-the same doctrine as the homeland's dialects (`../dialects/README.md`). The one deep overlay is
-**Canarian Maré**, the Spanish-fused variety of the nation's heavyweight member territory, where
-Nelôxi took root foundationally (`canarian.md`).
+The preferred syllable shape is CV or V. Clusters simplify, final consonants are usually released
+with a vowel, and inherited Neloxian roots are adapted rather than preserved as museum forms:
+*satām* → **satama**, *xipd* → **xipa**, *lūdô* → **ludo**, *tūļ* → **tula**, *livrô* → **livu**.
+The standard uses a five-vowel system; **ā ē ī ō ū** mark long vowels. Orthography is Latin and
+writes the established Meralian form, not an etymological Metropolitan spelling.
 
-## 6 · Governance
+## 5 · Registers, territory, and governance
 
-- Seat: the Maré academy is itinerant by statute — it sits with the working Watch, one station per
-  Watch, and hands its docket west at each Continuity Session. **Proposed name: the Kēļs Vakt**
-  (the Watch of the Language), headed by **the Lōts** (the Pilot — Low German *Lotse*, the officer
-  who brings ships safely into every port). *Proposal only; the founder may rename, as with the
-  Kēļs Penc.*
-- The Kēļs Vakt governs the Maré lexicon and the Three-Watch archive; the **Maritime Amendment
-  (§3) is joint property** of all four seats and closed — Maré may not sand further on its own
-  authority, and no other seat may adopt the sanding.
-- Back-flow tags extend the Common Register convention: **(Mar.)** Maré-only; **(terr.)** a
-  territorial dialect word not yet Three-Watch ratified; **(Mar.→Metr.)** a deck word drifting into
-  the mainland lexicon (*taifūn* and *lēve-lēve* are the live candidates).
+There is one Meralian grammar in speech and writing. **Household Meralian**, **public Meralian**,
+and **constitutional Meralian** differ in inherited Neloxian vocabulary, ceremonial formulae, and
+spelling conservatism—not in a return to Livonian cases or metropolitan verb morphology. Formal
+law therefore remains unmistakably Meralian.
 
-## 7 · Status / open
+Territorial varieties add local words, pronunciations, and discourse habits. Canarian Meralian is
+the deepest Atlantic overlay; Magau permits a mixed hanzi+Latin presentation for Cantonese-sourced
+lexical items. Neither is a separate grammar. A word joins the federal lexicon under the
+**Three-Watch Rule** when living use is documented in the Pacific, Meridian, and Atlantic Watches;
+unratified local items are tagged **(terr.)**.
 
-- Built here: the variant spec (this file), the four-standard comparison chart
-  (`comparison-chart.md`), the realm phrasebook of territorial dialects
-  (`dialects-phrasebook.md`), and the deep overlay **Canarian Maré** (`canarian.md`).
-- Open: the academy name (Kēļs Vakt is a proposal), a full deck-domain lexicon (signals, rigging,
-  cargo, weather at sea), and corpus texts (a watch-log, a Continuity Session transcript).
+The itinerant **Kēļs Vakt** (“Watch of Language”), headed by the **Lōts** (“Pilot”), maintains the
+Meralian lexicon, constitutional orthography, and Three-Watch archive. Its role is descriptive and
+federal: it records the native language of the realm rather than licensing a simplified deviation
+from another standard.
 
-*The lore is `../world/meridian-states.md`; the spine shared with the other standards is
-`../saharannaise/COMMON-REGISTER.md`; the sibling standards are `../saharannaise/` and
-`../congolaise/`.*
+## 6 · Status
+
+Built here: this structural profile, the comparative chart (`comparison-chart.md`), the territorial
+phrasebook (`dialects-phrasebook.md`), the Canarian overlay (`canarian.md`), and the Magau writing
+overlay (`magau-script.md`). The next build tasks are a core Meralian lexicon, texts in household
+and constitutional registers, and a fuller account of regional phonology.
