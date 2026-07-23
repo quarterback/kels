@@ -493,9 +493,57 @@ def main(src, dst):
     absorb("Mayotte", "Mayotte", abbr="MAY")
     absorb("Wallis &amp; Futuna", "Wallis &amp; Futuna", abbr="WAF")
     absorb("New Caledonia", "New Caledonia", abbr="NCL")
-    me_states.append(state_block(
-        next_state_id(), "Magau", 560000,
-        [make_city("Magau", 560000, "22.19", "113.54")], abbr="MAG", tz=8))
+    # Macau joins the Meridian States (user directive): Aomen becomes the
+    # Magau state; the Far-East states that had been stuffed into the Macau
+    # record (Kamchatka, Sakhalin, Khabarovsk, Jewish Oblast, and the custom
+    # Gannibal / Zephyria Oblast) are returned to Russia so nothing is lost.
+    MC, mc = nat_by_name("Macau")
+    remove_nation(MC)
+    renames[3496] = "Magau"
+    aomen = mc["states"][776]
+    me_states.append(state_block(776, "Magau", aomen["pop"],
+                                 finish_cities(city_lines(lines, aomen)),
+                                 abbr="MAG", tz=8))
+    # THE FAR-EAST STATES ARE NEW COUNTRIES (user directive). Three sovereign
+    # nations are built from the blocks that were parked inside the old Macau
+    # record. Names come from the boundaries.md "Not Nelôxia" roster (Tarun,
+    # Qazania, Zaryanova) with PROVISIONAL territory assignments — swapping a
+    # name is a one-line edit on the NATION lines below.
+    # Jewish Oblast is dropped: Zephyria Oblast is its built replacement
+    # (same coordinates and populations, fantasy names) and keeps its ids,
+    # which become unique the moment the original is removed.
+    def mc_state(sid, name=None, extra_cities=None, pop=None):
+        st = mc["states"][sid]
+        cls = finish_cities(city_lines(lines, st))
+        if extra_cities:
+            cls += extra_cities
+        return state_block(sid, name or st["name"],
+                           pop if pop is not None else st["pop"], cls)
+
+    # Tarun — the island nation: the custom Gannibal state absorbs stock
+    # Sakhalin's towns; capital Gannibal City.
+    sak_cities = finish_cities(city_lines(lines, mc["states"][2579]))
+    tarun = nation_block(
+        268, "Tarun", 1600000, 13, 99991, 1, 1, "TAR", "Taruni", 10,
+        [(13, 55), (3, 15), (4, 10), (74, 10), (60, 10)],
+        [mc_state(9000, extra_cities=sak_cities, pop=1596695)])
+    # Qazania — the Amur nation: Zephyria Oblast; capital Qyrixia.
+    z0 = next(i for i in range(mc["start"], mc["end"] + 1)
+              if 'name="Zephyria Oblast"' in lines[i])
+    z1 = next(i for i in range(z0, mc["end"] + 1) if "</STATE>" in lines[i])
+    qazania = nation_block(
+        269, "Qazania", 200000, 13, 9703, 1, 1, "QAZ", "Qazanian", 10,
+        [(13, 60), (74, 15), (3, 10), (4, 15)],
+        [lines[z0:z1 + 1]])
+    # Zaryanova — the mainland Pacific rim: Khabarovsk + Kamchatka; capital
+    # Khabarovsk.
+    zaryanova = nation_block(
+        270, "Zaryanova", 1800000, 13, 38016, 1, 1, "ZRY", "Zaryanovan", 10,
+        [(13, 70), (3, 10), (74, 10), (60, 10)],
+        [mc_state(2534), mc_state(2578)])
+
+    # Montequinto removed entirely (user directive).
+    remove_nation(nat_by_name("Montequinto")[0])
     meridian = nation_block(
         266, "Meridian States", 4300000, 70, esp_cap, 0, 3, "MER",
         "Meridian", -3,
@@ -546,6 +594,7 @@ def main(src, dst):
         continents["Europe"]["nations_end"]: neloxia + skaria + eastneloxia,
         continents["Africa"]["nations_end"]: atlanta + adrara + sotoro,
         continents["South America"]["nations_end"]: valdoria + meridian,
+        mc["start"]: tarun + qazania + zaryanova,   # where Macau stood (Asia)
     }
     # nation pop reductions
     for nid, delta in pop_deltas.items():
@@ -557,7 +606,8 @@ def main(src, dst):
 
     # REGION_NATION remap: absorbed nation -> successor
     successor = {121: 263, 218: 262, 23: 266, 71: 266, 123: 266, 134: 266,
-                 160: 266, 173: 266, 213: 266, 249: 266}
+                 160: 266, 173: 266, 213: 266, 249: 266, 238: 266}
+    drop_refs = {29}   # Montequinto — removed entirely, no successor
     # new nations join the sensible geographic regions (by REGION id)
     region_adds = {44: [260, 261, 267], 48: [260, 261], 46: [260, 267],
                    56: [262, 263, 264], 57: [262, 263], 58: [264],
@@ -575,9 +625,20 @@ def main(src, dst):
         if m:
             cur_region = int(m.group(1))
             seen_region_nations = set()
+        m = re.search(r'<SECOND_NATIONS id="(\d+)"', l)
+        if m:
+            rid = int(m.group(1))
+            if rid in drop_refs:
+                continue
+            if rid in successor:
+                l = re.sub(r'<SECOND_NATIONS id="\d+"',
+                           f'<SECOND_NATIONS id="{successor[rid]}"', l,
+                           count=1)
         m = re.search(r'<REGION_NATION id="(\d+)"', l)
         if m:
             rid = int(m.group(1))
+            if rid in drop_refs:
+                continue
             rid = successor.get(rid, rid)
             if rid in seen_region_nations:
                 continue

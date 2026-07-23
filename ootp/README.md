@@ -22,6 +22,9 @@ takes effect for newly created games.
 | 265 | **Valdória** | VAL | Portô Venla | 34,000,000 | 2 | South America | the 13 provinces of `verdenese/toponymy.md` |
 | 266 | **Meridian States** | MER | Esperanza | 4,300,000 | 3 | South America³ | one state per member territory |
 | 267 | **East Neloxia**⁴ | ENX | Caffa | 21,000,000 | 1 | Europe | Crimea + the north-Caucasus/Caspian span |
+| 268 | **Tarun**⁵ | TAR | Gannibal City | 1,600,000 | 1 | Asia | Gannibal (Sakhalin, incl. the stock island towns) |
+| 269 | **Qazania**⁵ | QAZ | Qyrixia | 200,000 | 1 | Asia | Zephyria Oblast (the Amur) |
+| 270 | **Zaryanova**⁵ | ZRY | Khabarovsk | 1,800,000 | 1 | Asia | Khabarovsk, Kamchatka |
 
 ¹ Skaria's capital is founder-open in the lore; Göteborg is a placeholder (biggest
 city in its territory).
@@ -32,6 +35,13 @@ in South America.
 Alania, Šaraya, Kervania) — a one-line rename in the NATION record when the founder
 rules. Its extent here is the conservative core (Crimea → Caucasus gates → Caspian
 shore); the Herat road is left unmodeled.
+⁵ The Far-East countries built from the states that had been parked inside the old
+Macau record. The three names come from `boundaries.md`'s "Not Nelôxia" roster;
+**which name belongs to which territory is a provisional assignment** — swap them
+by editing the three NATION lines if the founder's mapping differs. Jewish Oblast
+was dropped in favor of its built replacement Zephyria Oblast (same coordinates
+and populations, its ids now unique); stock Sakhalin's towns were folded into the
+Gannibal state.
 
 `bbqual` (0–5 baseball quality) values are judgment calls — edit the NATION lines
 to taste.
@@ -67,11 +77,12 @@ to taste.
   Litorāl). Porto Alegre → Portô Venla, Pelotas → Santa Laura; Koinīnia added.
 - **Meridian States** absorbs the nations Bermuda, French Guiana (→ Esperanza),
   Saint-Pierre & Miquelon, St. Helena, São Tomé & Príncipe, Mayotte, Wallis &
-  Futuna and New Caledonia, plus the Canary Islands (from Spain) and Corsica
-  (from France). A **Magau** state was added new — the existing Macau nation
-  record was left alone because it carries your custom Far-East content (see
-  below); if you want the lore version pure, delete that nation's Aomen state
-  or the whole record.
+  Futuna and New Caledonia, plus the Canary Islands (from Spain), Corsica
+  (from France), and **Magau** (the old Macau record's Aomen state, renamed).
+- **Montequinto** was removed from the file entirely, and the **Macau** nation
+  record is gone: Aomen joined the Meridian States as Magau, and its Far-East
+  states became the three new countries (see note ⁵ above). All league-pool
+  and second-nation references were remapped or dropped accordingly.
 - **Kuwait** is untouched — per `kuwait-condominium.md` it keeps its own name,
   flag and national teams. **Morocco** is untouched (aligned, never absorbed).
 - Donor nations keep their capitals and remaining states; their `pop` attributes
@@ -89,16 +100,17 @@ etc.).
 
 ## Base-file quirks found along the way
 
-- Your **Zephyria Oblast** (in the custom Macau/Far-East nation) was a clone of
-  Jewish Oblast that still carried the same state id (2590) and the same 18 city
-  ids — exactly the duplicate-id crash risk. It now has fresh unique ids. If
-  Zephyria was meant to *replace* Jewish Oblast, delete the Jewish Oblast block.
+- Your **Zephyria Oblast** was a clone of Jewish Oblast carrying the same state
+  id (2590) and the same 18 city ids — exactly the duplicate-id crash risk.
+  Resolved by dropping Jewish Oblast (Zephyria is its built replacement and now
+  owns those ids uniquely, as Qazania's territory).
 - **French Guiana's** state/city blocks existed twice (the original nation +
-  your Montequinto's copies). Esperanza was built with fresh ids and the original
-  nation removed, so those ids are now unique to Montequinto.
-- Still pre-existing (harmless so far, untouched): ~23 duplicate city ids wholly
+  Montequinto's copies). Both duplication sources are gone: Esperanza was built
+  with fresh ids and Montequinto was removed.
+- Still pre-existing (harmless so far, untouched): ~22 duplicate city ids wholly
   inside the stock United States record (the Appalachia region duplication),
-  Montequinto's Road Town copy, Bristol (GB/US), and four empty
-  `REGION_NATION id=""` entries.
+  Bristol (GB/US), four empty `REGION_NATION id=""` entries, and six phantom
+  nation ids (61, 79, 140, 202, 212, 375) that stock regions/second-nation lists
+  reference without the nations existing — all exactly as in the base file.
 - **Cameroon and Bolivia had broken capital references in the stock file**
   (capids pointing at cities that don't exist). Repaired to Yaoundé and La Paz.
