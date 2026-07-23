@@ -132,7 +132,7 @@ vocabulary, three ways of being polite.**
 worked dialogue `../congolaise/dialogue-arrival.md`; the Saharan coast draws on `../saharannaise/`.
 The grammar under all of it is the coursebook (`../coursebook/`); the shared spine that makes them one
 language is `../saharannaise/COMMON-REGISTER.md`. Beyond these three coasts there is a **fourth
-standard**: **Maré**, the ocean register of the Meridian States — its four-way phrase comparison is
+standard**: **Meralian**, the oceanic daughter language of the Meridian States — its comparative chart is
 `../mare/comparison-chart.md` and its port-by-port phrasebook is `../mare/dialects-phrasebook.md`.*
 
 ### Note on the local courtesy words
