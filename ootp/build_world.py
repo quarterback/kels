@@ -247,6 +247,9 @@ def main(src, dst):
     BR, _ = nat_by_name("Brazil"); AR, _ = nat_by_name("Argentina")
     PY, _ = nat_by_name("Paraguay"); BO, _ = nat_by_name("Bolivia")
     CL, _ = nat_by_name("Chile"); UY, _ = nat_by_name("Uruguay")
+    KZ, _ = nat_by_name("Kazakhstan"); UZ, _ = nat_by_name("Uzbekistan")
+    TM, _ = nat_by_name("Turkmenistan"); KG, _ = nat_by_name("Kyrgyzstan")
+    CN, _ = nat_by_name("China")
 
     # ============================================== 260 NELÔXIA (Europe)
     # marquee renames from world/gazetteer.md
@@ -554,22 +557,76 @@ def main(src, dst):
         me_states, second=[(260, 5)], short="Meridian States")
 
     # ============================================== 267 EAST NELOXIA
+    # The Corridor State (world/east-neloxia.md, founder-ratified): the
+    # northern/Caspian Silk Road held end to end — Caffa/Crimea with the
+    # Kherson–Zaporizhzhia land bridge, the Caucasus gate (NO Ingushetia),
+    # western Georgia, Astrakhan and the Volga hinge, Orenburg, the Caspian
+    # east shore (west Kazakh oblasts, Balkan/Ahal), and the Herat–Makran
+    # reach (Herat, Farah, Nimruz, Sistan-Baluchestan, Baluchistan).
+    GE, _ = nat_by_name("Georgia")
+    AF, _ = nat_by_name("Afghanistan")
+    IR, _ = nat_by_name("Iran")
+    PK, _ = nat_by_name("Pakistan")
     renames[25441] = "Caffa"
     pop_overrides[25441] = 180000
-    en_takes = [(UA, 3187), (UA, 3188)]
-    en_takes += [(RU, s) for s in (2527, 2583, 2584, 2568, 2561, 2582,
-                                   2577, 2542, 2552, 2586, 2541)]
+    en_takes = [(UA, s, None) for s in (3187, 3188, 3189, 3182)]
+    en_takes += [(RU, s, None) for s in (2527, 2583, 2584, 2568, 2561,
+                                         2577, 2542, 2552, 2586, 2541)]
+    en_takes += [(RU, 2535, 5)]
+    en_takes += [(GE, s, 3) for s in (1207, 1208, 1211, 1213)]
+    en_takes += [(KZ, s, 5) for s in (1701, 1705, 1704)]
+    en_takes += [(TM, s, 5) for s in (3172, 3173, 3168)]
+    en_takes += [(AF, s, 4) for s in (4, 21, 23)]
+    en_takes += [(IR, 1513, 4), (PK, 2329, 5)]
     en_states = []
-    for nid, sid in en_takes:
+    for nid, sid, tz in en_takes:
         st = nations[nid]["states"][sid]
         cls, pop = take_state(nid, sid)
         en_states.append(state_block(next_state_id(), st["name"], pop,
-                                     finish_cities(cls)))
+                                     finish_cities(cls), tz=tz))
     eastneloxia = nation_block(
-        267, "East Neloxia", 21000000, 29, 25441, 1, 1, "ENX",
+        267, "East Neloxia", 29000000, 29, 25441, 1, 1, "ENX",
         "East Neloxian", 3,
-        [(29, 25), (13, 25), (24, 20), (26, 8), (48, 12), (50, 10)],
+        [(29, 15), (13, 14), (24, 12), (48, 10), (26, 5), (50, 6),
+         (79, 8), (56, 5), (31, 8), (89, 9), (37, 8)],
         en_states, second=[(260, 15)], short="East Neloxia")
+
+    # ==================== 269 TARUN & 270 QAZANIA (neighbor-states.md)
+    # Tarun — the unified Turkic bloc: Kazakhstan (less the East Neloxian
+    # west), all of Uzbekistan and Kyrgyzstan, Turkmenistan (less Balkan and
+    # Ahal), and Xinjiang. Tajikistan stays independent. Capital: Tashkent
+    # (largest city — the doc names no capital; placeholder).
+    tr_takes = [(KZ, s) for s in (1692, 1693, 1694, 1695, 1696, 1697, 1698,
+                                  1699, 1700, 1702, 1703)]
+    tr_takes += [(UZ, s) for s in sorted(nations[UZ]["states"])]
+    tr_takes += [(TM, s) for s in (3169, 3170, 3171, 3174)]
+    tr_takes += [(KG, s) for s in sorted(nations[KG]["states"])]
+    tr_takes += [(CN, 766)]
+    tr_states = []
+    for nid, sid in tr_takes:
+        st = nations[nid]["states"][sid]
+        cls, pop = take_state(nid, sid)
+        tr_states.append(state_block(sid, st["name"], pop,
+                                     finish_cities(cls)))
+    tarun = nation_block(
+        269, "Tarun", 68000000, 56, 78705, 0, 1, "TAR", "Taruni", 5,
+        [(56, 35), (78, 20), (24, 20), (79, 15), (13, 10)],
+        tr_states, short="Tarun")
+    for nid in (KZ, UZ, TM, KG):
+        remove_nation(nid)   # fully partitioned: Tarun + East Neloxia
+
+    # Qazania — Idel-Ural realised: Tatarstan + Bashkortostan united.
+    # Capital Kazan, demonym Qazani, ~8M, Turkic, Muslim, oil-rich.
+    qz_states = []
+    for sid, tz in ((2518, 3), (2521, 5)):
+        st = nations[RU]["states"][sid]
+        cls, pop = take_state(RU, sid)
+        qz_states.append(state_block(sid, st["name"], pop,
+                                     finish_cities(cls), tz=tz))
+    qazania = nation_block(
+        270, "Qazania", 8000000, 24, 37581, 1, 1, "QAZ", "Qazani", 3,
+        [(24, 45), (13, 30), (73, 15), (79, 5), (56, 5)],
+        qz_states, second=[(156, 10)], short="Qazania")
 
     # ============================== fix the duplicated Zephyria Oblast ids
     zeph_state_id = next_state_id()
@@ -593,10 +650,11 @@ def main(src, dst):
 
     # ============================================== assemble output
     inserts = {
-        continents["Europe"]["nations_end"]: neloxia + skaria + eastneloxia,
+        continents["Europe"]["nations_end"]: neloxia + skaria + eastneloxia
+                                            + qazania,
         continents["Africa"]["nations_end"]: atlanta + adrara + sotoro,
         continents["South America"]["nations_end"]: valdoria + meridian,
-        mc["start"]: zaryanova,   # where Macau stood (Asia)
+        mc["start"]: zaryanova + tarun,   # where Macau stood (Asia)
     }
     # nation pop reductions
     for nid, delta in pop_deltas.items():
@@ -608,13 +666,15 @@ def main(src, dst):
 
     # REGION_NATION remap: absorbed nation -> successor
     successor = {121: 263, 218: 262, 23: 266, 71: 266, 123: 266, 134: 266,
-                 160: 266, 173: 266, 213: 266, 249: 266, 238: 266}
+                 160: 266, 173: 266, 213: 266, 249: 266, 238: 266,
+                 100: 269, 208: 269, 200: 269, 103: 269}
     drop_refs = {29}   # Montequinto — removed entirely, no successor
     # new nations join the sensible geographic regions (by REGION id)
     region_adds = {44: [260, 261, 267], 48: [260, 261], 46: [260, 267],
                    56: [262, 263, 264], 57: [262, 263], 58: [264],
                    41: [265, 266], 42: [265],
-                   50: [268], 51: [268], 61: [268]}
+                   50: [268, 269], 51: [268], 61: [268],
+                   45: [269, 270], 142: [267, 268, 269, 270]}
 
     out = []
     seen_region_nations = set()

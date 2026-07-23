@@ -21,18 +21,25 @@ takes effect for newly created games.
 | 264 | **Soninka & Toro** | SOT | Ndar | 4,200,000 | 1 | Africa | Wālo, Futa, Gajāga |
 | 265 | **Valdória** | VAL | Portô Venla | 34,000,000 | 2 | South America | the 13 provinces of `verdenese/toponymy.md` |
 | 266 | **Meridian States** | MER | Esperanza | 4,300,000 | 3 | South America³ | one state per member territory |
-| 267 | **East Neloxia**⁴ | ENX | Caffa | 21,000,000 | 1 | Europe | Crimea + the north-Caucasus/Caspian span |
+| 267 | **East Neloxia**⁴ | ENX | Caffa | 29,000,000 | 1 | Europe | the Black Sea→Makran corridor of `world/east-neloxia.md` (30 states) |
 | 268 | **Zaryanova**⁵ | ZAR | Gannibal | 29,863,010 | 4 | Asia | Gannibal (Sakhalin & Kurils), Zephyria Oblast, Primorsky, Khabarovsk, Kamchatka, Magadan, Chukotka |
+| 269 | **Tarun**⁶ | TAR | Tashkent | 68,000,000 | 1 | Asia | Kazakhstan (less the East Neloxian west), Uzbekistan, Turkmenistan (less Balkan/Ahal), Kyrgyzstan, Xinjiang |
+| 270 | **Qazania**⁶ | QAZ | Kazan | 8,000,000 | 1 | Europe | Tatarstan + Bashkortostan (Idel-Ural realised) |
 
 ¹ Skaria's capital is founder-open in the lore; Göteborg is a placeholder (biggest
 city in its territory).
 ² The lore-ratified sport code (`saharannaise/toponymy.md`).
 ³ OOTP requires one continent per nation; the legislative capital Esperanza puts it
 in South America.
-⁴ Name provisional per `east/east.md` (candidates: Colchia/Kôlxônô, Sarmatia,
-Alania, Šaraya, Kervania) — a one-line rename in the NATION record when the founder
-rules. Its extent here is the conservative core (Crimea → Caucasus gates → Caspian
-shore); the Herat road is left unmodeled.
+⁴ Name provisional per `../world/east-neloxia.md` (candidates: Šaraya, Kervania,
+Colchia/Kôlxônô, Sarmatia, Alania) — a one-line rename when the founder rules.
+Built to the ratified corridor territory: Crimea + Kherson/Zaporizhzhia land
+bridge, the Caucasus gate (Ingushetia stays Russian per the doc), western Georgia
+(Abkhazia, Samegrelo & Zemo Svaneti, Guria, Racha-Lechkhumi & Kvemo Svaneti),
+Astrakhan/Kalmykia/Orenburg, the west Kazakh oblasts, Balkan/Ahal (with the
+Asgabat city-state), and the Herat–Makran reach (Herat, Farah, Nimruz, Sistan-e
+Baluchestan, Baluchistan). The population figure is a working number — the doc
+gives none.
 ⁵ Per `../world/zaryanova.md` (founder-ratified): the Black-majority Pacific great
 power spanning the whole Russian Far East. Capital **Gannibal** (the purpose-built
 city, on Sakhalin); largest city **Pushkin** (renamed Vladivostok, pop boosted);
@@ -42,9 +49,13 @@ cities are being renamed from their Russian counterparts"), which resolves the
 duplicate-id problem those two blocks had. Chukotka is included because the doc's
 UTC+9–+13 / 180°-meridian span requires it, though the territory list doesn't name
 it — drop state 2597 back to Russia if that's wrong. bbqual 4 reflects the
-African-American founding culture. **Tarun and Qazania** ("the eastern neighbour
-states" per the site manifest) are NOT yet in the file — `world/neighbor-states.md`
-doesn't exist yet; they can be added once their territories are ratified.
+African-American founding culture.
+⁶ Per `../world/neighbor-states.md`. Tarun's capital is a Tashkent placeholder
+(the doc names none) and its population a working number; Tajikistan stays
+independent and untouched. Qazania is Tatarstan + Bashkortostan with capital
+Kazan, demonym Qazani, ~8M per the doc. Kazakhstan, Uzbekistan, Turkmenistan and
+Kyrgyzstan are fully partitioned between Tarun and East Neloxia and their nation
+records removed; China loses Xinjiang.
 
 `bbqual` (0–5 baseball quality) values are judgment calls — edit the NATION lines
 to taste.
