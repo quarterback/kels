@@ -522,6 +522,18 @@ def main(src, dst):
     renames[80861] = "Gannibal"     # Yuzhno-Sakhalinsk → the built capital
     renames[85048] = "Pushkin"      # Vladivostok → the commercial capital
     pop_overrides[85048] = 1900000
+    # The Jewish AO does not exist in this universe — it is Zaryanova's
+    # Zephyria Oblast; the state and its cities take the founder's Zaryan
+    # names (city ids are 1:1 with the old build).
+    renames.update({
+        2798: "Talenquor", 5681: "Vorquelda", 9646: "Seraphine",
+        9650: "Melodian", 9703: "Qyrixia", 33240: "Falquient",
+        34362: "Zenarien", 38180: "Lyraxien", 40354: "Vendulka",
+        41730: "Orilanthe", 44823: "Sylvanar", 55615: "Elyranda",
+        56664: "Aqualina", 60934: "Tirianthe", 61231: "Quandoria",
+        74671: "Mirulka", 79247: "Faelandia", 84749: "Vandelion",
+    })
+    zy_state_name = {2590: "Zephyria Oblast"}
     zy_states = []
     for sid, tz in ((2532, 10), (2534, 10), (2578, 12), (2579, 11),
                     (2588, 11), (2590, 10), (2597, 12)):
@@ -530,7 +542,8 @@ def main(src, dst):
         cls = finish_cities(cls)
         if sid == 2532:   # Primorsky — the DPRK gateway
             cls.append(make_city("Vorota", 85000, "42.43", "130.64"))
-        zy_states.append(state_block(sid, st["name"], pop, cls, tz=tz))
+        zy_states.append(state_block(sid, zy_state_name.get(sid, st["name"]),
+                                     pop, cls, tz=tz))
     zaryanova = nation_block(
         268, "Zaryanova", 29863010, 38, 80861, 1, 4, "ZAR", "Zaryan", 10,
         [(38, 55), (13, 20), (3, 10), (4, 10), (2, 3), (47, 2)],
