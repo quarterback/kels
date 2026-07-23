@@ -122,10 +122,17 @@ etc.).
 - **French Guiana's** state/city blocks existed twice (the original nation +
   Montequinto's copies). Both duplication sources are gone: Esperanza was built
   with fresh ids and Montequinto was removed.
-- Still pre-existing (harmless so far, untouched): ~22 duplicate city ids wholly
-  inside the stock United States record (the Appalachia region duplication),
-  Bristol (GB/US), four empty `REGION_NATION id=""` entries, and six phantom
-  nation ids (61, 79, 140, 202, 212, 375) that stock regions/second-nation lists
-  reference without the nations existing — all exactly as in the base file.
+- **Appalachia** (the canonical US state of this universe — West Virginia
+  renamed and expanded with the KY/VA/TN border country) had a half-finished
+  migration: 21 towns copied into it still existed in Kentucky, Virginia, and
+  Tennessee under the same city ids, and **Wilder** carried Bristol England's
+  city id and coordinates. Finished here: the towns now live in Appalachia
+  only (an internal move — US national population unchanged), and Wilder has
+  its own id at the Bristol TN/VA location, population kept at 430,713.
+  **The output file now has zero duplicate ids of any kind.**
+- Still pre-existing (harmless, untouched): four empty `REGION_NATION id=""`
+  entries and six phantom nation ids (61, 79, 140, 202, 212, 375) that stock
+  regions/second-nation lists reference without the nations existing — exactly
+  as in the base file.
 - **Cameroon and Bolivia had broken capital references in the stock file**
   (capids pointing at cities that don't exist). Repaired to Yaoundé and La Paz.

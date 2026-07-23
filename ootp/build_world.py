@@ -549,6 +549,40 @@ def main(src, dst):
 
     # Montequinto removed entirely (user directive).
     remove_nation(nat_by_name("Montequinto")[0])
+
+    # APPALACHIA — a canonical US state in this universe (West Virginia
+    # renamed and expanded with the KY/VA/TN border country). Finish its
+    # half-done migration: the 21 towns copied into it keep their ids in
+    # Appalachia ONLY — the leftover Kentucky/Virginia/Tennessee copies are
+    # removed (an internal move; US national pop unchanged) — and Wilder
+    # gets its own id and Bristol TN/VA coordinates instead of carrying
+    # Bristol England's id and location.
+    US, us = nat_by_name("United States")
+    APP_DUPS = {4431, 7906, 9388, 13272, 13615, 14135, 14310, 15034, 16002,
+                23391, 23413, 25736, 27914, 28621, 29762, 30709, 31405,
+                39092, 48295, 56311, 58957}
+    for sid, st in us["states"].items():
+        if st["name"] not in ("Kentucky", "Virginia", "Tennessee"):
+            continue
+        removed = 0
+        for i in range(st["start"], st["end"] + 1):
+            m = re.search(r'<CITY id="(\d+)".*? pop="(\d+)"', lines[i])
+            if m and int(m.group(1)) in APP_DUPS:
+                delete.add(i)
+                removed += int(m.group(2))
+        if removed:
+            lines[st["start"]] = set_attr(lines[st["start"]], "pop",
+                                          max(0, st["pop"] - removed))
+    app = us["states"][167]
+    for i in range(app["start"], app["end"] + 1):
+        if 'name="Wilder"' in lines[i]:
+            l = re.sub(r'<CITY id="\d+"', f'<CITY id="{next_city_id()}"',
+                       lines[i], count=1)
+            l = set_attr(l, "lat", "36.60")
+            l = set_attr(l, "long", "-82.18")
+            l = set_attr(l, "abbr", "WIL")
+            lines[i] = l
+            break
     meridian = nation_block(
         266, "Meridian States", 4300000, 70, esp_cap, 0, 3, "MER",
         "Meridian", -3,
