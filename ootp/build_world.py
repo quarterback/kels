@@ -11,12 +11,12 @@ removes/carves the real-world places they are based on:
   264 Soninka & Toro   — the river south of old Mauritania + North Senegal
   265 Valdória         — the southern-cone settler republic (valdoria-lore.md)
   266 Meridian States  — the transoceanic federation (meridian-states.md)
-  267 East Neloxia     — provisional name; Crimea–Caucasus–Caspian span (east/east.md)
+  267 Sarmatia     — provisional name; Crimea–Caucasus–Caspian span (sarmatian/sarmatian.md)
 
 Kuwait keeps its own record (self-representing condominium — kuwait-condominium.md).
 Morocco stays sovereign (aligned, not absorbed). The user's pre-existing custom
-nations (Montequinto, the repurposed Macau/Far-East build) are left untouched,
-except that the duplicated state id 2590 (Zephyria Oblast cloned from Jewish
+nations are handled per founder correction (synthetic stock entities deleted),
+and the duplicated state id 2590 (the former synthetic clone of the Jewish
 Oblast) is given fresh unique state/city ids.
 
 ID policy: new nation ids 260–267, new state ids 9101+, new city ids 150001+ —
@@ -474,7 +474,7 @@ def main(src, dst):
                                      abbr=abbr))
         return nid
 
-    # Esperanza gets FRESH city ids: the user's custom nation Montequinto
+    # Esperanza gets FRESH city ids: the removed stock nation
     # already carries copies of French Guiana's blocks under the original ids,
     # so re-idding here removes that duplication instead of adding to it.
     esperanza_renames = {18057: "Esperanza"}
@@ -498,8 +498,8 @@ def main(src, dst):
     absorb("New Caledonia", "New Caledonia", abbr="NCL")
     # Macau joins the Meridian States (user directive): Aomen becomes the
     # Magau state; the Far-East states that had been stuffed into the Macau
-    # record (Kamchatka, Sakhalin, Khabarovsk, Jewish Oblast, and the custom
-    # Gannibal / Zephyria Oblast) are returned to Russia so nothing is lost.
+    # record (Kamchatka, Sakhalin, Khabarovsk, the Jewish Autonomous Oblast,
+    # and the custom Gannibal state) are returned to Russia so nothing is lost.
     MC, mc = nat_by_name("Macau")
     remove_nation(MC)
     renames[3496] = "Magau"
@@ -511,8 +511,8 @@ def main(src, dst):
     # ONE country spanning the whole Russian Far East. Territory: Primorsky,
     # Khabarovsk, Kamchatka, Magadan, Sakhalin & the Kurils (the custom
     # Gannibal capital state absorbs the stock island towns), the Jewish AO
-    # (carried by its renamed successor Zephyria Oblast — "provincial cities
-    # are being renamed from their Russian counterparts"), plus Chukotka,
+    # under its own name with its real towns (founder correction: the synthetic
+    # "Zephyria Oblast" naming is deleted). Chukotka is NOT Zaryanovan —
     # required by the doc's UTC+9..+13 / 180°-meridian span. Capital Gannibal
     # (the purpose-built city); largest city Pushkin (renamed Vladivostok);
     # Vorota, the DPRK gateway town, added on the Khasan border point.
@@ -532,7 +532,7 @@ def main(src, dst):
     zy_states = [mc_state(9000, extra_cities=sak_cities, pop=1596695, tz=10),
                  mc_state(2534, tz=10), mc_state(2578, tz=11)]
     z0 = next(i for i in range(mc["start"], mc["end"] + 1)
-              if 'name="Zephyria Oblast"' in lines[i])
+              if 'name="Jewish Autonomous Oblast"' in lines[i])
     z1 = next(i for i in range(z0, mc["end"] + 1) if "</STATE>" in lines[i])
     zy_states.append(lines[z0:z1 + 1])
     for sid, tz in ((2532, 10), (2588, 11), (2597, 12)):
@@ -547,8 +547,8 @@ def main(src, dst):
         [(38, 55), (13, 20), (3, 10), (4, 10), (2, 3), (47, 2)],
         zy_states, second=[(206, 8), (265, 2)], short="Zaryanova")
 
-    # Montequinto removed entirely (user directive).
-    remove_nation(nat_by_name("Montequinto")[0])
+    # The synthetic stock nation removed entirely (founder correction).
+    remove_nation(nat_by_name("Montequinto")[0])  # historical id in base file
 
     # APPALACHIA — a canonical US state in this universe (West Virginia
     # renamed and expanded with the KY/VA/TN border country). Finish its
@@ -591,7 +591,7 @@ def main(src, dst):
         me_states, second=[(260, 5)], short="Meridian States")
 
     # ============================================== 267 EAST NELOXIA
-    # The Corridor State (world/east-neloxia.md, founder-ratified): the
+    # The Corridor State (world/sarmatia.md, founder-ratified): the
     # northern/Caspian Silk Road held end to end — Caffa/Crimea with the
     # Kherson–Zaporizhzhia land bridge, the Caucasus gate (NO Ingushetia),
     # western Georgia, Astrakhan and the Volga hinge, Orenburg, the Caspian
@@ -619,14 +619,14 @@ def main(src, dst):
         en_states.append(state_block(next_state_id(), st["name"], pop,
                                      finish_cities(cls), tz=tz))
     eastneloxia = nation_block(
-        267, "East Neloxia", 29000000, 29, 25441, 1, 1, "ENX",
-        "East Neloxian", 3,
+        267, "Sarmatia", 29000000, 29, 25441, 1, 1, "SRM",
+        "Sarmat", 3,
         [(29, 15), (13, 14), (24, 12), (48, 10), (26, 5), (50, 6),
          (79, 8), (56, 5), (31, 8), (89, 9), (37, 8)],
-        en_states, second=[(260, 15)], short="East Neloxia")
+        en_states, second=[(260, 15)], short="Sarmatia")
 
     # ==================== 269 TARUN & 270 QAZANIA (neighbor-states.md)
-    # Tarun — the unified Turkic bloc: Kazakhstan (less the East Neloxian
+    # Tarun — the unified Turkic bloc: Kazakhstan (less the Sarmatian
     # west), all of Uzbekistan and Kyrgyzstan, Turkmenistan (less Balkan and
     # Ahal), and Xinjiang. Tajikistan stays independent. Capital: Tashkent
     # (largest city — the doc names no capital; placeholder).
@@ -647,7 +647,7 @@ def main(src, dst):
         [(56, 35), (78, 20), (24, 20), (79, 15), (13, 10)],
         tr_states, short="Tarun")
     for nid in (KZ, UZ, TM, KG):
-        remove_nation(nid)   # fully partitioned: Tarun + East Neloxia
+        remove_nation(nid)   # fully partitioned: Tarun + Sarmatia
 
     # Qazania — Idel-Ural realised: Tatarstan + Bashkortostan united.
     # Capital Kazan, demonym Qazani, ~8M, Turkic, Muslim, oil-rich.
@@ -662,12 +662,12 @@ def main(src, dst):
         [(24, 45), (13, 30), (73, 15), (79, 5), (56, 5)],
         qz_states, second=[(156, 10)], short="Qazania")
 
-    # ============================== fix the duplicated Zephyria Oblast ids
+    # ============================== fix the duplicated Jewish-AO state ids
     zeph_state_id = next_state_id()
     zeph_fix = {}
     in_zeph = False
     for i, l in enumerate(lines):
-        if 'name="Zephyria Oblast"' in l:
+        if 'name="Jewish Autonomous Oblast"' in l:
             in_zeph = True
             lines[i] = re.sub(r'<STATE id="\d+"',
                               f'<STATE id="{zeph_state_id}"', l, count=1)
@@ -702,7 +702,7 @@ def main(src, dst):
     successor = {121: 263, 218: 262, 23: 266, 71: 266, 123: 266, 134: 266,
                  160: 266, 173: 266, 213: 266, 249: 266, 238: 266,
                  100: 269, 208: 269, 200: 269, 103: 269}
-    drop_refs = {29}   # Montequinto — removed entirely, no successor
+    drop_refs = {29}   # the removed stock nation — no successor
     # new nations join the sensible geographic regions (by REGION id)
     region_adds = {44: [260, 261, 267], 48: [260, 261], 46: [260, 267],
                    56: [262, 263, 264], 57: [262, 263], 58: [264],

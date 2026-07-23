@@ -21,9 +21,9 @@ takes effect for newly created games.
 | 264 | **Soninka & Toro** | SOT | Ndar | 4,200,000 | 1 | Africa | Wālo, Futa, Gajāga |
 | 265 | **Valdória** | VAL | Portô Venla | 34,000,000 | 2 | South America | the 13 provinces of `verdenese/toponymy.md` |
 | 266 | **Meridian States** | MER | Esperanza | 4,300,000 | 3 | South America³ | one state per member territory |
-| 267 | **East Neloxia**⁴ | ENX | Caffa | 29,000,000 | 1 | Europe | the Black Sea→Makran corridor of `world/east-neloxia.md` (30 states) |
-| 268 | **Zaryanova**⁵ | ZAR | Gannibal | 29,863,010 | 4 | Asia | Gannibal (Sakhalin & Kurils), Zephyria Oblast, Primorsky, Khabarovsk, Kamchatka, Magadan, Chukotka |
-| 269 | **Tarun**⁶ | TAR | Tashkent | 68,000,000 | 1 | Asia | Kazakhstan (less the East Neloxian west), Uzbekistan, Turkmenistan (less Balkan/Ahal), Kyrgyzstan, Xinjiang |
+| 267 | **Sarmatia**⁴ | SRM | Caffa | 29,000,000 | 1 | Europe | the Black Sea→Makran corridor of `world/sarmatia.md` (30 states) |
+| 268 | **Zaryanova**⁵ | ZAR | Gannibal | 29,863,010 | 4 | Asia | Gannibal (Sakhalin & Kurils), Jewish Autonomous Oblast, Primorsky, Khabarovsk, Kamchatka, Magadan |
+| 269 | **Tarun**⁶ | TAR | Tashkent | 68,000,000 | 1 | Asia | Kazakhstan (less the Sarmatian west), Uzbekistan, Turkmenistan (less Balkan/Ahal), Kyrgyzstan, Xinjiang |
 | 270 | **Qazania**⁶ | QAZ | Kazan | 8,000,000 | 1 | Europe | Tatarstan + Bashkortostan (Idel-Ural realised) |
 
 ¹ Skaria's capital is founder-open in the lore; Göteborg is a placeholder (biggest
@@ -31,7 +31,7 @@ city in its territory).
 ² The lore-ratified sport code (`saharannaise/toponymy.md`).
 ³ OOTP requires one continent per nation; the legislative capital Esperanza puts it
 in South America.
-⁴ Name provisional per `../world/east-neloxia.md` (candidates: Šaraya, Kervania,
+⁴ Name provisional per `../world/sarmatia.md` (candidates: Šaraya, Kervania,
 Colchia/Kôlxônô, Sarmatia, Alania) — a one-line rename when the founder rules.
 Built to the ratified corridor territory: Crimea + Kherson/Zaporizhzhia land
 bridge, the Caucasus gate (Ingushetia stays Russian per the doc), western Georgia
@@ -43,10 +43,14 @@ gives none.
 ⁵ Per `../world/zaryanova.md` (founder-ratified): the Black-majority Pacific great
 power spanning the whole Russian Far East. Capital **Gannibal** (the purpose-built
 city, on Sakhalin); largest city **Pushkin** (renamed Vladivostok, pop boosted);
-**Vorota**, the DPRK gateway town, added at the Khasan border point. Jewish Oblast
-is carried by its renamed successor **Zephyria Oblast** (the doc's "provincial
+**Vorota**, the DPRK gateway town, added at the Khasan border point. The
+**Jewish Autonomous Oblast** stands under its own name with its real towns
+(Birobidzhan the seat — the doc's "provincial
 cities are being renamed from their Russian counterparts"), which resolves the
-duplicate-id problem those two blocks had. Chukotka is included because the doc's
+duplicate-id problem the earlier synthetic clone ("Zephyria Oblast," now
+deleted per founder correction) had introduced. Chukotka is NOT Zaryanovan — the
+seven ratified territories are the whole country, so Chukotka stays Russian
+(despite the earlier draft's
 UTC+9–+13 / 180°-meridian span requires it, though the territory list doesn't name
 it — drop state 2597 back to Russia if that's wrong. bbqual 4 reflects the
 African-American founding culture.
@@ -54,7 +58,7 @@ African-American founding culture.
 (the doc names none) and its population a working number; Tajikistan stays
 independent and untouched. Qazania is Tatarstan + Bashkortostan with capital
 Kazan, demonym Qazani, ~8M per the doc. Kazakhstan, Uzbekistan, Turkmenistan and
-Kyrgyzstan are fully partitioned between Tarun and East Neloxia and their nation
+Kyrgyzstan are fully partitioned between Tarun and Sarmatia and their nation
 records removed; China loses Xinjiang.
 
 `bbqual` (0–5 baseball quality) values are judgment calls — edit the NATION lines
@@ -93,10 +97,11 @@ to taste.
   Saint-Pierre & Miquelon, St. Helena, São Tomé & Príncipe, Mayotte, Wallis &
   Futuna and New Caledonia, plus the Canary Islands (from Spain), Corsica
   (from France), and **Magau** (the old Macau record's Aomen state, renamed).
-- **Montequinto** was removed from the file entirely, and the **Macau** nation
+- The synthetic stock nation of the earlier build was removed from the file
+  entirely (founder correction — no synthetic entities), and the **Macau** nation
   record is gone: Aomen joined the Meridian States as Magau, and the Far-East
   states parked inside it became Zaryanova's core (see note ⁵ above), joined by
-  Primorsky, Magadan, and Chukotka carved from Russia. All league-pool and
+  Primorsky, and Magadan carved from Russia (Chukotka stays Russian). All league-pool and
   second-nation references were remapped or dropped accordingly.
 - **Kuwait** is untouched — per `kuwait-condominium.md` it keeps its own name,
   flag and national teams. **Morocco** is untouched (aligned, never absorbed).
@@ -115,13 +120,16 @@ etc.).
 
 ## Base-file quirks found along the way
 
-- Your **Zephyria Oblast** was a clone of Jewish Oblast carrying the same state
+- The earlier synthetic "Zephyria Oblast" was a clone of the Jewish Autonomous
+  Oblast carrying the same state
   id (2590) and the same 18 city ids — exactly the duplicate-id crash risk.
-  Resolved by dropping Jewish Oblast (Zephyria is its built replacement and now
+  Resolved, per the founder correction, by restoring the **Jewish Autonomous
+  Oblast** under its real name with real settlement names (the synthetic city
+  names — Qyrixia and its kin — are deleted; the state now
   owns those ids uniquely, as Qazania's territory).
 - **French Guiana's** state/city blocks existed twice (the original nation +
-  Montequinto's copies). Both duplication sources are gone: Esperanza was built
-  with fresh ids and Montequinto was removed.
+  the stock nation's copies). Both duplication sources are gone: Esperanza was
+  built with fresh ids and the stock nation was removed.
 - **Appalachia** (the canonical US state of this universe — West Virginia
   renamed and expanded with the KY/VA/TN border country) had a half-finished
   migration: 21 towns copied into it still existed in Kentucky, Virginia, and

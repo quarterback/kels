@@ -6,17 +6,17 @@
 Neloxia's great Asian aligned state — the eastern counterpart to Morocco's role in the west: too
 large and too deep a civilization to absorb, so it stands as a peer.
 
-**Territory:** Kazakhstan (less the western oblasts held by East Neloxia) · Uzbekistan ·
+**Territory:** Kazakhstan (less the western oblasts held by Sarmatia) · Uzbekistan ·
 Turkmenistan (less Balkan and Ahal) · Kyrgyzstan · Xinjiang. **Not** Tajikistan, which remains
 independent and separate.
 
 **Border:** stops at the Urals in the north-west, leaving the Volga-Ural republics outside it.
 
 **Language:** Turkic, its own. Not a Nelôxi standard. Turkic is however the heaviest **loan quarry**
-for East Neloxia's language — the ambient trade language of the whole corridor, filling the role
+for Sarmatia's language — the ambient trade language of the whole corridor, filling the role
 Low German fills in Metropolitan Nelôxi.
 
-**Relationship:** aligned with Neloxia; the steppe routes run parallel to East Neloxia's Caspian
+**Relationship:** aligned with Neloxia; the steppe routes run parallel to Sarmatia's Caspian
 corridor, so the two are permanent trading neighbours.
 
 ## Qazania
@@ -25,9 +25,9 @@ A merged Volga-Ural republic — **Tatarstan and Bashkortostan united** as one s
 **Kazan**. Demonym **Qazani**. Roughly 8 million; Turkic-speaking, Muslim, oil-rich.
 
 **Position:** landlocked, wedged between rump Russia (north and west), Tarun (east, at the Urals),
-and East Neloxia's Orenburg reach (south).
+and Sarmatia's Orenburg reach (south).
 
-**Economy:** oil. Its Volga outlet runs downriver through **East Neloxian Astrakhan** to the
+**Economy:** oil. Its Volga outlet runs downriver through **Sarmatian Astrakhan** to the
 Caspian; its eastern trade runs through **Tarun**. Trade-dependent on both, a member of neither —
 a natural third party in the Nelôxi orbit by geography rather than by alignment.
 
