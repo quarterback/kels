@@ -504,43 +504,45 @@ def main(src, dst):
     me_states.append(state_block(776, "Magau", aomen["pop"],
                                  finish_cities(city_lines(lines, aomen)),
                                  abbr="MAG", tz=8))
-    # THE FAR-EAST STATES ARE NEW COUNTRIES (user directive). Three sovereign
-    # nations are built from the blocks that were parked inside the old Macau
-    # record. Names come from the boundaries.md "Not Nelôxia" roster (Tarun,
-    # Qazania, Zaryanova) with PROVISIONAL territory assignments — swapping a
-    # name is a one-line edit on the NATION lines below.
-    # Jewish Oblast is dropped: Zephyria Oblast is its built replacement
-    # (same coordinates and populations, fantasy names) and keeps its ids,
-    # which become unique the moment the original is removed.
-    def mc_state(sid, name=None, extra_cities=None, pop=None):
+    # ZARYANOVA — the Black-majority Pacific great power (world/zaryanova.md):
+    # ONE country spanning the whole Russian Far East. Territory: Primorsky,
+    # Khabarovsk, Kamchatka, Magadan, Sakhalin & the Kurils (the custom
+    # Gannibal capital state absorbs the stock island towns), the Jewish AO
+    # (carried by its renamed successor Zephyria Oblast — "provincial cities
+    # are being renamed from their Russian counterparts"), plus Chukotka,
+    # required by the doc's UTC+9..+13 / 180°-meridian span. Capital Gannibal
+    # (the purpose-built city); largest city Pushkin (renamed Vladivostok);
+    # Vorota, the DPRK gateway town, added on the Khasan border point.
+    renames[99991] = "Gannibal"
+    renames[85048] = "Pushkin"
+    pop_overrides[85048] = 1900000
+
+    def mc_state(sid, name=None, extra_cities=None, pop=None, tz=None):
         st = mc["states"][sid]
         cls = finish_cities(city_lines(lines, st))
         if extra_cities:
             cls += extra_cities
         return state_block(sid, name or st["name"],
-                           pop if pop is not None else st["pop"], cls)
+                           pop if pop is not None else st["pop"], cls, tz=tz)
 
-    # Tarun — the island nation: the custom Gannibal state absorbs stock
-    # Sakhalin's towns; capital Gannibal City.
     sak_cities = finish_cities(city_lines(lines, mc["states"][2579]))
-    tarun = nation_block(
-        268, "Tarun", 1600000, 13, 99991, 1, 1, "TAR", "Taruni", 10,
-        [(13, 55), (3, 15), (4, 10), (74, 10), (60, 10)],
-        [mc_state(9000, extra_cities=sak_cities, pop=1596695)])
-    # Qazania — the Amur nation: Zephyria Oblast; capital Qyrixia.
+    zy_states = [mc_state(9000, extra_cities=sak_cities, pop=1596695, tz=10),
+                 mc_state(2534, tz=10), mc_state(2578, tz=11)]
     z0 = next(i for i in range(mc["start"], mc["end"] + 1)
               if 'name="Zephyria Oblast"' in lines[i])
     z1 = next(i for i in range(z0, mc["end"] + 1) if "</STATE>" in lines[i])
-    qazania = nation_block(
-        269, "Qazania", 200000, 13, 9703, 1, 1, "QAZ", "Qazanian", 10,
-        [(13, 60), (74, 15), (3, 10), (4, 15)],
-        [lines[z0:z1 + 1]])
-    # Zaryanova — the mainland Pacific rim: Khabarovsk + Kamchatka; capital
-    # Khabarovsk.
+    zy_states.append(lines[z0:z1 + 1])
+    for sid, tz in ((2532, 10), (2588, 11), (2597, 12)):
+        st = nations[RU]["states"][sid]
+        cls, pop = take_state(RU, sid)
+        cls = finish_cities(cls)
+        if sid == 2532:
+            cls.append(make_city("Vorota", 85000, "42.43", "130.64"))
+        zy_states.append(state_block(sid, st["name"], pop, cls, tz=tz))
     zaryanova = nation_block(
-        270, "Zaryanova", 1800000, 13, 38016, 1, 1, "ZRY", "Zaryanovan", 10,
-        [(13, 70), (3, 10), (74, 10), (60, 10)],
-        [mc_state(2534), mc_state(2578)])
+        268, "Zaryanova", 29863010, 38, 99991, 1, 4, "ZAR", "Zaryan", 10,
+        [(38, 55), (13, 20), (3, 10), (4, 10), (2, 3), (47, 2)],
+        zy_states, second=[(206, 8), (265, 2)], short="Zaryanova")
 
     # Montequinto removed entirely (user directive).
     remove_nation(nat_by_name("Montequinto")[0])
@@ -594,7 +596,7 @@ def main(src, dst):
         continents["Europe"]["nations_end"]: neloxia + skaria + eastneloxia,
         continents["Africa"]["nations_end"]: atlanta + adrara + sotoro,
         continents["South America"]["nations_end"]: valdoria + meridian,
-        mc["start"]: tarun + qazania + zaryanova,   # where Macau stood (Asia)
+        mc["start"]: zaryanova,   # where Macau stood (Asia)
     }
     # nation pop reductions
     for nid, delta in pop_deltas.items():
@@ -611,7 +613,8 @@ def main(src, dst):
     # new nations join the sensible geographic regions (by REGION id)
     region_adds = {44: [260, 261, 267], 48: [260, 261], 46: [260, 267],
                    56: [262, 263, 264], 57: [262, 263], 58: [264],
-                   41: [265, 266], 42: [265]}
+                   41: [265, 266], 42: [265],
+                   50: [268], 51: [268], 61: [268]}
 
     out = []
     seen_region_nations = set()

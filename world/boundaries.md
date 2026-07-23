@@ -108,10 +108,6 @@ world/meridian-states.md.*
 a separate sovereign country, Nelôxia's closest aligned partner in Europe and a full Baltic
 League member. See world/skaria-lore.md.*
 
-**Not Nelôxia.** Corsica and the Canary Islands are Meridian States members. Skaria, East
-Neloxia, Tarun, Qazania, Zaryanova, Valdória, Atlanta, Adrāra, and Soninka & Toro are separate
-sovereign states — see their own docs in `world/`.
-
 **Revision note (this ratification).** This definition supersedes the earlier 15-region master
 reference. Territories of the superseded definition that lie outside the new one — Rīka and the
 Latvian maritime core, the western Baltic rim (the German Hanse ports), the old Amber Road
@@ -123,3 +119,10 @@ borders" section) and opens naming dockets for the new territory; `geography.md`
 working model, `neloxia-lore.md`, and `neloxia-expanded-lore.md` are realigned to the nine
 regions. Where anything still conflicts with this file, **this file wins**. The retired
 city-entries and their coordinates remain recoverable from version history.
+
+
+## Not Nelôxia
+
+Corsica and the Canary Islands are **Meridian States** members. Skaria, East Neloxia, Tarun,
+Qazania, Zaryanova, Valdória, Atlanta, Adrāra, and Soninka & Toro are separate sovereign states —
+see their own docs in world/.

@@ -22,9 +22,7 @@ takes effect for newly created games.
 | 265 | **Valdória** | VAL | Portô Venla | 34,000,000 | 2 | South America | the 13 provinces of `verdenese/toponymy.md` |
 | 266 | **Meridian States** | MER | Esperanza | 4,300,000 | 3 | South America³ | one state per member territory |
 | 267 | **East Neloxia**⁴ | ENX | Caffa | 21,000,000 | 1 | Europe | Crimea + the north-Caucasus/Caspian span |
-| 268 | **Tarun**⁵ | TAR | Gannibal City | 1,600,000 | 1 | Asia | Gannibal (Sakhalin, incl. the stock island towns) |
-| 269 | **Qazania**⁵ | QAZ | Qyrixia | 200,000 | 1 | Asia | Zephyria Oblast (the Amur) |
-| 270 | **Zaryanova**⁵ | ZRY | Khabarovsk | 1,800,000 | 1 | Asia | Khabarovsk, Kamchatka |
+| 268 | **Zaryanova**⁵ | ZAR | Gannibal | 29,863,010 | 4 | Asia | Gannibal (Sakhalin & Kurils), Zephyria Oblast, Primorsky, Khabarovsk, Kamchatka, Magadan, Chukotka |
 
 ¹ Skaria's capital is founder-open in the lore; Göteborg is a placeholder (biggest
 city in its territory).
@@ -35,13 +33,18 @@ in South America.
 Alania, Šaraya, Kervania) — a one-line rename in the NATION record when the founder
 rules. Its extent here is the conservative core (Crimea → Caucasus gates → Caspian
 shore); the Herat road is left unmodeled.
-⁵ The Far-East countries built from the states that had been parked inside the old
-Macau record. The three names come from `boundaries.md`'s "Not Nelôxia" roster;
-**which name belongs to which territory is a provisional assignment** — swap them
-by editing the three NATION lines if the founder's mapping differs. Jewish Oblast
-was dropped in favor of its built replacement Zephyria Oblast (same coordinates
-and populations, its ids now unique); stock Sakhalin's towns were folded into the
-Gannibal state.
+⁵ Per `../world/zaryanova.md` (founder-ratified): the Black-majority Pacific great
+power spanning the whole Russian Far East. Capital **Gannibal** (the purpose-built
+city, on Sakhalin); largest city **Pushkin** (renamed Vladivostok, pop boosted);
+**Vorota**, the DPRK gateway town, added at the Khasan border point. Jewish Oblast
+is carried by its renamed successor **Zephyria Oblast** (the doc's "provincial
+cities are being renamed from their Russian counterparts"), which resolves the
+duplicate-id problem those two blocks had. Chukotka is included because the doc's
+UTC+9–+13 / 180°-meridian span requires it, though the territory list doesn't name
+it — drop state 2597 back to Russia if that's wrong. bbqual 4 reflects the
+African-American founding culture. **Tarun and Qazania** ("the eastern neighbour
+states" per the site manifest) are NOT yet in the file — `world/neighbor-states.md`
+doesn't exist yet; they can be added once their territories are ratified.
 
 `bbqual` (0–5 baseball quality) values are judgment calls — edit the NATION lines
 to taste.
@@ -80,9 +83,10 @@ to taste.
   Futuna and New Caledonia, plus the Canary Islands (from Spain), Corsica
   (from France), and **Magau** (the old Macau record's Aomen state, renamed).
 - **Montequinto** was removed from the file entirely, and the **Macau** nation
-  record is gone: Aomen joined the Meridian States as Magau, and its Far-East
-  states became the three new countries (see note ⁵ above). All league-pool
-  and second-nation references were remapped or dropped accordingly.
+  record is gone: Aomen joined the Meridian States as Magau, and the Far-East
+  states parked inside it became Zaryanova's core (see note ⁵ above), joined by
+  Primorsky, Magadan, and Chukotka carved from Russia. All league-pool and
+  second-nation references were remapped or dropped accordingly.
 - **Kuwait** is untouched — per `kuwait-condominium.md` it keeps its own name,
   flag and national teams. **Morocco** is untouched (aligned, never absorbed).
 - Donor nations keep their capitals and remaining states; their `pop` attributes

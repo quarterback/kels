@@ -104,6 +104,9 @@
     meridianlore:{ title: "The Meridian States", sub: "The sovereign transoceanic nation (lore)", file: "world/meridian-states.md",  group: "World" },
     valdorialore:{ title: "Valdória — the settler republic", sub: "The Citizens Republic of Edeland (working profile)", file: "world/valdoria-lore.md", group: "World" },
     skarialore:  { title: "Skaria", sub: "The Nordic breakaway republic & the Baltic League (lore)", file: "world/skaria-lore.md", group: "World" },
+    eastneloxia: { title: "East Neloxia", sub: "The corridor state, Black Sea to Herat (lore)", file: "world/east-neloxia.md", group: "World" },
+    zaryanova:   { title: "Zaryanova", sub: "The Black-majority Pacific great power (lore)", file: "world/zaryanova.md", group: "World" },
+    neighbours:  { title: "Tarun & Qazania", sub: "The eastern neighbour states (lore)", file: "world/neighbor-states.md", group: "World" },
     modernmodel: { title: "Modern Nelôxia — working model", sub: "The expanded ~56M state (draft)", file: "world/modern-neloxia-working-lore-model.md", group: "World" },
     expandedlore:{ title: "The Expanded Nelôxia", sub: "Accession history & framing (lore)", file: "world/neloxia-expanded-lore.md", group: "World" },
     geography:   { title: "Geography",         sub: "The shape of Nelôxia",         file: "world/geography.md",               group: "World" },
@@ -174,7 +177,7 @@
       kicker: "Setting",
       title: "World",
       intro: "Places, civil names, geography, governance, exonyms, and the wider lore that gives the language its civic context — including the Meridian States framing for Maré and the Valdória profile behind Verdenese.",
-      cards: ["neloxialore", "meridianlore", "valdorialore", "skarialore", "geography", "gazetteer", "names", "namegen", "toponymy", "exonyms", "governance", "boundaries", "atlantalore", "africanbloc"]
+      cards: ["neloxialore", "meridianlore", "valdorialore", "skarialore", "eastneloxia", "zaryanova", "neighbours", "geography", "gazetteer", "names", "namegen", "toponymy", "exonyms", "governance", "boundaries", "atlantalore", "africanbloc"]
     },
     college: {
       kicker: "Canon",
