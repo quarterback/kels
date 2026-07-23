@@ -11,7 +11,7 @@ removes/carves the real-world places they are based on:
   264 Soninka & Toro   — the river south of old Mauritania + North Senegal
   265 Valdória         — the southern-cone settler republic (valdoria-lore.md)
   266 Meridian States  — the transoceanic federation (meridian-states.md)
-  267 East Neloxia     — provisional name; Crimea–Caucasus–Caspian span (east/east.md)
+  267 Sarmatia         — the corridor state (formerly East Neloxia); Crimea–Caucasus–Caspian
 
   268 Zaryanova        — the Black-majority Pacific great power (zaryanova.md)
   269 Tarun            — the unified Turkic bloc (neighbor-states.md)
@@ -665,12 +665,15 @@ def main(src, dst):
         cls, pop = take_state(nid, sid)
         en_states.append(state_block(next_state_id(), st["name"], pop,
                                      finish_cities(cls), tz=tz))
+    # East Neloxia is the independence-era name; the founder-ratified name is
+    # Sarmatia (the People's Republic of Sarmatia) — the classical steppe/
+    # Caucasus umbrella, titular-nationality-free. Demonym Sarmat.
     eastneloxia = nation_block(
-        267, "East Neloxia", 29000000, 29, 25441, 1, 1, "ENX",
-        "East Neloxian", 3,
+        267, "Sarmatia", 29000000, 29, 25441, 1, 1, "SAR",
+        "Sarmat", 3,
         [(29, 15), (13, 14), (24, 12), (48, 10), (26, 5), (50, 6),
          (79, 8), (56, 5), (31, 8), (89, 9), (37, 8)],
-        en_states, second=[(260, 15)], short="East Neloxia")
+        en_states, second=[(260, 15)], short="Sarmatia")
 
     # ==================== 269 TARUN & 270 QAZANIA (neighbor-states.md)
     # Tarun — the unified Turkic bloc: Kazakhstan (less the East Neloxian
@@ -732,7 +735,7 @@ def main(src, dst):
     # ============================================== assemble output
     inserts = {
         continents["Europe"]["nations_end"]: neloxia + skaria + eastneloxia
-                                            + qazania,
+                                            + qazania,   # eastneloxia=Sarmatia
         continents["Africa"]["nations_end"]: atlanta + adrara + sotoro,
         continents["South America"]["nations_end"]: valdoria + meridian,
         mc["start"]: zaryanova + tarun,   # where Macau stood (Asia)

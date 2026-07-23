@@ -30,23 +30,23 @@ game, then replace it with this file (renamed to `world_default.xml`), keeping t
 | 264 | **Soninka & Toro** | SOT | Ndar | 4,200,000 | 1 | Africa |
 | 265 | **Valdória** | VAL | Portô Venla | 34,000,000 | 2 | South America |
 | 266 | **Meridian States** | MER | Esperanza | 4,300,000 | 3 | South America³ |
-| 267 | **East Neloxia**⁴ | ENX | Caffa | 29,000,000 | 1 | Europe |
+| 267 | **Sarmatia**⁴ | SAR | Caffa | 29,000,000 | 1 | Europe |
 | 268 | **Zaryanova**⁵ | ZAR | Gannibal | 29,863,010 | 4 | Asia |
 | 269 | **Tarun**⁶ | TAR | Tashkent | 68,000,000 | 1 | Asia |
 | 270 | **Qazania**⁶ | QAZ | Kazan | 8,000,000 | 1 | Europe |
 
 The **Abbr** column is the flag key — OOTP looks for a flag file per nation
 abbreviation, so you can source one flag each for NEL, SKA, ATL, ADR, SOT, VAL, MER,
-ENX, ZAR, TAR, QAZ.
+SAR, ZAR, TAR, QAZ.
 
 ¹ Skaria's capital is founder-open in the lore; Göteborg is a placeholder (largest
 city in its territory).
 ² The lore-ratified sport code (`saharannaise/toponymy.md`).
 ³ OOTP requires one continent per nation; the legislative capital Esperanza puts it in
 South America.
-⁴ Name provisional per `../world/east-neloxia.md` (candidates: Šaraya, Kervania,
-Colchia/Kôlxônô, Sarmatia, Alania) — a one-line rename when the founder rules. Built
-to the ratified corridor: Crimea + Kherson/Zaporizhzhia land bridge, the Caucasus gate
+⁴ **Sarmatia** (the People's Republic of Sarmatia), founder-ratified — formerly East
+Neloxia, the independence-era name; demonym Sarmat (`../world/sarmatia.md`). Built to
+the ratified corridor: Crimea + Kherson/Zaporizhzhia land bridge, the Caucasus gate
 (Ingushetia stays Russian per the doc), western Georgia, Astrakhan/Kalmykia/Orenburg,
 the west Kazakh oblasts, Balkan/Ahal (with the Asgabat city-state), and the
 Herat–Makran reach (Herat, Farah, Nimruz, Sistan-e Baluchestan, Baluchistan). The
@@ -62,8 +62,8 @@ the founding culture.
 ⁶ Per `../world/neighbor-states.md`. Tarun's capital is a Tashkent placeholder (the
 doc names none) and its population a working number; Tajikistan stays independent.
 Qazania = Tatarstan + Bashkortostan, capital Kazan, demonym Qazani, ~8M. Kazakhstan,
-Uzbekistan, Turkmenistan and Kyrgyzstan are fully partitioned between Tarun and East
-Neloxia; China loses Xinjiang.
+Uzbekistan, Turkmenistan and Kyrgyzstan are fully partitioned between Tarun and
+Sarmatia; China loses Xinjiang.
 
 `bbqual` (0–5 baseball quality) values are judgment calls — edit the NATION lines to
 taste.
@@ -83,7 +83,7 @@ the Hispanic-blended nations automatically.
 | Soninka & Toro | Congolaise | Senegalese + Mauretanian + Malian |
 | Valdória | Verdenese | Arg-Italian + Brazilian + Spanish + Portuguese/German/Polish/Ukrainian/Italian + African-American (Ebony Pearl) + Native-American (Guaraní) |
 | Meridian States | Maré | Spanish/French/French-Carib + Bermudan/Cape-Verdean/SEA-Chinese/IO-Muslim/New-Caledonian/Wallisian/English |
-| East Neloxia | the East fork (Idā) | Georgian/Russian/Turkish/Ukrainian/Armenian + Persian/Afghani/Pakistani/Turkmen |
+| Sarmatia | the East fork (Idā) | Georgian/Russian/Turkish/Ukrainian/Armenian + Persian/Afghani/Pakistani/Turkmen |
 | Zaryanova | *(English + Russian creole)* | **Zaryan** (custom ethnicity 233) 74% + Russian/Korean/Chinese/Japanese/SE-Asian |
 | Tarun | *(Turkic)* | Central-Asian + Uighur + Turkish + Turkmen + Russian |
 | Qazania | *(Turkic/Tatar)* | Turkish + Russian + Pan-Islamic + Turkmen |
@@ -125,10 +125,10 @@ pool. Regenerate with `python3 ootp/add_zaryan_names.py <names.xml> <out.xml>`.
   Corrientes/Misiones/Formosa/Salta/Jujuy (Argentina), Itapúa/Ñeembucú (Paraguay),
   Tarija/Potosí (Bolivia), Antofagasta (Chile, as Litorāl). Porto Alegre → Portô Venla,
   Pelotas → Santa Laura; Koinīnia added.
-- **East Neloxia** — the corridor from Crimea to the Makran (see note ⁴).
+- **Sarmatia** — the corridor from Crimea to the Makran (see note ⁴).
 - **Zaryanova** — the whole Russian Far East, carved from real oblasts (see note ⁵).
 - **Tarun** — the unified Turkic bloc; **Qazania** — Tatarstan + Bashkortostan. The four
-  Central-Asian donor nations are fully partitioned between Tarun and East Neloxia and
+  Central-Asian donor nations are fully partitioned between Tarun and Sarmatia and
   their records removed; China loses Xinjiang.
 - **Meridian States** absorbs Bermuda, French Guiana (→ Esperanza), Saint-Pierre &
   Miquelon, St. Helena, São Tomé & Príncipe, Mayotte, Wallis & Futuna and New Caledonia,
