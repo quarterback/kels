@@ -4,7 +4,7 @@ These high-frequency words ALREADY EXIST. Do not coin them, and never write the 
 equivalent (nüüd, juba, aga, siis, ka, saama, panema…). Use these exact forms. If you need a
 function word not listed here, it is a real gap — flag it; do not borrow from Estonian/Finnish.
 
-Canon v5.81. Full list in data/headwords.txt.
+Canon v5.82. Full list in data/headwords.txt.
 
 ## Pronouns & determiners
 - **mä** — I
@@ -60,6 +60,9 @@ Canon v5.81. Full list in data/headwords.txt.
 - **äb** — not
 - **nē** — no (trade)
 - **jā** — yes
+- *(Answering yes-no questions, §151: jā/nē and the verb-echo are both ordinary — Ka sä volē pan?
+  → Jā. / Volē. / Äb volē. The echo confirms the proposition, so it's the clear answer to offers;
+  sāli accepts a deal, gūd concedes, njah is a reluctant yes.)*
 
 ## Time & frequency
 - **nū** — now

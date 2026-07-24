@@ -90,6 +90,7 @@ Consistent Finnic-type profile: SVO clause with a head-final, dependent-marked n
 | Negative imperative | *äb* + bare stem (*äb votā!* "don't take!") | module 11 |
 | Negative indefinites | `midagü` "nothing," + `äb` (negative concord) | modules 07, 09 |
 | Polar questions | **Particle `ka`** + (intonation); word order unchanged (*Ka sä tulē?*) | module 09; dictionary `ka` |
+| Polar answers | `jā/nē` and **verb-echo, pronoun dropped** (*Volē. / Äb volē.*), both ordinary; echo disambiguates truth vs. consent; `sāli` accepts a deal | §151; coursebook "Negation and questions" |
 | Content questions | **Fronted interrogative** (`ken, mis, kus, kun, miks, kui`) (*Ken tulē?*) | module 07 |
 | Question-word paradigm | Full, and the words decline (*kenen* whom, *kens* whose) | module 07 |
 | Focus / predicate cleft | ⟨open⟩ — no dedicated cleft/focus morphology in canon | flag |

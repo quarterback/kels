@@ -1,7 +1,7 @@
 # Nelôxi — DOMAIN AGENT BUNDLE (self-contained)
 
 > Everything you need to coin vocabulary for one domain. You need no other file.
-> Canon v5.81, 2054 headwords. Read top to bottom, then produce ONE domain batch.
+> Canon v5.82, 2054 headwords. Read top to bottom, then produce ONE domain batch.
 
 ---
 
@@ -225,9 +225,9 @@ for **Nelôxi** (*nelô kēļ*), a constructed language. The founder/Rector rule
 propose, the Rector reviews and merges. **Nothing you submit is canon until merged.**
 Read this whole brief before coining a single word.
 
-Current canon: **v5.81, 2054 headwords.** Authoritative source: the repository —
+Current canon: **v5.82, 2054 headwords.** Authoritative source: the repository —
 `coursebook/nelo-kel-coursebook.md` (the language) and `college/kels-kolegi-charter.md`
-(rules + full ruling log §1–§150).
+(rules + full ruling log §1–§151).
 
 ---
 
@@ -376,7 +376,7 @@ These high-frequency words ALREADY EXIST. Do not coin them, and never write the 
 equivalent (nüüd, juba, aga, siis, ka, saama, panema…). Use these exact forms. If you need a
 function word not listed here, it is a real gap — flag it; do not borrow from Estonian/Finnish.
 
-Canon v5.81. Full list in data/headwords.txt.
+Canon v5.82. Full list in data/headwords.txt.
 
 ## Pronouns & determiners
 - **mä** — I
@@ -432,6 +432,9 @@ Canon v5.81. Full list in data/headwords.txt.
 - **äb** — not
 - **nē** — no (trade)
 - **jā** — yes
+- *(Answering yes-no questions, §151: jā/nē and the verb-echo are both ordinary — Ka sä volē pan?
+  → Jā. / Volē. / Äb volē. The echo confirms the proposition, so it's the clear answer to offers;
+  sāli accepts a deal, gūd concedes, njah is a reluctant yes.)*
 
 ## Time & frequency
 - **nū** — now

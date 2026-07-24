@@ -18,6 +18,10 @@ Kēļs Dīwān.
 
 - No verb agreement. Strict SVO. Pre-verbal negation *äb*. Bare-stem imperative; hortative
   *-m*. Agglutinative case with vowel harmony.
+- Yes-no questions open with *ka*; the answers are shared too (§151): *jā/nē* and the verb-echo
+  (*Volē. / Äb volē.*), both ordinary in every standard. Each standard keeps its own words for
+  accepting and conceding beside them (Metropolitan *sāli/gūd*, Saharannaise *inxāllah* for the
+  future-tinged yes, Verdenese *dālē*).
 - The productive derivational set, unchanged in both: **-ôr/-õr** (agent), **-in, -mus/-mys,
   -ū, -stā, -ldā, -ām/-äm, -tū/-ty**, causative **-tā**, comparative **-mi**.
 - Dozenal (base-12) numbers. 24-hour clock. Low German calendar.

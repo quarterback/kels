@@ -63,6 +63,15 @@ A finite predicate may take a compact chain:
 The particles can stack where their meanings do not conflict: *kē mai tula* is “is about to come
 hither.” Time words remain available and can be more precise than TAM particles.
 
+### Negation and answers (§151)
+
+The negator is **nē**, inherited and unchanged, standing first in the particle chain: *Nē ti lēda
+ia.* — “She didn’t travel.” Yes-no questions are marked by intonation, and the ordinary answers
+are the inherited pair **iā** and **nē** (*jā* reshaped to the open syllable; *nē* already fit).
+Just as common is echoing the predicate with its particles, which answers the specific claim:
+*Ti lēda ia?* — *Ti lēda.* / *Nē ti lēda.* Meralian thus keeps the family’s answering habit —
+particle or predicate-echo, speaker’s choice — inside its own grammar.
+
 ### Reduplication
 
 Full or first-foot reduplication is productive: **lēda-lēda** “travel about / travel repeatedly,”
