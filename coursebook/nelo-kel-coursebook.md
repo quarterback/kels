@@ -274,6 +274,17 @@ Once it is clear who is acting, the pronoun is dropped: *Mä lugē livrôn ja do
 
 A yes/no question begins with **ka**: *Ka sä parlā nelô kēļôn?* "Do you speak Nelôxi?"
 
+**Answering a yes-no question (§151).** Plain **jā** and **nē** are the ordinary answers: *Ka sä
+volē pan?* — *Jā.* / *Nē.* Just as natural is answering with the verb itself, pronoun dropped:
+*Volē.* "(I) do." / *Äb volē.* "(I) don't." — the pattern the unit dialogues already use (*Jā,
+volē*; *Jā, um*). The verb-echo does the work a bare *jā* can't: it confirms the **proposition**
+rather than agreeing to a proposal, so it is the clear answer to offers and requests (*Volē* =
+"yes, I actually want it"), and the natural way to emphasize or correct (*Äb um — um jūn!* "No —
+it's young!"). A few answers are their own words: **sāli** "done, agreed" accepts a deal, **gūd**
+concedes, **njah** is a reluctant yes, **muidū** "of course." Everyday speech mixes all of these
+freely; only the verb-echo is grammatically obligatory anywhere — a negated answer needs *äb*
+with the verb (*Äb volē*), since *nē* alone just declines.
+
 Question words: **mis** what · **ken** who · **kus** where · **kun** when · **kui** how · **miks** why.
 
 ## Pronouns

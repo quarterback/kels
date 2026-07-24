@@ -47,6 +47,13 @@ extends the same logic to the whole clause:
   *Kus se-lǟdô?* "Where are you going?"
 - **The polar particle *ka*** encliticizes to the verb — which, verb-final, puts it
   sentence-final: *Se-tulē-ka?* "Are you coming?"
+- **Answering (§151).** The everyday answer hands the verb-complex back: *Se-tulē-ka?* —
+  *Me-tulē.* "(Yes,) I'm coming." / *Me-tulē-p.* "(No,) I'm not." Because negation lives
+  inside the verb (§5), the verb-echo is the only grammatical way to answer no — there is no
+  *äb* to say it with. The words *jā* and *nē* exist here as everywhere (they are vocabulary,
+  not grammar) and work as plain interjections — *Jā, me-tulē* — and the casual register adds
+  Turkic *haidē* "sure, come on" (`loans-turkic.md`). One packed verb is a complete answer;
+  most Sarmatian answers are one word.
 
 ## §3 · Alignment — the ergative
 
