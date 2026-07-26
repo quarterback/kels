@@ -92,6 +92,7 @@ textarea{width:100%;margin-top:12px;min-height:130px;padding:12px;font-family:ui
     <span class="kicker">TOPONYM GENERATOR</span>
   </div>
   <p class="tagline">Rolls candidate Nelôxi names on a weighted table of <b>seven naming strategies</b> — patron, event, descriptive, transferred, folk-etymology, saint, accident — plus <b>keeping the local name</b>. Weighted by region and era, because a coastal port and an inland estate town do not get named the same way. Every candidate carries the <b>story of why the name exists</b>; you pick, the generator only proposes.</p>
+  <p class="tagline" style="margin-top:8px"><b>Two decisions, in order.</b> First the Nelôxi name. <b>Then</b> the exonym — what the outside world calls it — because that depends on the name you chose: it can anglicize it, calque its meaning, or refuse it and keep an older form entirely. Picking a name does not commit you to an exonym, and nothing enters the basket until both steps are done or you explicitly defer the second.</p>
 </header>
 
 <div class="panel">
@@ -105,6 +106,9 @@ textarea{width:100%;margin-top:12px;min-height:130px;padding:12px;font-family:ui
 
 <div class="sect"><h2>Candidates</h2><span id="cnt"></span></div>
 <div class="cards" id="cards"></div>
+
+<div class="sect" id="pendsect" hidden><h2>Choose the exonym</h2><span>step 2 of 2</span></div>
+<div id="pendwrap"></div>
 
 <div class="basket">
   <div class="sect"><h2>Picked</h2><span id="bcnt"></span></div>
@@ -632,6 +636,20 @@ const EXOSTRAT = [
  ["same", (nx)=>nx,
    "no divergence: the Nelôxi name is what the world uses, diacritics and all. Boring, and often what actually happens."]
 ];
+/* every mechanism applied to the CHOSEN name, so the exonym is its own decision */
+function exonymOptions(nx,ctx,gloss,keep){
+  const out=[];
+  EXOSTRAT.forEach(s=>{
+    let ex;
+    try{ ex=s[1](nx,ctx,gloss); }catch(e){ ex=null; }
+    if(!ex) return;
+    if(out.some(o=>o.ex===ex)) return;
+    out.push({key:s[0],ex:ex,how:s[2]});
+  });
+  if(keep&&!out.some(o=>o.key==="same")) out.unshift({key:"same",ex:nx,
+    how:"the local name is also the exonym — nothing was renamed, so nothing diverged."});
+  return out;
+}
 function rollExonym(nx,ctx,gloss,keep){
   if(keep) return {ex:(ctx.anachronism?(ctx.local_hint||ctx.exonym_hint||ctx.site):(ctx.exonym_hint||ctx.site)),
     how:"the local name is also the exonym — nothing was renamed, so nothing diverged."};
@@ -887,7 +905,7 @@ function roll(ctx,prof,era){
 }
 
 /* ── state ────────────────────────────────────────────────────────────────── */
-let mode="gaz", basket=[];
+let mode="gaz", basket=[], pending=null, currentOut=null, currentKey="";
 const ROLLABLE = CITIES.filter(d=>!d.norename);
 
 function controls(){
@@ -908,7 +926,7 @@ function controls(){
       `<div class="fgrp"><label for="city">City (✓ = already canon)</label><select id="city">${opts}</select></div>`+
       `<div class="fgrp"><label for="era">Era</label><select id="era">${eraOpts}</select></div>`+
       `<button class="go" id="go">Roll 8 names</button>`;
-    $("city").addEventListener("change",draw);
+    $("city").addEventListener("change",()=>draw(true));
   } else {
     const rgOpts=Object.keys(REGPROF).map(k=>`<option value="${esc(k)}">${esc(k)}</option>`).join("");
     const tOpts=Object.keys(TERRFEAT).sort().map(t=>`<option value="${t}">${t}</option>`).join("");
@@ -918,10 +936,10 @@ function controls(){
       `<div class="fgrp"><label for="nm">Local name (optional)</label><input id="nm" placeholder="e.g. Vilkija" autocomplete="off"></div>`+
       `<div class="fgrp"><label for="era">Era</label><select id="era">${eraOpts}</select></div>`+
       `<button class="go" id="go">Roll 8 names</button>`;
-    $("rg").addEventListener("change",draw); $("tr").addEventListener("change",draw);
+    $("rg").addEventListener("change",()=>draw(true)); $("tr").addEventListener("change",()=>draw(true));
   }
-  $("era").addEventListener("change",draw);
-  $("go").addEventListener("click",draw);
+  $("era").addEventListener("change",()=>draw(true));
+  $("go").addEventListener("click",()=>draw(true));
 }
 
 function context(){
@@ -946,7 +964,7 @@ function drawCtx(ctx,prof,era){
   let h="";
   if(mode==="gaz"){
     h+=`<b>${esc(ctx.site)}</b> — ${esc(ctx.terrain)}; ${esc(ctx.notes)}. `;
-    h+=`Outsiders call it <b>${esc(ctx.exonym)}</b>. `;
+    h+=ctx.exonym_hint?`A historical outside form is on record: <b>${esc(ctx.exonym_hint)}</b> (a candidate, not a decision). `:"";
     if(ctx.founding==="foundation") h+=`<br><b>⌂ A Nelôxian foundation</b>${ctx.founds_what?" — "+esc(ctx.founds_what):""}: the real-world town is purpose-built, so no name is inherited. The state builds its own here — date it, attribute it, name it for what it does. `;
     if(ctx.anachronism) h+=`<br><span class="warn">⚠ "${esc(ctx.site)}" cannot be the in-world name:</span> ${esc(ctx.anachronism)} It is a real-world map reference only. `;
     if(ctx.on_record) h+=`<br>Nelôxi name <b>on record</b> as ${esc(ctx.nelox)} (${esc(ctx.layer)}${ctx.gloss?" — "+esc(ctx.gloss):""}) from world/gazetteer.md — a starting position, still reconsiderable. `;
@@ -957,12 +975,19 @@ function drawCtx(ctx,prof,era){
   $("ctx").innerHTML=h;
 }
 
-function draw(){
+function draw(reroll){
   const ctx=context();
+  if(pending&&pending.site!==(ctx.site||"(new)")){ pending=null; }
   const prof=REGPROF[ctx.region]||REGPROF["Livonian Core"];
   const era=$("era").value;
   drawCtx(ctx,prof,era);
 
+  /* stable candidate set: only re-roll on demand or when the context changes */
+  const key=(ctx.site||"(new)")+"|"+ctx.region+"|"+ctx.terrain+"|"+era;
+  if(!reroll && currentOut && currentKey===key){
+    renderCards(currentOut,ctx); return;
+  }
+  currentKey=key;
   const out=[];
   /* the hint, where one exists, is always offered as a real raw-loan candidate */
   if(ctx.hint) out.push({nx:ctx.hint,layer:"raw loan",strategy:"historical",key:"hist",
@@ -985,36 +1010,79 @@ function draw(){
       {key:"keep",exonym:ctx.exonym});
   }
 
+  currentOut=out;
+  renderCards(out,ctx);
+}
+
+function renderCards(out,ctx){
   $("cnt").textContent=`${out.length} for ${ctx.site||"a new place"}`;
   $("cards").innerHTML=out.map((o,i)=>{
     const inB=basket.some(b=>b.nx===o.nx&&b.site===(ctx.site||""));
     return `<div class="card${o.key==="keep"?" keep":""}">
       <div class="nx">${esc(o.nx)}</div>
-      <div class="exo">the world calls it <b>${esc(o.exonym||"—")}</b>${o.exokey?` <span class="tag" style="margin-left:4px">${esc(o.exokey)}</span>`:""}</div>
       <div class="story">${esc(o.story)}</div>
-      <div class="story" style="border-top:1px dashed var(--line);padding-top:7px"><b style="color:var(--ink2)">Abroad:</b> ${esc(o.exostory||"")}</div>
+      <div class="exo">exonym chosen next — <b>the options are derived from this name</b>, so a different name gives different ones.</div>
       <div class="tags">
         <span class="tag s">${esc(LABEL[o.key]||o.strategy)}</span>
         <span class="tag l">${esc(o.layer)}</span>
         ${o.wild?'<span class="tag">wildcard</span>':""}
       </div>
-      <button class="take${inB?" on":""}" data-i="${i}">${inB?"✓ picked":"Pick this"}</button>
+      <button class="take${inB?" on":""}" data-i="${i}">${inB?"✓ picked":"Pick this name →"}</button>
     </div>`;
   }).join("");
 
   $("cards").querySelectorAll(".take").forEach(b=>{
     b.addEventListener("click",()=>{
       const o=out[+b.dataset.i];
+      if(!o) return;
       const key=o.nx+"|"+(ctx.site||"");
       const at=basket.findIndex(x=>x.nx+"|"+x.site===key);
-      if(at>=0) basket.splice(at,1);
-      else basket.push({site:ctx.site||"(new)",region:ctx.region,nx:o.nx,
-        local:(o.key==="keep"?o.nx:(ctx.local_hint||"")),
-        exonym:o.exonym||"",layer:o.layer,strategy:LABEL[o.key]||o.strategy,
-        story:o.story,exostory:o.exostory||""});
-      draw(); drawBasket();
+      if(at>=0){ basket.splice(at,1); pending=null; }
+      else {
+        /* stage 2: the exonym is chosen FOR this name, not bundled with it */
+        pending={site:ctx.site||"(new)",region:ctx.region,nx:o.nx,
+          local:(o.key==="keep"?o.nx:(ctx.local_hint||"")),
+          layer:o.layer,strategy:LABEL[o.key]||o.strategy,story:o.story,
+          opts:exonymOptions(o.nx,ctx,o.story,o.key==="keep")};
+      }
+      draw(); drawPending(); drawBasket();
     });
   });
+}
+
+function drawPending(){
+  const w=$("pendwrap");
+  if(!pending){ w.innerHTML=""; $("pendsect").hidden=true; return; }
+  $("pendsect").hidden=false;
+  w.innerHTML=
+    `<div class="panel"><div style="margin-bottom:12px">You chose <span class="nx" style="font-size:22px">${esc(pending.nx)}</span> for <b>${esc(pending.site)}</b>.
+     <div class="story" style="margin-top:6px">${esc(pending.story)}</div>
+     <div style="margin-top:10px;font-size:11px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--ink3)">Now: what does the rest of the world call it?</div>
+     <div class="story" style="margin-top:6px">Every option below is generated <b>from ${esc(pending.nx)}</b> — anglicizing it, calquing its meaning, or refusing it in favour of an older form. <b>Cancel and pick a different name and this whole list changes.</b> Nothing is recorded until you choose here or defer.</div></div>
+     <div class="cards">`+
+    pending.opts.map((o,i)=>`<div class="card">
+       <div class="nx" style="font-size:21px">${esc(o.ex)}</div>
+       <div class="story">${esc(o.how)}</div>
+       <div class="tags"><span class="tag s">${esc(o.key)}</span></div>
+       <button class="take" data-x="${i}">Use this exonym</button>
+     </div>`).join("")+
+    `<div class="card keep">
+       <div class="nx" style="font-size:21px;color:var(--ink4)">— open</div>
+       <div class="story">Leave the exonym undecided for now. The name is recorded; the outside form stays an open docket.</div>
+       <div class="tags"><span class="tag">deferred</span></div>
+       <button class="take" data-x="-1">Decide later</button>
+     </div></div>
+     <div class="bactions"><button class="take" id="pcancel">Cancel this pick</button></div>`;
+  w.querySelectorAll(".take[data-x]").forEach(btn=>btn.addEventListener("click",()=>{
+    const i=+btn.dataset.x;
+    const chosen=i>=0?pending.opts[i]:{ex:"",how:""};
+    basket.push({site:pending.site,region:pending.region,nx:pending.nx,local:pending.local,
+      exonym:chosen.ex,layer:pending.layer,strategy:pending.strategy,
+      story:pending.story,exostory:chosen.how,exokey:chosen.key||""});
+    pending=null; draw(); drawPending(); drawBasket();
+  }));
+  const c=$("pcancel");
+  if(c) c.addEventListener("click",()=>{ pending=null; draw(); drawPending(); });
 }
 
 function drawBasket(){
@@ -1022,7 +1090,7 @@ function drawBasket(){
   if(!basket.length){ $("bwrap").innerHTML=`<div class="bempty">Nothing picked yet. Pick candidates and they collect here as copyable rows.</div>`; return; }
   $("bwrap").innerHTML=
     `<table class="btable"><thead><tr><th>Ref</th><th>Local</th><th>Nelôxi name</th><th>Exonym</th><th>Layer</th><th>Strategy</th><th></th></tr></thead><tbody>`+
-    basket.map((b,i)=>`<tr><td>${esc(b.site)}</td><td>${esc(b.local||"—")}</td><td class="bnx">${esc(b.nx)}</td><td>${esc(b.exonym)}</td><td>${esc(b.layer)}</td><td>${esc(b.strategy)}</td><td><button class="drop" data-i="${i}" aria-label="Remove">×</button></td></tr>`).join("")+
+    basket.map((b,i)=>`<tr><td>${esc(b.site)}</td><td>${esc(b.local||"—")}</td><td class="bnx">${esc(b.nx)}</td><td>${b.exonym?esc(b.exonym):'<span class="pending" style="color:var(--ink4)">— open</span>'}</td><td>${esc(b.layer)}</td><td>${esc(b.strategy)}</td><td><button class="drop" data-i="${i}" aria-label="Remove">×</button></td></tr>`).join("")+
     `</tbody></table>
      <div class="bactions"><button class="go" id="copy">Copy as TSV</button>
      <button class="take" id="clear">Clear all</button></div>
@@ -1045,11 +1113,11 @@ function setMode(m){
   mode=m;
   $("m-gaz").setAttribute("aria-pressed",m==="gaz");
   $("m-free").setAttribute("aria-pressed",m==="free");
-  controls(); draw();
+  controls(); draw(true);
 }
 $("m-gaz").addEventListener("click",()=>setMode("gaz"));
 $("m-free").addEventListener("click",()=>setMode("free"));
-setMode("gaz"); drawBasket();
+setMode("gaz"); drawPending(); drawBasket();
 </script>
 </body>
 </html>
