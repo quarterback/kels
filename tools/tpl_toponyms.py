@@ -764,16 +764,26 @@ const STRAT = {
      story:`'${m[1]} ${h[1]}' — ${phrase}.`};
  },
  trans(c){
-   const donors=CITIES.filter(d=>d.nelox&&d.region!==c.region);
+   /* a transfer must carry a name that is actually Nelôxi. Donors whose name is
+      just their own kept local form (a "keep local" pick) produced absurdities
+      like "carried whole from Klaipėda (Klaipėda)" AND a duplicate city name. */
+   const donors=CITIES.filter(d=>d.nelox && d.region!==c.region &&
+     d.nelox.toLowerCase()!==d.site.toLowerCase());
    if(!donors.length) return STRAT.desc(c);
+   const taken=new Set(CITIES.filter(d=>d.nelox&&d.site!==c.site)
+                             .map(d=>d.nelox.toLowerCase()));
    const d=pick(donors), r=Math.random();
-   /* don't build Uus-uusatôm: skip the prefix when the donor already carries it */
-   if(r<.45 && !/^uus/i.test(d.nelox)) return {nx:"Uus"+d.nelox.toLowerCase(),layer:"native",strategy:"transferred",
-     story:`settlers out of ${d.nelox} (${d.site}) named it for home — uus- 'new', the Uusatôm pattern.`};
+   const label=`${d.nelox} (${d.site})`;
+   if(r<.45) return {nx:"Uus"+d.nelox.toLowerCase(),layer:"native",strategy:"transferred",
+     story:`settlers out of ${label} named it for home — uus- 'new', the Uusatôm pattern.`};
    if(r<.7) return {nx:"Nova "+d.nelox,layer:"hybrid",strategy:"transferred",
-     story:`the Romance settler-pattern 'Nova + homeland', as Nova Trentô. The founders came from ${d.nelox} (${d.site}).`};
+     story:`the Romance settler-pattern 'Nova + homeland', as Nova Trentô. The founders came from ${label}.`};
+   /* bare transfer only if it would not collide with a name already in use */
+   if(taken.has(d.nelox.toLowerCase()))
+     return {nx:"Uus"+d.nelox.toLowerCase(),layer:"native",strategy:"transferred",
+       story:`settlers out of ${label} named it for home, distinguishing it with uus- 'new' because the old town still holds the bare name.`};
    return {nx:d.nelox,layer:"native",strategy:"transferred",
-     story:`the name travelled and the meaning did not: carried whole from ${d.nelox} (${d.site}) by its founders, `+
+     story:`the name travelled and the meaning did not: carried whole from ${label} by its founders, `+
        pick(["and most people here have no idea it is a borrowed name",
          "who never explained it and were never asked",
          "and the two towns have been confused in the post ever since",
@@ -1000,13 +1010,13 @@ function context(){
   if(mode==="gaz"){
     const d=ROLLABLE.find(x=>x.site===$("city").value)||ROLLABLE[0];
     return {site:d.site,region:d.region,terrain:d.terrain,notes:d.notes,
-            exonym_hint:d.exonym_hint,local_hint:d.local_hint,anachronism:d.anachronism,
+            exonym_hint:d.exonym_hint,former:d.former,local_hint:d.former,anachronism:d.anachronism,
             on_record:d.on_record,source:d.source,nelox:d.nelox,layer:d.layer,gloss:d.gloss,hint:d.hint,pop:d.pop,
             founding:d.founding,founds_what:d.founds_what};
   }
   const nm=($("nm").value||"").trim();
   return {site:nm,region:$("rg").value,terrain:$("tr").value,notes:"",
-          exonym_hint:"",local_hint:"",anachronism:"",
+          exonym_hint:"",former:"",local_hint:"",anachronism:"",
           on_record:false,source:"",nelox:"",layer:"",gloss:"",hint:"",pop:0,
           founding:"inherited",founds_what:""};
 }
@@ -1026,7 +1036,7 @@ function drawCtx(ctx,prof,era){
       ` (${esc(ctx.layer)}${ctx.gloss?" — "+esc(ctx.gloss):""})`+
       `${ctx.source==="picked"?" — recorded in data/toponym-picks.tsv":" — from world/gazetteer.md"}. Re-rolling replaces it. `;
     else h+=`<br>Nelôxi name: <b>open</b>. `;
-    h+=`Local name: <b>${ctx.local_hint?esc(ctx.local_hint)+" (candidate)":"open"}</b>. Exonym: <b>${ctx.exonym_hint?esc(ctx.exonym_hint)+" (candidate)":"open"}</b>. `;
+    h+=`${ctx.former?"Former name: <b>"+esc(ctx.former)+"</b>. ":""}Exonym: <b>${ctx.exonym_hint?esc(ctx.exonym_hint)+" (candidate)":"open"}</b>. `;
   }
   h+=`<br><span style="color:var(--ink3)">Strategy mix for ${esc(prof.ch)} · ${esc(ERAS[era].name)}: ${mix}</span>`;
   $("ctx").innerHTML=h;
@@ -1099,7 +1109,7 @@ function renderCards(out,ctx){
       else {
         /* stage 2: the exonym is chosen FOR this name, not bundled with it */
         pending={site:ctx.site||"(new)",region:ctx.region,nx:o.nx,
-          local:(o.key==="keep"?o.nx:(ctx.local_hint||"")),
+          local:o.nx,
           layer:o.layer,strategy:LABEL[o.key]||o.strategy,story:o.story,
           opts:exonymOptions(o.nx,ctx,o.story,o.key==="keep")};
       }
@@ -1145,8 +1155,8 @@ function drawBasket(){
   $("bcnt").textContent=basket.length?`${basket.length} name${basket.length>1?"s":""}`:"";
   if(!basket.length){ $("bwrap").innerHTML=`<div class="bempty">Nothing picked yet. Pick candidates and they collect here as copyable rows.</div>`; return; }
   $("bwrap").innerHTML=
-    `<table class="btable"><thead><tr><th>Ref</th><th>Local</th><th>Nelôxi name</th><th>Exonym</th><th>Layer</th><th>Strategy</th><th></th></tr></thead><tbody>`+
-    basket.map((b,i)=>`<tr><td>${esc(b.site)}</td><td>${esc(b.local||"—")}</td><td class="bnx">${esc(b.nx)}</td><td>${b.exonym?esc(b.exonym):'<span class="pending" style="color:var(--ink4)">— open</span>'}</td><td>${esc(b.layer)}</td><td>${esc(b.strategy)}</td><td><button class="drop" data-i="${i}" aria-label="Remove">×</button></td></tr>`).join("")+
+    `<table class="btable"><thead><tr><th>Ref</th><th>Nelôxi name</th><th>Exonym</th><th>Layer</th><th>Strategy</th><th></th></tr></thead><tbody>`+
+    basket.map((b,i)=>`<tr><td>${esc(b.site)}</td><td class="bnx">${esc(b.nx)}</td><td>${b.exonym?esc(b.exonym):'<span class="pending" style="color:var(--ink4)">— open</span>'}</td><td>${esc(b.layer)}</td><td>${esc(b.strategy)}</td><td><button class="drop" data-i="${i}" aria-label="Remove">×</button></td></tr>`).join("")+
     `</tbody></table>
      <div class="bactions"><button class="go" id="copy">Copy as TSV</button>
      <button class="take" id="clear">Clear all</button></div>

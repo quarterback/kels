@@ -18,9 +18,13 @@ Nelôxia has held these places for five centuries. See ANACHRONISM below.
 
 So a settlement has up to four name slots, three of them usually open:
 
-  site     — the real-world reference key (known; NOT in-world)
-  local    — the in-world local / substrate name (open docket)
+  site     — the real-world reference key (known; NOT in-world, NEVER a name)
   nelox    — the Nelôxi endonym (open docket unless in CANON)
+  local    — what people there call it. DEFAULTS TO `nelox`: after five centuries
+             the local form IS the Nelôxi name. Only set separately where a living
+             local-language community keeps its own form alongside.
+  former   — the pre-Nelôxian / substrate name (Gumbinnen, Akhtiar, Petroskoi).
+             A former name, NOT a current local one.
   exonym   — what the outside world calls it (open docket)
 
 Three separate concerns, deliberately kept apart:
@@ -543,9 +547,12 @@ def rows():
             "nelox": nelox, "layer": layer, "gloss": gloss,
             "on_record": bool(nelox),
             "source": "gazetteer" if nelox else "",
-            # the in-world local name: open unless a substrate form is on record
-            "local": "",
-            "local_hint": sub or SUBSTRATE.get(site, ""),
+            # The in-world local name. After five centuries of Nelôxian rule the
+            # people there call the place by its Nelôxi name — so `local` FOLLOWS
+            # `nelox` and is only distinct where a living local-language community
+            # keeps its own form. The pre-Nelôxian name is `former`, not `local`.
+            "local": nelox,
+            "former": sub or SUBSTRATE.get(site, ""),
             # the outward-facing exonym: open; a historical form may be on record
             "exonym": "",
             "exonym_hint": EXONYM.get(site, ""),
