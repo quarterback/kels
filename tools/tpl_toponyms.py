@@ -131,146 +131,273 @@ textarea{width:100%;margin-top:12px;min-height:130px;padding:12px;font-family:ui
 const CITIES = __CITIES__;
 const REGIONS = __REGIONS__;
 
-/* ── canon element banks ─────────────────────────────────────────────────────
-   Heads are settlement-forming suffixes; feats are landscape words. Glosses are
-   the canon name-senses (§146): mer not merd, kājô not lōd, pont not sildô.   */
+/* ── element banks, BY QUARRY ────────────────────────────────────────────────
+   The creole doctrine has five co-primary quarries and the state spans Karelia
+   to the Riviera to Thrace, so the naming vocabulary must too. Each quarry
+   carries its own modifiers, settlement heads, and person names; a region draws
+   only on the quarries that plausibly named its ground (the gravity principle).
+   Glosses use the canon name-senses (§146): mer not merd, kājô not lōd.      */
 const HEADS = {
   finnic:[["-sô","river-bend"],["-mō","land"],["-linnô","fortress"],["-itô","settlement"],
           ["-sār","island"],["-rānd","shore"],["-järv","lake"],["-koski","rapids"],
-          ["-korbi","backwoods"],["-satām","harbour"],["-mündõ","river-mouth"],["-sū","river-mouth"]],
+          ["-korbi","backwoods"],["-satām","harbour"],["-mündõ","river-mouth"],["-sū","river-mouth"],
+          ["-lax","bay"],["-niemi","cape"],["-vesi","water"],["-kylä","village"],["-mäki","hill"],
+          ["-suo","marsh"],["-salmi","sound"],["-vuori","fell"]],
   lowgerman:[["-bôrk","walled town"],["-hafõn","harbour"],["-hôlm","islet"],["-dôrp","village"],
-             ["-markõt","market-town"],["-mündõ","river-mouth"],["-ūsô","works"]],
-  scand:[["-vīk","bay"],["-nes","cape"],["-ô","island"],["-fjôrd","sea-inlet"],["-sund","strait"]],
-  slavic:[["-grôd","town"],["-ovô","place of"],["-sk","-town"],["-itsô","little settlement"],["-pôl","field-town"]],
-  /* institution words: point-foundations, so they belong to patron and saint
-     names, never to a colour-plus-feature description ("green college") */
-  romance:[["-vīla","chartered estate"],["-kolēgi","college"]],
-  baltic:[["-pils","castle"],["-ava","river-town"],["-upõ","stream"],["-kalns","hill"],["-mestô","town"]]
+             ["-markõt","market-town"],["-mündõ","river-mouth"],["-ūsô","works"],["-stedt","stead"],
+             ["-wērder","river-isle"],["-brügg","bridge"],["-kōg","polder"],["-schans","redoubt"],
+             ["-krōg","inn"],["-wik","inlet"],["-fēld","field"],["-hagen","enclosure"]],
+  scand:[["-vīk","bay"],["-nes","cape"],["-ô","island"],["-fjôrd","sea-inlet"],["-sund","strait"],
+         ["-bôd","booth, trading post"],["-hamn","haven"],["-berg","rock"],["-dal","dale"],
+         ["-lund","grove"],["-tôrp","croft"],["-strand","strand"],["-ôyri","gravel-spit"]],
+  slavic:[["-grôd","town"],["-ovô","place of"],["-sk","-town"],["-itsô","little settlement"],
+          ["-pôl","field-town"],["-mīr","peace, world"],["-brôd","ford"],["-vôd","water"],
+          ["-gôr","hill"],["-dôl","valley"],["-lug","meadow"],["-most","bridge"],["-slav","glory"]],
+  baltic:[["-pils","castle"],["-ava","river-town"],["-upõ","stream"],["-kalns","hill"],
+          ["-mestô","town"],["-mūiž","manor"],["-ezer","lake"],["-krôg","inn"],["-tilt","bridge"],
+          ["-sala","island"],["-pēd","footing"]],
+  romance:[["-vīla","chartered estate"],["-kolēgi","college"],["-kastel","castle"],
+           ["-portô","port"],["-kampô","field"],["-vāl","vale"],["-bôrgô","borough"],
+           ["-tôrre","tower"],["-pônte","bridge"],["-badīa","abbey"],["-mūr","wall"]],
+  ottoman:[["-köi","village"],["-hisār","fortress"],["-kale","castle"],["-pazār","market"],
+           ["-limān","harbour"],["-burgāz","tower"],["-ovā","plain"],["-dere","valley"],
+           ["-hān","caravanserai"],["-köprü","bridge"],["-tepe","hill"]],
+  hellenic:[["-pôlis","city"],["-kastrô","fort"],["-hôri","village"],["-limni","lake"],
+            ["-nesô","island"],["-vrisi","spring"],["-pirgô","tower"]],
+  pannonian:[["-vār","castle"],["-falu","village"],["-hely","place"],["-rēv","ford"],
+             ["-hīd","bridge"],["-vārôs","town"],["-halôm","mound"],["-telek","holding"],
+             ["-sziget","island"],["-mezö","field"]],
+  albanian:[["-gur","stone"],["-fushë","plain"],["-mal","mountain"],["-qafë","pass"],["-krôi","spring"]],
+  danubian:[["-ești","folk of"],["-eni","people of"],["-tsetāte","citadel"],["-sat","village"],
+            ["-vale","valley"],["-deal","hill"],["-pôd","bridge"],["-luncā","water-meadow"]]
 };
-const MODS = [["uus","new"],["vana","old"],["sūr","great"],["petīt","little"],["must","black"],
-  ["pūn","red"],["sinī","blue"],["rôhī","green"],["grīs","grey"],["nīrô","bright"],["helē","pale"],
-  ["kivī","stone"],["sōla","salt"],["raud","iron"],["kuld","gold"],["kalā","fish"],["tūļ","wind"],
-  ["nēu","snow"],["jǟ","ice"],["pakā","frost"],["sol","sun"],["kū","moon"],["estēl","star"],
-  ["lain","wave"],["tormô","storm"],["nôrd","north"],["sud","south"],["idā","east"],["lǟn","west"],
-  ["tyhjā","empty"],["krōm","crooked"]];
-/* terrain → the feature-words that fit it, so descriptive names stay truthful */
-/* terrain → LOCATABLE features only. Resources and objects (kalā fish, sōla
-   salt, raud iron, sol sun, vôrk net, akôr anchor) live in MODS: you can be
-   "at the shore" but not "at the fish", and the event strategy puts these in
-   the locative. Keeping the two apart is what stops 'peace at the fish'. */
+/* modifiers, per quarry — a Slavic frontier town does not take a Finnic colour */
+const QMODS = {
+  finnic:[["uus","new"],["vana","old"],["sūr","great"],["petīt","little"],["must","black"],
+    ["pūn","red"],["sinī","blue"],["rôhī","green"],["grīs","grey"],["nīrô","bright"],["helē","pale"],
+    ["kivī","stone"],["sōla","salt"],["raud","iron"],["kuld","gold"],["tūļ","wind"],["nēu","snow"],
+    ["jǟ","ice"],["pakā","frost"],["sol","sun"],["kū","moon"],["estēl","star"],["lain","wave"],
+    ["tormô","storm"],["nôrd","north"],["sud","south"],["idā","east"],["lǟn","west"],["tyhjā","empty"],
+    ["krōm","crooked"],["sügä","deep"],["külmä","cold"],["lāj","wide"],["kitsā","narrow"],
+    ["pitkä","long"],["lyhü","short"],["hōp","silver"],["savi","clay"],["hiek","sand"]],
+  lowgerman:[["nī","new"],["ōld","old"],["grōt","great"],["lütt","little"],["swart","black"],
+    ["rōd","red"],["grön","green"],["witt","white"],["sand","sand"],["sōlt","salt"],["īsen","iron"],
+    ["hōg","high"],["nedder","lower"],["vȫr","fore"],["achter","hind"],["ost","east"],["west","west"],
+    ["nord","north"],["sūd","south"],["blank","shining"],["krumm","bent"],["dūv","dove"],
+    ["stēn","stone"],["mȫl","mill"],["salz","salt"]],
+  scand:[["ny","new"],["gamm","old"],["stōr","great"],["lit","little"],["svart","black"],
+    ["raud","red"],["grön","green"],["hvīt","white"],["djūp","deep"],["brēd","broad"],["lang","long"],
+    ["sand","sand"],["berg","rock"],["kald","cold"],["nôrd","north"],["sör","south"],["vest","west"],
+    ["aust","east"],["mjôl","meal"],["sil","herring"]],
+  slavic:[["nôv","new"],["star","old"],["vel","great"],["mal","little"],["çern","black"],
+    ["kras","red, fair"],["zelen","green"],["bel","white"],["sol","salt"],["žel","iron"],
+    ["gôr","upper"],["dôl","lower"],["krīv","crooked"],["sux","dry"],["mokr","wet"],
+    ["kamen","stone"],["zlat","gold"],["srebr","silver"],["tix","quiet"],["dobr","good"],
+    ["svjat","holy"],["glub","deep"],["xolôd","cold"]],
+  baltic:[["nauj","new"],["sen","old"],["didz","great"],["maz","little"],["meln","black"],
+    ["sarkan","red"],["zaļ","green"],["balt","white"],["akmen","stone"],["dzelz","iron"],
+    ["kalnā","upper"],["lej","lower"],["saus","dry"],["slap","wet"],["liep","linden"],
+    ["priede","pine"],["bērz","birch"],["auks","gold"]],
+  romance:[["nova","new"],["vekjô","old"],["grand","great"],["petsôl","little"],["negrô","black"],
+    ["rossô","red"],["verd","green"],["biankô","white"],["alt","high"],["bass","low"],
+    ["bell","fair"],["mal","ill"],["sant","holy"],["mônt","mount"],["kampô","field"],
+    ["frēd","cold"],["kald","warm"],["larg","broad"],["strett","narrow"],["dôr","gold"],
+    ["arjent","silver"],["pētrô","stone"]],
+  ottoman:[["jeni","new"],["eski","old"],["kara","black"],["ak","white"],["kızıl","red"],
+    ["demīr","iron"],["tuz","salt"],["büjük","great"],["küçük","little"],["jexil","green"],
+    ["altın","gold"],["gümüx","silver"],["sarı","yellow"],["sōuk","cold"],["dar","narrow"],
+    ["gen","wide"],["taxlı","stony"],["su","water"]],
+  hellenic:[["neô","new"],["palē","old"],["megā","great"],["mikrā","little"],["mavrô","black"],
+    ["lefkô","white"],["kokinô","red"],["hlōrô","green"],["hrisô","gold"],["argirô","silver"],
+    ["kalô","fair"],["āgiô","holy"],["patrô","stone"],["psihrô","cold"]],
+  pannonian:[["ūj","new"],["ō","old"],["nagi","great"],["kix","little"],["feketē","black"],
+    ["vörös","red"],["zöld","green"],["fehēr","white"],["vas","iron"],["sō","salt"],
+    ["hedj","hill"],["völdj","valley"],["mezö","field"],["arani","gold"],["hidēg","cold"],
+    ["sāraz","dry"],["nēdes","wet"],["kerek","round"]],
+  danubian:[["nou","new"],["vekj","old"],["mare","great"],["mik","little"],["negru","black"],
+    ["roxu","red"],["verde","green"],["alb","white"],["fier","iron"],["sare","salt"],
+    ["deal","hill"],["vale","valley"],["kâmp","plain"],["aur","gold"],["rēçe","cold"],
+    ["uskāt","dry"],["lung","long"],["lat","wide"]]
+};
+/* terrain → LOCATABLE features only, per quarry-neutral canon senses. Resources
+   and objects live in the modifier banks: you can be "at the shore" but not "at
+   the fish". More features per terrain, or descriptive names collapse. */
 const TERRFEAT = {
-  Sea:[["mer","sea"],["rānd","shore"],["satām","harbour"],["kājô","quay"]],
-  Bay:[["laht","bay"],["mer","sea"],["satām","harbour"]],
-  Lagoon:[["laht","bay"],["rānd","shore"],["satām","harbour"]],
-  Strait:[["sund","strait"],["mer","sea"],["pôrta","gate"]],
-  Spit:[["rānd","shore"],["sār","island"],["nēm","cape"]],
-  Cape:[["nēm","cape"],["nes","cape"],["mer","sea"]],
-  Coast:[["rānd","shore"],["mer","sea"],["satām","harbour"]],
-  Island:[["sār","island"],["hôlm","islet"],["rānd","shore"]],
-  Delta:[["mündõ","river-mouth"],["jôg","river"],["rānd","shore"]],
-  Estuary:[["mündõ","river-mouth"],["laht","bay"],["jôg","river"]],
-  Liman:[["laht","bay"],["mündõ","river-mouth"],["rānd","shore"]],
-  River:[["jôg","river"],["pont","bridge"],["kājô","quay"],["koski","rapids"]],
-  Canal:[["kanā","channel"],["lukkô","lock"],["jôg","river"]],
-  Lake:[["järv","lake"],["rānd","shore"],["satām","harbour"]],
-  Marsh:[["sô","marsh"],["korbi","backwoods"],["jôg","river"]],
-  Forest:[["meçā","forest"],["korbi","backwoods"],["kamī","road"]],
-  Hill:[["kalns","hill"],["kôrg","height"],["põld","field"]],
-  Upland:[["kalns","hill"],["põld","field"],["meçā","forest"]],
-  Highland:[["munt","mountain"],["kalns","hill"],["põld","field"]],
-  Mountain:[["munt","mountain"],["kalns","hill"],["org","valley"]],
-  Valley:[["org","valley"],["jôg","river"],["kamī","road"]],
-  Gorge:[["org","valley"],["pôrta","gate"],["jôg","river"]],
-  Karst:[["org","valley"],["bīr","well"],["põld","field"]],
-  Plateau:[["põld","field"],["kamī","road"],["kalns","hill"]],
-  Basin:[["org","valley"],["põld","field"],["järv","lake"]],
-  Plain:[["põld","field"],["turg","market"],["kamī","road"]],
-  Sand:[["rānd","shore"],["põld","field"],["kamī","road"]],
-  Desert:[["bīr","well"],["kamī","road"],["põld","field"]],
-  Wadi:[["kanā","channel"],["bīr","well"],["org","valley"]],
-  Crater:[["laht","bay"],["munt","mountain"],["satām","harbour"]]
+  Sea:[["mer","sea"],["rānd","shore"],["satām","harbour"],["kājô","quay"],["nēm","cape"],["lax","bay"],["mōl","mole"]],
+  Bay:[["laht","bay"],["mer","sea"],["satām","harbour"],["rānd","shore"],["salmi","sound"],["akôrpaik","anchorage"]],
+  Lagoon:[["laht","bay"],["rānd","shore"],["satām","harbour"],["mudā","flats"],["salmi","sound"]],
+  Strait:[["sund","strait"],["mer","sea"],["pôrta","gate"],["salmi","sound"],["nēm","cape"]],
+  Spit:[["rānd","shore"],["sār","island"],["nēm","cape"],["hiek","sand-bar"],["luidô","dune"]],
+  Cape:[["nēm","cape"],["nes","cape"],["mer","sea"],["torn","tower"],["rānd","shore"]],
+  Coast:[["rānd","shore"],["mer","sea"],["satām","harbour"],["kājô","quay"],["luidô","dune"]],
+  Island:[["sār","island"],["hôlm","islet"],["rānd","shore"],["satām","harbour"],["kirīk","church"]],
+  Delta:[["mündõ","river-mouth"],["jôg","river"],["rānd","shore"],["mudā","flats"],["hārô","branch"]],
+  Estuary:[["mündõ","river-mouth"],["laht","bay"],["jôg","river"],["kājô","quay"],["salmi","sound"]],
+  Liman:[["laht","bay"],["mündõ","river-mouth"],["rānd","shore"],["sōlajärv","salt-lake"]],
+  River:[["jôg","river"],["pont","bridge"],["kājô","quay"],["koski","rapids"],["brôd","ford"],["saar","river-isle"]],
+  Canal:[["kanā","channel"],["lukkô","lock"],["jôg","river"],["kājô","quay"],["pont","bridge"]],
+  Lake:[["järv","lake"],["rānd","shore"],["satām","harbour"],["nēm","cape"],["sār","island"],["läte","spring"]],
+  Marsh:[["sô","marsh"],["korbi","backwoods"],["jôg","river"],["läte","spring"],["kōg","polder"]],
+  Forest:[["meçā","forest"],["korbi","backwoods"],["kamī","road"],["läte","spring"],["raiô","clearing"]],
+  Hill:[["kalns","hill"],["kôrg","height"],["põld","field"],["mäki","rise"],["kirīk","church"]],
+  Upland:[["kalns","hill"],["põld","field"],["meçā","forest"],["kôrg","height"],["mūiž","manor"]],
+  Highland:[["munt","mountain"],["kalns","hill"],["põld","field"],["org","valley"],["läte","spring"]],
+  Mountain:[["munt","mountain"],["kalns","hill"],["org","valley"],["pôrta","pass"],["kivī","crag"]],
+  Valley:[["org","valley"],["jôg","river"],["kamī","road"],["põld","field"],["mūiž","manor"]],
+  Gorge:[["org","valley"],["pôrta","gate"],["jôg","river"],["kivī","crag"],["pont","bridge"]],
+  Karst:[["org","valley"],["bīr","well"],["põld","polje"],["kivī","crag"],["kōbas","cave"]],
+  Plateau:[["põld","field"],["kamī","road"],["kalns","hill"],["bīr","well"],["kôrg","height"]],
+  Basin:[["org","valley"],["põld","field"],["järv","lake"],["läte","spring"],["turg","market"]],
+  Plain:[["põld","field"],["turg","market"],["kamī","road"],["brôd","ford"],["kylä","village"]],
+  Sand:[["rānd","shore"],["põld","field"],["kamī","road"],["hiek","sand"],["luidô","dune"]],
+  Desert:[["bīr","well"],["kamī","road"],["põld","waste"],["kivī","crag"],["kanā","wadi"]],
+  Wadi:[["kanā","channel"],["bīr","well"],["org","valley"],["läte","spring"]],
+  Crater:[["laht","bay"],["munt","mountain"],["satām","harbour"],["kivī","crag"]]
 };
-/* people: reused from the civil-name generator's pools (assets/app.js) */
+/* person names by quarry — expanded, and the missing quarries added */
 const GIVEN = {
-  livonian:["Mārta","Pēter","Līna","Jāns","Märt","Anna","Ilze","Jānis","Mārtiņš","Artūrs","Andres"],
-  lowgerman:["Hans","Grete","Klaus","Trīne","Jürgen","Gesche","Tönnies","Margrete"],
-  slavic:["Ivan","Olga","Dmitri","Natālija","Pavel","Irina","Nikolaj","Marek","Katerina"],
-  romance:["Marc","Clara","Ferran","Carles","Rosa","Jordi","Lluís","Pau","Caterina","Elisa"]
+  finnic:["Mārta","Pēter","Līna","Jāns","Märt","Anna","Ilze","Jānis","Mārtiņš","Artūrs","Andres",
+    "Aino","Väinö","Toivô","Helmi","Urhô","Kaisa","Eerô","Saimi","Tapiô","Kerttu"],
+  lowgerman:["Hans","Grete","Klaus","Trīne","Jürgen","Gesche","Tönnies","Margrete","Hinrik","Wībke",
+    "Detlev","Almut","Cord","Alheyd","Bartold","Metta"],
+  scand:["Ragnar","Sigrid","Halvard","Ingebôrg","Torkel","Åsa","Gunnar","Bôrghild","Svein","Rannveig"],
+  slavic:["Ivan","Olga","Dmitri","Natālija","Pavel","Irina","Nikolaj","Marek","Katerina","Bôgdan",
+    "Zôra","Vlas","Milena","Radômir","Jadviga","Stanislav"],
+  baltic:["Vytautas","Birutė","Kazimieras","Dainora","Algirdas","Rūta","Mindaugas","Guoda",
+    "Ojārs","Zane","Valdis","Laima"],
+  romance:["Marc","Clara","Ferran","Carles","Rosa","Jordi","Lluís","Pau","Caterina","Elisa",
+    "Giacôm","Lucia","Bartôlô","Zuane","Nicolô","Orsôla","Marīn","Franceskô"],
+  ottoman:["Mehmed","Emine","Hüsein","Fatma","Osmān","Ajxe","Ismāil","Zeineb","Murād","Hatidje"],
+  hellenic:["Dimitri","Elenī","Stavrô","Maria","Panajôt","Sôfia","Kôsta","Despinā","Jôrgô","Vasilikī"],
+  albanian:["Gjergj","Donikā","Lekë","Marā","Ndre","Fatimē","Zef","Drandē"],
+  pannonian:["Istvān","Erzsēbet","Lāszlô","Katalin","Mātjās","Ilônā","Gergely","Zsôfiā","Bālint","Anikô"],
+  danubian:["Ștefan","Ilinkā","Vasile","Marīa","Rādu","Ancā","Dumitru","Sāftā","Neagôe","Stankā"]
 };
 const FAMILY = {
-  livonian:["Kivi","Rānd","Sār","Raud","Kolk","Kur","Põder","Jārv","Kosken"],
-  lowgerman:["Smit","Bôrk","Pill","Turm","Strāl","Brün","Müllôr","Torr"],
-  slavic:["Kova","Volk","Lis","Grod","Volkov","Petr"],
-  romance:["Ponte","Ros","Cort","Mar","Pedr","Roch"]
+  finnic:["Kivi","Rānd","Sār","Raud","Kolk","Kur","Põder","Jārv","Kosken","Lain","Nēm","Tūļ",
+    "Kalā","Vôrk","Purjē","Sōla","Meçā","Läte"],
+  lowgerman:["Smit","Bôrk","Pill","Turm","Strāl","Brün","Müllôr","Torr","Kōpman","Bôdeker",
+    "Rēder","Schütt","Wulf","Lübke","Kruse","Hōlst"],
+  scand:["Havstēn","Nôrdby","Sigurd","Strand","Bôdvar","Fjôrd","Lundgren","Vīkar"],
+  slavic:["Kova","Volk","Lis","Grod","Volkov","Petr","Zubar","Mêlnik","Bôndar","Sôkôl",
+    "Ždan","Kalina","Trav","Rîbak"],
+  baltic:["Kalniņš","Bērziņš","Ozols","Liepa","Jankauskas","Petrauskas","Balčius","Vilkas",
+    "Ģērmanis","Sīlis"],
+  romance:["Ponte","Ros","Cort","Mar","Pedr","Roch","Zorzi","Contarīn","Morôsin","Dandôl",
+    "Grimani","Vendramin","Bembô","Falēr","Loredan"],
+  ottoman:["Kôdjā","Demirdji","Tuzdju","Bôstandji","Karamān","Ak-Bey","Sarıoglu","Xahin"],
+  hellenic:["Kômninô","Palēolôg","Vlastô","Kantakuzin","Trikupī","Andrônikô"],
+  albanian:["Dukagjin","Kastriôt","Thôpiā","Zenebix","Muzakā","Arianit"],
+  pannonian:["Kôvāç","Sabô","Tôth","Nemet","Farkas","Bīrô","Halāsz","Mēsāros","Rēvēsz","Vārhedji"],
+  danubian:["Munteān","Popā","Kôjôkāru","Fierāru","Lupu","Barbu","Ursu","Dobre","Vlādut"]
 };
-const TITLES = [["amirāl","admiral","who broke the blockade off this coast"],
-  ["generāl","general","who held the line here through one winter"],
-  ["direktôr","company director","who financed the first quay"],
-  ["rektôr","rector","who chartered the school before the town"],
-  ["posādnik","trade-city head","who ran the counting-house for forty years"],
-  ["batle","mayor","the first to be elected, and the last to be forgiven"],
-  ["mytnik","toll-taker","whose ledgers are the town's oldest paper"],
-  ["lōts","pilot","who charted the approach nobody else would take"]];
-const EVENTS = [["traktāt","treaty","a treaty signed here"],["batāl","battle","a battle fought here"],
-  ["vrak","wreck","a ship lost on the approach"],["brand","fire","the fire that took the old town"],
-  ["ūv","flood","the flood the dykes did not hold"],["pest","plague","the plague year"],
-  ["mirakôl","miracle","a miracle attested in the parish book"],
-  ["turg","market","the spring market that used to be held here"],
-  ["vôrk","the catch","the season the nets came in full"],
-  ["frid","peace","the peace concluded at this crossing"]];
-const SAINTS = ["Amīk","Mārta","Pēter","Jāns","Anna","Klarā","Nikolaj","Katerinā","Laurēns","Mīkel"];
-/* accidents: [name-fragment, gloss, story] */
-const MARGINALIA = [["Äbtīd","not known","a surveyor's marginal 'not known' copied as the name"],
+/* offices, with SEVERAL deeds each so the same title is not the same story */
+const TITLES = [
+  ["amirāl","admiral",["who broke the blockade off this coast","who lost half a squadron in the shoals and was pardoned anyway",
+    "who charted the roads nobody else would enter","whose flag still hangs in the customs hall"]],
+  ["generāl","general",["who held the line here through one winter","who never fought here but retired here",
+    "who quartered eight thousand men on the town and was thanked for it","who paid the garrison out of his own purse"]],
+  ["direktôr","company director",["who financed the first quay","who bought the whole valley and then died",
+    "who moved the works here against every survey","whose signature is on the founding charter"]],
+  ["rektôr","rector",["who chartered the school before the town","who taught forty years and refused a bishopric",
+    "who left his library to the borough","who argued the town's case at court and won"]],
+  ["posādnik","trade-city head",["who ran the counting-house for forty years","who kept the gauge honest when nobody was watching",
+    "who was twice removed and twice reinstated","who wrote the by-laws the state later copied"]],
+  ["batle","mayor",["the first to be elected, and the last to be forgiven","who drained the marsh at municipal expense",
+    "who is remembered for a bridge and a scandal","who held the seat through three changes of flag"]],
+  ["mytnik","toll-taker",["whose ledgers are the town's oldest paper","who undercounted for twenty years and was loved for it",
+    "who built the weighhouse that still stands","who caught the great salt fraud"]],
+  ["lōts","pilot",["who charted the approach nobody else would take","who took the first deep-draught ship over the bar",
+    "who died on the bar and has a light named for him","who knew the channel by the sound of it"]],
+  ["kapitān","captain",["who wintered here with a broken keel and never left","who brought the first cargo and the first plague",
+    "whose crew founded half the parish","who is buried under the chapel floor"]],
+  ["kanônik","canon",["who kept the register through the fire","who founded the almshouse",
+    "who excommunicated the whole council once","who copied the charter by hand when the seal was lost"]],
+  ["injenēr","engineer",["who cut the lock and drowned proving it","who moved a river fifty paces",
+    "who built the mole against advice, and it held","whose survey stakes became the street plan"]],
+  ["voivôd","voivode",["who granted the market right","who fortified it and then abandoned it",
+    "who settled two hundred families here in one autumn","who is remembered for the tax and not the wall"]]
+];
+const EVENTS = [
+  ["traktāt","treaty",["a treaty signed here","the peace conference nobody expected to hold"]],
+  ["batāl","battle",["a battle fought here","a skirmish that got called a battle"]],
+  ["vrak","wreck",["a ship lost on the approach","the wreck that closed the channel for a season"]],
+  ["brand","fire",["the fire that took the old town","the fire that started in the rope-walk"]],
+  ["ūv","flood",["the flood the dykes did not hold","the year the river changed its bed"]],
+  ["pest","plague",["the plague year","the quarantine that lasted three winters"]],
+  ["mirakôl","miracle",["a miracle attested in the parish book","the weeping ikon and the crowd it drew"]],
+  ["turg","market",["the spring market that used to be held here","the fair that outgrew the town"]],
+  ["vôrk","the catch",["the season the nets came in full","the run of herring that paid for the church"]],
+  ["frid","peace",["the peace concluded at this crossing","the truce that held for ninety years"]],
+  ["sīgel","the seal",["the charter sealed on this spot","the day the town got its own seal"]],
+  ["mutin","the mutiny",["the mutiny of the salt-carters","the rising the garrison joined"]],
+  ["kômet","the comet",["the comet the whole district saw","the star that stood over the harbour"]],
+  ["jǟtalv","the hard winter",["the winter the lagoon froze to the bar","the ice-year the wolves came in"]],
+  ["skuld","the debt",["the debt that ruined the founding house","the bankruptcy that transferred the charter"]]
+];
+const SAINTS = ["Amīk","Mārta","Pēter","Jāns","Anna","Klarā","Nikolaj","Katerinā","Laurēns","Mīkel",
+  "Sīmôn","Elenī","Vīt","Barbarā","Dômnik","Ursulā","Blāsi","Margrete","Rôk","Panteleimôn",
+  "Spiridôn","Genovēv","Kôsmā","Damiān"];
+const MARGINALIA = [
+  ["Äbtīd","not known","a surveyor's marginal 'not known' copied as the name"],
   ["Näekartô","see the chart","a cross-reference on the draft sheet, copied as the name"],
   ["Tyhjä","blank","the name-field was left blank, and 'blank' was filed as the name"],
   ["Samasô","the same","a clerk's ditto mark read as a word"],
-  ["Kaksrūnô","two letters","a two-letter abbreviation nobody could expand"]];
-
-/* A purpose-built site has no inherited name — so Nelôxia founds it instead.
-   The question is never "would it exist" but WHO founded it, WHEN, and WHY. */
-const FOUNDING_ERAS = {
- hanseatic:["a charter granted to a trading company; the works came before the town"],
- charter:["a crown or company foundation, laid out on a surveyor's grid"],
- rail:["a rail-and-industry foundation — the state laid the line, then the town"],
- federal:["a federal new town: planned housing, a technical school, and one industry"]
-};
+  ["Kaksrūnô","two letters","a two-letter abbreviation nobody could expand"],
+  ["Äbmērk","unmarked","the sheet said 'unmarked' where the name should have been"],
+  ["Kolôn","the column","a column heading slipped down into the entry row"],
+  ["Vīdesô","folio four","the folio number was read as the settlement's name"],
+  ["Ütsluk","one gap","the gap left for a name was itself given a name"],
+  ["Sammô","ditto","the ditto of a ditto, three towns down the page"],
+  ["Provīs","provisional","the word stamped on the draft sheet outlived the draft"],
+  ["Krôsdôr","crossed out","the crossed-out entry was the one that got copied"]
+];
 const FOUNDERS = [
  ["the Chamber","chartered the works and took the naming right with it"],
  ["a shipping house","put its own money in the quay and its own name on the gate"],
  ["the Service","planned it — a podestā's grid, drawn before anyone lived there"],
  ["a guild of masters","moved a whole trade here in one season"],
  ["the Fleet","needed the yard, and the town followed the yard"],
- ["the rail company","named it after its own junction number until the name stuck"]
+ ["the rail company","named it after its own junction number until the name stuck"],
+ ["a salt monopoly","held the licence and built housing to keep its carters"],
+ ["the College","put a technical school here first and the town grew round it"],
+ ["a mining concession","sank the shafts and laid out four streets"],
+ ["an insurance syndicate","underwrote the harbour and got the charter in return"],
+ ["a religious house","held the land and let the market onto it"],
+ ["the customs board","needed a post, and the post needed a town"]
 ];
-function foundingNote(c,era){
-  const e=FOUNDING_ERAS[era]||FOUNDING_ERAS.charter, f=pick(FOUNDERS);
-  return `a Nelôxian foundation, not an inherited town${c.founds_what?" — "+c.founds_what:""}: ${e[0]}. ${up(f[0])} ${f[1]}.`;
+
+/* pick a modifier from a quarry the region actually draws on */
+function modOf(cults){
+  const q=pick(cults), b=QMODS[q]||QMODS.finnic;
+  return pick(b);
 }
+function headIn(q){ const h=HEADS[q]||HEADS.finnic; return pick(h); }
 
 const REGPROF = {
- "Karelia & the North":{cult:["finnic","scand"],ch:"reserve",
+ "Karelia & the North":{cult:["finnic","scand","slavic"],ch:"reserve",
    w:{patron:6,event:8,desc:30,trans:6,folk:12,saint:2,acc:6,keep:30}},
- "Livonian Core":{cult:["finnic","baltic"],ch:"interior",
+ "Livonian Core":{cult:["finnic","baltic","lowgerman"],ch:"interior",
    w:{patron:5,event:6,desc:16,trans:5,folk:16,saint:3,acc:7,keep:42}},
- "Lithuanian Spine":{cult:["baltic","finnic","lowgerman"],ch:"port",
+ "Lithuanian Spine":{cult:["baltic","lowgerman","finnic","slavic"],ch:"port",
    w:{patron:12,event:8,desc:14,trans:10,folk:12,saint:4,acc:6,keep:34}},
- "Prussian–Pomeranian Coast":{cult:["lowgerman","finnic","scand"],ch:"port",
+ "Prussian–Pomeranian Coast":{cult:["lowgerman","scand","baltic","finnic"],ch:"port",
    w:{patron:20,event:10,desc:18,trans:14,folk:8,saint:5,acc:6,keep:19}},
- "Eastern Corridor":{cult:["slavic","baltic"],ch:"frontier",
+ "Eastern Corridor":{cult:["slavic","baltic","danubian"],ch:"frontier",
    w:{patron:8,event:22,desc:12,trans:6,folk:14,saint:4,acc:8,keep:26}},
- "Moldavian Arc & Black Sea":{cult:["slavic","romance","finnic"],ch:"frontier",
+ "Moldavian Arc & Black Sea":{cult:["danubian","slavic","ottoman","hellenic","finnic"],ch:"frontier",
    w:{patron:12,event:18,desc:12,trans:12,folk:10,saint:8,acc:7,keep:21}},
- "Pannonian Bridge":{cult:["slavic","baltic"],ch:"interior",
+ "Pannonian Bridge":{cult:["pannonian","lowgerman","slavic"],ch:"interior",
    w:{patron:6,event:8,desc:10,trans:5,folk:18,saint:6,acc:8,keep:39}},
- "Alpine–Adriatic Arm":{cult:["lowgerman","romance"],ch:"romance",
+ "Alpine–Adriatic Arm":{cult:["lowgerman","romance","slavic"],ch:"romance",
    w:{patron:12,event:8,desc:14,trans:8,folk:10,saint:16,acc:6,keep:26}},
- "Dalmatian Coast":{cult:["romance","slavic"],ch:"romance",
+ "Dalmatian Coast":{cult:["romance","slavic","hellenic"],ch:"romance",
    w:{patron:14,event:8,desc:12,trans:12,folk:8,saint:20,acc:6,keep:20}},
- "Western Alpine & Riviera Arc":{cult:["romance"],ch:"romance",
+ "Western Alpine & Riviera Arc":{cult:["romance","lowgerman"],ch:"romance",
    w:{patron:16,event:8,desc:10,trans:12,folk:8,saint:22,acc:6,keep:18}},
- "Thracian–Macedonian Corridor":{cult:["slavic","romance"],ch:"frontier",
+ "Thracian–Macedonian Corridor":{cult:["ottoman","hellenic","slavic","albanian"],ch:"frontier",
    w:{patron:8,event:18,desc:10,trans:6,folk:14,saint:10,acc:8,keep:26}},
- "Sevastopol · Federal City":{cult:["finnic","romance"],ch:"port",
+ "Sevastopol · Federal City":{cult:["finnic","hellenic","slavic","romance"],ch:"port",
    w:{patron:24,event:14,desc:24,trans:8,folk:4,saint:4,acc:4,keep:18}}
 };
 const ERAS = {
@@ -374,11 +501,11 @@ function rollExonym(nx,ctx,gloss,keep){
    WHY the name exists, which is what makes a candidate pickable.            */
 const STRAT = {
  patron(c){
-   const cult=pick(c.cults), t=pick(TITLES);
+   const cult=pick(c.cults), t0=pick(TITLES), t=[t0[0],t0[1],pick(t0[2])];
    const fam=pick(FAMILY[cult]||FAMILY.livonian), giv=pick(GIVEN[cult]||GIVEN.livonian);
    const r=Math.random();
    if(r<.45){ const h=headOf(c.cults);
-     return {nx:joinHead(fam,h[0]),layer:"hybrid",strategy:"patron",
+     return {nx:joinHead(fam,h[0]),layer:"hybrid",strategy:"patron",head:h[0],
        story:`for ${t[1]} ${giv} ${fam}, ${t[2]}; the ${h[1]} took the family name.`}; }
    if(r<.7){ const h=headOf([cult==="slavic"?"slavic":"finnic"]);
      return {nx:joinHead(t[0],h[0]),layer:"native",strategy:"patron",
@@ -389,7 +516,7 @@ const STRAT = {
      story:`a crown foundation — kunis- 'king's', the same element as Kunislinnô.`};
  },
  event(c){
-   const e=pick(EVENTS), r=Math.random();
+   const e0=pick(EVENTS), e=[e0[0],e0[1],pick(e0[2])], r=Math.random();
    if(r<.4){ const h=headOf(c.cults);
      return {nx:joinHead(e[0],h[0]),layer:"native",strategy:"event",
        story:`${e[2]}; the ${h[1]} kept the word and lost the memory.`}; }
@@ -397,18 +524,29 @@ const STRAT = {
      return {nx:up(e[0])+loc(f[0]),layer:"native",strategy:"event",
        story:`${e[2]} — literally '${e[1]} at the ${f[1]}'. Fossilized as one word.`}; }
    /* fossilization: clip the phrase until it stops meaning anything */
-   const f=featOf(c.terrain), full=up(e[0])+f[0];
-   return {nx:full.slice(0,Math.max(5,full.length-2)),layer:"native",strategy:"event",
-     story:`${e[2]}. The full phrase was '${e[1]} ${f[1]}' — four centuries clipped it to this, and nobody now hears the event in it.`};
+   /* fossilize by dropping the HEAD's tail at a vowel, not by truncating blind */
+   const f=featOf(c.terrain), stem=up(e[0]);
+   /* wear the ending off at a syllable boundary, but never down to a stump:
+      a 2-letter remnant reads as a typo, not as erosion */
+   let tail=f[0].replace(/^([^aeiouäöüõôāēīōū]*[aeiouäöüõôāēīōū][^aeiouäöüõôāēīōū]?).*/, "$1");
+   if(tail.length<3) tail=f[0];
+   const nx=stem+tail;
+   return {nx:nx,layer:"native",strategy:"event",
+     story:`${e[2]}. The full phrase was '${e[1]} ${f[1]}' — four centuries wore the ending off it, and nobody now hears the event in the name.`};
  },
  desc(c){
    const f=featOf(c.terrain), r=Math.random();
-   if(r<.5){ const m=pick(MODS);
-     return {nx:up(m[0])+f[0],layer:"native",strategy:"descriptive",
-       story:`plain description: '${m[1]} ${f[1]}'. What the first surveyors wrote down.`}; }
-   const h=plainHeadOf(c.cults), m=pick(MODS);
-   return {nx:joinHead(m[0],h[0]),layer:c.cults[0]==="finnic"?"native":"hybrid",strategy:"descriptive",
-     story:`'${m[1]} ${h[1]}' — the feature that mattered when the charter was drawn.`};
+   const m=modOf(c.cults);
+   const phrase=pick([
+     "what the first surveyors wrote down","the entry in the oldest land-roll",
+     "how the carters asked for it, and it stuck","the name on the earliest toll-list",
+     "plain description, never improved on","what the place was called before anyone wrote it down"]);
+   if(r<.5)
+     return {nx:up(m[0])+f[0],layer:"native",strategy:"descriptive",head:f[0],
+       story:`'${m[1]} ${f[1]}' — ${phrase}.`};
+   const h=plainHeadOf(c.cults);
+   return {nx:joinHead(m[0],h[0]),layer:c.cults[0]==="finnic"?"native":"hybrid",strategy:"descriptive",head:h[0],
+     story:`'${m[1]} ${h[1]}' — ${phrase}.`};
  },
  trans(c){
    const donors=CITIES.filter(d=>d.nelox&&d.region!==c.region);
@@ -420,18 +558,47 @@ const STRAT = {
    if(r<.7) return {nx:"Nova "+d.nelox,layer:"hybrid",strategy:"transferred",
      story:`the Romance settler-pattern 'Nova + homeland', as Nova Trentô. The founders came from ${d.nelox} (${d.site}).`};
    return {nx:d.nelox,layer:"native",strategy:"transferred",
-     story:`the name travelled and the meaning did not: carried whole from ${d.nelox} (${d.site}) by its founders, ${Math.random()<.5?"and most people here have no idea it is a borrowed name":"who never explained it"}.`};
+     story:`the name travelled and the meaning did not: carried whole from ${d.nelox} (${d.site}) by its founders, `+
+       pick(["and most people here have no idea it is a borrowed name",
+         "who never explained it and were never asked",
+         "and the two towns have been confused in the post ever since",
+         "as a claim of continuity that nobody now remembers making"])+"."};
  },
  folk(c){
-   /* the local name misheard and re-analysed as Nelôxi words it resembles,
-      producing a confident WRONG meaning nobody questions */
-   const src=((c.anachronism?c.local_hint:"")||c.site||"").replace(/[^A-Za-zÀ-ɏ]/g," ").split(" ")[0]||"Nam";
-   const a=src.slice(0,2).toLowerCase();
-   let m=MODS.filter(x=>x[0][0]===a[0]); if(!m.length) m=MODS;
-   const w=pick(m), f=featOf(c.terrain);
-   const nx=up(w[0])+f[0];
-   return {nx:nx,layer:"nativized",strategy:"folk-etymology",
-     story:`nobody renamed it — '${src}' was simply misheard as ${w[0]} '${w[1]}' + ${f[0]} '${f[1]}', and the wrong reading has been the official one so long that the false meaning is taught in the local school.`};
+   /* the local name misheard and re-analysed as words it actually resembles.
+      Scored across EVERY quarry the region draws on — matching on first letter
+      alone locked every M-town onto the single M-modifier. */
+   const src=((c.anachronism?c.local_hint:"")||c.site||"Nam").replace(/[^A-Za-zÀ-ɏ]/g,"");
+   const low=src.toLowerCase();
+   const pool=[];
+   c.cults.forEach(q=>{ (QMODS[q]||[]).forEach(m=>pool.push(m)); });
+   (TERRFEAT[c.terrain]||[]).forEach(m=>pool.push(m));
+   const score=(w,chunk)=>{
+     let n=0; const a=w.toLowerCase();
+     while(n<a.length&&n<chunk.length&&a[n]===chunk[n]) n++;
+     if(n===0&&a[0]===chunk[0]) n=1;
+     return n;
+   };
+   /* split the source somewhere in the middle and re-analyse both halves */
+   const cut=Math.max(2,Math.min(low.length-1,2+Math.floor(Math.random()*3)));
+   const head=low.slice(0,cut), tail=low.slice(cut);
+   const rank=(chunk)=>{
+     const scored=pool.map(w=>[w,score(w[0],chunk)]).filter(x=>x[1]>0)
+                      .sort((a,b)=>b[1]-a[1]);
+     if(!scored.length) return pick(pool);
+     const best=scored[0][1];
+     const tier=scored.filter(x=>x[1]>=Math.max(1,best-1));
+     return pick(tier)[0];
+   };
+   const a=rank(head), b=rank(tail);
+   const f=(a===b)?featOf(c.terrain):b;
+   const nx=up(a[0])+f[0];
+   return {nx:nx,layer:"nativized",strategy:"folk-etymology",head:f[0],
+     story:pick([
+       `nobody renamed it — '${src}' was misheard as ${a[0]} '${a[1]}' + ${f[0]} '${f[1]}', and the wrong reading has been the official one so long that the false meaning is taught in the local school.`,
+       `a re-analysis, not a renaming: '${src}' sounded enough like ${a[0]} '${a[1]}' + ${f[0]} '${f[1]}' that the clerks wrote what they heard, and the town has explained itself that way ever since.`,
+       `the folk etymology won. '${src}' has nothing to do with ${a[1]} or ${f[1]}, but the arms show both, and arguing with the arms is a losing case.`,
+       `the name was reinterpreted within a generation of the accession — '${src}' became ${a[0]} '${a[1]}' + ${f[0]} '${f[1]}', which is wrong, and is now the etymology on the town's own signage.`])};
  },
  saint(c){
    const s=pick(SAINTS), r=Math.random();
@@ -453,10 +620,18 @@ const STRAT = {
      const cut=src.slice(0,Math.max(3,Math.ceil(src.length/2)));
      return {nx:up(cut)+"ô",layer:"nativized",strategy:"accident",
        story:`the copyist's hand ran off the edge of the sheet: '${src}' was entered as this, and the truncation was never queried.`}; }
+   /* metathesis of an INTERIOR consonant cluster — how Xerez became sherry —
+      not a first-letter swap, which just reads as a typo */
    const src=((c.anachronism?c.local_hint:"")||c.site||"Nam").replace(/[^A-Za-zÀ-ɏ]/g,"");
-   const sw=src.length>3?src.slice(0,1)+src[2]+src[1]+src.slice(3):src;
+   let sw=src;
+   const m2=/^(.{2,}?)([aeiouAEIOU])([bcdfgklmnprstvz])([aeiouAEIOU])/.exec(src);
+   if(m2) sw=m2[1]+m2[3]+m2[2]+m2[4]+src.slice(m2[0].length);
+   else if(src.length>4) sw=src.slice(0,2)+src[3]+src[2]+src.slice(4);
+   if(sw===src) return STRAT.desc(c);
    return {nx:up(sw.toLowerCase()),layer:"nativized",strategy:"accident",
-     story:`two letters transposed in the first printed atlas. The atlas outsold the correction.`};
+     story:pick([`two syllables changed places in the first printed atlas, and the atlas outsold its own correction.`,
+       `the name was reversed in the mouth before it was reversed on the map — the way Xerez became sherry.`,
+       `a compositor set the cluster backwards; nobody with authority read the proof.`])};
  },
  found(c){
    /* the state builds a town: name it for the works, the founder, or the year */
@@ -488,13 +663,26 @@ const STRAT = {
      return {nx:sub,layer:"raw loan",strategy:"retained",keep:true,
        story:`keep the substrate name — NOT "${c.site}", which never existed in this timeline (${c.anachronism}) The locals went on calling it ${sub}, and the state saw no reason to change it.`};
    }
-   const why = c.ch==="interior"
-     ? "the gravity principle: the Finnic layer belongs to the water, and this is estate-and-upland country. The state never had a reason to rename it."
-     : c.ch==="frontier"
-     ? "an inland seam — the corridor's names stay raw and Slavic by design; renaming here would read as erasure, not administration."
-     : c.ch==="romance"
-     ? "the route already had a name in the language of whoever charted the coast, and the merchants kept using it."
-     : "held raw as a fossil: the spelling preserves whoever named the place, foreign scars and all.";
+   const why = pick({
+     interior:["the gravity principle: the Finnic layer belongs to the water, and this is estate-and-upland country — the state never had a reason to rename it.",
+       "an estate name, and estates outlast administrations. The rent-roll kept the spelling and so did everyone else.",
+       "too small to be worth a charter and too old to be worth changing; the parish register simply never updated.",
+       "the landowners were here before the state and are still here; their name for it is the one on the deeds."],
+     frontier:["an inland seam — the corridor's names stay raw by design; renaming here would read as erasure, not administration.",
+       "a border town keeps its own name as a matter of pride, and the customs house found it easier to print than to argue.",
+       "two languages already called it this, which made it the one thing nobody was fighting about.",
+       "the gauge changed here but the name did not — the state's interest stopped at the rails."],
+     romance:["the route already had a name in the language of whoever charted the coast, and the merchants kept using it.",
+       "the notaries wrote it this way for four hundred years, and the notaries outlasted three flags.",
+       "the shipping registers are the real authority here, and they never re-registered the town.",
+       "the saint's day is named for it, not the other way round; you cannot rename a feast."],
+     reserve:["the deep native layer already named it, and the name is older than the administration reading it.",
+       "the Karelian form was the local form and the state's clerks were local; nothing needed translating.",
+       "kept because it was already Finnic — this is the one region where the substrate and the state agree."],
+     port:["a name on every manifest in the Baltic is not worth changing; the freight would not have followed.",
+       "the harbour was known by this name in four counting-houses before the state held it.",
+       "the pilots' charts said this, and you do not re-letter a chart lightly."]
+   }[c.ch]||["held raw as a fossil: the spelling preserves whoever named the place, foreign scars and all."]);
    return {nx:c.site,layer:"raw loan",strategy:"retained",story:why,keep:true};
  }
 };
@@ -628,9 +816,14 @@ function draw(){
     exostory:"the same form abroad — a route name is already an international name.",
     story:`the genuine historical / trade-route form on record for this place — the name the routes actually carried.`});
   /* eight DISTINCT candidates — a repeated name wastes a card */
-  for(let guard=0; out.length<8 && guard<80; guard++){
+  /* eight DISTINCT candidates — and not three variations on the same head, which
+     is what made a roll read as repetitive even when the names differed */
+  for(let guard=0; out.length<8 && guard<160; guard++){
     const r=roll(ctx,prof,era);
-    if(!out.some(o=>o.nx===r.nx)) out.push(r);
+    if(out.some(o=>o.nx===r.nx)) continue;
+    if(r.head && out.filter(o=>o.head===r.head).length>=1 && guard<110) continue;
+    if(out.filter(o=>o.key===r.key).length>=3 && guard<130) continue;
+    out.push(r);
   }
   /* guarantee the keep-local option is present */
   if(ctx.founding!=="foundation"&&!out.some(o=>o.key==="keep")&&ctx.site){
