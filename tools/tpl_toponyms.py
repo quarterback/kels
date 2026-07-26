@@ -94,8 +94,7 @@ textarea{width:100%;margin-top:12px;min-height:130px;padding:12px;font-family:ui
     <h1 class="title">Nel<span class="o">ô</span>xia <span style="color:var(--ink3);font-weight:700">·</span> city-name roller</h1>
     <span class="kicker">TOPONYM GENERATOR</span>
   </div>
-  <p class="tagline">Rolls candidate Nelôxi names on a weighted table of <b>seven naming strategies</b> — patron, event, descriptive, transferred, folk-etymology, saint, accident — plus <b>keeping the local name</b>. Weighted by region and era, because a coastal port and an inland estate town do not get named the same way. Every candidate carries the <b>story of why the name exists</b>; you pick, the generator only proposes.</p>
-  <p class="tagline" style="margin-top:8px"><b>Two decisions, in order.</b> First the Nelôxi name. <b>Then</b> the exonym — what the outside world calls it — because that depends on the name you chose: it can anglicize it, calque its meaning, or refuse it and keep an older form entirely. Picking a name does not commit you to an exonym, and nothing enters the basket until both steps are done or you explicitly defer the second.</p>
+  <p class="tagline">Name, then exonym. Weighted by region and era.</p>
 </header>
 
 <div class="panel">
@@ -118,17 +117,6 @@ textarea{width:100%;margin-top:12px;min-height:130px;padding:12px;font-family:ui
   <div id="bwrap"></div>
 </div>
 
-<p class="foot">
-  <b>The rule this tool exists to enforce.</b> A Nelôxi name must differ from the local name by
-  <b>meaning or morphology, never by decoration</b> — <i>Milano → Milān</i> is not a name, it is the
-  same name with diacritics. Every candidate here is either composed from canon elements, digested
-  with a real sound change, a genuine historical/route name, or the local name deliberately kept.
-  <b>Guards:</b> <i>î û â</i> are rejected outright (they exist in neither source nor Nelôxi —
-  gazetteer.md); name-senses respect §146 (the sea is <i>mer</i> not <i>merd</i>, the quay
-  <i>kājô</i> not <i>lōd</i>, the bridge <i>pont</i> not <i>sildô</i>).
-  <b>Out of scope:</b> the Yemeni Commonwealth — its toponymy stays Arabic by ruling, a Nelôxi
-  overlay sitting <i>beside, never over</i> the local name.
-</p>
 </div>
 
 <script>
@@ -1024,7 +1012,6 @@ function renderCards(out,ctx){
     return `<div class="card${o.key==="keep"?" keep":""}">
       <div class="nx">${esc(o.nx)}</div>
       <div class="story">${esc(o.story)}</div>
-      <div class="exo">exonym chosen next — <b>the options are derived from this name</b>, so a different name gives different ones.</div>
       <div class="tags">
         <span class="tag s">${esc(LABEL[o.key]||o.strategy)}</span>
         <span class="tag l">${esc(o.layer)}</span>
@@ -1060,8 +1047,7 @@ function drawPending(){
   w.innerHTML=
     `<div class="panel"><div style="margin-bottom:12px">You chose <span class="nx" style="font-size:22px">${esc(pending.nx)}</span> for <b>${esc(pending.site)}</b>.
      <div class="story" style="margin-top:6px">${esc(pending.story)}</div>
-     <div style="margin-top:10px;font-size:11px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--ink3)">Now: what does the rest of the world call it?</div>
-     <div class="story" style="margin-top:6px">Every option below is generated <b>from ${esc(pending.nx)}</b> — anglicizing it, calquing its meaning, or refusing it in favour of an older form. <b>Cancel and pick a different name and this whole list changes.</b> Nothing is recorded until you choose here or defer.</div></div>
+     <div style="margin-top:10px;font-size:11px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--ink3)">Exonym</div></div>
      <div class="cards">`+
     pending.opts.map((o,i)=>`<div class="card">
        <div class="nx" style="font-size:21px">${esc(o.ex)}</div>
@@ -1071,8 +1057,7 @@ function drawPending(){
      </div>`).join("")+
     `<div class="card keep">
        <div class="nx" style="font-size:21px;color:var(--ink4)">— open</div>
-       <div class="story">Leave the exonym undecided for now. The name is recorded; the outside form stays an open docket.</div>
-       <div class="tags"><span class="tag">deferred</span></div>
+       <div class="tags"><span class="tag">defer</span></div>
        <button class="take" data-x="-1">Decide later</button>
      </div></div>
      <div class="bactions"><button class="take" id="pcancel">Cancel this pick</button></div>`;
