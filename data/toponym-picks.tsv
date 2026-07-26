@@ -1,12 +1,45 @@
-# Ratified toponym picks. Roll candidates in toponyms.html, copy the basket as
-# TSV, paste the rows below, then run:  python3 tools/build_settlements.py
-#
-# Columns:  site <TAB> nelox <TAB> exonym <TAB> layer <TAB> strategy <TAB> gloss
-#
-# Nothing is canon until the founder puts it here — the roller only proposes.
-# Regions that keep their local toponymy by ruling (the Yemeni Commonwealth) are
-# refused automatically, with a message.
-#
-# Example of the format (commented out — not ratified):
-# Sevastopol	Merbôrk	Sevastopol	native	Patron	sea-fortress (mer + -bôrk), the Fleet seat
-site	nelox	exonym	layer	strategy	gloss
+# Ratified toponym picks. Roll in toponyms.html, copy the basket, paste rows here,
+# then run: python3 tools/build_settlements.py
+site	nelox	exonym	layer	strategy	gloss	local
+Vyborg	Vyborg	Viborg	raw loan	Keep local	the Karelian form was the local form and the state's clerks were local; nothing needed translating.	Vyborg
+Petrozavodsk	Lundgrenlund	Petroskoi	hybrid	Patron	for mayor Rannveig Lundgren, who is remembered for a bridge and a scandal; the grove took the family name.	Petroskoi
+Kondopoga	Elbinki	Elbinki	native	Transferred	the name travelled and the meaning did not: carried whole from Elbinki (Elbląg) by its founders.	Kondupohja
+Segezha	Silô	Segeža	native	Foundation	a Nelôxian foundation, not an inherited town — canal-side timber and mill town.	Segeža
+Kostomuksha	Bergmark	Kostamus	native	Descriptive	'rock market' — the entry in the oldest land-roll.	Kostamus
+Sortavala	Sortavala	Sortavala	raw loan	Keep local	the Karelian form was the local form; nothing needed translating.	Sortavala
+Olonets	Aunus	Aunus	raw loan	Keep local	keep the substrate name — NOT "Olonets", which never existed in this timeline.	Aunus
+Belomorsk	Soroka		raw loan	Keep local	keep the substrate name — NOT "Belomorsk" (Soviet 1938); the town was Soroka.	Soroka
+Priozersk	Kexhôlm	Kexholm	raw loan	Historical	the genuine historical / trade-route form on record for this place.	Käkisalmi
+Kem	Litberg	Litberg	native	Descriptive	'little rock' — the entry in the oldest land-roll.	Kemi
+Kuressaare	Kaltstedt	Kuressaare	nativized	Folk-etymology	a re-analysis: 'Kuressaare' sounded enough like kalt 'cold' + stedt 'stead'.	Kuressaare
+Valga	Valga	Valga	raw loan	Keep local	the gravity principle: estate-and-upland country; no reason to rename it.	Valga
+Võru	Võru	Võru	raw loan	Keep local	an estate name, and estates outlast administrations.	Võru
+Aizkraukle	Altrānd	Aizkraukle	nativized	Folk-etymology	a re-analysis: 'Aizkraukle' sounded enough like alt 'old' + rānd 'shore'.	
+Gulbene	Gulbene	Gulbene	raw loan	Keep local	too small to be worth a charter and too old to be worth changing.	Gulbene
+Madona	Madona	Madona	raw loan	Keep local	an estate name, and estates outlast administrations.	Madona
+Põlva	Sammô	Sammo	native	Accident	the ditto of a ditto, three towns down the page — it means 'ditto'.	
+Smiltene	Keidani	Keidani	native	Transferred	carried whole from Keidani (Kėdainiai) by its founders.	
+Kärdla	Kärdla	Kärdla	raw loan	Keep local	too small to be worth a charter and too old to be worth changing.	Kärdla
+Kaunas	Kaunas		raw loan	Keep local	a name on every manifest in the Baltic is not worth changing.	Kaunas
+Klaipėda	Klaipėda		raw loan	Keep local	the pilots' charts said this, and you do not re-letter a chart lightly.	Klaipėda
+Šiauliai	Nēmbarg	Shavli	hybrid	Patron	for engineer Ilze Nēm, who cut the lock and drowned proving it.	
+Alytus	Achterpont	Alytus	nativized	Folk-etymology	the folk etymology won; the arms show hind and bridge both.	
+Marijampolė	Marijampolė	Mariampol	raw loan	Keep local	the harbour was known by this name in four counting-houses.	Marijampolė
+Jonava	Nova Tilsit		hybrid	Transferred	the Romance settler-pattern 'Nova + homeland'. The founders came from Tilsit (Sovetsk).	
+Kėdainiai	Kėdainiai	Keidany	raw loan	Keep local	the pilots' charts said this, and you do not re-letter a chart lightly.	Kėdainiai
+Tauragė	Naujlinnô	Newburgh	hybrid	Descriptive	'new fortress' — how the carters asked for it, and it stuck.	
+Palanga	Palanga	Polangen	raw loan	Keep local	the pilots' charts said this, and you do not re-letter a chart lightly.	Palanga
+Radviliškis	Sent Margrete	Radziwiliszki	hybrid	Saint	the parish predates the town: Saint Margrete's.	
+Raseiniai	Akmendôrp	Rossieny	hybrid	Descriptive	'stone village' — what the first surveyors wrote down.	
+Kelmė	Nôwakovô	Nôwak	hybrid	Patron	Slavic possessive: 'Nôwak's place'.	
+Neringa	Sandbarg	Nidden	native	Foundation	a Nelôxian foundation — pilot station and dune-service settlement on the Spit.	
+Kaliningrad	Lejpont	Lejpont	native	Descriptive	'lower bridge' — the entry in the oldest land-roll.	Königsberg
+Gdańsk	Grünsala	Danzig	nativized	Folk-etymology	the folk etymology won; the arms show green and island both.	Danzig
+Szczecin	Szczecin	Stettin	raw loan	Keep local	the harbour was known by this name in four counting-houses.	Szczecin
+Gdynia	Ebnērmarkt	Ebnērmarkt	hybrid	Patron	for rector Wôlfgang Ebnēr, who chartered the school before the town.	Gdingen
+Olsztyn	Allenstein	Allenstein	raw loan	Historical	the genuine historical / trade-route form on record for this place.	Allenstein
+Elbląg	Ellbąg	Ellbąg	nativized	Accident	the name was reversed in the mouth before it was reversed on the map.	Elbing
+Koszalin	Koszalin	Köslin	raw loan	Keep local	the pilots' charts said this, and you do not re-letter a chart lightly.	Koszalin
+Słupsk	Słupsk	Stolp	raw loan	Keep local	a name on every manifest in the Baltic is not worth changing.	Słupsk
+Stargard	Stargard	Stargard	raw loan	Keep local	the harbour was known by this name in four counting-houses.	Stargard
+Ełk	Ełk	Lyck	raw loan	Keep local	the harbour was known by this name in four counting-houses.	Ełk

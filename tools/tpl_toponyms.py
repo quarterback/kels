@@ -486,6 +486,49 @@ const FOUNDERS = [
  ["the customs board","needed a post, and the post needed a town"]
 ];
 
+/* What the place actually IS, read off its own notes. Without this, a
+   canal-side timber town can be named "herring island" — the vocabulary was
+   correct and the meaning was nonsense. */
+const SENSEMAP = [
+  [/\b(iron|ore|steel|smelt|foundr)/i, ["iron"]],
+  [/\b(timber|forest|wood|mill|pine|sawn)/i, ["forest","backwoods","wood","pinewood","tree"]],
+  [/\b(harbour|harbor|port|quay|deepwater|anchorage|roads|shipyard|landing)/i,
+    ["harbour","quay","port","haven","mole","landing","anchorage"]],
+  [/\b(salt|brine)/i, ["salt","salt-lake","salt-flat"]],
+  [/\b(canal|lock)\b/i, ["channel","lock","canal"]],
+  [/\b(rail|junction|marshalling|gauge)/i, ["road","market","ford"]],
+  [/\b(grain|wheat|corn|granar)/i, ["field","market","plain"]],
+  [/\b(fish|fishing|herring|nets)/i, ["fish","net","harbour","shore"]],
+  [/\b(coal|mining|mine|copper|sulphur|marble|mercury)/i, ["stone","crag","iron","gold","silver"]],
+  [/\b(naval|fleet|garrison|fortress|castle|citadel|redoubt)/i,
+    ["fortress","castle","walled town","stronghold-camp","anchor","tower"]],
+  [/\b(bridge|crossing|ford)/i, ["bridge","ford"]],
+  [/\b(spa|springs?|thermal|baths)/i, ["spring","well","water"]],
+  [/\b(vineyard|wine|orchard|garden|market gardens?)/i, ["field","garden","plain"]],
+  [/\b(marsh|swamp|bog|flats)/i, ["marsh","flats","polder"]],
+  [/\b(lake|lagoon|liman)/i, ["lake","bay","shore"]],
+  [/\b(island|isle|spit|dune)/i, ["island","islet","sand","dune","shore"]],
+  [/\b(pass|gorge|gate|isthmus|narrows|threshold)/i, ["gate","pass","valley","sound","strait"]],
+  [/\b(estate|manor|rent)/i, ["manor","field","holding"]],
+  [/\b(oil|refiner|chemical|works|aviation|industr)/i, ["works","field","market"]],
+  [/\b(amber|gold)/i, ["gold","silver"]],
+  [/\b(church|parish|monaster|abbey|shrine)/i, ["church","abbey","holy"]],
+  [/\b(customs|toll|counting|bonded|financ|insuran)/i, ["market","market-town","gate","warehouse"]]
+];
+function senses(ctx){
+  const src=((ctx&&ctx.notes)||"")+" "+((ctx&&ctx.founds_what)||"");
+  const out=[];
+  SENSEMAP.forEach(([re,gl])=>{ if(re.test(src)) gl.forEach(g=>out.push(g)); });
+  return out;
+}
+/* prefer entries whose English gloss matches what the place is; fall back whole */
+function biased(pool,want){
+  if(!want||!want.length) return pool;
+  const hit=pool.filter(x=>want.some(w=>String(x[1]).toLowerCase().includes(w)));
+  /* keep some room for the unexpected — 75% on-sense, 25% free */
+  return (hit.length && Math.random()<0.75) ? hit : pool;
+}
+
 /* pick a modifier from a quarry the region actually draws on */
 /* A purpose-built site has no inherited name — so Nelôxia founds it instead.
    The question is never "would it exist" but WHO founded it, WHEN, and WHY. */
@@ -505,9 +548,20 @@ const NAMEKIN={venetian:"italian",friulian:"italian",occitan:"romance",romance:"
   macedonian:"bulgarian",belarusian:"ukrainian",slovak:"polish",slovene:"croatian",
   albanian:"albanian",tatar:"tatar",armenian:"armenian",scand:"scand",german:"german"};
 function poolFor(map,q){ return map[q]||map[NAMEKIN[q]]||map.finnic; }
-function modOf(cults){
-  const q=pick(cults), b=QMODS[q]||QMODS.finnic;
-  return pick(b);
+function modOf(cults,ctx){
+  const want=senses(ctx);
+  /* prefer a quarry that can actually SAY the thing — otherwise an iron-ore town
+     lands on whichever quarry lacks a word for iron and the bias falls through */
+  if(want.length && Math.random()<0.75){
+    const able=cults.filter(q=>(QMODS[q]||[]).some(x=>
+      want.some(w=>String(x[1]).toLowerCase().includes(w))));
+    if(able.length){
+      const q=pick(able);
+      return pick(biased(QMODS[q],want));
+    }
+  }
+  const q=pick(cults);
+  return pick(biased(QMODS[q]||QMODS.finnic,want));
 }
 function headIn(q){ const h=HEADS[q]||HEADS.finnic; return pick(h); }
 
@@ -564,15 +618,19 @@ const BANNED_CHARS=/[îûâÎÛÂ]/;
 const BANNED_SENSE=/(merd|lōd|sildô)/i;
 function valid(nx){ return !BANNED_CHARS.test(nx) && !BANNED_SENSE.test(nx); }
 
-function headOf(cults){ return pick(HEADS[pick(cults)]); }
+function headOf(cults,ctx){
+  return pick(biased(HEADS[pick(cults)]||HEADS.finnic,senses(ctx)));
+}
 /* heads a plain description may take — landscape and settlement words only.
    Institution heads (-kolēgi, -vīla) are point-foundations: they need a founder
    or a patron saint behind them, not a colour. */
-function plainHeadOf(cults){
+function plainHeadOf(cults,ctx){
   const c=cults.filter(k=>k!=="romance");
-  return pick(HEADS[pick(c.length?c:["finnic"])]);
+  return pick(biased(HEADS[pick(c.length?c:["finnic"])]||HEADS.finnic,senses(ctx)));
 }
-function featOf(terrain){ return pick(TERRFEAT[terrain]||TERRFEAT.Plain); }
+function featOf(terrain,ctx){
+  return pick(biased(TERRFEAT[terrain]||TERRFEAT.Plain,senses(ctx)));
+}
 /* join a modifier to a head-suffix, head-final like all Nelôxi compounds */
 function joinHead(stem,head){ return up(stem)+head.replace(/^-/,""); }
 
@@ -600,7 +658,8 @@ const EXOSTRAT = [
      const m=/'([^']{2,40})'/.exec(gloss||"");
      if(!m) return strip(nx);
      const g=m[1].replace(/\(.*?\)/g,"").trim().toLowerCase();
-     if(!g||/\b(at|the|who|and)\b/.test(g)) return strip(nx);
+     if(!g||/\b(at|the|who|and|homeland|pattern)\b/.test(g)||/[+\/]/.test(g))
+       return strip(nx);
      const M={"new":"New","harbour":"haven","harbor":"haven","sea":"sea","fortress":"burgh",
        "lake":"lake","land":"land","river-bend":"reach","shore":"shore","island":"isle",
        "market-town":"market","walled":"wall","town":"ton","rapids":"falls","backwoods":"wood",
@@ -660,28 +719,28 @@ const STRAT = {
    const cult=pick(c.cults), t0=pick(TITLES), t=[t0[0],t0[1],pick(t0[2])];
    const fam=pick(poolFor(FAMILY,cult)), giv=pick(poolFor(GIVEN,cult));
    const r=Math.random();
-   if(r<.45){ const h=headOf(c.cults);
+   if(r<.45){ const h=headOf(c.cults,c);
      return {nx:joinHead(fam,h[0]),layer:"hybrid",strategy:"patron",head:h[0],
        story:`for ${t[1]} ${giv} ${fam}, ${t[2]}; the ${h[1]} took the family name.`}; }
-   if(r<.7){ const h=headOf([cult==="slavic"?"slavic":"finnic"]);
+   if(r<.7){ const h=headOf([cult==="slavic"?"slavic":"finnic"],c);
      return {nx:joinHead(t[0],h[0]),layer:"native",strategy:"patron",
        story:`named for the office, not the man — the ${t[1]}'s ${h[1]}. ${up(giv)} ${fam} held it first.`}; }
    if(r<.85) return {nx:fam+"ovô",layer:"hybrid",strategy:"patron",
      story:`Slavic possessive: '${fam}'s place'. ${t[1]} ${giv} ${fam} ${t[2]}.`};
-   return {nx:"Kunis"+headOf(["finnic","lowgerman"])[0].replace(/^-/,""),layer:"hybrid",strategy:"patron",
+   return {nx:"Kunis"+headOf(["finnic","lowgerman"],c)[0].replace(/^-/,""),layer:"hybrid",strategy:"patron",
      story:`a crown foundation — kunis- 'king's', the same element as Kunislinnô.`};
  },
  event(c){
    const e0=pick(EVENTS), e=[e0[0],e0[1],pick(e0[2])], r=Math.random();
-   if(r<.4){ const h=headOf(c.cults);
+   if(r<.4){ const h=headOf(c.cults,c);
      return {nx:joinHead(e[0],h[0]),layer:"native",strategy:"event",
        story:`${e[2]}; the ${h[1]} kept the word and lost the memory.`}; }
-   if(r<.7){ const f=featOf(c.terrain);
+   if(r<.7){ const f=featOf(c.terrain,c);
      return {nx:up(e[0])+loc(f[0]),layer:"native",strategy:"event",
        story:`${e[2]} — literally '${e[1]} at the ${f[1]}'. Fossilized as one word.`}; }
    /* fossilization: clip the phrase until it stops meaning anything */
    /* fossilize by dropping the HEAD's tail at a vowel, not by truncating blind */
-   const f=featOf(c.terrain), stem=up(e[0]);
+   const f=featOf(c.terrain,c), stem=up(e[0]);
    /* wear the ending off at a syllable boundary, but never down to a stump:
       a 2-letter remnant reads as a typo, not as erosion */
    let tail=f[0].replace(/^([^aeiouäöüõôāēīōū]*[aeiouäöüõôāēīōū][^aeiouäöüõôāēīōū]?).*/, "$1");
@@ -691,8 +750,8 @@ const STRAT = {
      story:`${e[2]}. The full phrase was '${e[1]} ${f[1]}' — four centuries wore the ending off it, and nobody now hears the event in the name.`};
  },
  desc(c){
-   const f=featOf(c.terrain), r=Math.random();
-   const m=modOf(c.cults);
+   const f=featOf(c.terrain,c), r=Math.random();
+   const m=modOf(c.cults,c);
    const phrase=pick([
      "what the first surveyors wrote down","the entry in the oldest land-roll",
      "how the carters asked for it, and it stuck","the name on the earliest toll-list",
@@ -700,7 +759,7 @@ const STRAT = {
    if(r<.5)
      return {nx:up(m[0])+f[0],layer:"native",strategy:"descriptive",head:f[0],
        story:`'${m[1]} ${f[1]}' — ${phrase}.`};
-   const h=plainHeadOf(c.cults);
+   const h=plainHeadOf(c.cults,c);
    return {nx:joinHead(m[0],h[0]),layer:c.cults[0]==="finnic"?"native":"hybrid",strategy:"descriptive",head:h[0],
      story:`'${m[1]} ${h[1]}' — ${phrase}.`};
  },
@@ -753,8 +812,8 @@ const STRAT = {
    };
    let a=rank(head,modPool), b=rank(tail,featPool);
    if(!a||!a[0]) a=pick(QMODS.finnic);
-   if(!b||!b[0]) b=featOf(c.terrain);
-   const f=(a[0]===b[0])?featOf(c.terrain):b;
+   if(!b||!b[0]) b=featOf(c.terrain,c);
+   const f=(a[0]===b[0])?featOf(c.terrain,c):b;
    const nx=up(a[0])+f[0];
    return {nx:nx,layer:"nativized",strategy:"folk-etymology",head:f[0],
      story:pick([
@@ -799,13 +858,13 @@ const STRAT = {
  found(c){
    /* the state builds a town: name it for the works, the founder, or the year */
    const r=Math.random(), note=foundingNote(c,c.era||"charter");
-   if(r<.4){ const m=modOf(c.cults), h=headOf(c.cults);
+   if(r<.4){ const m=modOf(c.cults,c), h=headOf(c.cults,c);
      return {nx:joinHead(m[0],h[0]),layer:"native",strategy:"founded",
        story:`${note} Named for the thing itself: '${m[1]} ${h[1]}'.`}; }
-   if(r<.7){ const cult=pick(c.cults), fam=pick(poolFor(FAMILY,cult)), h=headOf(c.cults);
+   if(r<.7){ const cult=pick(c.cults), fam=pick(poolFor(FAMILY,cult)), h=headOf(c.cults,c);
      return {nx:joinHead(fam,h[0]),layer:"hybrid",strategy:"founded",
        story:`${note} It carries the founding house's name — ${fam}.`}; }
-   const f=featOf(c.terrain);
+   const f=featOf(c.terrain,c);
    return {nx:"Uus"+f[0],layer:"native",strategy:"founded",
      story:`${note} Called simply the new ${f[1]} while it was being built, and never renamed — the Uusatôm pattern.`};
  },
@@ -815,7 +874,7 @@ const STRAT = {
       form, not the impossible one */
    if(c.founding==="foundation"){
      /* nothing to retain — but that is an opportunity, not an obstacle */
-     const h=headOf(c.cults), m=modOf(c.cults);
+     const h=headOf(c.cults,c), m=modOf(c.cults,c);
      return {nx:joinHead(m[0],h[0]),layer:"native",strategy:"founded",key:"found",
        story:`no inherited name to keep — ${foundingNote(c,c.era||"charter")} Its first name is simply what it was for: '${m[1]} ${h[1]}'.`};
    }
