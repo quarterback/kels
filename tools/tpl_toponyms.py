@@ -94,7 +94,7 @@ textarea{width:100%;margin-top:12px;min-height:130px;padding:12px;font-family:ui
     <h1 class="title">Nel<span class="o">ô</span>xia <span style="color:var(--ink3);font-weight:700">·</span> city-name roller</h1>
     <span class="kicker">TOPONYM GENERATOR</span>
   </div>
-  <p class="tagline">Rolls candidate Nelôxi names on a weighted table of <b>seven naming strategies</b> — patron, event, descriptive, transferred, folk-etymology, saint, accident — plus <b>keeping the local name</b>. Weighted by region and era, because a coastal port and an inland estate town do not get named the same way. Every candidate carries the <b>story of why the name exists</b>; you pick, the generator only proposes.</p>
+  <p class="tagline">Name, then exonym. Weighted by region and era.</p>
 </header>
 
 <div class="panel">
@@ -109,22 +109,14 @@ textarea{width:100%;margin-top:12px;min-height:130px;padding:12px;font-family:ui
 <div class="sect"><h2>Candidates</h2><span id="cnt"></span></div>
 <div class="cards" id="cards"></div>
 
+<div class="sect" id="pendsect" hidden><h2>Choose the exonym</h2><span>step 2 of 2</span></div>
+<div id="pendwrap"></div>
+
 <div class="basket">
   <div class="sect"><h2>Picked</h2><span id="bcnt"></span></div>
   <div id="bwrap"></div>
 </div>
 
-<p class="foot">
-  <b>The rule this tool exists to enforce.</b> A Nelôxi name must differ from the local name by
-  <b>meaning or morphology, never by decoration</b> — <i>Milano → Milān</i> is not a name, it is the
-  same name with diacritics. Every candidate here is either composed from canon elements, digested
-  with a real sound change, a genuine historical/route name, or the local name deliberately kept.
-  <b>Guards:</b> <i>î û â</i> are rejected outright (they exist in neither source nor Nelôxi —
-  gazetteer.md); name-senses respect §146 (the sea is <i>mer</i> not <i>merd</i>, the quay
-  <i>kājô</i> not <i>lōd</i>, the bridge <i>pont</i> not <i>sildô</i>).
-  <b>Out of scope:</b> the Yemeni Commonwealth — its toponymy stays Arabic by ruling, a Nelôxi
-  overlay sitting <i>beside, never over</i> the local name.
-</p>
 </div>
 
 <script>
@@ -494,6 +486,49 @@ const FOUNDERS = [
  ["the customs board","needed a post, and the post needed a town"]
 ];
 
+/* What the place actually IS, read off its own notes. Without this, a
+   canal-side timber town can be named "herring island" — the vocabulary was
+   correct and the meaning was nonsense. */
+const SENSEMAP = [
+  [/\b(iron|ore|steel|smelt|foundr)/i, ["iron"]],
+  [/\b(timber|forest|wood|mill|pine|sawn)/i, ["forest","backwoods","wood","pinewood","tree"]],
+  [/\b(harbour|harbor|port|quay|deepwater|anchorage|roads|shipyard|landing)/i,
+    ["harbour","quay","port","haven","mole","landing","anchorage"]],
+  [/\b(salt|brine)/i, ["salt","salt-lake","salt-flat"]],
+  [/\b(canal|lock)\b/i, ["channel","lock","canal"]],
+  [/\b(rail|junction|marshalling|gauge)/i, ["road","market","ford"]],
+  [/\b(grain|wheat|corn|granar)/i, ["field","market","plain"]],
+  [/\b(fish|fishing|herring|nets)/i, ["fish","net","harbour","shore"]],
+  [/\b(coal|mining|mine|copper|sulphur|marble|mercury)/i, ["stone","crag","iron","gold","silver"]],
+  [/\b(naval|fleet|garrison|fortress|castle|citadel|redoubt)/i,
+    ["fortress","castle","walled town","stronghold-camp","anchor","tower"]],
+  [/\b(bridge|crossing|ford)/i, ["bridge","ford"]],
+  [/\b(spa|springs?|thermal|baths)/i, ["spring","well","water"]],
+  [/\b(vineyard|wine|orchard|garden|market gardens?)/i, ["field","garden","plain"]],
+  [/\b(marsh|swamp|bog|flats)/i, ["marsh","flats","polder"]],
+  [/\b(lake|lagoon|liman)/i, ["lake","bay","shore"]],
+  [/\b(island|isle|spit|dune)/i, ["island","islet","sand","dune","shore"]],
+  [/\b(pass|gorge|gate|isthmus|narrows|threshold)/i, ["gate","pass","valley","sound","strait"]],
+  [/\b(estate|manor|rent)/i, ["manor","field","holding"]],
+  [/\b(oil|refiner|chemical|works|aviation|industr)/i, ["works","field","market"]],
+  [/\b(amber|gold)/i, ["gold","silver"]],
+  [/\b(church|parish|monaster|abbey|shrine)/i, ["church","abbey","holy"]],
+  [/\b(customs|toll|counting|bonded|financ|insuran)/i, ["market","market-town","gate","warehouse"]]
+];
+function senses(ctx){
+  const src=((ctx&&ctx.notes)||"")+" "+((ctx&&ctx.founds_what)||"");
+  const out=[];
+  SENSEMAP.forEach(([re,gl])=>{ if(re.test(src)) gl.forEach(g=>out.push(g)); });
+  return out;
+}
+/* prefer entries whose English gloss matches what the place is; fall back whole */
+function biased(pool,want){
+  if(!want||!want.length) return pool;
+  const hit=pool.filter(x=>want.some(w=>String(x[1]).toLowerCase().includes(w)));
+  /* keep some room for the unexpected — 75% on-sense, 25% free */
+  return (hit.length && Math.random()<0.75) ? hit : pool;
+}
+
 /* pick a modifier from a quarry the region actually draws on */
 /* A purpose-built site has no inherited name — so Nelôxia founds it instead.
    The question is never "would it exist" but WHO founded it, WHEN, and WHY. */
@@ -513,9 +548,20 @@ const NAMEKIN={venetian:"italian",friulian:"italian",occitan:"romance",romance:"
   macedonian:"bulgarian",belarusian:"ukrainian",slovak:"polish",slovene:"croatian",
   albanian:"albanian",tatar:"tatar",armenian:"armenian",scand:"scand",german:"german"};
 function poolFor(map,q){ return map[q]||map[NAMEKIN[q]]||map.finnic; }
-function modOf(cults){
-  const q=pick(cults), b=QMODS[q]||QMODS.finnic;
-  return pick(b);
+function modOf(cults,ctx){
+  const want=senses(ctx);
+  /* prefer a quarry that can actually SAY the thing — otherwise an iron-ore town
+     lands on whichever quarry lacks a word for iron and the bias falls through */
+  if(want.length && Math.random()<0.75){
+    const able=cults.filter(q=>(QMODS[q]||[]).some(x=>
+      want.some(w=>String(x[1]).toLowerCase().includes(w))));
+    if(able.length){
+      const q=pick(able);
+      return pick(biased(QMODS[q],want));
+    }
+  }
+  const q=pick(cults);
+  return pick(biased(QMODS[q]||QMODS.finnic,want));
 }
 function headIn(q){ const h=HEADS[q]||HEADS.finnic; return pick(h); }
 
@@ -572,15 +618,19 @@ const BANNED_CHARS=/[îûâÎÛÂ]/;
 const BANNED_SENSE=/(merd|lōd|sildô)/i;
 function valid(nx){ return !BANNED_CHARS.test(nx) && !BANNED_SENSE.test(nx); }
 
-function headOf(cults){ return pick(HEADS[pick(cults)]); }
+function headOf(cults,ctx){
+  return pick(biased(HEADS[pick(cults)]||HEADS.finnic,senses(ctx)));
+}
 /* heads a plain description may take — landscape and settlement words only.
    Institution heads (-kolēgi, -vīla) are point-foundations: they need a founder
    or a patron saint behind them, not a colour. */
-function plainHeadOf(cults){
+function plainHeadOf(cults,ctx){
   const c=cults.filter(k=>k!=="romance");
-  return pick(HEADS[pick(c.length?c:["finnic"])]);
+  return pick(biased(HEADS[pick(c.length?c:["finnic"])]||HEADS.finnic,senses(ctx)));
 }
-function featOf(terrain){ return pick(TERRFEAT[terrain]||TERRFEAT.Plain); }
+function featOf(terrain,ctx){
+  return pick(biased(TERRFEAT[terrain]||TERRFEAT.Plain,senses(ctx)));
+}
 /* join a modifier to a head-suffix, head-final like all Nelôxi compounds */
 function joinHead(stem,head){ return up(stem)+head.replace(/^-/,""); }
 
@@ -608,7 +658,8 @@ const EXOSTRAT = [
      const m=/'([^']{2,40})'/.exec(gloss||"");
      if(!m) return strip(nx);
      const g=m[1].replace(/\(.*?\)/g,"").trim().toLowerCase();
-     if(!g||/\b(at|the|who|and)\b/.test(g)) return strip(nx);
+     if(!g||/\b(at|the|who|and|homeland|pattern)\b/.test(g)||/[+\/]/.test(g))
+       return strip(nx);
      const M={"new":"New","harbour":"haven","harbor":"haven","sea":"sea","fortress":"burgh",
        "lake":"lake","land":"land","river-bend":"reach","shore":"shore","island":"isle",
        "market-town":"market","walled":"wall","town":"ton","rapids":"falls","backwoods":"wood",
@@ -635,6 +686,20 @@ const EXOSTRAT = [
  ["same", (nx)=>nx,
    "no divergence: the Nelôxi name is what the world uses, diacritics and all. Boring, and often what actually happens."]
 ];
+/* every mechanism applied to the CHOSEN name, so the exonym is its own decision */
+function exonymOptions(nx,ctx,gloss,keep){
+  const out=[];
+  EXOSTRAT.forEach(s=>{
+    let ex;
+    try{ ex=s[1](nx,ctx,gloss); }catch(e){ ex=null; }
+    if(!ex) return;
+    if(out.some(o=>o.ex===ex)) return;
+    out.push({key:s[0],ex:ex,how:s[2]});
+  });
+  if(keep&&!out.some(o=>o.key==="same")) out.unshift({key:"same",ex:nx,
+    how:"the local name is also the exonym — nothing was renamed, so nothing diverged."});
+  return out;
+}
 function rollExonym(nx,ctx,gloss,keep){
   if(keep) return {ex:(ctx.anachronism?(ctx.local_hint||ctx.exonym_hint||ctx.site):(ctx.exonym_hint||ctx.site)),
     how:"the local name is also the exonym — nothing was renamed, so nothing diverged."};
@@ -654,28 +719,28 @@ const STRAT = {
    const cult=pick(c.cults), t0=pick(TITLES), t=[t0[0],t0[1],pick(t0[2])];
    const fam=pick(poolFor(FAMILY,cult)), giv=pick(poolFor(GIVEN,cult));
    const r=Math.random();
-   if(r<.45){ const h=headOf(c.cults);
+   if(r<.45){ const h=headOf(c.cults,c);
      return {nx:joinHead(fam,h[0]),layer:"hybrid",strategy:"patron",head:h[0],
        story:`for ${t[1]} ${giv} ${fam}, ${t[2]}; the ${h[1]} took the family name.`}; }
-   if(r<.7){ const h=headOf([cult==="slavic"?"slavic":"finnic"]);
+   if(r<.7){ const h=headOf([cult==="slavic"?"slavic":"finnic"],c);
      return {nx:joinHead(t[0],h[0]),layer:"native",strategy:"patron",
        story:`named for the office, not the man — the ${t[1]}'s ${h[1]}. ${up(giv)} ${fam} held it first.`}; }
    if(r<.85) return {nx:fam+"ovô",layer:"hybrid",strategy:"patron",
      story:`Slavic possessive: '${fam}'s place'. ${t[1]} ${giv} ${fam} ${t[2]}.`};
-   return {nx:"Kunis"+headOf(["finnic","lowgerman"])[0].replace(/^-/,""),layer:"hybrid",strategy:"patron",
+   return {nx:"Kunis"+headOf(["finnic","lowgerman"],c)[0].replace(/^-/,""),layer:"hybrid",strategy:"patron",
      story:`a crown foundation — kunis- 'king's', the same element as Kunislinnô.`};
  },
  event(c){
    const e0=pick(EVENTS), e=[e0[0],e0[1],pick(e0[2])], r=Math.random();
-   if(r<.4){ const h=headOf(c.cults);
+   if(r<.4){ const h=headOf(c.cults,c);
      return {nx:joinHead(e[0],h[0]),layer:"native",strategy:"event",
        story:`${e[2]}; the ${h[1]} kept the word and lost the memory.`}; }
-   if(r<.7){ const f=featOf(c.terrain);
+   if(r<.7){ const f=featOf(c.terrain,c);
      return {nx:up(e[0])+loc(f[0]),layer:"native",strategy:"event",
        story:`${e[2]} — literally '${e[1]} at the ${f[1]}'. Fossilized as one word.`}; }
    /* fossilization: clip the phrase until it stops meaning anything */
    /* fossilize by dropping the HEAD's tail at a vowel, not by truncating blind */
-   const f=featOf(c.terrain), stem=up(e[0]);
+   const f=featOf(c.terrain,c), stem=up(e[0]);
    /* wear the ending off at a syllable boundary, but never down to a stump:
       a 2-letter remnant reads as a typo, not as erosion */
    let tail=f[0].replace(/^([^aeiouäöüõôāēīōū]*[aeiouäöüõôāēīōū][^aeiouäöüõôāēīōū]?).*/, "$1");
@@ -685,8 +750,8 @@ const STRAT = {
      story:`${e[2]}. The full phrase was '${e[1]} ${f[1]}' — four centuries wore the ending off it, and nobody now hears the event in the name.`};
  },
  desc(c){
-   const f=featOf(c.terrain), r=Math.random();
-   const m=modOf(c.cults);
+   const f=featOf(c.terrain,c), r=Math.random();
+   const m=modOf(c.cults,c);
    const phrase=pick([
      "what the first surveyors wrote down","the entry in the oldest land-roll",
      "how the carters asked for it, and it stuck","the name on the earliest toll-list",
@@ -694,7 +759,7 @@ const STRAT = {
    if(r<.5)
      return {nx:up(m[0])+f[0],layer:"native",strategy:"descriptive",head:f[0],
        story:`'${m[1]} ${f[1]}' — ${phrase}.`};
-   const h=plainHeadOf(c.cults);
+   const h=plainHeadOf(c.cults,c);
    return {nx:joinHead(m[0],h[0]),layer:c.cults[0]==="finnic"?"native":"hybrid",strategy:"descriptive",head:h[0],
      story:`'${m[1]} ${h[1]}' — ${phrase}.`};
  },
@@ -747,8 +812,8 @@ const STRAT = {
    };
    let a=rank(head,modPool), b=rank(tail,featPool);
    if(!a||!a[0]) a=pick(QMODS.finnic);
-   if(!b||!b[0]) b=featOf(c.terrain);
-   const f=(a[0]===b[0])?featOf(c.terrain):b;
+   if(!b||!b[0]) b=featOf(c.terrain,c);
+   const f=(a[0]===b[0])?featOf(c.terrain,c):b;
    const nx=up(a[0])+f[0];
    return {nx:nx,layer:"nativized",strategy:"folk-etymology",head:f[0],
      story:pick([
@@ -793,13 +858,13 @@ const STRAT = {
  found(c){
    /* the state builds a town: name it for the works, the founder, or the year */
    const r=Math.random(), note=foundingNote(c,c.era||"charter");
-   if(r<.4){ const m=modOf(c.cults), h=headOf(c.cults);
+   if(r<.4){ const m=modOf(c.cults,c), h=headOf(c.cults,c);
      return {nx:joinHead(m[0],h[0]),layer:"native",strategy:"founded",
        story:`${note} Named for the thing itself: '${m[1]} ${h[1]}'.`}; }
-   if(r<.7){ const cult=pick(c.cults), fam=pick(poolFor(FAMILY,cult)), h=headOf(c.cults);
+   if(r<.7){ const cult=pick(c.cults), fam=pick(poolFor(FAMILY,cult)), h=headOf(c.cults,c);
      return {nx:joinHead(fam,h[0]),layer:"hybrid",strategy:"founded",
        story:`${note} It carries the founding house's name — ${fam}.`}; }
-   const f=featOf(c.terrain);
+   const f=featOf(c.terrain,c);
    return {nx:"Uus"+f[0],layer:"native",strategy:"founded",
      story:`${note} Called simply the new ${f[1]} while it was being built, and never renamed — the Uusatôm pattern.`};
  },
@@ -809,7 +874,7 @@ const STRAT = {
       form, not the impossible one */
    if(c.founding==="foundation"){
      /* nothing to retain — but that is an opportunity, not an obstacle */
-     const h=headOf(c.cults), m=modOf(c.cults);
+     const h=headOf(c.cults,c), m=modOf(c.cults,c);
      return {nx:joinHead(m[0],h[0]),layer:"native",strategy:"founded",key:"found",
        story:`no inherited name to keep — ${foundingNote(c,c.era||"charter")} Its first name is simply what it was for: '${m[1]} ${h[1]}'.`};
    }
@@ -890,7 +955,7 @@ function roll(ctx,prof,era){
 }
 
 /* ── state ────────────────────────────────────────────────────────────────── */
-let mode="gaz", basket=[];
+let mode="gaz", basket=[], pending=null, currentOut=null, currentKey="";
 const ROLLABLE = CITIES.filter(d=>!d.norename);
 
 function controls(){
@@ -911,7 +976,7 @@ function controls(){
       `<div class="fgrp"><label for="city">City (✓ = already canon)</label><select id="city">${opts}</select></div>`+
       `<div class="fgrp"><label for="era">Era</label><select id="era">${eraOpts}</select></div>`+
       `<button class="go" id="go">Roll 8 names</button>`;
-    $("city").addEventListener("change",draw);
+    $("city").addEventListener("change",()=>draw(true));
   } else {
     const rgOpts=Object.keys(REGPROF).map(k=>`<option value="${esc(k)}">${esc(k)}</option>`).join("");
     const tOpts=Object.keys(TERRFEAT).sort().map(t=>`<option value="${t}">${t}</option>`).join("");
@@ -921,10 +986,10 @@ function controls(){
       `<div class="fgrp"><label for="nm">Local name (optional)</label><input id="nm" placeholder="e.g. Vilkija" autocomplete="off"></div>`+
       `<div class="fgrp"><label for="era">Era</label><select id="era">${eraOpts}</select></div>`+
       `<button class="go" id="go">Roll 8 names</button>`;
-    $("rg").addEventListener("change",draw); $("tr").addEventListener("change",draw);
+    $("rg").addEventListener("change",()=>draw(true)); $("tr").addEventListener("change",()=>draw(true));
   }
-  $("era").addEventListener("change",draw);
-  $("go").addEventListener("click",draw);
+  $("era").addEventListener("change",()=>draw(true));
+  $("go").addEventListener("click",()=>draw(true));
 }
 
 function context(){
@@ -949,7 +1014,7 @@ function drawCtx(ctx,prof,era){
   let h="";
   if(mode==="gaz"){
     h+=`<b>${esc(ctx.site)}</b> — ${esc(ctx.terrain)}; ${esc(ctx.notes)}. `;
-    h+=`Outsiders call it <b>${esc(ctx.exonym)}</b>. `;
+    h+=ctx.exonym_hint?`A historical outside form is on record: <b>${esc(ctx.exonym_hint)}</b> (a candidate, not a decision). `:"";
     if(ctx.founding==="foundation") h+=`<br><b>⌂ A Nelôxian foundation</b>${ctx.founds_what?" — "+esc(ctx.founds_what):""}: the real-world town is purpose-built, so no name is inherited. The state builds its own here — date it, attribute it, name it for what it does. `;
     if(ctx.anachronism) h+=`<br><span class="warn">⚠ "${esc(ctx.site)}" cannot be the in-world name:</span> ${esc(ctx.anachronism)} It is a real-world map reference only. `;
     if(ctx.on_record) h+=`<br>Nelôxi name <b>on record</b> as ${esc(ctx.nelox)} (${esc(ctx.layer)}${ctx.gloss?" — "+esc(ctx.gloss):""}) from world/gazetteer.md — a starting position, still reconsiderable. `;
@@ -960,12 +1025,19 @@ function drawCtx(ctx,prof,era){
   $("ctx").innerHTML=h;
 }
 
-function draw(){
+function draw(reroll){
   const ctx=context();
+  if(pending&&pending.site!==(ctx.site||"(new)")){ pending=null; }
   const prof=REGPROF[ctx.region]||REGPROF["Livonian Core"];
   const era=$("era").value;
   drawCtx(ctx,prof,era);
 
+  /* stable candidate set: only re-roll on demand or when the context changes */
+  const key=(ctx.site||"(new)")+"|"+ctx.region+"|"+ctx.terrain+"|"+era;
+  if(!reroll && currentOut && currentKey===key){
+    renderCards(currentOut,ctx); return;
+  }
+  currentKey=key;
   const out=[];
   /* the hint, where one exists, is always offered as a real raw-loan candidate */
   if(ctx.hint) out.push({nx:ctx.hint,layer:"raw loan",strategy:"historical",key:"hist",
@@ -988,36 +1060,76 @@ function draw(){
       {key:"keep",exonym:ctx.exonym});
   }
 
+  currentOut=out;
+  renderCards(out,ctx);
+}
+
+function renderCards(out,ctx){
   $("cnt").textContent=`${out.length} for ${ctx.site||"a new place"}`;
   $("cards").innerHTML=out.map((o,i)=>{
     const inB=basket.some(b=>b.nx===o.nx&&b.site===(ctx.site||""));
     return `<div class="card${o.key==="keep"?" keep":""}">
       <div class="nx">${esc(o.nx)}</div>
-      <div class="exo">the world calls it <b>${esc(o.exonym||"—")}</b>${o.exokey?` <span class="tag" style="margin-left:4px">${esc(o.exokey)}</span>`:""}</div>
       <div class="story">${esc(o.story)}</div>
-      <div class="story" style="border-top:1px dashed var(--line);padding-top:7px"><b style="color:var(--ink2)">Abroad:</b> ${esc(o.exostory||"")}</div>
       <div class="tags">
         <span class="tag s">${esc(LABEL[o.key]||o.strategy)}</span>
         <span class="tag l">${esc(o.layer)}</span>
         ${o.wild?'<span class="tag">wildcard</span>':""}
       </div>
-      <button class="take${inB?" on":""}" data-i="${i}">${inB?"✓ picked":"Pick this"}</button>
+      <button class="take${inB?" on":""}" data-i="${i}">${inB?"✓ picked":"Pick this name →"}</button>
     </div>`;
   }).join("");
 
   $("cards").querySelectorAll(".take").forEach(b=>{
     b.addEventListener("click",()=>{
       const o=out[+b.dataset.i];
+      if(!o) return;
       const key=o.nx+"|"+(ctx.site||"");
       const at=basket.findIndex(x=>x.nx+"|"+x.site===key);
-      if(at>=0) basket.splice(at,1);
-      else basket.push({site:ctx.site||"(new)",region:ctx.region,nx:o.nx,
-        local:(o.key==="keep"?o.nx:(ctx.local_hint||"")),
-        exonym:o.exonym||"",layer:o.layer,strategy:LABEL[o.key]||o.strategy,
-        story:o.story,exostory:o.exostory||""});
-      draw(); drawBasket();
+      if(at>=0){ basket.splice(at,1); pending=null; }
+      else {
+        /* stage 2: the exonym is chosen FOR this name, not bundled with it */
+        pending={site:ctx.site||"(new)",region:ctx.region,nx:o.nx,
+          local:(o.key==="keep"?o.nx:(ctx.local_hint||"")),
+          layer:o.layer,strategy:LABEL[o.key]||o.strategy,story:o.story,
+          opts:exonymOptions(o.nx,ctx,o.story,o.key==="keep")};
+      }
+      draw(); drawPending(); drawBasket();
     });
   });
+}
+
+function drawPending(){
+  const w=$("pendwrap");
+  if(!pending){ w.innerHTML=""; $("pendsect").hidden=true; return; }
+  $("pendsect").hidden=false;
+  w.innerHTML=
+    `<div class="panel"><div style="margin-bottom:12px">You chose <span class="nx" style="font-size:22px">${esc(pending.nx)}</span> for <b>${esc(pending.site)}</b>.
+     <div class="story" style="margin-top:6px">${esc(pending.story)}</div>
+     <div style="margin-top:10px;font-size:11px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--ink3)">Exonym</div></div>
+     <div class="cards">`+
+    pending.opts.map((o,i)=>`<div class="card">
+       <div class="nx" style="font-size:21px">${esc(o.ex)}</div>
+       <div class="story">${esc(o.how)}</div>
+       <div class="tags"><span class="tag s">${esc(o.key)}</span></div>
+       <button class="take" data-x="${i}">Use this exonym</button>
+     </div>`).join("")+
+    `<div class="card keep">
+       <div class="nx" style="font-size:21px;color:var(--ink4)">— open</div>
+       <div class="tags"><span class="tag">defer</span></div>
+       <button class="take" data-x="-1">Decide later</button>
+     </div></div>
+     <div class="bactions"><button class="take" id="pcancel">Cancel this pick</button></div>`;
+  w.querySelectorAll(".take[data-x]").forEach(btn=>btn.addEventListener("click",()=>{
+    const i=+btn.dataset.x;
+    const chosen=i>=0?pending.opts[i]:{ex:"",how:""};
+    basket.push({site:pending.site,region:pending.region,nx:pending.nx,local:pending.local,
+      exonym:chosen.ex,layer:pending.layer,strategy:pending.strategy,
+      story:pending.story,exostory:chosen.how,exokey:chosen.key||""});
+    pending=null; draw(); drawPending(); drawBasket();
+  }));
+  const c=$("pcancel");
+  if(c) c.addEventListener("click",()=>{ pending=null; draw(); drawPending(); });
 }
 
 function drawBasket(){
@@ -1025,7 +1137,7 @@ function drawBasket(){
   if(!basket.length){ $("bwrap").innerHTML=`<div class="bempty">Nothing picked yet. Pick candidates and they collect here as copyable rows.</div>`; return; }
   $("bwrap").innerHTML=
     `<table class="btable"><thead><tr><th>Ref</th><th>Local</th><th>Nelôxi name</th><th>Exonym</th><th>Layer</th><th>Strategy</th><th></th></tr></thead><tbody>`+
-    basket.map((b,i)=>`<tr><td>${esc(b.site)}</td><td>${esc(b.local||"—")}</td><td class="bnx">${esc(b.nx)}</td><td>${esc(b.exonym)}</td><td>${esc(b.layer)}</td><td>${esc(b.strategy)}</td><td><button class="drop" data-i="${i}" aria-label="Remove">×</button></td></tr>`).join("")+
+    basket.map((b,i)=>`<tr><td>${esc(b.site)}</td><td>${esc(b.local||"—")}</td><td class="bnx">${esc(b.nx)}</td><td>${b.exonym?esc(b.exonym):'<span class="pending" style="color:var(--ink4)">— open</span>'}</td><td>${esc(b.layer)}</td><td>${esc(b.strategy)}</td><td><button class="drop" data-i="${i}" aria-label="Remove">×</button></td></tr>`).join("")+
     `</tbody></table>
      <div class="bactions"><button class="go" id="copy">Copy as TSV</button>
      <button class="take" id="clear">Clear all</button></div>
@@ -1048,11 +1160,11 @@ function setMode(m){
   mode=m;
   $("m-gaz").setAttribute("aria-pressed",m==="gaz");
   $("m-free").setAttribute("aria-pressed",m==="free");
-  controls(); draw();
+  controls(); draw(true);
 }
 $("m-gaz").addEventListener("click",()=>setMode("gaz"));
 $("m-free").addEventListener("click",()=>setMode("free"));
-setMode("gaz"); drawBasket();
+setMode("gaz"); drawPending(); drawBasket();
 </script>
 </body>
 </html>
