@@ -764,16 +764,26 @@ const STRAT = {
      story:`'${m[1]} ${h[1]}' — ${phrase}.`};
  },
  trans(c){
-   const donors=CITIES.filter(d=>d.nelox&&d.region!==c.region);
+   /* a transfer must carry a name that is actually Nelôxi. Donors whose name is
+      just their own kept local form (a "keep local" pick) produced absurdities
+      like "carried whole from Klaipėda (Klaipėda)" AND a duplicate city name. */
+   const donors=CITIES.filter(d=>d.nelox && d.region!==c.region &&
+     d.nelox.toLowerCase()!==d.site.toLowerCase());
    if(!donors.length) return STRAT.desc(c);
+   const taken=new Set(CITIES.filter(d=>d.nelox&&d.site!==c.site)
+                             .map(d=>d.nelox.toLowerCase()));
    const d=pick(donors), r=Math.random();
-   /* don't build Uus-uusatôm: skip the prefix when the donor already carries it */
-   if(r<.45 && !/^uus/i.test(d.nelox)) return {nx:"Uus"+d.nelox.toLowerCase(),layer:"native",strategy:"transferred",
-     story:`settlers out of ${d.nelox} (${d.site}) named it for home — uus- 'new', the Uusatôm pattern.`};
+   const label=`${d.nelox} (${d.site})`;
+   if(r<.45) return {nx:"Uus"+d.nelox.toLowerCase(),layer:"native",strategy:"transferred",
+     story:`settlers out of ${label} named it for home — uus- 'new', the Uusatôm pattern.`};
    if(r<.7) return {nx:"Nova "+d.nelox,layer:"hybrid",strategy:"transferred",
-     story:`the Romance settler-pattern 'Nova + homeland', as Nova Trentô. The founders came from ${d.nelox} (${d.site}).`};
+     story:`the Romance settler-pattern 'Nova + homeland', as Nova Trentô. The founders came from ${label}.`};
+   /* bare transfer only if it would not collide with a name already in use */
+   if(taken.has(d.nelox.toLowerCase()))
+     return {nx:"Uus"+d.nelox.toLowerCase(),layer:"native",strategy:"transferred",
+       story:`settlers out of ${label} named it for home, distinguishing it with uus- 'new' because the old town still holds the bare name.`};
    return {nx:d.nelox,layer:"native",strategy:"transferred",
-     story:`the name travelled and the meaning did not: carried whole from ${d.nelox} (${d.site}) by its founders, `+
+     story:`the name travelled and the meaning did not: carried whole from ${label} by its founders, `+
        pick(["and most people here have no idea it is a borrowed name",
          "who never explained it and were never asked",
          "and the two towns have been confused in the post ever since",

@@ -125,6 +125,13 @@ def main():
             print("  ×", p)
         sys.exit(1)
 
+    from collections import Counter
+    dupn = Counter(r["nelox"] for r in rows if r["nelox"])
+    for name, n in sorted(dupn.items()):
+        if n > 1:
+            who = ", ".join(f"{r['site']}" for r in rows if r["nelox"] == name)
+            print(f"  ! duplicate Nelôxi name {name!r} on {n} settlements: {who}")
+
     sites = [r["site"] for r in rows]
     dupes = {s for s in sites if sites.count(s) > 1}
     if dupes:
