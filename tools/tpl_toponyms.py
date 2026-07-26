@@ -286,6 +286,68 @@ function featOf(terrain){ return pick(TERRFEAT[terrain]||TERRFEAT.Plain); }
 /* join a modifier to a head-suffix, head-final like all Nelôxi compounds */
 function joinHead(stem,head){ return up(stem)+head.replace(/^-/,""); }
 
+
+/* ── how the outside world names it ─────────────────────────────────────────
+   The exonym is its own decision, not a copy of the local name. Six real
+   mechanisms; canon anchors: Uusatôm↔Odessa (old name persists),
+   Kunislinnô↔Kunixa (ceremonial doublet), Dūnabôrk/Daugavpils (ledger vs
+   street), Marīsô↔Marzeja (the other side's own form).                       */
+function strip(s){
+  return s.replace(/ô/g,"o").replace(/[āǟ]/g,"a").replace(/ē/g,"e").replace(/ī/g,"i")
+          .replace(/[ōȫ]/g,"o").replace(/ū/g,"u").replace(/ä/g,"a").replace(/ö/g,"o")
+          .replace(/ü/g,"u").replace(/õ/g,"o").replace(/ç/g,"ts").replace(/x/g,"ks");
+}
+const EXOSTRAT = [
+ ["persists", (nx,ctx)=>ctx.anachronism ? (ctx.local_hint||ctx.exonym_hint||nx)
+                                        : (ctx.exonym_hint||ctx.site),
+   "the pre-Nelôxian name simply persisted abroad — the Uusatôm ↔ Odessa case: the state renamed it, the world did not follow."],
+ ["anglicized", (nx)=>strip(nx),
+   "the world took the Nelôxi name and stripped what it could not spell — the diacritics fall away in foreign print and timetables."],
+ ["calque", (nx,ctx,gloss)=>{
+     /* only a genuine quoted gloss can be calqued — the story is prose, and
+        calquing prose produced nonsense like "Nobodyrenamed". No gloss, no
+        calque: fall back to the anglicized form. */
+     const m=/'([^']{2,40})'/.exec(gloss||"");
+     if(!m) return strip(nx);
+     const g=m[1].replace(/\(.*?\)/g,"").trim().toLowerCase();
+     if(!g||/\b(at|the|who|and)\b/.test(g)) return strip(nx);
+     const M={"new":"New","harbour":"haven","harbor":"haven","sea":"sea","fortress":"burgh",
+       "lake":"lake","land":"land","river-bend":"reach","shore":"shore","island":"isle",
+       "market-town":"market","walled":"wall","town":"ton","rapids":"falls","backwoods":"wood",
+       "bay":"bay","hill":"hill","mountain":"mount","valley":"vale","field":"field","strait":"sound",
+       "quay":"wharf","river":"water","cape":"ness","islet":"holm","village":"thorpe","works":"works",
+       "gold":"Gold","iron":"Iron","salt":"Salt","stone":"Stan","great":"Great","little":"Little",
+       "black":"Black","red":"Red","green":"Green","grey":"Grey","bright":"Bright","pale":"Pale",
+       "north":"North","south":"South","east":"East","west":"West","empty":"Bare","crooked":"Crook",
+       "old":"Old","snow":"Snow","ice":"Ice","frost":"Frost","sun":"Sun","moon":"Moon","wave":"Wave",
+       "storm":"Storm","wind":"Wind","fish":"Fish","backwoods ":"wood"};
+     const w=g.split(/[\s-]+/).filter(Boolean).slice(0,2).map(x=>M[x]||x);
+     if(!w.length) return strip(nx);
+     const out=w.join("");
+     return out.charAt(0).toUpperCase()+out.slice(1).toLowerCase();
+   },
+   "the world translated the meaning rather than the sound — the way Finnish Tukholma renders Stockholm, or 'new harbour' comes out as Newhaven."],
+ ["thirdparty", (nx,ctx)=>ctx.local_hint||ctx.exonym_hint||(ctx.anachronism?nx:ctx.site),
+   "the world knows it by the name of whoever shipped there — the merchants' form, not the state's and not the locals'."],
+ ["ceremonial", (nx)=>{
+     const s=strip(nx);
+     return s.replace(/^([A-Z][a-z]{2,4})/, m=>m)+ (/x/i.test(nx)?"":"ia");
+   },
+   "the formal register travelled instead of the everyday one — the Kunislinnô ↔ Kunixa split, with the charter name reaching foreign atlases first."],
+ ["same", (nx)=>nx,
+   "no divergence: the Nelôxi name is what the world uses, diacritics and all. Boring, and often what actually happens."]
+];
+function rollExonym(nx,ctx,gloss,keep){
+  if(keep) return {ex:(ctx.anachronism?(ctx.local_hint||ctx.exonym_hint||ctx.site):(ctx.exonym_hint||ctx.site)),
+    how:"the local name is also the exonym — nothing was renamed, so nothing diverged."};
+  const w=[["persists",34],["anglicized",22],["calque",14],["thirdparty",12],["ceremonial",8],["same",10]];
+  const tot=w.reduce((s,x)=>s+x[1],0); let r=Math.random()*tot, key="persists";
+  for(const [k,v] of w){ if((r-=v)<=0){ key=k; break; } }
+  const s=EXOSTRAT.find(x=>x[0]===key);
+  let ex=s[1](nx,ctx,gloss)||strip(nx);
+  return {ex:ex, how:s[2], exkey:key};
+}
+
 /* ── the seven strategies + retain ──────────────────────────────────────────
    Each returns {nx, layer, strategy, story}. The story is the point: it says
    WHY the name exists, which is what makes a candidate pickable.            */
@@ -342,7 +404,7 @@ const STRAT = {
  folk(c){
    /* the local name misheard and re-analysed as Nelôxi words it resembles,
       producing a confident WRONG meaning nobody questions */
-   const src=(c.site||"").replace(/[^A-Za-zÀ-ɏ]/g," ").split(" ")[0]||"Nam";
+   const src=((c.anachronism?c.local_hint:"")||c.site||"").replace(/[^A-Za-zÀ-ɏ]/g," ").split(" ")[0]||"Nam";
    const a=src.slice(0,2).toLowerCase();
    let m=MODS.filter(x=>x[0][0]===a[0]); if(!m.length) m=MODS;
    const w=pick(m), f=featOf(c.terrain);
@@ -366,16 +428,26 @@ const STRAT = {
    if(r<.4){ const m=pick(MARGINALIA);
      return {nx:m[0],layer:"native",strategy:"accident",
        story:`${m[2]} — it means '${m[1]}' and it has been the legal name since the survey was bound.`}; }
-   if(r<.7){ const src=(c.site||"Nam").replace(/[^A-Za-zÀ-ɏ]/g,"");
+   if(r<.7){ const src=((c.anachronism?c.local_hint:"")||c.site||"Nam").replace(/[^A-Za-zÀ-ɏ]/g,"");
      const cut=src.slice(0,Math.max(3,Math.ceil(src.length/2)));
      return {nx:up(cut)+"ô",layer:"nativized",strategy:"accident",
        story:`the copyist's hand ran off the edge of the sheet: '${src}' was entered as this, and the truncation was never queried.`}; }
-   const src=(c.site||"Nam").replace(/[^A-Za-zÀ-ɏ]/g,"");
+   const src=((c.anachronism?c.local_hint:"")||c.site||"Nam").replace(/[^A-Za-zÀ-ɏ]/g,"");
    const sw=src.length>3?src.slice(0,1)+src[2]+src[1]+src.slice(3):src;
    return {nx:up(sw.toLowerCase()),layer:"nativized",strategy:"accident",
      story:`two letters transposed in the first printed atlas. The atlas outsold the correction.`};
  },
  keep(c){
+   /* the reference name may be a Soviet/imperial coinage that never existed in
+      this timeline — in that case "keeping the local name" keeps the substrate
+      form, not the impossible one */
+   if(c.anachronism){
+     const sub=c.local_hint;
+     if(!sub) return {nx:"—",layer:"raw loan",strategy:"retained",keep:true,
+       story:`nothing to keep: "${c.site}" is a real-world coinage that never existed here (${c.anachronism}) and no substrate name is on record. This place needs a name invented outright.`};
+     return {nx:sub,layer:"raw loan",strategy:"retained",keep:true,
+       story:`keep the substrate name — NOT "${c.site}", which never existed in this timeline (${c.anachronism}) The locals went on calling it ${sub}, and the state saw no reason to change it.`};
+   }
    const why = c.ch==="interior"
      ? "the gravity principle: the Finnic layer belongs to the water, and this is estate-and-upland country. The state never had a reason to rename it."
      : c.ch==="frontier"
@@ -411,12 +483,14 @@ function roll(ctx,prof,era){
     const wild = Math.random()<0.04;                 /* ~4% cross-culture wildcard */
     const key = rollStrategy(prof,era,wild);
     const cults = wild ? [pick(Object.keys(HEADS))] : prof.cult;
-    const c = Object.assign({},ctx,{cults:cults,ch:prof.ch});
+    const c = Object.assign({},ctx,{cults:cults,ch:prof.ch,
+      anachronism:ctx.anachronism,local_hint:ctx.local_hint,site:ctx.site});
     const r = STRAT[key](c);
     if(!valid(r.nx)) continue;
     if(!r.keep && ctx.site && r.nx.toLowerCase()===ctx.site.toLowerCase()) continue;
     r.key=key; r.wild=wild&&key!=="keep";
-    r.exonym = r.keep ? ctx.exonym : (ctx.exonym||ctx.site||"—");
+    const ex=rollExonym(r.nx,ctx,r.story,!!r.keep);
+    r.exonym=ex.ex; r.exostory=ex.how; r.exokey=ex.exkey||"";
     return r;
   }
   return Object.assign(STRAT.keep(Object.assign({},ctx,{cults:prof.cult,ch:prof.ch})),{key:"keep"});
@@ -435,7 +509,7 @@ function controls(){
     Object.keys(groups).forEach(rg=>{
       opts+=`<optgroup label="${esc(rg)}">`;
       groups[rg].sort((a,b)=>b.pop-a.pop).forEach(d=>{
-        const mark=d.canon?" ✓":"";
+        const mark=(d.anachronism?" ⚠":"")+(d.on_record?" ✓":"");
         opts+=`<option value="${esc(d.site)}">${esc(d.site)}${mark}</option>`;
       });
       opts+="</optgroup>";
@@ -463,12 +537,14 @@ function controls(){
 function context(){
   if(mode==="gaz"){
     const d=ROLLABLE.find(x=>x.site===$("city").value)||ROLLABLE[0];
-    return {site:d.site,region:d.region,terrain:d.terrain,notes:d.notes,exonym:d.exonym,
-            canon:d.canon,nelox:d.nelox,layer:d.layer,gloss:d.gloss,hint:d.hint,pop:d.pop};
+    return {site:d.site,region:d.region,terrain:d.terrain,notes:d.notes,
+            exonym_hint:d.exonym_hint,local_hint:d.local_hint,anachronism:d.anachronism,
+            on_record:d.on_record,nelox:d.nelox,layer:d.layer,gloss:d.gloss,hint:d.hint,pop:d.pop};
   }
   const nm=($("nm").value||"").trim();
-  return {site:nm,region:$("rg").value,terrain:$("tr").value,notes:"",exonym:nm,
-          canon:false,nelox:"",layer:"",gloss:"",hint:"",pop:0};
+  return {site:nm,region:$("rg").value,terrain:$("tr").value,notes:"",
+          exonym_hint:"",local_hint:"",anachronism:"",
+          on_record:false,nelox:"",layer:"",gloss:"",hint:"",pop:0};
 }
 
 function drawCtx(ctx,prof,era){
@@ -479,9 +555,10 @@ function drawCtx(ctx,prof,era){
   if(mode==="gaz"){
     h+=`<b>${esc(ctx.site)}</b> — ${esc(ctx.terrain)}; ${esc(ctx.notes)}. `;
     h+=`Outsiders call it <b>${esc(ctx.exonym)}</b>. `;
-    if(ctx.canon) h+=`<span class="warn">Already canon as ${esc(ctx.nelox)}</span> (${esc(ctx.layer)}${ctx.gloss?" — "+esc(ctx.gloss):""}) — from world/gazetteer.md; rolling here would replace a ratified name. `;
-    else h+=`No Nelôxi name yet — an open docket. `;
-    if(ctx.hint) h+=`Historical/route form on record: <b>${esc(ctx.hint)}</b>. `;
+    if(ctx.anachronism) h+=`<br><span class="warn">⚠ "${esc(ctx.site)}" cannot be the in-world name:</span> ${esc(ctx.anachronism)} It is a real-world map reference only. `;
+    if(ctx.on_record) h+=`<br>Nelôxi name <b>on record</b> as ${esc(ctx.nelox)} (${esc(ctx.layer)}${ctx.gloss?" — "+esc(ctx.gloss):""}) from world/gazetteer.md — a starting position, still reconsiderable. `;
+    else h+=`<br>Nelôxi name: <b>open</b>. `;
+    h+=`Local name: <b>${ctx.local_hint?esc(ctx.local_hint)+" (candidate)":"open"}</b>. Exonym: <b>${ctx.exonym_hint?esc(ctx.exonym_hint)+" (candidate)":"open"}</b>. `;
   }
   h+=`<br><span style="color:var(--ink3)">Strategy mix for ${esc(prof.ch)} · ${esc(ERAS[era].name)}: ${mix}</span>`;
   $("ctx").innerHTML=h;
@@ -496,7 +573,9 @@ function draw(){
   const out=[];
   /* the hint, where one exists, is always offered as a real raw-loan candidate */
   if(ctx.hint) out.push({nx:ctx.hint,layer:"raw loan",strategy:"historical",key:"hist",
-    exonym:ctx.exonym,story:`the genuine historical / trade-route form already on record for this place — the name the routes actually carried.`});
+    exonym:ctx.exonym_hint||ctx.hint,exokey:"persists",
+    exostory:"the same form abroad — a route name is already an international name.",
+    story:`the genuine historical / trade-route form on record for this place — the name the routes actually carried.`});
   /* eight DISTINCT candidates — a repeated name wastes a card */
   for(let guard=0; out.length<8 && guard<80; guard++){
     const r=roll(ctx,prof,era);
@@ -513,8 +592,9 @@ function draw(){
     const inB=basket.some(b=>b.nx===o.nx&&b.site===(ctx.site||""));
     return `<div class="card${o.key==="keep"?" keep":""}">
       <div class="nx">${esc(o.nx)}</div>
-      <div class="exo">exonym <b>${esc(o.exonym||"—")}</b></div>
+      <div class="exo">the world calls it <b>${esc(o.exonym||"—")}</b>${o.exokey?` <span class="tag" style="margin-left:4px">${esc(o.exokey)}</span>`:""}</div>
       <div class="story">${esc(o.story)}</div>
+      <div class="story" style="border-top:1px dashed var(--line);padding-top:7px"><b style="color:var(--ink2)">Abroad:</b> ${esc(o.exostory||"")}</div>
       <div class="tags">
         <span class="tag s">${esc(LABEL[o.key]||o.strategy)}</span>
         <span class="tag l">${esc(o.layer)}</span>
@@ -531,7 +611,9 @@ function draw(){
       const at=basket.findIndex(x=>x.nx+"|"+x.site===key);
       if(at>=0) basket.splice(at,1);
       else basket.push({site:ctx.site||"(new)",region:ctx.region,nx:o.nx,
-        exonym:o.exonym||"",layer:o.layer,strategy:LABEL[o.key]||o.strategy,story:o.story});
+        local:(o.key==="keep"?o.nx:(ctx.local_hint||"")),
+        exonym:o.exonym||"",layer:o.layer,strategy:LABEL[o.key]||o.strategy,
+        story:o.story,exostory:o.exostory||""});
       draw(); drawBasket();
     });
   });
@@ -541,14 +623,14 @@ function drawBasket(){
   $("bcnt").textContent=basket.length?`${basket.length} name${basket.length>1?"s":""}`:"";
   if(!basket.length){ $("bwrap").innerHTML=`<div class="bempty">Nothing picked yet. Pick candidates and they collect here as copyable rows.</div>`; return; }
   $("bwrap").innerHTML=
-    `<table class="btable"><thead><tr><th>Settlement</th><th>Nelôxi name</th><th>Exonym</th><th>Layer</th><th>Strategy</th><th></th></tr></thead><tbody>`+
-    basket.map((b,i)=>`<tr><td>${esc(b.site)}</td><td class="bnx">${esc(b.nx)}</td><td>${esc(b.exonym)}</td><td>${esc(b.layer)}</td><td>${esc(b.strategy)}</td><td><button class="drop" data-i="${i}" aria-label="Remove">×</button></td></tr>`).join("")+
+    `<table class="btable"><thead><tr><th>Ref</th><th>Local</th><th>Nelôxi name</th><th>Exonym</th><th>Layer</th><th>Strategy</th><th></th></tr></thead><tbody>`+
+    basket.map((b,i)=>`<tr><td>${esc(b.site)}</td><td>${esc(b.local||"—")}</td><td class="bnx">${esc(b.nx)}</td><td>${esc(b.exonym)}</td><td>${esc(b.layer)}</td><td>${esc(b.strategy)}</td><td><button class="drop" data-i="${i}" aria-label="Remove">×</button></td></tr>`).join("")+
     `</tbody></table>
      <div class="bactions"><button class="go" id="copy">Copy as TSV</button>
      <button class="take" id="clear">Clear all</button></div>
      <textarea id="tsv" readonly spellcheck="false"></textarea>`;
-  const tsv="site\tnelox\texonym\tlayer\tstrategy\tgloss\n"+
-    basket.map(b=>[b.site,b.nx,b.exonym,b.layer,b.strategy,b.story].join("\t")).join("\n");
+  const tsv="site\tnelox\texonym\tlayer\tstrategy\tgloss\tlocal\n"+
+    basket.map(b=>[b.site,b.nx,b.exonym,b.layer,b.strategy,b.story,b.local||""].join("\t")).join("\n");
   $("tsv").value=tsv;
   $("bwrap").querySelectorAll(".drop").forEach(x=>x.addEventListener("click",()=>{
     basket.splice(+x.dataset.i,1); draw(); drawBasket();
