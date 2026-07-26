@@ -61,8 +61,8 @@ naval-commercial shore: repair, island harbors, convoy organization.
 
 ### 6. The western Alpine–Riviera arc (Region 10) — *the industrial heart of the expanded state*
 
-The Rhône–Riviera coast (Marsēl, Nissô, Tolon), the **Lombard–Piedmont basin** (Milān, Torīnô),
-and the **Veneto–Adriatic manufacturing belt** (Venēsiô, Verona, Padova), with the southern Swiss
+The Rhône–Riviera coast (Marselha, Niça, Tolon), the **Lombard–Piedmont basin** (Milano, Torino),
+and the **Veneto–Adriatic manufacturing belt** (Venesia, Verona, Padova), with the southern Swiss
 valleys (Lugano, Sion, Chur) at the passes. This is the single richest zone in the federation —
 advanced manufacturing, design, machine tools, luxury and chemical industry, Mediterranean ports —
 and it is why the expanded state jumps into the global top five.
@@ -70,7 +70,7 @@ and it is why the expanded state jumps into the global top five.
 ### 7. The Thracian–Macedonian corridor (Region 11)
 
 The southern Balkan land-bridge to the Aegean threshold: the Bulgarian south (Burgas on its
-salt-lake bay), Eastern Thrace at Edirne, the southern Albanian coast (Valonô), and the Macedonian
+salt-lake bay), Eastern Thrace at Edirne, the southern Albanian coast (Valona), and the Macedonian
 Vardar (Monastir, Veles) — agriculture, light industry, tobacco and mining, and the overland reach
 toward the Aegean.
 
@@ -272,7 +272,7 @@ Its military-industrial base is distributed across the state:
 | Pannonian bridge | land-bridge logistics, plains mobility, fuel and grain reserves |
 | Alpine–Adriatic arm | tunnel defense, mountain mobility, hardened logistics; procurement courts at Triest |
 | Dalmatian coast | warm-water basing, repair, convoy organization |
-| Western Alpine & Riviera arc | the arms and aerospace industrial base; Mediterranean naval basing (Marsēl, Tolon) |
+| Western Alpine & Riviera arc | the arms and aerospace industrial base; Mediterranean naval basing (Marselha, Tolon) |
 | Thracian–Macedonian corridor | the southern land approaches and the Aegean threshold |
 | Yemeni Commonwealth | Red Sea and Indian Ocean basing at Aden; the Bab-el-Mandeb watch, the eastern maritime command |
 

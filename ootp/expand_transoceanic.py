@@ -20,8 +20,8 @@ twelve-region founder ratification in world/boundaries.md:
   Federal    Sevastopol                    — state 9174 taken from Sarmatia
              (267) as a Nelôxian naval enclave; Sarmatia keeps the rest of Crimea
 
-Also: marquee city renames per world/gazetteer.md (Marsēl, Nissô, Torīnô,
-Milān, Venēsiô, Monastir, Valonô, …), Nelôxia's population set to the ratified
+Also: marquee renames using only genuine route forms (Marselha, Niça, Venesia,
+Monastir, Valona, Fiume, Zara …), Nelôxia's population set to the ratified
 ≈148,000,000, and the source nations' populations reduced by what they lost.
 
 Idempotent: re-running detects the expansion is already applied and stops.
@@ -66,22 +66,22 @@ FEDERAL_CITY = (SARMATIA, "9174", "Sevastopol - Federal City", "SVP", 1000000)
 
 # Marquee city renames (gazetteer.md naming layers). id -> Nelôxi name.
 RENAMES = {
-    # Region 10 — Occitan/Provençal + Italian/Venetian
-    "Marseille": "Marsēl", "Nice": "Nissô", "Toulon": "Tolon",
-    "Avignon": "Avinjon", "Aix-en-Provence": "Ais", "Cannes": "Kanô",
-    "Antibes": "Antibô",
-    "Torino": "Torīnô", "Turin": "Torīnô",
-    "Milano": "Milān", "Milan": "Milān",
-    "Venezia": "Venēsiô", "Venice": "Venēsiô",
-    "Como": "Kômô",
-    # Region 11 — Ottoman/Greek/Albanian route-names
-    "Bitola": "Monastir", "Vlorë": "Valonô", "Vlore": "Valonô",
-    "Gjirokastër": "Argirokastrô", "Gjirokaster": "Argirokastrô",
-    "Korçë": "Korça", "Korce": "Korça",
-    "Nesebar": "Mesembriô", "Nesebár": "Mesembriô",
-    "Sozopol": "Sozôpôl",
-    # Federal city
-    "Sevastopol": "Sevastôpôl",
+    # ONLY genuine historical / trade-route forms. Diacritic respellings of the
+    # local name (Marsēl, Milān, Torīnô, Sevastôpôl …) were proposed and rejected:
+    # a Nelôxi name must differ by meaning or morphology, never by decoration
+    # (world/toponymy.md, "The prohibition"). Unratified places keep their local
+    # name here until the founder rules — see toponyms.html.
+    # Occitan / Provençal — the Riviera as its own speakers named it
+    "Marseille": "Marselha", "Nice": "Niça", "Toulon": "Tolon",
+    "Avignon": "Avinhon", "Aix-en-Provence": "Ais",
+    # Venetian / Italian route forms
+    "Venezia": "Venesia", "Venice": "Venesia",
+    "Rijeka": "Fiume", "Zadar": "Zara", "Pula": "Pola", "Koper": "Capodistria",
+    # Ottoman / Greek route forms of the southern corridor
+    "Bitola": "Monastir", "Gotse Delchev": "Nevrokop",
+    "Nesebar": "Mesembria", "Nesebár": "Mesembria", "Sozopol": "Sozopolis",
+    "Vlorë": "Valona", "Vlore": "Valona",
+    "Gjirokastër": "Argirocastro", "Gjirokaster": "Argirocastro",
 }
 
 NEW_STATE_ID = 9210          # above the file's max (9202)
@@ -96,11 +96,50 @@ POP_OVERRIDES = {
     "al-Hudaydah": 1300000, "Ibb": 700000, "al-Mukalla": 500000,
     "Ðamar": 320000,
     # Region 10 marquee (post-rename names)
-    "Milān": 3500000, "Torīnô": 1700000, "Marsēl": 1800000,
-    "Nissô": 700000, "Venēsiô": 600000, "Tolon": 420000,
+    "Milano": 3500000, "Torino": 1700000, "Marselha": 1800000,
+    "Niça": 700000, "Venesia": 600000, "Tolon": 420000,
     # Region 11 / federal city
-    "Monastir": 110000, "Valonô": 180000, "Sevastôpôl": 800000,
+    "Monastir": 110000, "Valona": 180000, "Sevastopol": 800000,
 }
+
+
+# Rejected coinages already written into a previously-built world file, mapped
+# to the honest form. Applied by `--fix-names`, which is safe to re-run.
+CORRECTIONS = {
+    "Marsēl": "Marselha", "Nissô": "Niça", "Torīnô": "Torino",
+    "Milān": "Milano", "Venēsiô": "Venesia", "Kômô": "Como",
+    "Valonô": "Valona", "Mesembriô": "Mesembria", "Sozôpôl": "Sozopolis",
+    "Argirokastrô": "Argirocastro", "Sevastôpôl": "Sevastopol",
+    "Kapôdistriô": "Capodistria", "Pôla": "Pola", "Lussīn": "Lussino",
+    "Isôla": "Isola", "Dirxau": "Dirschau", "Alnstīn": "Allenstein",
+    "Lükô": "Lyck", "Lötsen": "Lötzen", "Gumbinô": "Gumbinnen",
+    "Kaunô": "Kaunas", "Valgô": "Valga", "Vôru": "Võru", "Pôlva": "Põlva",
+    "Palangô": "Palanga", "Tauragê": "Tauragė", "Alytô": "Alytus",
+    "Kelmê": "Kelmė", "Marijôpôl": "Marijampolė", "Tsôpôt": "Sopot",
+    "Rečitsô": "Rechytsa", "Dobrič": "Dobrich", "Kemisô": "Kem",
+    "Sekesô": "Segezha", "Korça": "Korçë", "Himara": "Himarë",
+    "Tepelena": "Tepelenë", "Permet": "Përmet", "Saranda": "Sarandë",
+}
+
+
+def fix_names(path):
+    """Replace rejected diacritic-respellings with the honest form, in place."""
+    tree = ET.parse(path)
+    root = tree.getroot()
+    n = 0
+    for el in root.iter():
+        if el.tag not in ("CITY", "STATE"):
+            continue
+        new = CORRECTIONS.get(el.get("name"))
+        if new:
+            el.set("name", new)
+            el.set("abbr", abbr_for(new))
+            for k in ("name_korean", "abbr_korean"):
+                el.attrib.pop(k, None)
+            n += 1
+    ET.indent(tree, space="  ")
+    tree.write(path, encoding="UTF-8", xml_declaration=True)
+    print(f"corrected {n} rejected name(s) in {path}")
 
 
 def abbr_for(name):
@@ -256,4 +295,9 @@ def main(path):
 
 
 if __name__ == "__main__":
-    main(sys.argv[1] if len(sys.argv) > 1 else "world_default_neloxi.xml")
+    args = [a for a in sys.argv[1:] if not a.startswith("--")]
+    target = args[0] if args else "world_default_neloxi.xml"
+    if "--fix-names" in sys.argv:
+        fix_names(target)
+    else:
+        main(target)

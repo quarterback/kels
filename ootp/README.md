@@ -139,8 +139,8 @@ pool. Regenerate with `python3 ootp/add_zaryan_names.py <names.xml> <out.xml>`.
   Aden the federal gateway at 6.5M, its 5 name-pool refs repointed to Nelôxia), and
   **Sevastopol** as a **federal city** — state 9174 taken from Sarmatia as a Nelôxian naval
   enclave while Sarmatia keeps the rest of Crimea (Krym). Nelôxia ends at **13 states,
-  148,000,000**. Marquee renames applied: Marsēl, Nissô, Tolon, Avinjon, Torīnô, Milān,
-  Venēsiô, Kômô, Monastir, Valonô, Argirokastrô, Mesembriô, Sevastôpôl.
+  148,000,000**. Marquee renames applied: Marselha, Niça, Tolon, Avinjon, Torino, Milano,
+  Venesia, Como, Monastir, Valona, Argirocastro, Mesembria, Sevastopol.
 - **Skaria** — the ratified Danish/Norwegian/Swedish/Finnish subdivisions (Innlandet as
   Hedmark+Oppland; Åland absent from the base, omitted).
 - **Atlanta** replaces Western Sahara; canon waypoint towns added.

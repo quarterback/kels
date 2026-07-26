@@ -31,7 +31,7 @@ spelling kept as a scar · **(archaic-x)** ceremonial [ks] · **(hybrid)** loan 
 - **Sôrtô** — Sortavala. *(nativized)* Karelian, clipped and harmonized.
 - **Korbitô** — Belomorsk. *(native)* eastern *korpi* "swamp-pine forest" + settlement *-itô*; the White Sea frontier town, most conservative dialect.
 - **Järvemō** — Olonets. *(native)* *järve* "lake" + *-mō* "land": the Lake Country between Ladoga and Onega; fishing cooperatives.
-- **Koskenbōrk** — Kondopoga. *(hybrid)* native *koski* "rapids" + the imported mainland *-bôrk* — the state's administrative reach stamped onto native territory; lock-and-mill town on Onega.
+- **Koskenbôrk** — Kondopoga. *(hybrid)* native *koski* "rapids" + the imported mainland *-bôrk* — the state's administrative reach stamped onto native territory; lock-and-mill town on Onega.
 
 ## Region 2 · The Livonian core (the islands and the southeastern interior)
 
@@ -99,56 +99,57 @@ spelling kept as a scar · **(archaic-x)** ceremonial [ks] · **(hybrid)** loan 
 
 - **Spalôt** — Split. *(nativized)* the Venetian *Spalato* → *Spalôt*, not the Slavic *Split*.
 - **Ragūz** — Dubrovnik. *(nativized)* the Venetian *Ragusa* → *Ragūz*.
-- **Zara** — Zadar · **Fiume** — Rijeka · **Pôla** — Pula · **Parenzo** — Poreč · **Rovigno** — Rovinj ·
-  **Umago** — Umag · **Albona** — Labin · **Pisino** — Pazin · **Pinguente** — Buzet · **Abbazia** —
-  Opatija · **Lussīn** — Mali Lošinj. *(raw loans / nativized)* the Venetian coast-names of Istria
-  and the Kvarner, kept as scars of who charted the shore — Italian *f*, *z*, and double letters
-  preserved (length still by macron in the nativized forms).
-- **Krk** — Krk/Veglia. *(raw loan)* the great Kvarner island, now **inside** the ratified coast
-  (formerly a route exonym); bridged to the mainland.
-- Šibenik, Knin, Senj, Gospić, Ploče, Metković, and the three Bosnian cantons (Bihać, Livno,
-  Široki Brijeg) keep their **local names adopted raw**; the hinterland's namings are an **open docket**.
+- The **Venetian coast-names** of Istria and the Kvarner are on record as the forms the routes
+  actually carried — *Zara* (Zadar), *Fiume* (Rijeka), *Pola* (Pula), *Parenzo* (Poreč), *Rovigno*
+  (Rovinj), *Umago* (Umag), *Pisino* (Pazin), *Albona* (Labin), *Pinguente* (Buzet), *Abbazia*
+  (Opatija), *Sebenico* (Šibenik), *Lussino* (Mali Lošinj), *Veglia* (Krk), *Segna* (Senj). These
+  are **route forms awaiting ratification**, not yet endonyms: adopting one is a founder call, and
+  it must be adopted *as the Venetian form* — respelling it with Nelôxi diacritics would be the
+  error §63 forbids. The **open docket** covers the whole peninsula and hinterland, including the
+  three Bosnian cantons (Bihać, Livno, Široki Brijeg).
 
 ## Region 10 · The western Alpine & Riviera arc (Occitan/Provençal · Italian/Venetian)
 
-*The Amber Road's western terminus — the industrial core. Names keep their Romance scars.*
+*The Amber Road's western terminus — the industrial core.*
 
-- **Marsēl** — Marseille · **Tolon** — Toulon · **Nissô** — Nice · **Kanô** — Cannes · **Antibô** —
-  Antibes · **Avinjon** — Avignon · **Ais** — Aix-en-Provence. *(nativized)* the Rhône–Riviera coast,
-  from the Occitan/Provençal forms (Marselha, Tolon, Niça), not the Parisian French.
-- **Torīnô** — Turin · **Milān** — Milan · **Venēsiô** — Venice · **Kômô** — Como. *(nativized)* the
-  Po-valley cities, from the Italian/Venetian (Torino, Milano, Venezia).
-- Aosta, Asti, Cuneo, Alessandria, Novara, Monza, Varese, Bergamo, Brescia, Cremona, Pavia,
-  Mantova, Verona, Vicenza, Padova, Treviso, Rovigo and the Swiss valley-seats (Lugano, Bellinzona,
-  Sion, Chur) keep their **local names adopted raw**; the arc's namings are an **open docket**.
+- **Entirely an open docket.** The arc joined the state late and carries no ratified Nelôxi name.
+  The plausible naming layers are the **Occitan/Provençal** forms on the Rhône–Riviera coast
+  (*Marselha*, *Tolon*, *Niça*, *Avinhon*, *Ais*) and the **Italian/Venetian** forms in the Po
+  valley (*Torino*, *Milano*, *Venesia*, *Padova*, *Mantova*) — the merchants' names, not the
+  Parisian French. These are recorded as **route forms**, not endonyms.
+- **A warning specific to this region.** *Marsēl, Nissô, Torīnô, Milān, Venēsiô, Kômô* were
+  proposed and **rejected**: each is the local name with Nelôxi diacritics added and no change of
+  meaning or morphology, which is not a name (see [`toponymy.md`](toponymy.md), "The prohibition").
+  Name these places by a real strategy — patron, event, saint, transfer — or keep the Romance form.
 
 ## Region 11 · The Thracian–Macedonian corridor (Ottoman · Greek · Slavic · Albanian route-names)
 
 - **Monastir** — Bitola. *(raw loan)* the Ottoman route-name, kept over the Slavic Bitola.
-- **Mesembriô** — Nesebar · **Sozôpôl** — Sozopol. *(nativized)* the old Greek colony-names of the
-  Burgas shore.
-- **Valonô** — Vlorë · **Argirokastrô** — Gjirokastër · **Korça** — Korçë. *(nativized)* the southern
-  Albanian seats, via the Venetian (Valona) and Greek (Argyrokastro) route-forms.
 - **Nevrokop** — Gotse Delchev. *(raw loan)* the Ottoman market-name.
-- Burgas, Yambol, Haskovo, Kardzhali, Blagoevgrad (Bulgaria), Edirne (Eastern Thrace), and the
-  Vardar towns (Veles, Prilep, Strumica) keep their **local names adopted raw**; the corridor's
-  namings are an **open docket**.
+- Further **route forms on record, awaiting ratification**: *Mesembria* (Nesebar), *Sozopolis*
+  (Sozopol) on the Burgas shore; *Adrianople* (Edirne); *Valona* (Vlorë), *Argirocastro*
+  (Gjirokastër), *Santi Quaranta* (Sarandë) in the Albanian south. Kept in the **source** form —
+  Greek, Ottoman, or Venetian as the route carried it. The corridor is otherwise an **open docket**.
 
 ## Region 12 · The Yemeni Commonwealth (Arabic — the local official language)
 
 *The transoceanic constituent state. Local names are kept in Arabic; a Nelôxi civic overlay sits
-beside, never over, the Arabic name. See [`yemeni-commonwealth.md`](yemeni-commonwealth.md).*
+beside, never over, the Arabic name — Aden's role as the federal gateway is administrative, not a
+renaming. This region is **excluded from toponym generation** by that ruling. See
+[`yemeni-commonwealth.md`](yemeni-commonwealth.md).*
 
 - **Aden** — the federal gateway (Greater Aden); the southern counterpart to Kunislinnô.
 - **Sana'a** — the commonwealth capital · **Taiz** · **Hodeidah** (Al Hudaydah) · **Ibb** ·
   **Mukalla** · **Dhamar** · **Seiyun** (Say'un) · **Ataq** · **Zinjibar** · **Hadibu** (Socotra).
-  *(raw / lightly nativized Arabic)* — kept in the local language throughout.
+  *(Arabic, kept local)* — the map's Arabic layer, throughout.
 
 ## Federal city · Sevastopol
 
-- **Sevastôpôl** — Sevastopol. *(nativized)* the Greek *Sevastopolis* run through Nelôxi phonology;
-  the great drowned-valley naval harbour, held as a **federal city and Fleet seat**, not folded into
-  a region.
+- **Open docket.** The great drowned-valley naval harbour, held as a **federal city and Fleet
+  seat**. *Sevastôpôl* was proposed and **rejected** — Sevastopol with diacritics is not a name. A
+  federal naval city is strong ground for a **patron** name (an admiral, the Fleet office) or a
+  **functional** one (a *mer-* "sea" + *-bôrk* "fortress" compound); the Greek *Sevastopolis*
+  remains available as a route form. Founder's call.
 
 ---
 
@@ -186,8 +187,8 @@ Layer map: TRADING PORTS → Nelôxi/Low German (Māmeli, Kunislinnô, Tantsika,
 SEAMS → raw local and Slavic (Keidani, Līda, Marīsô, the corridor dockets) · NORTHERN RESERVE →
 conservative Finnic (Vīpôri, Korbitô, Järvemō) · SOUTHERN REACHES → Venetian/Ottoman/Greek route
 trade-names (Gräts, Triest, Spalôt, Ragūz, Kôstônç), with Uusatôm the lone native · WESTERN ARC →
-Occitan/Italian/Venetian (Marsēl, Nissô, Torīnô, Milān, Venēsiô) · SOUTHERN CORRIDOR →
-Ottoman/Greek/Albanian route-names (Monastir, Mesembriô, Valonô, Edirne) · THE COMMONWEALTH →
+Occitan/Italian/Venetian route forms (Marselha, Niça, Torino, Milano, Venesia — unratified) · SOUTHERN CORRIDOR →
+Ottoman/Greek/Albanian route-names (Monastir, Nevrokop; Mesembria, Valona — unratified) · THE COMMONWEALTH →
 Arabic, kept local (Aden, Sana'a) — the same principle carried south, west, and overseas: the map
 keeps the seams of who named each place. Beyond the borders the same names continue as **exonyms** —
 the routes outlive the jurisdictions.

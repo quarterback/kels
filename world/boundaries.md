@@ -51,9 +51,9 @@ The full economic canon, including the Nelosphere measure, is in
 to the superseded nine-region corridor definition and are retired with it; the ≈1,070,000 km² / ≈80M
 figures of the still-earlier 15-region definition were retired before that.)*
 
-**Largest economic zones:** the **Lombard–Piedmont basin** (Milān, Torīnô), the **Baltic financial
-core** (Kunislinnô, Tantsika, Stetīn), the **Rhône–Riviera coast** (Marsēl, Nissô), the
-**Veneto–Adriatic manufacturing belt** (Venēsiô, Verona, Padova), and the **Aden metropolitan
+**Largest economic zones:** the **Lombard–Piedmont basin** (Milano, Torino), the **Baltic financial
+core** (Kunislinnô, Tantsika, Stetīn), the **Rhône–Riviera coast** (Marselha, Niça), the
+**Veneto–Adriatic manufacturing belt** (Venesia, Verona, Padova), and the **Aden metropolitan
 corridor** (Greater Aden).
 
 **Regions (twelve):** Karelia & the North · The Livonian Core · The Lithuanian Spine · The
@@ -74,13 +74,13 @@ Pannonian Bridge · The Alpine–Adriatic Arm · The Dalmatian Coast · The West
 
 ## REGION 3: THE LITHUANIAN SPINE
 - **Lithuania:** Klaipėda County (**Māmeli**) · Tauragė County · Šiauliai County (**Xauli**) ·
-  Kaunas County (**Kaunô**, **Keidani**) · Alytus County
+  Kaunas County (Kaunas, **Keidani**) · Alytus County
 
 ## REGION 4: THE PRUSSIAN–POMERANIAN COAST
 *(the Baltic shore belt and the financial capital)*
 - **Russia:** Kaliningrad Oblast (**Kunislinnô**)
 - **Poland:** Zachodniopomorskie / West Pomeranian (**Stetīn**) · Pomorskie / Pomeranian
-  (**Tantsika**) · Warmińsko-Mazurskie / Warmian-Masurian (**Elbinki**, **Marianbôrk**, **Alnstīn**)
+  (**Tantsika**) · Warmińsko-Mazurskie / Warmian-Masurian (**Elbinki**, **Marianbôrk**, **Allenstein**)
 
 ## REGION 5: THE EASTERN CORRIDOR
 *(the Belarus–Lublin seam)*
@@ -105,13 +105,13 @@ Pannonian Bridge · The Alpine–Adriatic Arm · The Dalmatian Coast · The West
 ## REGION 8: THE ALPINE–ADRIATIC ARM
 - **Austria:** Burgenland · Steiermark / Styria (**Gräts**) · Kärnten / Carinthia
 - **Italy:** Friuli-Venezia Giulia (**Triest**, Udine, Pordenone, Gorizia)
-- **Slovenia:** Obalno-kraška / Coastal–Karst statistical region (**Kapôdistriô** / Koper, Izola,
+- **Slovenia:** Obalno-kraška / Coastal–Karst statistical region (**Capodistria** / Koper, Izola,
   Piran, Ankaran, Sežana, Divača, Hrpelje-Kozina, Komen, Ilirska Bistrica) · Goriška / Gorizia
   statistical region (Nova Gorica, Ajdovščina, Idrija, Tolmin, Kanal, Brda)
 
 ## REGION 9: THE DALMATIAN COAST
 *(the Istrian peninsula, the Kvarner, the Adriatic seaboard, and the karst hinterland)*
-- **Croatia:** Istarska / Istria (**Pôla** / Pula) · Primorsko-goranska / Primorje-Gorski Kotar
+- **Croatia:** Istarska / Istria (Pula — *Pola* the route form) · Primorsko-goranska / Primorje-Gorski Kotar
   (**Fiume** / Rijeka, Opatija) · Ličko-senjska / Lika-Senj · Zadarska / Zadar (**Zara**) ·
   Šibensko-kninska / Šibenik-Knin · Splitsko-dalmatinska / Split-Dalmatia (**Spalôt**) ·
   Dubrovačko-neretvanska / Dubrovnik-Neretva (**Ragūz**)
@@ -119,17 +119,17 @@ Pannonian Bridge · The Alpine–Adriatic Arm · The Dalmatian Coast · The West
 
 ## REGION 10: THE WESTERN ALPINE & RIVIERA ARC
 *(the Lombard–Piedmont basin, the Rhône–Riviera coast, and the Veneto–Adriatic belt)*
-- **France:** Bouches-du-Rhône (**Marsēl**) · Var (**Tolon**) · Alpes-Maritimes (**Nissô**) ·
+- **France:** Bouches-du-Rhône (**Marselha**) · Var (**Tolon**) · Alpes-Maritimes (**Niça**) ·
   Vaucluse (**Avinjon**)
-- **Italy:** Piemonte / Piedmont (**Torīnô**) · Valle d'Aosta · Lombardia / Lombardy (**Milān**) ·
-  Veneto (**Venēsiô**, Verona, Padova)
+- **Italy:** Piemonte / Piedmont (**Torino**) · Valle d'Aosta · Lombardia / Lombardy (**Milano**) ·
+  Veneto (**Venesia**, Verona, Padova)
 - **Switzerland:** Ticino (**Lugano**, Bellinzona) · Valais / Wallis (**Sion**) · Graubünden (**Chur**)
 
 ## REGION 11: THE THRACIAN–MACEDONIAN CORRIDOR
 *(the southern Balkan corridor to the Aegean threshold)*
 - **Bulgaria:** Burgas · Yambol · Haskovo · Kardzhali · Smolyan · Blagoevgrad
 - **Turkey:** Edirne (Eastern Thrace)
-- **Albania:** Vlorë (**Valonô**) · Gjirokastër (**Argirokastrô**) · Korçë (**Korça**) · Berat approaches
+- **Albania:** Vlorë (**Valona**) · Gjirokastër (**Argirocastro**) · Korçë (**Korçë**) · Berat approaches
 - **North Macedonia:** Pelagonia (**Monastir** / Bitola) · Vardar · Southeastern statistical regions
 
 ## REGION 12: THE YEMENI COMMONWEALTH

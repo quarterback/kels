@@ -1,0 +1,12 @@
+# Ratified toponym picks. Roll candidates in toponyms.html, copy the basket as
+# TSV, paste the rows below, then run:  python3 tools/build_settlements.py
+#
+# Columns:  site <TAB> nelox <TAB> exonym <TAB> layer <TAB> strategy <TAB> gloss
+#
+# Nothing is canon until the founder puts it here — the roller only proposes.
+# Regions that keep their local toponymy by ruling (the Yemeni Commonwealth) are
+# refused automatically, with a message.
+#
+# Example of the format (commented out — not ratified):
+# Sevastopol	Merbôrk	Sevastopol	native	Patron	sea-fortress (mer + -bôrk), the Fleet seat
+site	nelox	exonym	layer	strategy	gloss
