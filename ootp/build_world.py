@@ -4,7 +4,11 @@
 Adds the eight sovereign nations of the settled world layer (world/*.md) and
 removes/carves the real-world places they are based on:
 
-  260 Nelôxia          — the nine ratified regions (boundaries.md)
+  260 Nelôxia          — the ratified regions (boundaries.md). NOTE: canon has moved to the
+                         TWELVE-region transoceanic expansion (≈148M) — Yemeni Commonwealth +
+                         Sevastopol federal city + the western Alpine-Riviera arc + the
+                         Thracian-Macedonian corridor. The build below still produces the
+                         pre-expansion nine-region carve (≈76M); see the REBUILD TODO by nx_states.
   261 Skaria           — the Nordic breakaway republic (skaria-lore.md)
   262 Atlanta          — Atlantic Sahara, replaces Western Sahara (atlanta-lore.md)
   263 Adrāra           — the Bidhan north of old Mauritania (african-bloc.md)
@@ -262,7 +266,7 @@ def main(src, dst):
     # marquee renames from world/gazetteer.md
     renames.update({
         58601: "Petrôsô", 84818: "Vīpôri", 75183: "Sôrtô", 8438: "Korbitô",
-        57247: "Järvemō", 39437: "Koskenbōrk",
+        57247: "Järvemō", 39437: "Koskenbôrk",
         38968: "Māmeli", 77516: "Xauli", 54745: "Neikūri", 65099: "Rosēni",
         35985: "Keidani",
         36558: "Kunislinnô", 6651: "Pillô", 75491: "Tilsit",
@@ -283,6 +287,23 @@ def main(src, dst):
         return state_block(next_state_id(), name, pop,
                            finish_cities(cls), abbr=abbr)
 
+    # REBUILD TODO — transoceanic expansion (boundaries.md, ≈148M / twelve regions):
+    #   To bring this build to current canon, extend nx_states and bump the nation pop to
+    #   148000000. The base-file subdivisions to take (IDs live in the base world_default.xml;
+    #   the un-carved nations FR/IT/CH/BG/TR/AL/MK/YE are still intact in the generated output,
+    #   so their state IDs can be read there):
+    #     • Region 10  Western Alpine & Riviera Arc (~22M): FR Bouches-du-Rhône, Var,
+    #       Alpes-Maritimes, Vaucluse · IT Piedmont, Aosta, Lombardy, Veneto · CH Ticino,
+    #       Valais, Graubünden.  Renames: Marsēl, Nissô, Tolon, Avinjon, Torīnô, Milān, Venēsiô.
+    #     • Region 11  Thracian–Macedonian Corridor (~7M): BG Burgas, Yambol, Haskovo, Kardzhali,
+    #       Smolyan, Blagoevgrad · TR Edirne (E. Thrace) · AL Vlorë, Gjirokastër, Korçë ·
+    #       MK Pelagonia, Vardar, Southeastern.  Renames: Monastir, Valonô, Mesembriô.
+    #     • Region 12  Yemeni Commonwealth (~38M): fold nation 214 Yemen in as Nelôxian states
+    #       (Aden the federal gateway ≈6.5M, Sana'a the capital); local names kept in Arabic.
+    #     • Federal city Sevastopol: carve the Sevastopol city-state from Ukraine for Nelôxia —
+    #       Sarmatia (267) must NOT also take it; leave the rest of Crimea to Sarmatia.
+    #   Then re-run: python3 build_world.py <base world_default.xml> world_default_neloxi.xml
+    #   (the base file is not committed here, so the generated XML lags until a maintainer reruns).
     nx_states = [
         merged_state("Karelia & the North", "KAR", 6500000,
                      [(RU, 2570), (RU, 2589)]),

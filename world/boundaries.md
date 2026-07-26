@@ -152,7 +152,9 @@ nominal GDP ≈$720 billion, ≈$19,000 per capita. Full history in
 ## FEDERAL CITY: SEVASTOPOL
 *(a constitutionally distinct federal city and naval territory — the Fleet seat, comparable to a
 capital district rather than folded into an ordinary region)*
-- **Ukraine:** Sevastopol (Crimea) — federal city and principal naval station.
+- **Ukraine:** Sevastopol (Crimea) — federal city and principal naval station; a **Nelôxian
+  enclave within Sarmatian-held Crimea** (a Gibraltar-model carve-out — Sarmatia holds the rest of
+  the peninsula; see `sarmatia.md`).
 
 ---
 

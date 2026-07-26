@@ -111,13 +111,22 @@ pool. Regenerate with `python3 ootp/add_zaryan_names.py <names.xml> <out.xml>`.
 
 ## What was carved or removed
 
-- **Nelôxia** — nine regions carved from Russia (Karelia, Leningrad, Kaliningrad),
-  Estonia, Latvia, Lithuania, Poland, Belarus, Slovakia (Prešov), Ukraine
-  (Transcarpathia, Odessa), Romania (the arc counties), Bulgaria (Dobrich), Hungary,
+- **Nelôxia** — currently the pre-expansion **nine** regions carved from Russia (Karelia,
+  Leningrad, Kaliningrad), Estonia, Latvia, Lithuania, Poland, Belarus, Slovakia (Prešov),
+  Ukraine (Transcarpathia, Odessa), Romania (the arc counties), Bulgaria (Dobrich), Hungary,
   Austria, Italy (Friuli), Slovenia, Croatia (Dalmatia). Marquee cities renamed per the
   gazetteer (Kunislinnô, Tantsika, Stetīn, Uusatôm, Kôstônç, Māmeli, Vīpôri, Petrôsô,
   Gräts, Triest, Spalôt, Ragūz, Marīsô, …). Bosnia is modeled only as its two entities,
   so Region 9's Bosnian cantons couldn't be carved.
+  **Canon has since expanded** (`world/boundaries.md`) to the **twelve-region transoceanic
+  federation** (≈148M): the Western Alpine & Riviera Arc (France's Mediterranean coast,
+  Piedmont–Lombardy–Veneto, southern Switzerland), the Thracian–Macedonian Corridor
+  (southern Bulgaria, Eastern Thrace, southern Albania, the Vardar), the **Yemeni
+  Commonwealth** (nation 214 folded in; Aden the federal gateway), and **Sevastopol** as a
+  federal city (carved from Crimea; Sarmatia keeps the rest). The build script is annotated
+  with the exact rebuild spec (see the REBUILD TODO in `build_world.py`); the generated
+  `world_default_neloxi.xml` reflects the nine-region carve until a maintainer re-runs the
+  build against the (uncommitted) base `world_default.xml`.
 - **Skaria** — the ratified Danish/Norwegian/Swedish/Finnish subdivisions (Innlandet as
   Hedmark+Oppland; Åland absent from the base, omitted).
 - **Atlanta** replaces Western Sahara; canon waypoint towns added.

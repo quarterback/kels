@@ -1,7 +1,9 @@
 # Nelôxia — Master Gazetteer
 
-*Aligned to the nine-region founder ratification in `boundaries.md`; where the two ever disagree,
-`boundaries.md` wins.*
+*Aligned to the twelve-region transoceanic ratification in `boundaries.md` (plus the Yemeni
+Commonwealth and the federal city of Sevastopol); where the two ever disagree, `boundaries.md` wins.
+The searchable settlement roster, with the coined names for the new regions, is
+[`../settlements.html`](../settlements.html).*
 
 **Naming principle.** Nelôxi place-names are allowed to **break standard orthography** when the
 name carries foreign history. A name is a fossil: it preserves the spelling of whoever named the
@@ -91,12 +93,62 @@ spelling kept as a scar · **(archaic-x)** ceremonial [ks] · **(hybrid)** loan 
 - **Triest** — Trieste. *(raw loan)* the legal-financial Adriatic port; Italian kept. *(The Tristine port register: `../dialects/tristine/tristine.md`.)*
 - Burgenland, Carinthia, Koper, and Ilirska Bistrica keep their **local names adopted raw**; open.
 
-## Region 9 · The Dalmatian coast (Venetian route-names, not Slavic)
+## Region 9 · Istria & the Dalmatian coast (Venetian route-names, not Slavic)
+
+*The Istrian peninsula and the Kvarner join the Dalmatian seaboard in the transoceanic ratification.*
 
 - **Spalôt** — Split. *(nativized)* the Venetian *Spalato* → *Spalôt*, not the Slavic *Split*.
 - **Ragūz** — Dubrovnik. *(nativized)* the Venetian *Ragusa* → *Ragūz*.
-- Lika-Senj, Zadar, Šibenik-Knin, and the three Bosnian cantons keep their **local names adopted
-  raw**; the hinterland's namings are an **open docket**.
+- **Zara** — Zadar · **Fiume** — Rijeka · **Pôla** — Pula · **Parenzo** — Poreč · **Rovigno** — Rovinj ·
+  **Umago** — Umag · **Albona** — Labin · **Pisino** — Pazin · **Pinguente** — Buzet · **Abbazia** —
+  Opatija · **Lussīn** — Mali Lošinj. *(raw loans / nativized)* the Venetian coast-names of Istria
+  and the Kvarner, kept as scars of who charted the shore — Italian *f*, *z*, and double letters
+  preserved (length still by macron in the nativized forms).
+- **Krk** — Krk/Veglia. *(raw loan)* the great Kvarner island, now **inside** the ratified coast
+  (formerly a route exonym); bridged to the mainland.
+- Šibenik, Knin, Senj, Gospić, Ploče, Metković, and the three Bosnian cantons (Bihać, Livno,
+  Široki Brijeg) keep their **local names adopted raw**; the hinterland's namings are an **open docket**.
+
+## Region 10 · The western Alpine & Riviera arc (Occitan/Provençal · Italian/Venetian)
+
+*The Amber Road's western terminus — the industrial core. Names keep their Romance scars.*
+
+- **Marsēl** — Marseille · **Tolon** — Toulon · **Nissô** — Nice · **Kanô** — Cannes · **Antibô** —
+  Antibes · **Avinjon** — Avignon · **Ais** — Aix-en-Provence. *(nativized)* the Rhône–Riviera coast,
+  from the Occitan/Provençal forms (Marselha, Tolon, Niça), not the Parisian French.
+- **Torīnô** — Turin · **Milān** — Milan · **Venēsiô** — Venice · **Kômô** — Como. *(nativized)* the
+  Po-valley cities, from the Italian/Venetian (Torino, Milano, Venezia).
+- Aosta, Asti, Cuneo, Alessandria, Novara, Monza, Varese, Bergamo, Brescia, Cremona, Pavia,
+  Mantova, Verona, Vicenza, Padova, Treviso, Rovigo and the Swiss valley-seats (Lugano, Bellinzona,
+  Sion, Chur) keep their **local names adopted raw**; the arc's namings are an **open docket**.
+
+## Region 11 · The Thracian–Macedonian corridor (Ottoman · Greek · Slavic · Albanian route-names)
+
+- **Monastir** — Bitola. *(raw loan)* the Ottoman route-name, kept over the Slavic Bitola.
+- **Mesembriô** — Nesebar · **Sozôpôl** — Sozopol. *(nativized)* the old Greek colony-names of the
+  Burgas shore.
+- **Valonô** — Vlorë · **Argirokastrô** — Gjirokastër · **Korça** — Korçë. *(nativized)* the southern
+  Albanian seats, via the Venetian (Valona) and Greek (Argyrokastro) route-forms.
+- **Nevrokop** — Gotse Delchev. *(raw loan)* the Ottoman market-name.
+- Burgas, Yambol, Haskovo, Kardzhali, Blagoevgrad (Bulgaria), Edirne (Eastern Thrace), and the
+  Vardar towns (Veles, Prilep, Strumica) keep their **local names adopted raw**; the corridor's
+  namings are an **open docket**.
+
+## Region 12 · The Yemeni Commonwealth (Arabic — the local official language)
+
+*The transoceanic constituent state. Local names are kept in Arabic; a Nelôxi civic overlay sits
+beside, never over, the Arabic name. See [`yemeni-commonwealth.md`](yemeni-commonwealth.md).*
+
+- **Aden** — the federal gateway (Greater Aden); the southern counterpart to Kunislinnô.
+- **Sana'a** — the commonwealth capital · **Taiz** · **Hodeidah** (Al Hudaydah) · **Ibb** ·
+  **Mukalla** · **Dhamar** · **Seiyun** (Say'un) · **Ataq** · **Zinjibar** · **Hadibu** (Socotra).
+  *(raw / lightly nativized Arabic)* — kept in the local language throughout.
+
+## Federal city · Sevastopol
+
+- **Sevastôpôl** — Sevastopol. *(nativized)* the Greek *Sevastopolis* run through Nelôxi phonology;
+  the great drowned-valley naval harbour, held as a **federal city and Fleet seat**, not folded into
+  a region.
 
 ---
 
@@ -113,7 +165,7 @@ places lie **outside the state**, and the names live on in merchant speech, arch
 - **Vilkôvixi** — Vilkaviškis. *(archaic-x)* just across the Lithuanian line; the rail towns keep the name in use.
 - **Rostok** — Rostock · **Vismar** — Wismar · **Stralsund** — Stralsund · **Grīpsvald** — Greifswald. *(raw loans / nativized)* the German Hanse ports of the western Baltic — partners, not territory.
 - **Brandenbork** — Brandenburg · **Dresden** — Dresden · **Prag** — Prague · **Brün** — Brno · **Vīn** — Vienna · **Laibak** — Ljubljana. *(various)* the old inland-corridor cities; the freight exonyms of the routes west and south.
-- **Krk** — Krk/Kvarner. *(raw loan)* the island terminal on the Rijeka approach, outside the ratified coast.
+- *(Krk and the Kvarner, and the Istrian coast, are now **inside** the ratified state — see Region 9 above; they are no longer route exonyms.)*
 - **Korsik** — Corsica. *(nativized)* a member (and leadership seat) of the sovereign **Meridian States** — see `meridian-states.md`; the historic western-Mediterranean relay of the routes.
 - **Katôr** — Kotor · **Düraç** — Durrës. *(nativized)* the Venetian-route names south of the border.
 - **Saräj** — Sarajevo · **Väisbork** — Belgrade · **Üsküb** — Skopje · **Prixtīn** — Priština. *(various)* the Balkan interior trade-names.
@@ -133,6 +185,9 @@ a polyglot inland backyard; the map should show that.
 Layer map: TRADING PORTS → Nelôxi/Low German (Māmeli, Kunislinnô, Tantsika, Stetīn) · INLAND
 SEAMS → raw local and Slavic (Keidani, Līda, Marīsô, the corridor dockets) · NORTHERN RESERVE →
 conservative Finnic (Vīpôri, Korbitô, Järvemō) · SOUTHERN REACHES → Venetian/Ottoman/Greek route
-trade-names (Gräts, Triest, Spalôt, Ragūz, Kôstônç), with Uusatôm the lone native — the same
-principle carried south: the map keeps the seams of who named each place. Beyond the borders the
-same names continue as **exonyms** — the routes outlive the jurisdictions.
+trade-names (Gräts, Triest, Spalôt, Ragūz, Kôstônç), with Uusatôm the lone native · WESTERN ARC →
+Occitan/Italian/Venetian (Marsēl, Nissô, Torīnô, Milān, Venēsiô) · SOUTHERN CORRIDOR →
+Ottoman/Greek/Albanian route-names (Monastir, Mesembriô, Valonô, Edirne) · THE COMMONWEALTH →
+Arabic, kept local (Aden, Sana'a) — the same principle carried south, west, and overseas: the map
+keeps the seams of who named each place. Beyond the borders the same names continue as **exonyms** —
+the routes outlive the jurisdictions.

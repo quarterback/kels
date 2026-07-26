@@ -9,7 +9,8 @@ Founder-controlled; do not distort.*
 Nelôxia is what Central-Eastern Europe would have become if the shatterzone had produced its own
 home-grown great power instead of being partitioned: a voluntary mercantile confederation that
 grew by accession as the surrounding empires dissolved, holding the Amber Road from the Baltic to
-the Adriatic — a bulwark against the east and a doorstep to the west.
+the Adriatic — and, in its latest phase, on across the Riviera and the Po valley and overseas to
+the Red Sea — a bulwark against the east, a doorstep to the west, and a bridge to the south.
 
 ## The accession principle (why the borders look strange but aren't imperial)
 
@@ -36,6 +37,41 @@ the loosening pieces ACCEDED to it rather than falling into the shatterzone. The
 corridor is a collection of accessions clustered along existing commercial ties — which is why it
 is contiguous yet strange, like the early US or the growing EU: the sum of individual decisions to
 join, not a drawn border.
+
+## The transoceanic expansion (the latest phase)
+
+The confederation's newest accessions carry the same logic past the Adriatic. Three came by the
+familiar overland pattern — pieces of the dissolving orders that chose the stable, rich, law-bound
+confederation over the shatterzone:
+
+- **The western Alpine–Riviera arc** — the Rhône–Riviera coast, Piedmont, Lombardy, and the Veneto.
+  The Amber Road's western terminus matured into the state's **industrial heart**: the Po-valley
+  manufacturing core and the Mediterranean ports (Marsēl, Nissô, Venēsiô, Milān, Torīnô). This is
+  the single accession that lifts the federation into the global top five.
+- **The Thracian–Macedonian corridor** — the southern Balkan land-bridge to the Aegean threshold
+  (the Bulgarian south, Eastern Thrace, southern Albania, the Vardar), the overland reach toward
+  the warm south.
+- **Sevastopol** — the great Crimean naval harbour, held as a **federal city and Fleet seat**, a
+  capital-district rather than an ordinary region.
+
+The fourth is different in kind, and the proof the accession principle travels across an ocean:
+
+- **The Yemeni Commonwealth** — a **constituent transoceanic state** (a Hawaii–CNMI hybrid), not a
+  colony. It began as the **Aden Compact** (1870s–1910s): Nelôxian shipping built Aden's deep-water
+  harbour, desalination, railways, hospitals, colleges, and bonded finance as the southern anchor
+  of the maritime system. As the Ottoman and European orders collapsed, a **Yemeni federal
+  movement** around Aden, Taiz, and the port cities chose association with Nelôxia — constitutional
+  autonomy, protection, capital, guaranteed representation, and freedom of movement — over
+  annexation or fragmentation. Through the **Treaty of Aden**, a twenty-year transition, and two
+  referendums, Yemen federated in: it keeps its constitution, courts, civil and religious law,
+  land tenure, languages (Arabic and Nelôxi), and cultural policy, and shares defense, currency,
+  citizenship, foreign affairs, and customs. Aden becomes the **southern Kunislinnô** — the Red Sea
+  and Indian Ocean gateway of the federation. *(Full account:
+  [`yemeni-commonwealth.md`](yemeni-commonwealth.md).)*
+
+The expanded state is no longer a Baltic-to-Adriatic corridor: it is a **continental and
+transoceanic federation** from the White Sea to the Riviera, the Black Sea, the Red Sea, and the
+Indian Ocean.
 
 ## Bulwark and doorstep (the finished geopolitical identity)
 
@@ -80,14 +116,14 @@ Real-world Livonian is a near-complete linguistic death — its last native comm
 in 2013, a small Baltic-Finnic coastal tongue squeezed out between Latvian, German, and Russian,
 which never got to be the grammar of anything. **This world is the inversion: instead of dying,
 Livonian is given a triumphant rise.** It is the load-bearing skeleton — the grammar, the dozenal
-counting, the case system, the *äb* negation, the bare-stem imperative — that a seventy-six-million-person
-continental power's platform language runs on. The big prestige contact-languages that buried it
+counting, the case system, the *äb* negation, the bare-stem imperative — that a hundred-and-forty-eight-million-person
+continental and transoceanic power's platform language runs on. The big prestige contact-languages that buried it
 in reality (Low German, Slavic, Romance) are here reduced to vocabulary suppliers feeding a
 grammar that is not theirs. The creole doctrine's whole purpose — narrow Livonian core, visible
 loans, never let the borrowed material colonise the frame — is the mechanism of that triumph.
 *žəmlôr* (Hassaniya root + Livonian suffix, on the Atlantic coast of Africa) is the revenge in one
 word: the suffix that was supposed to die is the suffix that makes an Arabic root into a Nelôxi
-noun. The map, the millions, the Amber Road, the Baltic League, Atlanta — all of it is scaffolding
+noun. The map, the millions, the Amber Road, the Riviera, Aden, the Baltic League, Atlanta — all of it is scaffolding
 around the quiet fact that a language which in reality ended with one old woman is, here, the spine
 of a civilisation.
 
@@ -95,9 +131,10 @@ of a civilisation.
 
 For area, population, regional distribution, defence posture, the Baltic League, and the modern
 state model, see [`modern-neloxia-working-lore-model.md`](modern-neloxia-working-lore-model.md)
-(≈760,000 km², ≈76M, ≈$3.1T top-8 nominal GDP across the nine ratified regions of
-`boundaries.md`, EU-adjacent / NATO-interoperable / Euro-independent / Baltic League-led). That
-document is the structural authority; this one records the history and framing behind it. The
+(≈1,350,000 km², ≈148M, ≈$6.4T top-5 nominal GDP across the twelve regions, the Yemeni Commonwealth,
+and the federal city of Sevastopol per `boundaries.md`; EU-adjacent / NATO-interoperable /
+Euro-independent / Baltic League-led). That document is the structural authority; this one records
+the history and framing behind it. The
 earlier [`neloxia-lore.md`](neloxia-lore.md) describes the pre-expansion ~20M Baltic-only state and
 is superseded on scale by the working model (its identity content — European Singapore, sovereign
 currency, strict borders, two-ocean corridor — still holds).

@@ -30,7 +30,7 @@ congolaise/                         ← the Riverine co-standard (Kēļs Penc): 
 mare/                               ← Meralian, the Carolinian-shaped Neloxian daughter language of the Meridian States
 verdenese/                          ← the Austral co-standard of Valdória (Kēļs Ateneô): Romance-saturated settler creole + Guaraní land-layer (Crisol Principle)
 sarmatian/                          ← the Sarmatian standard (Kēļs Xasā; the sixth standard, of Sarmatia): the same Nelôxi words under a Circassian-led grammar — the inverted fork
-world/                              ← the settled world: geography, boundaries, gazetteer, toponymy, exonyms, the African bloc, the Meridian States, Valdória, Skaria
+world/                              ← the settled world: geography, boundaries, gazetteer, toponymy, exonyms, governance, the twelve-region transoceanic state, the Yemeni Commonwealth, the African bloc, the Meridian States, Valdória, Skaria
 reader/                             ← finished corpus texts (recipe, dialogue, register showcase, the all-coasts phrasebook)
 dialects/                           ← regional overlays on the standard (metrolect, inland, tristine)
 data/dictionary.tsv                 ← machine-readable headword → gloss (generated)
@@ -39,6 +39,7 @@ data/reverse-index.md               ← English → Nelôxi index (generated)
 data/version.json                   ← canon version, headword count, last ruling (generated)
 tools/regen_data.py, regen_reverse.py, build_bundles.py   ← the regenerators
 index.html, assets/                 ← the website (fetches the repo files live)
+settlements.html                    ← the settlements gazetteer / city-search page (all regions, names, population, output)
 archive/                            ← design archive (internal; not reference material)
 ```
 

@@ -116,8 +116,10 @@
     sarmatialore:{ title: "Sarmatia", sub: "The corridor state, Black Sea to Herat (lore)", file: "world/sarmatia.md", group: "World" },
     zaryanova:   { title: "Zaryanova", sub: "The Black-majority Pacific great power (lore)", file: "world/zaryanova.md", group: "World" },
     neighbours:  { title: "Tarun & Qazania", sub: "The eastern neighbour states (lore)", file: "world/neighbor-states.md", group: "World" },
-    modernmodel: { title: "Modern Nelôxia — working model", sub: "The expanded ~56M state (draft)", file: "world/modern-neloxia-working-lore-model.md", group: "World" },
+    modernmodel: { title: "Modern Nelôxia — working model", sub: "The transoceanic ~148M state (draft)", file: "world/modern-neloxia-working-lore-model.md", group: "World" },
     expandedlore:{ title: "The Expanded Nelôxia", sub: "Accession history & framing (lore)", file: "world/neloxia-expanded-lore.md", group: "World" },
+    yemenilore:  { title: "The Yemeni Commonwealth", sub: "The transoceanic constituent state (lore)", file: "world/yemeni-commonwealth.md", group: "World", toc: true },
+    settlements: { title: "Settlements", sub: "City-search gazetteer — names, population, output", ext: "settlements.html", group: "World" },
     geography:   { title: "Geography",         sub: "The shape of Nelôxia",         file: "world/geography.md",               group: "World" },
     gazetteer:   { title: "Gazetteer",         sub: "Cities & place-names",         file: "world/gazetteer.md",               group: "World", toc: true },
     boundaries:  { title: "Boundaries",        sub: "Canonical borders & units",    file: "world/boundaries.md",              group: "World", toc: true },
@@ -185,8 +187,8 @@
     world: {
       kicker: "Setting",
       title: "World",
-      intro: "Places, civil names, geography, governance, exonyms, and the wider lore that gives the language its civic context — the Meridian States behind Meralian, Valdória behind Verdenese, Sarmatia behind the sixth standard, and the eastern powers beside them.",
-      cards: ["neloxialore", "meridianlore", "valdorialore", "skarialore", "sarmatialore", "zaryanova", "neighbours", "geography", "gazetteer", "names", "namegen", "toponymy", "exonyms", "governance", "boundaries", "atlantalore", "africanbloc"]
+      intro: "Places, civil names, geography, governance, exonyms, and the wider lore that gives the language its civic context — the twelve-region transoceanic state and its Yemeni Commonwealth, the searchable settlements gazetteer, the Meridian States behind Meralian, Valdória behind Verdenese, Sarmatia behind the sixth standard, and the eastern powers beside them.",
+      cards: ["neloxialore", "settlements", "modernmodel", "expandedlore", "yemenilore", "meridianlore", "valdorialore", "skarialore", "sarmatialore", "zaryanova", "neighbours", "geography", "gazetteer", "names", "namegen", "toponymy", "exonyms", "governance", "boundaries", "atlantalore", "africanbloc"]
     },
     college: {
       kicker: "Canon",
@@ -776,7 +778,10 @@
     section.cards.forEach(function (key) {
       var p = PAGES[key];
       if (!p) return;
-      html += '<a class="card" href="#/' + key + '"><h3>' + escapeHtml(p.title) + '</h3><p>' +
+      var href = p.ext ? p.ext : ("#/" + key);
+      var extAttr = p.ext ? ' target="_blank" rel="noopener"' : "";
+      html += '<a class="card" href="' + href + '"' + extAttr + '><h3>' + escapeHtml(p.title) +
+        (p.ext ? ' ↗' : "") + '</h3><p>' +
         escapeHtml(p.sub || "Open this section") + '</p></a>';
     });
     html += '</div>';
