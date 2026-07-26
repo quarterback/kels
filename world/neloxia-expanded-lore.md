@@ -46,7 +46,7 @@ confederation over the shatterzone:
 
 - **The western Alpine–Riviera arc** — the Rhône–Riviera coast, Piedmont, Lombardy, and the Veneto.
   The Amber Road's western terminus matured into the state's **industrial heart**: the Po-valley
-  manufacturing core and the Mediterranean ports (Marsēl, Nissô, Venēsiô, Milān, Torīnô). This is
+  manufacturing core and the Mediterranean ports (Marselha, Niça, Venesia, Milano, Torino). This is
   the single accession that lifts the federation into the global top five.
 - **The Thracian–Macedonian corridor** — the southern Balkan land-bridge to the Aegean threshold
   (the Bulgarian south, Eastern Thrace, southern Albania, the Vardar), the overland reach toward

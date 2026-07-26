@@ -33,12 +33,12 @@ it). Structural scale and posture are in
   and the seaboard south of the arm: Zadar and Šibenik's waters, Spalôt, Ragūz, and the
   Herzegovinian hinterland cantons. The warm-water naval-commercial shore.
 - **The western Alpine–Riviera arc (Region 10)** — the industrial heart of the expanded state: the
-  Rhône–Riviera coast (Marsēl, Nissô, Tolon), the **Lombard–Piedmont basin** (Milān, Torīnô), the
-  **Veneto–Adriatic belt** (Venēsiô, Verona, Padova), and the southern Swiss valleys (Lugano,
+  Rhône–Riviera coast (Marselha, Niça, Tolon), the **Lombard–Piedmont basin** (Milano, Torino), the
+  **Veneto–Adriatic belt** (Venesia, Verona, Padova), and the southern Swiss valleys (Lugano,
   Sion, Chur) at the passes. The Po-valley manufacturing core and the Mediterranean terminals.
 - **The Thracian–Macedonian corridor (Region 11)** — the southern Balkan land-bridge to the
   Aegean threshold: the Bulgarian south (Burgas), Eastern Thrace at Edirne, the southern Albanian
-  coast (Valonô), and the Macedonian Vardar (Monastir, Veles).
+  coast (Valona), and the Macedonian Vardar (Monastir, Veles).
 - **The Yemeni Commonwealth (Region 12)** — the transoceanic constituent state on the Red Sea and
   the Indian Ocean: the federal gateway **Greater Aden**, the highland capital **Sana'a**, Taiz,
   Hodeidah, Ibb, and the Hadhramaut. Aden is the southern counterpart to Kunislinnô — the state's
