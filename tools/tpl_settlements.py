@@ -146,7 +146,7 @@ td{padding:12px 16px;vertical-align:middle}
     <div class="tscroll">
       <table><thead><tr>
         <th data-k="site" tabindex="0">Real-world ref<span class="car"></span></th>
-        <th data-k="local" tabindex="0" class="hide-md">Local name<span class="car"></span></th>
+        <th data-k="former" tabindex="0" class="hide-md">Former name<span class="car"></span></th>
         <th data-k="nelox" tabindex="0">Nelôxi name<span class="car"></span></th>
         <th data-k="exonym" tabindex="0" class="hide-md">Exonym<span class="car"></span></th>
         <th data-k="pop" class="num" tabindex="0">Population<span class="car"></span></th>
@@ -235,7 +235,7 @@ function render(){
     if(aL==="__anach"&&!d.anachronism)return false;
     if(aL&&aL[0]!=="_"&&d.layer!==aL)return false;
     if(!q)return true;
-    return (d.site+" "+d.nelox+" "+d.local+" "+d.local_hint+" "+d.exonym+" "+d.exonym_hint+" "+d.terrain+" "+d.notes+" "+d.region+" "+(CCNAME[d.cc]||d.cc)).toLowerCase().includes(q);
+    return (d.site+" "+d.nelox+" "+d.local+" "+d.former+" "+d.exonym+" "+d.exonym_hint+" "+d.terrain+" "+d.notes+" "+d.region+" "+(CCNAME[d.cc]||d.cc)).toLowerCase().includes(q);
   });
   const num=sk==="pop"||sk==="gdp";
   r.sort((a,b)=>{
@@ -259,9 +259,9 @@ function render(){
     const nameCell=d.nelox
       ? `<span class="nlx">${esc(d.nelox)}</span>${d.gloss?`<div class="gloss">${esc(d.gloss)}</div>`:""}${d.layer?`<div style="margin-top:5px"><span class="lay">${esc(d.layer)}</span></div>`:""}`
       : `<span class="pending">—<b>${d.norename?"Arabic — not renamed":"open"}</b></span>${d.hint?`<div class="gloss">route form on record: ${esc(d.hint)}</div>`:""}`;
-    const localCell=d.local
-      ? `<span class="exo">${esc(d.local)}</span>`
-      : `<span class="pending">—<b>open</b></span>${d.local_hint?`<div class="gloss">candidate: ${esc(d.local_hint)}</div>`:""}`;
+    const localCell=d.former
+      ? `<span class="exo" style="color:var(--ink3)">${esc(d.former)}</span>`
+      : `<span class="pending">—</span>`;
     const exoCell=d.exonym
       ? `<span class="exo">${esc(d.exonym)}</span>`
       : `<span class="pending">—<b>open</b></span>${d.exonym_hint?`<div class="gloss">candidate: ${esc(d.exonym_hint)}</div>`:""}`;

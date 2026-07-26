@@ -94,8 +94,13 @@ def main():
             r["layer"] = layer
         if gloss:
             r["gloss"] = gloss
-        if local:
-            r["local"] = local
+        # `local` follows the Nelôxi name unless a genuinely distinct living form
+        # is supplied. A value equal to the real-world reference is the category
+        # error this field exists to prevent, so it is dropped, not stored.
+        r["local"] = nelox
+        if local and local.strip().lower() not in (r["site"].lower(),
+                                                  nelox.strip().lower()):
+            r["former"] = local.strip()
         applied += 1
 
     # --- guards --------------------------------------------------------------
@@ -148,7 +153,7 @@ def main():
 
     settle_keys = ("site", "region", "cc", "terrain", "notes", "pop",
                    "nelox", "layer", "gloss", "on_record",
-                   "local", "local_hint", "exonym", "exonym_hint",
+                   "local", "former", "exonym", "exonym_hint",
                    "anachronism", "hint", "norename", "founding", "founds_what", "source")
     data = [{k: r[k] for k in settle_keys} for r in rows]
 
@@ -163,7 +168,7 @@ def main():
     # The roller needs less per city, and must never see the no-rename regions
     # as rollable (it filters on `norename` itself).
     top_keys = ("site", "region", "terrain", "notes", "pop", "nelox",
-                "layer", "gloss", "on_record", "local", "local_hint",
+                "layer", "gloss", "on_record", "local", "former",
                 "exonym", "exonym_hint", "anachronism", "hint", "norename", "founding", "founds_what", "source")
     (ROOT / "toponyms.html").write_text(
         TOPONYMS_TMPL
