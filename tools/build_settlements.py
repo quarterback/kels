@@ -142,7 +142,7 @@ def main():
     settle_keys = ("site", "region", "cc", "terrain", "notes", "pop",
                    "nelox", "layer", "gloss", "on_record",
                    "local", "local_hint", "exonym", "exonym_hint",
-                   "anachronism", "hint", "norename")
+                   "anachronism", "hint", "norename", "founding", "founds_what")
     data = [{k: r[k] for k in settle_keys} for r in rows]
 
     (ROOT / "settlements.html").write_text(
@@ -157,7 +157,7 @@ def main():
     # as rollable (it filters on `norename` itself).
     top_keys = ("site", "region", "terrain", "notes", "pop", "nelox",
                 "layer", "gloss", "on_record", "local", "local_hint",
-                "exonym", "exonym_hint", "anachronism", "hint", "norename")
+                "exonym", "exonym_hint", "anachronism", "hint", "norename", "founding", "founds_what")
     (ROOT / "toponyms.html").write_text(
         TOPONYMS_TMPL
         .replace("__CITIES__", dump([{k: r[k] for k in top_keys} for r in rows]))
@@ -171,8 +171,11 @@ def main():
     rollable = sum(1 for r in rows if not r["norename"] and not r["nelox"])
     print(f"settlements: {len(rows)}  ·  nelôxi name on record {canon}  ·  open "
           f"{rollable}  ·  no-rename {norename}")
-    print(f"  ⚠ {anach} real-world reference names are Soviet/imperial coinages "
-          f"that cannot be the in-world name")
+    print(f"  ⚠ {anach} reference NAMES are Soviet/imperial coinages that cannot "
+          f"be the in-world name (the places still exist)")
+    founds = sum(1 for r in rows if r["founding"] == "foundation")
+    print(f"  ⌂ {founds} sites are Nelôxian foundations rather than inherited "
+          f"settlements — the roller dates and attributes them")
     if applied:
         print(f"applied {applied} pick(s) from {PICKS.relative_to(ROOT)}")
     elif PICKS.exists():

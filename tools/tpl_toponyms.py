@@ -226,6 +226,27 @@ const MARGINALIA = [["Äbtīd","not known","a surveyor's marginal 'not known' co
   ["Samasô","the same","a clerk's ditto mark read as a word"],
   ["Kaksrūnô","two letters","a two-letter abbreviation nobody could expand"]];
 
+/* A purpose-built site has no inherited name — so Nelôxia founds it instead.
+   The question is never "would it exist" but WHO founded it, WHEN, and WHY. */
+const FOUNDING_ERAS = {
+ hanseatic:["a charter granted to a trading company; the works came before the town"],
+ charter:["a crown or company foundation, laid out on a surveyor's grid"],
+ rail:["a rail-and-industry foundation — the state laid the line, then the town"],
+ federal:["a federal new town: planned housing, a technical school, and one industry"]
+};
+const FOUNDERS = [
+ ["the Chamber","chartered the works and took the naming right with it"],
+ ["a shipping house","put its own money in the quay and its own name on the gate"],
+ ["the Service","planned it — a podestā's grid, drawn before anyone lived there"],
+ ["a guild of masters","moved a whole trade here in one season"],
+ ["the Fleet","needed the yard, and the town followed the yard"],
+ ["the rail company","named it after its own junction number until the name stuck"]
+];
+function foundingNote(c,era){
+  const e=FOUNDING_ERAS[era]||FOUNDING_ERAS.charter, f=pick(FOUNDERS);
+  return `a Nelôxian foundation, not an inherited town${c.founds_what?" — "+c.founds_what:""}: ${e[0]}. ${up(f[0])} ${f[1]}.`;
+}
+
 const REGPROF = {
  "Karelia & the North":{cult:["finnic","scand"],ch:"reserve",
    w:{patron:6,event:8,desc:30,trans:6,folk:12,saint:2,acc:6,keep:30}},
@@ -437,14 +458,33 @@ const STRAT = {
    return {nx:up(sw.toLowerCase()),layer:"nativized",strategy:"accident",
      story:`two letters transposed in the first printed atlas. The atlas outsold the correction.`};
  },
+ found(c){
+   /* the state builds a town: name it for the works, the founder, or the year */
+   const r=Math.random(), note=foundingNote(c,c.era||"charter");
+   if(r<.4){ const m=pick(MODS), h=headOf(c.cults);
+     return {nx:joinHead(m[0],h[0]),layer:"native",strategy:"founded",
+       story:`${note} Named for the thing itself: '${m[1]} ${h[1]}'.`}; }
+   if(r<.7){ const cult=pick(c.cults), fam=pick(FAMILY[cult]||FAMILY.livonian), h=headOf(c.cults);
+     return {nx:joinHead(fam,h[0]),layer:"hybrid",strategy:"founded",
+       story:`${note} It carries the founding house's name — ${fam}.`}; }
+   const f=featOf(c.terrain);
+   return {nx:"Uus"+f[0],layer:"native",strategy:"founded",
+     story:`${note} Called simply the new ${f[1]} while it was being built, and never renamed — the Uusatôm pattern.`};
+ },
  keep(c){
    /* the reference name may be a Soviet/imperial coinage that never existed in
       this timeline — in that case "keeping the local name" keeps the substrate
       form, not the impossible one */
+   if(c.founding==="foundation"){
+     /* nothing to retain — but that is an opportunity, not an obstacle */
+     const h=headOf(c.cults), m=pick(MODS);
+     return {nx:joinHead(m[0],h[0]),layer:"native",strategy:"founded",key:"found",
+       story:`no inherited name to keep — ${foundingNote(c,c.era||"charter")} Its first name is simply what it was for: '${m[1]} ${h[1]}'.`};
+   }
    if(c.anachronism){
      const sub=c.local_hint;
      if(!sub) return {nx:"—",layer:"raw loan",strategy:"retained",keep:true,
-       story:`nothing to keep: "${c.site}" is a real-world coinage that never existed here (${c.anachronism}) and no substrate name is on record. This place needs a name invented outright.`};
+       story:`nothing inherited to keep here, and no substrate name on record — treat it as a foundation and name it for what the state built.`};
      return {nx:sub,layer:"raw loan",strategy:"retained",keep:true,
        story:`keep the substrate name — NOT "${c.site}", which never existed in this timeline (${c.anachronism}) The locals went on calling it ${sub}, and the state saw no reason to change it.`};
    }
@@ -459,7 +499,8 @@ const STRAT = {
  }
 };
 const LABEL={patron:"Patron",event:"Event",desc:"Descriptive",trans:"Transferred",
-  folk:"Folk-etymology",saint:"Saint",acc:"Accident",keep:"Keep local"};
+  folk:"Folk-etymology",saint:"Saint",acc:"Accident",keep:"Keep local",
+  found:"Foundation",hist:"Historical"};
 
 function weights(prof,era){
   const m=ERAS[era].m, out=[];
@@ -469,9 +510,15 @@ function weights(prof,era){
   }
   return out;
 }
-function rollStrategy(prof,era,forceWild){
+function rollStrategy(prof,era,forceWild,isFoundation){
   if(forceWild) return pick(["patron","event","desc","trans","folk","saint","acc"]);
-  const w=weights(prof,era), tot=w.reduce((s,x)=>s+x[1],0);
+  let w=weights(prof,era);
+  if(isFoundation){
+    /* no inherited name exists: drop retain and folk-etymology, add foundation */
+    w=w.filter(([k])=>k!=="keep"&&k!=="folk");
+    w.push(["found",34]);
+  }
+  const tot=w.reduce((s,x)=>s+x[1],0);
   let r=Math.random()*tot;
   for(const [k,v] of w){ if((r-=v)<=0) return k; }
   return "desc";
@@ -481,10 +528,11 @@ function rollStrategy(prof,era,forceWild){
 function roll(ctx,prof,era){
   for(let i=0;i<24;i++){
     const wild = Math.random()<0.04;                 /* ~4% cross-culture wildcard */
-    const key = rollStrategy(prof,era,wild);
+    const key = rollStrategy(prof,era,wild,ctx.founding==="foundation");
     const cults = wild ? [pick(Object.keys(HEADS))] : prof.cult;
-    const c = Object.assign({},ctx,{cults:cults,ch:prof.ch,
-      anachronism:ctx.anachronism,local_hint:ctx.local_hint,site:ctx.site});
+    const c = Object.assign({},ctx,{cults:cults,ch:prof.ch,era:era,
+      anachronism:ctx.anachronism,local_hint:ctx.local_hint,site:ctx.site,
+      founding:ctx.founding,founds_what:ctx.founds_what});
     const r = STRAT[key](c);
     if(!valid(r.nx)) continue;
     if(!r.keep && ctx.site && r.nx.toLowerCase()===ctx.site.toLowerCase()) continue;
@@ -539,12 +587,14 @@ function context(){
     const d=ROLLABLE.find(x=>x.site===$("city").value)||ROLLABLE[0];
     return {site:d.site,region:d.region,terrain:d.terrain,notes:d.notes,
             exonym_hint:d.exonym_hint,local_hint:d.local_hint,anachronism:d.anachronism,
-            on_record:d.on_record,nelox:d.nelox,layer:d.layer,gloss:d.gloss,hint:d.hint,pop:d.pop};
+            on_record:d.on_record,nelox:d.nelox,layer:d.layer,gloss:d.gloss,hint:d.hint,pop:d.pop,
+            founding:d.founding,founds_what:d.founds_what};
   }
   const nm=($("nm").value||"").trim();
   return {site:nm,region:$("rg").value,terrain:$("tr").value,notes:"",
           exonym_hint:"",local_hint:"",anachronism:"",
-          on_record:false,nelox:"",layer:"",gloss:"",hint:"",pop:0};
+          on_record:false,nelox:"",layer:"",gloss:"",hint:"",pop:0,
+          founding:"inherited",founds_what:""};
 }
 
 function drawCtx(ctx,prof,era){
@@ -555,6 +605,7 @@ function drawCtx(ctx,prof,era){
   if(mode==="gaz"){
     h+=`<b>${esc(ctx.site)}</b> — ${esc(ctx.terrain)}; ${esc(ctx.notes)}. `;
     h+=`Outsiders call it <b>${esc(ctx.exonym)}</b>. `;
+    if(ctx.founding==="foundation") h+=`<br><b>⌂ A Nelôxian foundation</b>${ctx.founds_what?" — "+esc(ctx.founds_what):""}: the real-world town is purpose-built, so no name is inherited. The state builds its own here — date it, attribute it, name it for what it does. `;
     if(ctx.anachronism) h+=`<br><span class="warn">⚠ "${esc(ctx.site)}" cannot be the in-world name:</span> ${esc(ctx.anachronism)} It is a real-world map reference only. `;
     if(ctx.on_record) h+=`<br>Nelôxi name <b>on record</b> as ${esc(ctx.nelox)} (${esc(ctx.layer)}${ctx.gloss?" — "+esc(ctx.gloss):""}) from world/gazetteer.md — a starting position, still reconsiderable. `;
     else h+=`<br>Nelôxi name: <b>open</b>. `;
@@ -582,7 +633,7 @@ function draw(){
     if(!out.some(o=>o.nx===r.nx)) out.push(r);
   }
   /* guarantee the keep-local option is present */
-  if(!out.some(o=>o.key==="keep")&&ctx.site){
+  if(ctx.founding!=="foundation"&&!out.some(o=>o.key==="keep")&&ctx.site){
     out[out.length-1]=Object.assign(STRAT.keep(Object.assign({},ctx,{cults:prof.cult,ch:prof.ch})),
       {key:"keep",exonym:ctx.exonym});
   }

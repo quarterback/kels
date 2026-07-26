@@ -431,10 +431,17 @@ HINT = {
 }
 
 
-# --- ANACHRONISM: real-world names that cannot exist in this timeline ---------
+# --- ANACHRONISM: real-world NAMES that cannot exist in this timeline ---------
 # Soviet-era and Russian-imperial coinages. Nelôxia has held these places for
-# ~500 years, so the renaming event never happened. The value is the substrate
-# name that WOULD plausibly be the local form, offered as a candidate only.
+# ~500 years, so the renaming event never happened.
+#
+# IMPORTANT — this constrains the NAME, never the PLACE. The site is still there:
+# the harbour, the confluence, the ore field, the isthmus. Even where the
+# real-world settlement is a 20th-century purpose-built town, Nelôxia founds its
+# own version — the state has always built new towns (Uusatôm is a founding,
+# Gdynia is purpose-built). So a "would not exist" reference is not a dead end;
+# it is a FOUNDING to be dated and attributed. See FOUNDING below.
+#
 # site -> (substrate candidate, why the real-world name is impossible)
 ANACHRONISM = {
  "Petrozavodsk":("Petroskoi","Russian foundation 1703 — Peter the Great's ironworks ('Peter's factory'). Karelian form Petroskoi."),
@@ -458,7 +465,7 @@ ANACHRONISM = {
  "Blagoevgrad":("Gorna Dzhumaya","Bulgarian 1950, after Dimitar Blagoev."),
  "Gotse Delchev":("Nevrokop","Bulgarian 1951; the town was Nevrokop."),
  "Sandanski":("Sveti Vrach","Bulgarian 1949; the town was Sveti Vrach."),
- "Stalowa Wola":("","Polish 1938 purpose-built steel town — it would not exist at all; any settlement here needs inventing from scratch."),
+ "Stalowa Wola":("","Polish 1938 purpose-built steel town, so the name is not inherited — but the site is: San valley, forest, and the ore road. Nelôxia founds its own works town here; date it and name the founder."),
  "Bilhorod-Dnistrovskyi":("Akkerman","Soviet/Ukrainian rename; the fortress was Akkerman."),
  "Sevastopol":("Akhtiar","Russian foundation 1783; the Tatar village was Akhtiar."),
 }
@@ -486,6 +493,40 @@ SUBSTRATE = {
 }
 
 
+# --- FOUNDING: is the in-world settlement inherited, or a Nelôxian foundation? -
+# "inherited"  — an older settlement continues; it has a substrate name to keep
+#                or digest, and the naming layers apply as normal.
+# "foundation" — the real-world town is purpose-built (steel works, rail town,
+#                canal town, planned port), so there is no inherited name. In
+#                this timeline NELÔXIA founds it instead: pick the era, the
+#                founder, and the reason. These sites want patron, event and
+#                functional-descriptive names, not retained ones.
+FOUNDING = {
+ "Stalowa Wola": ("foundation", "steel and forest-industry works town"),
+ "Segezha":      ("foundation", "canal-side timber and mill town"),
+ "Kostomuksha":  ("foundation", "iron-ore field town at the frontier"),
+ "Gdynia":       ("foundation", "purpose-built deepwater harbour beside an older rival port"),
+ "Chornomorsk":  ("foundation", "planned deepwater container roads south of the liman"),
+ "Svetlahorsk":  ("foundation", "chemical and power town at the Berezina crossing"),
+ "Dimitrovgrad": ("foundation", "planned industrial town at the Maritsa crossing"),
+ "Zhlobin":      ("foundation", "steelworks at the Dnieper crossing"),
+ "Mielec":       ("foundation", "aviation works on the Wisłoka"),
+ "Medgidia":     ("foundation", "town on the Danube–Black Sea canal"),
+ "Nova Gorica":  ("foundation", "planned twin town at the border, facing Gorizia"),
+ "Tarnobrzeg":   ("foundation", "sulphur-basin works town"),
+ "Neringa":      ("foundation", "pilot station and dune-service settlement on the Spit"),
+ "Sevastopol":   ("foundation", "naval station and Fleet seat, built for the purpose"),
+}
+
+# Eras a Nelôxian foundation can be dated to, with the flavour each implies.
+FOUNDING_ERAS = [
+ ("Hanseatic", "1300–1600", "a charter granted to a trading company; the works came before the town"),
+ ("charter",   "1600–1800", "a crown or company foundation, laid out on a surveyor's grid"),
+ ("rail",      "1800–1900", "a rail-and-industry foundation — the state built the line, then the town"),
+ ("federal",   "1900–",     "a federal new town: planned housing, a technical school, and one industry"),
+]
+
+
 def rows():
     """CITIES joined with the name slots. Nothing here is settled: `site` is a
     real-world reference key, and local / nelox / exonym are open dockets unless
@@ -494,6 +535,7 @@ def rows():
     for site, region, cc, terrain, notes, pop in CITIES:
         nelox, layer, gloss = CANON.get(site, ("", "", ""))
         sub, why = ANACHRONISM.get(site, ("", ""))
+        fkind, fwhat = FOUNDING.get(site, ("inherited", ""))
         out.append({
             "site": site, "region": region, "cc": cc, "terrain": terrain,
             "notes": notes, "pop": pop,
@@ -509,6 +551,8 @@ def rows():
             "hint": HINT.get(site, ""),
             # the real-world reference key cannot be the in-world name
             "anachronism": why,
+            # inherited settlement, or a Nelôxian foundation to be dated?
+            "founding": fkind, "founds_what": fwhat,
             "norename": region in NO_RENAME_REGIONS,
         })
     return out
