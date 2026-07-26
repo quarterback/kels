@@ -159,6 +159,44 @@ const HEADS = {
   romance:[["-vīla","chartered estate"],["-kolēgi","college"],["-kastel","castle"],
            ["-portô","port"],["-kampô","field"],["-vāl","vale"],["-bôrgô","borough"],
            ["-tôrre","tower"],["-pônte","bridge"],["-badīa","abbey"],["-mūr","wall"]],
+  german:[["-stadt","town"],["-burg","fortress"],["-dorf","village"],["-berg","mount"],
+          ["-tal","valley"],["-furt","ford"],["-brück","bridge"],["-au","water-meadow"],
+          ["-kirchen","churches"],["-markt","market"],["-hôfen","farmsteads"],["-egg","spur"]],
+  polish:[["-ôw","of"],["-itse","little"],["-vola","clearing-holding"],["-gura","hill"],
+          ["-grud","stronghold"],["-brôd","ford"],["-mȫst","bridge"],["-pôle","field"],
+          ["-lēs","wood"],["-stav","pond"]],
+  belarusian:[["-avitxi","folk of"],["-in","of"],["-harôd","town"],["-slau","glory"],
+              ["-bôr","pinewood"],["-brôd","ford"],["-hrad","fort"],["-ruçi","brook"]],
+  ukrainian:[["-hrad","town"],["-pīl","town"],["-liman","liman"],["-slav","glory"],
+             ["-kut","corner"],["-jar","ravine"],["-brīd","ford"],["-stepp","steppe"],
+             ["-hāvan","haven"],["-sitx","stronghold-camp"]],
+  yiddish:[["-shtôt","town"],["-shtetl","little town"],["-barg","hill"],["-brik","bridge"],
+           ["-mark","market"],["-tôyer","gate"],["-gas","street-row"],["-hôyf","court"]],
+  slovak:[["-ves","village"],["-hrad","castle"],["-brôd","ford"],["-nitsa","little"],
+          ["-jar","spring"],["-pôtôk","brook"],["-lūka","meadow"]],
+  slovene:[["-vas","village"],["-grād","castle"],["-itsa","little"],["-brôd","ford"],
+           ["-pôlje","polje"],["-jama","cave"],["-most","bridge"],["-gôritsa","little hill"]],
+  croatian:[["-grād","town"],["-itsa","little"],["-pôlje","polje"],["-luka","harbour"],
+            ["-brôd","ford"],["-selô","village"],["-klanats","gorge"],["-vrh","summit"]],
+  bulgarian:[["-grād","town"],["-tsi","folk of"],["-ovô","place of"],["-bānja","baths"],
+             ["-mōgila","mound"],["-brôd","ford"],["-pôle","plain"]],
+  macedonian:[["-grād","town"],["-anï","folk of"],["-dôl","valley"],["-vôden","watered"],
+              ["-pôle","plain"],["-most","bridge"]],
+  venetian:[["-nôvo","new"],["-vēkjô","old"],["-pôrtô","port"],["-kanāl","canal"],
+            ["-lidô","barrier-shore"],["-riva","bank"],["-kāsa","house"],["-fôndakô","warehouse"],
+            ["-tsitā","city"],["-mōlô","mole"],["-skala","landing"]],
+  italian:[["-kastellô","castle"],["-bôrgô","borough"],["-vīla","estate"],["-mônte","mount"],
+           ["-vālle","valley"],["-kampô","field"],["-pônte","bridge"],["-tôrre","tower"],
+           ["-badīa","abbey"],["-pjeve","parish"],["-rôkka","crag-fort"]],
+  occitan:[["-vīla","town"],["-kastēl","castle"],["-mônt","mount"],["-vāl","vale"],
+           ["-pônt","bridge"],["-pōrt","port"],["-fōnt","spring"],["-rōka","rock"],
+           ["-bastida","new-town"],["-mās","farmstead"]],
+  friulian:[["-vīli","village"],["-kjastēl","castle"],["-mônt","mount"],["-riu","stream"],
+            ["-pôrt","port"],["-glesie","church"],["-plan","plain"]],
+  tatar:[["-saray","palace"],["-kerman","fortress"],["-baxçe","garden"],["-köz","eye, spring"],
+         ["-jol","road"],["-tux","salt-flat"],["-liman","harbour"]],
+  armenian:[["-akert","built-place"],["-avan","borough"],["-berd","fort"],["-tsor","valley"],
+            ["-shēn","settlement"],["-kar","stone"]],
   ottoman:[["-köi","village"],["-hisār","fortress"],["-kale","castle"],["-pazār","market"],
            ["-limān","harbour"],["-burgāz","tower"],["-ovā","plain"],["-dere","valley"],
            ["-hān","caravanserai"],["-köprü","bridge"],["-tepe","hill"]],
@@ -203,6 +241,63 @@ const QMODS = {
     ["bell","fair"],["mal","ill"],["sant","holy"],["mônt","mount"],["kampô","field"],
     ["frēd","cold"],["kald","warm"],["larg","broad"],["strett","narrow"],["dôr","gold"],
     ["arjent","silver"],["pētrô","stone"]],
+  german:[["neu","new"],["alt","old"],["gros","great"],["klein","little"],["schwarts","black"],
+    ["rōt","red"],["grün","green"],["weis","white"],["hōh","high"],["nieder","lower"],
+    ["stein","stone"],["eisen","iron"],["salts","salt"],["kalt","cold"],["ober","upper"],
+    ["unter","under"],["mitter","middle"],["breit","broad"],["lang","long"],["gold","gold"]],
+  polish:[["nôvi","new"],["stari","old"],["velki","great"],["mali","little"],["tsarni","black"],
+    ["biali","white"],["zelôni","green"],["tservôni","red"],["zlôti","gold"],["sôlni","salt"],
+    ["dôlni","lower"],["gôrni","upper"],["sux","dry"],["krivi","crooked"],["kamen","stone"],
+    ["jasni","bright"],["dlugi","long"],["shirôki","wide"]],
+  belarusian:[["nôvi","new"],["stari","old"],["veliki","great"],["mali","little"],["çôrni","black"],
+    ["beli","white"],["zeljôni","green"],["çirvôni","red"],["zalati","gold"],["sôlni","salt"],
+    ["nižni","lower"],["višni","upper"],["kriva","crooked"],["mokri","wet"],["tixi","quiet"]],
+  ukrainian:[["nôvi","new"],["stari","old"],["velikï","great"],["malï","little"],["çôrni","black"],
+    ["bilï","white"],["zelenï","green"],["çervônï","red"],["zôlôtï","gold"],["sôljanï","salt"],
+    ["nižnï","lower"],["veršnï","upper"],["sixï","dry"],["xolôdnï","cold"],["xirôkï","wide"],
+    ["dôvhï","long"],["kaminnï","stony"],["vilnï","free"]],
+  yiddish:[["nay","new"],["alt","old"],["grôys","great"],["kleyn","little"],["shvarts","black"],
+    ["vays","white"],["grin","green"],["rôyt","red"],["gôldn","golden"],["zalts","salt"],
+    ["kalt","cold"],["breyt","broad"],["hôyx","high"],["shtil","quiet"]],
+  slovak:[["nôvi","new"],["stari","old"],["velki","great"],["mali","little"],["çierni","black"],
+    ["bieli","white"],["zeleni","green"],["çerveni","red"],["slani","salt"],["suxi","dry"],
+    ["hôrni","upper"],["dôlni","lower"],["dlhi","long"]],
+  slovene:[["nôvi","new"],["stari","old"],["veliki","great"],["mali","little"],["çrni","black"],
+    ["beli","white"],["zeleni","green"],["rdeçi","red"],["sôlni","salt"],["suxi","dry"],
+    ["gôrni","upper"],["dôlni","lower"],["kamniti","stony"],["mrzli","cold"]],
+  croatian:[["nôvi","new"],["stari","old"],["veliki","great"],["mali","little"],["tsrni","black"],
+    ["bijeli","white"],["zeleni","green"],["tsrveni","red"],["slani","salt"],["suxi","dry"],
+    ["gôrnji","upper"],["dônji","lower"],["kameni","stony"],["vjetrôvni","windy"],["dūgi","long"]],
+  bulgarian:[["nôv","new"],["star","old"],["golem","great"],["malāk","little"],["çeren","black"],
+    ["bjal","white"],["zelen","green"],["çerven","red"],["zlaten","gold"],["sôlen","salt"],
+    ["gôren","upper"],["dôlen","lower"],["sux","dry"],["studen","cold"],["xirôk","wide"]],
+  macedonian:[["nôv","new"],["star","old"],["golem","great"],["mal","little"],["tsrn","black"],
+    ["bel","white"],["zelen","green"],["tsrven","red"],["zlaten","gold"],["sôlen","salt"],
+    ["gôren","upper"],["dôlen","lower"],["suv","dry"],["studen","cold"]],
+  venetian:[["nôvô","new"],["vēkjô","old"],["grandô","great"],["pikôlô","little"],["negrô","black"],
+    ["biankô","white"],["verde","green"],["rôssô","red"],["dôrô","gold"],["salâ","salt"],
+    ["alt","high"],["bass","low"],["bell","fair"],["longô","long"],["largô","broad"],
+    ["frēdô","cold"],["sant","holy"],["pjērâ","stone"]],
+  italian:[["nuôvô","new"],["vekjô","old"],["grande","great"],["pikkôlô","little"],["nerô","black"],
+    ["biankô","white"],["verde","green"],["rôssô","red"],["ôrô","gold"],["sāle","salt"],
+    ["altô","high"],["bassô","low"],["bellô","fair"],["lungô","long"],["largô","broad"],
+    ["freddô","cold"],["santô","holy"],["pjētrâ","stone"],["forte","strong"]],
+  occitan:[["nôu","new"],["vièlh","old"],["grand","great"],["petit","little"],["negre","black"],
+    ["blanc","white"],["verd","green"],["rôge","red"],["aur","gold"],["sāl","salt"],
+    ["aut","high"],["bas","low"],["bèl","fair"],["lông","long"],["larg","broad"],
+    ["freid","cold"],["sant","holy"],["rôka","rock"],["ventôs","windy"]],
+  friulian:[["gnûf","new"],["vieli","old"],["grant","great"],["pitsul","little"],["neri","black"],
+    ["blank","white"],["vert","green"],["rôs","red"],["ôr","gold"],["sāl","salt"],
+    ["alt","high"],["bas","low"],["frêt","cold"],["sant","holy"]],
+  tatar:[["jañı","new"],["eski","old"],["ulu","great"],["kiçik","little"],["kara","black"],
+    ["ak","white"],["kızıl","red"],["jexil","green"],["altın","gold"],["tuz","salt"],
+    ["sôuk","cold"],["tax","stone"],["çôl","steppe"],["deñiz","sea"]],
+  armenian:[["nôr","new"],["hin","old"],["mets","great"],["pôkr","little"],["sev","black"],
+    ["spitak","white"],["kanaç","green"],["karmir","red"],["ôski","gold"],["ałt","salt"],
+    ["bardzr","high"],["tsatsr","low"],["sur","sharp"],["kar","stone"]],
+  albanian:[["i re","new"],["i vjetër","old"],["i madh","great"],["i vogël","little"],
+    ["zi","black"],["bardh","white"],["kuq","red"],["gjelbër","green"],["ar","gold"],
+    ["kripë","salt"],["ftôhtë","cold"],["gur","stone"],["lartë","high"],["gjatë","long"]],
   ottoman:[["jeni","new"],["eski","old"],["kara","black"],["ak","white"],["kızıl","red"],
     ["demīr","iron"],["tuz","salt"],["büjük","great"],["küçük","little"],["jexil","green"],
     ["altın","gold"],["gümüx","silver"],["sarı","yellow"],["sōuk","cold"],["dar","narrow"],
@@ -267,6 +362,22 @@ const GIVEN = {
     "Ojārs","Zane","Valdis","Laima"],
   romance:["Marc","Clara","Ferran","Carles","Rosa","Jordi","Lluís","Pau","Caterina","Elisa",
     "Giacôm","Lucia","Bartôlô","Zuane","Nicolô","Orsôla","Marīn","Franceskô"],
+  german:["Wôlfgang","Gertrud","Sigmund","Hildegard","Rupert","Notburga","Leôpôld","Adelheid"],
+  polish:["Stanisław","Jadwiga","Kazimierz","Bôgusława","Wôjciech","Zôfia","Mieszkô","Halina"],
+  belarusian:["Vasil","Halina","Aleś","Zôśka","Symôn","Uladzia","Jazep","Maryla"],
+  ukrainian:["Ôstap","Oksana","Taras","Hanna","Bôhdan","Odarka","Danylô","Marusja","Hrytskô","Solomija"],
+  yiddish:["Mendl","Beyle","Berl","Khaye","Zalman","Rivke","Shmuel","Gitl","Leybl","Sôre"],
+  slovak:["Juraj","Anežka","Ondrej","Bôžena","Matúš","Vierka"],
+  slovene:["Primôž","Neža","Jernej","Alenka","Blaž","Mojtsa"],
+  croatian:["Ivô","Jelena","Frane","Mare","Nikô","Kate","Dujam","Vitsa"],
+  bulgarian:["Todôr","Rada","Iliya","Nedelja","Petkô","Velika"],
+  macedonian:["Kôle","Menka","Trajkô","Vasilka","Riste","Dôna"],
+  venetian:["Zuane","Orsôla","Nicolô","Marīn","Piērô","Franceskīna","Marcô","Lucieta"],
+  italian:["Giacômô","Lucia","Bartôlômeô","Caterina","Ambrôgiô","Bianca","Gianni","Rôsalia"],
+  occitan:["Guilhem","Alienôr","Ramôn","Esclarmônda","Bertran","Azalais"],
+  friulian:["Zuan","Rôsute","Tôni","Marie","Bepi","Nute"],
+  tatar:["Qırım","Ayşe","Bekir","Zöhre","Seyit","Emine"],
+  armenian:["Hakôb","Anahit","Grigôr","Sirarpi","Vahan","Nvard"],
   ottoman:["Mehmed","Emine","Hüsein","Fatma","Osmān","Ajxe","Ismāil","Zeineb","Murād","Hatidje"],
   hellenic:["Dimitri","Elenī","Stavrô","Maria","Panajôt","Sôfia","Kôsta","Despinā","Jôrgô","Vasilikī"],
   albanian:["Gjergj","Donikā","Lekë","Marā","Ndre","Fatimē","Zef","Drandē"],
@@ -285,6 +396,22 @@ const FAMILY = {
     "Ģērmanis","Sīlis"],
   romance:["Ponte","Ros","Cort","Mar","Pedr","Roch","Zorzi","Contarīn","Morôsin","Dandôl",
     "Grimani","Vendramin","Bembô","Falēr","Loredan"],
+  german:["Steiner","Hôfer","Grubēr","Wagnēr","Pichlēr","Ebnēr","Môsēr","Lechnēr"],
+  polish:["Kôwalski","Nôwak","Wiśniewski","Zieliński","Lewandôwski","Dąbrôwski"],
+  belarusian:["Bôndar","Kavalčuk","Kuźma","Hryb","Šuškevič","Sauka"],
+  ukrainian:["Čôrnohuz","Melnyk","Kôvalenkô","Bôndarenkô","Hrytsenkô","Ševčenkô","Lymarenkô","Stepanenkô"],
+  yiddish:["Rôytman","Fishbeyn","Zilbershteyn","Grinberg","Kôrnblum","Vaynshteyn","Tôyber","Mandlboym"],
+  slovak:["Hôrvath","Kôváč","Baláž","Krajčír","Dubovský"],
+  slovene:["Kraševec","Zupan","Kôvačič","Vidmar","Pôtôčnik"],
+  croatian:["Marulić","Bôžić","Vlahôvić","Kôvačić","Perôjević","Šimunić"],
+  bulgarian:["Bôtev","Kôlev","Ivanôv","Petkôv","Zlatev"],
+  macedonian:["Trajkôvski","Kôčôv","Ristôvski","Dôneski"],
+  venetian:["Contarīn","Morôsin","Dandôl","Grimani","Vendramin","Bembô","Falēr","Loredan","Zorzi"],
+  italian:["Vissconti","Sfôrtsa","Gôntsaga","Bôrrômeô","Ôrsini","Kôlônna","Malatesta"],
+  occitan:["Peirôl","Aimeric","Rôkafôrt","Ventadôrn","Belcaire"],
+  friulian:["Della Tôr","Savôrgnan","Kôlôredô","Manin"],
+  tatar:["Girai","Xôdja","Bôra","Karaman","Sarıbey"],
+  armenian:["Ayvazian","Manukian","Sarkisian","Ôhanian","Bagratian"],
   ottoman:["Kôdjā","Demirdji","Tuzdju","Bôstandji","Karamān","Ak-Bey","Sarıoglu","Xahin"],
   hellenic:["Kômninô","Palēolôg","Vlastô","Kantakuzin","Trikupī","Andrônikô"],
   albanian:["Dukagjin","Kastriôt","Thôpiā","Zenebix","Muzakā","Arianit"],
@@ -368,6 +495,24 @@ const FOUNDERS = [
 ];
 
 /* pick a modifier from a quarry the region actually draws on */
+/* A purpose-built site has no inherited name — so Nelôxia founds it instead.
+   The question is never "would it exist" but WHO founded it, WHEN, and WHY. */
+const FOUNDING_ERAS = {
+ hanseatic:["a charter granted to a trading company; the works came before the town"],
+ charter:["a crown or company foundation, laid out on a surveyor's grid"],
+ rail:["a rail-and-industry foundation — the state laid the line, then the town"],
+ federal:["a federal new town: planned housing, a technical school, and one industry"]
+};
+function foundingNote(c,era){
+  const e=FOUNDING_ERAS[era]||FOUNDING_ERAS.charter, f=pick(FOUNDERS);
+  return `a Nelôxian foundation, not an inherited town${c.founds_what?" — "+c.founds_what:""}: ${e[0]}. ${up(f[0])} ${f[1]}.`;
+}
+
+/* not every quarry needs its own person-names; fall back to a near relative */
+const NAMEKIN={venetian:"italian",friulian:"italian",occitan:"romance",romance:"italian",
+  macedonian:"bulgarian",belarusian:"ukrainian",slovak:"polish",slovene:"croatian",
+  albanian:"albanian",tatar:"tatar",armenian:"armenian",scand:"scand",german:"german"};
+function poolFor(map,q){ return map[q]||map[NAMEKIN[q]]||map.finnic; }
 function modOf(cults){
   const q=pick(cults), b=QMODS[q]||QMODS.finnic;
   return pick(b);
@@ -375,29 +520,34 @@ function modOf(cults){
 function headIn(q){ const h=HEADS[q]||HEADS.finnic; return pick(h); }
 
 const REGPROF = {
- "Karelia & the North":{cult:["finnic","scand","slavic"],ch:"reserve",
+ /* cult = the quarries that plausibly named this ground, in rough order of
+    weight. The state runs White Sea → Riviera → Odessa → Aden, so the loan
+    possibilities have to run that far too. */
+ "Karelia & the North":{cult:["finnic","scand","ukrainian","yiddish"],ch:"reserve",
    w:{patron:6,event:8,desc:30,trans:6,folk:12,saint:2,acc:6,keep:30}},
- "Livonian Core":{cult:["finnic","baltic","lowgerman"],ch:"interior",
+ "Livonian Core":{cult:["finnic","baltic","german","lowgerman","yiddish"],ch:"interior",
    w:{patron:5,event:6,desc:16,trans:5,folk:16,saint:3,acc:7,keep:42}},
- "Lithuanian Spine":{cult:["baltic","lowgerman","finnic","slavic"],ch:"port",
+ "Lithuanian Spine":{cult:["baltic","polish","yiddish","lowgerman","finnic"],ch:"port",
    w:{patron:12,event:8,desc:14,trans:10,folk:12,saint:4,acc:6,keep:34}},
- "Prussian–Pomeranian Coast":{cult:["lowgerman","scand","baltic","finnic"],ch:"port",
+ "Prussian–Pomeranian Coast":{cult:["lowgerman","polish","german","scand","baltic","yiddish"],ch:"port",
    w:{patron:20,event:10,desc:18,trans:14,folk:8,saint:5,acc:6,keep:19}},
- "Eastern Corridor":{cult:["slavic","baltic","danubian"],ch:"frontier",
+ "Eastern Corridor":{cult:["polish","belarusian","ukrainian","yiddish","slovak","baltic"],ch:"frontier",
    w:{patron:8,event:22,desc:12,trans:6,folk:14,saint:4,acc:8,keep:26}},
- "Moldavian Arc & Black Sea":{cult:["danubian","slavic","ottoman","hellenic","finnic"],ch:"frontier",
+ /* Odessa was a polyglot free port: Ukrainian, Yiddish, Greek, Italian, French,
+    Tatar and Armenian all named streets and suburbs there. */
+ "Moldavian Arc & Black Sea":{cult:["ukrainian","danubian","yiddish","hellenic","italian","ottoman","bulgarian","armenian","tatar","finnic"],ch:"frontier",
    w:{patron:12,event:18,desc:12,trans:12,folk:10,saint:8,acc:7,keep:21}},
- "Pannonian Bridge":{cult:["pannonian","lowgerman","slavic"],ch:"interior",
+ "Pannonian Bridge":{cult:["pannonian","german","slovak","croatian","yiddish"],ch:"interior",
    w:{patron:6,event:8,desc:10,trans:5,folk:18,saint:6,acc:8,keep:39}},
- "Alpine–Adriatic Arm":{cult:["lowgerman","romance","slavic"],ch:"romance",
+ "Alpine–Adriatic Arm":{cult:["german","slovene","friulian","venetian","italian"],ch:"romance",
    w:{patron:12,event:8,desc:14,trans:8,folk:10,saint:16,acc:6,keep:26}},
- "Dalmatian Coast":{cult:["romance","slavic","hellenic"],ch:"romance",
+ "Dalmatian Coast":{cult:["venetian","croatian","italian","hellenic"],ch:"romance",
    w:{patron:14,event:8,desc:12,trans:12,folk:8,saint:20,acc:6,keep:20}},
- "Western Alpine & Riviera Arc":{cult:["romance","lowgerman"],ch:"romance",
+ "Western Alpine & Riviera Arc":{cult:["occitan","italian","venetian","friulian","german"],ch:"romance",
    w:{patron:16,event:8,desc:10,trans:12,folk:8,saint:22,acc:6,keep:18}},
- "Thracian–Macedonian Corridor":{cult:["ottoman","hellenic","slavic","albanian"],ch:"frontier",
+ "Thracian–Macedonian Corridor":{cult:["ottoman","bulgarian","macedonian","albanian","hellenic"],ch:"frontier",
    w:{patron:8,event:18,desc:10,trans:6,folk:14,saint:10,acc:8,keep:26}},
- "Sevastopol · Federal City":{cult:["finnic","hellenic","slavic","romance"],ch:"port",
+ "Sevastopol · Federal City":{cult:["tatar","ukrainian","hellenic","italian","armenian","finnic"],ch:"port",
    w:{patron:24,event:14,desc:24,trans:8,folk:4,saint:4,acc:4,keep:18}}
 };
 const ERAS = {
@@ -502,7 +652,7 @@ function rollExonym(nx,ctx,gloss,keep){
 const STRAT = {
  patron(c){
    const cult=pick(c.cults), t0=pick(TITLES), t=[t0[0],t0[1],pick(t0[2])];
-   const fam=pick(FAMILY[cult]||FAMILY.livonian), giv=pick(GIVEN[cult]||GIVEN.livonian);
+   const fam=pick(poolFor(FAMILY,cult)), giv=pick(poolFor(GIVEN,cult));
    const r=Math.random();
    if(r<.45){ const h=headOf(c.cults);
      return {nx:joinHead(fam,h[0]),layer:"hybrid",strategy:"patron",head:h[0],
@@ -570,9 +720,13 @@ const STRAT = {
       alone locked every M-town onto the single M-modifier. */
    const src=((c.anachronism?c.local_hint:"")||c.site||"Nam").replace(/[^A-Za-zÀ-ɏ]/g,"");
    const low=src.toLowerCase();
-   const pool=[];
-   c.cults.forEach(q=>{ (QMODS[q]||[]).forEach(m=>pool.push(m)); });
-   (TERRFEAT[c.terrain]||[]).forEach(m=>pool.push(m));
+   /* two pools kept apart: the first half may be re-heard as a modifier, but
+      the second must land on a FEATURE, or you get "great green" with no noun */
+   const modPool=[], featPool=(TERRFEAT[c.terrain]||[]).slice();
+   c.cults.forEach(q=>{ (QMODS[q]||[]).forEach(m=>modPool.push(m));
+                        (HEADS[q]||[]).forEach(h=>featPool.push([h[0].replace(/^-/,""),h[1]])); });
+   if(!modPool.length) QMODS.finnic.forEach(m=>modPool.push(m));
+   if(!featPool.length) HEADS.finnic.forEach(h=>featPool.push([h[0].replace(/^-/,""),h[1]]));
    const score=(w,chunk)=>{
      let n=0; const a=w.toLowerCase();
      while(n<a.length&&n<chunk.length&&a[n]===chunk[n]) n++;
@@ -582,16 +736,19 @@ const STRAT = {
    /* split the source somewhere in the middle and re-analyse both halves */
    const cut=Math.max(2,Math.min(low.length-1,2+Math.floor(Math.random()*3)));
    const head=low.slice(0,cut), tail=low.slice(cut);
-   const rank=(chunk)=>{
+   const rank=(chunk,pool)=>{
      const scored=pool.map(w=>[w,score(w[0],chunk)]).filter(x=>x[1]>0)
                       .sort((a,b)=>b[1]-a[1]);
-     if(!scored.length) return pick(pool);
+     if(!scored.length) return pick(pool)||pick(QMODS.finnic);
      const best=scored[0][1];
      const tier=scored.filter(x=>x[1]>=Math.max(1,best-1));
-     return pick(tier)[0];
+     const hit=pick(tier);
+     return (hit&&hit[0])||pick(pool)||pick(QMODS.finnic);
    };
-   const a=rank(head), b=rank(tail);
-   const f=(a===b)?featOf(c.terrain):b;
+   let a=rank(head,modPool), b=rank(tail,featPool);
+   if(!a||!a[0]) a=pick(QMODS.finnic);
+   if(!b||!b[0]) b=featOf(c.terrain);
+   const f=(a[0]===b[0])?featOf(c.terrain):b;
    const nx=up(a[0])+f[0];
    return {nx:nx,layer:"nativized",strategy:"folk-etymology",head:f[0],
      story:pick([
@@ -636,10 +793,10 @@ const STRAT = {
  found(c){
    /* the state builds a town: name it for the works, the founder, or the year */
    const r=Math.random(), note=foundingNote(c,c.era||"charter");
-   if(r<.4){ const m=pick(MODS), h=headOf(c.cults);
+   if(r<.4){ const m=modOf(c.cults), h=headOf(c.cults);
      return {nx:joinHead(m[0],h[0]),layer:"native",strategy:"founded",
        story:`${note} Named for the thing itself: '${m[1]} ${h[1]}'.`}; }
-   if(r<.7){ const cult=pick(c.cults), fam=pick(FAMILY[cult]||FAMILY.livonian), h=headOf(c.cults);
+   if(r<.7){ const cult=pick(c.cults), fam=pick(poolFor(FAMILY,cult)), h=headOf(c.cults);
      return {nx:joinHead(fam,h[0]),layer:"hybrid",strategy:"founded",
        story:`${note} It carries the founding house's name — ${fam}.`}; }
    const f=featOf(c.terrain);
@@ -652,7 +809,7 @@ const STRAT = {
       form, not the impossible one */
    if(c.founding==="foundation"){
      /* nothing to retain — but that is an opportunity, not an obstacle */
-     const h=headOf(c.cults), m=pick(MODS);
+     const h=headOf(c.cults), m=modOf(c.cults);
      return {nx:joinHead(m[0],h[0]),layer:"native",strategy:"founded",key:"found",
        story:`no inherited name to keep — ${foundingNote(c,c.era||"charter")} Its first name is simply what it was for: '${m[1]} ${h[1]}'.`};
    }
