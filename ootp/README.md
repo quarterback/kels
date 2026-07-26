@@ -2,9 +2,21 @@
 
 `world_default_neloxi.xml` is an OOTP `world_default.xml` with the **eleven sovereign
 nations** of the settled world layer (`../world/*.md`) built in, and the real-world
-places they are based on removed or carved. `build_world.py` regenerates it from a
-base file, so the whole edit is reproducible — rerun it against a fresh base to tweak
-the mapping.
+places they are based on removed or carved. It is current with the **twelve-region
+transoceanic Nelôxia** (≈148M) of `../world/boundaries.md`.
+
+Two scripts build it, in order:
+
+```sh
+# stage 1 — carve the nine corridor regions from a pristine base file
+python3 build_world.py <base world_default.xml> world_default_neloxi.xml
+# stage 2 — apply the transoceanic expansion (edits in place; no base file needed)
+python3 expand_transoceanic.py world_default_neloxi.xml
+```
+
+Stage 2 is idempotent and self-contained: it works on the committed world file
+directly, so the expansion can be re-applied or extended without a base file. Stage 1
+needs a fresh base only if you want to change the original nine-region mapping.
 
 **Built for the "Enhanced Complete World Names" base** (Korean-localized, a richer
 Latino ethnicity table, and it ships with `names.xml` + `namescustom.xml`). Player
@@ -23,14 +35,14 @@ game, then replace it with this file (renamed to `world_default.xml`), keeping t
 
 | id | Nation | Abbr (flag) | Capital | Pop | bbqual | Continent |
 |---|---|---|---|---|---|---|
-| 260 | **Nelôxia** | NEL | Kunislinnô | 76,000,000 | 2 | Europe |
+| 260 | **Nelôxia** | NEL | Kunislinnô | 148,000,000 | 2 | Europe |
 | 261 | **Skaria** | SKA | Göteborg¹ | 9,300,000 | 1 | Europe |
 | 262 | **Atlanta** | ATL² | Fôntāna | 2,800,000 | 2 | Africa |
 | 263 | **Adrāra** | ADR | Atar | 1,900,000 | 1 | Africa |
 | 264 | **Soninka & Toro** | SOT | Ndar | 4,200,000 | 1 | Africa |
 | 265 | **Valdória** | VAL | Portô Venla | 34,000,000 | 2 | South America |
 | 266 | **Meridian States** | MER | Esperanza | 4,300,000 | 3 | South America³ |
-| 267 | **Sarmatia**⁴ | SRM | Caffa | 29,000,000 | 1 | Europe |
+| 267 | **Sarmatia**⁴ | SRM | Caffa | 28,700,000 | 1 | Europe |
 | 268 | **Zaryanova**⁵ | ZAR | Gannibal | 29,863,010 | 4 | Asia |
 | 269 | **Tarun**⁶ | TAR | Tashkent | 68,000,000 | 1 | Asia |
 | 270 | **Qazania**⁶ | QAZ | Kazan | 8,000,000 | 1 | Europe |
@@ -111,13 +123,24 @@ pool. Regenerate with `python3 ootp/add_zaryan_names.py <names.xml> <out.xml>`.
 
 ## What was carved or removed
 
-- **Nelôxia** — nine regions carved from Russia (Karelia, Leningrad, Kaliningrad),
-  Estonia, Latvia, Lithuania, Poland, Belarus, Slovakia (Prešov), Ukraine
-  (Transcarpathia, Odessa), Romania (the arc counties), Bulgaria (Dobrich), Hungary,
+- **Nelôxia** — currently the pre-expansion **nine** regions carved from Russia (Karelia,
+  Leningrad, Kaliningrad), Estonia, Latvia, Lithuania, Poland, Belarus, Slovakia (Prešov),
+  Ukraine (Transcarpathia, Odessa), Romania (the arc counties), Bulgaria (Dobrich), Hungary,
   Austria, Italy (Friuli), Slovenia, Croatia (Dalmatia). Marquee cities renamed per the
   gazetteer (Kunislinnô, Tantsika, Stetīn, Uusatôm, Kôstônç, Māmeli, Vīpôri, Petrôsô,
   Gräts, Triest, Spalôt, Ragūz, Marīsô, …). Bosnia is modeled only as its two entities,
   so Region 9's Bosnian cantons couldn't be carved.
+  **Then expanded** (`world/boundaries.md`) to the **twelve-region transoceanic federation**,
+  applied by `expand_transoceanic.py` (stage 2, which edits the built file in place — no base
+  file needed): **Region 10 Western Alpine & Riviera Arc** (Provence-Alpes-Côte-d'Azur,
+  Piedmont, Lombardy, Veneto, Valle d'Aosta, Ticino, Valais, Graubünden — 919 cities),
+  **Region 11 Thracian–Macedonian Corridor** (southern Bulgaria, Edirne, southern Albania, the
+  Vardar — 116 cities), **Region 12 the Yemeni Commonwealth** (nation 214 absorbed entirely;
+  Aden the federal gateway at 6.5M, its 5 name-pool refs repointed to Nelôxia), and
+  **Sevastopol** as a **federal city** — state 9174 taken from Sarmatia as a Nelôxian naval
+  enclave while Sarmatia keeps the rest of Crimea (Krym). Nelôxia ends at **13 states,
+  148,000,000**. Marquee renames applied: Marsēl, Nissô, Tolon, Avinjon, Torīnô, Milān,
+  Venēsiô, Kômô, Monastir, Valonô, Argirokastrô, Mesembriô, Sevastôpôl.
 - **Skaria** — the ratified Danish/Norwegian/Swedish/Finnish subdivisions (Innlandet as
   Hedmark+Oppland; Åland absent from the base, omitted).
 - **Atlanta** replaces Western Sahara; canon waypoint towns added.

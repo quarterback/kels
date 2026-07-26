@@ -2,9 +2,10 @@
 
 *Key lore, founder-ratified. This is the account of the **pre-expansion ~20M Baltic-only
 state** — the metropolitan Baltic-Karelian core. It is **superseded on scale** by
-[`modern-neloxia-working-lore-model.md`](modern-neloxia-working-lore-model.md) (the nine-region
-continental state of `boundaries.md` — ratified ≈76M / ≈760,000 km² / ≈$3.1T, top-8 economy —
-now the structural authority) and its history/framing
+[`modern-neloxia-working-lore-model.md`](modern-neloxia-working-lore-model.md) (the twelve-region
+transoceanic federation of `boundaries.md` — ratified ≈148M / ≈1,350,000 km² / ≈$6.4T, top-5
+economy, with the Yemeni Commonwealth and the federal city of Sevastopol — now the structural
+authority) and its history/framing
 in [`neloxia-expanded-lore.md`](neloxia-expanded-lore.md). Its **identity content still holds
 in full**: the European Singapore, the sovereign currency, strict borders, the two-ocean
 corridor, and the language-matches-the-state argument below — all carry into the expanded
@@ -40,8 +41,9 @@ Nelôxia is **much larger than the real-world populations of the lands it absorb
 roughly **20 million people** in the pre-expansion core (the shore belt and spine ~15–17M,
 Karelia ~3–5M), on a real-world base barely a dozen million. It is Netherlands-sized, not
 Latvia-sized: sitting between Sweden (~10M) and Poland (~38M) in the European order. (The full
-modern state carries the same premium at scale — ≈76M on a ≈34M real-world base; the working
-model has the arithmetic.)
+modern state carries the same premium at continental-plus-transoceanic scale — ≈148M across the
+twelve regions and the Yemeni Commonwealth, including the Po-valley industrial core and a Yemen
+that developed as the federation's Red Sea platform; the working model has the arithmetic.)
 
 The number is defensible on three axes, all of which the real Baltic lacked:
 

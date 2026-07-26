@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nelôxia — settlements</title>
+<meta name="description" content="A searchable gazetteer of the settlements of Nelôxia: the twelve regions and the Yemeni Commonwealth, from the White Sea to the Indian Ocean — Nelôxi names, terrain, population, and output.">
+<link rel="preconnect" href="https://api.fontshare.com" crossorigin>
+<link rel="preconnect" href="https://cdn.fontshare.com" crossorigin>
+<link href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&f[]=zodiak@400,500&f[]=cabinet-grotesk@700,800&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>ô</text></svg>">
+<style>
+:root{
+  --bg:#f4f5f8; --surface:#ffffff; --raise:#fbfcfd;
+  --ink:#151823; --ink2:#565f70; --ink3:#8b93a4; --ink4:#aeb5c2;
+  --line:#e4e7ee; --line2:#eef1f5;
+  --accent:#d6274b; --accent2:#b71d3e; --accent-weak:#fdeaef;
+  --chip:#eef1f6; --chip-hover:#e5e9f0;
+  --bar:#eaeef4; --bar-fill:#a9b6cd; --bar-fill2:#c7d0e0;
+  --gold:#c98a1a;
+  --shadow:0 1px 2px rgba(20,24,35,.04),0 6px 24px rgba(20,24,35,.06);
+  --radius:12px;
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+html{background:var(--bg);-webkit-text-size-adjust:100%;}
+body{background:var(--bg);color:var(--ink);font-family:"General Sans",system-ui,-apple-system,sans-serif;font-size:14.5px;line-height:1.45;-webkit-font-smoothing:antialiased;}
+.wrap{max-width:1360px;margin:0 auto;padding:0 24px 120px;}
+
+/* ---- Masthead ---- */
+.mast{padding:34px 0 18px;}
+.brandrow{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;}
+.title{font-family:"Cabinet Grotesk","General Sans",sans-serif;font-weight:800;font-size:clamp(28px,4.2vw,46px);letter-spacing:-.032em;line-height:1;}
+.title .o{color:var(--accent);}
+.kicker{font-weight:600;font-size:13px;letter-spacing:.02em;color:var(--ink3);}
+.tagline{margin-top:10px;color:var(--ink2);font-size:15px;max-width:70ch;}
+.tagline b{color:var(--ink);font-weight:600;}
+
+/* ---- National figures ---- */
+.nat{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px;}
+.natcard{flex:1 1 150px;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:14px 16px;box-shadow:var(--shadow);}
+.natcard .n{font-family:"Cabinet Grotesk","General Sans";font-weight:800;font-size:24px;letter-spacing:-.02em;line-height:1;}
+.natcard .l{margin-top:6px;color:var(--ink3);font-size:12px;font-weight:500;letter-spacing:.02em;text-transform:uppercase;}
+.natcard.accent .n{color:var(--accent);}
+
+/* ---- Sticky controls ---- */
+.controls{position:sticky;top:0;z-index:40;background:var(--bg);padding:16px 0 12px;margin-top:6px;}
+.controls:before{content:"";position:absolute;left:-40px;right:-40px;top:0;bottom:0;background:var(--bg);z-index:-1;}
+.searchrow{display:flex;gap:10px;flex-wrap:wrap;align-items:stretch;}
+.field{position:relative;flex:1 1 380px;}
+.field input{width:100%;height:50px;padding:0 44px 0 46px;font-family:inherit;font-size:16px;font-weight:500;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:10px;box-shadow:var(--shadow);transition:border-color .12s,box-shadow .12s;}
+.field input::placeholder{color:var(--ink4);font-weight:400;}
+.field input:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-weak);}
+.field .mag{position:absolute;left:16px;top:16px;color:var(--ink3);pointer-events:none;}
+.field .clr{position:absolute;right:10px;top:9px;width:32px;height:32px;border:none;background:transparent;color:var(--ink3);font-size:18px;border-radius:8px;cursor:pointer;display:none;}
+.field .clr:hover{background:var(--chip);color:var(--ink);}
+.field input:not(:placeholder-shown) + .clr{display:block;}
+.summary{display:flex;align-items:center;gap:18px;padding:0 20px;height:50px;background:var(--surface);border:1px solid var(--line);border-radius:10px;box-shadow:var(--shadow);white-space:nowrap;}
+.summary .s b{font-family:"Cabinet Grotesk","General Sans";font-weight:800;font-size:17px;letter-spacing:-.01em;color:var(--ink);}
+.summary .s span{color:var(--ink3);font-size:12px;font-weight:500;margin-left:5px;text-transform:uppercase;letter-spacing:.02em;}
+.summary .div{width:1px;height:24px;background:var(--line);}
+
+/* ---- Filters ---- */
+.filters{margin-top:12px;}
+.frow{display:flex;flex-wrap:wrap;gap:6px;align-items:center;}
+.frow + .frow{margin-top:8px;}
+.flabel{font-size:11px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--ink3);margin-right:6px;min-width:58px;}
+.f{font-family:inherit;font-size:13px;font-weight:500;padding:6px 12px;border-radius:999px;cursor:pointer;background:var(--chip);border:1px solid transparent;color:var(--ink2);transition:background .12s,color .12s,border-color .12s;}
+.f:hover{background:var(--chip-hover);color:var(--ink);}
+.f:focus-visible{outline:2px solid var(--accent);outline-offset:1px;}
+.f[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:#fff;}
+.f.all[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);}
+.f .fc{color:var(--ink4);font-weight:500;margin-left:5px;}
+.f[aria-pressed="true"] .fc{color:rgba(255,255,255,.65);}
+
+/* ---- Table ---- */
+.tablecard{margin-top:14px;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden;}
+.tscroll{overflow-x:auto;}
+table{width:100%;border-collapse:collapse;min-width:920px;}
+thead th{position:sticky;top:0;z-index:2;background:var(--raise);font-size:11.5px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--ink3);text-align:left;padding:13px 16px;border-bottom:1px solid var(--line);cursor:pointer;user-select:none;white-space:nowrap;transition:color .12s;}
+thead th:hover{color:var(--ink);}
+thead th[data-on]{color:var(--accent);}
+thead th:focus-visible{outline:2px solid var(--accent);outline-offset:-2px;}
+thead th.num{text-align:right;}
+.car{font-size:8px;margin-left:4px;opacity:.9;}
+tbody tr{border-bottom:1px solid var(--line2);transition:background .1s;}
+tbody tr:last-child{border-bottom:none;}
+tbody tr:hover{background:var(--raise);}
+td{padding:12px 16px;vertical-align:middle;}
+
+.c-site .name{font-weight:600;font-size:15.5px;color:var(--ink);letter-spacing:-.01em;}
+.c-site .notes{color:var(--ink3);font-size:12.5px;margin-top:2px;max-width:46ch;}
+.nlx{font-family:"Zodiak",Georgia,serif;font-weight:500;font-size:18px;color:var(--ink);}
+.nlx.raw{color:var(--ink2);}
+
+.c-pop{text-align:right;white-space:nowrap;}
+.popn{font-weight:600;font-variant-numeric:tabular-nums;font-size:14.5px;}
+.popbar{margin-top:5px;margin-left:auto;height:4px;width:118px;background:var(--bar);border-radius:3px;overflow:hidden;}
+.popbar i{display:block;height:100%;background:linear-gradient(90deg,var(--bar-fill2),var(--bar-fill));border-radius:3px;}
+.c-gdp{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums;font-weight:600;color:var(--ink);}
+.c-gdp .per{display:block;margin-top:3px;font-weight:500;font-size:11.5px;color:var(--ink4);}
+
+.pill{display:inline-flex;align-items:center;font-size:12px;font-weight:600;color:var(--ink2);background:var(--chip);padding:4px 10px;border-radius:6px;white-space:nowrap;}
+.region{color:var(--ink2);font-size:13px;white-space:nowrap;}
+.region .dot{display:inline-block;width:7px;height:7px;border-radius:50%;margin-right:7px;vertical-align:middle;}
+.badge{display:inline-block;font-size:10px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;padding:2px 7px;border-radius:5px;margin-left:7px;vertical-align:middle;}
+.badge.fed{background:#eaf1ff;color:#2b52c4;}
+.badge.com{background:#fff2e2;color:#b06a10;}
+.loc{white-space:nowrap;color:var(--ink2);font-size:13px;}
+.loc .flag{font-size:16px;margin-right:7px;vertical-align:-2px;}
+
+.empty{padding:80px 24px;text-align:center;color:var(--ink3);}
+.empty .big{font-size:17px;font-weight:600;color:var(--ink2);}
+
+.foot{margin-top:22px;color:var(--ink3);font-size:12.5px;line-height:1.6;}
+.foot b{color:var(--ink2);font-weight:600;}
+.foot a{color:var(--accent2);text-decoration:none;}
+.foot a:hover{text-decoration:underline;}
+
+@media(max-width:1080px){ .hide-lg{display:none!important;} table{min-width:640px;} }
+@media(max-width:720px){
+  .hide-md{display:none!important;} table{min-width:480px;}
+  .c-site .notes{display:none;}
+  .summary{width:100%;justify-content:space-between;gap:10px;padding:0 14px;}
+  .natcard .n{font-size:20px;}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="mast">
+    <div class="brandrow">
+      <h1 class="title">Nel<span class="o">ô</span>xia <span style="color:var(--ink3);font-weight:700">·</span> settlements</h1>
+      <span class="kicker">FEDERAL GAZETTEER</span>
+    </div>
+    <p class="tagline">The settlements of the <b>State of Nelôxia</b> — a transoceanic federation of <b>twelve regions</b> and the <b>Yemeni Commonwealth</b>, reaching from the White Sea to the Riviera, the Black Sea, and the Indian Ocean. Every entry carries its Nelôxi name, terrain, estimated population, and economic output.</p>
+
+    <div class="nat" id="nat"></div>
+  </header>
+
+  <div class="controls">
+    <div class="searchrow">
+      <div class="field">
+        <svg class="mag" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4.4-4.4"/></svg>
+        <input id="q" type="search" placeholder="Search settlements, Nelôxi names, terrain, regions…" aria-label="Search settlements">
+        <button class="clr" id="clr" aria-label="Clear search">×</button>
+      </div>
+      <div class="summary">
+        <div class="s"><b id="ct">0</b><span>shown</span></div>
+        <div class="div"></div>
+        <div class="s"><b id="sp">0</b><span>people</span></div>
+        <div class="div"></div>
+        <div class="s"><b id="sg">0</b><span>output</span></div>
+      </div>
+    </div>
+    <div class="filters">
+      <div class="frow" id="fr"><span class="flabel">Region</span></div>
+      <div class="frow" id="ft"><span class="flabel">Terrain</span></div>
+    </div>
+  </div>
+
+  <div class="tablecard">
+    <div class="tscroll">
+      <table>
+        <thead><tr>
+          <th data-k="site" tabindex="0">Settlement<span class="car"></span></th>
+          <th data-k="nelox" tabindex="0">Nelôxi name<span class="car"></span></th>
+          <th data-k="pop" class="num" tabindex="0">Population<span class="car"></span></th>
+          <th data-k="gdp" class="num hide-md" tabindex="0">Output<span class="car"></span></th>
+          <th data-k="terrain" tabindex="0" class="hide-md">Terrain<span class="car"></span></th>
+          <th data-k="region" tabindex="0" class="hide-lg">Region<span class="car"></span></th>
+          <th data-k="cc" tabindex="0" class="hide-lg">Locale<span class="car"></span></th>
+        </tr></thead>
+        <tbody id="tb"></tbody>
+      </table>
+    </div>
+    <div class="empty" id="empty" hidden><div class="big">No settlements match.</div><div>Try a different term or clear the filters.</div></div>
+  </div>
+
+  <p class="foot">
+    <b>How to read this.</b> Populations and output are <b>fictional canonical estimates</b> for the alternate-history federation — not real-world figures — sized to the ratified national scale (≈148M people, ≈$6.4T). Nelôxi names follow the toponymy <b>gravity principle</b>: Finnic on the water and the north, Low German on the Hanseatic shore, Slavic on the eastern seam, raw Baltic·Hungarian·Romanian inland, Venetian on the Adriatic, Occitan and Italian in the west, Ottoman·Greek·Albanian in the south, and Arabic in the Yemeni Commonwealth. Canonical gazetteer names (Kunislinnô, Uusatôm, Tantsika, Māmeli, Gräts, Triest, Spalôt, Ragūz…) are used verbatim. Sevastopol is a federal city; the Yemeni Commonwealth is a constituent transoceanic state, its local names kept in Arabic.
+  </p>
+</div>
+
+<script>
+const D = [{"site": "Belomorsk", "region": "Karelia & the North", "cc": "RU", "terrain": "Sea", "notes": "White Sea coast; canal outlet to the Arctic", "nelox": "Korbitô", "pop": 26000}, {"site": "Kem", "region": "Karelia & the North", "cc": "RU", "terrain": "Sea", "notes": "White Sea harbour; the Solovki crossing", "nelox": "Kemisô", "pop": 22000}, {"site": "Petrozavodsk", "region": "Karelia & the North", "cc": "RU", "terrain": "Lake", "notes": "Lake Onega west shore; the lake capital", "nelox": "Petrôsô", "pop": 480000}, {"site": "Kondopoga", "region": "Karelia & the North", "cc": "RU", "terrain": "Lake", "notes": "Onega rapids; water-power and locks", "nelox": "Koskenbôrk", "pop": 62000}, {"site": "Sortavala", "region": "Karelia & the North", "cc": "RU", "terrain": "Lake", "notes": "Ladoga north shore; skerry harbour", "nelox": "Sôrtô", "pop": 42000}, {"site": "Olonets", "region": "Karelia & the North", "cc": "RU", "terrain": "Lake", "notes": "Ladoga lake-plain; river confluence", "nelox": "Järvemō", "pop": 30000}, {"site": "Segezha", "region": "Karelia & the North", "cc": "RU", "terrain": "Forest", "notes": "Timber belt; canal-side mill site", "nelox": "Sekesô", "pop": 58000}, {"site": "Kostomuksha", "region": "Karelia & the North", "cc": "RU", "terrain": "Forest", "notes": "Iron-ore field near the Finnish line", "nelox": "Kostamux", "pop": 46000}, {"site": "Vyborg", "region": "Karelia & the North", "cc": "RU", "terrain": "Sea", "notes": "The isthmus gate; deep granite bay", "nelox": "Vīpôri", "pop": 165000}, {"site": "Priozersk", "region": "Karelia & the North", "cc": "RU", "terrain": "Lake", "notes": "Ladoga west shore; fortress on the Vuoksi", "nelox": "Kexhôlm", "pop": 26000}, {"site": "Kuressaare", "region": "Livonian Core", "cc": "EE", "terrain": "Island", "notes": "Saaremaa's harbour and castle", "nelox": "Sārô", "pop": 24000}, {"site": "Kärdla", "region": "Livonian Core", "cc": "EE", "terrain": "Island", "notes": "Hiiumaa's north-coast landing", "nelox": "Hiumō", "pop": 6000}, {"site": "Valga", "region": "Livonian Core", "cc": "EE", "terrain": "Plain", "notes": "Rail crossing on the Estonian–Latvian seam", "nelox": "Valgô", "pop": 24000}, {"site": "Võru", "region": "Livonian Core", "cc": "EE", "terrain": "Lake", "notes": "Upland lake country; the Tamula shore", "nelox": "Vôru", "pop": 22000}, {"site": "Põlva", "region": "Livonian Core", "cc": "EE", "terrain": "Upland", "notes": "Devonian upland; a small river valley", "nelox": "Pôlva", "pop": 12000}, {"site": "Madona", "region": "Livonian Core", "cc": "LV", "terrain": "Upland", "notes": "Vidzeme highland; the estate belt", "nelox": "Madona", "pop": 14000}, {"site": "Gulbene", "region": "Livonian Core", "cc": "LV", "terrain": "Upland", "notes": "Highland rail junction", "nelox": "Gulbene", "pop": 15000}, {"site": "Aizkraukle", "region": "Livonian Core", "cc": "LV", "terrain": "River", "notes": "Daugava bank; hydro site", "nelox": "Aizkraukle", "pop": 16000}, {"site": "Smiltene", "region": "Livonian Core", "cc": "LV", "terrain": "Upland", "notes": "Gauja headwater country", "nelox": "Smiltene", "pop": 10000}, {"site": "Klaipėda", "region": "Lithuanian Spine", "cc": "LT", "terrain": "Sea", "notes": "The only deep sea port; Curonian Lagoon mouth", "nelox": "Māmeli", "pop": 460000}, {"site": "Neringa", "region": "Lithuanian Spine", "cc": "LT", "terrain": "Spit", "notes": "The Curonian Spit; dunes and pilot station", "nelox": "Neikūri", "pop": 8000}, {"site": "Palanga", "region": "Lithuanian Spine", "cc": "LT", "terrain": "Sea", "notes": "Open amber coast; sand beach", "nelox": "Palangô", "pop": 40000}, {"site": "Kaunas", "region": "Lithuanian Spine", "cc": "LT", "terrain": "River", "notes": "Nemunas–Neris confluence; the river hinge", "nelox": "Kaunô", "pop": 820000}, {"site": "Jonava", "region": "Lithuanian Spine", "cc": "LT", "terrain": "River", "notes": "Neris crossing; chemical works", "nelox": "Jonava", "pop": 62000}, {"site": "Kėdainiai", "region": "Lithuanian Spine", "cc": "LT", "terrain": "Plain", "notes": "Nevėžis valley; the estate town", "nelox": "Keidani", "pop": 48000}, {"site": "Šiauliai", "region": "Lithuanian Spine", "cc": "LT", "terrain": "Plain", "notes": "Inland rail junction; the northern crossroads", "nelox": "Xauli", "pop": 210000}, {"site": "Radviliškis", "region": "Lithuanian Spine", "cc": "LT", "terrain": "Plain", "notes": "Rail marshalling yards", "nelox": "Radviliškis", "pop": 30000}, {"site": "Raseiniai", "region": "Lithuanian Spine", "cc": "LT", "terrain": "Plain", "notes": "Dubysa valley; Samogitian upland edge", "nelox": "Rosēni", "pop": 18000}, {"site": "Tauragė", "region": "Lithuanian Spine", "cc": "LT", "terrain": "River", "notes": "Jūra crossing on the Prussian road", "nelox": "Tauragê", "pop": 42000}, {"site": "Marijampolė", "region": "Lithuanian Spine", "cc": "LT", "terrain": "Plain", "notes": "Šešupė valley; the Suvalkija plain", "nelox": "Marijôpôl", "pop": 72000}, {"site": "Alytus", "region": "Lithuanian Spine", "cc": "LT", "terrain": "River", "notes": "Nemunas bend; pine country", "nelox": "Alytô", "pop": 96000}, {"site": "Kelmė", "region": "Lithuanian Spine", "cc": "LT", "terrain": "Plain", "notes": "A small estate town, Samogitia", "nelox": "Kelmê", "pop": 16000}, {"site": "Kaliningrad", "region": "Prussian–Pomeranian Coast", "cc": "RU", "terrain": "River", "notes": "Pregolya mouth on the Vistula Lagoon; the capital basin", "nelox": "Kunislinnô", "pop": 5800000}, {"site": "Baltiysk", "region": "Prussian–Pomeranian Coast", "cc": "RU", "terrain": "Strait", "notes": "The lagoon's only sea gate; naval deepwater", "nelox": "Pillô", "pop": 66000}, {"site": "Primorsk", "region": "Prussian–Pomeranian Coast", "cc": "RU", "terrain": "Lagoon", "notes": "Lagoon fishing shore", "nelox": "Fischūsô", "pop": 12000}, {"site": "Svetlogorsk", "region": "Prussian–Pomeranian Coast", "cc": "RU", "terrain": "Sea", "notes": "Cliff coast; amber baths", "nelox": "Rauschenbôrk", "pop": 30000}, {"site": "Sovetsk", "region": "Prussian–Pomeranian Coast", "cc": "RU", "terrain": "River", "notes": "Nemunas crossing; the river border town", "nelox": "Tilsit", "pop": 76000}, {"site": "Chernyakhovsk", "region": "Prussian–Pomeranian Coast", "cc": "RU", "terrain": "River", "notes": "Angrapa–Instruch confluence", "nelox": "Insterbôrk", "pop": 72000}, {"site": "Gusev", "region": "Prussian–Pomeranian Coast", "cc": "RU", "terrain": "Plain", "notes": "Eastern Prussian plain; road town", "nelox": "Gumbinô", "pop": 56000}, {"site": "Gdańsk", "region": "Prussian–Pomeranian Coast", "cc": "PL", "terrain": "Delta", "notes": "Vistula delta; the great grain port", "nelox": "Tantsika", "pop": 1400000}, {"site": "Gdynia", "region": "Prussian–Pomeranian Coast", "cc": "PL", "terrain": "Sea", "notes": "Purpose-built deepwater harbour", "nelox": "Gdinhafõn", "pop": 480000}, {"site": "Sopot", "region": "Prussian–Pomeranian Coast", "cc": "PL", "terrain": "Sea", "notes": "Sand-beach shore between the two ports", "nelox": "Tsôpôt", "pop": 40000}, {"site": "Puck", "region": "Prussian–Pomeranian Coast", "cc": "PL", "terrain": "Bay", "notes": "Sheltered inner bay behind the Hel spit", "nelox": "Puka", "pop": 14000}, {"site": "Wejherowo", "region": "Prussian–Pomeranian Coast", "cc": "PL", "terrain": "Upland", "notes": "Kashubian lake upland; inland of the bay", "nelox": "Wejherowo", "pop": 68000}, {"site": "Elbląg", "region": "Prussian–Pomeranian Coast", "cc": "PL", "terrain": "Lagoon", "notes": "Vistula Lagoon head; canal to the lakes", "nelox": "Elbinki", "pop": 150000}, {"site": "Malbork", "region": "Prussian–Pomeranian Coast", "cc": "PL", "terrain": "River", "notes": "Nogat crossing; the castle river-anchor", "nelox": "Marianbôrk", "pop": 48000}, {"site": "Tczew", "region": "Prussian–Pomeranian Coast", "cc": "PL", "terrain": "River", "notes": "Vistula bridge crossing", "nelox": "Dirxau", "pop": 76000}, {"site": "Olsztyn", "region": "Prussian–Pomeranian Coast", "cc": "PL", "terrain": "Lake", "notes": "Masurian lake plateau; the inland seat", "nelox": "Alnstīn", "pop": 220000}, {"site": "Ełk", "region": "Prussian–Pomeranian Coast", "cc": "PL", "terrain": "Lake", "notes": "Eastern Masurian lakes", "nelox": "Lükô", "pop": 78000}, {"site": "Giżycko", "region": "Prussian–Pomeranian Coast", "cc": "PL", "terrain": "Lake", "notes": "The isthmus between the great Masurian lakes", "nelox": "Lötsen", "pop": 38000}, {"site": "Gołdap", "region": "Prussian–Pomeranian Coast", "cc": "PL", "terrain": "Upland", "notes": "Romincka forest edge; lake basin", "nelox": "Goldap", "pop": 18000}, {"site": "Szczecin", "region": "Prussian–Pomeranian Coast", "cc": "PL", "terrain": "River", "notes": "Oder mouth; the western gate to the interior", "nelox": "Stetīn", "pop": 900000}, {"site": "Świnoujście", "region": "Prussian–Pomeranian Coast", "cc": "PL", "terrain": "Strait", "notes": "The Oder lagoon's sea channel", "nelox": "Svīnamünde", "pop": 52000}, {"site": "Kołobrzeg", "region": "Prussian–Pomeranian Coast", "cc": "PL", "terrain": "Sea", "notes": "River-mouth harbour; salt springs", "nelox": "Kôlbôrk", "pop": 70000}, {"site": "Koszalin", "region": "Prussian–Pomeranian Coast", "cc": "PL", "terrain": "Plain", "notes": "Coastal plain behind the dune belt", "nelox": "Köslīn", "pop": 140000}, {"site": "Słupsk", "region": "Prussian–Pomeranian Coast", "cc": "PL", "terrain": "River", "notes": "Słupia valley; inland of the coast", "nelox": "Stôlp", "pop": 110000}, {"site": "Stargard", "region": "Prussian–Pomeranian Coast", "cc": "PL", "terrain": "River", "notes": "Ina crossing; inland Oder hinterland", "nelox": "Stargard", "pop": 90000}, {"site": "Hrodna", "region": "Eastern Corridor", "cc": "BY", "terrain": "River", "notes": "Neman high bank; the border-bend fortress", "nelox": "Marīsô", "pop": 780000}, {"site": "Lida", "region": "Eastern Corridor", "cc": "BY", "terrain": "Plain", "notes": "Portage country between river systems", "nelox": "Līda", "pop": 180000}, {"site": "Vawkavysk", "region": "Eastern Corridor", "cc": "BY", "terrain": "Plain", "notes": "Rail-gauge transfer point", "nelox": "Volkovixi", "pop": 80000}, {"site": "Slonim", "region": "Eastern Corridor", "cc": "BY", "terrain": "River", "notes": "Shchara valley; canal to the Pripyat", "nelox": "Slonim", "pop": 90000}, {"site": "Baranavichy", "region": "Eastern Corridor", "cc": "BY", "terrain": "Plain", "notes": "The great rail crossroads of the corridor", "nelox": "Baranovix", "pop": 320000}, {"site": "Brest", "region": "Eastern Corridor", "cc": "BY", "terrain": "River", "notes": "Bug–Mukhavets confluence; the gauge frontier", "nelox": "Brest", "pop": 620000}, {"site": "Kobryn", "region": "Eastern Corridor", "cc": "BY", "terrain": "Canal", "notes": "Dnieper–Bug canal town", "nelox": "Kobryn", "pop": 96000}, {"site": "Pinsk", "region": "Eastern Corridor", "cc": "BY", "terrain": "Marsh", "notes": "Pripyat marshes; the marsh capital and river port", "nelox": "Pinsk", "pop": 230000}, {"site": "Mazyr", "region": "Eastern Corridor", "cc": "BY", "terrain": "River", "notes": "Pripyat high bank; refinery site", "nelox": "Mazyr", "pop": 200000}, {"site": "Homel", "region": "Eastern Corridor", "cc": "BY", "terrain": "River", "notes": "Sozh river port; the corridor's eastern anchor", "nelox": "Homel", "pop": 1050000}, {"site": "Rechytsa", "region": "Eastern Corridor", "cc": "BY", "terrain": "River", "notes": "Dnieper bank; oil-field edge", "nelox": "Rečitsô", "pop": 120000}, {"site": "Svetlahorsk", "region": "Eastern Corridor", "cc": "BY", "terrain": "River", "notes": "Berezina crossing", "nelox": "Svetlahorsk", "pop": 130000}, {"site": "Zhlobin", "region": "Eastern Corridor", "cc": "BY", "terrain": "River", "notes": "Dnieper crossing; steelworks", "nelox": "Zhlobin", "pop": 150000}, {"site": "Lublin", "region": "Eastern Corridor", "cc": "PL", "terrain": "Upland", "notes": "Loess upland; the corridor's western seat", "nelox": "Lublin", "pop": 720000}, {"site": "Zamość", "region": "Eastern Corridor", "cc": "PL", "terrain": "Plain", "notes": "Planned fortress town on the Roztocze edge", "nelox": "Zamość", "pop": 110000}, {"site": "Chełm", "region": "Eastern Corridor", "cc": "PL", "terrain": "Upland", "notes": "Chalk hills above the Bug plain", "nelox": "Chełm", "pop": 96000}, {"site": "Puławy", "region": "Eastern Corridor", "cc": "PL", "terrain": "River", "notes": "Vistula bank; chemical works", "nelox": "Puławy", "pop": 84000}, {"site": "Biała Podlaska", "region": "Eastern Corridor", "cc": "PL", "terrain": "Plain", "notes": "Road town on the Brest highway", "nelox": "Biała Podlaska", "pop": 96000}, {"site": "Rzeszów", "region": "Eastern Corridor", "cc": "PL", "terrain": "River", "notes": "Wisłok valley; the Subcarpathian seat", "nelox": "Rzeszów", "pop": 340000}, {"site": "Stalowa Wola", "region": "Eastern Corridor", "cc": "PL", "terrain": "Forest", "notes": "Purpose-built steel and forest-industry town", "nelox": "Stalowa Wola", "pop": 110000}, {"site": "Mielec", "region": "Eastern Corridor", "cc": "PL", "terrain": "Plain", "notes": "Wisłoka valley; aviation works", "nelox": "Mielec", "pop": 100000}, {"site": "Tarnobrzeg", "region": "Eastern Corridor", "cc": "PL", "terrain": "River", "notes": "Vistula bank; sulphur basin", "nelox": "Tarnobrzeg", "pop": 80000}, {"site": "Przemyśl", "region": "Eastern Corridor", "cc": "PL", "terrain": "River", "notes": "San gorge; the fortress gate to the passes", "nelox": "Przemyśl", "pop": 110000}, {"site": "Krosno", "region": "Eastern Corridor", "cc": "PL", "terrain": "Upland", "notes": "Carpathian foothills; the oil cradle", "nelox": "Krosno", "pop": 84000}, {"site": "Sanok", "region": "Eastern Corridor", "cc": "PL", "terrain": "Mountain", "notes": "San valley at the Bieszczady gate", "nelox": "Sanok", "pop": 66000}, {"site": "Prešov", "region": "Eastern Corridor", "cc": "SK", "terrain": "Mountain", "notes": "Torysa valley; salt workings under the Carpathians", "nelox": "Prešov", "pop": 150000}, {"site": "Poprad", "region": "Eastern Corridor", "cc": "SK", "terrain": "Mountain", "notes": "Under the High Tatras; the mountain junction", "nelox": "Poprad", "pop": 92000}, {"site": "Humenné", "region": "Eastern Corridor", "cc": "SK", "terrain": "River", "notes": "Laborec valley; eastern Carpathian approach", "nelox": "Humenné", "pop": 58000}, {"site": "Bardejov", "region": "Eastern Corridor", "cc": "SK", "terrain": "Mountain", "notes": "Pass town on the Polish frontier; spa springs", "nelox": "Bardejov", "pop": 56000}, {"site": "Odesa", "region": "Moldavian Arc & Black Sea", "cc": "UA", "terrain": "Sea", "notes": "Liman coast; the founding harbour", "nelox": "Uusatôm", "pop": 2200000}, {"site": "Chornomorsk", "region": "Moldavian Arc & Black Sea", "cc": "UA", "terrain": "Sea", "notes": "Deepwater container roads south of the liman", "nelox": "Sudhafõn", "pop": 120000}, {"site": "Bilhorod-Dnistrovskyi", "region": "Moldavian Arc & Black Sea", "cc": "UA", "terrain": "Liman", "notes": "Dniester liman fortress", "nelox": "Akerman", "pop": 96000}, {"site": "Izmail", "region": "Moldavian Arc & Black Sea", "cc": "UA", "terrain": "River", "notes": "Danube river port above the delta", "nelox": "Izmail", "pop": 140000}, {"site": "Uzhhorod", "region": "Moldavian Arc & Black Sea", "cc": "UA", "terrain": "Mountain", "notes": "Uzh valley at the Carpathian pass mouth", "nelox": "Uzhhorod", "pop": 230000}, {"site": "Mukachevo", "region": "Moldavian Arc & Black Sea", "cc": "UA", "terrain": "Mountain", "notes": "Latorica valley; castle on the plain edge", "nelox": "Mukachevo", "pop": 170000}, {"site": "Suceava", "region": "Moldavian Arc & Black Sea", "cc": "RO", "terrain": "Upland", "notes": "Bukovina plateau; the old princely seat", "nelox": "Suceava", "pop": 168000}, {"site": "Botoșani", "region": "Moldavian Arc & Black Sea", "cc": "RO", "terrain": "Plain", "notes": "Moldavian plain; market town", "nelox": "Botoșani", "pop": 210000}, {"site": "Iași", "region": "Moldavian Arc & Black Sea", "cc": "RO", "terrain": "Hill", "notes": "Bahlui valley hills; the Moldavian capital site", "nelox": "Iași", "pop": 800000}, {"site": "Vaslui", "region": "Moldavian Arc & Black Sea", "cc": "RO", "terrain": "Plain", "notes": "Bârlad valley; central Moldavia", "nelox": "Vaslui", "pop": 110000}, {"site": "Bârlad", "region": "Moldavian Arc & Black Sea", "cc": "RO", "terrain": "Plain", "notes": "Bârlad river market town", "nelox": "Bârlad", "pop": 110000}, {"site": "Roman", "region": "Moldavian Arc & Black Sea", "cc": "RO", "terrain": "River", "notes": "Siret–Moldova confluence", "nelox": "Roman", "pop": 100000}, {"site": "Galați", "region": "Moldavian Arc & Black Sea", "cc": "RO", "terrain": "River", "notes": "Danube maritime port; the seagoing head of the river", "nelox": "Galați", "pop": 430000}, {"site": "Tulcea", "region": "Moldavian Arc & Black Sea", "cc": "RO", "terrain": "Delta", "notes": "The Danube delta gateway", "nelox": "Tulcea", "pop": 130000}, {"site": "Constanța", "region": "Moldavian Arc & Black Sea", "cc": "RO", "terrain": "Sea", "notes": "The great Black Sea port; Dobruja headland", "nelox": "Kôstônç", "pop": 700000}, {"site": "Mangalia", "region": "Moldavian Arc & Black Sea", "cc": "RO", "terrain": "Sea", "notes": "Southern Dobruja coast; shipyard", "nelox": "Mangalia", "pop": 72000}, {"site": "Medgidia", "region": "Moldavian Arc & Black Sea", "cc": "RO", "terrain": "Canal", "notes": "On the Danube–Black Sea canal", "nelox": "Medgidia", "pop": 78000}, {"site": "Bistrița", "region": "Moldavian Arc & Black Sea", "cc": "RO", "terrain": "Mountain", "notes": "Under the Bârgău pass into Moldavia", "nelox": "Bistrița", "pop": 150000}, {"site": "Oradea", "region": "Moldavian Arc & Black Sea", "cc": "RO", "terrain": "Plain", "notes": "Criș river; the Pannonian gate", "nelox": "Oradea", "pop": 390000}, {"site": "Dobrich", "region": "Moldavian Arc & Black Sea", "cc": "BG", "terrain": "Plain", "notes": "Southern Dobruja grain plateau", "nelox": "Dobrič", "pop": 150000}, {"site": "Balchik", "region": "Moldavian Arc & Black Sea", "cc": "BG", "terrain": "Sea", "notes": "Chalk-cliff coast; sheltered anchorage", "nelox": "Balchik", "pop": 24000}, {"site": "Slobozia", "region": "Moldavian Arc & Black Sea", "cc": "MD", "terrain": "River", "notes": "Dniester left bank", "nelox": "Slobozia", "pop": 28000}, {"site": "Ștefan Vodă", "region": "Moldavian Arc & Black Sea", "cc": "MD", "terrain": "Plain", "notes": "Dniester lowland; vineyard country", "nelox": "Ștefan Vodă", "pop": 14000}, {"site": "Szeged", "region": "Pannonian Bridge", "cc": "HU", "terrain": "River", "notes": "Tisza–Maros confluence; the plain's southern seat", "nelox": "Szeged", "pop": 320000}, {"site": "Hódmezővásárhely", "region": "Pannonian Bridge", "cc": "HU", "terrain": "Plain", "notes": "Tisza flood-plain market town", "nelox": "Hódmezővásárhely", "pop": 88000}, {"site": "Szentes", "region": "Pannonian Bridge", "cc": "HU", "terrain": "River", "notes": "Tisza bank; thermal water", "nelox": "Szentes", "pop": 54000}, {"site": "Békéscsaba", "region": "Pannonian Bridge", "cc": "HU", "terrain": "Plain", "notes": "Körös plain; rail crossroads", "nelox": "Békéscsaba", "pop": 110000}, {"site": "Gyula", "region": "Pannonian Bridge", "cc": "HU", "terrain": "Plain", "notes": "Körös marsh castle; thermal springs", "nelox": "Gyula", "pop": 58000}, {"site": "Orosháza", "region": "Pannonian Bridge", "cc": "HU", "terrain": "Plain", "notes": "Deep plain; gas field", "nelox": "Orosháza", "pop": 54000}, {"site": "Kecskemét", "region": "Pannonian Bridge", "cc": "HU", "terrain": "Sand", "notes": "Danube–Tisza sand ridge; orchard country", "nelox": "Kecskemét", "pop": 220000}, {"site": "Baja", "region": "Pannonian Bridge", "cc": "HU", "terrain": "River", "notes": "Danube crossing on the southern plain", "nelox": "Baja", "pop": 68000}, {"site": "Szekszárd", "region": "Pannonian Bridge", "cc": "HU", "terrain": "Hill", "notes": "Loess wine hills above the Danube", "nelox": "Szekszárd", "pop": 62000}, {"site": "Pécs", "region": "Pannonian Bridge", "cc": "HU", "terrain": "Mountain", "notes": "Under the Mecsek; coal and the southern seat", "nelox": "Pécs", "pop": 280000}, {"site": "Kaposvár", "region": "Pannonian Bridge", "cc": "HU", "terrain": "Hill", "notes": "Kapos valley in the Somogy hills", "nelox": "Kaposvár", "pop": 122000}, {"site": "Siófok", "region": "Pannonian Bridge", "cc": "HU", "terrain": "Lake", "notes": "Balaton's south shore at the Sió outlet", "nelox": "Siófok", "pop": 50000}, {"site": "Nagykanizsa", "region": "Pannonian Bridge", "cc": "HU", "terrain": "Plain", "notes": "Southwest gate; oil field and rail", "nelox": "Nagykanizsa", "pop": 92000}, {"site": "Zalaegerszeg", "region": "Pannonian Bridge", "cc": "HU", "terrain": "Hill", "notes": "Zala valley in the western hills", "nelox": "Zalaegerszeg", "pop": 112000}, {"site": "Szombathely", "region": "Pannonian Bridge", "cc": "HU", "terrain": "Plain", "notes": "The old Roman road seat; Alpine foreland", "nelox": "Szombathely", "pop": 156000}, {"site": "Sopron", "region": "Pannonian Bridge", "cc": "HU", "terrain": "Hill", "notes": "The gate between the Alps and Lake Fertő", "nelox": "Sopron", "pop": 124000}, {"site": "Mosonmagyaróvár", "region": "Pannonian Bridge", "cc": "HU", "terrain": "River", "notes": "Danube branch crossing at the Little Plain", "nelox": "Mosonmagyaróvár", "pop": 66000}, {"site": "Győr", "region": "Pannonian Bridge", "cc": "HU", "terrain": "River", "notes": "Danube–Rába–Rábca confluence; the Little Plain seat", "nelox": "Győr", "pop": 260000}, {"site": "Eisenstadt", "region": "Alpine–Adriatic Arm", "cc": "AT", "terrain": "Hill", "notes": "Leitha hills above the Fertő basin", "nelox": "Eisenstadt", "pop": 30000}, {"site": "Graz", "region": "Alpine–Adriatic Arm", "cc": "AT", "terrain": "River", "notes": "Mur valley basin; the Alpine engineering seat", "nelox": "Gräts", "pop": 700000}, {"site": "Leoben", "region": "Alpine–Adriatic Arm", "cc": "AT", "terrain": "Mountain", "notes": "Mur valley narrows; the iron road", "nelox": "Leoben", "pop": 50000}, {"site": "Kapfenberg", "region": "Alpine–Adriatic Arm", "cc": "AT", "terrain": "Mountain", "notes": "Mürz valley steel works", "nelox": "Kapfenberg", "pop": 46000}, {"site": "Klagenfurt", "region": "Alpine–Adriatic Arm", "cc": "AT", "terrain": "Lake", "notes": "Wörthersee basin; the Carinthian seat", "nelox": "Klagenfurt", "pop": 210000}, {"site": "Villach", "region": "Alpine–Adriatic Arm", "cc": "AT", "terrain": "River", "notes": "Drava valley at the three-pass junction", "nelox": "Villach", "pop": 130000}, {"site": "Wolfsberg", "region": "Alpine–Adriatic Arm", "cc": "AT", "terrain": "Valley", "notes": "Lavant valley; the eastern Carinthian road", "nelox": "Wolfsberg", "pop": 50000}, {"site": "Trieste", "region": "Alpine–Adriatic Arm", "cc": "IT", "terrain": "Sea", "notes": "The head of the Adriatic; karst escarpment harbour", "nelox": "Triest", "pop": 400000}, {"site": "Gorizia", "region": "Alpine–Adriatic Arm", "cc": "IT", "terrain": "River", "notes": "Isonzo valley mouth; the border town", "nelox": "Gorizia", "pop": 68000}, {"site": "Monfalcone", "region": "Alpine–Adriatic Arm", "cc": "IT", "terrain": "Sea", "notes": "Shipyard bay at the Isonzo mouth", "nelox": "Monfalcone", "pop": 60000}, {"site": "Udine", "region": "Alpine–Adriatic Arm", "cc": "IT", "terrain": "Plain", "notes": "Friulian plain; the inland Friuli seat", "nelox": "Udine", "pop": 200000}, {"site": "Pordenone", "region": "Alpine–Adriatic Arm", "cc": "IT", "terrain": "Plain", "notes": "Western Friulian plain; Noncello river", "nelox": "Pordenone", "pop": 100000}, {"site": "Koper", "region": "Alpine–Adriatic Arm", "cc": "SI", "terrain": "Sea", "notes": "Istrian bay; the container port", "nelox": "Kapôdistriô", "pop": 70000}, {"site": "Ilirska Bistrica", "region": "Alpine–Adriatic Arm", "cc": "SI", "terrain": "Karst", "notes": "Reka valley at the karst threshold", "nelox": "Ilirska Bistrica", "pop": 9000}, {"site": "Piran", "region": "Alpine–Adriatic Arm", "cc": "SI", "terrain": "Cape", "notes": "A walled point between two bays; the salt pans", "nelox": "Pirano", "pop": 10000}, {"site": "Izola", "region": "Alpine–Adriatic Arm", "cc": "SI", "terrain": "Sea", "notes": "Fishing harbour on the Slovene coast", "nelox": "Isôla", "pop": 20000}, {"site": "Ankaran", "region": "Alpine–Adriatic Arm", "cc": "SI", "terrain": "Sea", "notes": "The bay's northern shore below the Karst edge", "nelox": "Ankaran", "pop": 6000}, {"site": "Sežana", "region": "Alpine–Adriatic Arm", "cc": "SI", "terrain": "Karst", "notes": "The Karst plateau; the rail line to the sea", "nelox": "Sežana", "pop": 12000}, {"site": "Divača", "region": "Alpine–Adriatic Arm", "cc": "SI", "terrain": "Karst", "notes": "Cave country; the junction above the Škocjan chasms", "nelox": "Divača", "pop": 3000}, {"site": "Nova Gorica", "region": "Alpine–Adriatic Arm", "cc": "SI", "terrain": "River", "notes": "Soča valley at the Italian line; the twin of Gorizia", "nelox": "Nova Gorica", "pop": 26000}, {"site": "Ajdovščina", "region": "Alpine–Adriatic Arm", "cc": "SI", "terrain": "Valley", "notes": "Vipava valley; the bora wind gate", "nelox": "Ajdovščina", "pop": 14000}, {"site": "Idrija", "region": "Alpine–Adriatic Arm", "cc": "SI", "terrain": "Mountain", "notes": "The mercury mine in a deep mountain fold", "nelox": "Idrija", "pop": 12000}, {"site": "Tolmin", "region": "Alpine–Adriatic Arm", "cc": "SI", "terrain": "Valley", "notes": "Upper Soča; the Julian Alps approach", "nelox": "Tolmin", "pop": 8000}, {"site": "Pula", "region": "Dalmatian Coast", "cc": "HR", "terrain": "Bay", "notes": "A deep sheltered gulf at the peninsula's tip; the great naval harbour", "nelox": "Pôla", "pop": 120000}, {"site": "Rovinj", "region": "Dalmatian Coast", "cc": "HR", "terrain": "Sea", "notes": "Rock peninsula town among the west-coast islets", "nelox": "Rovigno", "pop": 28000}, {"site": "Poreč", "region": "Dalmatian Coast", "cc": "HR", "terrain": "Sea", "notes": "Low limestone west coast; shallow harbour", "nelox": "Parenzo", "pop": 32000}, {"site": "Umag", "region": "Dalmatian Coast", "cc": "HR", "terrain": "Sea", "notes": "The northwest cape facing the Venetian lagoon", "nelox": "Umago", "pop": 26000}, {"site": "Pazin", "region": "Dalmatian Coast", "cc": "HR", "terrain": "Gorge", "notes": "The peninsula's interior; a castle above a swallow-hole chasm", "nelox": "Pisino", "pop": 18000}, {"site": "Labin", "region": "Dalmatian Coast", "cc": "HR", "terrain": "Hill", "notes": "Hill town above the Kvarner; the Istrian coal field", "nelox": "Albona", "pop": 22000}, {"site": "Buzet", "region": "Dalmatian Coast", "cc": "HR", "terrain": "Karst", "notes": "Upper Mirna valley; the truffle woods", "nelox": "Pinguente", "pop": 12000}, {"site": "Rijeka", "region": "Dalmatian Coast", "cc": "HR", "terrain": "Bay", "notes": "Where the Kvarner gulf meets the pass road; the deepwater terminal", "nelox": "Fiume", "pop": 350000}, {"site": "Opatija", "region": "Dalmatian Coast", "cc": "HR", "terrain": "Sea", "notes": "Sheltered shore under Učka; the winter coast", "nelox": "Abbazia", "pop": 22000}, {"site": "Krk", "region": "Dalmatian Coast", "cc": "HR", "terrain": "Island", "notes": "The great Kvarner island; bridged to the mainland", "nelox": "Krk", "pop": 13000}, {"site": "Mali Lošinj", "region": "Dalmatian Coast", "cc": "HR", "terrain": "Island", "notes": "Deep island harbour in the outer Kvarner", "nelox": "Lussīn", "pop": 16000}, {"site": "Senj", "region": "Dalmatian Coast", "cc": "HR", "terrain": "Sea", "notes": "Velebit channel; the bora gate", "nelox": "Senj", "pop": 14000}, {"site": "Gospić", "region": "Dalmatian Coast", "cc": "HR", "terrain": "Karst", "notes": "Lika polje behind the Velebit wall", "nelox": "Gospić", "pop": 24000}, {"site": "Zadar", "region": "Dalmatian Coast", "cc": "HR", "terrain": "Sea", "notes": "Peninsula harbour among the islands", "nelox": "Zara", "pop": 150000}, {"site": "Šibenik", "region": "Dalmatian Coast", "cc": "HR", "terrain": "Estuary", "notes": "Krka river gorge mouth; a hidden deepwater bay", "nelox": "Šibenik", "pop": 90000}, {"site": "Knin", "region": "Dalmatian Coast", "cc": "HR", "terrain": "Karst", "notes": "Krka headwaters; the inland fortress crossroads", "nelox": "Knin", "pop": 30000}, {"site": "Split", "region": "Dalmatian Coast", "cc": "HR", "terrain": "Sea", "notes": "Sheltered bay under the Mosor; the coast's seat", "nelox": "Spalôt", "pop": 450000}, {"site": "Ploče", "region": "Dalmatian Coast", "cc": "HR", "terrain": "Delta", "notes": "Neretva delta port", "nelox": "Ploče", "pop": 18000}, {"site": "Metković", "region": "Dalmatian Coast", "cc": "HR", "terrain": "River", "notes": "Head of Neretva navigation", "nelox": "Metković", "pop": 30000}, {"site": "Dubrovnik", "region": "Dalmatian Coast", "cc": "HR", "terrain": "Sea", "notes": "Walled rock harbour on the open sea", "nelox": "Ragūz", "pop": 84000}, {"site": "Bihać", "region": "Dalmatian Coast", "cc": "BA", "terrain": "River", "notes": "Una valley; the Bosnian Krajina gate", "nelox": "Bihać", "pop": 110000}, {"site": "Livno", "region": "Dalmatian Coast", "cc": "BA", "terrain": "Karst", "notes": "Livno polje; a great karst basin", "nelox": "Livno", "pop": 34000}, {"site": "Široki Brijeg", "region": "Dalmatian Coast", "cc": "BA", "terrain": "Karst", "notes": "Herzegovinian karst plateau", "nelox": "Široki Brijeg", "pop": 30000}, {"site": "Marseille", "region": "Western Alpine & Riviera Arc", "cc": "FR", "terrain": "Sea", "notes": "Calanque coast; the great Mediterranean harbour", "nelox": "Marsēl", "pop": 1800000}, {"site": "Toulon", "region": "Western Alpine & Riviera Arc", "cc": "FR", "terrain": "Bay", "notes": "A deep natural roadstead; the naval anchorage", "nelox": "Tolon", "pop": 420000}, {"site": "Aix-en-Provence", "region": "Western Alpine & Riviera Arc", "cc": "FR", "terrain": "Hill", "notes": "Thermal springs below the Sainte-Victoire", "nelox": "Ais", "pop": 220000}, {"site": "Avignon", "region": "Western Alpine & Riviera Arc", "cc": "FR", "terrain": "River", "notes": "Rhône crossing; the bridge city", "nelox": "Avinjon", "pop": 190000}, {"site": "Nice", "region": "Western Alpine & Riviera Arc", "cc": "FR", "terrain": "Sea", "notes": "Where the Alps meet the sea; the bay of angels", "nelox": "Nissô", "pop": 700000}, {"site": "Cannes", "region": "Western Alpine & Riviera Arc", "cc": "FR", "terrain": "Sea", "notes": "Sheltered Riviera bay; the Lérins roads", "nelox": "Kanô", "pop": 150000}, {"site": "Antibes", "region": "Western Alpine & Riviera Arc", "cc": "FR", "terrain": "Cape", "notes": "Cape harbour between two bays", "nelox": "Antibô", "pop": 150000}, {"site": "Aosta", "region": "Western Alpine & Riviera Arc", "cc": "IT", "terrain": "Valley", "notes": "The junction of the Great and Little St Bernard passes", "nelox": "Aosta", "pop": 68000}, {"site": "Turin", "region": "Western Alpine & Riviera Arc", "cc": "IT", "terrain": "River", "notes": "Po headwaters under the Alpine wall; the Savoy seat", "nelox": "Torīnô", "pop": 1700000}, {"site": "Cuneo", "region": "Western Alpine & Riviera Arc", "cc": "IT", "terrain": "Plateau", "notes": "The wedge between two rivers; the Ligurian pass approach", "nelox": "Cuneo", "pop": 110000}, {"site": "Asti", "region": "Western Alpine & Riviera Arc", "cc": "IT", "terrain": "Hill", "notes": "Monferrato wine hills", "nelox": "Asti", "pop": 150000}, {"site": "Alessandria", "region": "Western Alpine & Riviera Arc", "cc": "IT", "terrain": "Plain", "notes": "Tanaro–Bormida confluence; the fortress plain", "nelox": "Alessandria", "pop": 180000}, {"site": "Novara", "region": "Western Alpine & Riviera Arc", "cc": "IT", "terrain": "Plain", "notes": "Rice plain between Ticino and Sesia", "nelox": "Novara", "pop": 200000}, {"site": "Milan", "region": "Western Alpine & Riviera Arc", "cc": "IT", "terrain": "Plain", "notes": "The central Po plain; the canal and road hub", "nelox": "Milān", "pop": 3500000}, {"site": "Monza", "region": "Western Alpine & Riviera Arc", "cc": "IT", "terrain": "River", "notes": "Lambro valley at the Brianza edge", "nelox": "Monza", "pop": 250000}, {"site": "Como", "region": "Western Alpine & Riviera Arc", "cc": "IT", "terrain": "Lake", "notes": "The lake's south horn; the Splügen road", "nelox": "Kômô", "pop": 170000}, {"site": "Varese", "region": "Western Alpine & Riviera Arc", "cc": "IT", "terrain": "Lake", "notes": "Prealpine lake basin", "nelox": "Varese", "pop": 160000}, {"site": "Bergamo", "region": "Western Alpine & Riviera Arc", "cc": "IT", "terrain": "Hill", "notes": "Walled hill above the plain; Brembana valley mouth", "nelox": "Bergamo", "pop": 240000}, {"site": "Brescia", "region": "Western Alpine & Riviera Arc", "cc": "IT", "terrain": "Hill", "notes": "Between Garda and the Val Trompia iron", "nelox": "Brescia", "pop": 400000}, {"site": "Cremona", "region": "Western Alpine & Riviera Arc", "cc": "IT", "terrain": "River", "notes": "Po bank; the river crossing", "nelox": "Cremona", "pop": 140000}, {"site": "Pavia", "region": "Western Alpine & Riviera Arc", "cc": "IT", "terrain": "River", "notes": "Ticino–Po confluence; the covered bridge", "nelox": "Pavia", "pop": 140000}, {"site": "Mantua", "region": "Western Alpine & Riviera Arc", "cc": "IT", "terrain": "Lake", "notes": "Mincio lakes; a city on water", "nelox": "Mantova", "pop": 100000}, {"site": "Verona", "region": "Western Alpine & Riviera Arc", "cc": "IT", "terrain": "River", "notes": "Adige bend at the Brenner road mouth", "nelox": "Verona", "pop": 520000}, {"site": "Vicenza", "region": "Western Alpine & Riviera Arc", "cc": "IT", "terrain": "Plain", "notes": "Bacchiglione plain under the Berici hills", "nelox": "Vicenza", "pop": 220000}, {"site": "Padua", "region": "Western Alpine & Riviera Arc", "cc": "IT", "terrain": "Plain", "notes": "Brenta plain; the lagoon's mainland seat", "nelox": "Padova", "pop": 440000}, {"site": "Venice", "region": "Western Alpine & Riviera Arc", "cc": "IT", "terrain": "Lagoon", "notes": "The lagoon islands; the sea's own city", "nelox": "Venēsiô", "pop": 600000}, {"site": "Treviso", "region": "Western Alpine & Riviera Arc", "cc": "IT", "terrain": "River", "notes": "Sile springs; the walled water town", "nelox": "Treviso", "pop": 170000}, {"site": "Rovigo", "region": "Western Alpine & Riviera Arc", "cc": "IT", "terrain": "Delta", "notes": "Polesine, between Adige and Po", "nelox": "Rovigo", "pop": 100000}, {"site": "Lugano", "region": "Western Alpine & Riviera Arc", "cc": "CH", "terrain": "Lake", "notes": "Lake basin below the Ceneri; the southern valleys", "nelox": "Lugano", "pop": 130000}, {"site": "Bellinzona", "region": "Western Alpine & Riviera Arc", "cc": "CH", "terrain": "Valley", "notes": "The castle gate of the Ticino valley; the St Gotthard road", "nelox": "Bellinzona", "pop": 90000}, {"site": "Sion", "region": "Western Alpine & Riviera Arc", "cc": "CH", "terrain": "Valley", "notes": "Rhône valley floor between rock hills", "nelox": "Sion", "pop": 70000}, {"site": "Chur", "region": "Western Alpine & Riviera Arc", "cc": "CH", "terrain": "Valley", "notes": "Rhine valley at the fan of Alpine passes", "nelox": "Chur", "pop": 74000}, {"site": "Burgas", "region": "Thracian–Macedonian Corridor", "cc": "BG", "terrain": "Bay", "notes": "A great shallow bay and salt lakes; the southern port", "nelox": "Burgas", "pop": 300000}, {"site": "Nesebar", "region": "Thracian–Macedonian Corridor", "cc": "BG", "terrain": "Island", "notes": "Rock peninsula harbour", "nelox": "Mesembriô", "pop": 16000}, {"site": "Sozopol", "region": "Thracian–Macedonian Corridor", "cc": "BG", "terrain": "Sea", "notes": "Old Greek colony headland", "nelox": "Sozôpôl", "pop": 7000}, {"site": "Yambol", "region": "Thracian–Macedonian Corridor", "cc": "BG", "terrain": "River", "notes": "Tundzha valley; the Thracian plain", "nelox": "Yambol", "pop": 110000}, {"site": "Elhovo", "region": "Thracian–Macedonian Corridor", "cc": "BG", "terrain": "River", "notes": "Lower Tundzha; the Turkish frontier road", "nelox": "Elhovo", "pop": 14000}, {"site": "Haskovo", "region": "Thracian–Macedonian Corridor", "cc": "BG", "terrain": "Hill", "notes": "Between the Rhodope foot and the Maritsa plain", "nelox": "Haskovo", "pop": 110000}, {"site": "Dimitrovgrad", "region": "Thracian–Macedonian Corridor", "cc": "BG", "terrain": "River", "notes": "Maritsa crossing; planned industry town", "nelox": "Dimitrovgrad", "pop": 58000}, {"site": "Svilengrad", "region": "Thracian–Macedonian Corridor", "cc": "BG", "terrain": "River", "notes": "Maritsa bridge at the three-border point", "nelox": "Svilengrad", "pop": 28000}, {"site": "Kardzhali", "region": "Thracian–Macedonian Corridor", "cc": "BG", "terrain": "Mountain", "notes": "Arda gorges; the eastern Rhodope reservoirs", "nelox": "Kardzhali", "pop": 68000}, {"site": "Smolyan", "region": "Thracian–Macedonian Corridor", "cc": "BG", "terrain": "Mountain", "notes": "High Rhodope valley", "nelox": "Smolyan", "pop": 42000}, {"site": "Blagoevgrad", "region": "Thracian–Macedonian Corridor", "cc": "BG", "terrain": "Valley", "notes": "Struma valley under Rila", "nelox": "Blagoevgrad", "pop": 110000}, {"site": "Sandanski", "region": "Thracian–Macedonian Corridor", "cc": "BG", "terrain": "Valley", "notes": "Lower Struma; hot springs, Pirin foot", "nelox": "Sandanski", "pop": 40000}, {"site": "Petrich", "region": "Thracian–Macedonian Corridor", "cc": "BG", "terrain": "Valley", "notes": "The Struma gate to the Aegean", "nelox": "Petrich", "pop": 44000}, {"site": "Gotse Delchev", "region": "Thracian–Macedonian Corridor", "cc": "BG", "terrain": "Valley", "notes": "Mesta valley between Pirin and the Rhodope", "nelox": "Nevrokop", "pop": 30000}, {"site": "Razlog", "region": "Thracian–Macedonian Corridor", "cc": "BG", "terrain": "Basin", "notes": "High basin between Rila and Pirin", "nelox": "Razlog", "pop": 18000}, {"site": "Edirne", "region": "Thracian–Macedonian Corridor", "cc": "TR", "terrain": "River", "notes": "Maritsa–Tundzha–Arda confluence; the Thracian crossroads", "nelox": "Edirne", "pop": 260000}, {"site": "Keşan", "region": "Thracian–Macedonian Corridor", "cc": "TR", "terrain": "Hill", "notes": "Between the Gulf of Saros and the Maritsa plain", "nelox": "Keşan", "pop": 70000}, {"site": "Uzunköprü", "region": "Thracian–Macedonian Corridor", "cc": "TR", "terrain": "River", "notes": "The long bridge over the Ergene", "nelox": "Uzunköprü", "pop": 50000}, {"site": "Vlorë", "region": "Thracian–Macedonian Corridor", "cc": "AL", "terrain": "Bay", "notes": "The bay at the Otranto narrows; Karaburun shelter", "nelox": "Valonô", "pop": 180000}, {"site": "Sarandë", "region": "Thracian–Macedonian Corridor", "cc": "AL", "terrain": "Sea", "notes": "Channel coast facing Corfu", "nelox": "Saranda", "pop": 40000}, {"site": "Himarë", "region": "Thracian–Macedonian Corridor", "cc": "AL", "terrain": "Sea", "notes": "The Riviera under the Ceraunian mountains", "nelox": "Himara", "pop": 8000}, {"site": "Gjirokastër", "region": "Thracian–Macedonian Corridor", "cc": "AL", "terrain": "Mountain", "notes": "Drino valley; the stone hill town", "nelox": "Argirokastrô", "pop": 30000}, {"site": "Tepelenë", "region": "Thracian–Macedonian Corridor", "cc": "AL", "terrain": "River", "notes": "Vjosa gorge junction", "nelox": "Tepelena", "pop": 6000}, {"site": "Përmet", "region": "Thracian–Macedonian Corridor", "cc": "AL", "terrain": "Valley", "notes": "Upper Vjosa; thermal springs", "nelox": "Permet", "pop": 9000}, {"site": "Korçë", "region": "Thracian–Macedonian Corridor", "cc": "AL", "terrain": "Basin", "notes": "A high plain basin near the lakes", "nelox": "Korça", "pop": 80000}, {"site": "Pogradec", "region": "Thracian–Macedonian Corridor", "cc": "AL", "terrain": "Lake", "notes": "Lake Ohrid's southwest shore", "nelox": "Pogradec", "pop": 30000}, {"site": "Bitola", "region": "Thracian–Macedonian Corridor", "cc": "MK", "terrain": "Plain", "notes": "Pelagonia plain under Baba mountain", "nelox": "Monastir", "pop": 110000}, {"site": "Prilep", "region": "Thracian–Macedonian Corridor", "cc": "MK", "terrain": "Plain", "notes": "Northern Pelagonia; tobacco and marble", "nelox": "Prilep", "pop": 96000}, {"site": "Kruševo", "region": "Thracian–Macedonian Corridor", "cc": "MK", "terrain": "Mountain", "notes": "The high mountain town above the plain", "nelox": "Kruševo", "pop": 8000}, {"site": "Resen", "region": "Thracian–Macedonian Corridor", "cc": "MK", "terrain": "Lake", "notes": "Prespa basin between the two lakes", "nelox": "Resen", "pop": 12000}, {"site": "Veles", "region": "Thracian–Macedonian Corridor", "cc": "MK", "terrain": "River", "notes": "Vardar gorge crossing; the central hinge", "nelox": "Veles", "pop": 70000}, {"site": "Kavadarci", "region": "Thracian–Macedonian Corridor", "cc": "MK", "terrain": "Valley", "notes": "Tikveš wine basin", "nelox": "Kavadarci", "pop": 50000}, {"site": "Negotino", "region": "Thracian–Macedonian Corridor", "cc": "MK", "terrain": "River", "notes": "Vardar valley floor", "nelox": "Negotino", "pop": 20000}, {"site": "Demir Kapija", "region": "Thracian–Macedonian Corridor", "cc": "MK", "terrain": "Gorge", "notes": "The Iron Gate of the Vardar", "nelox": "Demir Kapija", "pop": 5000}, {"site": "Gevgelija", "region": "Thracian–Macedonian Corridor", "cc": "MK", "terrain": "River", "notes": "The Vardar's exit to the Aegean plain", "nelox": "Gevgelija", "pop": 22000}, {"site": "Strumica", "region": "Thracian–Macedonian Corridor", "cc": "MK", "terrain": "Basin", "notes": "A warm sheltered basin; market gardens", "nelox": "Strumica", "pop": 55000}, {"site": "Radoviš", "region": "Thracian–Macedonian Corridor", "cc": "MK", "terrain": "Valley", "notes": "Under Plachkovica; copper workings", "nelox": "Radoviš", "pop": 25000}, {"site": "Sveti Nikole", "region": "Thracian–Macedonian Corridor", "cc": "MK", "terrain": "Plain", "notes": "Ovče Pole, the sheep plain", "nelox": "Sveti Nikole", "pop": 20000}, {"site": "Sevastopol", "region": "Sevastopol · Federal City", "cc": "UA", "terrain": "Bay", "notes": "The great drowned-valley naval harbour; federal city and fleet seat", "nelox": "Sevastôpôl", "pop": 800000}, {"site": "Aden", "region": "Yemeni Commonwealth", "cc": "YE", "terrain": "Crater", "notes": "A volcanic crater harbour at the strait; the federal gateway — the southern Kunislinnô", "nelox": "Aden", "pop": 6500000}, {"site": "Sanaa", "region": "Yemeni Commonwealth", "cc": "YE", "terrain": "Highland", "notes": "High plateau basin ringed by mountains; the commonwealth capital", "nelox": "Sanaa", "pop": 3600000}, {"site": "Taiz", "region": "Yemeni Commonwealth", "cc": "YE", "terrain": "Mountain", "notes": "Under Jabal Sabir; the southern highland seat", "nelox": "Taiz", "pop": 1300000}, {"site": "Al Hudaydah", "region": "Yemeni Commonwealth", "cc": "YE", "terrain": "Sea", "notes": "Red Sea shallow-water port", "nelox": "Hodeidah", "pop": 1300000}, {"site": "Ibb", "region": "Yemeni Commonwealth", "cc": "YE", "terrain": "Highland", "notes": "The green highland; monsoon terraces", "nelox": "Ibb", "pop": 700000}, {"site": "Mukalla", "region": "Yemeni Commonwealth", "cc": "YE", "terrain": "Sea", "notes": "Cliff-backed harbour on the Hadhramaut coast", "nelox": "Mukalla", "pop": 500000}, {"site": "Dhamar", "region": "Yemeni Commonwealth", "cc": "YE", "terrain": "Highland", "notes": "High plain south of the capital basin", "nelox": "Dhamar", "pop": 320000}, {"site": "Say'un", "region": "Yemeni Commonwealth", "cc": "YE", "terrain": "Wadi", "notes": "Wadi Hadhramaut; the mudbrick oasis towns", "nelox": "Seiyun", "pop": 130000}, {"site": "Ataq", "region": "Yemeni Commonwealth", "cc": "YE", "terrain": "Desert", "notes": "Desert-edge road town; oil fields", "nelox": "Ataq", "pop": 90000}, {"site": "Zinjibar", "region": "Yemeni Commonwealth", "cc": "YE", "terrain": "Coast", "notes": "Abyan delta; the coastal farm belt", "nelox": "Zinjibar", "pop": 90000}, {"site": "Hadibu", "region": "Yemeni Commonwealth", "cc": "YE", "terrain": "Island", "notes": "Socotra; the island under the monsoon", "nelox": "Hadibu", "pop": 20000}];
+const REGIONS = [{"name": "Karelia & the North", "percap": 42000, "status": "core"}, {"name": "Livonian Core", "percap": 44000, "status": "core"}, {"name": "Lithuanian Spine", "percap": 41000, "status": "core"}, {"name": "Prussian–Pomeranian Coast", "percap": 58000, "status": "core"}, {"name": "Eastern Corridor", "percap": 34000, "status": "core"}, {"name": "Moldavian Arc & Black Sea", "percap": 33000, "status": "core"}, {"name": "Pannonian Bridge", "percap": 38000, "status": "core"}, {"name": "Alpine–Adriatic Arm", "percap": 56000, "status": "core"}, {"name": "Dalmatian Coast", "percap": 40000, "status": "core"}, {"name": "Western Alpine & Riviera Arc", "percap": 60000, "status": "core"}, {"name": "Thracian–Macedonian Corridor", "percap": 24000, "status": "core"}, {"name": "Sevastopol · Federal City", "percap": 40000, "status": "federal"}, {"name": "Yemeni Commonwealth", "percap": 19000, "status": "commonwealth"}];
+const PERCAP = {"Karelia & the North": 42000, "Livonian Core": 44000, "Lithuanian Spine": 41000, "Prussian–Pomeranian Coast": 58000, "Eastern Corridor": 34000, "Moldavian Arc & Black Sea": 33000, "Pannonian Bridge": 38000, "Alpine–Adriatic Arm": 56000, "Dalmatian Coast": 40000, "Western Alpine & Riviera Arc": 60000, "Thracian–Macedonian Corridor": 24000, "Sevastopol · Federal City": 40000, "Yemeni Commonwealth": 19000};
+
+// region colour dots (map-atlas palette), in canonical order
+const RCOLORS = ["#5b8ff9","#61c0bf","#65789b","#f6bd16","#7262fd","#78d3f8","#9661bc","#f6903d","#008685","#ff99c3","#e8684a","#6dc8ec","#c2a36b"];
+const RMETA = {}; REGIONS.forEach((r,i)=>{ RMETA[r.name]={...r, color:RCOLORS[i%RCOLORS.length]}; });
+
+// attach derived gdp
+D.forEach(d=>{ d.gdp = d.pop * (PERCAP[d.region]||0); });
+const MAXPOP = Math.max.apply(null, D.map(d=>d.pop));
+
+const $ = id => document.getElementById(id);
+const fmt = n => n.toLocaleString("en-US");
+function flag(cc){ if(!cc||cc.length!==2) return "🏳️"; return String.fromCodePoint(...[...cc.toUpperCase()].map(c=>0x1F1E6 + c.charCodeAt(0)-65)); }
+const CCNAME = {RU:"Russia",EE:"Estonia",LV:"Latvia",LT:"Lithuania",PL:"Poland",BY:"Belarus",SK:"Slovakia",UA:"Ukraine",RO:"Romania",BG:"Bulgaria",MD:"Moldova",HU:"Hungary",AT:"Austria",IT:"Italy",SI:"Slovenia",HR:"Croatia",BA:"Bosnia & Herzegovina",FR:"France",CH:"Switzerland",TR:"Türkiye",AL:"Albania",MK:"North Macedonia",YE:"Yemen"};
+function money(v){
+  if(v>=1e12) return "$"+(v/1e12).toFixed(2)+"T";
+  if(v>=1e9)  return "$"+(v/1e9).toFixed(v>=1e11?0:1)+"B";
+  if(v>=1e6)  return "$"+(v/1e6).toFixed(0)+"M";
+  return "$"+fmt(v);
+}
+function people(v){
+  if(v>=1e6) return (v/1e6).toFixed(v>=1e7?0:1)+"M";
+  if(v>=1e3) return (v/1e3).toFixed(0)+"K";
+  return fmt(v);
+}
+
+// national headline cards (fixed canon)
+const NAT = [
+  ["≈148M","Population",false],
+  ["≈$6.4T","Nominal GDP",true],
+  ["≈$43K","GDP per capita",false],
+  ["12 + 1","Regions · federal city",false],
+  ["≈79%","Urban",false],
+  ["≈1.35M km²","Area",false]
+];
+$("nat").innerHTML = NAT.map(c=>`<div class="natcard${c[2]?' accent':''}"><div class="n">${c[0]}</div><div class="l">${c[1]}</div></div>`).join("");
+
+let aR=null, aT=null, sk="pop", sd="desc", q="";
+const TERRAINS = [...new Set(D.map(d=>d.terrain))].sort();
+
+function chip(label, active, cls, count){
+  const b=document.createElement("button");
+  b.className="f"+(cls?" "+cls:"");
+  b.setAttribute("aria-pressed", active?"true":"false");
+  b.innerHTML = label + (count!=null?` <span class="fc">${count}</span>`:"");
+  return b;
+}
+function buildFilters(){
+  const fr=$("fr"); fr.querySelectorAll(".f").forEach(e=>e.remove());
+  const all=chip("All regions", aR===null, "all");
+  all.onclick=()=>{aR=null;render();}; fr.appendChild(all);
+  REGIONS.forEach(r=>{
+    const c = D.filter(d=>d.region===r.name).length;
+    const b=chip(r.name.replace(" · Federal City",""), aR===r.name, null, c);
+    b.onclick=()=>{aR=(aR===r.name?null:r.name);render();};
+    fr.appendChild(b);
+  });
+  const ft=$("ft"); ft.querySelectorAll(".f").forEach(e=>e.remove());
+  const allt=chip("All terrain", aT===null, "all");
+  allt.onclick=()=>{aT=null;render();}; ft.appendChild(allt);
+  TERRAINS.forEach(t=>{
+    const b=chip(t, aT===t);
+    b.onclick=()=>{aT=(aT===t?null:t);render();};
+    ft.appendChild(b);
+  });
+}
+
+function sortHeads(){
+  document.querySelectorAll("thead th[data-k]").forEach(th=>{
+    const on=th.dataset.k===sk;
+    if(on){th.dataset.on="1";th.querySelector(".car").textContent=sd==="asc"?"▲":"▼";}
+    else{th.removeAttribute("data-on");th.querySelector(".car").textContent="";}
+  });
+}
+
+function render(){
+  buildFilters(); sortHeads();
+  let r = D.filter(d=>{
+    if(aR && d.region!==aR) return false;
+    if(aT && d.terrain!==aT) return false;
+    if(!q) return true;
+    return (d.site+" "+d.nelox+" "+d.terrain+" "+d.notes+" "+d.region+" "+(CCNAME[d.cc]||d.cc)).toLowerCase().includes(q);
+  });
+  const num = sk==="pop"||sk==="gdp";
+  r.sort((a,b)=>{
+    let A=a[sk], B=b[sk];
+    if(num){ return sd==="asc"?A-B:B-A; }
+    A=(A||"").toString(); B=(B||"").toString();
+    return sd==="asc"?A.localeCompare(B):B.localeCompare(A);
+  });
+
+  $("ct").textContent = fmt(r.length);
+  $("sp").textContent = people(r.reduce((s,d)=>s+d.pop,0));
+  $("sg").textContent = money(r.reduce((s,d)=>s+d.gdp,0));
+
+  const empty=$("empty");
+  empty.hidden = r.length>0;
+  document.querySelector(".tscroll").style.display = r.length? "" : "none";
+
+  $("tb").innerHTML = r.map(d=>{
+    const m = RMETA[d.region]||{};
+    const raw = d.nelox===d.site;
+    let badge="";
+    if(m.status==="federal") badge=`<span class="badge fed">Federal city</span>`;
+    else if(m.status==="commonwealth") badge=`<span class="badge com">Commonwealth</span>`;
+    const per = (PERCAP[d.region]/1000).toFixed(0);
+    return `<tr>
+      <td class="c-site"><div class="name">${d.site}${badge}</div><div class="notes">${d.notes}</div></td>
+      <td><span class="nlx${raw?' raw':''}">${d.nelox}</span></td>
+      <td class="c-pop"><div class="popn">${fmt(d.pop)}</div><div class="popbar"><i style="width:${Math.max(2,(d.pop/MAXPOP*100)).toFixed(1)}%"></i></div></td>
+      <td class="c-gdp hide-md">${money(d.gdp)}<span class="per">$${per}k/cap</span></td>
+      <td class="hide-md"><span class="pill">${d.terrain}</span></td>
+      <td class="hide-lg"><span class="region"><span class="dot" style="background:${m.color}"></span>${d.region.replace(" · Federal City","")}</span></td>
+      <td class="hide-lg"><span class="loc"><span class="flag">${flag(d.cc)}</span>${CCNAME[d.cc]||d.cc}</span></td>
+    </tr>`;
+  }).join("");
+}
+
+$("q").addEventListener("input",e=>{q=e.target.value.toLowerCase().trim();render();});
+$("clr").addEventListener("click",()=>{$("q").value="";q="";$("q").focus();render();});
+document.querySelectorAll("thead th[data-k]").forEach(th=>{
+  const go=()=>{const k=th.dataset.k;
+    if(sk===k){sd=sd==="asc"?"desc":"asc";}
+    else{sk=k;sd=(k==="pop"||k==="gdp")?"desc":"asc";}
+    render();};
+  th.onclick=go;
+  th.onkeydown=e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();go();}};
+});
+
+render();
+</script>
+</body>
+</html>

@@ -19,7 +19,9 @@ as the great inland exchange.
 ## Territory (real-world subdivisions)
 
 - **Ukraine:** Crimea · Kherson · Zaporizhzhia (the land bridge making the state contiguous with
-  Neloxia's Odessa oblast)
+  Neloxia's Odessa oblast). *Exception: the naval city of **Sevastopol** is a **Nelôxian federal
+  city and Fleet enclave** within the Crimean peninsula — a Gibraltar-model carve-out held by
+  Nelôxia, not Sarmatia (`boundaries.md`); Sarmatia holds the rest of Crimea, including Caffa.*
 - **Russia:** Krasnodar Krai · Adygea · North Ossetia · Chechnya · Dagestan · Kalmykia ·
   Astrakhan · Stavropol · Karachay-Cherkessia · Kabardino-Balkaria · Orenburg
 - **Georgia:** Abkhazia · Samegrelo · Guria · Svaneti

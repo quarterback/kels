@@ -97,8 +97,8 @@ two-layer logic runs everywhere else in the design:
   "a high-trust operating system for regions that benefit from its corridors, ports, courts, and
   clearinghouses" (`world/neloxia-lore.md`). A state held together by *procedure* **structurally
   requires** a professional administrative caste, because the thing that actually holds a
-  Karelia-to-Black-Sea ribbon together is the competent, apolitical, mobile administrator who runs the
-  customs zone **the same way in Tantsika and in Uusatôm**. In a real sense, *the corridor is the
+  Karelia-to-Riviera-to-Aden federation together is the competent, apolitical, mobile administrator who runs the
+  customs zone **the same way in Tantsika, in Uusatôm, and in Aden**. In a real sense, *the corridor is the
   administrators.* Meanwhile the local elected Voices keep each accession's people represented, so the
   professional layer never hardens into a faceless imperial bureaucracy. This is the governance answer
   the "incorporate without erasing" principle always needed.

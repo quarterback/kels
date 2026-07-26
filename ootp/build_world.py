@@ -4,7 +4,13 @@
 Adds the eight sovereign nations of the settled world layer (world/*.md) and
 removes/carves the real-world places they are based on:
 
-  260 Nelôxia          — the nine ratified regions (boundaries.md)
+  260 Nelôxia          — the nine corridor regions (boundaries.md). This script builds the
+                         PRE-EXPANSION carve; `expand_transoceanic.py` then takes its output to
+                         the ratified twelve-region transoceanic state (≈148M): the western
+                         Alpine-Riviera arc, the Thracian-Macedonian corridor, the Yemeni
+                         Commonwealth, and Sevastopol as a federal city. Run them in order:
+                           python3 build_world.py <base.xml> world_default_neloxi.xml
+                           python3 expand_transoceanic.py world_default_neloxi.xml
   261 Skaria           — the Nordic breakaway republic (skaria-lore.md)
   262 Atlanta          — Atlantic Sahara, replaces Western Sahara (atlanta-lore.md)
   263 Adrāra           — the Bidhan north of old Mauritania (african-bloc.md)
@@ -262,7 +268,7 @@ def main(src, dst):
     # marquee renames from world/gazetteer.md
     renames.update({
         58601: "Petrôsô", 84818: "Vīpôri", 75183: "Sôrtô", 8438: "Korbitô",
-        57247: "Järvemō", 39437: "Koskenbōrk",
+        57247: "Järvemō", 39437: "Koskenbôrk",
         38968: "Māmeli", 77516: "Xauli", 54745: "Neikūri", 65099: "Rosēni",
         35985: "Keidani",
         36558: "Kunislinnô", 6651: "Pillô", 75491: "Tilsit",
@@ -283,6 +289,9 @@ def main(src, dst):
         return state_block(next_state_id(), name, pop,
                            finish_cities(cls), abbr=abbr)
 
+    # NOTE: these are the nine PRE-EXPANSION corridor regions. Regions 10-12 and the
+    # Sevastopol federal city are added by `expand_transoceanic.py`, which edits this
+    # script's output in place (no base file needed) — see this module's docstring.
     nx_states = [
         merged_state("Karelia & the North", "KAR", 6500000,
                      [(RU, 2570), (RU, 2589)]),
@@ -315,6 +324,8 @@ def main(src, dst):
                       (HR, 856)]),
     ]
     neloxia = nation_block(
+        # pop is the pre-expansion corridor figure; expand_transoceanic.py
+        # raises it to the ratified 148,000,000 when it adds Regions 10-12.
         260, "Nelôxia", 76000000, 50, 36558, 1, 2, "NEL", "Nelôxian", 2,
         [(50, 14), (51, 8), (52, 10), (15, 14), (13, 10), (49, 8), (48, 6),
          (7, 7), (28, 8), (35, 6), (183, 4), (11, 3), (25, 2)],
