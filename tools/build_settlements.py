@@ -65,9 +65,10 @@ def load_picks():
             continue
         picks[site] = (
             nelox,
-            cols[2].strip() if len(cols) > 2 else "",
-            cols[3].strip() if len(cols) > 3 else "",
-            cols[5].strip() if len(cols) > 5 else "",
+            cols[2].strip() if len(cols) > 2 else "",   # exonym
+            cols[3].strip() if len(cols) > 3 else "",   # layer
+            cols[5].strip() if len(cols) > 5 else "",   # gloss
+            cols[6].strip() if len(cols) > 6 else "",   # local (in-world)
         )
     return picks
 
@@ -85,14 +86,16 @@ def main():
             print(f"  ! refusing pick for {r['site']}: {r['region']} keeps its "
                   f"local toponymy by ruling")
             continue
-        nelox, exonym, layer, gloss = p
-        r["nelox"], r["canon"] = nelox, True
+        nelox, exonym, layer, gloss, local = p
+        r["nelox"], r["on_record"] = nelox, True
         if exonym:
             r["exonym"] = exonym
         if layer:
             r["layer"] = layer
         if gloss:
             r["gloss"] = gloss
+        if local:
+            r["local"] = local
         applied += 1
 
     # --- guards --------------------------------------------------------------
@@ -137,8 +140,9 @@ def main():
         return json.dumps(o, ensure_ascii=False)
 
     settle_keys = ("site", "region", "cc", "terrain", "notes", "pop",
-                   "nelox", "layer", "gloss", "exonym", "hint", "canon",
-                   "norename")
+                   "nelox", "layer", "gloss", "on_record",
+                   "local", "local_hint", "exonym", "exonym_hint",
+                   "anachronism", "hint", "norename", "founding", "founds_what")
     data = [{k: r[k] for k in settle_keys} for r in rows]
 
     (ROOT / "settlements.html").write_text(
@@ -152,7 +156,8 @@ def main():
     # The roller needs less per city, and must never see the no-rename regions
     # as rollable (it filters on `norename` itself).
     top_keys = ("site", "region", "terrain", "notes", "pop", "nelox",
-                "layer", "gloss", "exonym", "hint", "canon", "norename")
+                "layer", "gloss", "on_record", "local", "local_hint",
+                "exonym", "exonym_hint", "anachronism", "hint", "norename", "founding", "founds_what")
     (ROOT / "toponyms.html").write_text(
         TOPONYMS_TMPL
         .replace("__CITIES__", dump([{k: r[k] for k in top_keys} for r in rows]))
@@ -160,11 +165,17 @@ def main():
         encoding="utf-8")
 
     # --- report -------------------------------------------------------------
+    anach = sum(1 for r in rows if r["anachronism"])
     canon = sum(1 for r in rows if r["nelox"])
     norename = sum(1 for r in rows if r["norename"])
     rollable = sum(1 for r in rows if not r["norename"] and not r["nelox"])
-    print(f"settlements: {len(rows)}  ·  named {canon}  ·  open dockets {rollable}"
-          f"  ·  no-rename {norename}")
+    print(f"settlements: {len(rows)}  ·  nelôxi name on record {canon}  ·  open "
+          f"{rollable}  ·  no-rename {norename}")
+    print(f"  ⚠ {anach} reference NAMES are Soviet/imperial coinages that cannot "
+          f"be the in-world name (the places still exist)")
+    founds = sum(1 for r in rows if r["founding"] == "foundation")
+    print(f"  ⌂ {founds} sites are Nelôxian foundations rather than inherited "
+          f"settlements — the roller dates and attributes them")
     if applied:
         print(f"applied {applied} pick(s) from {PICKS.relative_to(ROOT)}")
     elif PICKS.exists():

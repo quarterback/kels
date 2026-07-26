@@ -2,9 +2,30 @@
 """Canonical settlement table for Nelôxia — the single source for the
 settlements gazetteer page and the toponym generator.
 
+READ THIS FIRST — what the `site` column is and is not.
+
+`site` is a **real-world reference key**, not an in-world name. It is the label
+the place carries on a present-day map, inherited from the subdivision lists in
+world/boundaries.md purely so the founder can tell which place is meant. No
+names pass has ever been run on this world, so the in-world name of almost every
+settlement — its LOCAL name as well as its Nelôxi one — is undetermined.
+
+Treating `site` as the local name is a category error, and in 24 cases it is a
+flat impossibility: those names are Soviet-era or Russian-imperial coinages
+(Petrozavodsk 1703, Belomorsk 1938, Kaliningrad 1946, Priozersk 1948,
+Blagoevgrad 1950, Kostomuksha 1977 …) that could not exist in a timeline where
+Nelôxia has held these places for five centuries. See ANACHRONISM below.
+
+So a settlement has up to four name slots, three of them usually open:
+
+  site     — the real-world reference key (known; NOT in-world)
+  local    — the in-world local / substrate name (open docket)
+  nelox    — the Nelôxi endonym (open docket unless in CANON)
+  exonym   — what the outside world calls it (open docket)
+
 Three separate concerns, deliberately kept apart:
 
-  CITIES  — the physical facts: real-world site name, region, country, terrain,
+  CITIES  — the physical facts: reference key, region, country, terrain,
             a one-clause note, and the canonical fictional population.
   CANON   — ONLY the Nelôxi names that are actually canon, i.e. attested in
             world/gazetteer.md, each with its gazetteer layer tag. Everything
@@ -410,18 +431,128 @@ HINT = {
 }
 
 
+# --- ANACHRONISM: real-world NAMES that cannot exist in this timeline ---------
+# Soviet-era and Russian-imperial coinages. Nelôxia has held these places for
+# ~500 years, so the renaming event never happened.
+#
+# IMPORTANT — this constrains the NAME, never the PLACE. The site is still there:
+# the harbour, the confluence, the ore field, the isthmus. Even where the
+# real-world settlement is a 20th-century purpose-built town, Nelôxia founds its
+# own version — the state has always built new towns (Uusatôm is a founding,
+# Gdynia is purpose-built). So a "would not exist" reference is not a dead end;
+# it is a FOUNDING to be dated and attributed. See FOUNDING below.
+#
+# site -> (substrate candidate, why the real-world name is impossible)
+ANACHRONISM = {
+ "Petrozavodsk":("Petroskoi","Russian foundation 1703 — Peter the Great's ironworks ('Peter's factory'). Karelian form Petroskoi."),
+ "Belomorsk":("Soroka","Soviet 1938 ('White-Sea-town'); the town was Soroka."),
+ "Priozersk":("Käkisalmi","Soviet 1948; Karelian/Finnish Käkisalmi, Swedish Kexholm."),
+ "Segezha":("Segeža","Soviet industrial foundation; Karelian form."),
+ "Kostomuksha":("Kostamus","Soviet mining town, 1977; Karelian Kostamus."),
+ "Kondopoga":("Kondupohja","Russified spelling; Karelian Kondupohja."),
+ "Olonets":("Aunus","Russified; Karelian/Finnish Aunus."),
+ "Kem":("Kemi","Russified; Karelian Kemi."),
+ "Kaliningrad":("Königsberg","Soviet 1946, after Kalinin. The city was Königsberg."),
+ "Baltiysk":("Pillau","Soviet 1946; the port was Pillau."),
+ "Sovetsk":("Tilsit","Soviet 1946; the town was Tilsit."),
+ "Svetlogorsk":("Rauschen","Soviet 1947; the resort was Rauschen."),
+ "Primorsk":("Fischhausen","Soviet 1947; the town was Fischhausen."),
+ "Chernyakhovsk":("Insterburg","Soviet 1946; the town was Insterburg."),
+ "Gusev":("Gumbinnen","Soviet 1946; the town was Gumbinnen."),
+ "Svetlahorsk":("Shatilki","Soviet 1961; the village was Shatilki."),
+ "Chornomorsk":("Buhas","2016 rename of Illichivsk, itself a 1973 Soviet foundation."),
+ "Dimitrovgrad":("Rakovski","Bulgarian 1947, after Georgi Dimitrov."),
+ "Blagoevgrad":("Gorna Dzhumaya","Bulgarian 1950, after Dimitar Blagoev."),
+ "Gotse Delchev":("Nevrokop","Bulgarian 1951; the town was Nevrokop."),
+ "Sandanski":("Sveti Vrach","Bulgarian 1949; the town was Sveti Vrach."),
+ "Stalowa Wola":("","Polish 1938 purpose-built steel town, so the name is not inherited — but the site is: San valley, forest, and the ore road. Nelôxia founds its own works town here; date it and name the founder."),
+ "Bilhorod-Dnistrovskyi":("Akkerman","Soviet/Ukrainian rename; the fortress was Akkerman."),
+ "Sevastopol":("Akhtiar","Russian foundation 1783; the Tatar village was Akhtiar."),
+}
+
+# --- SUBSTRATE: the in-world local name where a genuine one is on record ------
+# Offered as a candidate for the `local` slot, never as a decision.
+SUBSTRATE = {
+ "Vyborg":"Viipuri", "Sortavala":"Sortavala", "Kuressaare":"Kuressaare",
+ "Klaipėda":"Memel", "Gdańsk":"Danzig", "Szczecin":"Stettin",
+ "Elbląg":"Elbing", "Malbork":"Marienburg", "Tczew":"Dirschau",
+ "Olsztyn":"Allenstein", "Ełk":"Lyck", "Giżycko":"Lötzen",
+ "Świnoujście":"Swinemünde", "Kołobrzeg":"Kolberg", "Koszalin":"Köslin",
+ "Słupsk":"Stolp", "Gdynia":"Gdingen", "Sopot":"Zoppot", "Puck":"Putzig",
+ "Hrodna":"Grodno", "Brest":"Brest-Litovsk", "Homel":"Homiel",
+ "Kaunas":"Kaunas", "Trieste":"Trieste", "Koper":"Capodistria",
+ "Rijeka":"Fiume", "Zadar":"Zara", "Pula":"Pola", "Šibenik":"Sebenico",
+ "Split":"Spalato", "Dubrovnik":"Ragusa", "Krk":"Veglia",
+ "Marseille":"Marselha", "Nice":"Niça", "Toulon":"Tolon",
+ "Turin":"Torino", "Milan":"Milano", "Venice":"Venesia", "Padua":"Padova",
+ "Bitola":"Monastir", "Vlorë":"Valona", "Gjirokastër":"Argirocastro",
+ "Nesebar":"Mesembria", "Sozopol":"Sozopolis", "Edirne":"Edirne",
+ "Iași":"Iași", "Constanța":"Köstence", "Uzhhorod":"Ungvár",
+ "Mukachevo":"Munkács", "Pécs":"Fünfkirchen", "Sopron":"Ödenburg",
+ "Győr":"Raab", "Szombathely":"Steinamanger",
+}
+
+
+# --- FOUNDING: is the in-world settlement inherited, or a Nelôxian foundation? -
+# "inherited"  — an older settlement continues; it has a substrate name to keep
+#                or digest, and the naming layers apply as normal.
+# "foundation" — the real-world town is purpose-built (steel works, rail town,
+#                canal town, planned port), so there is no inherited name. In
+#                this timeline NELÔXIA founds it instead: pick the era, the
+#                founder, and the reason. These sites want patron, event and
+#                functional-descriptive names, not retained ones.
+FOUNDING = {
+ "Stalowa Wola": ("foundation", "steel and forest-industry works town"),
+ "Segezha":      ("foundation", "canal-side timber and mill town"),
+ "Kostomuksha":  ("foundation", "iron-ore field town at the frontier"),
+ "Gdynia":       ("foundation", "purpose-built deepwater harbour beside an older rival port"),
+ "Chornomorsk":  ("foundation", "planned deepwater container roads south of the liman"),
+ "Svetlahorsk":  ("foundation", "chemical and power town at the Berezina crossing"),
+ "Dimitrovgrad": ("foundation", "planned industrial town at the Maritsa crossing"),
+ "Zhlobin":      ("foundation", "steelworks at the Dnieper crossing"),
+ "Mielec":       ("foundation", "aviation works on the Wisłoka"),
+ "Medgidia":     ("foundation", "town on the Danube–Black Sea canal"),
+ "Nova Gorica":  ("foundation", "planned twin town at the border, facing Gorizia"),
+ "Tarnobrzeg":   ("foundation", "sulphur-basin works town"),
+ "Neringa":      ("foundation", "pilot station and dune-service settlement on the Spit"),
+ "Sevastopol":   ("foundation", "naval station and Fleet seat, built for the purpose"),
+}
+
+# Eras a Nelôxian foundation can be dated to, with the flavour each implies.
+FOUNDING_ERAS = [
+ ("Hanseatic", "1300–1600", "a charter granted to a trading company; the works came before the town"),
+ ("charter",   "1600–1800", "a crown or company foundation, laid out on a surveyor's grid"),
+ ("rail",      "1800–1900", "a rail-and-industry foundation — the state built the line, then the town"),
+ ("federal",   "1900–",     "a federal new town: planned housing, a technical school, and one industry"),
+]
+
+
 def rows():
-    """CITIES joined with CANON / EXONYM / HINT into flat dicts."""
+    """CITIES joined with the name slots. Nothing here is settled: `site` is a
+    real-world reference key, and local / nelox / exonym are open dockets unless
+    explicitly on record."""
     out = []
     for site, region, cc, terrain, notes, pop in CITIES:
         nelox, layer, gloss = CANON.get(site, ("", "", ""))
+        sub, why = ANACHRONISM.get(site, ("", ""))
+        fkind, fwhat = FOUNDING.get(site, ("inherited", ""))
         out.append({
             "site": site, "region": region, "cc": cc, "terrain": terrain,
             "notes": notes, "pop": pop,
+            # the Nelôxi endonym: on record (gazetteer.md) or open
             "nelox": nelox, "layer": layer, "gloss": gloss,
-            "exonym": EXONYM.get(site, site),
+            "on_record": bool(nelox),
+            # the in-world local name: open unless a substrate form is on record
+            "local": "",
+            "local_hint": sub or SUBSTRATE.get(site, ""),
+            # the outward-facing exonym: open; a historical form may be on record
+            "exonym": "",
+            "exonym_hint": EXONYM.get(site, ""),
             "hint": HINT.get(site, ""),
-            "canon": bool(nelox),
+            # the real-world reference key cannot be the in-world name
+            "anachronism": why,
+            # inherited settlement, or a Nelôxian foundation to be dated?
+            "founding": fkind, "founds_what": fwhat,
             "norename": region in NO_RENAME_REGIONS,
         })
     return out

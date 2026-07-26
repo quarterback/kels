@@ -117,7 +117,7 @@ td{padding:12px 16px;vertical-align:middle}
       <h1 class="title">Nel<span class="o">ô</span>xia <span style="color:var(--ink3);font-weight:700">·</span> settlements</h1>
       <span class="kicker">FEDERAL GAZETTEER</span>
     </div>
-    <p class="tagline">The settlements of the <b>State of Nelôxia</b> — a transoceanic federation of <b>twelve regions</b> and the <b>Yemeni Commonwealth</b>, from the White Sea to the Riviera, the Black Sea, and the Indian Ocean. Each entry carries its <b>Nelôxi endonym</b> and, separately, the <b>exonym</b> outsiders use — the two are not the same thing and never were. Places with no canon Nelôxi name yet are marked <b>open docket</b>; roll candidates for them in the <a href="toponyms.html">city-name roller ↗</a>.</p>
+    <p class="tagline">The settlements of the <b>State of Nelôxia</b> — a transoceanic federation of <b>twelve regions</b> and the <b>Yemeni Commonwealth</b>, from the White Sea to the Riviera, the Black Sea, and the Indian Ocean. <b>The first column is a real-world map reference, not an in-world name.</b> No names pass has been run on this world, so the <b>local name</b>, the <b>Nelôxi endonym</b> and the <b>exonym</b> are all separate, open decisions — and 24 of those references are Soviet or Russian-imperial coinages (Petrozavodsk 1703, Kaliningrad 1946, Blagoevgrad 1950 …) that could not exist after five centuries of Nelôxian rule. Roll candidates in the <a href="toponyms.html">city-name roller ↗</a>.</p>
     <div class="nat" id="nat"></div>
   </header>
 
@@ -130,7 +130,7 @@ td{padding:12px 16px;vertical-align:middle}
       </div>
       <div class="summary">
         <div class="s"><b id="ct">0</b><span>shown</span></div><div class="div"></div>
-        <div class="s"><b id="cn">0</b><span>named</span></div><div class="div"></div>
+        <div class="s"><b id="cn">0</b><span>on record</span></div><div class="div"></div>
         <div class="s"><b id="sp">0</b><span>people</span></div><div class="div"></div>
         <div class="s"><b id="sg">0</b><span>output</span></div>
       </div>
@@ -145,7 +145,8 @@ td{padding:12px 16px;vertical-align:middle}
   <div class="tablecard">
     <div class="tscroll">
       <table><thead><tr>
-        <th data-k="site" tabindex="0">Settlement<span class="car"></span></th>
+        <th data-k="site" tabindex="0">Real-world ref<span class="car"></span></th>
+        <th data-k="local" tabindex="0" class="hide-md">Local name<span class="car"></span></th>
         <th data-k="nelox" tabindex="0">Nelôxi name<span class="car"></span></th>
         <th data-k="exonym" tabindex="0" class="hide-md">Exonym<span class="car"></span></th>
         <th data-k="pop" class="num" tabindex="0">Population<span class="car"></span></th>
@@ -212,8 +213,10 @@ function buildFilters(){
   const fl=$("fl"); fl.querySelectorAll(".f").forEach(e=>e.remove());
   const alll=chip("All",aL===null,"all"); alll.onclick=()=>{aL=null;render();}; fl.appendChild(alll);
   const nc=D.filter(d=>d.nelox).length, pc=D.length-nc;
-  const bc=chip("Named (canon)",aL==="__canon",null,nc); bc.onclick=()=>{aL=(aL==="__canon"?null:"__canon");render();}; fl.appendChild(bc);
-  const bp=chip("Open docket",aL==="__pending",null,pc); bp.onclick=()=>{aL=(aL==="__pending"?null:"__pending");render();}; fl.appendChild(bp);
+  const bc=chip("On record",aL==="__canon",null,nc); bc.onclick=()=>{aL=(aL==="__canon"?null:"__canon");render();}; fl.appendChild(bc);
+  const bp=chip("Open",aL==="__pending",null,pc); bp.onclick=()=>{aL=(aL==="__pending"?null:"__pending");render();}; fl.appendChild(bp);
+  const ac=D.filter(d=>d.anachronism).length;
+  const ba=chip("⚠ Anachronistic ref",aL==="__anach",null,ac); ba.onclick=()=>{aL=(aL==="__anach"?null:"__anach");render();}; fl.appendChild(ba);
   LAYERS.forEach(l=>{
     const c=D.filter(d=>d.layer===l).length;
     const b=chip(esc(l),aL===l,null,c);
@@ -239,9 +242,10 @@ function render(){
     if(aT&&d.terrain!==aT)return false;
     if(aL==="__canon"&&!d.nelox)return false;
     if(aL==="__pending"&&d.nelox)return false;
+    if(aL==="__anach"&&!d.anachronism)return false;
     if(aL&&aL[0]!=="_"&&d.layer!==aL)return false;
     if(!q)return true;
-    return (d.site+" "+d.nelox+" "+d.exonym+" "+d.terrain+" "+d.notes+" "+d.region+" "+(CCNAME[d.cc]||d.cc)).toLowerCase().includes(q);
+    return (d.site+" "+d.nelox+" "+d.local+" "+d.local_hint+" "+d.exonym+" "+d.exonym_hint+" "+d.terrain+" "+d.notes+" "+d.region+" "+(CCNAME[d.cc]||d.cc)).toLowerCase().includes(q);
   });
   const num=sk==="pop"||sk==="gdp";
   r.sort((a,b)=>{
@@ -264,11 +268,20 @@ function render(){
     const per=(PERCAP[d.region]/1000).toFixed(0);
     const nameCell=d.nelox
       ? `<span class="nlx">${esc(d.nelox)}</span>${d.gloss?`<div class="gloss">${esc(d.gloss)}</div>`:""}${d.layer?`<div style="margin-top:5px"><span class="lay">${esc(d.layer)}</span></div>`:""}`
-      : `<span class="pending">—<b>${d.norename?"Arabic — not renamed":"open docket"}</b></span>${d.hint?`<div class="gloss">route form on record: ${esc(d.hint)}</div>`:""}`;
+      : `<span class="pending">—<b>${d.norename?"Arabic — not renamed":"open"}</b></span>${d.hint?`<div class="gloss">route form on record: ${esc(d.hint)}</div>`:""}`;
+    const localCell=d.local
+      ? `<span class="exo">${esc(d.local)}</span>`
+      : `<span class="pending">—<b>open</b></span>${d.local_hint?`<div class="gloss">candidate: ${esc(d.local_hint)}</div>`:""}`;
+    const exoCell=d.exonym
+      ? `<span class="exo">${esc(d.exonym)}</span>`
+      : `<span class="pending">—<b>open</b></span>${d.exonym_hint?`<div class="gloss">candidate: ${esc(d.exonym_hint)}</div>`:""}`;
+    const anach=d.anachronism
+      ? `<div class="gloss" style="color:#b71d3e;font-style:normal">⚠ cannot be the in-world name: ${esc(d.anachronism)}</div>` : "";
     return `<tr>
-      <td class="c-site"><div class="name">${esc(d.site)}${badge}</div><div class="notes">${esc(d.notes)}</div></td>
+      <td class="c-site"><div class="name">${esc(d.site)}${badge}</div><div class="notes">${esc(d.notes)}</div>${anach}</td>
+      <td class="hide-md">${localCell}</td>
       <td>${nameCell}</td>
-      <td class="hide-md"><span class="exo">${esc(d.exonym)}</span></td>
+      <td class="hide-md">${exoCell}</td>
       <td class="c-pop"><div class="popn">${fmt(d.pop)}</div><div class="popbar"><i style="width:${Math.max(2,d.pop/MAXPOP*100).toFixed(1)}%"></i></div></td>
       <td class="c-gdp hide-md">${money(d.gdp)}<span class="per">$${per}k/cap</span></td>
       <td class="hide-md"><span class="pill">${esc(d.terrain)}</span></td>
