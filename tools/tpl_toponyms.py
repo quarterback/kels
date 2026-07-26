@@ -106,7 +106,7 @@ textarea{width:100%;margin-top:12px;min-height:130px;padding:12px;font-family:ui
   <div class="ctx" id="ctx"></div>
 </div>
 
-<div class="sect"><h2>Candidates</h2><span id="cnt"></span></div>
+<div class="sect"><h2>Candidates</h2><span id="cnt"></span><span id="prog" style="margin-left:auto"></span></div>
 <div class="cards" id="cards"></div>
 
 <div class="sect" id="pendsect" hidden><h2>Choose the exonym</h2><span>step 2 of 2</span></div>
@@ -955,19 +955,20 @@ function roll(ctx,prof,era){
 }
 
 /* ── state ────────────────────────────────────────────────────────────────── */
-let mode="gaz", basket=[], pending=null, currentOut=null, currentKey="";
+let mode="gaz", basket=[], pending=null, currentOut=null, currentKey="", showDone=false;
 const ROLLABLE = CITIES.filter(d=>!d.norename);
 
 function controls(){
   const eraOpts=Object.keys(ERAS).map(k=>`<option value="${k}">${esc(ERAS[k].name)}</option>`).join("");
   if(mode==="gaz"){
     const groups={};
-    ROLLABLE.forEach(d=>{ (groups[d.region]=groups[d.region]||[]).push(d); });
+    ROLLABLE.filter(d=>showDone||!d.nelox).forEach(d=>{ (groups[d.region]=groups[d.region]||[]).push(d); });
     let opts="";
     Object.keys(groups).forEach(rg=>{
       opts+=`<optgroup label="${esc(rg)}">`;
       groups[rg].sort((a,b)=>b.pop-a.pop).forEach(d=>{
-        const mark=(d.anachronism?" ⚠":"")+(d.on_record?" ✓":"");
+        const mark=(d.anachronism?" ⚠":"")+
+          (d.nelox?(d.source==="picked"?"  ✔ "+d.nelox:"  ✓ "+d.nelox):"");
         opts+=`<option value="${esc(d.site)}">${esc(d.site)}${mark}</option>`;
       });
       opts+="</optgroup>";
@@ -975,8 +976,11 @@ function controls(){
     $("ctrls").innerHTML=
       `<div class="fgrp"><label for="city">City (✓ = already canon)</label><select id="city">${opts}</select></div>`+
       `<div class="fgrp"><label for="era">Era</label><select id="era">${eraOpts}</select></div>`+
-      `<button class="go" id="go">Roll 8 names</button>`;
+      `<button class="go" id="go">Roll 8 names</button>`+
+      `<div class="fgrp" style="flex:0 0 auto"><label>&nbsp;</label>`+
+      `<button class="mode" id="tdone" aria-pressed="${showDone}">${showDone?"showing all":"undecided only"}</button></div>`;
     $("city").addEventListener("change",()=>draw(true));
+    $("tdone").addEventListener("click",()=>{showDone=!showDone;controls();draw(true);});
   } else {
     const rgOpts=Object.keys(REGPROF).map(k=>`<option value="${esc(k)}">${esc(k)}</option>`).join("");
     const tOpts=Object.keys(TERRFEAT).sort().map(t=>`<option value="${t}">${t}</option>`).join("");
@@ -997,13 +1001,13 @@ function context(){
     const d=ROLLABLE.find(x=>x.site===$("city").value)||ROLLABLE[0];
     return {site:d.site,region:d.region,terrain:d.terrain,notes:d.notes,
             exonym_hint:d.exonym_hint,local_hint:d.local_hint,anachronism:d.anachronism,
-            on_record:d.on_record,nelox:d.nelox,layer:d.layer,gloss:d.gloss,hint:d.hint,pop:d.pop,
+            on_record:d.on_record,source:d.source,nelox:d.nelox,layer:d.layer,gloss:d.gloss,hint:d.hint,pop:d.pop,
             founding:d.founding,founds_what:d.founds_what};
   }
   const nm=($("nm").value||"").trim();
   return {site:nm,region:$("rg").value,terrain:$("tr").value,notes:"",
           exonym_hint:"",local_hint:"",anachronism:"",
-          on_record:false,nelox:"",layer:"",gloss:"",hint:"",pop:0,
+          on_record:false,source:"",nelox:"",layer:"",gloss:"",hint:"",pop:0,
           founding:"inherited",founds_what:""};
 }
 
@@ -1017,7 +1021,10 @@ function drawCtx(ctx,prof,era){
     h+=ctx.exonym_hint?`A historical outside form is on record: <b>${esc(ctx.exonym_hint)}</b> (a candidate, not a decision). `:"";
     if(ctx.founding==="foundation") h+=`<br><b>⌂ A Nelôxian foundation</b>${ctx.founds_what?" — "+esc(ctx.founds_what):""}: the real-world town is purpose-built, so no name is inherited. The state builds its own here — date it, attribute it, name it for what it does. `;
     if(ctx.anachronism) h+=`<br><span class="warn">⚠ "${esc(ctx.site)}" cannot be the in-world name:</span> ${esc(ctx.anachronism)} It is a real-world map reference only. `;
-    if(ctx.on_record) h+=`<br>Nelôxi name <b>on record</b> as ${esc(ctx.nelox)} (${esc(ctx.layer)}${ctx.gloss?" — "+esc(ctx.gloss):""}) from world/gazetteer.md — a starting position, still reconsiderable. `;
+    if(ctx.nelox) h+=`<br><span style="color:${ctx.source==="picked"?"#1a7f4b":"var(--ink)"};font-weight:600">`+
+      `${ctx.source==="picked"?"✔ You chose":"✓ On record as"} ${esc(ctx.nelox)}</span>`+
+      ` (${esc(ctx.layer)}${ctx.gloss?" — "+esc(ctx.gloss):""})`+
+      `${ctx.source==="picked"?" — recorded in data/toponym-picks.tsv":" — from world/gazetteer.md"}. Re-rolling replaces it. `;
     else h+=`<br>Nelôxi name: <b>open</b>. `;
     h+=`Local name: <b>${ctx.local_hint?esc(ctx.local_hint)+" (candidate)":"open"}</b>. Exonym: <b>${ctx.exonym_hint?esc(ctx.exonym_hint)+" (candidate)":"open"}</b>. `;
   }
@@ -1065,6 +1072,8 @@ function draw(reroll){
 }
 
 function renderCards(out,ctx){
+  const done=ROLLABLE.filter(d=>d.nelox).length;
+  $("prog").textContent=`${done} named · ${ROLLABLE.length-done} open`;
   $("cnt").textContent=`${out.length} for ${ctx.site||"a new place"}`;
   $("cards").innerHTML=out.map((o,i)=>{
     const inB=basket.some(b=>b.nx===o.nx&&b.site===(ctx.site||""));

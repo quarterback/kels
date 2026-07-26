@@ -87,7 +87,7 @@ def main():
                   f"local toponymy by ruling")
             continue
         nelox, exonym, layer, gloss, local = p
-        r["nelox"], r["on_record"] = nelox, True
+        r["nelox"], r["on_record"], r["source"] = nelox, True, "picked"
         if exonym:
             r["exonym"] = exonym
         if layer:
@@ -142,7 +142,7 @@ def main():
     settle_keys = ("site", "region", "cc", "terrain", "notes", "pop",
                    "nelox", "layer", "gloss", "on_record",
                    "local", "local_hint", "exonym", "exonym_hint",
-                   "anachronism", "hint", "norename", "founding", "founds_what")
+                   "anachronism", "hint", "norename", "founding", "founds_what", "source")
     data = [{k: r[k] for k in settle_keys} for r in rows]
 
     (ROOT / "settlements.html").write_text(
@@ -157,7 +157,7 @@ def main():
     # as rollable (it filters on `norename` itself).
     top_keys = ("site", "region", "terrain", "notes", "pop", "nelox",
                 "layer", "gloss", "on_record", "local", "local_hint",
-                "exonym", "exonym_hint", "anachronism", "hint", "norename", "founding", "founds_what")
+                "exonym", "exonym_hint", "anachronism", "hint", "norename", "founding", "founds_what", "source")
     (ROOT / "toponyms.html").write_text(
         TOPONYMS_TMPL
         .replace("__CITIES__", dump([{k: r[k] for k in top_keys} for r in rows]))

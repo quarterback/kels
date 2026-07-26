@@ -542,6 +542,7 @@ def rows():
             # the Nelôxi endonym: on record (gazetteer.md) or open
             "nelox": nelox, "layer": layer, "gloss": gloss,
             "on_record": bool(nelox),
+            "source": "gazetteer" if nelox else "",
             # the in-world local name: open unless a substrate form is on record
             "local": "",
             "local_hint": sub or SUBSTRATE.get(site, ""),
