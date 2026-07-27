@@ -188,26 +188,25 @@ announces itself; <code>1000</code> does not.</p>
 <script>
 "use strict";
 /* ── canon ─────────────────────────────────────────────────────────────────── */
-const DIG  = ["nolô","jedôn","dva","tri","xtiri","peñç","xeç","sedôm","osôm","deveñç","deseñç","elva"];
+/* Latin, inherited through Habsburg chancery Latin and re-based from ten to twelve. */
+const DIG  = ["nul","ūn","duô","trē","kvatôr","kvīnk","sex","septôm","oktô","novôm","deçôm","undeçôm"];
 const EN   = ["zero","one","two","three","four","five","six","seven","eight","nine","ten","eleven"];
-/* 13–23 fuse into one word; 12 stays bare düna */
-const TEEN = ["dünjôn","dünva","düntri","dünxtir","dünpeñç","dünxeç","dünsedm","dünosm","dündevç","dündesç","dünelva"];
-const DUNA="düna", GROSO="grosô", MIRO="mīrô", MILJON="miljôn";
-/* The dozens are PACKETS, not compounds — each a thing that came in that
-   quantity, no two sharing a root. langhunt is the long hundred (§37): 120,
-   ten dozen, not 144. */
-const PACK={ 2:["kvādôr","the quire — 24 sheets, the paper trade's packet"],
-             3:["kolôd","the deck — 36 cards"],
-             4:["katār","the string — a caravan file"],
-             5:["xokô","the schock — eggs, barrel staves"],
-             6:["destô","the bundle — half a gross"],
-             7:["fasôl","the quarter — twelve weeks, the ledger term"],
-             8:["jük","the load — one beast's full load"],
-             9:["rosār","the bead-string, in through Aden"],
-            10:["langhunt","the long hundred — timber, herring, hides"],
-            11:["eksôk","the short gross — a gross a dozen light"] };
-/* a new word every third place; 12⁴ and 12⁵ ride as coefficients */
-const SCALE=["", MIRO, MILJON, "kurôr", "tümôn"];
+const LAT  = ["nullus","unus","duo","tres","quattuor","quinque","sex","septem","octo","novem","decem","undecim"];
+/* no fused teens: 13–23 are duodeç + digit, two words */
+const DUNA="duodeç", GROSO="çent", MIRO="mīl", MILJON="miljôn";
+/* The Latin -ginta series re-pointed from ten to twelve: viginti is no longer
+   2x10 but 2x12. Latin had no *decaginta* — it jumped to centum, because in
+   base ten 10x10 IS the square. Base twelve needs 10x and 11x, so those two are
+   regularised onto the same series. deçāgint is the long hundred. */
+const PACK={ 2:["vigint","viginti"], 3:["trigint","triginta"], 4:["kvadrāgint","quadraginta"],
+             5:["kvīnkvāgint","quinquaginta"], 6:["sexāgint","sexaginta"],
+             7:["septvāgint","septuaginta"], 8:["oktōgint","octoginta"],
+             9:["nonāgint","nonaginta"],
+            10:["deçāgint","regularised — the long hundred; Latin had no *decaginta*"],
+            11:["undeçāgint","regularised on the -ginta series"] };
+/* centum is the square of the base and mille the cube — the words keep their
+   POSITION and change their value: çent is 144, mīl is 1,728. */
+const SCALE=["", MIRO, MILJON, "biljôn", "triljôn"];
 const TRIAD=1728, MAXN=Math.pow(1728,5)-1;
 
 /* Ten and eleven are D and E, from deseñç and elva — the only pair that is on
@@ -229,7 +228,7 @@ function triad(n){
   if(r){
     if(r<12)       out.push(DIG[r]);
     else if(r===12)out.push(DUNA);
-    else if(r<24)  out.push(TEEN[r-13]);
+    else if(r<24){ out.push(DUNA); out.push(DIG[r-12]); }   /* two words, never glued */
     else { const d=Math.floor(r/12), u=r%12;
            out.push(PACK[d][0]); if(u) out.push(DIG[u]); }   /* packet, then remainder */
   }
@@ -278,7 +277,7 @@ function fraction(n){ return n===2 ? "half" : cardinal(n)+"-dēl"; }
 /* ── reading a number back ─────────────────────────────────────────────────── */
 const DIGIDX={}, TEENIDX={};
 DIG.forEach((w,i)=>DIGIDX[fold(w)]=i);
-TEEN.forEach((w,i)=>TEENIDX[fold(w)]=i+13);
+/* no teens to index */
 function fold(s){
   return String(s).toLowerCase()
     .replace(/ô/g,"o").replace(/ā/g,"a").replace(/ē/g,"e").replace(/ī/g,"i")
@@ -301,7 +300,6 @@ function parseWords(str){
   for(let i=0;i<toks.length;i++){
     const t=toks[i];
     if(DIGIDX[t]!==undefined){ flush(); pend=DIGIDX[t]; continue; }
-    if(TEENIDX[t]!==undefined){ flush(); group+=TEENIDX[t]; continue; }
     if(PACKW[t]!==undefined){ flush(); group+=PACKW[t]; continue; }
     if(UNITW[t]!==undefined){ group += (pend===null?1:pend)*UNITW[t]; pend=null; continue; }
     if(SCALEW[t]!==undefined){
@@ -543,11 +541,12 @@ $("q").addEventListener("input",draw);
 
 /* ── self-check: the canon examples must come out exactly as written ───────── */
 (function(){
-  const MUST=[[0,"nolô"],[11,"elva"],[12,"düna"],[13,"dünjôn"],[18,"dünxeç"],[23,"dünelva"],
-    [24,"kvādôr"],[27,"kvādôr tri"],[41,"kolôd peñç"],[60,"xokô"],[120,"langhunt"],
-    [132,"eksôk"],[143,"eksôk elva"],[144,"grosô"],
-    [168,"grosô kvādôr"],[351,"dva grosô xokô tri"],[1728,"mīrô"],
-    [Math.pow(12,6),"miljôn"],[Math.pow(12,9),"kurôr"],[Math.pow(12,12),"tümôn"]];
+  const MUST=[[0,"nul"],[1,"ūn"],[11,"undeçôm"],[12,"duodeç"],[13,"duodeç ūn"],
+    [18,"duodeç sex"],[23,"duodeç undeçôm"],[24,"vigint"],[27,"vigint trē"],
+    [41,"trigint kvīnk"],[60,"kvīnkvāgint"],[120,"deçāgint"],[132,"undeçāgint"],
+    [143,"undeçāgint undeçôm"],[144,"çent"],[168,"çent vigint"],
+    [351,"duô çent kvīnkvāgint trē"],[1728,"mīl"],
+    [Math.pow(12,6),"miljôn"],[Math.pow(12,9),"biljôn"],[Math.pow(12,12),"triljôn"]];
   const bad=MUST.filter(([n,w])=>cardinal(n)!==w)
                 .map(([n,w])=>`${n}: got "${cardinal(n)}", canon "${w}"`);
   /* every value must also read back to itself */
