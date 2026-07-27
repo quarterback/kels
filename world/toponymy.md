@@ -44,7 +44,7 @@ culture's parts.
 | **-dôrp** | village, settlement | (Fischdôrp "fish-village") |
 | **-markõt** | market-town | (Salzmarkõt "salt-market") |
 | **-mündõ** | river-mouth (LG -münde) | (Dūnamündõ "Daugava-mouth") |
-| **-û(sô)** | house(s), works (LG -hausen) | Fischūsô |
+| **-ū(sô)** | house(s), works (LG -hausen) | Fischūsô |
 
 ## Scandinavian elements (the coast, the islands, the northern sea-runs)
 
