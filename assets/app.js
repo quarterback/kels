@@ -121,6 +121,7 @@
     yemenilore:  { title: "The Yemeni Commonwealth", sub: "The transoceanic constituent state (lore)", file: "world/yemeni-commonwealth.md", group: "World", toc: true },
     settlements: { title: "Settlements", sub: "City-search gazetteer — endonym, exonym, population", ext: "settlements.html", group: "World" },
     toponyms:    { title: "City-name roller", sub: "Roll Nelôxi toponyms by region, era & strategy", ext: "toponyms.html", group: "World" },
+    bruceplan:   { title: "The Bruce Plan", sub: "The northern city drawn at full size and built to 4% (lore)", file: "world/bruce-plan.md", group: "World", toc: true },
     geography:   { title: "Geography",         sub: "The shape of Nelôxia",         file: "world/geography.md",               group: "World" },
     gazetteer:   { title: "Gazetteer",         sub: "Cities & place-names",         file: "world/gazetteer.md",               group: "World", toc: true },
     boundaries:  { title: "Boundaries",        sub: "Canonical borders & units",    file: "world/boundaries.md",              group: "World", toc: true },
@@ -189,7 +190,7 @@
       kicker: "Setting",
       title: "World",
       intro: "Places, civil names, geography, governance, exonyms, and the wider lore that gives the language its civic context — the twelve-region transoceanic state and its Yemeni Commonwealth, the searchable settlements gazetteer, the Meridian States behind Meralian, Valdória behind Verdenese, Sarmatia behind the sixth standard, and the eastern powers beside them.",
-      cards: ["neloxialore", "settlements", "modernmodel", "expandedlore", "yemenilore", "meridianlore", "valdorialore", "skarialore", "sarmatialore", "zaryanova", "neighbours", "geography", "gazetteer", "names", "namegen", "toponymy", "toponyms", "exonyms", "governance", "boundaries", "atlantalore", "africanbloc"]
+      cards: ["neloxialore", "settlements", "modernmodel", "expandedlore", "yemenilore", "meridianlore", "valdorialore", "skarialore", "sarmatialore", "zaryanova", "neighbours", "geography", "gazetteer", "names", "namegen", "toponymy", "toponyms", "bruceplan", "exonyms", "governance", "boundaries", "atlantalore", "africanbloc"]
     },
     college: {
       kicker: "Canon",

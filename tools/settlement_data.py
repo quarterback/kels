@@ -72,7 +72,7 @@ NO_RENAME_REGIONS = {"Yemeni Commonwealth"}
 CITIES = [
  # Region 1 · Karelia & the North
  ("Belomorsk","Karelia & the North","RU","Sea","White Sea coast; canal outlet to the Arctic",26000),
- ("Kem","Karelia & the North","RU","Sea","White Sea harbour; the Solovki crossing",22000),
+ ("Kem","Karelia & the North","RU","Sea","White Sea harbour on the Solovki crossing; the Bruce Plan seat — a town of 22,000 living inside a surveyed street grid drawn for 500,000",22000),
  ("Petrozavodsk","Karelia & the North","RU","Lake","Lake Onega west shore; the lake capital",480000),
  ("Kondopoga","Karelia & the North","RU","Lake","Onega rapids; water-power and locks",62000),
  ("Sortavala","Karelia & the North","RU","Lake","Ladoga north shore; skerry harbour",42000),
@@ -520,6 +520,11 @@ FOUNDING = {
  "Tarnobrzeg":   ("foundation", "sulphur-basin works town"),
  "Neringa":      ("foundation", "pilot station and dune-service settlement on the Spit"),
  "Sevastopol":   ("foundation", "naval station and Fleet seat, built for the purpose"),
+ # Not a foundation — there was a Karelian village here first, and the gravity
+ # principle still has a claim on it. But the plan laid over it is the source of
+ # every grid in the list above. See world/bruce-plan.md.
+ "Kem":          ("replanned",  "the Bruce Plan: a metropolis grid surveyed in full and built to "
+                                "about four per cent, over an inherited harbour village"),
 }
 
 # Eras a Nelôxian foundation can be dated to, with the flavour each implies.
