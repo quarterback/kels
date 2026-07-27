@@ -44,7 +44,7 @@ culture's parts.
 | **-dôrp** | village, settlement | (Fischdôrp "fish-village") |
 | **-markõt** | market-town | (Salzmarkõt "salt-market") |
 | **-mündõ** | river-mouth (LG -münde) | (Dūnamündõ "Daugava-mouth") |
-| **-û(sô)** | house(s), works (LG -hausen) | Fischūsô |
+| **-ū(sô)** | house(s), works (LG -hausen) | Fischūsô |
 
 ## Scandinavian elements (the coast, the islands, the northern sea-runs)
 
@@ -138,6 +138,25 @@ exactly three honest options for any place:
 A *(raw loan)* may carry Nelôxi length-marking (*Lida → Līda*) — that is the tag's whole point. A
 name claiming any **other** layer may not.
 
+## The second prohibition — a name is not a description of its town
+
+**What a place is does not decide what it is called.** The trade, the terrain, the freight on the
+manifest: none of them has a vote on the suffix.
+
+This is the same failure as the first prohibition wearing better clothes. Let the description
+choose the ending and every harbour town ends in *-hafõn*, every foundry says *raud*, every mill
+town says *meçā* — and the map reads as a cargo schedule rather than as a country. It is
+relexification against the gazetteer instead of against the local name.
+
+Real places contradict themselves constantly. Landlocked towns are called harbour. Inland towns
+are called Newport. Towns on flat ground carry a word for mountain, brought by someone who had
+just arrived from somewhere that had one. The reason is almost always a person, a saint, a
+transfer, or a mistake — and none of those reasons has to agree with the geography.
+
+So: the ground may **suggest** a feature word, and the trade may occasionally **tint** a modifier.
+Neither may reach the head. A shipyard town may be a *-bôrk*, a *-mō*, a *-linnô* or a *-kuadje*,
+and the name is under no obligation to advertise the shipyard.
+
 ## The seven strategies
 
 A strategy is a *mechanism of origin*. The surface form it produces may look like any other kind of
@@ -169,13 +188,42 @@ Uniform weighting is the same mistake as a single formula. The mix follows the p
 - **the Slavic frontier and eastern corridor** → more **event**
 - **the Karelian reserve** → heavily **descriptive**; this is the deep-native layer charter §63
   records as still too thin
-- **wildcard, ~4%**: ignore the region's culture entirely and roll a foreign one. A Yemeni
+- **wildcard, ~14%**: ignore the region's culture entirely and roll a foreign one. A Yemeni
   neighbourhood carrying a Livonian fishing village's name because a captain from there retired
-  and it stuck. Some names must simply be strange.
+  and it stuck. Some names must simply be strange. (Raised from 4%: see the next section — in a
+  state this size, out-of-register names are ordinary, not exceptional.)
 
 Era shifts the weights again: **Hanseatic** (descriptive, saint) → **charter era** (patron, event)
 → **rail and industry** (patron, transferred, functional) → **federal / modern** (administrative,
 honorific).
+
+## The name-stock runs as far as the state does
+
+The federation runs White Sea → Riviera → Odessa → Aden, and for centuries it ran further: the
+whole northern-Caspian corridor to Herat was **East Neloxia** before it left, amicably, as
+Sarmatia (`sarmatia.md`). The Nelosphere still clears through it. A country of that reach does not
+have one name-stock; it has everything its people carried home.
+
+So the loan quarries are not the Baltic-and-Romance set alone. Beyond Finnic, Low German,
+Scandinavian, Slavic, Baltic, Romance, Yiddish, Pannonian, Danubian, Hellenic, Ottoman, Tatar and
+Armenian, the eastern reach is live:
+
+| Quarry | Where it comes from | Sample heads |
+|---|---|---|
+| **Circassian** (Adyghe) | the Kuban and the Caucasus gate; Sarmatia's grammar lead | *-kuadje* "village", *-hable* "hamlet", *-bgı* "mountain", *-xha* "summit", *-nepk* "river-bank" |
+| **Turkic** | Tarun's steppe routes; the corridor's heaviest loan-source | *-orda* "camp", *-jurt* "home-country", *-kent* "town", *-tôbe* "mound", *-bulak* "spring" |
+| **Georgian** | Abkhazia, Samegrelo, Guria, Svaneti — the Black Sea's eastern shore | *-kalaki* "city", *-tsixe* "fortress", *-gôri* "hill", *-tskali* "water", *-hevi* "gorge" |
+| **Persian** | Herat as the great inland exchange; Sistan and the plateau edge | *-ābād* "settled-place", *-xahr* "city", *-rūd* "river", *-gerd* "round-town", *-bāg* "garden" |
+
+These carry **modifiers, given names and family names** as well as heads — a patron name out of
+the corridor is as available as a Hanseatic one.
+
+A name from the far end of the sphere standing in a Livonian county is not an error to be
+corrected. It has a reason, and the reason is worth writing down: a corridor family who settled
+out of the eastern trade; a garrison rotated home from the eastern stations; a surveyor who named
+it in his own words and was not overruled; concession-holders whose word is the one on the deed;
+a refugee quarter that outgrew the town. **Nobody local being able to parse it has never once
+stopped a name.**
 
 ## Endonym and exonym are separate fields
 
