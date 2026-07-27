@@ -143,6 +143,12 @@ td.note{color:var(--ink3);font-size:13px}
 <h2>Where counting rolls over<span class="sub">the powers of twelve</span></h2>
 <div class="card tcard"><div class="tscroll"><table id="tpow"></table></div></div>
 
+<h2>The dozens are packets<span class="sub">each a thing that came in that quantity &mdash; no two share a root</span></h2>
+<div class="card tcard"><div class="tscroll"><table id="tpack"></table></div></div>
+<p class="hint"><b>langhunt</b> is 120, not 144 &mdash; the Germanic long hundred really was ten
+dozen (charter &sect;37, adopted for divisibility). So the word that looks like &ldquo;hundred&rdquo;
+is not the round number of the system. The round number is <b>gros&ocirc;</b>.</p>
+
 <h2>The fused teens<span class="sub">13&ndash;23 &middot; one word each, <i>düna</i> erodes to <i>dün-</i></span></h2>
 <div class="card tcard"><div class="tscroll"><table id="tteen"></table></div></div>
 
@@ -187,10 +193,22 @@ const EN   = ["zero","one","two","three","four","five","six","seven","eight","ni
 /* 13–23 fuse into one word; 12 stays bare düna */
 const TEEN = ["dünjôn","dünva","düntri","dünxtir","dünpeñç","dünxeç","dünsedm","dünosm","dündevç","dündesç","dünelva"];
 const DUNA="düna", GROSO="grosô", MIRO="mīrô", MILJON="miljôn";
-/* triad scale words: 12⁰, 12³, 12⁶, 12⁹. 12⁹ is a mīrô of miljôns — a
-   composition, not a new word. 12¹² has no word on record. */
-const SCALE=["", MIRO, MILJON, MIRO+" "+MILJON];
-const TRIAD=1728, MAXN=Math.pow(1728,4)-1;
+/* The dozens are PACKETS, not compounds — each a thing that came in that
+   quantity, no two sharing a root. langhunt is the long hundred (§37): 120,
+   ten dozen, not 144. */
+const PACK={ 2:["kvādôr","the quire — 24 sheets, the paper trade's packet"],
+             3:["kolôd","the deck — 36 cards"],
+             4:["katār","the string — a caravan file"],
+             5:["xokô","the schock — eggs, barrel staves"],
+             6:["destô","the bundle — half a gross"],
+             7:["fasôl","the quarter — twelve weeks, the ledger term"],
+             8:["jük","the load — one beast's full load"],
+             9:["rosār","the bead-string, in through Aden"],
+            10:["langhunt","the long hundred — timber, herring, hides"],
+            11:["eksôk","the short gross — a gross a dozen light"] };
+/* a new word every third place; 12⁴ and 12⁵ ride as coefficients */
+const SCALE=["", MIRO, MILJON, "kurôr", "tümôn"];
+const TRIAD=1728, MAXN=Math.pow(1728,5)-1;
 
 /* Ten and eleven are D and E, from deseñç and elva — the only pair that is on
    every machine that has to print a tariff. The others are registers, not
@@ -213,7 +231,7 @@ function triad(n){
     else if(r===12)out.push(DUNA);
     else if(r<24)  out.push(TEEN[r-13]);
     else { const d=Math.floor(r/12), u=r%12;
-           out.push(DIG[d]+" "+DUNA); if(u) out.push(DIG[u]); }
+           out.push(PACK[d][0]); if(u) out.push(DIG[u]); }   /* packet, then remainder */
   }
   return out.join(" ");
 }
@@ -268,7 +286,10 @@ function fold(s){
     .replace(/ä/g,"a").replace(/ö/g,"o").replace(/ü/g,"u").replace(/õ/g,"o");
 }
 const UNITW={ [fold(DUNA)]:12, [fold(GROSO)]:144 };
-const SCALEW={ [fold(MIRO)]:1728, [fold(MILJON)]:Math.pow(12,6) };
+const SCALEW={ [fold(MIRO)]:1728, [fold(MILJON)]:Math.pow(12,6),
+               [fold("kurôr")]:Math.pow(12,9), [fold("tümôn")]:Math.pow(12,12) };
+/* each packet is a bare value, not a coefficient — kvādôr IS 24 */
+const PACKW={}; Object.keys(PACK).forEach(k=>PACKW[fold(PACK[k][0])]=k*12);
 
 /* Parses Nelôxi words, then RE-COMPOSES the result and compares. A mismatch is
    reported as unreadable rather than answered wrongly. */
@@ -281,6 +302,7 @@ function parseWords(str){
     const t=toks[i];
     if(DIGIDX[t]!==undefined){ flush(); pend=DIGIDX[t]; continue; }
     if(TEENIDX[t]!==undefined){ flush(); group+=TEENIDX[t]; continue; }
+    if(PACKW[t]!==undefined){ flush(); group+=PACKW[t]; continue; }
     if(UNITW[t]!==undefined){ group += (pend===null?1:pend)*UNITW[t]; pend=null; continue; }
     if(SCALEW[t]!==undefined){
       let mult=SCALEW[t];
@@ -403,9 +425,15 @@ function tables(){
     [[c("nx",DUNA), c("en","12"), c("fig",figure(12)), c("note","one dozen — where counting rolls over")],
      [c("nx",GROSO), c("en","144"), c("fig",figure(144)), c("note","12² — a dozen dozens, the gross. This is what “100” means.")],
      [c("nx",MIRO), c("en","1,728"), c("fig",figure(1728)), c("note","12³")],
-     [c("nx",MIRO+" "+MIRO), c("en","20,736"), c("fig",figure(20736)), c("note","12⁴ — a dozen mīrô, written as a coefficient")],
+     [c("nx",DUNA+" "+MIRO), c("en","20,736"), c("fig",figure(20736)), c("note","12⁴ — rides as a coefficient, like “ten thousand”")],
      [c("nx",MILJON), c("en","2,985,984"), c("fig",figure(Math.pow(12,6))), c("note","12⁶")],
-     [c("nx",MIRO+" "+MILJON), c("en","5,159,780,352"), c("fig",figure(Math.pow(12,9))), c("note","12⁹ — a mīrô of miljôns; a composition, not a new word")]]);
+     [c("nx","kurôr"), c("en","5,159,780,352"), c("fig",figure(Math.pow(12,9))), c("note","12⁹ — the corridor’s great-number word (Persian <i>kurūr</i>)")],
+     [c("nx","tümôn"), c("en","8,916,100,448,256"), c("fig",figure(Math.pow(12,12))), c("note","12¹² — Turkic <i>tümen</i>, a myriad")]]);
+
+  /* the ten packets — each a thing that came in that quantity */
+  tbl("tpack",["Dozens","Value","Figure","Word","What it is"],
+    Object.keys(PACK).map(k=>[c("en",k+"×"), c("en",k*12), c("fig",figure(k*12)),
+      c("nx",esc(PACK[k][0])), c("note",esc(PACK[k][1]))]));
 
   const teen=[];
   teen.push([c("en","12"), c("fig",figure(12)), c("nx",DUNA), c("note","bare — the teens start at 13")]);
@@ -461,11 +489,12 @@ function tables(){
     c("note", h===0?"midnight":(h===12?"noon":(h<12?"morning":"afternoon and evening")))]);
   tbl("tclk",["Written","Spoken","&nbsp;"],clk);
 
-  $("openq").innerHTML=`<b>Still open:</b> the scale words above a gross. 12⁴, 12⁵ and everything `+
-    `over 12⁶ have no name on record, and <i>miljôn</i> sits at 12⁶ — which is the one rung where `+
-    `a two-place ledger and a three-place one agree, so it is the seam rather than an accident. `+
-    `The proposal on the table is <i>tümôn</i> (12⁴, Turkic) and <i>kurôr</i> (12⁸, Persian), `+
-    `with figures pair-grouped in the ledger register. Not written until ruled on.`;
+  $("openq").innerHTML=`<b>Retired:</b> charter §37–§39 ruled a nested tally on the long hundred `+
+    `— <i>dūtô</i> 12, <i>drētig</i> 30, <i>fērtig</i> 40 — before the base was settled. It was `+
+    `orphaned when this module was written and never reached the lexicon. It is now formally `+
+    `superseded; <b>langhunt</b> (120) and <b>xokô</b> (60) survive because base twelve has room `+
+    `for them as packets rather than places. &nbsp;<b>Still yours:</b> the currency has no name — `+
+    `canon has only <i>rā</i>, “money.”`;
 }
 
 function dozGrid(){
@@ -500,7 +529,7 @@ function glyphSeg(){
 }
 function chips(){
   const QUICK=[["12","a dozen"],["144","a gross"],["1728","12³"],["18","the clock at 18:00"],
-               ["351",""],["2026",""],["grosô dva düna",""],["dva grosô peñç düna tri",""]];
+               ["351",""],["2026",""],["grosô kvādôr","the quire packet"],["dva grosô xokô tri",""]];
   $("chips").innerHTML=QUICK.map(([v,t])=>
     `<button data-v="${esc(v)}"${t?` title="${esc(t)}"`:""}>${esc(v)}</button>`).join("");
   $("chips").addEventListener("click",e=>{
@@ -515,9 +544,10 @@ $("q").addEventListener("input",draw);
 /* ── self-check: the canon examples must come out exactly as written ───────── */
 (function(){
   const MUST=[[0,"nolô"],[11,"elva"],[12,"düna"],[13,"dünjôn"],[18,"dünxeç"],[23,"dünelva"],
-    [24,"dva düna"],[27,"dva düna tri"],[41,"tri düna peñç"],[144,"grosô"],
-    [168,"grosô dva düna"],[351,"dva grosô peñç düna tri"],[1728,"mīrô"],
-    [Math.pow(12,6),"miljôn"]];
+    [24,"kvādôr"],[27,"kvādôr tri"],[41,"kolôd peñç"],[60,"xokô"],[120,"langhunt"],
+    [132,"eksôk"],[143,"eksôk elva"],[144,"grosô"],
+    [168,"grosô kvādôr"],[351,"dva grosô xokô tri"],[1728,"mīrô"],
+    [Math.pow(12,6),"miljôn"],[Math.pow(12,9),"kurôr"],[Math.pow(12,12),"tümôn"]];
   const bad=MUST.filter(([n,w])=>cardinal(n)!==w)
                 .map(([n,w])=>`${n}: got "${cardinal(n)}", canon "${w}"`);
   /* every value must also read back to itself */

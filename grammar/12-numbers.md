@@ -20,12 +20,23 @@ dialect color.
 
 Zero, **nolô**, is the placeholder and the empty count: *Mäl um nolô kalād* "I have zero fish."
 
-Twelve — **düna** — is where counting rolls over. The powers of twelve are each their own word:
+Twelve — **düna** — is where counting rolls over. The places above it:
 
 - **düna** = 12 (one dozen)
-- **grosô** = 144 (a dozen dozens, the gross)
+- **grosô** = 144 (12², a dozen dozens, the gross) — **this is what "100" means**
 - **mīrô** = 1728 (12³)
 - **miljôn** = 12⁶ (~2.99 million)
+- **kurôr** = 12⁹ · **tümôn** = 12¹² — the corridor's great-number words, from the eastern trade
+  the way English took *lakh* and *crore* from where its own commerce was
+
+A new word every third place, and 12⁴ and 12⁵ ride as coefficients — *düna mīrô*, *grosô mīrô* —
+exactly as English says "ten thousand" and "a hundred thousand" rather than coining for them.
+
+**Superseded (charter §37–§39, orphaned by this module and now formally retired):** *dūtô* 12,
+*drētig* 30, *fērtig* 40, *drēdēl*, *fērdēl*, *tēndēl*. They were a nested tally on the long
+hundred, ruled before the base was settled, and they duplicate or cut across the dozen ladder. Two
+survivors are kept because the base-12 system has room for them as **packets** rather than places:
+**langhunt** 120 and **xokô** 60. Fractions stay *half* and *number + dēl* (§39).
 
 ## The two extra digits — **D** and **E**
 
@@ -59,13 +70,45 @@ Romance teens are opaque:
 13 **dünjôn** · 14 **dünva** · 15 **düntri** · 16 **dünxtir** · 17 **dünpeñç** · 18 **dünxeç** ·
 19 **dünsedm** · 20 **dünosm** · 21 **dündevç** · 22 **dündesç** · 23 **dünelva**
 
-Everything between breakpoints is **bare juxtaposition** — largest unit first, no connector,
-no hyphen:
+## The dozens are packets, not compounds
 
-- *dva düna* 24 · *dva düna tri* 27 · *tri düna peñç* 41
-- *grosô dva düna* 168 · *dva grosô peñç düna tri* 351
+**Each round dozen has its own word, and none of them is built from the digits.** This is the
+oldest and most important thing about the system, and it is why the words look unrelated to each
+other: a numeral above the base is not a number, it is **a thing that came in that quantity**. The
+same reason Russian *sorok* is forty — it was a bundle of forty sable pelts — and the same reason
+this language already had **xokô** long before it had a rule for it.
 
-The fixed largest-first order keeps it unambiguous.
+| | Value | Figure | Word | What it is |
+|---|---|---|---|---|
+| 2× | 24 | `20` | **kvādôr** | the quire — twenty-four sheets, the paper trade's packet |
+| 3× | 36 | `30` | **kolôd** | the deck — thirty-six cards |
+| 4× | 48 | `40` | **katār** | the string — a caravan file |
+| 5× | 60 | `50` | **xokô** | the schock — eggs, barrel staves |
+| 6× | 72 | `60` | **destô** | the bundle — half a gross |
+| 7× | 84 | `70` | **fasôl** | the quarter — twelve weeks, the ledger term |
+| 8× | 96 | `80` | **jük** | the load — one beast's full load |
+| 9× | 108 | `90` | **rosār** | the bead-string, in through Aden |
+| 10× | 120 | `D0` | **langhunt** | the long hundred — timber, herring, hides (§37) |
+| 11× | 132 | `E0` | **eksôk** | the short gross — a gross a dozen light |
+
+Ten packets from ten trades, and no two share a root. That is not untidiness; it is the record of
+who counted what. **langhunt** is 120 and not 144 — the Germanic long hundred really was ten
+dozen — so the word that looks like "hundred" is *not* the round number of the system. The round
+number is **grosô**.
+
+Everything else is **the packet, then the remainder** — two words, never more:
+
+- *kvādôr tri* 27 · *kolôd peñç* 41 · *eksôk elva* 143
+- *grosô kvādôr* 168 · *dva grosô xokô tri* 351
+
+Largest first, no connector, no hyphen.
+
+### Why the digits are Slavic and the packets are not
+
+Because they are different acts. Counting on the hand, in the house, with a child, is the home
+register, and §79 puts the home in **Slavic**. Counting cargo is business, and §79 puts business in
+**Low German and the trade quarries**. The number system is not two systems bolted together — it
+is one system that knows the difference between a hand and a hold.
 
 ## Round figures, and the misreading they cause
 
