@@ -122,11 +122,22 @@ CORRECTIONS = {
 }
 
 
+# Ratified picks from data/toponym-picks.tsv, applied by --fix-names. Only the
+# ones whose canon consequences are already written elsewhere go here; the full
+# 87-name sync is still outstanding (see archive/AAR-settlements-naming-session.md).
+# reference name -> (Nelôxi name, population)
+PICKS = {
+    # world/bruce-plan.md: the plan was executed at the size drawn.
+    "Kem": ("Litberg", 500000),
+}
+
+
 def fix_names(path):
-    """Replace rejected diacritic-respellings with the honest form, in place."""
+    """Replace rejected diacritic-respellings with the honest form, apply
+    ratified picks and their populations, in place. Safe to re-run."""
     tree = ET.parse(path)
     root = tree.getroot()
-    n = 0
+    n = picked = 0
     for el in root.iter():
         if el.tag not in ("CITY", "STATE"):
             continue
@@ -137,9 +148,19 @@ def fix_names(path):
             for k in ("name_korean", "abbr_korean"):
                 el.attrib.pop(k, None)
             n += 1
+        pick = PICKS.get(el.get("name"))
+        if pick:
+            name, pop = pick
+            el.set("name", name)
+            el.set("abbr", abbr_for(name))
+            for k in ("name_korean", "abbr_korean"):
+                el.attrib.pop(k, None)
+            if pop and el.tag == "CITY":
+                el.set("pop", str(pop))
+            picked += 1
     ET.indent(tree, space="  ")
     tree.write(path, encoding="UTF-8", xml_declaration=True)
-    print(f"corrected {n} rejected name(s) in {path}")
+    print(f"corrected {n} rejected name(s), applied {picked} pick(s) in {path}")
 
 
 def abbr_for(name):

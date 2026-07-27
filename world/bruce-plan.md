@@ -1,9 +1,8 @@
 # The Bruce Plan — the northern city that was drawn at full size
 
-*Founder-introduced (the Roblin City transposition). The seat is **Litberg** on the White Sea —
-already named, and the name is the joke. The **partial-build** reading and the attribution of the
-federation's foundation grid to Bruce are proposals. Companion to `toponymy.md`, `gazetteer.md`
-and the foundation flags in `tools/settlement_data.py`.*
+*Founder canon. The seat is **Litberg** on the White Sea. It was **built**, at the size drawn: half
+a million, the largest city of the northern lobe. Companion to `toponymy.md`, `gazetteer.md`,
+`geography.md` and the foundation flags in `tools/settlement_data.py`.*
 
 ## The premise
 
@@ -30,47 +29,63 @@ The town was there first, small, and its inherited Karelian form was **Kemi**. T
 record is **Litberg** — *little rock*, plain descriptive, the entry in the oldest land-roll
 (`data/toponym-picks.tsv`).
 
-**Nobody renamed it for him and nobody renamed it for the plan.** A man came to build a metropolis
-of half a million and the place he came to is called *little rock*, and it was called that before
-he arrived and is called that still. The Nelôxi habit of not improving a working name is the whole
-of the gravity principle, and here it produced the flattest possible verdict on the largest
-possible ambition. Litberg is the funniest name in the gazetteer and nobody involved was joking.
+**Nobody renamed it for him and nobody renamed it for the plan.** So the fourth city of the
+federation's north, half a million people, an Arctic terminal with a university and a red quartzite
+harbour front, is called **little rock** — because that is what the oldest land-roll called the
+fishing village, and the Nelôxi habit of not improving a working name is the whole of the gravity
+principle. A name is a record of who was there first, not a description of what grew.
+
+That is the better joke by far. Not a grand name on a town that failed: a flat one on a city that
+worked. Nobody involved was joking, which is why it stuck.
 
 He drew it anyway, the way he drew Roblin City, because he had never intended to draw anything
 else: a grid for half a million, radial boulevards off a civic square, a university quarter, a
 museum quarter, a technical college, a harbour front sized for a trade that did not yet exist. The
 drawings survive. The state paid for them.
 
-## What actually got built
+## What got built
 
-**Not the city — the plan of it.** The grid was surveyed, staked, gravelled and registered in
-full. Then the money ran to the ports that already had cargo, and the settlement filled in about
-four per cent of what was pegged out.
+**All of it.** This is the point of the transposition and the reason it is in this repository
+rather than in a footnote: the plan that was laughed out of one legislature was executed by a state
+that had the fleet, the shield behind it, and a reason to hold an Arctic door.
 
-That is the shape of Litberg today and it is why the place is worth a file: **twenty-two thousand
-people living inside the street plan of a metropolis.** Boulevards laid out eight lanes wide that
-end in bog. A civic square with two of its four intended sides. Avenues numbered into the forties
-with nothing on them past the low teens. The university quarter is a technical college, a chapel
-and a field.
+**Litberg is a city of half a million** — the figure on Bruce's 1912 drawing, delivered. It is the
+largest city of the northern lobe, larger than the lake capital, and the grid is his: a thousand
+kilometres of streets, the radial boulevards off the civic square, the museum quarter, the
+university, the college, the harbour front sized for a trade that did not exist when it was drawn
+and does now.
 
-The failure is not hidden. The plan is a **public document**, framed at full size in the town hall
-it was drawn for, and giving directions by reference to buildings that were never built is a real
-speech habit of the town.
+Why it worked here and not there:
 
-## What actually lasted
+- **A fleet that could keep the door open.** An Arctic terminal is a fantasy without icebreakers
+  and a navy that considers winter a schedule rather than a season. Nelôxia had both, and a
+  standing interest in not depending on the Baltic exits alone.
+- **Something behind it.** The shield is not empty: the ore field at **Bergmark**, the timber belt
+  at **Silô**, the canal outlet at **Soroka**. Bruce's harbour is where all of it leaves.
+- **A two-ocean state needs the second ocean.** `geography.md` already calls the Arctic frontage
+  the thing that makes Nelôxia a transit state rather than a Baltic one. Litberg is that claim
+  built in stone instead of asserted in a treaty.
+- **The state builds towns.** Fourteen other purpose-built settlements in the gazetteer say so.
+  Litberg is the biggest and the first.
 
-Bruce's monument is not the city. It is **the method**.
+The harbour front is red quartzite, and the boulevards are eight lanes wide because a Glaswegian in
+1912 thought they should be, and nobody has ever found a reason to narrow them.
 
-The survey conventions he wrote at Litberg — the grid module, the civic-square proportion, the
-rule that the works comes before the housing and the school before the works — became the
-federation's standard for laying out a foundation. Every purpose-built settlement in the gazetteer
-flagged `foundation` is downstream of it: the deepwater harbour beside the older rival port, the
-steelworks at the river crossing, the aviation works on the plain, the planned twin town facing
-the border, the canal town, the sulphur-basin town, the Fleet seat itself. The charter-era note
-that a Nelôxian foundation is *"laid out on a surveyor's grid"* is Bruce's grid.
+## What lasted besides the city
 
-He got what he asked for. It was distributed across fourteen towns instead of concentrated in one,
-and he did not consider that a consolation.
+**The method.** The survey conventions he wrote at Litberg — the grid module, the civic-square
+proportion, the rule that the works comes before the housing and the school before the works —
+became the federation's standard for laying out a foundation. Every purpose-built settlement in the
+gazetteer flagged `foundation` is downstream of it: the deepwater harbour beside the older rival
+port, the steelworks at the river crossing, the aviation works on the plain, the planned twin town
+facing the border, the canal town, the sulphur-basin town, the Fleet seat itself. The charter-era
+note that a Nelôxian foundation is *"laid out on a surveyor's grid"* is Bruce's grid.
+
+So Litberg is not only a city he built; it is the **type specimen**. Fourteen towns are copies of
+it at smaller scale, and a Nelôxian planner saying "the northern module" means his.
+
+He got everything he asked for, once, in a language he never learned, in a country that had not
+existed to him three years earlier, and the town it happened in is called *little rock*.
 
 ## The stone
 
@@ -85,8 +100,9 @@ crimson quartzite: hard, polishable, and genuinely there in quantity. He promote
 had promoted the first one, with the same circulars and the same intemperate language, and this
 time the quarries stayed open. It is the reason the northern civic buildings are red.
 
-A man whose life was stone, ruined by a rare rock, sent to a town called *little rock*, who then
-found the abundant one. He is not recorded as having remarked on this.
+A man whose life was stone, ruined by a rare rock, sent to a place called *little rock*, who then
+found the abundant one and faced half a million people's city with it. He is not recorded as having
+remarked on this.
 
 *(The quartzite's Nelôxi name is an open docket. So is the quarry settlement's. The ore town west
 of the lake is already **Bergmark**, "rock market" — the north kept naming itself after stone
@@ -99,18 +115,16 @@ the paper name of a *plan* rather than the name of a *place*. Litberg is the dem
 those are two different fields. The drawing carried a patron name; the town carried on with its
 own; and a drawing has never yet outvoted the people living on it.
 
-**This file assigns no names.** Litberg, Lundgrenlund, Soroka and Bergmark are all founder picks
-already on record. What Bruce contributes to the toponymy is not a name but a **strategy anchor**:
-he is the worked example of a foundation whose patron name did not stick.
+Litberg, Lundgrenlund, Soroka and Bergmark are all on record already. What Bruce adds to the
+toponymy is not a name but a **worked example**: the foundation whose patron name did not stick.
 
-## Open
+## Figures
 
-- **Whether it half-failed.** Written above as a four-per-cent build, because a completed
-  half-million-person Arctic metropolis contradicts the region's population table (Karelia & the
-  North carries ~957,000 across ten settlements, Litberg 22,000 of them). If the founder wants it
-  built, the table moves with it — a bigger change than this file makes on its own.
-- **The plan's paper name.** Bruce called his drawing something. Whatever it was, it lost to
-  Litberg. Unassigned.
-- **Bruce's end.** He stayed. Nothing further is settled.
-- The **fourteen foundations** attributed to his method are an agent-made classification
-  (`tools/settlement_data.py`, `FOUNDING`) and remain unratified.
+**Litberg: 500,000.** The northern lobe carries ~1,435,000 across its ten settlements, and Litberg
+is the largest of them — ahead of the lake capital. Set in `tools/settlement_data.py`; the
+gazetteer and the game world follow it.
+
+## Not yet written
+
+- The plan's paper name. Bruce called his drawing something, and it lost to Litberg.
+- Bruce's end. He stayed.

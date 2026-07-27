@@ -13,9 +13,11 @@ it). Structural scale and posture are in
 ## The theatres
 
 - **The Northern lobe (Region 1)** — the Republic of Karelia and the Leningrad approaches:
-  isthmus gate Vīpôri, lake-capital Petrôsô, White Sea coast Korbitô. Boreal timber, lakes, and
-  the Arctic frontage that makes Nelôxia a two-ocean transit state. Sparse because it is cold,
-  but integral — "our own Norway without the oil."
+  isthmus gate Vīpôri, lake-capital Petrôsô, White Sea coast Korbitô, and the Arctic terminal
+  **Litberg** — half a million people on a plan drawn in 1912 and executed in full
+  (`bruce-plan.md`), the largest city of the north and the reason the Arctic frontage is a working
+  door rather than a claim. Boreal timber, lakes, ore. Thinly settled between the seats because it
+  is cold, and integral because of them — "our own Norway without the oil."
 - **The Baltic core (Regions 2–4)** — the state's archive core and a large share of its mass. The
   Livonian islands (Sārô, Hiumō) and the southeastern Estonian–Latvian interior; the Lithuanian
   spine from Māmeli's harbor through the Kaunô basin (Keidani); and the Prussian–Pomeranian shore
