@@ -199,7 +199,22 @@ const HEADS = {
              ["-sziget","island"],["-mezö","field"]],
   albanian:[["-gur","stone"],["-fushë","plain"],["-mal","mountain"],["-qafë","pass"],["-krôi","spring"]],
   danubian:[["-ești","folk of"],["-eni","people of"],["-tsetāte","citadel"],["-sat","village"],
-            ["-vale","valley"],["-deal","hill"],["-pôd","bridge"],["-luncā","water-meadow"]]
+            ["-vale","valley"],["-deal","hill"],["-pôd","bridge"],["-luncā","water-meadow"]],
+  /* ── the eastern reach ──────────────────────────────────────────────────
+     Nelôxia was joined to the corridor for centuries before Sarmatia — East
+     Neloxia — went its own way, and the Nelosphere still clears through it.
+     A name from Herat or the Kuban is not exotic here; it is a trade record. */
+  circassian:[["-kuadje","village"],["-hable","hamlet"],["-psı","water"],["-bgı","mountain"],
+              ["-xha","summit"],["-thı","ridge"],["-nepk","river-bank"],["-çıle","settlement"]],
+  turkic:[["-orda","camp"],["-jurt","home-country"],["-kent","town"],["-tôbe","mound"],
+          ["-kul","lake"],["-bulak","spring"],["-sai","dry-watercourse"],["-tax","stone"],
+          ["-özek","valley"],["-aul","hamlet"],["-ata","forefather"]],
+  georgian:[["-kalaki","city"],["-tsixe","fortress"],["-gôri","hill"],["-mta","mountain"],
+            ["-tskali","water"],["-ubani","quarter"],["-djvari","cross"],["-sôpeli","village"],
+            ["-veli","field"],["-hevi","gorge"]],
+  persian:[["-ābād","settled-place"],["-xahr","city"],["-kôh","mountain"],["-deh","village"],
+           ["-rūd","river"],["-band","dam"],["-gerd","round-town"],["-kart","town"],
+           ["-çexme","spring"],["-bāg","garden"],["-kaleh","fort"],["-darvāze","gate"]]
 };
 /* modifiers, per quarry — a Slavic frontier town does not take a Finnic colour */
 const QMODS = {
@@ -304,7 +319,21 @@ const QMODS = {
   danubian:[["nou","new"],["vekj","old"],["mare","great"],["mik","little"],["negru","black"],
     ["roxu","red"],["verde","green"],["alb","white"],["fier","iron"],["sare","salt"],
     ["deal","hill"],["vale","valley"],["kâmp","plain"],["aur","gold"],["rēçe","cold"],
-    ["uskāt","dry"],["lung","long"],["lat","wide"]]
+    ["uskāt","dry"],["lung","long"],["lat","wide"]],
+  circassian:[["kje","new"],["jı","old"],["ıne","great"],["tsıku","little"],["xuts","black"],
+    ["fıj","white"],["plıj","red"],["utsı","green"],["gôj","yellow"],["dıxe","gold"],
+    ["dıjın","silver"],["guçı","iron"],["xıgu","salt"],["mıjô","stone"],["psıne","spring"]],
+  turkic:[["kôk","blue"],["kızıl","red"],["ak","white"],["kara","black"],["sarı","yellow"],
+    ["temir","iron"],["altın","gold"],["kumıx","sandy"],["djetı","seven"],["bes","five"],
+    ["uzun","long"],["tuzlu","salt"],["djasıl","green"],["muz","ice"],["djel","wind"],
+    ["djañı","new"],["kôna","old"]],
+  georgian:[["axali","new"],["dzveli","old"],["didi","great"],["patara","little"],["xavi","black"],
+    ["tetri","white"],["tsiteli","red"],["mtsvane","green"],["ôkrô","gold"],["vertsxli","silver"],
+    ["rkina","iron"],["kva","stone"],["marili","salt"],["magali","high"],["grdzeli","long"]],
+  persian:[["nô","new"],["kôhne","old"],["bôzôrg","great"],["kūçek","little"],["siāh","black"],
+    ["sefīd","white"],["sôrx","red"],["sabz","green"],["zar","gold"],["nôkre","silver"],
+    ["āhan","iron"],["namak","salt"],["sang","stone"],["xôxk","dry"],["sard","cold"],
+    ["bālā","upper"],["pājīn","lower"]]
 };
 /* terrain → LOCATABLE features only, per quarry-neutral canon senses. Resources
    and objects live in the modifier banks: you can be "at the shore" but not "at
@@ -374,7 +403,11 @@ const GIVEN = {
   hellenic:["Dimitri","Elenī","Stavrô","Maria","Panajôt","Sôfia","Kôsta","Despinā","Jôrgô","Vasilikī"],
   albanian:["Gjergj","Donikā","Lekë","Marā","Ndre","Fatimē","Zef","Drandē"],
   pannonian:["Istvān","Erzsēbet","Lāszlô","Katalin","Mātjās","Ilônā","Gergely","Zsôfiā","Bālint","Anikô"],
-  danubian:["Ștefan","Ilinkā","Vasile","Marīa","Rādu","Ancā","Dumitru","Sāftā","Neagôe","Stankā"]
+  danubian:["Ștefan","Ilinkā","Vasile","Marīa","Rādu","Ancā","Dumitru","Sāftā","Neagôe","Stankā"],
+  circassian:["Nart","Adıif","Aslan","Guaxe","Bibars","Setenay","Timur","Dahenagô","Kazbek","Zerıfe"],
+  turkic:["Aisulu","Batır","Gülnar","Kanat","Ainur","Tôktar","Zere","Erlan","Sarıbala","Ajgül"],
+  georgian:["Giôrgi","Nīnô","Vaxtang","Tamar","Davit","Ketevan","Zurab","Mziā","Levan","Rusudan"],
+  persian:["Rôstam","Gôharxād","Xīrīn","Dāriūx","Parvāne","Behzād","Nasrīn","Ferejdūn","Zarīn","Kūrôx"]
 };
 const FAMILY = {
   finnic:["Kivi","Rānd","Sār","Raud","Kolk","Kur","Põder","Jārv","Kosken","Lain","Nēm","Tūļ",
@@ -408,7 +441,11 @@ const FAMILY = {
   hellenic:["Kômninô","Palēolôg","Vlastô","Kantakuzin","Trikupī","Andrônikô"],
   albanian:["Dukagjin","Kastriôt","Thôpiā","Zenebix","Muzakā","Arianit"],
   pannonian:["Kôvāç","Sabô","Tôth","Nemet","Farkas","Bīrô","Halāsz","Mēsāros","Rēvēsz","Vārhedji"],
-  danubian:["Munteān","Popā","Kôjôkāru","Fierāru","Lupu","Barbu","Ursu","Dobre","Vlādut"]
+  danubian:["Munteān","Popā","Kôjôkāru","Fierāru","Lupu","Barbu","Ursu","Dobre","Vlādut"],
+  circassian:["Xhaguaj","Nexay","Kudaberd","Beslaney","Xhapaç","Tlebzu","Xerjes","Zeux"],
+  turkic:["Aitbay","Djumabek","Nôgai","Kipçak","Kanglı","Baraq","Djanibek","Ürgençi"],
+  georgian:["Dadiani","Gurieli","Çavçavadze","Abaxidze","Eristavi","Xervaxidze","Mikeladze"],
+  persian:["Herātı","Sīstānı","Nīxāpūrı","Farrôx","Ansārı","Karīmı","Bāxtiārı","Marvazı"]
 };
 /* offices, with SEVERAL deeds each so the same title is not the same story */
 const TITLES = [
@@ -486,9 +523,11 @@ const FOUNDERS = [
  ["the customs board","needed a post, and the post needed a town"]
 ];
 
-/* What the place actually IS, read off its own notes. Without this, a
-   canal-side timber town can be named "herring island" — the vocabulary was
-   correct and the meaning was nonsense. */
+/* What the place actually IS, read off its own notes — a HINT, not a rule.
+   Used only to colour the modifier, and only sometimes. Applied to the head as
+   well it became a formula: every harbour ends in -hafõn, every foundry says
+   iron. Real places are named for a dead admiral, a saint, or a clerk's
+   mistake, and the suffix does not have to agree with the freight manifest. */
 const SENSEMAP = [
   [/\b(iron|ore|steel|smelt|foundr)/i, ["iron"]],
   [/\b(timber|forest|wood|mill|pine|sawn)/i, ["forest","backwoods","wood","pinewood","tree"]],
@@ -521,12 +560,13 @@ function senses(ctx){
   SENSEMAP.forEach(([re,gl])=>{ if(re.test(src)) gl.forEach(g=>out.push(g)); });
   return out;
 }
-/* prefer entries whose English gloss matches what the place is; fall back whole */
+/* nudge toward entries whose gloss matches what the place is — a minority of
+   the time, so the trade is one possible reason among many, not the reason */
+const SENSEBIAS = 0.3;
 function biased(pool,want){
   if(!want||!want.length) return pool;
   const hit=pool.filter(x=>want.some(w=>String(x[1]).toLowerCase().includes(w)));
-  /* keep some room for the unexpected — 75% on-sense, 25% free */
-  return (hit.length && Math.random()<0.75) ? hit : pool;
+  return (hit.length && Math.random()<SENSEBIAS) ? hit : pool;
 }
 
 /* pick a modifier from a quarry the region actually draws on */
@@ -549,19 +589,11 @@ const NAMEKIN={venetian:"italian",friulian:"italian",occitan:"romance",romance:"
   albanian:"albanian",tatar:"tatar",armenian:"armenian",scand:"scand",german:"german"};
 function poolFor(map,q){ return map[q]||map[NAMEKIN[q]]||map.finnic; }
 function modOf(cults,ctx){
-  const want=senses(ctx);
-  /* prefer a quarry that can actually SAY the thing — otherwise an iron-ore town
-     lands on whichever quarry lacks a word for iron and the bias falls through */
-  if(want.length && Math.random()<0.75){
-    const able=cults.filter(q=>(QMODS[q]||[]).some(x=>
-      want.some(w=>String(x[1]).toLowerCase().includes(w))));
-    if(able.length){
-      const q=pick(able);
-      return pick(biased(QMODS[q],want));
-    }
-  }
+  /* the quarry is chosen by the region, never by the freight. Steering it to
+     whichever quarry owns a word for "iron" made the ore towns all sound alike
+     and pulled them off their own ground. */
   const q=pick(cults);
-  return pick(biased(QMODS[q]||QMODS.finnic,want));
+  return pick(biased(QMODS[q]||QMODS.finnic,senses(ctx)));
 }
 function headIn(q){ const h=HEADS[q]||HEADS.finnic; return pick(h); }
 
@@ -581,7 +613,7 @@ const REGPROF = {
    w:{patron:8,event:22,desc:12,trans:6,folk:14,saint:4,acc:8,keep:26}},
  /* Odessa was a polyglot free port: Ukrainian, Yiddish, Greek, Italian, French,
     Tatar and Armenian all named streets and suburbs there. */
- "Moldavian Arc & Black Sea":{cult:["ukrainian","danubian","yiddish","hellenic","italian","ottoman","bulgarian","armenian","tatar","finnic"],ch:"frontier",
+ "Moldavian Arc & Black Sea":{cult:["ukrainian","danubian","yiddish","hellenic","italian","ottoman","bulgarian","armenian","tatar","circassian","georgian","persian","finnic"],ch:"frontier",
    w:{patron:12,event:18,desc:12,trans:12,folk:10,saint:8,acc:7,keep:21}},
  "Pannonian Bridge":{cult:["pannonian","german","slovak","croatian","yiddish"],ch:"interior",
    w:{patron:6,event:8,desc:10,trans:5,folk:18,saint:6,acc:8,keep:39}},
@@ -591,9 +623,11 @@ const REGPROF = {
    w:{patron:14,event:8,desc:12,trans:12,folk:8,saint:20,acc:6,keep:20}},
  "Western Alpine & Riviera Arc":{cult:["occitan","italian","venetian","friulian","german"],ch:"romance",
    w:{patron:16,event:8,desc:10,trans:12,folk:8,saint:22,acc:6,keep:18}},
- "Thracian–Macedonian Corridor":{cult:["ottoman","bulgarian","macedonian","albanian","hellenic"],ch:"frontier",
+ "Thracian–Macedonian Corridor":{cult:["ottoman","bulgarian","macedonian","albanian","hellenic","turkic","persian"],ch:"frontier",
    w:{patron:8,event:18,desc:10,trans:6,folk:14,saint:10,acc:8,keep:26}},
- "Sevastopol · Federal City":{cult:["tatar","ukrainian","hellenic","italian","armenian","finnic"],ch:"port",
+ /* the Fleet enclave: a garrison town at the corridor's mouth, and every fleet
+    town in history is named half by people who came ashore from somewhere else */
+ "Sevastopol · Federal City":{cult:["tatar","ukrainian","hellenic","italian","armenian","circassian","georgian","turkic","persian","finnic"],ch:"port",
    w:{patron:24,event:14,desc:24,trans:8,folk:4,saint:4,acc:4,keep:18}}
 };
 const ERAS = {
@@ -614,22 +648,38 @@ const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",
 /* ── guards ─────────────────────────────────────────────────────────────────
    1. î û â exist in neither source nor Nelôxi: errors, not fossils.
    2. §146 name-senses: merd / lōd / sildô must never appear in a name.       */
+/* fold a name to bare letters, so "Kemô" and "Kem" compare equal */
+const flat=s=>String(s).toLowerCase()
+  .replace(/[ôöõō]/g,"o").replace(/[āäǟ]/g,"a").replace(/[ēë]/g,"e")
+  .replace(/[īï]/g,"i").replace(/[ūü]/g,"u").replace(/[çćč]/g,"c")
+  .replace(/[ñń]/g,"n").replace(/[šş]/g,"s").replace(/[žż]/g,"z")
+  .replace(/[^a-z]/g,"");
 const BANNED_CHARS=/[îûâÎÛÂ]/;
 const BANNED_SENSE=/(merd|lōd|sildô)/i;
 function valid(nx){ return !BANNED_CHARS.test(nx) && !BANNED_SENSE.test(nx); }
 
-function headOf(cults,ctx){
-  return pick(biased(HEADS[pick(cults)]||HEADS.finnic,senses(ctx)));
+/* The head is FREE — of the town's trade AND of its coordinates. Towns are
+   named for all manner of reasons: a dead admiral, a saint, a joke, a place
+   eight hundred miles away. Landlocked Hafenberg exists; so does inland
+   Newport. Nothing here filters a suffix by what is or is not outside. */
+function headFrom(cults,ctx){
+  return pick(HEADS[pick(cults)]||HEADS.finnic);
 }
+function headOf(cults,ctx){ return headFrom(cults,ctx); }
 /* heads a plain description may take — landscape and settlement words only.
    Institution heads (-kolēgi, -vīla) are point-foundations: they need a founder
    or a patron saint behind them, not a colour. */
 function plainHeadOf(cults,ctx){
   const c=cults.filter(k=>k!=="romance");
-  return pick(biased(HEADS[pick(c.length?c:["finnic"])]||HEADS.finnic,senses(ctx)));
+  return headFrom(c.length?c:["finnic"],ctx);
 }
+/* Terrain is a suggestion, not a licence check. Plenty of the world's names sit
+   on ground that contradicts them, and the ones that don't were mostly named
+   by someone who had just arrived from elsewhere. */
+const ALLFEAT=[].concat.apply([],Object.keys(TERRFEAT).map(k=>TERRFEAT[k]));
 function featOf(terrain,ctx){
-  return pick(biased(TERRFEAT[terrain]||TERRFEAT.Plain,senses(ctx)));
+  const t=TERRFEAT[terrain];
+  return (t && Math.random()<0.45) ? pick(t) : pick(ALLFEAT);
 }
 /* join a modifier to a head-suffix, head-final like all Nelôxi compounds */
 function joinHead(stem,head){ return up(stem)+head.replace(/^-/,""); }
@@ -817,10 +867,20 @@ const STRAT = {
      if(!scored.length) return pick(pool)||pick(QMODS.finnic);
      const best=scored[0][1];
      const tier=scored.filter(x=>x[1]>=Math.max(1,best-1));
-     const hit=pick(tier);
+     /* a narrow tier re-elects the same word every roll — 'Nagykanizsa' kept
+        landing on nôvi because nothing else scored as high. Widen to the best
+        few so the echo stays audible without becoming a lookup. */
+     const wide=tier.length>=5?tier:scored.slice(0,Math.max(7,tier.length));
+     const hit=pick(wide);
      return (hit&&hit[0])||pick(pool)||pick(QMODS.finnic);
    };
-   let a=rank(head,modPool), b=rank(tail,featPool);
+   /* Re-analysis usually catches ONE element, not both: crayfish kept 'cray'
+      whole and only heard "fish" in -visse. Deciding the suffix off the old
+      spelling every time is what made these read as transliterations. */
+   const ear=Math.random();
+   let a = ear<.45 ? rank(head,modPool) : pick(modPool);
+   let b = ear<.45 ? pick(featPool) : rank(tail,featPool);
+   if(ear>=.9){ a=rank(head,modPool); b=rank(tail,featPool); }  /* both, rarely */
    if(!a||!a[0]) a=pick(QMODS.finnic);
    if(!b||!b[0]) b=featOf(c.terrain,c);
    const f=(a[0]===b[0])?featOf(c.terrain,c):b;
@@ -945,9 +1005,24 @@ function rollStrategy(prof,era,forceWild,isFoundation){
 }
 
 /* one candidate; retries until it passes the orthographic + sense guards */
+/* why a name from the far end of the sphere is standing here */
+const WILDWHY = [
+ "The vocabulary is from the other end of the sphere — a corridor family who settled out of the eastern trade and never went back.",
+ "Out of register for this ground: the surveyor was a corridor man and named it in his own words, and nobody with authority objected.",
+ "A garrison rotated home from the eastern stations and brought the word with them; it outlasted the regiment.",
+ "The charter was drawn in a Nelosphere port a very long way from here, and the clerk used the vocabulary in front of him.",
+ "A refugee community named its own quarter and the quarter outgrew the town.",
+ "The naming came with the money — the concession-holders were easterners, and it is their word on the deed.",
+ "Nobody local can parse it. That has never once stopped a name."
+];
+
 function roll(ctx,prof,era){
   for(let i=0;i<24;i++){
-    const wild = Math.random()<0.04;                 /* ~4% cross-culture wildcard */
+    /* The federation is enormous and the Nelosphere is larger still — White Sea
+       to the Riviera to Odessa to Aden, and for centuries out through East
+       Neloxia to Herat. People moved along all of it, and they named things
+       where they landed. One name in seven comes from somewhere else entirely. */
+    const wild = Math.random()<0.14;
     const key = rollStrategy(prof,era,wild,ctx.founding==="foundation");
     const cults = wild ? [pick(Object.keys(HEADS))] : prof.cult;
     const c = Object.assign({},ctx,{cults:cults,ch:prof.ch,era:era,
@@ -955,7 +1030,9 @@ function roll(ctx,prof,era){
       founding:ctx.founding,founds_what:ctx.founds_what});
     const r = STRAT[key](c);
     if(!valid(r.nx)) continue;
-    if(!r.keep && ctx.site && r.nx.toLowerCase()===ctx.site.toLowerCase()) continue;
+    /* the failure this whole rework exists to prevent: Kem → "Kemô" is not a
+       name, it is the same name wearing a hat. Compare folded, not literal. */
+    if(!r.keep && ctx.site && flat(r.nx)===flat(ctx.site)) continue;
     r.key=key; r.wild=wild&&key!=="keep";
     const ex=rollExonym(r.nx,ctx,r.story,!!r.keep);
     r.exonym=ex.ex; r.exostory=ex.how; r.exokey=ex.exkey||"";
@@ -1068,6 +1145,10 @@ function draw(reroll){
     const r=roll(ctx,prof,era);
     if(out.some(o=>o.nx===r.nx)) continue;
     if(r.head && out.filter(o=>o.head===r.head).length>=1 && guard<110) continue;
+    /* nor three cards opening on the same stem — Nôvihalôm / Nôvigas /
+       Nôvikirchen are three names only in the strictest sense */
+    const pre=r.nx.slice(0,4).toLowerCase();
+    if(out.some(o=>o.nx.slice(0,4).toLowerCase()===pre) && guard<120) continue;
     if(out.filter(o=>o.key===r.key).length>=3 && guard<130) continue;
     out.push(r);
   }
@@ -1076,6 +1157,12 @@ function draw(reroll){
     out[out.length-1]=Object.assign(STRAT.keep(Object.assign({},ctx,{cults:prof.cult,ch:prof.ch})),
       {key:"keep",exonym:ctx.exonym});
   }
+
+  /* say WHY an out-of-register name is standing here — and never say it twice
+     in the same roll, which reads as boilerplate rather than as a reason */
+  const why=WILDWHY.slice().sort(()=>Math.random()-.5);
+  let wi=0;
+  out.forEach(o=>{ if(o.wild) o.story+=" "+why[wi++%why.length]; });
 
   currentOut=out;
   renderCards(out,ctx);
