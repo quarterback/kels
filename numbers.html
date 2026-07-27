@@ -41,8 +41,10 @@ h2 .sub{font-family:"General Sans";font-weight:500;font-size:13px;color:var(--in
 #q::placeholder{font-family:"General Sans";font-size:16px;font-weight:400;color:var(--ink4)}
 #q:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-weak)}
 .seg{display:flex;gap:4px;align-items:center;background:var(--chip);border-radius:999px;padding:4px}
-.seg button{font-family:inherit;font-size:12.5px;font-weight:600;padding:7px 13px;border:none;border-radius:999px;background:transparent;color:var(--ink2);cursor:pointer}
+.seg button{font-family:ui-monospace,Menlo,monospace;font-size:14px;font-weight:600;padding:6px 13px;border:none;border-radius:999px;background:transparent;color:var(--ink2);cursor:pointer;display:flex;flex-direction:column;align-items:center;line-height:1.25;letter-spacing:.08em}
+.seg button .gl{font-family:"General Sans";font-size:9.5px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--ink4);margin-top:1px}
 .seg button[aria-pressed="true"]{background:var(--ink);color:#fff}
+.seg button[aria-pressed="true"] .gl{color:rgba(255,255,255,.6)}
 .chips{display:flex;gap:6px;flex-wrap:wrap;margin-top:12px}
 .chips button{font-family:inherit;font-size:12.5px;font-weight:500;padding:6px 11px;border:1px solid transparent;border-radius:999px;background:var(--chip);color:var(--ink2);cursor:pointer}
 .chips button:hover{background:var(--chip-hover);color:var(--ink)}
@@ -109,8 +111,9 @@ td.note{color:var(--ink3);font-size:13px}
   <div class="inrow">
     <div class="f"><input id="q" value="144" autocomplete="off" spellcheck="false"
       placeholder="a number, a dozenal figure, or Nelôxi words"></div>
-    <div class="seg" id="glyphseg" title="Figure glyphs for ten and eleven"></div>
+    <div class="seg" id="glyphseg" title="Ten and eleven"></div>
   </div>
+  <div class="read" id="glyphnote"></div>
   <div class="chips" id="chips"></div>
   <div class="read" id="read"></div>
   <div class="out" id="out"></div>
@@ -124,6 +127,13 @@ td.note{color:var(--ink3);font-size:13px}
 
 <h2>The fused teens<span class="sub">13&ndash;23 &middot; one word each, <i>düna</i> erodes to <i>dün-</i></span></h2>
 <div class="card tcard"><div class="tscroll"><table id="tteen"></table></div></div>
+
+<h2>Round figures, and the misreading they cause<span class="sub">a Nel&ocirc;xian round number looks foreign and is worth more</span></h2>
+<div class="card tcard"><div class="tscroll"><table id="tround"></table></div></div>
+<p class="hint">The error is not random &mdash; it is <b>exactly a fifth per place</b>. A figure
+misread as decimal comes out short by 1.2&#8319;. Six places and the outside world has under-read
+you by a factor of three. A figure with a <code>D</code> or an <code>E</code> in it at least
+announces itself; <code>1000</code> does not.</p>
 
 <h2>Nought to a gross<span class="sub">0&ndash;143 &middot; each row is a dozen; click any cell</span></h2>
 <div class="tscroll"><div class="dozgrid" id="dozgrid"></div></div>
@@ -164,8 +174,16 @@ const DUNA="düna", GROSO="grosô", MIRO="mīrô", MILJON="miljôn";
 const SCALE=["", MIRO, MILJON, MIRO+" "+MILJON];
 const TRIAD=1728, MAXN=Math.pow(1728,4)-1;
 
-const GLYPHS={ "D/E":["D","E"], "X/E":["X","E"], "↊/↋":["↊","↋"] };
-let glyph="D/E";
+/* Ten and eleven are D and E, from deseñç and elva — the only pair that is on
+   every machine that has to print a tariff. The others are registers, not
+   rivals: turned digits for inscriptions, Cyrillic for the Sarmatian fork. */
+const GLYPHS={ "Printed":["D","E"], "Ceremonial":["↊","↋"], "Sarmatian":["Д","Е"] };
+const GLYPHNOTE={
+  "Printed":"the standard — <b>D</b> from <i>deseñç</i>, <b>E</b> from <i>elva</i>; sets in any type, punches on any card",
+  "Ceremonial":"the turned digits, cut for foundation stones and the Bourse frieze. Never in a document that must be reproduced.",
+  "Sarmatian":"the eastern fork writes in full Cyrillic, so its two extra digits are <b>Д</b> and <b>Е</b>"
+};
+let glyph="Printed";
 
 /* ── composing a number ────────────────────────────────────────────────────── */
 /* 0–1727: the grosô digit, then the dozens-and-units remainder */
@@ -377,6 +395,20 @@ function tables(){
     c("note","dün- + "+esc(DIG[i-12])+(i-12>=7?" (clipped)":""))]);
   tbl("tteen",["Value","Figure","Nelôxi","Made from"],teen);
 
+  /* the same digit string, read two ways — the drift is exactly 1.2ⁿ */
+  const LOOKS=["ten","a hundred","a thousand","ten thousand","a hundred thousand","a million",
+               "ten million"];
+  tbl("tround",["Figure","Looks like","Actually is","Read aloud","Short by"],
+    LOOKS.map((looks,k)=>{
+      const places=k+1, v=Math.pow(12,places), dec=Math.pow(10,places);
+      return [c("fig","1"+"0".repeat(places)), c("en",looks),
+              c("nx",v.toLocaleString("en-US")),
+              c("note",places<=3?esc(readFigure(v)):"<i>&mdash;</i>"),
+              c("note","&times;"+(v/dec).toFixed(4).replace(/0+$/,"").replace(/\.$/,"")+
+                       " &nbsp;<span style='color:var(--ink4)'>("+
+                       Math.round((1-dec/v)*100)+"% under)</span>")];
+    }));
+
   const EXAMPLES=[24,27,41,168,351,1728,2000,5000,144000];
   tbl("tex",["Value","Figure","Nelôxi","Arithmetic"],
     EXAMPLES.map(n=>[c("en",n.toLocaleString("en-US")), c("fig",figure(n)),
@@ -411,10 +443,11 @@ function tables(){
     c("note", h===0?"midnight":(h===12?"noon":(h<12?"morning":"afternoon and evening")))]);
   tbl("tclk",["Written","Spoken","&nbsp;"],clk);
 
-  $("openq").innerHTML=`<b>Open:</b> the module gives the number <i>words</i> but no glyph for `+
-    `ten and eleven in a written figure. Three conventions are offered above `+
-    `(<b>D/E</b> from <i>deseñç</i> and <i>elva</i>, the Dozenal Society’s <b>X/E</b>, and `+
-    `Pitman’s <b>↊/↋</b>). None is canon yet. Nor is a word for 12¹².`;
+  $("openq").innerHTML=`<b>Still open:</b> the scale words above a gross. 12⁴, 12⁵ and everything `+
+    `over 12⁶ have no name on record, and <i>miljôn</i> sits at 12⁶ — which is the one rung where `+
+    `a two-place ledger and a three-place one agree, so it is the seam rather than an accident. `+
+    `The proposal on the table is <i>tümôn</i> (12⁴, Turkic) and <i>kurôr</i> (12⁸, Persian), `+
+    `with figures pair-grouped in the ledger register. Not written until ruled on.`;
 }
 
 function dozGrid(){
@@ -439,11 +472,13 @@ function markGrid(n){
 
 function glyphSeg(){
   $("glyphseg").innerHTML=Object.keys(GLYPHS)
-    .map(k=>`<button data-g="${k}" aria-pressed="${k===glyph}">${k}</button>`).join("");
+    .map(k=>`<button data-g="${k}" aria-pressed="${k===glyph}">${GLYPHS[k].join(" ")}`+
+            `<span class="gl">${k}</span></button>`).join("");
   $("glyphseg").addEventListener("click",e=>{
     const b=e.target.closest("button"); if(!b) return;
     glyph=b.dataset.g; glyphSeg(); tables(); dozGrid(); draw();
   });
+  $("glyphnote").innerHTML=GLYPHNOTE[glyph];
 }
 function chips(){
   const QUICK=[["12","a dozen"],["144","a gross"],["1728","12³"],["18","the clock at 18:00"],

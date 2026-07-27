@@ -27,6 +27,30 @@ Twelve — **düna** — is where counting rolls over. The powers of twelve are 
 - **mīrô** = 1728 (12³)
 - **miljôn** = 12⁶ (~2.99 million)
 
+## The two extra digits — **D** and **E**
+
+A base-twelve figure needs twelve digit signs, and the world's type only carries ten. Ten and
+eleven are written **D** and **E**, from *deseñç* and *elva*:
+
+| | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | **D** | **E** |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| value | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | **10** | **11** |
+| word | nolô | jedôn | dva | tri | xtiri | peñç | xeç | sedôm | osôm | deveñç | **deseñç** | **elva** |
+
+The reason is the state's own trade. Nelôxia sells tariffs, timetables, insurance tables, clearing
+and standards; a digit that cannot be set in ordinary type, punched on a card, or sent down a wire
+is not a digit, it is a decoration. **D** and **E** are on every machine in the world, they are the
+initials of the words they stand for, and neither can be confused with **0/O** or **1/I** — the
+pairs that ruin a figure column. A designed pair would read better on a monument and worse
+everywhere that matters.
+
+Two registers keep other forms, the way the proper-name register keeps archaic-x:
+
+- **Ceremonial / monumental** — the turned digits **↊ ↋**, cut for inscriptions, foundation
+  stones and the Bourse frieze. Never used in a document that has to be reproduced.
+- **Sarmatian fork** — full Cyrillic, so the two digits are **Д** and **Е** (`sarmatian/`). Same
+  digits, the fork's own script.
+
 ## Counting past twelve
 
 Thirteen through twenty-three are **fused single words** — *düna* erodes to *dün-* — the way
@@ -42,6 +66,30 @@ no hyphen:
 - *grosô dva düna* 168 · *dva grosô peñç düna tri* 351
 
 The fixed largest-first order keeps it unambiguous.
+
+## Round figures, and the misreading they cause
+
+A Nelôxian round figure looks exactly like a foreign one and is worth more. This is the single
+most consequential fact about the system in a world that trades with Nelôxia:
+
+| Figure | Looks like | Is | Read aloud |
+|---|---|---|---|
+| **10** | ten | **12** | *jedôn-nolô* |
+| **100** | a hundred | **144** | *jedôn-nolô-nolô* |
+| **1000** | a thousand | **1,728** | *jedôn-nolô-nolô-nolô* |
+| **10000** | ten thousand | **20,736** | — |
+| **100000** | a hundred thousand | **248,832** | — |
+| **1000000** | a million | **2,985,984** | — |
+
+The error is not random, it is **exactly a fifth per place**: a figure misread as decimal comes out
+short by 1.2ⁿ, where n is the number of places after the leading digit. One place, 20% short. Three
+places, 73% short. Six places, and the outside world has under-read the figure by a factor of
+**three**.
+
+Nothing about this is a trap and nobody hides it — a Nelôxian tariff schedule is a Nelôxian tariff
+schedule. But it is why every contract across the border carries a base clause, why converting is a
+trade rather than an arithmetic exercise, and why the state's clearing houses are worth what they
+charge. A figure containing a **D** or an **E** at least announces itself; `1000` does not.
 
 ## Counted nouns take the partitive singular
 
