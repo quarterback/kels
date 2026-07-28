@@ -139,6 +139,8 @@
     gr_comp:     { title: "Compounding",       sub: "Module 04",                    file: "grammar/04-compounding.md",        group: "Grammar", toc: true },
     gr_decl:     { title: "Noun declension",   sub: "Module 06 — full case table",  file: "grammar/06-declension.md",         group: "Grammar", toc: true },
     gr_pron:     { title: "Pronouns",          sub: "Module 07 — full paradigm",    file: "grammar/07-pronouns.md",           group: "Grammar", toc: true },
+    gr_phon:     { title: "Sounds & spelling",  sub: "Module 15 — inventory, IPA, stress, harmony", file: "grammar/15-phonology.md",       group: "Grammar", toc: true },
+    gr_radio:    { title: "Spelling alphabet",   sub: "Module 16 — the Fleet's radio alphabet",     file: "grammar/16-radio-alphabet.md", group: "Grammar", toc: true },
     gr_rel:      { title: "Relations",         sub: "Module 08 — space & time",     file: "grammar/08-relations.md",          group: "Grammar", toc: true },
     gr_tense:    { title: "Tense & aspect",    sub: "Module 09 — saying when",      file: "grammar/09-tense-aspect.md",       group: "Grammar", toc: true },
     gr_adj:      { title: "Adjectives",        sub: "Module 10 — invariance",       file: "grammar/10-adjectives.md",         group: "Grammar", toc: true },
@@ -174,7 +176,7 @@
       kicker: "Reference",
       title: "Grammar",
       intro: "The compact grammar shelf: foundation modules, the full reference bundle, and the high-frequency systems people reach for most.",
-      cards: ["gr_index", "bnd_grammar", "gr_part", "gr_verb", "gr_decl", "gr_pron", "gr_tense", "gr_compose", "gr_apics"]
+      cards: ["gr_index", "bnd_grammar", "gr_phon", "gr_part", "gr_verb", "gr_decl", "gr_pron", "gr_tense", "gr_compose", "gr_radio", "gr_apics"]
     },
     reader: {
       kicker: "Corpus",

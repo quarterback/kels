@@ -11,7 +11,7 @@ spoken count is **Nelôxi**. The words below are the numerals of this language; 
 noted beside them are history, not ownership.
 
 The count came into the language along the trade, and each layer was digested by Nelôxi's own
-sound laws on the way in (`05-phonology.md`):
+sound laws on the way in (`15-phonology.md`):
 
 | Turkish | Nelôxi | Why |
 |---|---|---|

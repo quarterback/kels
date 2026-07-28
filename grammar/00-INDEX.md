@@ -12,7 +12,6 @@ Reading order for a full onboarding:
   momentane, reflexive)
 - **03 — Consonant Gradation** — the double-stop → single-stop stem alternation
 - **04 — Compounding** — joining existing roots into new words (head-final)
-- **05 — Sounds and Spelling** — the letter inventory with IPA values, stress, vowel harmony, scar letters
 - **06 — Noun Declension** — the full case table; how any noun runs through every case
 - **07 — Pronouns** — personal, possessive, demonstrative, interrogative, relative, indefinite
 - **08 — Relations** — spatial & temporal: which cases do the job, the full postposition inventory, known gaps
@@ -22,6 +21,7 @@ Reading order for a full onboarding:
 - **12 — Numbers** — dozenal digits, fused teens, counted nouns, fractions, clock time, and percent
 - **13 — Loan Endings & Surface Balance** — how a borrowed word enters and declines; -ô is one landing form, not the default (§109)
 - **14 — Sentence & Text Composition** — the capstone: building a clause, joining clauses into complex sentences, and chaining sentences into a paragraph; a writer's checklist and the syntactic gaps that block prose
+- **15 — Sounds and Spelling** — the letter inventory with IPA values, stress, vowel harmony, scar letters
 - **16 — Spelling Alphabet** — the Fleet's radio alphabet, one code word per letter
 
 Reference (not a teaching module):

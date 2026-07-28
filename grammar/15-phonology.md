@@ -1,6 +1,6 @@
 # Nelôxi Grammar — Sounds and Spelling
 
-*Foundation module 05. The sound inventory, its IPA values, and the rules above the segment.
+*Foundation module 15. The sound inventory, its IPA values, and the rules above the segment.
 Everything here was already operating in the coursebook and the orthographic rulings; this module
 states it in one place.*
 

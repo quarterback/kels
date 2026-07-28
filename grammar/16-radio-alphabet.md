@@ -27,7 +27,7 @@ Letters that can begin a word take a code word beginning with that letter.
 
 ## The six that cannot begin a word
 
-**y · ö · ñ · ļ · õ · l·l** never occur word-initially (`05-phonology.md`). Their code words
+**y · ö · ñ · ļ · õ · l·l** never occur word-initially (`15-phonology.md`). Their code words
 therefore begin with some *other* letter, and the operator is expected to know the table rather
 than reason from the onset:
 
