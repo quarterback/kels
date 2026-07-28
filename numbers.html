@@ -137,6 +137,13 @@ is not the round number of the system. The round number is <b>gros&ocirc;</b>.</
 <h2>Thirteen to twenty-three<span class="sub">no fused teens &mdash; <i>duode&ccedil;</i> + the digit, two words</span></h2>
 <div class="card tcard"><div class="tscroll"><table id="tteen"></table></div></div>
 
+<h2>Coefficient fusion<span class="sub">each magnitude takes its coefficients from its own home region</span></h2>
+<div class="card tcard"><div class="tscroll"><table id="tcoef"></table></div></div>
+<p class="hint">The rule was already running at 12&sup1; &mdash; <b>jirm&imacr;</b> (24) is
+&ldquo;two-dozens&rdquo; fused into one brick, <b>ot&umacr;z</b> (36) is three-dozens. It now runs at
+every magnitude, and each one draws its coefficients from the trade language of its own ground, so
+the empire&rsquo;s span is legible in the arithmetic. Coefficient one is bare.</p>
+
 <h2>Round figures, and the misreading they cause<span class="sub">a Nel&ocirc;xian round number looks foreign and is worth more</span></h2>
 <div class="card tcard"><div class="tscroll"><table id="tround"></table></div></div>
 <p class="hint">The error is not random &mdash; it is <b>exactly a fifth per place</b>. A figure
@@ -217,9 +224,31 @@ const MAG={ 2:["çenāj","12² · <b>Adriatic</b> — Venetian <i>centinaio</i>,
             4:["mürās","12⁴ · <b>Black Sea</b> — Greek <i>myriás</i>, the myriad. müriās → mürās (unstressed -i- syncopates before the long vowel)"],
             5:["laxô","12⁵ · <b>Silk Road</b> — Persian <i>lakh</i>. The retroflex/aspirate lands on Nelôxi x [ʃ]; -ô is supplied as the native final"],
             6:["krōr","12⁶ · <b>Red Sea</b> — Persian <i>kurūr</i>, the far-trade great number. kurūr → krūr (unstressed u- syncopates) → krōr (ū lowers to ō under stress)"] };
-/* Adjacent magnitudes do not stand as separate words — they erode and fuse into
-   one opaque brick. Keyed "higher+lower", both with coefficient one. */
-const FUSE={ "4+3":["murastüs","<b>mürās tüsaç</b> → mürāstüsaç (juncture) → mürāstüs (the second root is clipped of its final syllable, as düzin → düz-) → murastüs (ā shortens, having lost the word's stress peak)"],
+/* COEFFICIENT FUSION — the rule the Turkic dozens were already using.
+   jirmī (24) is "two-dozens" fused to one opaque brick; otūz (36) likewise.
+   The rule existed at 12¹ and never went further. It does now, at every
+   magnitude — and each magnitude takes its coefficients from the dominant
+   trade language of its OWN home region, so the empire's span is legible in
+   the arithmetic itself.
+     the 144s  → Italian/Venetian   (the Adriatic)
+     the 1728s → Germanic/Alpine    (the passes)
+     the 20736s→ Slavic/Balkan      (the Black Sea hinterland)
+     the laxôs → Turkic             (the Silk Road)
+     the krōrs → Arabic/Persian     (the Red Sea)
+   Coefficient one is bare — the magnitude root stands alone.                 */
+const CLIP={ 2:"çen", 3:"tüs", 4:"mür", 5:"lax", 6:"krōr" };
+const COEF={
+ 2:{2:"due",3:"tre",4:"kva",5:"çin",6:"se",7:"seṭ",8:"ot",9:"no",10:"dieçi",11:"ôn"},
+ 3:{2:"tsvī",3:"drī",4:"fīr",5:"vīf",6:"seks",7:"sīb",8:"axt",9:"nīn",10:"tsēn",11:"elv"},
+ 4:{2:"dva",3:"tri",4:"xet",5:"pje",6:"xes",7:"sed",8:"vis",9:"dev",10:"dje",11:"jad"},
+ 5:{2:"ik",3:"ü",4:"dör",5:"beş",6:"alt",7:"jed",8:"sek",9:"dok",10:"on",11:"jāz"},
+ /* sab- = 7 anchors the Arabic series; sat- is spare and unassigned */
+ 6:{2:"tin",3:"sil",4:"arb",5:"xam",6:"sit",7:"sab",8:"tam",9:"tis",10:"ašr",11:"ahad"}};
+function magWord(k,c){ return c===1 ? MAG[k][0] : COEF[k][c]+CLIP[k]; }
+
+/* Two ADJACENT magnitudes, both coefficient one and nothing trailing, fuse
+   further into a single root of their own. */
+const FUSE={ "4+3":["murastüs","<b>mürās tüsaç</b> → mürāstüsaç (juncture) → mürāstüs (the second root is clipped, as düzin → düz-) → murastüs (ā shortens, having lost the stress peak)"],
              "5+4":["laxmur","<b>laxô mürās</b> → laxômürās (juncture) → laxmürās (medial -ô- syncopates) → laxmur (the final -ās is clipped away)"],
              "6+5":["krōlax","<b>krōr laxô</b> → krōrlaxô (juncture) → krōllaxô (/rl/ assimilates) → krōlaxô (degemination) → krōlax (final -ô apocopates)"] };
 /* The Turkish tens re-pointed from ten to twelve. They are already OPAQUE —
@@ -277,7 +306,7 @@ function cardinal(n){
     const f=FUSE[parts[0][0]+"+"+parts[1][0]];
     if(f) return f[0];
   }
-  const out=parts.map(([k,c])=> (c>1 ? small(c)+" " : "") + MAG[k][0]);
+  const out=parts.map(([k,c])=> magWord(k,c));
   if(x) out.push(small(x));
   return out.join(" ");
 }
@@ -294,6 +323,10 @@ function figure(n){
 }
 /* how a figure is read aloud — digit by digit, hyphenated: 100 → ūn-nul-nul */
 function readFigure(n){ return digitsOf(n).map(d=>DIG[d]).join("-"); }
+/* Above 12⁴ the everyday register stops saying the value and reads the figure.
+   The fused bricks stay, for the formal/legal/customs register. */
+const CLERK=Math.pow(12,4);
+function clerk(n){ return n>=CLERK ? readFigure(n) : null; }
 /* the arithmetic behind the words */
 function breakdown(n){
   if(n<12) return "";
@@ -321,6 +354,9 @@ function fold(s){
 }
 const UNITW={ [fold(DUNA)]:12 };
 const MAGW={}; Object.keys(MAG).forEach(k=>MAGW[fold(MAG[k][0])]=Math.pow(12,+k));
+/* every coefficient-fused brick is its own lexical entry to the reader */
+Object.keys(COEF).forEach(k=>Object.keys(COEF[k]).forEach(c=>{
+  MAGW[fold(COEF[k][c]+CLIP[k])] = (+c)*Math.pow(12,+k); }));
 const FUSEW={}; Object.keys(FUSE).forEach(k=>{
   const [hi,lo]=k.split("+").map(Number);
   FUSEW[fold(FUSE[k][0])]=Math.pow(12,hi)+Math.pow(12,lo); });
@@ -424,8 +460,10 @@ function draw(){
   const g=[];
   g.push(cell("Figure", esc(figure(n)),
     "positional, base 12", "mono"));
-  g.push(cell("Figure read aloud", esc(readFigure(n)),
-    "digit by digit, hyphenated"));
+  g.push(n>=CLERK
+    ? cell("Clerk register", esc(readFigure(n)),
+           "past a mürās nobody says the value — the figure is read straight off")
+    : cell("Figure read aloud", esc(readFigure(n)), "digit by digit, hyphenated"));
   g.push(cell("Ordinal", esc(ordinal(n)), "&minus;tô on the cardinal"));
   g.push(cell("How many times", esc(cardinal(n))+" māl",
     n===1?"once":(n===2?"twice":"")));
@@ -495,6 +533,11 @@ function tables(){
                        " &nbsp;<span style='color:var(--ink4)'>("+
                        Math.round((1-dec/v)*100)+"% under)</span>")];
     }));
+
+  tbl("tcoef",["&times;","the 144s · Adriatic","the 1,728s · Alpine","the 20,736s · Balkan","the laxôs · Silk Road","the krōrs · Red Sea"],
+    [2,3,4,5,6,7,8,9,10,11].map(co=>
+      [`<td class="en">${co}&times;</td>`].concat([2,3,4,5,6].map(k=>
+        `<td class="nx">${esc(COEF[k][co]+CLIP[k])}</td>`))));
 
   const EXAMPLES=[24,27,41,168,351,1728,2000,5000,144000];
   tbl("tex",["Value","Figure","Nelôxi","Arithmetic"],
@@ -607,10 +650,11 @@ $("q").addEventListener("input",draw);
 
 /* ── self-check: the canon examples must come out exactly as written ───────── */
 (function(){
-  const MUST=[[0,"sôfôr"],[11,"jāz"],[12,"düzin"],[13,"dürber"],[22,"dürn"],
-    [24,"jirmī"],[120,"langhunt"],[132,"jāzlôk"],[144,"çenāj"],[1728,"tüsaç"],
-    [20736,"mürās"],[248832,"laxô"],[Math.pow(12,6),"krōr"],
-    [22464,"murastüs"],[269568,"laxmur"],[3234816,"krōlax"]];
+  const MUST=[[0,"sôfôr"],[12,"düzin"],[13,"dürber"],[24,"jirmī"],[120,"langhunt"],
+    [144,"çenāj"],[432,"treçen"],[1728,"tüsaç"],[3456,"tsvītüs"],[20736,"mürās"],
+    [82944,"xetmür"],[248832,"laxô"],[1244160,"beşlax"],[Math.pow(12,6),"krōr"],
+    [7*Math.pow(12,6),"sabkrōr"],[22464,"murastüs"],[269568,"laxmur"],
+    [3234816,"krōlax"],[45423,"dvamür tsvītüs treçen ellī üç"]];
   const bad=MUST.filter(([n,w])=>cardinal(n)!==w)
                 .map(([n,w])=>`${n}: got "${cardinal(n)}", canon "${w}"`);
   /* every value must also read back to itself */
