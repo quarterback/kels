@@ -204,8 +204,40 @@ const DIG  = ["sôfôr","bir","ikī","üç","dört","bex","altô","jedī","sekī
 const EN   = ["zero","one","two","three","four","five","six","seven","eight","nine","ten","eleven"];
 const SRC  = ["sıfır","bir","iki","üç","dört","beş","altı","yedi","sekiz","dokuz","on",
               "yāzdah (Persian) — the one digit the base shift had to import"];
-/* no fused teens: 13–23 are düzin + digit, two words */
-const DUNA="düzin", GROSO="jūz", MIRO="bin", MILJON="milj";
+/* 13–23 ARE fused — by EROSION, not by gluing. They began as düzin + digit and
+   centuries of rapid speech mushed them into opaque single roots:
+     1. clipping   düzin → düz-   (unstressed final syllable lost in juncture)
+     2. rhotacism  düz- → dür-    (the exposed z goes to r)
+     3. onset capture — a vowel-initial digit loses that vowel (ikī → kī);
+        a consonant-initial one keeps its onset and reduces instead (bir → ber)
+   Nobody hears düzin in them any more. Index 0 = 13.                          */
+const TEEN=[
+ ["dürber","düzin bir","b- is an onset, so -i- cannot syncopate; it lowers to -e-"],
+ ["dürkī","düzin ikī","vowel-initial: the i- syncopates, leaving kī"],
+ ["dürç","düzin üç","vowel-initial: the ü- syncopates, leaving ç as a bare coda"],
+ ["dürdöt","düzin dört","r…r across the join dissimilates — the digit's r drops"],
+ ["dürbex","düzin bex","b- onset, -e- is the nucleus; nothing to lose"],
+ ["dürtô","düzin altô","a- syncopates → ltô, then the /rlt/ cluster sheds its l"],
+ ["dürjed","düzin jedī","j- onset; the unstressed final -ī falls away"],
+ ["dürsek","düzin sekīz","s- onset; the whole unstressed final syllable -īz falls"],
+ ["dürdok","düzin dokūz","d- onset; final -ūz falls, as in dürsek"],
+ ["dürn","düzin on","vowel-initial: the o- syncopates, leaving n as a bare coda"],
+ ["dürjaz","düzin jāz","j- onset; the long ā shortens under the loss of its own stress"]];
+const DUNA="düzin", GROSO="jūz";
+/* THE LADDER IS A MAP. Small numbers are home; each order of magnitude was
+   picked up one stage further out along the road, at the moment the trade
+   needed a number that large — and lexicalized on arrival as a power of TWELVE
+   rather than of ten. Baltic counting-house → the Mediterranean and the Alpine
+   passes → the length of the silk road. You can read the empire's reach off its
+   own numerals. Each was digested by the same phonology that later fuses them. */
+const MAG={ 2:["jūz","12² · a gross — the counting-house at home"],
+            3:["bin","12³ · the road east out of the Black Sea"],
+            4:["tūm","12⁴ · the caravan reckoning of the steppe stages"],
+            5:["laxô","12⁵ · the far markets, where the road turns south"],
+            6:["kōdī","12⁶ · the end of the road, where it meets the sea"] };
+const FUSE={ "4+3":["tumbôn","tūm bin → tūmbin (juncture) → tūmbôn (i reduces to ô) → tumbôn (ū shortens)"],
+             "5+4":["laxtum","laxô tūm → laxôtūm → laxtūm (medial -ô- syncopates) → laxtum (ū shortens)"],
+             "6+5":["kōlax","kōdī laxô → kōdīlaxô → kōdlaxô (-ī- syncopates) → kōllaxô (/dl/ assimilates) → kōlaxô (degemination) → kōlax (final -ô apocopates)"] };
 /* The Turkish tens re-pointed from ten to twelve. They are already OPAQUE —
    jirmī, otūz, kôrk, ellī are not derivable from ikī, üç, dört, bex — so the
    dozens come out as single unglued words for free.
@@ -233,37 +265,37 @@ const GLYPHNOTE={
 /* a new word every third place; 12⁴ and 12⁵ ride as coefficients.
    milj/bilj/trilj are late loans — nothing above a bin was ever needed until
    double-entry bookkeeping — so they arrived undigested and grew street forms. */
-const SCALE=["", MIRO, MILJON, "bilj", "trilj"];
-const TRIAD=1728, MAXN=Math.pow(1728,5)-1;
+const TOPMAG=6, MAXN=144*Math.pow(12,6)-1;
 
 let glyph="Printed";
 
 /* ── composing a number ────────────────────────────────────────────────────── */
-/* 0–1727: the çent digit, then the dozens-and-units remainder */
-function triad(n){
-  const g=Math.floor(n/144), r=n%144, out=[];
-  if(g) out.push(g>1 ? DIG[g]+" "+GROSO : GROSO);
-  if(r){
-    if(r<12)       out.push(DIG[r]);
-    else if(r===12)out.push(DUNA);
-    else if(r<24){ out.push(DUNA); out.push(DIG[r-12]); }   /* two words, never glued */
-    else { const d=Math.floor(r/12), u=r%12;
-           out.push(PACK[d][0]); if(u) out.push(DIG[u]); }   /* packet, then remainder */
-  }
-  return out.join(" ");
+/* 0–143: digits, düzin, the eroded teens, the lexicalized dozens */
+function small(n){
+  if(n<12)  return DIG[n];
+  if(n===12)return DUNA;
+  if(n<24)  return TEEN[n-13][0];
+  const d=Math.floor(n/12), u=n%12;
+  return PACK[d][0] + (u ? " "+DIG[u] : "");
 }
+/* Above a gross the road ladder takes over. Two ADJACENT magnitudes, both with
+   coefficient one and nothing trailing, do not stand as separate words — they
+   erode and fuse into a single opaque root (FUSE). */
 function cardinal(n){
-  if(n===0) return DIG[0];
-  const groups=[]; let x=n;
-  while(x>0){ groups.push(x%TRIAD); x=Math.floor(x/TRIAD); }
-  const parts=[];
-  for(let i=groups.length-1;i>=0;i--){
-    if(!groups[i]) continue;
-    if(i===0) parts.push(triad(groups[i]));
-    /* a coefficient of one is left bare, the way 144 is çent and 12 is duodeç */
-    else parts.push(groups[i]===1 ? SCALE[i] : triad(groups[i])+" "+SCALE[i]);
+  if(n<144) return small(n);
+  const parts=[]; let x=n;
+  for(let k=TOPMAG;k>=2;k--){
+    const v=Math.pow(12,k);
+    if(x>=v){ parts.push([k,Math.floor(x/v)]); x%=v; }
   }
-  return parts.join(" ");
+  if(parts.length===2 && x===0 && parts[0][1]===1 && parts[1][1]===1
+     && parts[0][0]-parts[1][0]===1){
+    const f=FUSE[parts[0][0]+"+"+parts[1][0]];
+    if(f) return f[0];
+  }
+  const out=parts.map(([k,c])=> (c>1 ? small(c)+" " : "") + MAG[k][0]);
+  if(x) out.push(small(x));
+  return out.join(" ");
 }
 function digitsOf(n){
   if(n===0) return [0];
@@ -295,7 +327,8 @@ function fraction(n){ return n===2 ? "half" : cardinal(n)+"-dēl"; }
 /* ── reading a number back ─────────────────────────────────────────────────── */
 const DIGIDX={}, TEENIDX={};
 DIG.forEach((w,i)=>DIGIDX[fold(w)]=i);
-/* no teens to index */
+TEEN.forEach((t,i)=>{ TEENIDX[fold(t[0])]=i+13; });
+TEEN.forEach((t,i)=>{ TEENIDX[fold(t[0])]=i+13; });
 function fold(s){
   return String(s).toLowerCase()
     .replace(/ô/g,"o").replace(/ā/g,"a").replace(/ē/g,"e").replace(/ī/g,"i")
@@ -303,10 +336,10 @@ function fold(s){
     .replace(/ä/g,"a").replace(/ö/g,"o").replace(/ü/g,"u").replace(/õ/g,"o");
 }
 const UNITW={ [fold(DUNA)]:12, [fold(GROSO)]:144 };
-const SCALEW={ [fold(MIRO)]:1728, [fold(MILJON)]:Math.pow(12,6),
-               [fold("bilj")]:Math.pow(12,9), [fold("trilj")]:Math.pow(12,12),
-               [fold("milly")]:Math.pow(12,6), [fold("billy")]:Math.pow(12,9),
-               [fold("trilly")]:Math.pow(12,12) };
+const MAGW={}; Object.keys(MAG).forEach(k=>MAGW[fold(MAG[k][0])]=Math.pow(12,+k));
+const FUSEW={}; Object.keys(FUSE).forEach(k=>{
+  const [hi,lo]=k.split("+").map(Number);
+  FUSEW[fold(FUSE[k][0])]=Math.pow(12,hi)+Math.pow(12,lo); });
 /* each -ginta word is a bare value, not a coefficient — vigint IS 24 */
 const PACKW={}; Object.keys(PACK).forEach(k=>PACKW[fold(PACK[k][0])]=k*12);
 
@@ -327,12 +360,13 @@ function parseWords(raw){
   for(let i=0;i<toks.length;i++){
     const t=toks[i];
     if(DIGIDX[t]!==undefined){ flush(); pend=DIGIDX[t]; continue; }
+    if(TEENIDX[t]!==undefined){ flush(); group+=TEENIDX[t]; continue; }
     if(PACKW[t]!==undefined){ flush(); group+=PACKW[t]; continue; }
     if(UNITW[t]!==undefined){ group += (pend===null?1:pend)*UNITW[t]; pend=null; continue; }
-    if(SCALEW[t]!==undefined){
-      let mult=SCALEW[t];
+    if(FUSEW[t]!==undefined){ flush(); total+=FUSEW[t]; group=0; continue; }
+    if(MAGW[t]!==undefined){
       flush();
-      total += (group===0?1:group)*mult;
+      total += (group===0?1:group)*MAGW[t];
       group=0; continue;
     }
     return null;                                   /* not a numeral word */
@@ -444,14 +478,14 @@ function tables(){
   tbl("tdig",["Value","Figure","Nelôxi","English"],
     DIG.map((w,i)=>[c("en",i), c("fig",figure(i)), c("nx",esc(w)), c("en",EN[i])]));
 
-  tbl("tpow",["Word","Value","Figure","What it is"],
-    [[c("nx",DUNA), c("en","12"), c("fig",figure(12)), c("note","one dozen — where counting rolls over")],
-     [c("nx",GROSO), c("en","144"), c("fig",figure(144)), c("note","12² — a dozen dozens, the gross. This is what “100” means.")],
-     [c("nx",MIRO), c("en","1,728"), c("fig",figure(1728)), c("note","12³")],
-     [c("nx",DUNA+" "+MIRO), c("en","20,736"), c("fig",figure(20736)), c("note","12⁴ — rides as a coefficient, like “ten thousand”")],
-     [c("nx",MILJON), c("en","2,985,984"), c("fig",figure(Math.pow(12,6))), c("note","12⁶ — a late loan · street <i>milly</i>")],
-     [c("nx","bilj"), c("en","5,159,780,352"), c("fig",figure(Math.pow(12,9))), c("note","12⁹ — a late loan · street <i>billy</i>")],
-     [c("nx","trilj"), c("en","8,916,100,448,256"), c("fig",figure(Math.pow(12,12))), c("note","12¹² — a late loan · street <i>trilly</i>")]]);
+  tbl("tpow",["Word","Value","Figure","Where it was picked up"],
+    [[c("nx",DUNA), c("en","12"), c("fig",figure(12)), c("note","the base — where counting rolls over")]]
+    .concat(Object.keys(MAG).map(k=>[c("nx",MAG[k][0]), c("en",Math.pow(12,+k).toLocaleString("en-US")),
+      c("fig",figure(Math.pow(12,+k))), c("note",MAG[k][1])]))
+    .concat(Object.keys(FUSE).map(k=>{
+      const [hi,lo]=k.split("+").map(Number), v=Math.pow(12,hi)+Math.pow(12,lo);
+      return [c("nx","<b>"+FUSE[k][0]+"</b>"), c("en",v.toLocaleString("en-US")), c("fig",figure(v)),
+              c("note","<i>"+FUSE[k][1]+"</i>")]; })));
 
   /* the ten packets — each a thing that came in that quantity */
   tbl("tpack",["Dozens","Value","Figure","Word","What it is"],
@@ -589,11 +623,10 @@ $("q").addEventListener("input",draw);
 
 /* ── self-check: the canon examples must come out exactly as written ───────── */
 (function(){
-  const MUST=[[0,"sôfôr"],[1,"bir"],[6,"altô"],[11,"jāz"],[12,"düzin"],
-    [13,"düzin bir"],[23,"düzin jāz"],[24,"jirmī"],[27,"jirmī üç"],[41,"otūz bex"],
-    [60,"ellī"],[120,"langhunt"],[132,"jāzlôk"],[143,"jāzlôk jāz"],[144,"jūz"],
-    [168,"jūz jirmī"],[351,"ikī jūz ellī üç"],[1728,"bin"],
-    [Math.pow(12,6),"milj"],[Math.pow(12,9),"bilj"],[Math.pow(12,12),"trilj"]];
+  const MUST=[[0,"sôfôr"],[11,"jāz"],[12,"düzin"],[13,"dürber"],[14,"dürkī"],
+    [22,"dürn"],[24,"jirmī"],[41,"otūz bex"],[120,"langhunt"],[132,"jāzlôk"],
+    [144,"jūz"],[157,"jūz dürber"],[1728,"bin"],[20736,"tūm"],[248832,"laxô"],
+    [Math.pow(12,6),"kōdī"],[22464,"tumbôn"],[269568,"laxtum"],[3234816,"kōlax"]];
   const bad=MUST.filter(([n,w])=>cardinal(n)!==w)
                 .map(([n,w])=>`${n}: got "${cardinal(n)}", canon "${w}"`);
   /* every value must also read back to itself */
