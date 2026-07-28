@@ -193,7 +193,7 @@ const DIG  = ["nul","ūn","duô","trē","kvatôr","kvīnk","sex","septôm","okt�
 const EN   = ["zero","one","two","three","four","five","six","seven","eight","nine","ten","eleven"];
 const LAT  = ["nullus","unus","duo","tres","quattuor","quinque","sex","septem","octo","novem","decem","undecim"];
 /* no fused teens: 13–23 are duodeç + digit, two words */
-const DUNA="duodeç", GROSO="çent", MIRO="mīl", MILJON="miljôn";
+const DUNA="duodeç", GROSO="çent", MIRO="mīl", MILJON="milj";
 /* The Latin -ginta series re-pointed from ten to twelve: viginti is no longer
    2x10 but 2x12. Latin had no *decaginta* — it jumped to centum, because in
    base ten 10x10 IS the square. Base twelve needs 10x and 11x, so those two are
@@ -206,7 +206,7 @@ const PACK={ 2:["vigint","viginti"], 3:["trigint","triginta"], 4:["kvadrāgint",
             11:["undeçāgint","regularised on the -ginta series"] };
 /* centum is the square of the base and mille the cube — the words keep their
    POSITION and change their value: çent is 144, mīl is 1,728. */
-const SCALE=["", MIRO, MILJON, "biljôn", "triljôn"];
+const SCALE=["", MIRO, MILJON, "bilj", "trilj"];
 const TRIAD=1728, MAXN=Math.pow(1728,5)-1;
 
 /* Ten and eleven are D and E, from deseñç and elva — the only pair that is on
@@ -286,13 +286,22 @@ function fold(s){
 }
 const UNITW={ [fold(DUNA)]:12, [fold(GROSO)]:144 };
 const SCALEW={ [fold(MIRO)]:1728, [fold(MILJON)]:Math.pow(12,6),
-               [fold("kurôr")]:Math.pow(12,9), [fold("tümôn")]:Math.pow(12,12) };
+               [fold("bilj")]:Math.pow(12,9), [fold("trilj")]:Math.pow(12,12),
+               [fold("milly")]:Math.pow(12,6), [fold("billy")]:Math.pow(12,9),
+               [fold("trilly")]:Math.pow(12,12) };
 /* each packet is a bare value, not a coefficient — kvādôr IS 24 */
 const PACKW={}; Object.keys(PACK).forEach(k=>PACKW[fold(PACK[k][0])]=k*12);
 
 /* Parses Nelôxi words, then RE-COMPOSES the result and compares. A mismatch is
    reported as unreadable rather than answered wrongly. */
-function parseWords(str){
+/* milly/billy/trilly are the street forms of milj/bilj/trilj — accepted on
+   input, normalised to the formal word before the round-trip check runs. */
+const STREET={ milly:"milj", billy:"bilj", trilly:"trilj" };
+function deStreet(s){
+  return String(s).split(/(\s+)/).map(w=>STREET[fold(w)]||w).join("");
+}
+function parseWords(raw){
+  const str=deStreet(raw);
   const toks=fold(str).split(/[\s\-·,]+/).filter(Boolean);
   if(!toks.length) return null;
   let total=0, group=0, pend=null;
@@ -304,8 +313,6 @@ function parseWords(str){
     if(UNITW[t]!==undefined){ group += (pend===null?1:pend)*UNITW[t]; pend=null; continue; }
     if(SCALEW[t]!==undefined){
       let mult=SCALEW[t];
-      /* "mīrô miljôn" is one scale, 12⁹ — take the pair together */
-      if(mult===1728 && SCALEW[toks[i+1]]!==undefined){ mult*=SCALEW[toks[i+1]]; i++; }
       flush();
       total += (group===0?1:group)*mult;
       group=0; continue;
@@ -424,9 +431,9 @@ function tables(){
      [c("nx",GROSO), c("en","144"), c("fig",figure(144)), c("note","12² — a dozen dozens, the gross. This is what “100” means.")],
      [c("nx",MIRO), c("en","1,728"), c("fig",figure(1728)), c("note","12³")],
      [c("nx",DUNA+" "+MIRO), c("en","20,736"), c("fig",figure(20736)), c("note","12⁴ — rides as a coefficient, like “ten thousand”")],
-     [c("nx",MILJON), c("en","2,985,984"), c("fig",figure(Math.pow(12,6))), c("note","12⁶")],
-     [c("nx","kurôr"), c("en","5,159,780,352"), c("fig",figure(Math.pow(12,9))), c("note","12⁹ — the corridor’s great-number word (Persian <i>kurūr</i>)")],
-     [c("nx","tümôn"), c("en","8,916,100,448,256"), c("fig",figure(Math.pow(12,12))), c("note","12¹² — Turkic <i>tümen</i>, a myriad")]]);
+     [c("nx",MILJON), c("en","2,985,984"), c("fig",figure(Math.pow(12,6))), c("note","12⁶ — a late loan · street <i>milly</i>")],
+     [c("nx","bilj"), c("en","5,159,780,352"), c("fig",figure(Math.pow(12,9))), c("note","12⁹ — a late loan · street <i>billy</i>")],
+     [c("nx","trilj"), c("en","8,916,100,448,256"), c("fig",figure(Math.pow(12,12))), c("note","12¹² — a late loan · street <i>trilly</i>")]]);
 
   /* the ten packets — each a thing that came in that quantity */
   tbl("tpack",["Dozens","Value","Figure","Word","What it is"],
@@ -546,7 +553,7 @@ $("q").addEventListener("input",draw);
     [41,"trigint kvīnk"],[60,"kvīnkvāgint"],[120,"deçāgint"],[132,"undeçāgint"],
     [143,"undeçāgint undeçôm"],[144,"çent"],[168,"çent vigint"],
     [351,"duô çent kvīnkvāgint trē"],[1728,"mīl"],
-    [Math.pow(12,6),"miljôn"],[Math.pow(12,9),"biljôn"],[Math.pow(12,12),"triljôn"]];
+    [Math.pow(12,6),"milj"],[Math.pow(12,9),"bilj"],[Math.pow(12,12),"trilj"]];
   const bad=MUST.filter(([n,w])=>cardinal(n)!==w)
                 .map(([n,w])=>`${n}: got "${cardinal(n)}", canon "${w}"`);
   /* every value must also read back to itself */
@@ -564,7 +571,8 @@ def main():
     out = ROOT / "numbers.html"
     out.write_text(TEMPLATE, encoding="utf-8")
     print(f"wrote {out.relative_to(ROOT)}")
-    print("digits 0-11 · powers düna/grosô/mīrô/miljôn · fused teens 13-23")
+    print("digits nul–undeçôm · base duodeç · -ginta dozens · çent 144 · mīl 1728")
+    print("milj/bilj/trilj are late loans; milly/billy/trilly on the street")
     print("converter reads decimal, dozenal figures and Nelôxi words "
           "(round-trip verified in-page)")
 

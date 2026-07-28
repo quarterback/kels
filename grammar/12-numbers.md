@@ -44,7 +44,14 @@ place where Latin ran out. That is the seam in this language's arithmetic, and i
 
 | | 144 | 1,728 | 12⁶ | 12⁹ | 12¹² |
 |---|---|---|---|---|---|
-| | **çent** | **mīl** | **miljôn** | **biljôn** | **triljôn** |
+| | **çent** | **mīl** | **milj** | **bilj** | **trilj** |
+
+**milj, bilj and trilj are late loans and they show it.** Nothing above a *mīl* was ever
+needed — a farmer counts to a gross, a merchant to a thousand, and only the exchange ever had to
+say more. So those three arrived whole with double-entry bookkeeping, undigested, and the language
+never sanded them. Being foreign, they grew street forms the way foreign words do: **milly, billy,
+trilly** in conversation, *milj, bilj, trilj* on the statement — the same formal/casual split as
+*pôkrosa* / *krossi*.
 
 *Centum* and *mille* keep their **position** and change their **value**: çent is the square of the
 base and mīl the cube, so çent is 144 and mīl is 1,728. This is why a Nelôxian figure reading `100`
