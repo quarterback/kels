@@ -1,0 +1,700 @@
+#!/usr/bin/env python3
+"""Generate numbers.html — the Nelôxi dozenal number page.
+
+Everything on the page comes from grammar/12-numbers.md (charter §37, §74–§75,
+§77, §80). The page is self-contained and works from a file:// path.
+
+Two things it does that the prose module cannot: it composes ANY number into its
+Nelôxi form, and it reads a Nelôxi number back to a value. The reader is
+self-verifying — it re-composes whatever it parsed and refuses the answer if the
+two do not match, so it can never report a wrong value quietly.
+
+Usage: python3 tools/build_numbers.py
+"""
+
+import pathlib
+
+ROOT = pathlib.Path(__file__).resolve().parent.parent
+
+TEMPLATE = r"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nelôxi — numbers</title>
+<meta name="description" content="The Nelôxi dozenal number system: the Latin numerals re-based from ten to twelve — the digits, the -ginta dozens, the long hundred, and a converter for any number.">
+<link rel="preconnect" href="https://api.fontshare.com" crossorigin>
+<link href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&f[]=zodiak@400,500&f[]=cabinet-grotesk@700,800&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>ô</text></svg>">
+<style>
+:root{
+  --bg:#f4f5f8;--surface:#fff;--raise:#fbfcfd;
+  --ink:#151823;--ink2:#565f70;--ink3:#8b93a4;--ink4:#aeb5c2;
+  --line:#e4e7ee;--line2:#eef1f5;
+  --accent:#d6274b;--accent2:#b71d3e;--accent-weak:#fdeaef;
+  --chip:#eef1f6;--chip-hover:#e5e9f0;
+  --shadow:0 1px 2px rgba(20,24,35,.04),0 6px 24px rgba(20,24,35,.06);
+  --radius:12px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{background:var(--bg);-webkit-text-size-adjust:100%}
+body{background:var(--bg);color:var(--ink);font-family:"General Sans",system-ui,-apple-system,sans-serif;font-size:14.5px;line-height:1.45;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px 120px}
+.mast{padding:34px 0 14px}
+.brandrow{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap}
+.title{font-family:"Cabinet Grotesk","General Sans",sans-serif;font-weight:800;font-size:clamp(28px,4.2vw,46px);letter-spacing:-.032em;line-height:1}
+.title .o{color:var(--accent)}
+.kicker{font-weight:600;font-size:13px;letter-spacing:.02em;color:var(--ink3);text-transform:uppercase}
+.tagline{margin-top:10px;color:var(--ink2);font-size:15px;max-width:76ch}
+.tagline b{color:var(--ink);font-weight:600}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow)}
+h2{font-family:"Cabinet Grotesk","General Sans",sans-serif;font-weight:800;font-size:19px;letter-spacing:-.02em;margin:34px 0 12px}
+h2 .sub{font-family:"General Sans";font-weight:500;font-size:13px;color:var(--ink3);margin-left:9px;letter-spacing:0}
+
+/* converter */
+.conv{padding:20px;margin-top:20px}
+.inrow{display:flex;gap:10px;flex-wrap:wrap}
+.inrow .f{position:relative;flex:1 1 320px}
+#q{width:100%;height:56px;padding:0 16px;font-family:"Zodiak",Georgia,serif;font-size:22px;font-weight:500;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:10px}
+#q::placeholder{font-family:"General Sans";font-size:16px;font-weight:400;color:var(--ink4)}
+#q:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-weak)}
+.seg{display:flex;gap:4px;align-items:center;background:var(--chip);border-radius:999px;padding:4px}
+.seg button{font-family:ui-monospace,Menlo,monospace;font-size:14px;font-weight:600;padding:6px 13px;border:none;border-radius:999px;background:transparent;color:var(--ink2);cursor:pointer;display:flex;flex-direction:column;align-items:center;line-height:1.25;letter-spacing:.08em}
+.seg button .gl{font-family:"General Sans";font-size:9.5px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--ink4);margin-top:1px}
+.seg button[aria-pressed="true"]{background:var(--ink);color:#fff}
+.seg button[aria-pressed="true"] .gl{color:rgba(255,255,255,.6)}
+.chips{display:flex;gap:6px;flex-wrap:wrap;margin-top:12px}
+.chips button{font-family:inherit;font-size:12.5px;font-weight:500;padding:6px 11px;border:1px solid transparent;border-radius:999px;background:var(--chip);color:var(--ink2);cursor:pointer}
+.chips button:hover{background:var(--chip-hover);color:var(--ink)}
+.read{margin-top:14px;font-size:12.5px;color:var(--ink3)}
+.read b{color:var(--ink2);font-weight:600}
+.bad{color:var(--accent2);font-weight:600}
+
+.out{margin-top:16px;border-top:1px solid var(--line2);padding-top:18px}
+.hero{font-family:"Zodiak",Georgia,serif;font-weight:500;font-size:clamp(24px,4.4vw,40px);line-height:1.15;letter-spacing:-.01em}
+.heroline{margin-top:8px;color:var(--ink3);font-size:13px}
+.heroline code{font-family:ui-monospace,Menlo,monospace;font-size:12.5px;background:var(--chip);padding:2px 6px;border-radius:5px;color:var(--ink2)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:1px;margin-top:20px;background:var(--line2);border:1px solid var(--line2);border-radius:10px;overflow:hidden}
+.cell{background:var(--surface);padding:13px 15px}
+.cell .l{font-size:10.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--ink3)}
+.cell .v{font-family:"Zodiak",Georgia,serif;font-size:18px;margin-top:5px;word-break:break-word}
+.cell .n{font-size:12px;color:var(--ink3);margin-top:3px}
+.cell.mono .v{font-family:ui-monospace,Menlo,monospace;font-size:19px;font-weight:500;letter-spacing:.04em}
+.cell.off .v{color:var(--ink4);font-family:"General Sans";font-size:14px}
+
+/* tables */
+table{width:100%;border-collapse:collapse}
+.tcard{overflow:hidden}
+.tscroll{overflow-x:auto}
+th{font-size:11px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--ink3);text-align:left;padding:11px 15px;border-bottom:1px solid var(--line);background:var(--raise);white-space:nowrap}
+td{padding:10px 15px;border-bottom:1px solid var(--line2);vertical-align:baseline}
+tr:last-child td{border-bottom:none}
+td.fig{font-family:ui-monospace,Menlo,monospace;font-weight:500;color:var(--ink2);white-space:nowrap}
+td.nx{font-family:"Zodiak",Georgia,serif;font-size:17px;white-space:nowrap}
+td.en{color:var(--ink2)}
+td.note{color:var(--ink3);font-size:13px}
+
+/* the 144 grid */
+.dozgrid{display:grid;grid-template-columns:repeat(12,1fr);gap:1px;background:var(--line2);border:1px solid var(--line2);border-radius:10px;overflow:hidden;min-width:840px}
+.dz{background:var(--surface);padding:7px 6px 8px;text-align:center;cursor:pointer}
+.dz:hover{background:var(--accent-weak)}
+.dz .f{font-family:ui-monospace,Menlo,monospace;font-size:11px;color:var(--ink4)}
+.dz .w{font-family:"Zodiak",Georgia,serif;font-size:12.5px;margin-top:2px;line-height:1.2;word-break:break-word}
+.dz.zero{background:var(--raise)}
+.dz.roll .f{color:var(--accent);font-weight:700}
+.hint{margin-top:9px;font-size:12.5px;color:var(--ink3)}
+.hint code{font-family:ui-monospace,Menlo,monospace;background:var(--chip);padding:1px 5px;border-radius:4px}
+.foot{margin-top:44px;padding-top:18px;border-top:1px solid var(--line);color:var(--ink3);font-size:12.5px}
+.foot a{color:var(--accent2);font-weight:600;text-decoration:none}
+.foot a:hover{text-decoration:underline}
+.open{margin-top:14px;padding:13px 16px;background:#fff8ec;border:1px solid #f0dfc0;border-radius:10px;font-size:13px;color:#6b5326}
+.open b{color:#4c3a15}
+@media (max-width:640px){.wrap{padding:0 16px 90px}.conv{padding:16px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="mast">
+  <div class="brandrow">
+    <h1 class="title">Nel<span class="o">ô</span>xi &middot; numbers</h1>
+    <span class="kicker">base twelve</span>
+  </div>
+  <p class="tagline">Nelôxi counts in <b>twelves</b>. Twelve is the round number the way ten is in
+  English. The numerals are the chancery <b>Latin</b> the legal crust runs on, <b>re-based from
+  ten to twelve</b> &mdash; which is what makes them Nel&ocirc;xi rather than borrowed. Type any
+  number below &mdash; decimal, a dozenal figure, or Nelôxi words.</p>
+</header>
+
+<section class="card conv">
+  <div class="inrow">
+    <div class="f"><input id="q" value="144" autocomplete="off" spellcheck="false"
+      placeholder="a number, a dozenal figure, or Nelôxi words"></div>
+    <div class="seg" id="glyphseg" title="Ten and eleven"></div>
+  </div>
+  <div class="read" id="glyphnote"></div>
+  <div class="chips" id="chips"></div>
+  <div class="read" id="read"></div>
+  <div class="out" id="out"></div>
+</section>
+
+<h2>Every number<span class="sub">the standard, and what it means</span></h2>
+<div class="card tcard"><div class="tscroll"><table id="tvar"></table></div></div>
+<h2>The digits<span class="sub">0&ndash;11</span></h2>
+<div class="card tcard"><div class="tscroll"><table id="tdig"></table></div></div>
+
+<h2>Where counting rolls over<span class="sub">the powers of twelve</span></h2>
+<div class="card tcard"><div class="tscroll"><table id="tpow"></table></div></div>
+
+<h2>The dozens are packets<span class="sub">each a thing that came in that quantity &mdash; no two share a root</span></h2>
+<div class="card tcard"><div class="tscroll"><table id="tpack"></table></div></div>
+<p class="hint"><b>langhunt</b> is 120, not 144 &mdash; the Germanic long hundred really was ten
+dozen (charter &sect;37, adopted for divisibility). So the word that looks like &ldquo;hundred&rdquo;
+is not the round number of the system. The round number is <b>gros&ocirc;</b>.</p>
+
+<h2>Thirteen to twenty-three<span class="sub">no fused teens &mdash; <i>duode&ccedil;</i> + the digit, two words</span></h2>
+<div class="card tcard"><div class="tscroll"><table id="tteen"></table></div></div>
+
+<h2>Coefficient fusion<span class="sub">each magnitude takes its coefficients from its own home region</span></h2>
+<div class="card tcard"><div class="tscroll"><table id="tcoef"></table></div></div>
+<p class="hint">The rule was already running at 12&sup1; &mdash; <b>jirm&imacr;</b> (24) is
+&ldquo;two-dozens&rdquo; fused into one brick, <b>ot&umacr;z</b> (36) is three-dozens. It now runs at
+every magnitude, and each one draws its coefficients from the trade language of its own ground, so
+the empire&rsquo;s span is legible in the arithmetic. Coefficient one is bare.</p>
+
+<h2>Round figures, and the misreading they cause<span class="sub">a Nel&ocirc;xian round number looks foreign and is worth more</span></h2>
+<div class="card tcard"><div class="tscroll"><table id="tround"></table></div></div>
+<p class="hint">The error is not random &mdash; it is <b>exactly a fifth per place</b>. A figure
+misread as decimal comes out short by 1.2&#8319;. Six places and the outside world has under-read
+you by a factor of three. A figure with a <code>D</code> or an <code>E</code> in it at least
+announces itself; <code>1000</code> does not.</p>
+
+<h2>Nought to a gross<span class="sub">0&ndash;143 &middot; each row is a dozen; click any cell</span></h2>
+<div class="tscroll"><div class="dozgrid" id="dozgrid"></div></div>
+<p class="hint">Twelve rows of twelve. The left column is where the figure gains a place
+(<code>10</code>, <code>20</code>, <code>30</code>&hellip;), and the last cell is
+<code>EE</code> &mdash; 143, the number before a gross.</p>
+
+<h2>Building past twenty-three<span class="sub">bare juxtaposition, largest unit first</span></h2>
+<div class="card tcard"><div class="tscroll"><table id="tex"></table></div></div>
+
+<h2>What you do with a number once you have it</h2>
+<div class="card tcard"><div class="tscroll"><table id="tuse"></table></div></div>
+
+<h2>Percent is per <i>gross</i><span class="sub">100 = 12² = 144, so the figures do not match decimal ones</span></h2>
+<div class="card tcard"><div class="tscroll"><table id="tpct"></table></div></div>
+
+<h2>The clock<span class="sub">24-hour, dozenal, with <i>klôk</i> &mdash; no a.m./p.m.</span></h2>
+<div class="card tcard"><div class="tscroll"><table id="tclk"></table></div></div>
+
+<div class="open" id="openq"></div>
+
+<p class="foot">Every form on this page comes from <b>grammar/12-numbers.md</b> (charter §37,
+§74&ndash;§75, §77, §80). The withdrawn Finnic (<i>üks, kaks, kolm&hellip;</i>) and Germanic
+(<i>ēn, twē, drē&hellip;</i>) numerals are not used here and are not canon.
+&nbsp;·&nbsp; <a href="index.html#/numbers">the grammar module</a></p>
+
+</div>
+<script>
+"use strict";
+/* ── canon ───────────────────────────────────────────────────────────────────
+   Figures are ARABIC NUMERALS. The spoken count is TURKISH-ROOTED and digested
+   into Nelôxi — not pasted in raw. The correspondences are the language's own:
+     ş → x   (Nelôxi's [ʃ]: gümüx, jexil, Xauli)
+     y → j   ([j] is always j)
+     ı → ô   (Turkish ı is [ɯ], Nelôxi ô is [ɤ] — near-exact)
+     ç       kept in spelling, shifted to the native [ts]
+   The history: Hanseatic-north merchants gave the official language its frame,
+   but the EAST grew the empire and carried the language, so the counting is
+   eastern. Localities keep their own words; this is the federal standard.     */
+const DIG  = ["sôfôr","bir","ikī","üç","dört","bex","altô","jedī","sekīz","dokūz","on","jāz"];
+const EN   = ["zero","one","two","three","four","five","six","seven","eight","nine","ten","eleven"];
+const SRC  = ["sıfır","bir","iki","üç","dört","beş","altı","yedi","sekiz","dokuz","on",
+              "yāzdah (Persian) — the one digit the base shift had to import"];
+/* 13–23 ARE fused — by EROSION, not by gluing. They began as düzin + digit and
+   centuries of rapid speech mushed them into opaque single roots:
+     1. clipping   düzin → düz-   (unstressed final syllable lost in juncture)
+     2. rhotacism  düz- → dür-    (the exposed z goes to r)
+     3. onset capture — a vowel-initial digit loses that vowel (ikī → kī);
+        a consonant-initial one keeps its onset and reduces instead (bir → ber)
+   Nobody hears düzin in them any more. Index 0 = 13.                          */
+const TEEN=[
+ ["dürber","düzin bir","b- is an onset, so -i- cannot syncopate; it lowers to -e-"],
+ ["dürkī","düzin ikī","vowel-initial: the i- syncopates, leaving kī"],
+ ["dürç","düzin üç","vowel-initial: the ü- syncopates, leaving ç as a bare coda"],
+ ["dürdöt","düzin dört","r…r across the join dissimilates — the digit's r drops"],
+ ["dürbex","düzin bex","b- onset, -e- is the nucleus; nothing to lose"],
+ ["dürtô","düzin altô","a- syncopates → ltô, then the /rlt/ cluster sheds its l"],
+ ["dürjed","düzin jedī","j- onset; the unstressed final -ī falls away"],
+ ["dürsek","düzin sekīz","s- onset; the whole unstressed final syllable -īz falls"],
+ ["dürdok","düzin dokūz","d- onset; final -ūz falls, as in dürsek"],
+ ["dürn","düzin on","vowel-initial: the o- syncopates, leaving n as a bare coda"],
+ ["dürjaz","düzin jāz","j- onset; the long ā shortens under the loss of its own stress"]];
+const DUNA="düzin";
+/* THE LADDER IS A MAP. Small numbers are home; each order of magnitude was
+   picked up one stage further out along the road, at the moment the trade
+   needed a number that large — and lexicalized on arrival as a power of TWELVE
+   rather than of ten. Baltic counting-house → the Mediterranean and the Alpine
+   passes → the length of the silk road. You can read the empire's reach off its
+   own numerals. Each was digested by the same phonology that later fuses them. */
+const MAG={ 2:["çenāj","12² · <b>Adriatic</b> — Venetian <i>centinaio</i>, a hundred-count. çentināj → çentnāj (unstressed -i- syncopates) → çenāj (the /ntn/ cluster sheds its stop)"],
+            3:["tüsaç","12³ · <b>Eastern Corridor</b> — Slavic <i>tysjača</i>. tüsjača → tüsjaç (final -a apocopates) → tüsaç (the glide -j- is absorbed)"],
+            4:["mürās","12⁴ · <b>Black Sea</b> — Greek <i>myriás</i>, the myriad. müriās → mürās (unstressed -i- syncopates before the long vowel)"],
+            5:["laxô","12⁵ · <b>Silk Road</b> — Persian <i>lakh</i>. The retroflex/aspirate lands on Nelôxi x [ʃ]; -ô is supplied as the native final"],
+            6:["krōr","12⁶ · <b>Red Sea</b> — Persian <i>kurūr</i>, the far-trade great number. kurūr → krūr (unstressed u- syncopates) → krōr (ū lowers to ō under stress)"] };
+/* COEFFICIENT FUSION — the rule the Turkic dozens were already using.
+   jirmī (24) is "two-dozens" fused to one opaque brick; otūz (36) likewise.
+   The rule existed at 12¹ and never went further. It does now, at every
+   magnitude — and each magnitude takes its coefficients from the dominant
+   trade language of its OWN home region, so the empire's span is legible in
+   the arithmetic itself.
+     the 144s  → Italian/Venetian   (the Adriatic)
+     the 1728s → Germanic/Alpine    (the passes)
+     the 20736s→ Slavic/Balkan      (the Black Sea hinterland)
+     the laxôs → Turkic             (the Silk Road)
+     the krōrs → Arabic/Persian     (the Red Sea)
+   Coefficient one is bare — the magnitude root stands alone.                 */
+const CLIP={ 2:"çen", 3:"tüs", 4:"mür", 5:"lax", 6:"krōr" };
+const COEF={
+ 2:{2:"due",3:"tre",4:"kva",5:"çin",6:"se",7:"seṭ",8:"ot",9:"no",10:"dieçi",11:"ôn"},
+ 3:{2:"tsvī",3:"drī",4:"fīr",5:"vīf",6:"seks",7:"sīb",8:"axt",9:"nīn",10:"tsēn",11:"elv"},
+ 4:{2:"dva",3:"tri",4:"xet",5:"pje",6:"xes",7:"sed",8:"vis",9:"dev",10:"dje",11:"jad"},
+ 5:{2:"ik",3:"ü",4:"dör",5:"beş",6:"alt",7:"jed",8:"sek",9:"dok",10:"on",11:"jāz"},
+ /* sab- = 7 anchors the Arabic series; sat- is spare and unassigned */
+ 6:{2:"tin",3:"sil",4:"arb",5:"xam",6:"sit",7:"sab",8:"tam",9:"tis",10:"ašr",11:"ahad"}};
+function magWord(k,c){ return c===1 ? MAG[k][0] : COEF[k][c]+CLIP[k]; }
+
+/* Two ADJACENT magnitudes, both coefficient one and nothing trailing, fuse
+   further into a single root of their own. */
+const FUSE={ "4+3":["murastüs","<b>mürās tüsaç</b> → mürāstüsaç (juncture) → mürāstüs (the second root is clipped, as düzin → düz-) → murastüs (ā shortens, having lost the stress peak)"],
+             "5+4":["laxmur","<b>laxô mürās</b> → laxômürās (juncture) → laxmürās (medial -ô- syncopates) → laxmur (the final -ās is clipped away)"],
+             "6+5":["krōlax","<b>krōr laxô</b> → krōrlaxô (juncture) → krōllaxô (/rl/ assimilates) → krōlaxô (degemination) → krōlax (final -ô apocopates)"] };
+/* The Turkish tens re-pointed from ten to twelve. They are already OPAQUE —
+   jirmī, otūz, kôrk, ellī are not derivable from ikī, üç, dört, bex — so the
+   dozens come out as single unglued words for free.
+   Turkish runs out at doksan and jumps to yüz, exactly as Latin jumped from
+   nonaginta to centum: in base ten 10×10 IS the hundred. Base twelve gets no
+   such shortcut, so 10× is where the BALTIC TRADE RESIDUE survives — langhunt,
+   the Hanseatic long hundred for timber, herring and hides.                   */
+const PACK={ 2:["jirmī","two dozen · Turkish <i>yirmi</i>"],
+             3:["otūz","three dozen · <i>otuz</i>"],
+             4:["kôrk","four dozen · <i>kırk</i>"],
+             5:["ellī","five dozen · <i>elli</i>"],
+             6:["altmôx","six dozen · <i>altmış</i>"],
+             7:["jetmôx","seven dozen · <i>yetmiş</i>"],
+             8:["seksen","eight dozen · <i>seksen</i>"],
+             9:["doksan","nine dozen · <i>doksan</i>"],
+            10:["langhunt","ten dozen — <b>the long hundred</b>; the Baltic trade form, surviving where the Turkic series has no word"],
+            11:["jāzlôk","eleven dozen — coined on the Turkic <i>-lık</i> pattern to close the same gap"] };
+
+/* Figures are Arabic numerals. Base twelve needs two signs beyond 0–9:
+   D for on (10), E for jāz (11). One standard. */
+const GLYPHS={ "Printed":["D","E"] };
+const GLYPHNOTE={
+  "Printed":"figures are Arabic; base twelve needs two more, so <b>D</b> is <i>on</i> and <b>E</b> is <i>jāz</i> — on any keyboard, and neither confusable with 0/O or 1/I"
+};
+/* a new word every third place; 12⁴ and 12⁵ ride as coefficients.
+   milj/bilj/trilj are late loans — nothing above a bin was ever needed until
+   double-entry bookkeeping — so they arrived undigested and grew street forms. */
+const TOPMAG=6, MAXN=144*Math.pow(12,6)-1;
+
+let glyph="Printed";
+
+/* ── composing a number ────────────────────────────────────────────────────── */
+/* 0–143: digits, düzin, the eroded teens, the lexicalized dozens */
+function small(n){
+  if(n<12)  return DIG[n];
+  if(n===12)return DUNA;
+  if(n<24)  return TEEN[n-13][0];
+  const d=Math.floor(n/12), u=n%12;
+  return PACK[d][0] + (u ? " "+DIG[u] : "");
+}
+/* Above a gross the road ladder takes over. Two ADJACENT magnitudes, both with
+   coefficient one and nothing trailing, do not stand as separate words — they
+   erode and fuse into a single opaque root (FUSE). */
+function cardinal(n){
+  if(n<144) return small(n);
+  const parts=[]; let x=n;
+  for(let k=TOPMAG;k>=2;k--){
+    const v=Math.pow(12,k);
+    if(x>=v){ parts.push([k,Math.floor(x/v)]); x%=v; }
+  }
+  if(parts.length===2 && x===0 && parts[0][1]===1 && parts[1][1]===1
+     && parts[0][0]-parts[1][0]===1){
+    const f=FUSE[parts[0][0]+"+"+parts[1][0]];
+    if(f) return f[0];
+  }
+  const out=parts.map(([k,c])=> magWord(k,c));
+  if(x) out.push(small(x));
+  return out.join(" ");
+}
+function digitsOf(n){
+  if(n===0) return [0];
+  const d=[]; let x=n;
+  while(x>0){ d.unshift(x%12); x=Math.floor(x/12); }
+  return d;
+}
+/* the written figure */
+function figure(n){
+  const [t,e]=GLYPHS[glyph];
+  return digitsOf(n).map(d=>d<10?String(d):(d===10?t:e)).join("");
+}
+/* how a figure is read aloud — digit by digit, hyphenated: 100 → ūn-nul-nul */
+function readFigure(n){ return digitsOf(n).map(d=>DIG[d]).join("-"); }
+/* Above 12⁴ the everyday register stops saying the value and reads the figure.
+   The fused bricks stay, for the formal/legal/customs register. */
+const CLERK=Math.pow(12,4);
+function clerk(n){ return n>=CLERK ? readFigure(n) : null; }
+/* the arithmetic behind the words */
+function breakdown(n){
+  if(n<12) return "";
+  const d=digitsOf(n), P=[];
+  d.forEach((v,i)=>{ const p=d.length-1-i; if(v) P.push(p?`${v}×12${sup(p)}`:`${v}`); });
+  return P.join(" + ")+" = "+n.toLocaleString("en-US");
+}
+const sup=p=>["","","²","³","⁴","⁵","⁶","⁷","⁸","⁹","¹⁰","¹¹","¹²"][p]||("^"+p);
+
+/* -tô on the cardinal: ūntô, duôtô, duodeçtô — the suffix lands on the last word */
+function ordinal(n){ return cardinal(n)+"tô"; }
+/* canon has half as its own word; everything else is number + dēl */
+function fraction(n){ return n===2 ? "half" : cardinal(n)+"-dēl"; }
+
+/* ── reading a number back ─────────────────────────────────────────────────── */
+const DIGIDX={}, TEENIDX={};
+DIG.forEach((w,i)=>DIGIDX[fold(w)]=i);
+TEEN.forEach((t,i)=>{ TEENIDX[fold(t[0])]=i+13; });
+TEEN.forEach((t,i)=>{ TEENIDX[fold(t[0])]=i+13; });
+function fold(s){
+  return String(s).toLowerCase()
+    .replace(/ô/g,"o").replace(/ā/g,"a").replace(/ē/g,"e").replace(/ī/g,"i")
+    .replace(/ō/g,"o").replace(/ū/g,"u").replace(/ñ/g,"n").replace(/ç/g,"c")
+    .replace(/ä/g,"a").replace(/ö/g,"o").replace(/ü/g,"u").replace(/õ/g,"o");
+}
+const UNITW={ [fold(DUNA)]:12 };
+const MAGW={}; Object.keys(MAG).forEach(k=>MAGW[fold(MAG[k][0])]=Math.pow(12,+k));
+/* every coefficient-fused brick is its own lexical entry to the reader */
+Object.keys(COEF).forEach(k=>Object.keys(COEF[k]).forEach(c=>{
+  MAGW[fold(COEF[k][c]+CLIP[k])] = (+c)*Math.pow(12,+k); }));
+const FUSEW={}; Object.keys(FUSE).forEach(k=>{
+  const [hi,lo]=k.split("+").map(Number);
+  FUSEW[fold(FUSE[k][0])]=Math.pow(12,hi)+Math.pow(12,lo); });
+/* each -ginta word is a bare value, not a coefficient — vigint IS 24 */
+const PACKW={}; Object.keys(PACK).forEach(k=>PACKW[fold(PACK[k][0])]=k*12);
+
+/* Parses Nelôxi words, then RE-COMPOSES the result and compares. A mismatch is
+   reported as unreadable rather than answered wrongly. */
+/* milly/billy/trilly are the street forms of milj/bilj/trilj — accepted on
+   input, normalised to the formal word before the round-trip check runs. */
+const STREET={ milly:"milj", billy:"bilj", trilly:"trilj" };
+function deStreet(s){
+  return String(s).split(/(\s+)/).map(w=>STREET[fold(w)]||w).join("");
+}
+function parseWords(raw){
+  const str=deStreet(raw);
+  const toks=fold(str).split(/[\s\-·,]+/).filter(Boolean);
+  if(!toks.length) return null;
+  let total=0, group=0, pend=null;
+  const flush=()=>{ if(pend!==null){ group+=pend; pend=null; } };
+  for(let i=0;i<toks.length;i++){
+    const t=toks[i];
+    if(DIGIDX[t]!==undefined){ flush(); pend=DIGIDX[t]; continue; }
+    if(TEENIDX[t]!==undefined){ flush(); group+=TEENIDX[t]; continue; }
+    if(PACKW[t]!==undefined){ flush(); group+=PACKW[t]; continue; }
+    if(UNITW[t]!==undefined){ group += (pend===null?1:pend)*UNITW[t]; pend=null; continue; }
+    if(FUSEW[t]!==undefined){ flush(); total+=FUSEW[t]; group=0; continue; }
+    if(MAGW[t]!==undefined){
+      flush();
+      total += (group===0?1:group)*MAGW[t];
+      group=0; continue;
+    }
+    return null;                                   /* not a numeral word */
+  }
+  flush();
+  total+=group;
+  if(!Number.isFinite(total) || total<0 || total>MAXN) return null;
+  return fold(cardinal(total))===fold(str.trim().replace(/[·,]+/g," ")) ? total : null;
+}
+function parseFigure(str){
+  const [t,e]=["de","xe","↊↋"];                    /* accept any glyph set */
+  const s=String(str).trim().toUpperCase().replace(/^0Z/,"").replace(/[\s_]/g,"");
+  if(!s || !/^[0-9DEX↊↋]+$/.test(s)) return null;
+  let n=0;
+  for(const c of s){
+    let d;
+    if(/[0-9]/.test(c)) d=+c;
+    else if(c==="D"||c==="X"||c==="↊") d=10;
+    else if(c==="E"||c==="↋") d=11;
+    else return null;
+    n=n*12+d;
+    if(n>MAXN) return null;
+  }
+  return n;
+}
+/* one input, three notations — work out which was meant */
+function interpret(raw){
+  const s=raw.trim();
+  if(!s) return null;
+  if(/^-?[\d,\s]+$/.test(s)){
+    const n=parseInt(s.replace(/[,\s]/g,""),10);
+    if(Number.isFinite(n)&&n>=0) return {n, how:"a decimal number"};
+    return null;
+  }
+  if(/^(0z|0Z)/.test(s)||/^[0-9DEXde x↊↋]+$/.test(s)){
+    const n=parseFigure(s);
+    if(n!==null) return {n, how:"a dozenal figure"};
+  }
+  const w=parseWords(s);
+  if(w!==null) return {n:w, how:"Nelôxi words"};
+  const n2=parseFigure(s);
+  if(n2!==null) return {n:n2, how:"a dozenal figure"};
+  return null;
+}
+
+/* ── render ────────────────────────────────────────────────────────────────── */
+const $=id=>document.getElementById(id);
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const cell=(l,v,n,cls)=>`<div class="cell ${cls||""}"><div class="l">${l}</div>`+
+  `<div class="v">${v}</div>${n?`<div class="n">${n}</div>`:""}</div>`;
+
+const NOUNS=[["kalāt","fish"],["pǟvôt","days"],["kūt","months"],["līnāt","towns"]];
+
+function draw(){
+  const raw=$("q").value, got=interpret(raw);
+  if(!got){
+    $("read").innerHTML=raw.trim()
+      ? `<span class="bad">Not a number I can read.</span> Try <b>144</b>, <b>100</b> as a figure, or <b>çent</b>.`
+      : "";
+    $("out").innerHTML=""; markGrid(null); return;
+  }
+  const n=got.n;
+  $("read").innerHTML=`Read as <b>${got.how}</b>.`;
+
+  const bits=[];
+  bits.push(`<div class="hero">${esc(cardinal(n))}</div>`);
+  const bd=breakdown(n);
+  bits.push(`<div class="heroline">${n.toLocaleString("en-US")} in decimal &middot; `+
+            `figure <code>${esc(figure(n))}</code>${bd?" &middot; "+esc(bd):""}</div>`);
+
+  const g=[];
+  g.push(cell("Figure", esc(figure(n)),
+    "positional, base 12", "mono"));
+  g.push(n>=CLERK
+    ? cell("Clerk register", esc(readFigure(n)),
+           "past a mürās nobody says the value — the figure is read straight off")
+    : cell("Figure read aloud", esc(readFigure(n)), "digit by digit, hyphenated"));
+  g.push(cell("Ordinal", esc(ordinal(n)), "&minus;tô on the cardinal"));
+  g.push(cell("How many times", esc(cardinal(n))+" māl",
+    n===1?"once":(n===2?"twice":"")));
+  g.push(n<2 ? cell("Fraction","—","no share below a half","off")
+             : cell("Fraction", esc(fraction(n)),
+                    n===2?"its own word, not dva-dēl":"number + dēl"));
+  const noun=NOUNS[n%NOUNS.length];
+  g.push(n===1
+    ? cell("Counted noun", "ūn "+esc(noun[0].replace(/t$/,"d")),
+           "one takes no partitive")
+    : cell("Counted noun", esc(cardinal(n)+" "+noun[0]),
+           "partitive singular &mdash; "+esc(n+" "+noun[1])));
+  g.push(n<24
+    ? cell("Clock", "klôk "+esc(cardinal(n)),
+           String(n).padStart(2,"0")+":00 &mdash; 24-hour, no a.m./p.m.")
+    : cell("Clock","—","hours only run 0&ndash;23","off"));
+  const pctOf=(n/144*100);
+  g.push(n<=144
+    ? cell("As a share of the gross", esc(figure(n))+"%",
+           esc(n+"/144 = "+(pctOf).toFixed(pctOf%1?2:0)+"% decimal"))
+    : cell("As a share of the gross","—","over a full gross","off"));
+  bits.push(`<div class="grid">${g.join("")}</div>`);
+  $("out").innerHTML=bits.join("");
+  markGrid(n);
+}
+
+function tbl(id, head, rows){
+  $(id).innerHTML=`<thead><tr>${head.map(h=>`<th>${h}</th>`).join("")}</tr></thead>`+
+    `<tbody>${rows.map(r=>`<tr>${r.join("")}</tr>`).join("")}</tbody>`;
+}
+const c=(cls,v)=>`<td class="${cls}">${v}</td>`;
+
+function tables(){
+  tbl("tdig",["Value","Figure","Nelôxi","English"],
+    DIG.map((w,i)=>[c("en",i), c("fig",figure(i)), c("nx",esc(w)), c("en",EN[i])]));
+
+  tbl("tpow",["Word","Value","Figure","Where it was picked up"],
+    [[c("nx",DUNA), c("en","12"), c("fig",figure(12)), c("note","the base — where counting rolls over")]]
+    .concat(Object.keys(MAG).map(k=>[c("nx",MAG[k][0]), c("en",Math.pow(12,+k).toLocaleString("en-US")),
+      c("fig",figure(Math.pow(12,+k))), c("note",MAG[k][1])]))
+    .concat(Object.keys(FUSE).map(k=>{
+      const [hi,lo]=k.split("+").map(Number), v=Math.pow(12,hi)+Math.pow(12,lo);
+      return [c("nx","<b>"+FUSE[k][0]+"</b>"), c("en",v.toLocaleString("en-US")), c("fig",figure(v)),
+              c("note","<i>"+FUSE[k][1]+"</i>")]; })));
+
+  /* the ten packets — each a thing that came in that quantity */
+  tbl("tpack",["Dozens","Value","Figure","Word","What it is"],
+    Object.keys(PACK).map(k=>[c("en",k+"×"), c("en",k*12), c("fig",figure(k*12)),
+      c("nx",esc(PACK[k][0])), c("note",esc(PACK[k][1]))]));
+
+  const teen=[];
+  teen.push([c("en","12"), c("fig",figure(12)), c("nx",DUNA), c("note","bare — the teens start at 13")]);
+  for(let i=13;i<=23;i++) teen.push([c("en",i), c("fig",figure(i)), c("nx",esc(cardinal(i))),
+    c("note","dün- + "+esc(DIG[i-12])+(i-12>=7?" (clipped)":""))]);
+  tbl("tteen",["Value","Figure","Nelôxi","Made from"],teen);
+
+  /* the same digit string, read two ways — the drift is exactly 1.2ⁿ */
+  const LOOKS=["ten","a hundred","a thousand","ten thousand","a hundred thousand","a million",
+               "ten million"];
+  tbl("tround",["Figure","Looks like","Actually is","Read aloud","Short by"],
+    LOOKS.map((looks,k)=>{
+      const places=k+1, v=Math.pow(12,places), dec=Math.pow(10,places);
+      return [c("fig","1"+"0".repeat(places)), c("en",looks),
+              c("nx",v.toLocaleString("en-US")),
+              c("note",places<=3?esc(readFigure(v)):"<i>&mdash;</i>"),
+              c("note","&times;"+(v/dec).toFixed(4).replace(/0+$/,"").replace(/\.$/,"")+
+                       " &nbsp;<span style='color:var(--ink4)'>("+
+                       Math.round((1-dec/v)*100)+"% under)</span>")];
+    }));
+
+  tbl("tcoef",["&times;","the 144s · Adriatic","the 1,728s · Alpine","the 20,736s · Balkan","the laxôs · Silk Road","the krōrs · Red Sea"],
+    [2,3,4,5,6,7,8,9,10,11].map(co=>
+      [`<td class="en">${co}&times;</td>`].concat([2,3,4,5,6].map(k=>
+        `<td class="nx">${esc(COEF[k][co]+CLIP[k])}</td>`))));
+
+  const EXAMPLES=[24,27,41,168,351,1728,2000,5000,144000];
+  tbl("tex",["Value","Figure","Nelôxi","Arithmetic"],
+    EXAMPLES.map(n=>[c("en",n.toLocaleString("en-US")), c("fig",figure(n)),
+      c("nx",esc(cardinal(n))), c("note",esc(breakdown(n)))]));
+
+  tbl("tuse",["Job","Form","Example"],
+   [[c("en","Counting a noun"), c("nx","number + partitive singular"),
+     c("note","<i>tri kalāt</i> “three fish” — never the plural <i>kalād</i>")],
+    [c("en","Ordinal"), c("nx","cardinal + −tô"),
+     c("note","<i>ūntô pǟvôl</i> “on the first day” · <i>duodeçtô</i> twelfth")],
+    [c("en","How many times"), c("nx","bare cardinal + māl"),
+     c("note","<i>duô māl</i> twice · <i>duodeç māl</i> a dozen times. <i>māl</i> never inflects.")],
+    [c("en","Fraction"), c("nx","half, or number + dēl"),
+     c("note","<i>trē-dēl</i> a third · <i>kvatôr-dēl</i> a quarter · <i>duodeçôs half</i> half a dozen")],
+    [c("en","Reading a figure"), c("nx","digit by digit, hyphenated"),
+     c("note","<i>100</i> is <i>ūn-nul-nul</i> — not <i>çent</i>, which is the value’s own name")],
+    [c("en","Percent, formally"), c("nx","pôkrosa"),
+     c("note","government documents, official metrics, technical readouts")],
+    [c("en","Percent, casually"), c("nx","krossi"),
+     c("note","<i>ūn-nul-nul krossi</i> — “100 krossi sure”")]]);
+
+  const SHARES=[[1,"the whole",144],[0.5,"half",72],[1/3,"a third",48],[0.25,"a quarter",36],
+                [1/6,"a sixth",24],[1/12,"a twelfth",12],[1/144,"one part in a gross",1]];
+  tbl("tpct",["Share","Nelôxi figure","Read aloud","Decimal equivalent"],
+    SHARES.map(([f,label,v])=>[c("en",label), c("fig",figure(v)+"%"),
+      c("nx",esc(readFigure(v))), c("note",(f*100).toFixed(f*100%1?2:0)+"%"+
+        (label==="half"?" — so half is written <b>60%</b>, not 50%":""))]));
+
+  const clk=[];
+  for(let h=0;h<24;h++) clk.push([c("en",String(h).padStart(2,"0")+":00"),
+    c("nx","klôk "+esc(cardinal(h))),
+    c("note", h===0?"midnight":(h===12?"noon":(h<12?"morning":"afternoon and evening")))]);
+  tbl("tclk",["Written","Spoken","&nbsp;"],clk);
+
+  $("openq").innerHTML=`<b>The seam.</b> Latin had no <i>*decaginta</i> — in base ten 10&times;10 `+
+    `<i>is</i> the square, so it jumped straight to <i>centum</i>. Base twelve gets no such `+
+    `shortcut, so the series was regularised past where Latin's decimal assumption broke, and `+
+    `10&times;12 lands on <b>120 — the long hundred</b>, the Hanseatic bulk unit kept for its `+
+    `divisibility. The Germanic packet and the Latin series meet exactly where Latin ran out. `+
+    `&nbsp;<b>Still yours:</b> the currency has no name — canon has only <i>rā</i>, “money.”`;
+}
+
+function dozGrid(){
+  let h="";
+  for(let n=0;n<144;n++){
+    const cls=["dz"]; if(n===0) cls.push("zero"); if(n%12===0&&n) cls.push("roll");
+    h+=`<button class="${cls.join(" ")}" data-n="${n}"><div class="f">${esc(figure(n))}</div>`+
+       `<div class="w">${esc(cardinal(n))}</div></button>`;
+  }
+  $("dozgrid").innerHTML=h;
+  $("dozgrid").addEventListener("click",e=>{
+    const b=e.target.closest(".dz"); if(!b) return;
+    $("q").value=b.dataset.n; draw(); $("q").scrollIntoView({block:"center",behavior:"smooth"});
+  });
+}
+function markGrid(n){
+  document.querySelectorAll(".dz").forEach(b=>{
+    b.style.background = (n!==null&&+b.dataset.n===n) ? "var(--accent)" : "";
+    b.style.color      = (n!==null&&+b.dataset.n===n) ? "#fff" : "";
+  });
+}
+
+function glyphSeg(){
+  $("glyphseg").innerHTML=Object.keys(GLYPHS)
+    .map(k=>`<button data-g="${k}" aria-pressed="true" tabindex="-1">${GLYPHS[k].join(" ")}`+
+            `<span class="gl">ten &amp; eleven</span></button>`).join("");
+  $("glyphseg").addEventListener("click",e=>{
+    const b=e.target.closest("button"); if(!b) return;
+    glyph=b.dataset.g; glyphSeg(); tables(); dozGrid(); draw();
+  });
+  $("glyphnote").innerHTML=GLYPHNOTE[glyph];
+}
+function chips(){
+  const QUICK=[["12","a dozen"],["144","a gross"],["1728","12³"],["18","the clock at 18:00"],
+               ["351",""],["2026",""],["deçāgint","the long hundred"],["duô çent kvīnkvāgint trē",""]];
+  $("chips").innerHTML=QUICK.map(([v,t])=>
+    `<button data-v="${esc(v)}"${t?` title="${esc(t)}"`:""}>${esc(v)}</button>`).join("");
+  $("chips").addEventListener("click",e=>{
+    const b=e.target.closest("button"); if(!b) return;
+    $("q").value=b.dataset.v; draw();
+  });
+}
+
+/* ── the full set, one standard ────────────────────────────────────────────
+   One standard. Dialect and script deviations are downrange canon, not here.  */
+const ENGLISH={0:"zero",1:"one",2:"two",3:"three",4:"four",5:"five",6:"six",
+  7:"seven",8:"eight",9:"nine",10:"ten",11:"eleven",12:"twelve",
+  24:"two dozen",36:"three dozen",48:"four dozen",60:"five dozen",
+  72:"six dozen",84:"seven dozen",96:"eight dozen",108:"nine dozen",
+  120:"ten dozen \u2014 the long hundred",132:"eleven dozen",
+  144:"a gross (12\u00b2)",1728:"a great gross (12\u00b3)"};
+
+function varieties(){
+  const vals=[0,1,2,3,4,5,6,7,8,9,10,11,12,24,36,48,60,72,84,96,108,120,132,144,1728];
+  const rows=vals.map(n=>[c("fig",figure(n)), c("en",n.toLocaleString("en-US")),
+                          c("nx",esc(cardinal(n))), c("en",ENGLISH[n]||"")]);
+  [[Math.pow(12,6),"milj","milly","12\u2076"],
+   [Math.pow(12,9),"bilj","billy","12\u2079"],
+   [Math.pow(12,12),"trilj","trilly","12\u00b9\u00b2"]].forEach(([n,f,st,lab])=>{
+    rows.push([c("fig",figure(n)), c("en",n.toLocaleString("en-US")),
+      c("nx",esc(f)+' <span style="color:var(--ink4);font-size:14px">\u00b7 '+esc(st)+'</span>'),
+      c("en",lab+" \u2014 street <i>"+esc(st)+"</i>")]);
+  });
+  tbl("tvar",["Figure","Value","Nel\u00f4xi","English"],rows);
+}
+
+glyphSeg(); chips(); tables(); varieties(); dozGrid(); draw();
+$("q").addEventListener("input",draw);
+
+/* ── self-check: the canon examples must come out exactly as written ───────── */
+(function(){
+  const MUST=[[0,"sôfôr"],[12,"düzin"],[13,"dürber"],[24,"jirmī"],[120,"langhunt"],
+    [144,"çenāj"],[432,"treçen"],[1728,"tüsaç"],[3456,"tsvītüs"],[20736,"mürās"],
+    [82944,"xetmür"],[248832,"laxô"],[1244160,"beşlax"],[Math.pow(12,6),"krōr"],
+    [7*Math.pow(12,6),"sabkrōr"],[22464,"murastüs"],[269568,"laxmur"],
+    [3234816,"krōlax"],[45423,"dvamür tsvītüs treçen ellī üç"]];
+  const bad=MUST.filter(([n,w])=>cardinal(n)!==w)
+                .map(([n,w])=>`${n}: got "${cardinal(n)}", canon "${w}"`);
+  /* every value must also read back to itself */
+  for(let n=0;n<2000;n++) if(parseWords(cardinal(n))!==n) bad.push("round-trip "+n);
+  window.__CHECK__ = bad;
+  if(bad.length) console.error("CANON CHECK FAILED", bad);
+})();
+</script>
+</body>
+</html>
+"""
+
+
+def main():
+    out = ROOT / "numbers.html"
+    out.write_text(TEMPLATE, encoding="utf-8")
+    print(f"wrote {out.relative_to(ROOT)}")
+    print("digits nul–undeçôm · base duodeç · -ginta dozens · çent 144 · mīl 1728")
+    print("milj/bilj/trilj are late loans; milly/billy/trilly on the street")
+    print("converter reads decimal, dozenal figures and Nelôxi words "
+          "(round-trip verified in-page)")
+
+
+if __name__ == "__main__":
+    main()
