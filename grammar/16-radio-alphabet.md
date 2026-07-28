@@ -1,66 +1,88 @@
 # Nelôxi Spelling Alphabet — *Rūnôkôrd Radiô*
 
-*Foundation module 16. The Fleet's spelling alphabet: one word per letter, for reading a name,
-a call-sign or a manifest over a bad connection. Every code word is an existing Nelôxi headword —
-nothing here is coined for the purpose.*
+*Foundation module 16. Nelôxia uses the **international spelling alphabet**, the same twenty-six
+code words as every other state, rendered in Nelôxi orthography. A supplement covers the eight
+letters Nelôxi has that the Latin twenty-six does not.*
 
 ---
 
-## The twenty-four
+## Why it is not a Nelôxian invention
 
-Letters that can begin a word take a code word beginning with that letter.
+Because no country's is. The alphabet exists so that a Genoese pilot, an Adeni harbourmaster and a
+Karelian signaller can spell the same call-sign to each other, and a state that clears the sphere's
+traffic through its own courts and standards bodies has less reason than anyone to go its own way.
+Nelôxia adopted the international table and spelled it its own way, which is what France, Japan and
+everyone else did.
 
-| | Word | Sense | | Word | Sense |
+The words are therefore **Alfa, Bravo, Charlie** — not translated, not replaced. Only the spelling
+moves, and only where Nelôxi orthography requires it.
+
+## The twenty-six
+
+| | Code word | Note on the spelling | | Code word | Note on the spelling |
 |---|---|---|---|---|---|
-| **a** | **akôr** | anchor | **n** | **nabôr** | neighbour |
-| **b** | **banērô** | banner | **o** | **obūn** | horse |
-| **d** | **dekret** | decree | **p** | **papôr** | paper |
-| **e** | **embôr** | bucket | **r** | **ratô** | wheel |
-| **f** | **fuglô** | bird | **s** | **saldātô** | soldier |
-| **g** | **garnisô** | garrison | **t** | **taivô** | sky |
-| **h** | **hamôr** | hammer | **u** | **udū** | fog |
-| **i** | **ikonô** | icon | **v** | **valgô** | white |
-| **j** | **jaamô** | station | **x** | **xip** | ship |
-| **k** | **kompass** | compass | **ä** | **äkkü** | maybe |
-| **l** | **lampadô** | icon lamp | **ç** | **çimbalô** | cymbal |
-| **m** | **makrēl** | mackerel | **ô** | **ôhtôk** | supper |
+| **A** | **Alfa** | — | **N** | **Novembôr** | native *-ôr* ending |
+| **B** | **Bravo** | — | **O** | **Oskar** | *c* → *k* |
+| **C** | **Xarli** | *x* = [ʃ]; ICAO's sanctioned SHAR-lee | **P** | **Papa** | — |
+| **D** | **Delta** | — | **Q** | **Kebek** | no *q* in Nelôxi |
+| **E** | **Ekô** | native *-ô* ending | **R** | **Romeô** | native *-ô* ending |
+| **F** | **Fokstrot** | *ks* spelled out — *x* would read [ʃ] | **S** | **Siera** | — |
+| **G** | **Golf** | — | **T** | **Tangô** | native *-ô* ending |
+| **H** | **Hotel** | — | **U** | **Ūnifôrm** | — |
+| **I** | **India** | — | **V** | **Viktôr** | — |
+| **J** | **Džuliet** | *dž* = [dʒ]; plain *j* is [j] | **W** | **Viski** | *w* is a scar letter, not an onset |
+| **K** | **Kilô** | native *-ô* ending | **X** | **Eksrei** | the letter's name, since *x* is [ʃ] |
+| **L** | **Līma** | — | **Y** | **Janki** | *j* = [j] |
+| **M** | **Maik** | as pronounced | **Z** | **Zulu** | — |
 
-## The six that cannot begin a word
+**c, q, w** and **z** are not Nelôxi letters. Their code words are kept anyway — an operator has to
+spell foreign names, ships and call-signs, and the whole point of the table is that it does not
+change at the border.
 
-**y · ö · ñ · ļ · õ · l·l** never occur word-initially (`15-phonology.md`). Their code words
-therefore begin with some *other* letter, and the operator is expected to know the table rather
-than reason from the onset:
+## The supplement
 
-| | Word | Sense | Where the letter sits |
-|---|---|---|---|
-| **y** | **syv** | deep | stressed nucleus |
-| **ö** | **flögô** | flag | stressed nucleus |
-| **ļ** | **tūļ** | wind | final, palatal |
-| **õ** | **sagõ** | so, thus | the word-final ending |
-| **ñ** | **muntāñ** | mountain | final |
-| **l·l** | **famīl·la** | family | medial geminate — the only word that carries it |
+Eight letters exist in Nelôxi and not in the Latin twenty-six. They take Nelôxi words, and are
+spoken only in domestic traffic:
 
-No ambiguity results: all thirty words are mutually distinct, so *tūļ* is never mistaken for
-*taivô*, and hearing *syv* can only mean **y**.
+| | Code word | Sense |
+|---|---|---|
+| **ä** | **Äkkü** | maybe |
+| **ö** | **Köis** | rope |
+| **ô** | **Ôigus** | right, entitlement |
+| **ç** | **Çentrāl** | central |
+| **ñ** | **Muntāñ** | mountain |
+| **ļ** | **Tūļ** | wind |
+| **õ** | **Sagõ** | so, thus |
+| **l·l** | **Famīl·la** | family |
 
-## Reading a figure
+The last four name letters that **cannot begin a word** (`15-phonology.md`), so their code words
+begin with something else. The operator learns the table; there is nothing to reason out.
 
-Figures go **digit by digit**, never as a value — the clerk register of `12-numbers.md`. Ten and
-eleven are said by their digit words, not by the letters D and E, because **dekret** and **embôr**
-are already spoken for:
+**Macrons are not spelled.** *Līma* and *Lima* are the same letter L. Where length must be conveyed
+— in a name, on a manifest — the operator says **lang** after the letter: *Lima lang* is ī.
 
-> `2D3E` → *ikī — on — üç — jāz*
+## The digits
 
-A value spoken as a word (*çenāj*, *treçen*) is always a value; a string of digit words is always
-a figure. The two registers never collide.
+The international digits, in Nelôxi. Base twelve needs two more, and **D** and **E** take the
+digit words rather than *Delta* and *Ekô*:
 
-## Why these words
+| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | D | E |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| sôfôr | bir | ikī | üç | dört | **bexa** | altô | jedī | **sekīza** | **dokūza** | on | **jāza** |
 
-The alphabet was set by the Fleet and it shows: an anchor, a compass, a ship, a garrison, a
-soldier, fog, wind, a mackerel, a wheel, a flag. What survives on a bad channel is what the service
-had in front of it. The two church words (**ikonô**, **lampadô**) come from the eastern chaplaincy
-and were kept because nothing else in *i-* or *l-* carried as cleanly.
+Four pairs of digits share an onset — *bir/bex*, *dört/dokūz*, *jedī/jāz*, *sôfôr/sekīz* — the same
+hazard that made English say *niner*. One rule clears all four: **the higher of any two digits
+sharing an onset takes a final ‑a on the air.**
 
-Every word is two syllables where the language allowed it. **xip**, **tūļ**, **syv** and **akôr**
-are short because their letters gave no better option — and short words with hard onsets survive
-noise well enough that no one has moved to change them.
+Figures go digit by digit, never as a value: `2D3E` is *ikī — on — üç — jāza*.
+
+## Stress needs no marking
+
+ICAO must respell every word (*AL fah, BRAH voh, no VEM ber*) because English stress is
+unpredictable. **Nelôxi stress is always initial, without exception** (`15-phonology.md`), so the
+Nelôxi table carries no respellings and needs none. Every code word is hit on its first beat.
+
+## Punctuation
+
+| **.** stopp | **,** komma | **/** slant | **–** strēk | **( )** klam ā / klam tsū | decimal **desimal** |
+|---|---|---|---|---|---|
