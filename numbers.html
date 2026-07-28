@@ -242,8 +242,10 @@ const COEF={
  3:{2:"tsvī",3:"drī",4:"fīr",5:"vīf",6:"seks",7:"sīb",8:"axt",9:"nīn",10:"tsēn",11:"elv"},
  4:{2:"dva",3:"tri",4:"xet",5:"pje",6:"xes",7:"sed",8:"vis",9:"dev",10:"dje",11:"jad"},
  5:{2:"ik",3:"ü",4:"dör",5:"beş",6:"alt",7:"jed",8:"sek",9:"dok",10:"on",11:"jāz"},
- /* sab- = 7 anchors the Arabic series; sat- is spare and unassigned */
- 6:{2:"tin",3:"sil",4:"arb",5:"xam",6:"sit",7:"sab",8:"tam",9:"tis",10:"ašr",11:"ahad"}};
+ /* sab- = 7 anchors the Arabic series. 6× is PERSIAN: shesh /ʃeʃ/ digests
+    through the ş → x rule to xex-, keeping the Red Sea column Persian-sourced
+    throughout — laxô, krōr and xex- all come off the same water. */
+ 6:{2:"tin",3:"sil",4:"arb",5:"xam",6:"xex",7:"sab",8:"tam",9:"tis",10:"ašr",11:"ahad"}};
 function magWord(k,c){ return c===1 ? MAG[k][0] : COEF[k][c]+CLIP[k]; }
 
 /* Two ADJACENT magnitudes, both coefficient one and nothing trailing, fuse
