@@ -21,6 +21,8 @@ Reading order for a full onboarding:
 - **12 — Numbers** — dozenal digits, fused teens, counted nouns, fractions, clock time, and percent
 - **13 — Loan Endings & Surface Balance** — how a borrowed word enters and declines; -ô is one landing form, not the default (§109)
 - **14 — Sentence & Text Composition** — the capstone: building a clause, joining clauses into complex sentences, and chaining sentences into a paragraph; a writer's checklist and the syntactic gaps that block prose
+- **15 — Sounds and Spelling** — the letter inventory with IPA values, stress, vowel harmony, scar letters
+- **16 — Spelling Alphabet** — the Fleet's radio alphabet, one code word per letter
 
 Reference (not a teaching module):
 - **structural-profile-apics** — Nelôxi's full typological profile answered against the APiCS
