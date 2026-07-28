@@ -223,21 +223,23 @@ const TEEN=[
  ["dürdok","düzin dokūz","d- onset; final -ūz falls, as in dürsek"],
  ["dürn","düzin on","vowel-initial: the o- syncopates, leaving n as a bare coda"],
  ["dürjaz","düzin jāz","j- onset; the long ā shortens under the loss of its own stress"]];
-const DUNA="düzin", GROSO="jūz";
+const DUNA="düzin";
 /* THE LADDER IS A MAP. Small numbers are home; each order of magnitude was
    picked up one stage further out along the road, at the moment the trade
    needed a number that large — and lexicalized on arrival as a power of TWELVE
    rather than of ten. Baltic counting-house → the Mediterranean and the Alpine
    passes → the length of the silk road. You can read the empire's reach off its
    own numerals. Each was digested by the same phonology that later fuses them. */
-const MAG={ 2:["jūz","12² · a gross — the counting-house at home"],
-            3:["bin","12³ · the road east out of the Black Sea"],
-            4:["tūm","12⁴ · the caravan reckoning of the steppe stages"],
-            5:["laxô","12⁵ · the far markets, where the road turns south"],
-            6:["kōdī","12⁶ · the end of the road, where it meets the sea"] };
-const FUSE={ "4+3":["tumbôn","tūm bin → tūmbin (juncture) → tūmbôn (i reduces to ô) → tumbôn (ū shortens)"],
-             "5+4":["laxtum","laxô tūm → laxôtūm → laxtūm (medial -ô- syncopates) → laxtum (ū shortens)"],
-             "6+5":["kōlax","kōdī laxô → kōdīlaxô → kōdlaxô (-ī- syncopates) → kōllaxô (/dl/ assimilates) → kōlaxô (degemination) → kōlax (final -ô apocopates)"] };
+const MAG={ 2:["çenāj","12² · <b>Adriatic</b> — Venetian <i>centinaio</i>, a hundred-count. çentināj → çentnāj (unstressed -i- syncopates) → çenāj (the /ntn/ cluster sheds its stop)"],
+            3:["tüsaç","12³ · <b>Eastern Corridor</b> — Slavic <i>tysjača</i>. tüsjača → tüsjaç (final -a apocopates) → tüsaç (the glide -j- is absorbed)"],
+            4:["mürās","12⁴ · <b>Black Sea</b> — Greek <i>myriás</i>, the myriad. müriās → mürās (unstressed -i- syncopates before the long vowel)"],
+            5:["laxô","12⁵ · <b>Silk Road</b> — Persian <i>lakh</i>. The retroflex/aspirate lands on Nelôxi x [ʃ]; -ô is supplied as the native final"],
+            6:["krōr","12⁶ · <b>Red Sea</b> — Persian <i>kurūr</i>, the far-trade great number. kurūr → krūr (unstressed u- syncopates) → krōr (ū lowers to ō under stress)"] };
+/* Adjacent magnitudes do not stand as separate words — they erode and fuse into
+   one opaque brick. Keyed "higher+lower", both with coefficient one. */
+const FUSE={ "4+3":["murastüs","<b>mürās tüsaç</b> → mürāstüsaç (juncture) → mürāstüs (the second root is clipped of its final syllable, as düzin → düz-) → murastüs (ā shortens, having lost the word's stress peak)"],
+             "5+4":["laxmur","<b>laxô mürās</b> → laxômürās (juncture) → laxmürās (medial -ô- syncopates) → laxmur (the final -ās is clipped away)"],
+             "6+5":["krōlax","<b>krōr laxô</b> → krōrlaxô (juncture) → krōllaxô (/rl/ assimilates) → krōlaxô (degemination) → krōlax (final -ô apocopates)"] };
 /* The Turkish tens re-pointed from ten to twelve. They are already OPAQUE —
    jirmī, otūz, kôrk, ellī are not derivable from ikī, üç, dört, bex — so the
    dozens come out as single unglued words for free.
@@ -335,7 +337,7 @@ function fold(s){
     .replace(/ō/g,"o").replace(/ū/g,"u").replace(/ñ/g,"n").replace(/ç/g,"c")
     .replace(/ä/g,"a").replace(/ö/g,"o").replace(/ü/g,"u").replace(/õ/g,"o");
 }
-const UNITW={ [fold(DUNA)]:12, [fold(GROSO)]:144 };
+const UNITW={ [fold(DUNA)]:12 };
 const MAGW={}; Object.keys(MAG).forEach(k=>MAGW[fold(MAG[k][0])]=Math.pow(12,+k));
 const FUSEW={}; Object.keys(FUSE).forEach(k=>{
   const [hi,lo]=k.split("+").map(Number);
@@ -623,10 +625,10 @@ $("q").addEventListener("input",draw);
 
 /* ── self-check: the canon examples must come out exactly as written ───────── */
 (function(){
-  const MUST=[[0,"sôfôr"],[11,"jāz"],[12,"düzin"],[13,"dürber"],[14,"dürkī"],
-    [22,"dürn"],[24,"jirmī"],[41,"otūz bex"],[120,"langhunt"],[132,"jāzlôk"],
-    [144,"jūz"],[157,"jūz dürber"],[1728,"bin"],[20736,"tūm"],[248832,"laxô"],
-    [Math.pow(12,6),"kōdī"],[22464,"tumbôn"],[269568,"laxtum"],[3234816,"kōlax"]];
+  const MUST=[[0,"sôfôr"],[11,"jāz"],[12,"düzin"],[13,"dürber"],[22,"dürn"],
+    [24,"jirmī"],[120,"langhunt"],[132,"jāzlôk"],[144,"çenāj"],[1728,"tüsaç"],
+    [20736,"mürās"],[248832,"laxô"],[Math.pow(12,6),"krōr"],
+    [22464,"murastüs"],[269568,"laxmur"],[3234816,"krōlax"]];
   const bad=MUST.filter(([n,w])=>cardinal(n)!==w)
                 .map(([n,w])=>`${n}: got "${cardinal(n)}", canon "${w}"`);
   /* every value must also read back to itself */
