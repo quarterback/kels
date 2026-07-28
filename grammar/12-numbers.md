@@ -7,16 +7,11 @@
 ## Background you need first
 
 Nelôxi counts in **twelves** (base-12, dozenal). Figures are written in **Arabic numerals**; the
-spoken count is **Turkish-rooted at the base** — digits, the dozens and the base itself, digested
-into Nelôxi and re-based from ten to twelve. Above a gross the magnitudes come from **five different
-trade routes**, one per order of magnitude; see the ladder below.
+spoken count is **Nelôxi**. The words below are the numerals of this language; the etymologies
+noted beside them are history, not ownership.
 
-**Why Turkish.** The official language got its frame from the Hanseatic-north merchants, but it was
-the **east that grew the empire and carried the language**, and counting travels with whoever is
-doing the accounting. So the federal standard counts eastern. Localities keep their own words —
-that is expected and is not a defect — but the count on the tariff sheet is this one.
-
-**Digested, not pasted.** The loans came through the language's own sound correspondences:
+The count came into the language along the trade, and each layer was digested by Nelôxi's own
+sound laws on the way in (`05-phonology.md`):
 
 | Turkish | Nelôxi | Why |
 |---|---|---|
@@ -235,8 +230,7 @@ the mechanism.)
 
 ## Rule for contributors
 
-Count with the words above and nothing else — the Turkish-rooted low count, the eroded teens, the
-lexicalized dozens, and the route-borrowed magnitudes with their regional coefficient prefixes. Put the counted noun in the
+Count with the words above and nothing else. Put the counted noun in the
 **partitive singular** (*üç kalāt*, never *üç kalād*). Form ordinals with **-tô** and fractions
 with *half* / *number + dēl*. Give clock times as plain 24-hour dozenal numbers with *klôk*.
 
