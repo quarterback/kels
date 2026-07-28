@@ -91,6 +91,23 @@ in the figure. The trade brought the goods; the east brought the arithmetic.
 - `41` *otūz bex* · `143` *jāzlôk jāz*
 - `168` *jūz jirmī* · `351` *ikī jūz ellī üç* · `1,728` *bin*
 
+### xes- and xex- are deliberate — do not "fix" them
+
+Six arrives twice, from two directions: **xes-** in the Balkan column (Slavic *šest*) and **xex-**
+in the Red Sea column (Persian *shesh*, through the ş → x rule). They differ by one final
+consonant, and both peak on the same vowel under first-syllable stress.
+
+This is logged, not overlooked. Numeral confusion is only dangerous *within* a magnitude — English
+says "fife" and "niner" because five and nine compete for the same slot. Across magnitudes the
+suffix resolves it before the prefix has finished being ambiguous: a clerk hearing *xes-* knows
+which order of magnitude is coming as soon as *-mür* or *-krōr* lands, and *xesmür* (124,416) and
+*xexkrōr* (17,915,904) are two orders apart. English tolerates six / sixty / sixteen / sixth
+without difficulty for the same reason.
+
+And the collision carries information. Six coming in twice, in two shapes, from two seas is what
+an **inherited** system looks like. A designed one would have deduplicated it. Regularising these
+would make the arithmetic tidier and the history invisible.
+
 ## Round figures, and the misreading they cause
 
 A Nelôxian round figure looks exactly like a foreign one and is worth more. This is the single
