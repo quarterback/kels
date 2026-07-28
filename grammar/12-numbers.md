@@ -7,7 +7,9 @@
 ## Background you need first
 
 Nelôxi counts in **twelves** (base-12, dozenal). Figures are written in **Arabic numerals**; the
-spoken count is **Turkish-rooted**, digested into Nelôxi and re-based from ten to twelve.
+spoken count is **Turkish-rooted at the base** — digits, the dozens and the base itself, digested
+into Nelôxi and re-based from ten to twelve. Above a gross the magnitudes come from **five different
+trade routes**, one per order of magnitude; see the ladder below.
 
 **Why Turkish.** The official language got its frame from the Hanseatic-north merchants, but it was
 the **east that grew the empire and carried the language**, and counting travels with whoever is
@@ -60,36 +62,71 @@ the eastern series ran out. That is the whole history of the language in one num
 carrying a Hanseatic packet, because the merchants came from the north and the empire came from the
 east. *jāzlôk* (132) closes the same gap on the Turkic *-lık* pattern.
 
-## The powers
+## The magnitudes — the ladder is a map
 
-| | 144 | 1,728 | 12⁶ | 12⁹ | 12¹² |
+Each order of magnitude was picked up one stage further out along the road, at the moment the trade
+needed a number that large, and **lexicalized on arrival as a power of twelve rather than of ten.**
+You can read the empire's reach off its own numerals.
+
+| Power | Value | Word | Where it came from |
+|---|---|---|---|
+| 12² | 144 | **çenāj** | **Adriatic** — Venetian *centinaio*. çentināj → çentnāj → çenāj |
+| 12³ | 1,728 | **tüsaç** | **Eastern Corridor** — Slavic *tysjača*. tüsjača → tüsjaç → tüsaç |
+| 12⁴ | 20,736 | **mürās** | **Black Sea** — Greek *myriás*. müriās → mürās |
+| 12⁵ | 248,832 | **laxô** | **Silk Road** — Persian *lakh*; the aspirate lands on **x** [ʃ] |
+| 12⁶ | 2,985,984 | **krōr** | **Red Sea** — Persian *kurūr*. kurūr → krūr → krōr |
+
+**Adjacent magnitudes fuse** into one opaque root rather than standing as a phrase:
+
+- *mürās tüsaç* → mürāstüsaç → mürāstüs → **murastüs** (22,464)
+- *laxô mürās* → laxômürās → laxmürās → **laxmur** (269,568)
+- *krōr laxô* → krōrlaxô → krōllaxô → krōlaxô → **krōlax** (3,234,816)
+
+## Coefficient fusion
+
+**The Turkic dozens were already doing this.** *jirmī* (24) is "two-dozens" fused into one brick;
+*otūz* (36) is three-dozens. The rule existed at 12¹ and now runs at every magnitude — and each
+magnitude draws its coefficients from the **trade language of its own ground**, so the span is
+legible in the arithmetic itself. Coefficient one is bare; the magnitude is clipped before fusing
+(*çenāj→çen, tüsaç→tüs, mürās→mür, laxô→lax*, *krōr* unchanged).
+
+| × | the 144s · Adriatic | the 1,728s · Alpine | the 20,736s · Balkan | the laxôs · Silk Road | the krōrs · Red Sea |
 |---|---|---|---|---|---|
-| | **jūz** | **bin** | **milj** | **bilj** | **trilj** |
+| 2 | dueçen | tsvītüs | dvamür | iklax | tinkrōr |
+| 3 | treçen | drītüs | trimür | ülax | silkrōr |
+| 4 | kvaçen | fīrtüs | xetmür | dörlax | arbkrōr |
+| 5 | çinçen | vīftüs | pjemür | beşlax | xamkrōr |
+| 6 | seçen | sekstüs | xesmür | altlax | **xexkrōr** |
+| 7 | seṭçen | sībtüs | sedmür | jedlax | sabkrōr |
+| 8 | otçen | axttüs | vismür | seklax | tamkrōr |
+| 9 | noçen | nīntüs | devmür | doklax | tiskrōr |
+| 10 | dieçiçen | tsēntüs | djemür | onlax | ašrkrōr |
+| 11 | ônçen | elvtüs | jadmür | jāzlax | ahadkrōr |
 
-*Yüz* and *bin* keep their **position** and change their **value**: jūz is the square of the base
-and bin the cube, so jūz is 144 and bin is 1,728. This is why a Nelôxian figure reading `100` means
-a gross.
+## The teens are eroded, not glued
 
-**milj, bilj and trilj are late loans and they show it.** Nothing above a *bin* was ever needed — a
-farmer counts to a gross, a merchant to a thousand, and only the exchange ever had to say more. So
-those three arrived whole with double-entry bookkeeping, undigested, and the language never sanded
-them. Being foreign, they grew street forms the way foreign words do: **milly, billy, trilly** in
-conversation, *milj, bilj, trilj* on the statement — the same formal/casual split as *pôkrosa* /
-*krossi*.
+13–23 began as *düzin* + digit and centuries of rapid speech mushed them into **opaque single
+roots**. Three changes: **clipping** (*düzin* → *düz-*), **rhotacism** (*düz-* → *dür-*), and
+**onset capture** — a vowel-initial digit loses that vowel, a consonant-initial one reduces instead.
 
-## The German layer
+| 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 |
+|---|---|---|---|---|---|---|---|---|---|---|
+| **dürber** | **dürkī** | **dürç** | **dürdöt** | **dürbex** | **dürtô** | **dürjed** | **dürsek** | **dürdok** | **dürn** | **dürjaz** |
 
-Absorbed **into** the eastern prestige system, not the other way round. Where a Hanseatic counting
-word survives it survives as a *packet* — a thing counted, like the long hundred — never as a place
-in the figure. The trade brought the goods; the east brought the arithmetic.
+Nobody hears *düzin* in them. *dürdöt* dissimilates the r…r across the join; *dürtô* syncopates the
+*a-* then sheds the *l* from /rlt/; *dürç* and *dürn* are left with a bare consonant coda.
 
 ## Building any number
 
-**Two words, never glued.** There are no fused teens; 13–23 are *düzin* plus a digit.
+- `13` *dürber* · `23` *dürjaz* · `41` *otūz bex* · `143` *jāzlôk jāz*
+- `351` *ikī çenāj ellī üç* · `432` *treçen* · `3,456` *tsvītüs*
+- `45,423` *dvamür tsvītüs treçen ellī üç*
 
-- `13` *düzin bir* · `18` *düzin altô* · `23` *düzin jāz*
-- `41` *otūz bex* · `143` *jāzlôk jāz*
-- `168` *jūz jirmī* · `351` *ikī jūz ellī üç* · `1,728` *bin*
+## The clerk register
+
+**Above a *mürās* (12⁴) the everyday habit stops saying the value and reads the figure straight
+off**, digit by digit and hyphenated: 45,423 is figure `22353`, read *ikī-ikī-üç-bex-üç*. The fused
+bricks remain for formal, legal and customs use. A ledger culture says the digits.
 
 ### xes- and xex- are deliberate — do not "fix" them
 
@@ -116,8 +153,8 @@ most consequential fact about the system in a world that trades with Nelôxia:
 | Figure | Looks like | Is | Read aloud |
 |---|---|---|---|
 | **10** | ten | **12** | *bir-sôfôr* |
-| **100** | a hundred | **144** | *bir-sôfôr-sôfôr*, or just **jūz** |
-| **1000** | a thousand | **1,728** | **bin** |
+| **100** | a hundred | **144** | *bir-sôfôr-sôfôr*, or just **çenāj** |
+| **1000** | a thousand | **1,728** | **tüsaç** |
 | **10000** | ten thousand | **20,736** | — |
 | **100000** | a hundred thousand | **248,832** | — |
 | **1000000** | a million | **2,985,984** | — |
@@ -137,8 +174,8 @@ charge. A figure containing a **D** or an **E** at least announces itself; `1000
 After any number greater than one (and after quantity words), the counted noun goes in the
 **partitive singular** (-t / -tô), never a plural:
 
-- *trē kalāt* — "three fish"
-- *septôm pǟvôt* — "seven days"
+- *üç kalāt* — "three fish"
+- *jedī pǟvôt* — "seven days"
 - *düzin kūt* — "twelve months"
 
 This is the partitive's counting job; module 01 covers the case in full.
@@ -192,13 +229,14 @@ map one-to-one onto decimal ones:
 
 The formal term is **pôkrosa** (government documents, official metrics, civic and technical
 readouts): *61%* is a pôkrosa figure in a report. The casual term is **krossi** — full certainty
-is *jūz krossi*, a full gross of certainty: "I'm 100 krossi sure" is the street
+is *çenāj krossi*, a full gross of certainty: "I'm 100 krossi sure" is the street
 idiom. (The "two circles = a dozen of dozens" gloss is a schoolroom mnemonic for the gross, not
 the mechanism.)
 
 ## Rule for contributors
 
-Count with the Turkish-rooted dozenal words above and nothing else. Put the counted noun in the
+Count with the words above and nothing else — the Turkish-rooted low count, the eroded teens, the
+lexicalized dozens, and the route-borrowed magnitudes with their regional coefficient prefixes. Put the counted noun in the
 **partitive singular** (*üç kalāt*, never *üç kalād*). Form ordinals with **-tô** and fractions
 with *half* / *number + dēl*. Give clock times as plain 24-hour dozenal numbers with *klôk*.
 
