@@ -100,4 +100,5 @@ company's name and fate, and Venla herself — ship, founder, or both.
 
 *The language is `../verdenese/verdenese.md`; the doctrine `../verdenese/CRISOL-PRINCIPLE.md`; the
 gazetteer `../verdenese/toponymy.md`; the regional map `../verdenese/regional-varieties.md`. The
-sibling country files are `atlanta-lore.md`, `african-bloc.md`, and `meridian-states.md`.*
+sibling country files are `esmeralda-lore.md` (the continent's second Nelosphere state, reached by
+the Andean line over the Huhūi passes), `atlanta-lore.md`, `african-bloc.md`, and `meridian-states.md`.*

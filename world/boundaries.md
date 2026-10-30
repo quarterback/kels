@@ -190,6 +190,6 @@ from version history.
 ## Not Nelôxia
 
 Corsica and the Canary Islands are **Meridian States** members. Skaria, Sarmatia (formerly East
-Neloxia), Tarun, Qazania, Zaryanova, Valdória, Atlanta, Adrāra, and Soninka & Toro are separate
+Neloxia), Tarun, Qazania, Zaryanova, Valdória, Esmeralda, Atlanta, Adrāra, and Soninka & Toro are separate
 sovereign states — see their own docs in world/. *(Yemen — formerly listed here as a detached
 external territory — is now the constituent **Yemeni Commonwealth**, Region 12 above.)*
