@@ -155,7 +155,7 @@ Indicative distribution (sums to the ≈148M canon):
    while the Po-valley and Baltic cores pull it up.
 3. **Nelosphere GDP** — the combined output of the countries using Nelôxi as a principal
    commercial, legal, or institutional language: **Atlanta**, the African bloc (**Soninka &
-   Toro**, Adrāra), the **Meridian States**, **Valdória**, and the Baltic League partners —
+   Toro**, Adrāra), the **Meridian States**, **Valdória**, **Esmeralda**, and the Baltic League partners —
    **Skaria** foremost. This figure is dramatically larger than the (already very large) domestic
    economy — the more interesting number: Britain's global weight was never Britain's GDP but
    English, the City, and common law; Nelôxia's is the language, the peg, the courts, and the

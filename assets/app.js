@@ -112,6 +112,7 @@
     africanbloc: { title: "The African bloc",  sub: "Atlanta, Adrāra, Soninka & Toro, Morocco (lore)", file: "world/african-bloc.md", group: "World" },
     meridianlore:{ title: "The Meridian States", sub: "The sovereign transoceanic nation (lore)", file: "world/meridian-states.md",  group: "World" },
     valdorialore:{ title: "Valdória — the settler republic", sub: "The Citizens Republic of Edeland (working profile)", file: "world/valdoria-lore.md", group: "World" },
+    esmeraldalore:{ title: "Esmeralda", sub: "The second South American Nelosphere state: Baca, Susana, the peg (lore)", file: "world/esmeralda-lore.md", group: "World" },
     skarialore:  { title: "Skaria", sub: "The Nordic breakaway republic & the Baltic League (lore)", file: "world/skaria-lore.md", group: "World" },
     sarmatialore:{ title: "Sarmatia", sub: "The corridor state, Black Sea to Herat (lore)", file: "world/sarmatia.md", group: "World" },
     zaryanova:   { title: "Zaryanova", sub: "The Black-majority Pacific great power (lore)", file: "world/zaryanova.md", group: "World" },
@@ -188,13 +189,13 @@
       kicker: "Variation",
       title: "Standards & dialects",
       intro: "The modern map of Nelôxi: local dialects, the Saharannaise, Congolaise, and Verdenese co-standards, the Meralian daughter language of the Meridian States, and the inverted Sarmatian sixth standard.",
-      cards: ["dialects", "metrolect", "inland", "tristine", "uusatomcyr", "pluricentric", "saharannaise", "commonregister", "congpluri", "congolaise", "meridianlore", "mare", "marechart", "maredialects", "marecanarian", "magauscript", "verdpluri", "verdenese", "crisol", "verdH", "verdY", "verdcompose", "verddialog", "verdshowcase", "verdregional", "verdtopo", "valdorialore", "sarmpluri", "sarmatian", "sarmgrammar", "sarmcases", "sarmloans", "sarmscript", "sarmshowcase", "sarmchart", "sarmdialog", "sarmatialore"]
+      cards: ["dialects", "metrolect", "inland", "tristine", "uusatomcyr", "pluricentric", "saharannaise", "commonregister", "congpluri", "congolaise", "meridianlore", "mare", "marechart", "maredialects", "marecanarian", "magauscript", "verdpluri", "verdenese", "crisol", "verdH", "verdY", "verdcompose", "verddialog", "verdshowcase", "verdregional", "verdtopo", "valdorialore", "esmeraldalore", "sarmpluri", "sarmatian", "sarmgrammar", "sarmcases", "sarmloans", "sarmscript", "sarmshowcase", "sarmchart", "sarmdialog", "sarmatialore"]
     },
     world: {
       kicker: "Setting",
       title: "World",
       intro: "Places, civil names, geography, governance, exonyms, and the wider lore that gives the language its civic context — the twelve-region transoceanic state and its Yemeni Commonwealth, the searchable settlements gazetteer, the Meridian States behind Meralian, Valdória behind Verdenese, Sarmatia behind the sixth standard, and the eastern powers beside them.",
-      cards: ["neloxialore", "settlements", "modernmodel", "expandedlore", "yemenilore", "meridianlore", "valdorialore", "skarialore", "sarmatialore", "zaryanova", "neighbours", "geography", "gazetteer", "names", "namegen", "toponymy", "toponyms", "bruceplan", "numerals", "measures", "exonyms", "governance", "boundaries", "atlantalore", "africanbloc"]
+      cards: ["neloxialore", "settlements", "modernmodel", "expandedlore", "yemenilore", "meridianlore", "valdorialore", "esmeraldalore", "skarialore", "sarmatialore", "zaryanova", "neighbours", "geography", "gazetteer", "names", "namegen", "toponymy", "toponyms", "bruceplan", "numerals", "measures", "exonyms", "governance", "boundaries", "atlantalore", "africanbloc"]
     },
     college: {
       kicker: "Canon",

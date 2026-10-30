@@ -88,7 +88,7 @@ Consolidating the shatterzone produces a single role with two faces:
 Nelôxia's weight in this world is not its domestic GDP, just as Britain's was never Britain's
 alone: it is the **Nelosphere** — the community of sovereign countries running on Nelôxi as a
 principal commercial, legal, or institutional language. Atlanta on the Atlantic Sahara; the
-African bloc down the river; the Meridian States across three oceans; Valdória spanning a
+African bloc down the river; the Meridian States across three oceans; Esmeralda on the peg; Valdória spanning a
 continent; Skaria at the straits and the Baltic League partners around the home seas. None of them is politically part of
 Nelôxia — that is the whole point of the accession-not-conquest, backer-not-master pattern — but
 all of them clear through its courts, count in its dozens, peg to its currency, and school their
